@@ -1,0 +1,45 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+workspace 'GenericAF4'
+platform :ios, '7.0'
+
+xcodeproj 'GenericAF4.xcodeproj'
+
+
+target :'GenericAF4', :exclusive => true do
+    pod 'CoreNetwork', :git => 'https://github.com/phunware/sdk-ios-appframework-network.git'
+    pod 'PWUIKit', :git =>  'https://github.com/phunware/sdk-ios-pwuikit-binary.git'
+    pod 'PWLocalpoint', :git => 'https://github.com/phunware/maas-localpoint-ios-sdk.git'
+    pod 'AppFrameworkCore', :git =>  'https://github.com/phunware/sdk-ios-appframework-core-binary.git'
+    #pod 'AppFrameworkCore', :path =>  '../sdk-ios-appframework-core/AppFrameworkCore/Framework'
+    
+    pod 'AppFrameworkRenderModule', :git => 'https://github.com/phunware/sdk-ios-appframework-render-binary.git'
+    #pod 'AppFrameworkRenderModule', :path =>  '../sdk-ios-appframework-render/Framework'
+    
+    
+    pod 'AppFrameworkParkingModule', :git =>  'https://github.com/phunware/sdk-ios-appframework-parking-binary.git'
+    pod 'AppFrameworkDirectoryModule', :git =>  'https://github.com/phunware/sdk-ios-appframework-directory-binary.git'
+    #pod 'AppFrameworkDirectoryModule', :path => '../sdk-ios-appframework-directory/Framework'
+    pod 'AppFrameworkEventsModule', :git =>  'https://github.com/phunware/sdk-ios-appframework-events-binary.git'
+    pod 'AppFrameworkAlertsModule', :git =>  'https://github.com/phunware/sdk-ios-appframework-alerts-binary.git'
+    pod 'AppFrameworkLocationMarketingModule', :git =>  'https://github.com/phunware/sdk-ios-appframework-location-marketing-binary.git'
+    pod 'AppFrameworkMappingModule', :git =>  'https://github.com/phunware/sdk-ios-appframework-mapping-binary.git'
+    #pod 'AppFrameworkMappingModule', :path =>  '../sdk-ios-appframework-mapping/Framework'
+    pod 'AppFrameworkAlertsModule', :git =>  'https://github.com/phunware/sdk-ios-appframework-alerts-binary.git'
+    #pod 'AppFrameworkMoviesModule', :path =>  '../sdk-ios-appframework-movies'
+    pod 'AppFrameworkMoviesModule', :git =>  'https://github.com/phunware/sdk-ios-appframework-movies.git'
+    pod 'AppFrameworkSalesModule', :git =>  'https://github.com/phunware/sdk-ios-appframework-sales.git'
+    #pod 'AppFrameworkSalesModule', :path =>  '../sdk-ios-appframework-sales'
+    
+    xcodeproj 'GenericAF4.xcodeproj'
+end
+
+
+# Append to your Podfile
+post_install do |installer_representation|
+    installer_representation.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['ONLY_ACTIVE_ARCH'] = 'NO'
+        end
+    end
+end

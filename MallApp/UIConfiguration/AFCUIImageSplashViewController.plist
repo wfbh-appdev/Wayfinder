@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>view</key>
+	<dict>
+		<key>constraints</key>
+		<array>
+			<string>H:|[splashImage]|</string>
+			<string>V:|[splashImage]|</string>
+			<string>#loading.centerx=self.centerx,1,0</string>
+			<string>#loading.bottom=self.bottom,1,-102</string>
+		</array>
+	</dict>
+	<key>splashImage</key>
+	<dict>
+		<key>image</key>
+		<string>Splash.png</string>
+		<key>backgroundColor</key>
+		<string>#ffffff</string>
+	</dict>
+	<key>loading</key>
+	<dict/>
+</dict>
+</plist>

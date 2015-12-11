@@ -1,0 +1,146 @@
+/* 
+  Localizable.strings
+  AFPDemo
+
+  Created by Victor Soto on 9/28/15.
+  Copyright © 2015 Phunware. All rights reserved.
+*/
+
+
+
+/*
+*
+*/
+
+"mall.detail.error.phone.message" = "It doesn't seem to have a phone number.";
+"mall.detail.error.phone.title" = "";
+"mall.detail.error.website.message" = "It doesn't seem to have a website.";
+"mall.detail.error.website.title" = "";
+
+/*
+*
+*/
+
+"afcclearcacheaction.prompt.message" = "This will clear all the saved data and relaunch the app. Are you sure you want to continue?";
+"afcclearcacheaction.prompt.title" = "Confirm";
+"afcclearcacheaction.cancel.title" = "Cancel";
+"afcclearcacheaction.ok.title" = "Clear Cache";
+
+/*
+ *  AFCUIMAnnotationDirectoryViewController Strings
+ */
+
+"afcuimannotationdirectoryviewcontroller.titlelabel.text" = "POI Directory";
+"afcuimannotationdirectoryviewcontroller.noresultsfound.text" = "No Results Found";
+
+/*
+ *  AFCUIMRouteBuilderViewController Strings
+ */
+
+"afcuimroutebuilderviewcontroller.route.error.endstart.same" = "The start and end point must be different.";
+"afcuimroutebuilderviewcontroller.route.error.cantfindpoi" = "We could not find that POI, please search again.";
+"afcuimroutebuilderviewcontroller.route.error.title" = "Sorry";
+"afcuimroutebuilderviewcontroller.currentlocation.text" = "Current Location";
+"afcuimroutebuilderviewcontroller.startlocationtextfield.placeholder" = "Start Location";
+"afcuimroutebuilderviewcontroller.endlocationtextfield.placeholder" = "End Location";
+"afcuimroutebuilderviewcontroller.startlabel.text" = "START";
+"afcuimroutebuilderviewcontroller.endlabel.text" = "END";
+"afcuimroutebuilderviewcontroller.titlelabel.text" = "Routing";
+"afcuimroutebuilderviewcontroller.cancelbutton.buttontitle" = "Cancel";
+"afcuimroutebuilderviewcontroller.routebutton.buttontitle" = "Route";
+"afcuimroutebuilderviewcontroller.handicapaccessibilitylabel.text" = "Handicap  Accessibility";
+"afcuimroutebuilderviewcontroller.outdoortoindooralerttitle.text" = "Need Directions to the Venue?";
+"afcuimroutebuilderviewcontroller.outdoortoindooralerttitle.message" = "We noticed you are currently not at the facility.\nWould you like to route to the venue instead?";
+"afcuimroutebuilderviewcontroller.dismissoutdoortoindoor.buttontitle" = "DISMISS";
+"afcuimroutebuilderviewcontroller.openinmapsbutton.buttontitle" = "OPEN IN MAPS";
+"afcuimroutebuilderviewcontroller.welcomebacktitle.text" = "Welcome Back!";
+"afcuimroutebuilderviewcontroller.welcomebackmessage.text" = "We will now continue routing from the parking lot\nto your previously selected destination.";
+"afcuimroutebuilderviewcontroller.welcomebackdismiss.buttontitle" = "DISMISS";
+"afcuimroutebuilderviewcontroller.welcomebackrouteme.buttontitle" = "ROUTE ME";
+
+/*
+ *  AFCUIMPOIFilterEditorViewController Strings
+ */
+
+"afcuimpoifiltereditorviewcontroller.savefiltersbutton.buttontitle" = "Save Filters";
+"afcuimpoifiltereditorviewcontroller.cancelbutton.buttontitle" = "Cancel";
+"afcuimpoifiltereditorviewcontroller.titlelabel.text" = "Choose POI Filter";
+
+/*
+ *  AFCUIAnnotationDetailViewController Strings
+ */
+
+"afcuiannotationdetailviewcontroller.selectCampusButton.buttontitle" = "SELECT THIS CAMPUS";
+
+/*
+ *   AFCUIEULAViewController Strings
+ */
+
+"afcuieulaviewcontroller.agreebutton.buttontitle" = "I Agree";
+"afcuieulaviewcontroller.navbar.title" = "License Agreement";
+
+/*
+ *   AFCUIWebViewController Strings
+ */
+
+"afcuiwebviewcontroller.message.text" = "Please wait...";
+"afcuimodalwebbrowser.closeButton.buttontitle" = "Close";
+
+
+/*
+ *   AFCUIModalWebBrowser Strings
+ */
+
+"afcuimodalwebbrowser.status.text" = "Loading";
+"afcuimodalwebbrowser.closebutton.buttontitle" = "Close";
+
+/*
+ *  AFCParkingMapViewController Strings
+ */
+
+"afcparkingmapviewcontroller.droppinbutton.buttontitle" = "Drop a Pin";
+"afcparkingmapviewcontroller.droppinbutton.clearenabled.buttontitle" = "Clear";
+"afcparkingmapviewcontroller.droppinbutton.droppinenabled.buttontitle" = "Drop a Pin";
+"afcparkingmapviewcontroller.droppinbutton.droppindisabled.buttontitle" = "Drop a Pin";
+"afcparkingmapviewcontroller.titlelabel.text" = "Pin My Location";
+
+"afcparkingmapviewcontroller.locationauthorization.erroralert.title" = "Location Authorization";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.message" = "Check the location permissions";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.okbutton.title" = "OK";
+
+/*
+ *  AFCParkingNoteViewController Strings
+ */
+
+"afcparkingnoteviewcontroller.noteslabel.text" = "Write a note to help you remember where you've parked...";
+"afcparkingnoteviewcontroller.titlelabel.text" = "Parking Note";
+
+/*
+ *  AFCParkingPhotoViewController Strings
+ */
+
+"afcparkingphotoviewcontroller.message.text" = "Please tap the camera button\nbelow to take a photo";
+
+/*
+ *  AFCParkingViewController Strings
+ */
+
+"afcparkingviewcontroller.parkingremindertitle.text" = "Parking Reminder";
+"afcparkingviewcontroller.parkingchoosemethod.text" = "Choose a method below:";
+"afcparkingviewcontroller.gpslocationbuttonlabel.text" = "Pin GPS Location";
+"afcparkingviewcontroller.takepicturebuttonlabel.text" = "Take a Picture";
+"afcparkingviewcontroller.recordvoicememobuttonlabel.text" = "Record a Memo";
+"afcparkingviewcontroller.writenotebuttonlabel.text" = "Write a Note";
+"afcparkingviewcontroller.locationsavedmessage.text" = "Location Saved";
+"afcparkingviewcontroller.imagesavedmessage.text" = "Image Saved";
+"afcparkingviewcontroller.voicememosavedmessage.text" = "Voice Memo Saved";
+"afcparkingviewcontroller.notesavedmessage.text" = "Note Saved";
+"afcparkingviewcontroller.titlelabel.text" = "Parking";
+
+/*
+ *  AFCParkingVoiceMemoViewController Strings
+ */
+
+"afcparkingvoicememoviewcontroller.recordvoicememotitle.text" = "Record a memo to help you remember
+";
+"afcparkingvoicememoviewcontroller.titlelabel.text" = "Parking Memo";

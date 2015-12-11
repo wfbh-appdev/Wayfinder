@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>view</key>
+	<dict>
+		<key>constraints</key>
+		<array>
+			<string>V:|[subscriptionsBackground]|</string>
+			<string>H:|[subscriptionsBackground]|</string>
+			<string>V:|[skipSubscriptionsButton(40)]-4-[whatAreYourInterestsLabel(112)]-15-[segmentsTable]|</string>
+			<string>H:|-&gt;=1-[skipSubscriptionsButton(46)]-14-|</string>
+			<string>H:|-24-[whatAreYourInterestsLabel]-24-|</string>
+			<string>H:|[segmentsTable]|</string>
+			<string>V:|-&gt;=1-[backgroundDoneButton(83)]|</string>
+			<string>H:|[backgroundDoneButton]|</string>
+			<string>#doneSubscriptionsButton.left=backgroundDoneButton.left,1,15</string>
+			<string>#doneSubscriptionsButton.right=backgroundDoneButton.right,1,-15</string>
+			<string>#doneSubscriptionsButton.top=backgroundDoneButton.top,1,15</string>
+			<string>#doneSubscriptionsButton.bottom=backgroundDoneButton.bottom,1,-15</string>
+			<string>#waitingIndicator.centerx=self.centerx,1,0</string>
+			<string>#waitingIndicator.centery=self.centery,1,0</string>
+		</array>
+	</dict>
+	<key>subscriptionsBackground</key>
+	<dict>
+		<key>image</key>
+		<string>subscriptions.background.png</string>
+	</dict>
+	<key>whatAreYourInterestsLabel</key>
+	<dict>
+		<key>text</key>
+		<string>What are your
+interests?</string>
+		<key>lines</key>
+		<integer>0</integer>
+		<key>fontName</key>
+		<string>HelveticaNeue-Light</string>
+		<key>fontSize</key>
+		<integer>42</integer>
+		<key>alignment</key>
+		<string>left</string>
+		<key>color</key>
+		<string>#ffffff</string>
+	</dict>
+	<key>segmentsTable</key>
+	<dict/>
+	<key>backgroundDoneButton</key>
+	<dict>
+		<key>backgroundColor</key>
+		<string>#3D3D3D</string>
+	</dict>
+	<key>doneSubscriptionsButton</key>
+	<dict>
+		<key>buttonTitle</key>
+		<string>SUBSCRIBE</string>
+		<key>fontName</key>
+		<string>HelveticaNeue-Thin</string>
+		<key>fontSize</key>
+		<integer>22</integer>
+		<key>alignment</key>
+		<string>center</string>
+		<key>color</key>
+		<string>#ffffff</string>
+		<key>borderColor</key>
+		<string>#7fffffff</string>
+		<key>borderWidth</key>
+		<string>1.0</string>
+	</dict>
+	<key>skipSubscriptionsButton</key>
+	<dict>
+		<key>buttonTitle</key>
+		<string>SKIP</string>
+		<key>color</key>
+		<string>#7fffffff</string>
+		<key>fontName</key>
+		<string>HelveticaNeue-Medium</string>
+		<key>fontSize</key>
+		<integer>14</integer>
+	</dict>
+	<key>waitingIndicator</key>
+	<dict/>
+</dict>
+</plist>

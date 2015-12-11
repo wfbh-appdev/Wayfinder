@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>titleLabel</key>
+	<dict>
+		<key>text</key>
+		<string>#afcuimannotationdirectoryviewcontroller.titlelabel.text</string>
+	</dict>
+	<key>view</key>
+	<dict>
+		<key>backgroundColor</key>
+		<string>#ffffff</string>
+		<key>constraints</key>
+		<array>
+			<string>V:|-0-[poiTable]|</string>
+			<string>H:|[poiTable]|</string>
+			<string>V:|-193-[noResultsFound(50)]-&gt;=1-|</string>
+			<string>H:|[noResultsFound]|</string>
+		</array>
+	</dict>
+	<key>poiTable</key>
+	<dict/>
+	<key>noResultsFound</key>
+	<dict>
+		<key>fontName</key>
+		<string>HelveticaNeue</string>
+		<key>fontSize</key>
+		<integer>21</integer>
+		<key>text</key>
+		<string>#afcuimannotationdirectoryviewcontroller.noresultsfound.text</string>
+		<key>alignment</key>
+		<string>center</string>
+		<key>lines</key>
+		<integer>1</integer>
+	</dict>
+	<key>favoritesBar</key>
+	<dict>
+		<key>backgroundColor</key>
+		<string>#ffffff</string>
+		<key>width</key>
+		<integer>320</integer>
+		<key>height</key>
+		<integer>43</integer>
+		<key>constraints</key>
+		<array>
+			<string>H:|-8-[favoritesToggle]-8-|</string>
+			<string>#favoritesToggle.centery=self.centery,1,0</string>
+		</array>
+	</dict>
+	<key>favoritesToggle</key>
+	<dict>
+		<key>backgroundColor</key>
+		<string>#ffffff</string>
+	</dict>
+</dict>
+</plist>

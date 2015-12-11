@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>view</key>
+	<dict>
+		<key>constraints</key>
+		<array>
+			<string>H:|[logo]-&gt;=1-|</string>
+			<string>H:|[menu]-&gt;=1-|</string>
+			<string>H:|[imageBackground]-&gt;=1-|</string>
+			<string>V:|[logo][menu]|</string>
+			<string>V:|[imageBackground]|</string>
+		</array>
+	</dict>
+	<key>logo</key>
+	<dict>
+		<key>image</key>
+		<string>left.tray.logo.png</string>
+	</dict>
+	<key>menu</key>
+	<dict/>
+	<key>imageBackground</key>
+	<dict>
+		<key>image</key>
+		<string>left.menu.overlay.png</string>
+	</dict>
+</dict>
+</plist>
