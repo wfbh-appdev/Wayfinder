@@ -55,7 +55,7 @@ xcodebuild {
             identity 'Phunware, Inc./'
             // path to provisioning profile(s)
             // can be multiple, comma-separated
-            //provisioningProfiles 'CustomProfiles/LateShow/AdHoc/Colbr_AdHoc_Provisioning.mobileprovision'
+            provisioningProfiles 'CustomProfiles/LateShow/AdHoc/Colbr_AdHoc_Provisioning.mobileprovision'
         }
        
         // other configs
