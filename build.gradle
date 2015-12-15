@@ -43,4 +43,29 @@ xcodebuild {
         }
         // you may add any number of build types
     }
+
+    signingConfigs {
+        // name is arbitrary
+        release {
+            // specify path to p12
+            certificate file('Certificates/PhunwareEnterprise.p12')
+            // the password for the p12
+            password 'pass1234'
+            // the certificate name
+            identity 'Phunware, Inc./'
+            // path to provisioning profile(s)
+            // can be multiple, comma-separated
+            //provisioningProfiles 'CustomProfiles/LateShow/AdHoc/Colbr_AdHoc_Provisioning.mobileprovision'
+        }
+       
+        // other configs
+    }  
+    
+    ota {
+			// these names are fixed and non-changeable
+			enterprise {
+			signingConfig signingConfigs.release
+			}
+    } 
+
 }
