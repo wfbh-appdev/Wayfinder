@@ -946,7 +946,7 @@
 					<key>viewController</key>
 					<string>AFCOfferWalletViewController</string>
 					<key>presentationMode</key>
-					<string>push</string>
+					<string>replaceTop</string>
 					<key>shouldAnimate</key>
 					<string>YES</string>
 				</dict>

@@ -144,3 +144,19 @@
 "afcparkingvoicememoviewcontroller.recordvoicememotitle.text" = "Record a memo to help you remember
 ";
 "afcparkingvoicememoviewcontroller.titlelabel.text" = "Parking Memo";
+
+/*
+ *   AFCUIWebViewController Strings
+ */
+
+"afcuiwebviewcontroller.message.text" = "Please wait...";
+
+/*
+ *  AFCOfferWalletViewController Strings
+ */
+
+"afcofferwalletviewcontroller.titlelabel.text" = "Offers";
+"afcofferwalletviewcontroller.cell.expirationdate.detailtextlabel.text" = "Expires";
+"afcofferwalletviewcontroller.cell.nooffers.text" = "No Offers";
+"afcofferwalletviewcontroller.header.validoffers.text" = "Valid Offers";
+"afcofferwalletviewcontroller.header.expiredoffers.text" = "Expired Offers";
