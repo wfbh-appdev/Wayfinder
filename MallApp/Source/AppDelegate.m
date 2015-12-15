@@ -12,11 +12,14 @@
 #import <AppFrameworkCore/AFCDictionaryBasedModule.h>
 #import <AppFrameworkCore/AFCAppDefaults.h>
 #import <AppFrameworkCore/UIApplication+AFCAppState.h>
+#import <Crashlytics/Crashlytics.h>
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [Crashlytics startWithAPIKey:@"b8127086af392cb1b73dc00a7387bb7a0856138f"];
+    
     NSDictionary *dictionary=[NSDictionary dictionaryWithContentsOfURL:[[NSBundle mainBundle] URLForResource:@"ModuleDefinition" withExtension:@"plist"]];
     
     AFCAbstractModule *module=[[AFCDictionaryBasedModule alloc] initWithDictionary:dictionary];

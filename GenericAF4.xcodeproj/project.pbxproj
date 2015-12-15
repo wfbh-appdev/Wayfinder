@@ -14,6 +14,7 @@
 		5520ABC51C19E3A000757715 /* Splash-568h@2x.mov in Resources */ = {isa = PBXBuildFile; fileRef = 5520ABC21C19E3A000757715 /* Splash-568h@2x.mov */; };
 		5520ABC61C19E3A000757715 /* Splash.mov in Resources */ = {isa = PBXBuildFile; fileRef = 5520ABC31C19E3A000757715 /* Splash.mov */; };
 		5520ABC71C19E3A000757715 /* Splash@2x.mov in Resources */ = {isa = PBXBuildFile; fileRef = 5520ABC41C19E3A000757715 /* Splash@2x.mov */; };
+		8CB729D21C20A30D00F016B7 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB729D11C20A30D00F016B7 /* Crashlytics.framework */; };
 		8F06130F1BC8569800A55F16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F06130E1BC8569800A55F16 /* main.m */; };
 		8F0613181BC8569800A55F16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F0613161BC8569800A55F16 /* Main.storyboard */; };
 		8F063C611BDAE21F00C82CD8 /* PropertyList.s3db in Resources */ = {isa = PBXBuildFile; fileRef = 8F063C5D1BDAE21F00C82CD8 /* PropertyList.s3db */; };
@@ -78,6 +79,7 @@
 		5520ABC31C19E3A000757715 /* Splash.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Splash.mov; sourceTree = "<group>"; };
 		5520ABC41C19E3A000757715 /* Splash@2x.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Splash@2x.mov"; sourceTree = "<group>"; };
 		886B07E6664FE0E20EF5859F /* libPods-MallApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MallApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB729D11C20A30D00F016B7 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		8F06130A1BC8569800A55F16 /* GenericAF4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenericAF4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F06130E1BC8569800A55F16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8F0613171BC8569800A55F16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CB729D21C20A30D00F016B7 /* Crashlytics.framework in Frameworks */,
 				FD6085DFE751F247A831A1C4 /* libPods-GenericAF4.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +154,7 @@
 		107C6A95EB070C251FE734E3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8CB729D11C20A30D00F016B7 /* Crashlytics.framework */,
 				886B07E6664FE0E20EF5859F /* libPods-MallApp.a */,
 				0E5B123ED1B492C74F121FB6 /* libPods-GenericAF4.a */,
 			);
@@ -313,6 +317,7 @@
 				8F0613081BC8569800A55F16 /* Resources */,
 				2D19F38CAB4E152C95281C55 /* Embed Pods Frameworks */,
 				825DEFF4F16C86409EB4A44F /* Copy Pods Resources */,
+				8CB729D01C20A1D000F016B7 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -466,6 +471,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		8CB729D01C20A1D000F016B7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Crashlytics.framework/run b8127086af392cb1b73dc00a7387bb7a0856138f 47c407d9fb90f3350023f2dac10c37722a9caf3ae98396a16b0b41715177000a";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -513,7 +531,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -586,6 +604,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MallApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -606,6 +628,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MallApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -662,6 +688,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MallApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -718,6 +748,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MallApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
