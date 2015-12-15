@@ -1,34 +1,46 @@
 // This is a comment
 // Leave this block untouched (except for plugin version, see below)
 buildscript {
-    repositories {
-        maven {
-            credentials {
-                username 'phunware-services'
-                password 'ph00sba11'
-            }
-            url "https://nexus.phunware.com/content/repositories/phunware-services-releases/"
-        }
-    }
-    dependencies {
-        // the 0.0.+ means that the scripts will use the latest 0.0.x version of the plugin
-        // If necessary, specify a fixed version of the plugin to ensure build reproducibility
-        classpath 'com.phunware.brandme.gradle:brandme-gradle-xcode-plugin:0.0.+'
-    }
+    repositories {
+        maven {
+            credentials {
+                username 'phunware-services'
+                password 'ph00sba11'
+            }
+            url "https://nexus.phunware.com/content/repositories/phunware-services-releases/"
+        }
+    }
+    dependencies {
+        // the 0.0.+ means that the scripts will use the latest 0.0.x version of the plugin
+        // If necessary, specify a fixed version of the plugin to ensure build reproducibility
+        classpath 'com.phunware.brandme.gradle:brandme-gradle-xcode-plugin:0.0.+'
+    }
 }
- 
+ 
 apply plugin: 'com.phunware.brandme.xcode-plugin'
- 
+ 
 // Configure the following items below
 xcodebuild {
-    // Specify the Xcode version you want to use for building
-    xcodeversion '7.1'
-    defaultConfig {
-        // replace the TargetName with your project's target name (required)
-        target 'GenericAF4'
-        // replace 'SchemeName' with the name of your workspace scheme to build (required if using Cocoapods; remove if not)
-        scheme 'GenericAF4'
-        // replace 'path/to/ThirdParty.txt' with the correct path to your attributions file, relative to the build.gradle file
-        thirdPartyAttributions 'ThirdParty.txt'
-    }
+    // Specify the Xcode version you want to use for building
+    xcodeversion '7.1'
+    defaultConfig {
+        // replace the TargetName with your project's target name (required)
+        target 'GenericAF4'
+        // replace 'SchemeName' with the name of your workspace scheme to build (required if using Cocoapods; remove if not)
+        scheme 'GenericAF4'
+        // replace 'path/to/ThirdParty.txt' with the correct path to your attributions file, relative to the build.gradle file
+        thirdPartyAttributions 'ThirdParty.txt'
+    }
+    buildTypes {
+        debug {
+            configuration 'Debug'
+        }
+        release {
+            configuration 'Distribution'
+        }
+        customType {
+            configuration 'AdHoc'
+        }
+        // you may add any number of build types
+    }
 }
