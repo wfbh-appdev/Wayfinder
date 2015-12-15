@@ -614,7 +614,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.pldt.mall.ios;
 				PRODUCT_NAME = GenericAF4;
-				PROVISIONING_PROFILE = "f3d4ed33-bef0-4468-9e7d-bc22e03e11d7";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
