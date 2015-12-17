@@ -52,7 +52,7 @@
 		<key>applicationUUID</key>
 		<string>e071dc8e-cfca-483d-8776-180f8235f979</string>
 		<key>rootURL</key>
-		<string>https://solutions-ws.phunware.com/CoreWS</string>
+		<string>https://solutions-ws.phunware.com/AFManagementWS/</string>
 		<key>voiceURL</key>
 		<string>https://solutions-ws.phunware.com/voiceReco/DoVoiceRecognitionEnhanced.aspx</string>
 		<key>webservicesID</key>
@@ -79,7 +79,7 @@
 		<key>MaaSPlatformName</key>
 		<string>iOS</string>
 		<key>S3URL</key>
-		<string>https://solutions-db-dev.phunware.com</string>
+		<string>https://d976wpkgnwt12.cloudfront.net</string>
 	</dict>
 	<key>StartupSettings</key>
 	<dict>
@@ -102,9 +102,9 @@
 						<array>
 							<dict>
 								<key>vscBuildingName</key>
-								<string>Phunware Miami</string>
+								<string>Phunware Austin</string>
 								<key>vscBuildingId</key>
-								<integer>17546</integer>
+								<real>17498</real>
 								<key>vscBuildingActive</key>
 								<true/>
 								<key>Floors</key>
@@ -115,28 +115,38 @@
 										<key>vscFloorActive</key>
 										<true/>
 										<key>vscFloorId</key>
-										<integer>103006</integer>
+										<real>102951</real>
 										<key>vscFloorName</key>
 										<string>Floor 1</string>
+									</dict>
+									<dict>
+										<key>Beacons</key>
+										<array/>
+										<key>vscFloorActive</key>
+										<true/>
+										<key>vscFloorId</key>
+										<real>102950</real>
+										<key>vscFloorName</key>
+										<string>Floor 2</string>
 									</dict>
 								</array>
 								<key>Geo Settings</key>
 								<dict>
 									<key>latitude</key>
-									<real>25.8062411</real>
+									<real>30.359927</real>
 									<key>longitude</key>
-									<real>-80.1899391</real>
+									<real>-97.74473399999999</real>
 									<key>geofenceLocationCode</key>
-									<string>PhunwareMiami</string>
+									<string>PhunwareSanDiego</string>
 									<key>geofenceRadius</key>
 									<string>100</string>
 								</dict>
 								<key>Map Settings</key>
 								<dict>
 									<key>vscMapDefaultFloor</key>
-									<integer>1</integer>
+									<integer>2</integer>
 									<key>vscMapZoomLevel</key>
-									<integer>18</integer>
+									<integer>17</integer>
 									<key>vscMapEyeAltitude</key>
 									<integer>500</integer>
 									<key>vscSenionCustomerIdiOS</key>
@@ -147,7 +157,7 @@
 							</dict>
 						</array>
 						<key>vscCampusName</key>
-						<string>EngageME_Campus</string>
+						<string>Phunware Austin</string>
 						<key>vscCampusId</key>
 						<integer>500</integer>
 						<key>vscCampusActive</key>
@@ -157,11 +167,11 @@
 					</dict>
 				</array>
 				<key>vscVenueName</key>
-				<string>Phunware engageME</string>
+				<string>Phunware</string>
 				<key>vscVenueUUID</key>
 				<string>9a24647f-e455-4582-ae86-089930855dfe</string>
 				<key>vscVenuePropertyUUID</key>
-				<string></string>
+				<string>ef84f782-47fd-11e4-b8da-d450167c2d6d</string>
 				<key>vscVenueActive</key>
 				<true/>
 			</dict>
@@ -199,9 +209,9 @@
 		<key>location</key>
 		<dict>
 			<key>latitude</key>
-			<real>34.065379</real>
+			<real>30.359927</real>
 			<key>longitude</key>
-			<real>-117.98569</real>
+			<real>-97.74473399999999</real>
 		</dict>
 		<key>parameters</key>
 		<dict>

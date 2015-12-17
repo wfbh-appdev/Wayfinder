@@ -17,10 +17,6 @@
 		8CB729D21C20A30D00F016B7 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB729D11C20A30D00F016B7 /* Crashlytics.framework */; };
 		8F06130F1BC8569800A55F16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F06130E1BC8569800A55F16 /* main.m */; };
 		8F0613181BC8569800A55F16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F0613161BC8569800A55F16 /* Main.storyboard */; };
-		8F063C611BDAE21F00C82CD8 /* PropertyList.s3db in Resources */ = {isa = PBXBuildFile; fileRef = 8F063C5D1BDAE21F00C82CD8 /* PropertyList.s3db */; };
-		8F063C621BDAE21F00C82CD8 /* events.s3db in Resources */ = {isa = PBXBuildFile; fileRef = 8F063C5E1BDAE21F00C82CD8 /* events.s3db */; };
-		8F063C631BDAE21F00C82CD8 /* eula.s3db in Resources */ = {isa = PBXBuildFile; fileRef = 8F063C5F1BDAE21F00C82CD8 /* eula.s3db */; };
-		8F063C641BDAE21F00C82CD8 /* directory.s3db in Resources */ = {isa = PBXBuildFile; fileRef = 8F063C601BDAE21F00C82CD8 /* directory.s3db */; };
 		8F106FA11BC9B1B900CCDD86 /* PhunwareIntegration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F106FA01BC9B1B900CCDD86 /* PhunwareIntegration.plist */; };
 		8F106FA31BC9D44000CCDD86 /* InteractivePushNotificationCategories.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F106FA21BC9D44000CCDD86 /* InteractivePushNotificationCategories.plist */; };
 		8F4355841BC858B700FFD46C /* AFCDirectoryCategoryViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F43556D1BC858B700FFD46C /* AFCDirectoryCategoryViewController.plist */; };
@@ -57,7 +53,6 @@
 		8F8C54281BD7E59B0018A2ED /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 8F8C54271BD7E59B0018A2ED /* iTunesArtwork */; };
 		8F8C542A1BD7ED9A0018A2ED /* AFCUIImageSplashViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F8C54291BD7ED9A0018A2ED /* AFCUIImageSplashViewController.plist */; };
 		8F8C542F1BD8191F0018A2ED /* AFCUIMallDetailViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F8C542E1BD8191F0018A2ED /* AFCUIMallDetailViewController.plist */; };
-		8FB674741BD6AE9F00E7BFE4 /* SalesDB.s3db in Resources */ = {isa = PBXBuildFile; fileRef = 8FB674731BD6AE9F00E7BFE4 /* SalesDB.s3db */; };
 		8FB674781BD6D73000E7BFE4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FB674771BD6D73000E7BFE4 /* LaunchScreen.xib */; };
 		8FDD0F3A1BD1775500A0C512 /* MallAppNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDD0F381BD1775500A0C512 /* MallAppNavigationController.m */; };
 		8FDD0F3B1BD1775500A0C512 /* MallAppNavigationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FDD0F391BD1775500A0C512 /* MallAppNavigationController.xib */; };
@@ -65,7 +60,6 @@
 		8FDD0F4D1BD1CC5000A0C512 /* Proxima Nova Sbold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8FDD0F4A1BD1CC5000A0C512 /* Proxima Nova Sbold.otf */; };
 		8FDD0F4E1BD1CC5000A0C512 /* ProximaNova-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8FDD0F4B1BD1CC5000A0C512 /* ProximaNova-Light.otf */; };
 		8FDD0F4F1BD1CC5000A0C512 /* ProximaNova-Reg.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8FDD0F4C1BD1CC5000A0C512 /* ProximaNova-Reg.otf */; };
-		8FDD0F511BD1CE1200A0C512 /* movies.s3db in Resources */ = {isa = PBXBuildFile; fileRef = 8FDD0F501BD1CE1200A0C512 /* movies.s3db */; };
 		FD6085DFE751F247A831A1C4 /* libPods-GenericAF4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E5B123ED1B492C74F121FB6 /* libPods-GenericAF4.a */; };
 /* End PBXBuildFile section */
 
@@ -84,10 +78,6 @@
 		8F06130E1BC8569800A55F16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8F0613171BC8569800A55F16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F06131E1BC8569800A55F16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8F063C5D1BDAE21F00C82CD8 /* PropertyList.s3db */ = {isa = PBXFileReference; lastKnownFileType = file; path = PropertyList.s3db; sourceTree = "<group>"; };
-		8F063C5E1BDAE21F00C82CD8 /* events.s3db */ = {isa = PBXFileReference; lastKnownFileType = file; path = events.s3db; sourceTree = "<group>"; };
-		8F063C5F1BDAE21F00C82CD8 /* eula.s3db */ = {isa = PBXFileReference; lastKnownFileType = file; path = eula.s3db; sourceTree = "<group>"; };
-		8F063C601BDAE21F00C82CD8 /* directory.s3db */ = {isa = PBXFileReference; lastKnownFileType = file; path = directory.s3db; sourceTree = "<group>"; };
 		8F106FA01BC9B1B900CCDD86 /* PhunwareIntegration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PhunwareIntegration.plist; sourceTree = "<group>"; };
 		8F106FA21BC9D44000CCDD86 /* InteractivePushNotificationCategories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = InteractivePushNotificationCategories.plist; sourceTree = "<group>"; };
 		8F43556D1BC858B700FFD46C /* AFCDirectoryCategoryViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCDirectoryCategoryViewController.plist; sourceTree = "<group>"; };
@@ -126,7 +116,6 @@
 		8F8C54271BD7E59B0018A2ED /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
 		8F8C54291BD7ED9A0018A2ED /* AFCUIImageSplashViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCUIImageSplashViewController.plist; sourceTree = "<group>"; };
 		8F8C542E1BD8191F0018A2ED /* AFCUIMallDetailViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCUIMallDetailViewController.plist; sourceTree = "<group>"; };
-		8FB674731BD6AE9F00E7BFE4 /* SalesDB.s3db */ = {isa = PBXFileReference; lastKnownFileType = file; path = SalesDB.s3db; sourceTree = "<group>"; };
 		8FB674771BD6D73000E7BFE4 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		8FDD0F371BD1775500A0C512 /* MallAppNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallAppNavigationController.h; sourceTree = "<group>"; };
 		8FDD0F381BD1775500A0C512 /* MallAppNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MallAppNavigationController.m; sourceTree = "<group>"; };
@@ -135,7 +124,6 @@
 		8FDD0F4A1BD1CC5000A0C512 /* Proxima Nova Sbold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Sbold.otf"; sourceTree = "<group>"; };
 		8FDD0F4B1BD1CC5000A0C512 /* ProximaNova-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Light.otf"; sourceTree = "<group>"; };
 		8FDD0F4C1BD1CC5000A0C512 /* ProximaNova-Reg.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Reg.otf"; sourceTree = "<group>"; };
-		8FDD0F501BD1CE1200A0C512 /* movies.s3db */ = {isa = PBXFileReference; lastKnownFileType = file; path = movies.s3db; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -264,13 +252,7 @@
 		8F43557C1BC858B700FFD46C /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				8F063C5D1BDAE21F00C82CD8 /* PropertyList.s3db */,
-				8F063C5E1BDAE21F00C82CD8 /* events.s3db */,
-				8F063C5F1BDAE21F00C82CD8 /* eula.s3db */,
-				8F063C601BDAE21F00C82CD8 /* directory.s3db */,
 				8F8C54271BD7E59B0018A2ED /* iTunesArtwork */,
-				8FB674731BD6AE9F00E7BFE4 /* SalesDB.s3db */,
-				8FDD0F501BD1CE1200A0C512 /* movies.s3db */,
 				8FDD0F4A1BD1CC5000A0C512 /* Proxima Nova Sbold.otf */,
 				8FDD0F4B1BD1CC5000A0C512 /* ProximaNova-Light.otf */,
 				8FDD0F4C1BD1CC5000A0C512 /* ProximaNova-Reg.otf */,
@@ -366,13 +348,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FDD0F511BD1CE1200A0C512 /* movies.s3db in Resources */,
 				8F8C54181BD6DB440018A2ED /* SplashViewController.xib in Resources */,
 				8F4355911BC858B700FFD46C /* Splash-568h@2x.mov in Resources */,
 				8F8C54281BD7E59B0018A2ED /* iTunesArtwork in Resources */,
-				8F063C641BDAE21F00C82CD8 /* directory.s3db in Resources */,
 				8F106FA11BC9B1B900CCDD86 /* PhunwareIntegration.plist in Resources */,
-				8FB674741BD6AE9F00E7BFE4 /* SalesDB.s3db in Resources */,
 				8F43559D1BC85B8F00FFD46C /* EventTableViewCell.plist in Resources */,
 				551BF9281C1B51E9004D7ECD /* Pods-GenericAF4.release.xcconfig in Resources */,
 				8F4355851BC858B700FFD46C /* AFCDirectoryViewController.plist in Resources */,
@@ -392,7 +371,6 @@
 				8F4355841BC858B700FFD46C /* AFCDirectoryCategoryViewController.plist in Resources */,
 				8F43558A1BC858B700FFD46C /* AFCParkingVoiceMemoViewController.plist in Resources */,
 				8F5FFFBD1BCC2F58000B027C /* AFCUIMAnnotationDirectoryViewController.plist in Resources */,
-				8F063C631BDAE21F00C82CD8 /* eula.s3db in Resources */,
 				8F5FFFC11BCC2F58000B027C /* AFCUIAnnotationDetailViewController.plist in Resources */,
 				8FDD0F4D1BD1CC5000A0C512 /* Proxima Nova Sbold.otf in Resources */,
 				8F4355931BC858B700FFD46C /* Splash@2x.mov in Resources */,
@@ -409,9 +387,7 @@
 				8F4355991BC85B7800FFD46C /* AFCUIWebViewController.plist in Resources */,
 				8FDD0F491BD190B900A0C512 /* ApplicationShortcuts.plist in Resources */,
 				8F5FFFBF1BCC2F58000B027C /* AFCUIMRouteBuilderViewController.plist in Resources */,
-				8F063C621BDAE21F00C82CD8 /* events.s3db in Resources */,
 				8F4355951BC858B700FFD46C /* Localizable.strings in Resources */,
-				8F063C611BDAE21F00C82CD8 /* PropertyList.s3db in Resources */,
 				8F5FFFC01BCC2F58000B027C /* AFCUIMPOIFilterEditorViewController.plist in Resources */,
 				8FB674781BD6D73000E7BFE4 /* LaunchScreen.xib in Resources */,
 				8F106FA31BC9D44000CCDD86 /* InteractivePushNotificationCategories.plist in Resources */,
