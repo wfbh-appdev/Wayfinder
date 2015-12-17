@@ -31,17 +31,30 @@ xcodebuild {
         // replace 'path/to/ThirdParty.txt' with the correct path to your attributions file, relative to the build.gradle file
         thirdPartyAttributions 'ThirdParty.txt'
     }
+    signingConfigs {
+        enterprise {
+            certificate file('Certificates/enterprise.p12')
+            password 'K3yM@$ter!'
+            identity 'iPhone Distribution: Phunware, Inc.'
+            provisioningProfiles 'Certificates/GenericAF4_InHousePushEnabled.mobileprovision'
+        }
+    }
+
     buildTypes {
-        debug {
+        debug{
             configuration 'Debug'
         }
         release {
             configuration 'Distribution'
         }
-        customType {
+        adhoc {
             configuration 'AdHoc'
         }
-        // you may add any number of build types
     }
 
+    ota {
+        enterprise {
+            signingConfig signingConfigs.enterprise
+        }
+    }
 }
