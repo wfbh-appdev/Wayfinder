@@ -481,6 +481,18 @@
 					<string>listing</string>
 				</dict>
 			</dict>
+			<key>29</key>
+			<dict>
+				<key>className</key>
+				<string>AFCForwardAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>forwardContentType</key>
+					<string>Map</string>
+					<key>forwardContentAction</key>
+					<string>show</string>
+				</dict>
+			</dict>
 			<key>30</key>
 			<dict>
 				<key>className</key>
@@ -2196,7 +2208,7 @@
 										<key>name</key>
 										<string>BLE</string>
 										<key>identifier</key>
-										<string>classname</string>
+										<string>PWSLLocationManager</string>
 										<key>default</key>
 										<true/>
 									</dict>
@@ -2204,7 +2216,7 @@
 										<key>name</key>
 										<string>MSE</string>
 										<key>identifier</key>
-										<string>another one</string>
+										<string>PWMSELocationManager</string>
 									</dict>
 									<dict>
 										<key>name</key>
@@ -2216,7 +2228,7 @@
 										<key>name</key>
 										<string>GPS / Apple Indoor (if available)</string>
 										<key>identifier</key>
-										<string>y</string>
+										<string>PWGPSLocationManager</string>
 									</dict>
 								</array>
 							</dict>
