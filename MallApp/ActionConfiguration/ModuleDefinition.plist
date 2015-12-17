@@ -1798,6 +1798,19 @@
 							<key>parameters</key>
 							<dict>
 								<key>forwardContentType</key>
+								<string>Events</string>
+								<key>forwardContentAction</key>
+								<string>load</string>
+							</dict>
+						</dict>
+						<dict>
+							<key>className</key>
+							<string>AFCForwardAction</string>
+							<key>ignoreParentParameters</key>
+							<true/>
+							<key>parameters</key>
+							<dict>
+								<key>forwardContentType</key>
 								<string>POIs</string>
 								<key>forwardContentAction</key>
 								<string>loadAll</string>
@@ -1843,15 +1856,11 @@
 						</dict>
 						<dict>
 							<key>className</key>
-							<string>AFCForwardAction</string>
-							<key>ignoreParentParameters</key>
-							<true/>
+							<string>AFCMSetLocationProviderAction</string>
 							<key>parameters</key>
 							<dict>
-								<key>forwardContentType</key>
-								<string>Events</string>
-								<key>forwardContentAction</key>
-								<string>load</string>
+								<key>contentId</key>
+								<string>PWSLLocationManager</string>
 							</dict>
 						</dict>
 					</array>
@@ -2229,6 +2238,12 @@
 										<string>GPS / Apple Indoor (if available)</string>
 										<key>identifier</key>
 										<string>PWGPSLocationManager</string>
+									</dict>
+									<dict>
+										<key>name</key>
+										<string>None</string>
+										<key>identifier</key>
+										<string>None</string>
 									</dict>
 								</array>
 							</dict>
