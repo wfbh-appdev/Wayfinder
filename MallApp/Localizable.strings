@@ -160,3 +160,15 @@
 "afcofferwalletviewcontroller.cell.nooffers.text" = "No Offers";
 "afcofferwalletviewcontroller.header.validoffers.text" = "Valid Offers";
 "afcofferwalletviewcontroller.header.expiredoffers.text" = "Expired Offers";
+
+/*
+ *  AFCCheckForceUpdate Strings
+ */
+"afccheckforceupdate.prompt.message.displayforceupdate.alert.title" = "Update Required";
+"afccheckforceupdate.displayforceupdate.alert.message" = "A new version has been released. You must update to the latest version.";
+"afccheckforceupdate.displayforceupdate.alert.button.title" = "Update";
+"afccheckforceupdate.displayupdateavailable.alert.title" = "Update Available";
+"afccheckforceupdate.displayupdateavailable.alert.message" = "A new version has been released. Please update to the latest version.";
+"afccheckforceupdate.displayupdateavailable.alert.button.title" = "Update";
+"afccheckforceupdate.displayupdateavailable.alert.cancel.title" = "Not Now";
+

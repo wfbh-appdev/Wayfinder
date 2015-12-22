@@ -385,7 +385,7 @@
 					</dict>
 				</array>
 				<key>name</key>
-				<string>Andy&apos;s Office to Sales</string>
+				<string>Office to Sales</string>
 				<key>updateInterval</key>
 				<string>2.0</string>
 			</dict>
@@ -393,7 +393,7 @@
 			<string>ec306e63-966d-4872-8e2c-0ce6972b7620</string>
 		</dict>
 		<key>type</key>
-		<string>PWSLLocationManager</string>
+		<string>PWGPSLocationManager</string>
 	</dict>
 </dict>
 </plist>

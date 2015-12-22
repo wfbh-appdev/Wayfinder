@@ -1,24 +1,18 @@
 PODS:
-  - AFNetworking (2.6.3):
-    - AFNetworking/NSURLConnection (= 2.6.3)
-    - AFNetworking/NSURLSession (= 2.6.3)
-    - AFNetworking/Reachability (= 2.6.3)
-    - AFNetworking/Security (= 2.6.3)
-    - AFNetworking/Serialization (= 2.6.3)
-    - AFNetworking/UIKit (= 2.6.3)
-  - AFNetworking/NSURLConnection (2.6.3):
+  - AFNetworking (3.0.3):
+    - AFNetworking/NSURLSession (= 3.0.3)
+    - AFNetworking/Reachability (= 3.0.3)
+    - AFNetworking/Security (= 3.0.3)
+    - AFNetworking/Serialization (= 3.0.3)
+    - AFNetworking/UIKit (= 3.0.3)
+  - AFNetworking/NSURLSession (3.0.3):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/NSURLSession (2.6.3):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (2.6.3)
-  - AFNetworking/Security (2.6.3)
-  - AFNetworking/Serialization (2.6.3)
-  - AFNetworking/UIKit (2.6.3):
-    - AFNetworking/NSURLConnection
+  - AFNetworking/Reachability (3.0.3)
+  - AFNetworking/Security (3.0.3)
+  - AFNetworking/Serialization (3.0.3)
+  - AFNetworking/UIKit (3.0.3):
     - AFNetworking/NSURLSession
   - AppFrameworkAlertsModule (1.0.0):
     - CocoaLumberjack
@@ -27,6 +21,7 @@ PODS:
     - CocoaLumberjack
     - JLRoutes
     - PSAlertView (~> 2.0)
+    - PWAds (~> 3.2.0)
     - PWAlerts (~> 1.4.0)
     - PWAnalytics (~> 1.3.0)
     - PWCME (~> 1.3.0)
@@ -58,10 +53,12 @@ PODS:
     - AFNetworking
     - SDWebImage (~> 3.7.2)
   - JLRoutes (1.5.3)
-  - Mantle (2.0.5):
-    - Mantle/extobjc (= 2.0.5)
-  - Mantle/extobjc (2.0.5)
+  - Mantle (2.0.6):
+    - Mantle/extobjc (= 2.0.6)
+  - Mantle/extobjc (2.0.6)
   - PSAlertView (2.0.3)
+  - PWAds (3.2.0):
+    - PWCore
   - PWAlerts (1.4.0):
     - PWCore
   - PWAnalytics (1.3.0):
@@ -130,7 +127,7 @@ CHECKOUT OPTIONS:
     :commit: e08656ec963acaceabc2f0205cb9237579ef65e4
     :git: https://github.com/phunware/sdk-ios-appframework-alerts-binary.git
   AppFrameworkCore:
-    :commit: 20baad56ca6a01240a929f6557ba059d42c87db3
+    :commit: 30711c7b74b55eabcb241f2b034be7cbb92508f9
     :git: https://github.com/phunware/sdk-ios-appframework-core-binary.git
   AppFrameworkDirectoryModule:
     :commit: fd4ab9ab5527fa4f83db869de0135021adceb3e1
@@ -151,10 +148,10 @@ CHECKOUT OPTIONS:
     :commit: 915145db75ac3940868694e433afd17e8767f748
     :git: https://github.com/phunware/sdk-ios-appframework-parking-binary.git
   AppFrameworkRenderModule:
-    :commit: 265535ef1b1f868a7c3e70f473207362aa044958
+    :commit: 9fbb746b1018efbf7819475c63079f9ee25e0dd2
     :git: https://github.com/phunware/sdk-ios-appframework-render-binary.git
   AppFrameworkSalesModule:
-    :commit: c39462358a4c2c33b42ee0a4239e6bd7f27d0edb
+    :commit: 0357fa93b898def7cdb274f6ee8335ca046f48d6
     :git: https://github.com/phunware/sdk-ios-appframework-sales.git
   CoreNetwork:
     :commit: 9141d82d1d3758e592d06c06291ee2b864136b8f
@@ -167,9 +164,9 @@ CHECKOUT OPTIONS:
     :git: https://github.com/phunware/sdk-ios-pwuikit-binary.git
 
 SPEC CHECKSUMS:
-  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  AFNetworking: ba06eb9f27de596808c0acc09e1c920cb1d17ab4
   AppFrameworkAlertsModule: 3e7d018ac62d1cb29e8b647f6f4e278c8f931442
-  AppFrameworkCore: c14dc1da96e36317e05891ab7013279bc5a0f1a6
+  AppFrameworkCore: f741235239012eeddab4e99313eae2150bda50a5
   AppFrameworkDirectoryModule: a08acf0bf3c66aca377c66757634d1efd0eb1d77
   AppFrameworkEventsModule: 25ebf9a13a4e875e239692904ecb9078c6cf4f27
   AppFrameworkLocationMarketingModule: f744130295c6f0aa2c914d7049e5c7814b2e82f1
@@ -181,8 +178,9 @@ SPEC CHECKSUMS:
   CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
   CoreNetwork: c599b27199ebc0ad2e9b1b34a576e6e48c59f4cb
   JLRoutes: 20555d00693855b71e80715eeaae6a930a33b2f5
-  Mantle: 1912395033f601de5adc8ee91e48f46e4c7051ad
+  Mantle: 299966b00759634931699f69cb6a30b9239b944d
   PSAlertView: 16d35f5dba549418492cf68a750d4f0dca21f4a2
+  PWAds: 0c9aadee6bb44df6d6df0aac757df8f992759014
   PWAlerts: 2e425cf1f88ffc627c8af875a8f2bdc3c8bd3efd
   PWAnalytics: 3dcaabd78e46cef1429352ef75609069f0f808de
   PWCME: e89339e757279130560bb06b5e315eb2d49accc8
