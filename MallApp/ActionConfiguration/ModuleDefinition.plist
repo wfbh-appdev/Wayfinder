@@ -10,6 +10,43 @@
 	<dict>
 		<key>Events</key>
 		<dict>
+			<key>show</key>
+			<dict>
+				<key>className</key>
+				<string>AFCLoadViewControllerAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>viewController</key>
+					<string>EventsListViewController</string>
+					<key>presentationMode</key>
+					<string>replaceTop</string>
+					<key>shouldAnimate</key>
+					<true/>
+					<key>properties</key>
+					<dict>
+						<key>titleKey</key>
+						<string>Name</string>
+						<key>startDateKey</key>
+						<string>StartDate</string>
+						<key>endDateKey</key>
+						<string>EndDate</string>
+						<key>iconKey</key>
+						<string>ThumbnailURL</string>
+						<key>bannerKey</key>
+						<string>ImageURL</string>
+						<key>identifierKey</key>
+						<string>EventID</string>
+						<key>events</key>
+						<string>$module.events</string>
+						<key>title</key>
+						<string>$action.buttonTitle</string>
+						<key>favoritesContext</key>
+						<string>events</string>
+						<key>itemDetailContext</key>
+						<string>Event Detail</string>
+					</dict>
+				</dict>
+			</dict>
 			<key>load</key>
 			<dict>
 				<key>className</key>
@@ -49,7 +86,7 @@
 				</array>
 			</dict>
 		</dict>
-		<key>EventDetail</key>
+		<key>EventItem</key>
 		<dict>
 			<key>show</key>
 			<dict>
@@ -496,38 +533,13 @@
 			<key>30</key>
 			<dict>
 				<key>className</key>
-				<string>AFCLoadViewControllerAction</string>
+				<string>AFCForwardAction</string>
 				<key>parameters</key>
 				<dict>
-					<key>viewController</key>
-					<string>EventsListViewController</string>
-					<key>presentationMode</key>
-					<string>replaceTop</string>
-					<key>shouldAnimate</key>
-					<true/>
-					<key>properties</key>
-					<dict>
-						<key>titleKey</key>
-						<string>Name</string>
-						<key>startDateKey</key>
-						<string>StartDate</string>
-						<key>endDateKey</key>
-						<string>EndDate</string>
-						<key>iconKey</key>
-						<string>ThumbnailURL</string>
-						<key>bannerKey</key>
-						<string>ImageURL</string>
-						<key>identifierKey</key>
-						<string>EventID</string>
-						<key>events</key>
-						<string>$module.events</string>
-						<key>title</key>
-						<string>$action.buttonTitle</string>
-						<key>favoritesContext</key>
-						<string>events</string>
-						<key>itemDetailContext</key>
-						<string>Event Detail</string>
-					</dict>
+					<key>forwardContentType</key>
+					<string>Events</string>
+					<key>forwardContentAction</key>
+					<string>show</string>
 				</dict>
 			</dict>
 			<key>32</key>
@@ -676,61 +688,14 @@
 			<key>36</key>
 			<dict>
 				<key>className</key>
-				<string>AFCLoadViewControllerAction</string>
+				<string>AFCForwardAction</string>
 				<key>parameters</key>
 				<dict>
-					<key>viewController</key>
-					<string>AFCDirectoryViewController</string>
-					<key>presentationMode</key>
-					<string>replaceTop</string>
-					<key>shouldAnimate</key>
-					<true/>
-					<key>properties</key>
-					<dict>
-						<key>titleKey</key>
-						<string>Name</string>
-						<key>subtitleKey</key>
-						<string>SubTitle</string>
-						<key>iconKey</key>
-						<string>Thumbnail</string>
-						<key>bannerKey</key>
-						<string>DetailImage</string>
-						<key>identifierKey</key>
-						<string>ItemId</string>
-						<key>databaseDirectoryItems</key>
-						<string>$module.databaseDirectoryItems</string>
-						<key>databaseCategories</key>
-						<string>$module.databaseCategories</string>
-						<key>favoritesContext</key>
-						<string>databaseDirectoryItems</string>
-						<key>categoryNameKey</key>
-						<string>Name</string>
-						<key>categoryDirectoryItemIDsKey</key>
-						<string>Items</string>
-						<key>directoryItemIdKey</key>
-						<string>ItemId</string>
-						<key>descriptionKey</key>
-						<string>Description</string>
-						<key>itemDetailContext</key>
-						<string>Directory Detail</string>
-						<key>category</key>
-						<string>$action.auxID1</string>
-						<key>title</key>
-						<string>$action.buttonTitle</string>
-						<key>keyForSorting</key>
-						<string>Name</string>
-						<key>forceCategories</key>
-						<true/>
-						<key>cellClass</key>
-						<string>AFCUIHoneyBadgerTableViewCell</string>
-						<key>itemDetailLocationKey</key>
-						<string>POI</string>
-						<key>alphabeticalIndex</key>
-						<true/>
-					</dict>
+					<key>forwardContentType</key>
+					<string>Directory</string>
+					<key>forwardContentAction</key>
+					<string>show</string>
 				</dict>
-				<key>dependencies</key>
-				<array/>
 			</dict>
 			<key>56</key>
 			<dict>
@@ -928,6 +893,11 @@
 		</dict>
 		<key>Offer</key>
 		<dict>
+			<key>show</key>
+			<dict>
+				<key>className</key>
+				<string>AFCLMDeepLinkOfferWalletAction</string>
+			</dict>
 			<key>select</key>
 			<dict>
 				<key>className</key>
@@ -1362,6 +1332,63 @@
 		</dict>
 		<key>Directory</key>
 		<dict>
+			<key>show</key>
+			<dict>
+				<key>className</key>
+				<string>AFCLoadViewControllerAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>viewController</key>
+					<string>AFCDirectoryViewController</string>
+					<key>presentationMode</key>
+					<string>replaceTop</string>
+					<key>shouldAnimate</key>
+					<true/>
+					<key>properties</key>
+					<dict>
+						<key>titleKey</key>
+						<string>Name</string>
+						<key>subtitleKey</key>
+						<string>SubTitle</string>
+						<key>iconKey</key>
+						<string>Thumbnail</string>
+						<key>bannerKey</key>
+						<string>DetailImage</string>
+						<key>identifierKey</key>
+						<string>ItemId</string>
+						<key>databaseDirectoryItems</key>
+						<string>$module.databaseDirectoryItems</string>
+						<key>databaseCategories</key>
+						<string>$module.databaseCategories</string>
+						<key>favoritesContext</key>
+						<string>databaseDirectoryItems</string>
+						<key>categoryNameKey</key>
+						<string>Name</string>
+						<key>categoryDirectoryItemIDsKey</key>
+						<string>Items</string>
+						<key>directoryItemIdKey</key>
+						<string>ItemId</string>
+						<key>descriptionKey</key>
+						<string>Description</string>
+						<key>itemDetailContext</key>
+						<string>Directory Detail</string>
+						<key>category</key>
+						<string>$action.auxID1</string>
+						<key>title</key>
+						<string>$action.buttonTitle</string>
+						<key>keyForSorting</key>
+						<string>Name</string>
+						<key>forceCategories</key>
+						<true/>
+						<key>cellClass</key>
+						<string>AFCUIHoneyBadgerTableViewCell</string>
+						<key>itemDetailLocationKey</key>
+						<string>POI</string>
+						<key>alphabeticalIndex</key>
+						<true/>
+					</dict>
+				</dict>
+			</dict>
 			<key>load</key>
 			<dict>
 				<key>className</key>
@@ -1422,7 +1449,7 @@
 				</array>
 			</dict>
 		</dict>
-		<key>DirectoryDetail</key>
+		<key>DirectoryItem</key>
 		<dict>
 			<key>show</key>
 			<dict>
