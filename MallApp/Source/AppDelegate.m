@@ -30,17 +30,17 @@
     CME.contentAction= @"load";
     [[AFCCoreEngine sharedCore] startContentActionWithData:CME];
     
-//    AFCCMEConfiguration *configuration=[AFCAppDefaults standardDefaults].cme;
-//    if(configuration.venues)
-//    {
-//        CMEVenue *venue=[configuration.venues objectAtIndex:0];
-//        if(venue.campuses)
-//        {
-//            CMECampus *campus=[venue.campuses objectAtIndex:0];
-//            [[UIApplication sharedApplication] setValue:[NSNumber numberWithInteger:campus.currentBuilding.buildingId] forKey:@"buildingId"];
-//            [[UIApplication sharedApplication] setValue:campus forKey:kAFCApplicationStateCurrentCampus];
-//        }
-//    }
+    AFCCMEConfiguration *configuration=[AFCAppDefaults standardDefaults].cme;
+    if(configuration.venues)
+    {
+        CMEVenue *venue=[configuration.venues objectAtIndex:0];
+        if(venue.campuses)
+        {
+            CMECampus *campus=[venue.campuses objectAtIndex:0];
+            [[UIApplication sharedApplication] setValue:[NSNumber numberWithInteger:campus.currentBuilding.buildingId] forKey:@"buildingId"];
+            [[UIApplication sharedApplication] setValue:campus forKey:kAFCApplicationStateCurrentCampus];
+        }
+    }
     
     
     return [super application:application willFinishLaunchingWithOptions:launchOptions];
