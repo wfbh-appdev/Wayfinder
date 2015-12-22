@@ -1654,7 +1654,7 @@
 							<key>parameters</key>
 							<dict>
 								<key>forwardContentType</key>
-								<string>Lobby-disable</string>
+								<string>Lobby</string>
 								<key>forwardContentAction</key>
 								<string>load</string>
 							</dict>
@@ -1757,7 +1757,7 @@
 				<key>parameters</key>
 				<dict>
 					<key>forwardContentType</key>
-					<string>Lobby-disable</string>
+					<string>Lobby</string>
 					<key>forwardContentAction</key>
 					<string>load</string>
 				</dict>
