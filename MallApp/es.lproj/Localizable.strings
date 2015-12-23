@@ -12,163 +12,162 @@
 *
 */
 
-"mall.detail.error.phone.message" = "It doesn't seem to have a phone number.";
+"mall.detail.error.phone.message" = "No parece existir un número de teléfono.";
 "mall.detail.error.phone.title" = "";
-"mall.detail.error.website.message" = "It doesn't seem to have a website.";
+"mall.detail.error.website.message" = "No parece existir el sitio web.";
 "mall.detail.error.website.title" = "";
 
 /*
 *
 */
 
-"afcclearcacheaction.prompt.message" = "This will clear all the saved data and relaunch the app. Are you sure you want to continue?";
-"afcclearcacheaction.prompt.title" = "Confirm";
-"afcclearcacheaction.cancel.title" = "Cancel";
-"afcclearcacheaction.ok.title" = "Clear Cache";
+"afcclearcacheaction.prompt.message" = "Esta acción borrará todos los datos almacenados y reiniciará la aplicación. ¿Está seguro de continuar?";
+"afcclearcacheaction.prompt.title" = "Confirmar";
+"afcclearcacheaction.cancel.title" = "Cancelar";
+"afcclearcacheaction.ok.title" = "Limpiar Cache";
 
 /*
  *  AFCUIMAnnotationDirectoryViewController Strings
  */
 
-"afcuimannotationdirectoryviewcontroller.titlelabel.text" = "POI Directory";
-"afcuimannotationdirectoryviewcontroller.noresultsfound.text" = "No Results Found";
+"afcuimannotationdirectoryviewcontroller.titlelabel.text" = "Directorio de PDI";
+"afcuimannotationdirectoryviewcontroller.noresultsfound.text" = "No Hay Resultados";
 
 /*
  *  AFCUIMRouteBuilderViewController Strings
  */
 
-"afcuimroutebuilderviewcontroller.route.error.endstart.same" = "The start and end point must be different.";
-"afcuimroutebuilderviewcontroller.route.error.cantfindpoi" = "We could not find that POI, please search again.";
-"afcuimroutebuilderviewcontroller.route.error.title" = "Sorry";
-"afcuimroutebuilderviewcontroller.currentlocation.text" = "Current Location";
-"afcuimroutebuilderviewcontroller.startlocationtextfield.placeholder" = "Start Location";
-"afcuimroutebuilderviewcontroller.endlocationtextfield.placeholder" = "End Location";
-"afcuimroutebuilderviewcontroller.startlabel.text" = "START";
-"afcuimroutebuilderviewcontroller.endlabel.text" = "END";
-"afcuimroutebuilderviewcontroller.titlelabel.text" = "Routing";
-"afcuimroutebuilderviewcontroller.cancelbutton.buttontitle" = "Cancel";
-"afcuimroutebuilderviewcontroller.routebutton.buttontitle" = "Route";
-"afcuimroutebuilderviewcontroller.handicapaccessibilitylabel.text" = "Handicap  Accessibility";
-"afcuimroutebuilderviewcontroller.outdoortoindooralerttitle.text" = "Need Directions to the Venue?";
-"afcuimroutebuilderviewcontroller.outdoortoindooralerttitle.message" = "We noticed you are currently not at the facility.\nWould you like to route to the venue instead?";
-"afcuimroutebuilderviewcontroller.dismissoutdoortoindoor.buttontitle" = "DISMISS";
-"afcuimroutebuilderviewcontroller.openinmapsbutton.buttontitle" = "OPEN IN MAPS";
-"afcuimroutebuilderviewcontroller.welcomebacktitle.text" = "Welcome Back!";
-"afcuimroutebuilderviewcontroller.welcomebackmessage.text" = "We will now continue routing from the parking lot\nto your previously selected destination.";
-"afcuimroutebuilderviewcontroller.welcomebackdismiss.buttontitle" = "DISMISS";
-"afcuimroutebuilderviewcontroller.welcomebackrouteme.buttontitle" = "ROUTE ME";
+"afcuimroutebuilderviewcontroller.route.error.endstart.same" = "El punto inicial y final deben ser diferentes.";
+"afcuimroutebuilderviewcontroller.route.error.cantfindpoi" = "No podemos encontrar el Punto de Interés, busque de nuevo.";
+"afcuimroutebuilderviewcontroller.route.error.title" = "Lo Sentimos";
+"afcuimroutebuilderviewcontroller.currentlocation.text" = "Localización Actual";
+"afcuimroutebuilderviewcontroller.startlocationtextfield.placeholder" = "Punto de Inicio";
+"afcuimroutebuilderviewcontroller.endlocationtextfield.placeholder" = "Punto Final";
+"afcuimroutebuilderviewcontroller.startlabel.text" = "INICIO";
+"afcuimroutebuilderviewcontroller.endlabel.text" = "FIN";
+"afcuimroutebuilderviewcontroller.titlelabel.text" = "Generando Ruta";
+"afcuimroutebuilderviewcontroller.cancelbutton.buttontitle" = "Cancelar";
+"afcuimroutebuilderviewcontroller.routebutton.buttontitle" = "Routa";
+"afcuimroutebuilderviewcontroller.handicapaccessibilitylabel.text" = "Acceso Para Discapacitados";
+"afcuimroutebuilderviewcontroller.outdoortoindooralerttitle.text" = "¿Necesita una ruta para la ubicación?";
+"afcuimroutebuilderviewcontroller.outdoortoindooralerttitle.message" = "Notamos que actualmente usted no está en el lugar.\n¿Le gustaría que trazaramos la ruta por usted?";
+"afcuimroutebuilderviewcontroller.dismissoutdoortoindoor.buttontitle" = "CERRAR";
+"afcuimroutebuilderviewcontroller.openinmapsbutton.buttontitle" = "ABRIR EN MAPAS";
+"afcuimroutebuilderviewcontroller.welcomebacktitle.text" = "¡Bienvenido de Vuelta!";
+"afcuimroutebuilderviewcontroller.welcomebackmessage.text" = "Ahora mostraremos la ruta del estacionamiento\na su destino previamente seleccionado.";
+"afcuimroutebuilderviewcontroller.welcomebackdismiss.buttontitle" = "CERRAR";
+"afcuimroutebuilderviewcontroller.welcomebackrouteme.buttontitle" = "RUTA";
 
 /*
  *  AFCUIMPOIFilterEditorViewController Strings
  */
 
-"afcuimpoifiltereditorviewcontroller.savefiltersbutton.buttontitle" = "Save Filters";
-"afcuimpoifiltereditorviewcontroller.cancelbutton.buttontitle" = "Cancel";
-"afcuimpoifiltereditorviewcontroller.titlelabel.text" = "Choose POI Filter";
+"afcuimpoifiltereditorviewcontroller.savefiltersbutton.buttontitle" = "Guardar Filtros";
+"afcuimpoifiltereditorviewcontroller.cancelbutton.buttontitle" = "Cancelar";
+"afcuimpoifiltereditorviewcontroller.titlelabel.text" = "Elija Filtro de PDI";
 
 /*
  *  AFCUIAnnotationDetailViewController Strings
  */
 
-"afcuiannotationdetailviewcontroller.selectCampusButton.buttontitle" = "SELECT THIS CAMPUS";
+"afcuiannotationdetailviewcontroller.selectCampusButton.buttontitle" = "SELECCIONA ESTE CAMPUS";
 
 /*
  *   AFCUIEULAViewController Strings
  */
 
-"afcuieulaviewcontroller.agreebutton.buttontitle" = "I Agree";
-"afcuieulaviewcontroller.navbar.title" = "License Agreement";
+"afcuieulaviewcontroller.agreebutton.buttontitle" = "Acepto";
+"afcuieulaviewcontroller.navbar.title" = "Acuerdo de Licencia";
 
 /*
  *   AFCUIWebViewController Strings
  */
 
-"afcuiwebviewcontroller.message.text" = "Please wait...";
-"afcuimodalwebbrowser.closeButton.buttontitle" = "Close";
+"afcuiwebviewcontroller.message.text" = "Por favor espere...";
+"afcuimodalwebbrowser.closeButton.buttontitle" = "Cerrar";
 
 
 /*
  *   AFCUIModalWebBrowser Strings
  */
 
-"afcuimodalwebbrowser.status.text" = "Loading";
-"afcuimodalwebbrowser.closebutton.buttontitle" = "Close";
+"afcuimodalwebbrowser.status.text" = "Cargando";
+"afcuimodalwebbrowser.closebutton.buttontitle" = "Cerrar";
 
 /*
  *  AFCParkingMapViewController Strings
  */
 
-"afcparkingmapviewcontroller.droppinbutton.buttontitle" = "Drop a Pin";
-"afcparkingmapviewcontroller.droppinbutton.clearenabled.buttontitle" = "Clear";
-"afcparkingmapviewcontroller.droppinbutton.droppinenabled.buttontitle" = "Drop a Pin";
-"afcparkingmapviewcontroller.droppinbutton.droppindisabled.buttontitle" = "Drop a Pin";
-"afcparkingmapviewcontroller.titlelabel.text" = "Pin My Location";
+"afcparkingmapviewcontroller.droppinbutton.buttontitle" = "Colocar un Pin";
+"afcparkingmapviewcontroller.droppinbutton.clearenabled.buttontitle" = "Borrar todo";
+"afcparkingmapviewcontroller.droppinbutton.droppinenabled.buttontitle" = "Colocar un Pin";
+"afcparkingmapviewcontroller.droppinbutton.droppindisabled.buttontitle" = "Colocar un Pin";
+"afcparkingmapviewcontroller.titlelabel.text" = "Pin en mi ubicación";
 
-"afcparkingmapviewcontroller.locationauthorization.erroralert.title" = "Location Authorization";
-"afcparkingmapviewcontroller.locationauthorization.erroralert.message" = "Check the location permissions";
-"afcparkingmapviewcontroller.locationauthorization.erroralert.okbutton.title" = "OK";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.title" = "Autorización de Ubicación";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.message" = "Revise los permisos de localización";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.okbutton.title" = "SÍ";
 
 /*
  *  AFCParkingNoteViewController Strings
  */
 
-"afcparkingnoteviewcontroller.noteslabel.text" = "Write a note to help you remember where you've parked...";
-"afcparkingnoteviewcontroller.titlelabel.text" = "Parking Note";
+"afcparkingnoteviewcontroller.noteslabel.text" = "Escriba una nota que le recuerde dónde se ha estacionado...";
+"afcparkingnoteviewcontroller.titlelabel.text" = "Nota de Estacionamiento";
 
 /*
  *  AFCParkingPhotoViewController Strings
  */
 
-"afcparkingphotoviewcontroller.message.text" = "Please tap the camera button\nbelow to take a photo";
+"afcparkingphotoviewcontroller.message.text" = "Por favor, haga tap en el botón de la cámara\npara tomar una foto";
 
 /*
  *  AFCParkingViewController Strings
  */
 
-"afcparkingviewcontroller.parkingremindertitle.text" = "Parking Reminder";
-"afcparkingviewcontroller.parkingchoosemethod.text" = "Choose a method below:";
-"afcparkingviewcontroller.gpslocationbuttonlabel.text" = "Pin GPS Location";
-"afcparkingviewcontroller.takepicturebuttonlabel.text" = "Take a Picture";
-"afcparkingviewcontroller.recordvoicememobuttonlabel.text" = "Record a Memo";
-"afcparkingviewcontroller.writenotebuttonlabel.text" = "Write a Note";
-"afcparkingviewcontroller.locationsavedmessage.text" = "Location Saved";
-"afcparkingviewcontroller.imagesavedmessage.text" = "Image Saved";
-"afcparkingviewcontroller.voicememosavedmessage.text" = "Voice Memo Saved";
-"afcparkingviewcontroller.notesavedmessage.text" = "Note Saved";
-"afcparkingviewcontroller.titlelabel.text" = "Parking";
+"afcparkingviewcontroller.parkingremindertitle.text" = "Recordatorio de Estacionamiento";
+"afcparkingviewcontroller.parkingchoosemethod.text" = "Elija un método:";
+"afcparkingviewcontroller.gpslocationbuttonlabel.text" = "Colocar un Pin";
+"afcparkingviewcontroller.takepicturebuttonlabel.text" = "Tomar una Foto";
+"afcparkingviewcontroller.recordvoicememobuttonlabel.text" = "Grabar Una Nota de Voz";
+"afcparkingviewcontroller.writenotebuttonlabel.text" = "Escribir Una Nota";
+"afcparkingviewcontroller.locationsavedmessage.text" = "Ubicación Guardada";
+"afcparkingviewcontroller.imagesavedmessage.text" = "Imagen Guardada";
+"afcparkingviewcontroller.voicememosavedmessage.text" = "Nota de Voz Guardada";
+"afcparkingviewcontroller.notesavedmessage.text" = "Nota Guardada";
+"afcparkingviewcontroller.titlelabel.text" = "Estacionamiento";
 
 /*
  *  AFCParkingVoiceMemoViewController Strings
  */
 
-"afcparkingvoicememoviewcontroller.recordvoicememotitle.text" = "Record a memo to help you remember
-";
-"afcparkingvoicememoviewcontroller.titlelabel.text" = "Parking Memo";
+"afcparkingvoicememoviewcontroller.recordvoicememotitle.text" = "Guardar una nota de voz para recordarle dónde se estacionó";
+"afcparkingvoicememoviewcontroller.titlelabel.text" = "Recordatorio de Estacionamiento";
 
 /*
  *   AFCUIWebViewController Strings
  */
 
-"afcuiwebviewcontroller.message.text" = "Please wait...";
+"afcuiwebviewcontroller.message.text" = "Por favor espere...";
 
 /*
  *  AFCOfferWalletViewController Strings
  */
 
-"afcofferwalletviewcontroller.titlelabel.text" = "Offers";
-"afcofferwalletviewcontroller.cell.expirationdate.detailtextlabel.text" = "Expires";
-"afcofferwalletviewcontroller.cell.nooffers.text" = "No Offers";
-"afcofferwalletviewcontroller.header.validoffers.text" = "Valid Offers";
-"afcofferwalletviewcontroller.header.expiredoffers.text" = "Expired Offers";
+"afcofferwalletviewcontroller.titlelabel.text" = "Ofertas";
+"afcofferwalletviewcontroller.cell.expirationdate.detailtextlabel.text" = "Expira";
+"afcofferwalletviewcontroller.cell.nooffers.text" = "No hay Ofertas";
+"afcofferwalletviewcontroller.header.validoffers.text" = "Ofertas Válidas";
+"afcofferwalletviewcontroller.header.expiredoffers.text" = "Ofertas Expiradas";
 
 /*
  *  AFCCheckForceUpdate Strings
  */
-"afccheckforceupdate.prompt.message.displayforceupdate.alert.title" = "Update Required";
-"afccheckforceupdate.displayforceupdate.alert.message" = "A new version has been released. You must update to the latest version.";
-"afccheckforceupdate.displayforceupdate.alert.button.title" = "Update";
-"afccheckforceupdate.displayupdateavailable.alert.title" = "Update Available";
-"afccheckforceupdate.displayupdateavailable.alert.message" = "A new version has been released. Please update to the latest version.";
-"afccheckforceupdate.displayupdateavailable.alert.button.title" = "Update";
-"afccheckforceupdate.displayupdateavailable.alert.cancel.title" = "Not Now";
+"afccheckforceupdate.prompt.message.displayforceupdate.alert.title" = "Actualización Requerida";
+"afccheckforceupdate.displayforceupdate.alert.message" = "Una nueva versión ha sido lanzada. Usted debe actualizar a la última versión.";
+"afccheckforceupdate.displayforceupdate.alert.button.title" = "Actualizar";
+"afccheckforceupdate.displayupdateavailable.alert.title" = "Actualización Disponible";
+"afccheckforceupdate.displayupdateavailable.alert.message" = "Una nueva versión ha sido lanzada. Por favor actualice a la última versión.";
+"afccheckforceupdate.displayupdateavailable.alert.button.title" = "Actualizar";
+"afccheckforceupdate.displayupdateavailable.alert.cancel.title" = "Ahora no";
 
