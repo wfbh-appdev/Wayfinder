@@ -1950,10 +1950,6 @@
 									</dict>
 								</array>
 							</dict>
-							<dict>
-								<key>className</key>
-								<string>AFCApplicationShortcutsSetupAction</string>
-							</dict>
 						</array>
 					</dict>
 				</array>

@@ -16,26 +16,10 @@
 			<string>Directory</string>
 		</dict>
 	</dict>
-	<key>dining</key>
-	<dict>
-		<key>title</key>
-		<string>Dining</string>
-		<key>userInfo</key>
-		<dict>
-			<key>contentType</key>
-			<string>Button</string>
-			<key>contentAction</key>
-			<string>36</string>
-			<key>buttonTitle</key>
-			<string>Dining</string>
-			<key>auxID1</key>
-			<string>Dining</string>
-		</dict>
-	</dict>
 	<key>events</key>
 	<dict>
 		<key>title</key>
-		<string>Mall Events</string>
+		<string>Events</string>
 		<key>userInfo</key>
 		<dict>
 			<key>contentType</key>
@@ -58,20 +42,6 @@
 			<string>84</string>
 			<key>buttonTitle</key>
 			<string>Interactive Map</string>
-		</dict>
-	</dict>
-	<key>movies</key>
-	<dict>
-		<key>title</key>
-		<string>Movies</string>
-		<key>userInfo</key>
-		<dict>
-			<key>contentType</key>
-			<string>Button</string>
-			<key>contentAction</key>
-			<string>35</string>
-			<key>buttonTitle</key>
-			<string>Movies</string>
 		</dict>
 	</dict>
 </dict>
