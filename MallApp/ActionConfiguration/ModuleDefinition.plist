@@ -86,7 +86,7 @@
 				</array>
 			</dict>
 		</dict>
-		<key>EventItem</key>
+		<key>EventDetail</key>
 		<dict>
 			<key>show</key>
 			<dict>
@@ -1449,7 +1449,7 @@
 				</array>
 			</dict>
 		</dict>
-		<key>DirectoryItem</key>
+		<key>DirectoryDetail</key>
 		<dict>
 			<key>show</key>
 			<dict>
