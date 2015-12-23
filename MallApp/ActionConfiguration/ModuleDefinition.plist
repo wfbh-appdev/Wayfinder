@@ -2270,12 +2270,6 @@
 									</dict>
 									<dict>
 										<key>name</key>
-										<string>Mock</string>
-										<key>identifier</key>
-										<string>x</string>
-									</dict>
-									<dict>
-										<key>name</key>
 										<string>GPS / Apple Indoor (if available)</string>
 										<key>identifier</key>
 										<string>PWGPSLocationManager</string>
