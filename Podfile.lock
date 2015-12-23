@@ -1,18 +1,18 @@
 PODS:
-  - AFNetworking (3.0.3):
-    - AFNetworking/NSURLSession (= 3.0.3)
-    - AFNetworking/Reachability (= 3.0.3)
-    - AFNetworking/Security (= 3.0.3)
-    - AFNetworking/Serialization (= 3.0.3)
-    - AFNetworking/UIKit (= 3.0.3)
-  - AFNetworking/NSURLSession (3.0.3):
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/Reachability (3.0.3)
-  - AFNetworking/Security (3.0.3)
-  - AFNetworking/Serialization (3.0.3)
-  - AFNetworking/UIKit (3.0.3):
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
     - AFNetworking/NSURLSession
   - AppFrameworkAlertsModule (1.0.0):
     - CocoaLumberjack
@@ -34,8 +34,6 @@ PODS:
     - PWMapKit (~> 2.6.0)
     - REMenu
     - TurtleBezierPath
-  - AppFrameworkMoviesModule (1.0.0):
-    - CocoaLumberjack
   - AppFrameworkParkingModule (1.0.0)
   - AppFrameworkRenderModule (1.0.0):
     - Mantle (~> 2.0)
@@ -86,7 +84,6 @@ DEPENDENCIES:
   - AppFrameworkEventsModule (from `https://github.com/phunware/sdk-ios-appframework-events-binary.git`)
   - AppFrameworkLocationMarketingModule (from `https://github.com/phunware/sdk-ios-appframework-location-marketing-binary.git`)
   - AppFrameworkMappingModule (from `https://github.com/phunware/sdk-ios-appframework-mapping-binary.git`)
-  - AppFrameworkMoviesModule (from `https://github.com/phunware/sdk-ios-appframework-movies.git`)
   - AppFrameworkParkingModule (from `https://github.com/phunware/sdk-ios-appframework-parking-binary.git`)
   - AppFrameworkRenderModule (from `https://github.com/phunware/sdk-ios-appframework-render-binary.git`)
   - AppFrameworkSalesModule (from `https://github.com/phunware/sdk-ios-appframework-sales.git`)
@@ -107,8 +104,6 @@ EXTERNAL SOURCES:
     :git: https://github.com/phunware/sdk-ios-appframework-location-marketing-binary.git
   AppFrameworkMappingModule:
     :git: https://github.com/phunware/sdk-ios-appframework-mapping-binary.git
-  AppFrameworkMoviesModule:
-    :git: https://github.com/phunware/sdk-ios-appframework-movies.git
   AppFrameworkParkingModule:
     :git: https://github.com/phunware/sdk-ios-appframework-parking-binary.git
   AppFrameworkRenderModule:
@@ -127,7 +122,7 @@ CHECKOUT OPTIONS:
     :commit: e08656ec963acaceabc2f0205cb9237579ef65e4
     :git: https://github.com/phunware/sdk-ios-appframework-alerts-binary.git
   AppFrameworkCore:
-    :commit: 30711c7b74b55eabcb241f2b034be7cbb92508f9
+    :commit: bf6018817f0e3590b10b04fcb541d79ac635699a
     :git: https://github.com/phunware/sdk-ios-appframework-core-binary.git
   AppFrameworkDirectoryModule:
     :commit: fd4ab9ab5527fa4f83db869de0135021adceb3e1
@@ -139,16 +134,13 @@ CHECKOUT OPTIONS:
     :commit: 0cb88f8a24659b5b2fd1430268ce4e5fa0bac6b4
     :git: https://github.com/phunware/sdk-ios-appframework-location-marketing-binary.git
   AppFrameworkMappingModule:
-    :commit: 5493df9c23f8fda0a8f16f3dca6c4a376c88ac39
+    :commit: 99ef753d2a55e891b7d1648a78b50ce03bb390a7
     :git: https://github.com/phunware/sdk-ios-appframework-mapping-binary.git
-  AppFrameworkMoviesModule:
-    :commit: 4b8ae9f180718db7c68f00b8c4f45dceee159f72
-    :git: https://github.com/phunware/sdk-ios-appframework-movies.git
   AppFrameworkParkingModule:
     :commit: 915145db75ac3940868694e433afd17e8767f748
     :git: https://github.com/phunware/sdk-ios-appframework-parking-binary.git
   AppFrameworkRenderModule:
-    :commit: 9fbb746b1018efbf7819475c63079f9ee25e0dd2
+    :commit: 4586f2e6e7923ac5b068e15734115616ecba95eb
     :git: https://github.com/phunware/sdk-ios-appframework-render-binary.git
   AppFrameworkSalesModule:
     :commit: 0357fa93b898def7cdb274f6ee8335ca046f48d6
@@ -164,14 +156,13 @@ CHECKOUT OPTIONS:
     :git: https://github.com/phunware/sdk-ios-pwuikit-binary.git
 
 SPEC CHECKSUMS:
-  AFNetworking: ba06eb9f27de596808c0acc09e1c920cb1d17ab4
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
   AppFrameworkAlertsModule: 3e7d018ac62d1cb29e8b647f6f4e278c8f931442
   AppFrameworkCore: f741235239012eeddab4e99313eae2150bda50a5
   AppFrameworkDirectoryModule: a08acf0bf3c66aca377c66757634d1efd0eb1d77
   AppFrameworkEventsModule: 25ebf9a13a4e875e239692904ecb9078c6cf4f27
   AppFrameworkLocationMarketingModule: f744130295c6f0aa2c914d7049e5c7814b2e82f1
   AppFrameworkMappingModule: e889f644bfa6c4cd4833e2603303d6ac0f02c3bb
-  AppFrameworkMoviesModule: 61445c0d655bc59103b354eb25e0af8e752057a4
   AppFrameworkParkingModule: e6391b280f2c8498124108ae32e4badfe36f9747
   AppFrameworkRenderModule: c8cb3d89c7bff1464982c082575d7af1de8d4951
   AppFrameworkSalesModule: b7c1168329a8d3b958a7d1a7f8acb32bfb4f0869

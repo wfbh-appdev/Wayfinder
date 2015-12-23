@@ -27,7 +27,7 @@ target :'GenericAF4', :exclusive => true do
     #pod 'AppFrameworkMappingModule', :path =>  '../sdk-ios-appframework-mapping/Framework'
     pod 'AppFrameworkAlertsModule', :git =>  'https://github.com/phunware/sdk-ios-appframework-alerts-binary.git'
     #pod 'AppFrameworkMoviesModule', :path =>  '../sdk-ios-appframework-movies'
-    pod 'AppFrameworkMoviesModule', :git =>  'https://github.com/phunware/sdk-ios-appframework-movies.git'
+    #pod 'AppFrameworkMoviesModule', :git =>  'https://github.com/phunware/sdk-ios-appframework-movies.git'
     pod 'AppFrameworkSalesModule', :git =>  'https://github.com/phunware/sdk-ios-appframework-sales.git'
     #pod 'AppFrameworkSalesModule', :path =>  '../sdk-ios-appframework-sales'
     
