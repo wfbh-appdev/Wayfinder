@@ -893,6 +893,27 @@
 		</dict>
 		<key>Offer</key>
 		<dict>
+			<key>present</key>
+			<dict>
+				<key>className</key>
+				<string>AFCLoadViewControllerAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>viewController</key>
+					<string>AFCUIWebViewController</string>
+					<key>presentationMode</key>
+					<string>push</string>
+					<key>shouldAnimate</key>
+					<true/>
+					<key>properties</key>
+					<dict>
+						<key>title</key>
+						<string>$action.title</string>
+						<key>content</key>
+						<string>$action.body</string>
+					</dict>
+				</dict>
+			</dict>
 			<key>show</key>
 			<dict>
 				<key>className</key>
