@@ -179,17 +179,17 @@
 		<key>AdvertisementSettings</key>
 		<dict>
 			<key>vscAdsBannerZone</key>
-			<integer>64491</integer>
+			<integer>67015</integer>
 			<key>vscAdsBannerFrequency</key>
-			<integer>5</integer>
+			<integer>50</integer>
 			<key>vscAdsInterstitialZone</key>
-			<real>67017</real>
+			<integer>68903</integer>
 			<key>vscAdsInterstitialFrequency</key>
-			<integer>5</integer>
+			<integer>10</integer>
 			<key>vscAdsNativeBannerZone</key>
-			<real>68901</real>
+			<integer>68901</integer>
 			<key>vscAdsDirectoryRow</key>
-			<integer>4</integer>
+			<integer>3</integer>
 			<key>vscAdsNativeEnable</key>
 			<true/>
 		</dict>
