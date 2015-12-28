@@ -6,9 +6,10 @@
 	<dict>
 		<key>constraints</key>
 		<array>
-			<string>H:|[logo]|</string>
-			<string>H:|[menu]|</string>
+			<string>H:|[logo]-&gt;=1-|</string>
+			<string>H:|[menu]-&gt;=1-|</string>
 			<string>H:|[imageBackground]|</string>
+			<string>H:|[imageBackground]-&gt;=1-|</string>
 			<string>V:|-32-[logo][menu]|</string>
 			<string>V:|-10-[imageBackground]-0-|</string>
 		</array>
