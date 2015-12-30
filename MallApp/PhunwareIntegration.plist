@@ -45,7 +45,7 @@
 		<key>logToStdout</key>
 		<true/>
 		<key>verbosity</key>
-		<string>Warning</string>
+		<string>YES</string>
 	</dict>
 	<key>Core WS Integration</key>
 	<dict>
@@ -179,15 +179,15 @@
 		<key>AdvertisementSettings</key>
 		<dict>
 			<key>vscAdsBannerZone</key>
-			<integer>67015</integer>
+			<integer>65</integer>
 			<key>vscAdsBannerFrequency</key>
-			<integer>50</integer>
+			<integer>10</integer>
 			<key>vscAdsInterstitialZone</key>
-			<integer>68903</integer>
+			<integer>65</integer>
 			<key>vscAdsInterstitialFrequency</key>
 			<integer>10</integer>
 			<key>vscAdsNativeBannerZone</key>
-			<integer>68901</integer>
+			<integer>65</integer>
 			<key>vscAdsDirectoryRow</key>
 			<integer>3</integer>
 			<key>vscAdsNativeEnable</key>

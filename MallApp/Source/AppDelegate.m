@@ -28,7 +28,7 @@
     AFCContentActionData *CME = [[AFCContentActionData alloc] init];
     CME.contentType = @"CME";
     CME.contentAction= @"load";
-    [[AFCCoreEngine sharedCore] startContentActionWithData:CME];
+    //[[AFCCoreEngine sharedCore] startContentActionWithData:CME];
     
     AFCCMEConfiguration *configuration=[AFCAppDefaults standardDefaults].cme;
     if(configuration.venues)

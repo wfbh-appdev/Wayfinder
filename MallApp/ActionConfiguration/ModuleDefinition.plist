@@ -183,6 +183,8 @@
 					<string>beacons</string>
 					<key>alertsKey</key>
 					<string>alerts</string>
+					<key>adsKey</key>
+					<string>advertisement</string>
 				</dict>
 				<key>dependencies</key>
 				<array>
@@ -194,6 +196,22 @@
 							<key>dividerActions</key>
 							<array>
 								<dict>
+									<key>New item</key>
+									<dict>
+										<key>className</key>
+										<string>AFCLoadCMEObjects</string>
+										<key>parameters</key>
+										<dict>
+											<key>structureName</key>
+											<string>vscVenues</string>
+											<key>cmeDTOClass</key>
+											<string>CMEVenue</string>
+											<key>cmeResultKey</key>
+											<string>venueLevelVenues</string>
+											<key>cmeMappingKey</key>
+											<string>vscVenue</string>
+										</dict>
+									</dict>
 									<key>className</key>
 									<string>AFCLoadCMEObjects</string>
 									<key>parameters</key>
@@ -201,11 +219,11 @@
 										<key>structureName</key>
 										<string>vscAppVenues</string>
 										<key>cmeDTOClass</key>
-										<string>CMEVenue</string>
+										<string>CMEAdvertisementSettings</string>
 										<key>cmeResultKey</key>
 										<string>appLevelVenues</string>
 										<key>cmeMappingKey</key>
-										<string>vscVenue</string>
+										<string>vscAppAdvertisementSettings</string>
 									</dict>
 								</dict>
 								<dict>
@@ -309,6 +327,8 @@
 								<dict>
 									<key>AppPlatform</key>
 									<string>iOS</string>
+									<key>AppName</key>
+									<string>PhunGeneric_v4</string>
 								</dict>
 								<key>dependencies</key>
 								<array>
@@ -318,7 +338,7 @@
 										<key>parameters</key>
 										<dict>
 											<key>AppName</key>
-											<string>PhunGeneric</string>
+											<string>PhunGeneric_v4</string>
 										</dict>
 										<key>dependencies</key>
 										<array>
@@ -1824,6 +1844,19 @@
 				<dict>
 					<key>dividerActions</key>
 					<array>
+						<dict>
+							<key>className</key>
+							<string>AFCForwardAction</string>
+							<key>ignoreParentParameters</key>
+							<string>YES</string>
+							<key>parameters</key>
+							<dict>
+								<key>forwardContentType</key>
+								<string>CME</string>
+								<key>forwardContentAction</key>
+								<string>load</string>
+							</dict>
+						</dict>
 						<dict>
 							<key>className</key>
 							<string>AFCForwardAction</string>
