@@ -2279,6 +2279,8 @@
 								<string>DistanceUnits</string>
 								<key>forwardContentAction</key>
 								<string>set</string>
+								<key>cellViewClass</key>
+								<string>AFCUIDistanceUnitsCellViewClassTableViewCell</string>
 								<key>items</key>
 								<array>
 									<dict>

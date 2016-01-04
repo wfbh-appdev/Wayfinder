@@ -16,6 +16,7 @@
 		5520ABC71C19E3A000757715 /* Splash@2x.mov in Resources */ = {isa = PBXBuildFile; fileRef = 5520ABC41C19E3A000757715 /* Splash@2x.mov */; };
 		5574F54C1C3AD921007BC741 /* AFCUIMaasVersionCellViewClassTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5574F54B1C3AD921007BC741 /* AFCUIMaasVersionCellViewClassTableViewCell.m */; };
 		5574F54F1C3AF889007BC741 /* AFCUILocationProviderViewClassTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5574F54E1C3AF889007BC741 /* AFCUILocationProviderViewClassTableViewCell.m */; };
+		5574F5521C3B21AD007BC741 /* AFCUIDistanceUnitsCellViewClassTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5574F5501C3B21AD007BC741 /* AFCUIDistanceUnitsCellViewClassTableViewCell.m */; };
 		8CB729D21C20A30D00F016B7 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB729D11C20A30D00F016B7 /* Crashlytics.framework */; };
 		8CCAD9611C2B13890069AEB1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8CCAD9631C2B13890069AEB1 /* Localizable.strings */; };
 		8F06130F1BC8569800A55F16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F06130E1BC8569800A55F16 /* main.m */; };
@@ -78,6 +79,8 @@
 		5574F54B1C3AD921007BC741 /* AFCUIMaasVersionCellViewClassTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFCUIMaasVersionCellViewClassTableViewCell.m; sourceTree = "<group>"; };
 		5574F54D1C3AF889007BC741 /* AFCUILocationProviderViewClassTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCUILocationProviderViewClassTableViewCell.h; sourceTree = "<group>"; };
 		5574F54E1C3AF889007BC741 /* AFCUILocationProviderViewClassTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFCUILocationProviderViewClassTableViewCell.m; sourceTree = "<group>"; };
+		5574F5501C3B21AD007BC741 /* AFCUIDistanceUnitsCellViewClassTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFCUIDistanceUnitsCellViewClassTableViewCell.m; sourceTree = "<group>"; };
+		5574F5511C3B21AD007BC741 /* AFCUIDistanceUnitsCellViewClassTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCUIDistanceUnitsCellViewClassTableViewCell.h; sourceTree = "<group>"; };
 		886B07E6664FE0E20EF5859F /* libPods-MallApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MallApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB729D11C20A30D00F016B7 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		8CCAD9621C2B13890069AEB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -249,6 +252,8 @@
 				5574F54D1C3AF889007BC741 /* AFCUILocationProviderViewClassTableViewCell.h */,
 				5574F54E1C3AF889007BC741 /* AFCUILocationProviderViewClassTableViewCell.m */,
 				8F4355781BC858B700FFD46C /* AppDelegate.h */,
+				5574F5501C3B21AD007BC741 /* AFCUIDistanceUnitsCellViewClassTableViewCell.m */,
+				5574F5511C3B21AD007BC741 /* AFCUIDistanceUnitsCellViewClassTableViewCell.h */,
 				8F4355791BC858B700FFD46C /* AppDelegate.m */,
 				8FDD0F371BD1775500A0C512 /* MallAppNavigationController.h */,
 				8FDD0F381BD1775500A0C512 /* MallAppNavigationController.m */,
@@ -479,6 +484,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5574F5521C3B21AD007BC741 /* AFCUIDistanceUnitsCellViewClassTableViewCell.m in Sources */,
 				8F43558E1BC858B700FFD46C /* AppDelegate.m in Sources */,
 				8F06130F1BC8569800A55F16 /* main.m in Sources */,
 				8FDD0F3A1BD1775500A0C512 /* MallAppNavigationController.m in Sources */,
