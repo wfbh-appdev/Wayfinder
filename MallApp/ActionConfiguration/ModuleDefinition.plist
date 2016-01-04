@@ -2302,6 +2302,8 @@
 								<string>LOCATION PROVIDER</string>
 								<key>type</key>
 								<string>choice</string>
+								<key>cellViewClass</key>
+								<string>AFCUILocationProviderViewClassTableViewCell</string>
 								<key>forwardContentType</key>
 								<string>Map</string>
 								<key>forwardContentAction</key>
@@ -2327,12 +2329,6 @@
 										<string>GPS / Apple Indoor (if available)</string>
 										<key>identifier</key>
 										<string>PWGPSLocationManager</string>
-									</dict>
-									<dict>
-										<key>name</key>
-										<string>None</string>
-										<key>identifier</key>
-										<string>None</string>
 									</dict>
 								</array>
 							</dict>
