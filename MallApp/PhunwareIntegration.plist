@@ -45,7 +45,7 @@
 		<key>logToStdout</key>
 		<true/>
 		<key>verbosity</key>
-		<string>YES</string>
+		<string>Debug</string>
 	</dict>
 	<key>Core WS Integration</key>
 	<dict>
@@ -196,7 +196,7 @@
 		<key>ApplicationSettings</key>
 		<dict>
 			<key>vscDefaultIndoorLocationProvider</key>
-			<string>MSE</string>
+			<string>PWSLLocationManager</string>
 		</dict>
 	</dict>
 	<key>MaaSLocationProvider</key>

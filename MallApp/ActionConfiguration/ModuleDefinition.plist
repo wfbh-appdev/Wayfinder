@@ -1954,15 +1954,6 @@
 								<string>load</string>
 							</dict>
 						</dict>
-						<dict>
-							<key>className</key>
-							<string>AFCMSetLocationProviderAction</string>
-							<key>parameters</key>
-							<dict>
-								<key>contentId</key>
-								<string>PWSLLocationManager</string>
-							</dict>
-						</dict>
 					</array>
 				</dict>
 			</dict>
