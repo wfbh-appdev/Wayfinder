@@ -113,7 +113,7 @@
 						<key>itemDetailLocationKey</key>
 						<string></string>
 						<key>itemDetailDescriptionKey</key>
-						<string>Details</string>
+						<string>Description</string>
 						<key>itemDetailIdentifierKey</key>
 						<string>EventID</string>
 						<key>itemDetailFavoriteContext</key>
