@@ -17,6 +17,7 @@ DerivedData
 *.ipa
 *.xcuserstate
 .gradle
+*.xcscmblueprint
 
 # CocoaPods
 #
