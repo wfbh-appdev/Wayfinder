@@ -25,11 +25,6 @@
     AFCAbstractModule *module=[[AFCDictionaryBasedModule alloc] initWithDictionary:dictionary];
     [[AFCCoreEngine sharedCore] addModule:module];
     
-    AFCContentActionData *CME = [[AFCContentActionData alloc] init];
-    CME.contentType = @"CME";
-    CME.contentAction= @"load";
-    //[[AFCCoreEngine sharedCore] startContentActionWithData:CME];
-    
     AFCCMEConfiguration *configuration=[AFCAppDefaults standardDefaults].cme;
     if(configuration.venues)
     {
