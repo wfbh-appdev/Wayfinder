@@ -79,7 +79,7 @@
 		<key>MaaSPlatformName</key>
 		<string>iOS</string>
 		<key>S3URL</key>
-		<string>https://d976wpkgnwt12.cloudfront.net</string>
+		<string>https://solutions-db.phunware.com</string>
 	</dict>
 	<key>StartupSettings</key>
 	<dict>
