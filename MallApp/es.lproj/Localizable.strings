@@ -164,7 +164,7 @@
  *  AFCCheckForceUpdate Strings
  */
 "afccheckforceupdate.prompt.message.displayforceupdate.alert.title" = "Actualización Requerida";
-"afccheckforceupdate.displayforceupdate.alert.title" = "Atención"
+"afccheckforceupdate.displayforceupdate.alert.title" = "Actualización Disponible"
 "afccheckforceupdate.displayforceupdate.alert.message" = "Una nueva versión ha sido lanzada. Usted debe actualizar a la última versión.";
 "afccheckforceupdate.displayforceupdate.alert.button.title" = "Actualizar";
 "afccheckforceupdate.displayupdateavailable.alert.title" = "Actualización Disponible";
