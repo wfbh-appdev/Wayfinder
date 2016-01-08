@@ -32,7 +32,7 @@
 		<key>TOKEN_MIXPANEL</key>
 		<string>YOUR_MIXPANEL_TOKEN</string>
 		<key>TOKEN_GOOGLE</key>
-		<string>YOUR_GOOGLEANALYTICS_TOKEN</string>
+		<string>UA-71848714-1</string>
 		<key>TOKEN_MAAS</key>
 		<string>YOUR_MAAS_TOKEN</string>
 		<key>TOKEN_LOCALYTICS</key>

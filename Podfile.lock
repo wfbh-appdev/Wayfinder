@@ -50,6 +50,22 @@ PODS:
   - CoreNetwork (0.52):
     - AFNetworking
     - SDWebImage (~> 3.7.2)
+  - Google/Analytics (1.3.2):
+    - Google/Core
+    - GoogleAnalytics (~> 3.12)
+  - Google/Core (1.3.2):
+    - GoogleInterchangeUtilities (~> 1.0)
+    - GoogleNetworkingUtilities (~> 1.0)
+    - GoogleSymbolUtilities (~> 1.0)
+    - GoogleUtilities (~> 1.1)
+  - GoogleAnalytics (3.14.0)
+  - GoogleInterchangeUtilities (1.1.0):
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleNetworkingUtilities (1.0.0):
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleSymbolUtilities (1.0.3)
+  - GoogleUtilities (1.1.0):
+    - GoogleSymbolUtilities (~> 1.0.0)
   - JLRoutes (1.5.3)
   - Mantle (2.0.6):
     - Mantle/extobjc (= 2.0.6)
@@ -88,6 +104,7 @@ DEPENDENCIES:
   - AppFrameworkRenderModule (from `https://github.com/phunware/sdk-ios-appframework-render-binary.git`)
   - AppFrameworkSalesModule (from `https://github.com/phunware/sdk-ios-appframework-sales.git`)
   - CoreNetwork (from `https://github.com/phunware/sdk-ios-appframework-network.git`)
+  - Google/Analytics
   - PWLocalpoint (from `https://github.com/phunware/maas-localpoint-ios-sdk.git`)
   - PWUIKit (from `https://github.com/phunware/sdk-ios-pwuikit-binary.git`)
 
@@ -122,10 +139,10 @@ CHECKOUT OPTIONS:
     :commit: e08656ec963acaceabc2f0205cb9237579ef65e4
     :git: https://github.com/phunware/sdk-ios-appframework-alerts-binary.git
   AppFrameworkCore:
-    :commit: 03fc08f0035dad3cb6a259595ddcc0873d9c2cac
+    :commit: d70c144d2565ba0363eddc916847bd886d5aa78c
     :git: https://github.com/phunware/sdk-ios-appframework-core-binary.git
   AppFrameworkDirectoryModule:
-    :commit: fd4ab9ab5527fa4f83db869de0135021adceb3e1
+    :commit: 14aeb977ebf2d561d36908d1853778630a3b33f5
     :git: https://github.com/phunware/sdk-ios-appframework-directory-binary.git
   AppFrameworkEventsModule:
     :commit: 125c140685683085c44a9ba22bf71d4fb4788082
@@ -134,7 +151,7 @@ CHECKOUT OPTIONS:
     :commit: 0cb88f8a24659b5b2fd1430268ce4e5fa0bac6b4
     :git: https://github.com/phunware/sdk-ios-appframework-location-marketing-binary.git
   AppFrameworkMappingModule:
-    :commit: 5585f1a087a36f82ee77a494633854c1d2e541a5
+    :commit: f4b3fe3c9f34e750755e34a855feb86940fc6187
     :git: https://github.com/phunware/sdk-ios-appframework-mapping-binary.git
   AppFrameworkParkingModule:
     :commit: 915145db75ac3940868694e433afd17e8767f748
@@ -168,6 +185,12 @@ SPEC CHECKSUMS:
   AppFrameworkSalesModule: b7c1168329a8d3b958a7d1a7f8acb32bfb4f0869
   CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
   CoreNetwork: c599b27199ebc0ad2e9b1b34a576e6e48c59f4cb
+  Google: 97618e118111b998cce1d8dd1bd98b82301d72db
+  GoogleAnalytics: 9be1afdb8deeac4bb5f13ca7f7d3b9db2a1f43dc
+  GoogleInterchangeUtilities: d7f7174176fbcf9710f696f1acebad4dbd98ac03
+  GoogleNetworkingUtilities: 292992ab31b7b4ba32809a0e8b40e324cdfb2c0c
+  GoogleSymbolUtilities: 82ad9f93d3615244b3f4ce440f5ab2515e8b4f56
+  GoogleUtilities: 8ed9134debe11719097881711464752900668f10
   JLRoutes: 20555d00693855b71e80715eeaae6a930a33b2f5
   Mantle: 299966b00759634931699f69cb6a30b9239b944d
   PSAlertView: 16d35f5dba549418492cf68a750d4f0dca21f4a2

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C1DE4301C3F306B0074369D /* AFGoogleAnalyticsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1DE42F1C3F306B0074369D /* AFGoogleAnalyticsController.m */; };
 		551BF9251C1B51E9004D7ECD /* Pods-GenericAF4.adhoc.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 551BF9211C1B51E9004D7ECD /* Pods-GenericAF4.adhoc.xcconfig */; };
 		551BF9261C1B51E9004D7ECD /* Pods-GenericAF4.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 551BF9221C1B51E9004D7ECD /* Pods-GenericAF4.debug.xcconfig */; };
 		551BF9271C1B51E9004D7ECD /* Pods-GenericAF4.distribution.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 551BF9231C1B51E9004D7ECD /* Pods-GenericAF4.distribution.xcconfig */; };
@@ -68,6 +69,8 @@
 
 /* Begin PBXFileReference section */
 		0E5B123ED1B492C74F121FB6 /* libPods-GenericAF4.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GenericAF4.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C1DE42E1C3F306B0074369D /* AFGoogleAnalyticsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFGoogleAnalyticsController.h; sourceTree = "<group>"; };
+		3C1DE42F1C3F306B0074369D /* AFGoogleAnalyticsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFGoogleAnalyticsController.m; sourceTree = "<group>"; };
 		551BF9211C1B51E9004D7ECD /* Pods-GenericAF4.adhoc.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-GenericAF4.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4.adhoc.xcconfig"; sourceTree = "<group>"; };
 		551BF9221C1B51E9004D7ECD /* Pods-GenericAF4.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-GenericAF4.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4.debug.xcconfig"; sourceTree = "<group>"; };
 		551BF9231C1B51E9004D7ECD /* Pods-GenericAF4.distribution.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-GenericAF4.distribution.xcconfig"; path = "Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4.distribution.xcconfig"; sourceTree = "<group>"; };
@@ -248,6 +251,8 @@
 		8F4355771BC858B700FFD46C /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				3C1DE42E1C3F306B0074369D /* AFGoogleAnalyticsController.h */,
+				3C1DE42F1C3F306B0074369D /* AFGoogleAnalyticsController.m */,
 				5574F54A1C3AD921007BC741 /* AFCUIMaasVersionCellViewClassTableViewCell.h */,
 				5574F54B1C3AD921007BC741 /* AFCUIMaasVersionCellViewClassTableViewCell.m */,
 				5574F54D1C3AF889007BC741 /* AFCUILocationProviderViewClassTableViewCell.h */,
@@ -485,6 +490,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C1DE4301C3F306B0074369D /* AFGoogleAnalyticsController.m in Sources */,
 				5574F5521C3B21AD007BC741 /* AFCUIDistanceUnitsCellViewClassTableViewCell.m in Sources */,
 				8F43558E1BC858B700FFD46C /* AppDelegate.m in Sources */,
 				8F06130F1BC8569800A55F16 /* main.m in Sources */,

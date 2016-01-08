@@ -12,6 +12,9 @@
 #import <AppFrameworkCore/AFCDictionaryBasedModule.h>
 #import <AppFrameworkCore/AFCAppDefaults.h>
 #import <AppFrameworkCore/UIApplication+AFCAppState.h>
+#import <AppFrameworkCore/UIApplication+AFAnalytics.h>
+#import <AppFrameworkCore/AppFrameworkCore.h>
+#import "AFGoogleAnalyticsController.h"
 #import <Crashlytics/Crashlytics.h>
 
 @implementation AppDelegate
@@ -36,8 +39,10 @@
             [[UIApplication sharedApplication] setValue:campus forKey:kAFCApplicationStateCurrentCampus];
         }
     }
+//    [UIApplication.registerAnalyticsDelegate:[[AFGoogleAnalyticsController alloc] init]];
     
-    
+    [[UIApplication sharedApplication] registerAnalyticsDelegate: [[AFGoogleAnalyticsController alloc] init]];
+      
     return [super application:application willFinishLaunchingWithOptions:launchOptions];
 }
 

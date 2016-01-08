@@ -16,6 +16,7 @@ target :'GenericAF4', :exclusive => true do
     pod 'AppFrameworkRenderModule', :git => 'https://github.com/phunware/sdk-ios-appframework-render-binary.git'
     #pod 'AppFrameworkRenderModule', :path =>  '../sdk-ios-appframework-render/Framework'
     
+    pod 'Google/Analytics'
     
     pod 'AppFrameworkParkingModule', :git =>  'https://github.com/phunware/sdk-ios-appframework-parking-binary.git'
     pod 'AppFrameworkDirectoryModule', :git =>  'https://github.com/phunware/sdk-ios-appframework-directory-binary.git'
