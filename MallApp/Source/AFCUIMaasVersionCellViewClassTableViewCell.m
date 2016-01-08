@@ -15,6 +15,9 @@
 #import <PWAnalytics/PWAnalytics.h>
 #import <PWUIKit/PWUIKit.h>
 #import <PWAdvertising/PWAds.h>
+#import <PWCME/PWCME.h>
+#import <Localpoint/Localpoint.h>
+
 
 @implementation AFCUIMaasVersionCellViewClassTableViewCell
 
@@ -22,6 +25,8 @@
 
 - (void)drawRect:(CGRect)rect{
     NSString *versionString=@"-";
+    
+    
     if ([super.textLabel.text isEqualToString:@"PwMapKit"])
         versionString = PWMapKit_VERSION;
     if ([super.textLabel.text isEqualToString:@"PwLocation"])
@@ -32,12 +37,13 @@
         versionString = PWAlerts_VERSION;
     if ([super.textLabel.text isEqualToString:@"PwAnalytics"])
         versionString = PWAnalytics_VERSION;
-    if ([super.textLabel.text isEqualToString:@"MaaSAdvertising"])
+    if ([super.textLabel.text isEqualToString:@"PwAds"])
         versionString = PWADS_VERSION;
-
-
-
-    
+    if ([super.textLabel.text isEqualToString:@"PwCME"])
+        versionString = MaaSCMS_VERSION;
+    if ([super.textLabel.text isEqualToString:@"PwLocationMarketing"]){
+        versionString = [[[LPLocalpointService instance] getSDKVersion] getValue];
+    }
 
     
     

@@ -165,7 +165,7 @@
  *  AFCCheckForceUpdate Strings
  */
 "afccheckforceupdate.prompt.message.displayforceupdate.alert.title" = "Update Required";
-"afccheckforceupdate.displayforceupdate.alert.title" = "App Update Available"
+"afccheckforceupdate.displayforceupdate.alert.title" = "App Update Available";
 "afccheckforceupdate.displayforceupdate.alert.message" = "A new version has been released. You must update to the latest version.";
 "afccheckforceupdate.displayforceupdate.alert.button.title" = "Update";
 "afccheckforceupdate.displayupdateavailable.alert.title" = "Update Available";

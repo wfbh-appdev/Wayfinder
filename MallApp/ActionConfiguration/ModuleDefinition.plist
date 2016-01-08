@@ -2409,11 +2409,11 @@
 									</dict>
 									<dict>
 										<key>name</key>
-										<string>LocationMarketing</string>
+										<string>PwLocationMarketing</string>
 									</dict>
 									<dict>
 										<key>name</key>
-										<string>MaaSAdvertising</string>
+										<string>PwAds</string>
 									</dict>
 								</array>
 							</dict>
