@@ -118,6 +118,8 @@
 										<real>102951</real>
 										<key>vscFloorName</key>
 										<string>Floor 1</string>
+										<key>vscSenionFloorKeyiOS</key>
+										<string>1</string>
 									</dict>
 									<dict>
 										<key>Beacons</key>
@@ -128,6 +130,8 @@
 										<real>102950</real>
 										<key>vscFloorName</key>
 										<string>Floor 2</string>
+										<key>vscSenionFloorKeyiOS</key>
+										<string>0</string>
 									</dict>
 								</array>
 								<key>Geo Settings</key>
