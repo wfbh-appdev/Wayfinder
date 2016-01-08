@@ -1179,6 +1179,41 @@
 		</dict>
 		<key>Route</key>
 		<dict>
+			<key>link</key>
+			<dict>
+				<key>className</key>
+				<string>AFCMStartRouteBuilderUIAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>annotations</key>
+					<string>$module.pois</string>
+				</dict>
+				<key>dependencies</key>
+				<array>
+					<dict>
+						<key>className</key>
+						<string>AFCActionIncluder</string>
+						<key>ignoreParentParameters</key>
+						<true/>
+						<key>parameters</key>
+						<dict>
+							<key>includeContentType</key>
+							<string>Map</string>
+							<key>includeContentAction</key>
+							<string>push</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>className</key>
+						<string>AFCMVerifyUserInFacilityAction</string>
+						<key>parameters</key>
+						<dict>
+							<key>resultsKey</key>
+							<string>show</string>
+						</dict>
+					</dict>
+				</array>
+			</dict>
 			<key>make</key>
 			<dict>
 				<key>className</key>
