@@ -64,7 +64,7 @@
 
 "afcuimpoifiltereditorviewcontroller.savefiltersbutton.buttontitle" = "Guardar Filtros";
 "afcuimpoifiltereditorviewcontroller.cancelbutton.buttontitle" = "Cancelar";
-"afcuimpoifiltereditorviewcontroller.titlelabel.text" = "Elija Filtro de PDI";
+"afcuimpoifiltereditorviewcontroller.titlelabel.text" = "Elija Filtro de POI";
 
 /*
  *  AFCUIAnnotationDetailViewController Strings
@@ -171,4 +171,14 @@
 "afccheckforceupdate.displayupdateavailable.alert.message" = "Una nueva versión ha sido lanzada. Por favor actualice a la última versión.";
 "afccheckforceupdate.displayupdateavailable.alert.button.title" = "Actualizar";
 "afccheckforceupdate.displayupdateavailable.alert.cancel.title" = "Ahora no";
+
+/*
+ * EULA Agreement
+ */
+
+"afceulapromoptaction.prompt.message" = "¿Está de acuerdo con el contenido de la licencia de uso y los términos y condiciones de uso?";
+"afceulapromoptaction.prompt.message.title" = "Acuerdo de Licencia";
+"afceulapromoptaction.prompt.message.agreebutton.title"="DE ACUERDO";
+"afceulapromoptaction.prompt.message.viewbutton.title"="VER LICENCIA";
+
 

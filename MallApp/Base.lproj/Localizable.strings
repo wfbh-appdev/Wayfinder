@@ -173,3 +173,12 @@
 "afccheckforceupdate.displayupdateavailable.alert.button.title" = "Update";
 "afccheckforceupdate.displayupdateavailable.alert.cancel.title" = "Not Now";
 
+/**
+ * EULA Agreement
+ */
+
+"afceulapromoptaction.prompt.message" = "Do you agree with the License Agreement and the terms and conditions?";
+"afceulapromoptaction.prompt.message.title" = "License Agreement";
+"afceulapromoptaction.prompt.message.agreebutton.title"="AGREE";
+"afceulapromoptaction.prompt.message.viewbutton.title"="VIEW";
+

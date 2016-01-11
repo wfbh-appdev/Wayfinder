@@ -1,0 +1,16 @@
+/* 
+  InfoPlist.strings
+  GenericAF4
+
+  Created by Hugo Oscar on 1/11/16.
+  Copyright © 2016 Phunware. All rights reserved.
+*/
+
+
+
+/*
+ * info.plist
+ */
+
+"NSLocationWhenInUseUsageDescription" = "La aplicación requiere su ubicación para mostrarle dónde se estacionó";
+"NSLocationAlwaysUsageDescription" = "La aplicación requiere su ubicación para mostrarle dónde se estacionó";
