@@ -189,3 +189,5 @@
 
 "afcdirectoryviewcontroller.viewdidload.allString" = "All";
 "afcdirectoryviewcontroller.viewdidload.favoritesString" = "Favorites";
+
+"afcdirectoryviewcontroller.setSearchBarPlaceHolder.searchText" = "Search";
