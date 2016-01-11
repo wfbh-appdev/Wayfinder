@@ -181,4 +181,5 @@
 "afceulapromoptaction.prompt.message.agreebutton.title"="DE ACUERDO";
 "afceulapromoptaction.prompt.message.viewbutton.title"="VER LICENCIA";
 
-
+"afcdirectoryviewcontroller.viewdidload.allString" = "Todos";
+"afcdirectoryviewcontroller.viewdidload.favoritesString" = "Favoritos";

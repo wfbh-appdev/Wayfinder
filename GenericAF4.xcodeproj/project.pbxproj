@@ -17,6 +17,7 @@
 		5520ABC71C19E3A000757715 /* Splash@2x.mov in Resources */ = {isa = PBXBuildFile; fileRef = 5520ABC41C19E3A000757715 /* Splash@2x.mov */; };
 		5555DB031C4460C900E37207 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5555DB051C4460C900E37207 /* InfoPlist.strings */; };
 		5555DB071C44646800E37207 /* AFCDirectoryViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5555DB091C44646800E37207 /* AFCDirectoryViewController.plist */; };
+		5555DB0B1C446C6A00E37207 /* AFCDirectoryCategoryViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5555DB0D1C446C6A00E37207 /* AFCDirectoryCategoryViewController.plist */; };
 		5574F54C1C3AD921007BC741 /* AFCUIMaasVersionCellViewClassTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5574F54B1C3AD921007BC741 /* AFCUIMaasVersionCellViewClassTableViewCell.m */; };
 		5574F54F1C3AF889007BC741 /* AFCUILocationProviderViewClassTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5574F54E1C3AF889007BC741 /* AFCUILocationProviderViewClassTableViewCell.m */; };
 		5574F5521C3B21AD007BC741 /* AFCUIDistanceUnitsCellViewClassTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5574F5501C3B21AD007BC741 /* AFCUIDistanceUnitsCellViewClassTableViewCell.m */; };
@@ -26,7 +27,6 @@
 		8F06130F1BC8569800A55F16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F06130E1BC8569800A55F16 /* main.m */; };
 		8F0613181BC8569800A55F16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F0613161BC8569800A55F16 /* Main.storyboard */; };
 		8F106FA31BC9D44000CCDD86 /* InteractivePushNotificationCategories.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F106FA21BC9D44000CCDD86 /* InteractivePushNotificationCategories.plist */; };
-		8F4355841BC858B700FFD46C /* AFCDirectoryCategoryViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F43556D1BC858B700FFD46C /* AFCDirectoryCategoryViewController.plist */; };
 		8F4355861BC858B700FFD46C /* AFCParkingMapViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F43556F1BC858B700FFD46C /* AFCParkingMapViewController.plist */; };
 		8F4355871BC858B700FFD46C /* AFCParkingNoteViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F4355701BC858B700FFD46C /* AFCParkingNoteViewController.plist */; };
 		8F4355881BC858B700FFD46C /* AFCParkingPhotoViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F4355711BC858B700FFD46C /* AFCParkingPhotoViewController.plist */; };
@@ -83,6 +83,8 @@
 		5555DB061C4460CC00E37207 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5555DB081C44646800E37207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/AFCDirectoryViewController.plist; sourceTree = "<group>"; };
 		5555DB0A1C44646B00E37207 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = es; path = es.lproj/AFCDirectoryViewController.plist; sourceTree = "<group>"; };
+		5555DB0C1C446C6A00E37207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/AFCDirectoryCategoryViewController.plist; sourceTree = "<group>"; };
+		5555DB0E1C446C6B00E37207 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = es; path = es.lproj/AFCDirectoryCategoryViewController.plist; sourceTree = "<group>"; };
 		5574F54A1C3AD921007BC741 /* AFCUIMaasVersionCellViewClassTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCUIMaasVersionCellViewClassTableViewCell.h; sourceTree = "<group>"; };
 		5574F54B1C3AD921007BC741 /* AFCUIMaasVersionCellViewClassTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFCUIMaasVersionCellViewClassTableViewCell.m; sourceTree = "<group>"; };
 		5574F54D1C3AF889007BC741 /* AFCUILocationProviderViewClassTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCUILocationProviderViewClassTableViewCell.h; sourceTree = "<group>"; };
@@ -100,7 +102,6 @@
 		8F06130E1BC8569800A55F16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8F0613171BC8569800A55F16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F106FA21BC9D44000CCDD86 /* InteractivePushNotificationCategories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = InteractivePushNotificationCategories.plist; sourceTree = "<group>"; };
-		8F43556D1BC858B700FFD46C /* AFCDirectoryCategoryViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCDirectoryCategoryViewController.plist; sourceTree = "<group>"; };
 		8F43556F1BC858B700FFD46C /* AFCParkingMapViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCParkingMapViewController.plist; sourceTree = "<group>"; };
 		8F4355701BC858B700FFD46C /* AFCParkingNoteViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCParkingNoteViewController.plist; sourceTree = "<group>"; };
 		8F4355711BC858B700FFD46C /* AFCParkingPhotoViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCParkingPhotoViewController.plist; sourceTree = "<group>"; };
@@ -235,7 +236,7 @@
 				8F43559B1BC85B8F00FFD46C /* EventTableViewCell.plist */,
 				8F4355981BC85B7800FFD46C /* AFCUIWebViewController.plist */,
 				8F4355961BC85B7100FFD46C /* AFCUIEULAViewController.plist */,
-				8F43556D1BC858B700FFD46C /* AFCDirectoryCategoryViewController.plist */,
+				5555DB0D1C446C6A00E37207 /* AFCDirectoryCategoryViewController.plist */,
 				5555DB091C44646800E37207 /* AFCDirectoryViewController.plist */,
 				8F43556F1BC858B700FFD46C /* AFCParkingMapViewController.plist */,
 				8F4355701BC858B700FFD46C /* AFCParkingNoteViewController.plist */,
@@ -396,7 +397,7 @@
 				8F8C542A1BD7ED9A0018A2ED /* AFCUIImageSplashViewController.plist in Resources */,
 				8F4355921BC858B700FFD46C /* Splash.mov in Resources */,
 				8F43558D1BC858B700FFD46C /* AFCUITrayMenuViewController.plist in Resources */,
-				8F4355841BC858B700FFD46C /* AFCDirectoryCategoryViewController.plist in Resources */,
+				5555DB0B1C446C6A00E37207 /* AFCDirectoryCategoryViewController.plist in Resources */,
 				8F43558A1BC858B700FFD46C /* AFCParkingVoiceMemoViewController.plist in Resources */,
 				8F5FFFBD1BCC2F58000B027C /* AFCUIMAnnotationDirectoryViewController.plist in Resources */,
 				8F5FFFC11BCC2F58000B027C /* AFCUIAnnotationDetailViewController.plist in Resources */,
@@ -526,6 +527,15 @@
 				5555DB0A1C44646B00E37207 /* es */,
 			);
 			name = AFCDirectoryViewController.plist;
+			sourceTree = "<group>";
+		};
+		5555DB0D1C446C6A00E37207 /* AFCDirectoryCategoryViewController.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5555DB0C1C446C6A00E37207 /* Base */,
+				5555DB0E1C446C6B00E37207 /* es */,
+			);
+			name = AFCDirectoryCategoryViewController.plist;
 			sourceTree = "<group>";
 		};
 		558BA0AF1C44531A00394237 /* Info.plist */ = {
