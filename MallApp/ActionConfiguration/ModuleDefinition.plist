@@ -2581,9 +2581,9 @@
 								<key>shouldPrependProperty</key>
 								<false/>
 								<key>triggerContentType</key>
-								<string>Lobby</string>
+								<string></string>
 								<key>triggerContentAction</key>
-								<string>load</string>
+								<string></string>
 							</dict>
 							<key>dependencies</key>
 							<array>
