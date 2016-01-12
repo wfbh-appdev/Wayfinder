@@ -210,5 +210,5 @@
 "Dismiss" = "Cerrar";
 "Enable Push Notifications" = "Habilite Notificaciones Push";
 "Take Me There" = "Llévame ahí";
-
+"This application needs Location Services enabled in order to find your indoor location. Click 'Take Me There' to turn this on in Settings."="Esta aplicación necesita Servicios de Localización habilitados para poder encontrar su ubicación interior. Tap en 'Llévame ahí' para encender esto en Preferencias.";
 
