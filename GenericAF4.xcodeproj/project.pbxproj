@@ -18,6 +18,7 @@
 		5555DB031C4460C900E37207 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5555DB051C4460C900E37207 /* InfoPlist.strings */; };
 		5555DB071C44646800E37207 /* AFCDirectoryViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5555DB091C44646800E37207 /* AFCDirectoryViewController.plist */; };
 		5555DB0B1C446C6A00E37207 /* AFCDirectoryCategoryViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5555DB0D1C446C6A00E37207 /* AFCDirectoryCategoryViewController.plist */; };
+		5555DB0F1C448FDB00E37207 /* ModuleDefinition.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5555DB111C448FDB00E37207 /* ModuleDefinition.plist */; };
 		5574F54C1C3AD921007BC741 /* AFCUIMaasVersionCellViewClassTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5574F54B1C3AD921007BC741 /* AFCUIMaasVersionCellViewClassTableViewCell.m */; };
 		5574F54F1C3AF889007BC741 /* AFCUILocationProviderViewClassTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5574F54E1C3AF889007BC741 /* AFCUILocationProviderViewClassTableViewCell.m */; };
 		5574F5521C3B21AD007BC741 /* AFCUIDistanceUnitsCellViewClassTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5574F5501C3B21AD007BC741 /* AFCUIDistanceUnitsCellViewClassTableViewCell.m */; };
@@ -44,7 +45,6 @@
 		8F4355991BC85B7800FFD46C /* AFCUIWebViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F4355981BC85B7800FFD46C /* AFCUIWebViewController.plist */; };
 		8F43559C1BC85B8F00FFD46C /* EventsListViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F43559A1BC85B8F00FFD46C /* EventsListViewController.plist */; };
 		8F43559D1BC85B8F00FFD46C /* EventTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F43559B1BC85B8F00FFD46C /* EventTableViewCell.plist */; };
-		8F43559F1BC85B9C00FFD46C /* ModuleDefinition.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F43559E1BC85B9C00FFD46C /* ModuleDefinition.plist */; };
 		8F5FFFBD1BCC2F58000B027C /* AFCUIMAnnotationDirectoryViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F5FFFB81BCC2F58000B027C /* AFCUIMAnnotationDirectoryViewController.plist */; };
 		8F5FFFBE1BCC2F58000B027C /* AFCUIMLocationCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F5FFFB91BCC2F58000B027C /* AFCUIMLocationCell.plist */; };
 		8F5FFFBF1BCC2F58000B027C /* AFCUIMRouteBuilderViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F5FFFBA1BCC2F58000B027C /* AFCUIMRouteBuilderViewController.plist */; };
@@ -85,6 +85,8 @@
 		5555DB0A1C44646B00E37207 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = es; path = es.lproj/AFCDirectoryViewController.plist; sourceTree = "<group>"; };
 		5555DB0C1C446C6A00E37207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/AFCDirectoryCategoryViewController.plist; sourceTree = "<group>"; };
 		5555DB0E1C446C6B00E37207 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = es; path = es.lproj/AFCDirectoryCategoryViewController.plist; sourceTree = "<group>"; };
+		5555DB101C448FDB00E37207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/ModuleDefinition.plist; sourceTree = "<group>"; };
+		5555DB121C448FDE00E37207 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = es; path = es.lproj/ModuleDefinition.plist; sourceTree = "<group>"; };
 		5574F54A1C3AD921007BC741 /* AFCUIMaasVersionCellViewClassTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCUIMaasVersionCellViewClassTableViewCell.h; sourceTree = "<group>"; };
 		5574F54B1C3AD921007BC741 /* AFCUIMaasVersionCellViewClassTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFCUIMaasVersionCellViewClassTableViewCell.m; sourceTree = "<group>"; };
 		5574F54D1C3AF889007BC741 /* AFCUILocationProviderViewClassTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCUILocationProviderViewClassTableViewCell.h; sourceTree = "<group>"; };
@@ -120,7 +122,6 @@
 		8F4355981BC85B7800FFD46C /* AFCUIWebViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCUIWebViewController.plist; sourceTree = "<group>"; };
 		8F43559A1BC85B8F00FFD46C /* EventsListViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EventsListViewController.plist; sourceTree = "<group>"; };
 		8F43559B1BC85B8F00FFD46C /* EventTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EventTableViewCell.plist; sourceTree = "<group>"; };
-		8F43559E1BC85B9C00FFD46C /* ModuleDefinition.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ModuleDefinition.plist; sourceTree = "<group>"; };
 		8F5FFFB81BCC2F58000B027C /* AFCUIMAnnotationDirectoryViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCUIMAnnotationDirectoryViewController.plist; sourceTree = "<group>"; };
 		8F5FFFB91BCC2F58000B027C /* AFCUIMLocationCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCUIMLocationCell.plist; sourceTree = "<group>"; };
 		8F5FFFBA1BCC2F58000B027C /* AFCUIMRouteBuilderViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCUIMRouteBuilderViewController.plist; sourceTree = "<group>"; };
@@ -297,7 +298,7 @@
 			isa = PBXGroup;
 			children = (
 				8F106FA21BC9D44000CCDD86 /* InteractivePushNotificationCategories.plist */,
-				8F43559E1BC85B9C00FFD46C /* ModuleDefinition.plist */,
+				5555DB111C448FDB00E37207 /* ModuleDefinition.plist */,
 				8FDD0F481BD190B900A0C512 /* ApplicationShortcuts.plist */,
 			);
 			path = ActionConfiguration;
@@ -405,7 +406,7 @@
 				8F4355931BC858B700FFD46C /* Splash@2x.mov in Resources */,
 				8F43559C1BC85B8F00FFD46C /* EventsListViewController.plist in Resources */,
 				8FDD0F4E1BD1CC5000A0C512 /* ProximaNova-Light.otf in Resources */,
-				8F43559F1BC85B9C00FFD46C /* ModuleDefinition.plist in Resources */,
+				5555DB0F1C448FDB00E37207 /* ModuleDefinition.plist in Resources */,
 				8F4355881BC858B700FFD46C /* AFCParkingPhotoViewController.plist in Resources */,
 				8F8C54221BD798060018A2ED /* AFCUIHoneyBadgerTableViewCell.plist in Resources */,
 				551BF9261C1B51E9004D7ECD /* Pods-GenericAF4.debug.xcconfig in Resources */,
@@ -536,6 +537,15 @@
 				5555DB0E1C446C6B00E37207 /* es */,
 			);
 			name = AFCDirectoryCategoryViewController.plist;
+			sourceTree = "<group>";
+		};
+		5555DB111C448FDB00E37207 /* ModuleDefinition.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5555DB101C448FDB00E37207 /* Base */,
+				5555DB121C448FDE00E37207 /* es */,
+			);
+			name = ModuleDefinition.plist;
 			sourceTree = "<group>";
 		};
 		558BA0AF1C44531A00394237 /* Info.plist */ = {
