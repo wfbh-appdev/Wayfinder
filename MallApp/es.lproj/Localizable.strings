@@ -204,3 +204,11 @@
 "Directions To Facility"="Dirección al Establecimiento";
 "Cancel"= "Cancelar";
 "Save Filters" = "Guardar Filtros";
+
+"Please go to the Notification Settings on your device and enable push notifications to use this feature." = "Por favor, vaya a las preferencias de notificaciones en su dispositivo y habilite las notificaciones push para usar esta funcionalidad";
+"Settings" = "Preferencias";
+"Dismiss" = "Cerrar";
+"Enable Push Notifications" = "Habilite Notificaciones Push";
+"Take Me There" = "Llévame ahí";
+
+

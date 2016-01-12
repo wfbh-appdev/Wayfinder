@@ -88,9 +88,9 @@ PODS:
     - PWLocation
   - PWUIKit (0.0.1)
   - REMenu (1.10)
-  - SDWebImage (3.7.3):
-    - SDWebImage/Core (= 3.7.3)
-  - SDWebImage/Core (3.7.3)
+  - SDWebImage (3.7.4):
+    - SDWebImage/Core (= 3.7.4)
+  - SDWebImage/Core (3.7.4)
   - TurtleBezierPath (1.0)
 
 DEPENDENCIES:
@@ -139,10 +139,10 @@ CHECKOUT OPTIONS:
     :commit: e08656ec963acaceabc2f0205cb9237579ef65e4
     :git: https://github.com/phunware/sdk-ios-appframework-alerts-binary.git
   AppFrameworkCore:
-    :commit: d70c144d2565ba0363eddc916847bd886d5aa78c
+    :commit: 1e5b87aae95cd14f646f671cd753495bdbd90ca5
     :git: https://github.com/phunware/sdk-ios-appframework-core-binary.git
   AppFrameworkDirectoryModule:
-    :commit: 14aeb977ebf2d561d36908d1853778630a3b33f5
+    :commit: 780d0b2a41e09ac73b11d2d3c71b56f59da423bc
     :git: https://github.com/phunware/sdk-ios-appframework-directory-binary.git
   AppFrameworkEventsModule:
     :commit: 125c140685683085c44a9ba22bf71d4fb4788082
@@ -151,13 +151,13 @@ CHECKOUT OPTIONS:
     :commit: 0cb88f8a24659b5b2fd1430268ce4e5fa0bac6b4
     :git: https://github.com/phunware/sdk-ios-appframework-location-marketing-binary.git
   AppFrameworkMappingModule:
-    :commit: f4b3fe3c9f34e750755e34a855feb86940fc6187
+    :commit: 68007cb32c5665071de3e965bc98e084ecd448a2
     :git: https://github.com/phunware/sdk-ios-appframework-mapping-binary.git
   AppFrameworkParkingModule:
     :commit: 915145db75ac3940868694e433afd17e8767f748
     :git: https://github.com/phunware/sdk-ios-appframework-parking-binary.git
   AppFrameworkRenderModule:
-    :commit: 4586f2e6e7923ac5b068e15734115616ecba95eb
+    :commit: ce4ed529bc7fee286baf30dfbcc6ded030b38e32
     :git: https://github.com/phunware/sdk-ios-appframework-render-binary.git
   AppFrameworkSalesModule:
     :commit: 0357fa93b898def7cdb274f6ee8335ca046f48d6
@@ -204,7 +204,7 @@ SPEC CHECKSUMS:
   PWMapKit: 3b6dba1e01b11ff2f162a2d5b87351d14cc14f43
   PWUIKit: 52e1a11dc9e27dcc16e50ec6185e9f75f25f044e
   REMenu: 30dad195930adf6c5eeb8041e3257aa60bf9fa49
-  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  SDWebImage: 247edd7dd80dd6124197b0d6a17846fe9d1df968
   TurtleBezierPath: 680f51b8ed5a27c652974f1b89782c8e2146116b
 
 COCOAPODS: 0.39.0

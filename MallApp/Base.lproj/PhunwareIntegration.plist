@@ -75,11 +75,11 @@
 		<key>MaaSMapVenueGUID</key>
 		<string>50823c75-c362-4141-b213-1dbb5220c968</string>
 		<key>MaaSAppName</key>
-		<string>Generic AF4 iPhone</string>
+		<string>PhunGeneric_v4</string>
 		<key>MaaSPlatformName</key>
 		<string>iOS</string>
 		<key>S3URL</key>
-		<string>https://solutions-db.phunware.com</string>
+		<string>https://d976wpkgnwt12.cloudfront.net</string>
 	</dict>
 	<key>StartupSettings</key>
 	<dict>
