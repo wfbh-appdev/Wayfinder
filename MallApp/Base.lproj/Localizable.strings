@@ -191,3 +191,15 @@
 "afcdirectoryviewcontroller.viewdidload.favoritesString" = "Favorites";
 
 "afcdirectoryviewcontroller.setSearchBarPlaceHolder.searchText" = "Search";
+"afcuimmapviewcontroller.searchbar.text" = "Search...";
+
+"afcuimroutingannotationview.starthereannotation.title"="Start Here";
+"afcuimroutingannotationview.destinationannotation.title"="Destination";
+
+"afcuimroutingannotationview.taptogoback.title" = "TAP TO GO BACK";
+"afcuimroutingannotationview.taptoviewnext.title" = "TAP TO VIEW NEXT";
+
+"afcuimroutingannotationview.tome.title" = "Take";
+"afcuimroutingannotationview.hacia.title" = "to";
+
+

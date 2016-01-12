@@ -30,7 +30,7 @@
  *  AFCUIMAnnotationDirectoryViewController Strings
  */
 
-"afcuimannotationdirectoryviewcontroller.titlelabel.text" = "Directorio de PDI";
+"afcuimannotationdirectoryviewcontroller.titlelabel.text" = "Directorio de POI";
 "afcuimannotationdirectoryviewcontroller.noresultsfound.text" = "No Hay Resultados";
 
 /*
@@ -185,3 +185,22 @@
 "afcdirectoryviewcontroller.viewdidload.favoritesString" = "Favoritos";
 
 "afcdirectoryviewcontroller.setSearchBarPlaceHolder.searchText" = "Buscar";
+
+"afcuimmapviewcontroller.searchbar.text" = "Buscar...";
+
+"afcuimroutingannotationview.starthereannotation.title"="Comience Aquí";
+"afcuimroutingannotationview.destinationannotation.title"="Destino";
+
+"afcuimroutingannotationview.taptogoback.title" = "TAP PARA REGRESAR";
+"afcuimroutingannotationview.taptoviewnext.title" = "TAP PARA SIGUIENTE";
+
+"afcuimroutingannotationview.tome.title" = "Tome";
+"afcuimroutingannotationview.hacia.title" = "hacia";
+
+
+"We can help you find your way to the\nfacility or within it."= "Nosotros le podemos ayudar a encontrar su camino\nhacia el establecimiento o dentro del mismo";
+"Need Directions?"="¿Necesita direcciones?";
+"Indoor Directions"="Direcciones Internas";
+"Directions To Facility"="Dirección al Establecimiento";
+"Cancel"= "Cancelar";
+"Save Filters" = "Guardar Filtros";
