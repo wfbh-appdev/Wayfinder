@@ -136,22 +136,22 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   AppFrameworkAlertsModule:
-    :commit: e08656ec963acaceabc2f0205cb9237579ef65e4
+    :commit: 48da3715c25078faf4ffa5d35e2418aad0249a82
     :git: https://github.com/phunware/sdk-ios-appframework-alerts-binary.git
   AppFrameworkCore:
-    :commit: 1e5b87aae95cd14f646f671cd753495bdbd90ca5
+    :commit: bb5c85989a3d4931d50351d4f12a86eb2f383180
     :git: https://github.com/phunware/sdk-ios-appframework-core-binary.git
   AppFrameworkDirectoryModule:
-    :commit: 780d0b2a41e09ac73b11d2d3c71b56f59da423bc
+    :commit: c34a118bae425d48f0c374e2247b26e70b5e29e6
     :git: https://github.com/phunware/sdk-ios-appframework-directory-binary.git
   AppFrameworkEventsModule:
-    :commit: 125c140685683085c44a9ba22bf71d4fb4788082
+    :commit: 7eed7312016cf9eb611c2ba51f1c6e6d626c7e4f
     :git: https://github.com/phunware/sdk-ios-appframework-events-binary.git
   AppFrameworkLocationMarketingModule:
-    :commit: 0cb88f8a24659b5b2fd1430268ce4e5fa0bac6b4
+    :commit: 7fa5ff082cf2cb6b1d4ffb88836fb534c4482a6d
     :git: https://github.com/phunware/sdk-ios-appframework-location-marketing-binary.git
   AppFrameworkMappingModule:
-    :commit: 68007cb32c5665071de3e965bc98e084ecd448a2
+    :commit: 42a2d282b4e93ee1a92d36586c9fc1e0b3344316
     :git: https://github.com/phunware/sdk-ios-appframework-mapping-binary.git
   AppFrameworkParkingModule:
     :commit: 915145db75ac3940868694e433afd17e8767f748
