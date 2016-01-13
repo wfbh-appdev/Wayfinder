@@ -104,7 +104,6 @@
 				</array>
 			</dict>
 		</dict>
-
 		<key>Events</key>
 		<dict>
 			<key>show</key>
@@ -2521,7 +2520,7 @@
 										<key>name</key>
 										<string>Versión</string>
 										<key>identifier</key>
-										<string>1.0.16</string>
+										<string>$app.appVersion</string>
 									</dict>
 								</array>
 							</dict>
