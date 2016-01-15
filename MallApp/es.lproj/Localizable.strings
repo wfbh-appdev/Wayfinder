@@ -187,6 +187,7 @@
 "afcdirectoryviewcontroller.setSearchBarPlaceHolder.searchText" = "Buscar";
 
 "afcuimmapviewcontroller.searchbar.text" = "Buscar...";
+"Search...                                                                " = "Buscar...                                                                ";
 
 "afcuimroutingannotationview.starthereannotation.title"="Comience Aquí";
 "afcuimroutingannotationview.destinationannotation.title"="Destino";
@@ -214,3 +215,592 @@
 
 "From" = "Desde";
 "to" = "hasta";
+
+"Last recorded:" = "Última grabación";
+"Recording not supported on this device"="Función no soportada en este dispositivo";
+"at"="a las";
+
+
+//POI Translations/* POI type */
+"Unknown" = "Desconocido";
+
+/* POI type */
+"Restroom" = "Sanitario";
+
+/* POI type */
+"Drinking Fountain" = "Fuente de Sodas";
+
+/* POI type */
+"Phone" = "Teléfono";
+
+/* POI type */
+"Security Checkpoint" = "Control de Seguridad";
+
+/* POI type */
+"Information" = "Información";
+
+/* POI type */
+"Baggage Room" = "Sala de Equipaje";
+
+/* POI type */
+"Valet" = "Valet";
+
+/* POI type */
+"Luggage" = "Equipaje";
+
+/* POI type */
+"Ticket Counter" = "Taquilla";
+
+/* POI type */
+"Gate" = "Puerta";
+
+/* POI type */
+"Terminal" = "Terminal";
+
+/* POI type */
+"First Aid Station" = "Estación de Primeros Auxilios";
+
+/* POI type */
+"Lost and Found" = "Perdido y Encontrado";
+
+/* POI type */
+"Luggage Carts" = "Carros de Equipaje";
+
+/* POI type */
+"Lockers" = "Casilleros";
+
+/* POI type */
+"Smoking Area" = "Área de Fumar";
+
+/* POI type */
+"Airline Lounge" = "Sala VIP de la aerolínea";
+
+/* POI type */
+"Business Area(s)" = "Área(s) Ejecutiva(s)";
+
+/* POI type */
+"Play Area" = "Área de Juego";
+
+/* POI type */
+"Security Office" = "Oficina de Seguridad";
+
+/* POI type */
+"Management Office" = "Oficina de Administración";
+
+/* POI type */
+"Food Court" = "Área de Comida";
+
+/* POI type */
+"Service Counter" = "Mostrador de Atención al Público";
+
+/* POI type */
+"Cafeteria" = "Cafetería";
+
+/* POI type */
+"Waiting Area" = "Área de Espera";
+
+/* POI type */
+"Meeting Area" = "Área de Encuentro";
+
+/* POI type */
+"Cafe" = "Café";
+
+/* POI type */
+"Conference Room" = "Sala de Conferencia";
+
+/* POI type */
+"Education" = "Educación";
+
+/* POI type */
+"Fitness" = "Ejercicio/Gimnasio";
+
+/* POI type */
+"Mailroom" = "Sala de Correos";
+
+/* POI type */
+"Offices" = "Oficinas";
+
+/* POI type */
+"Reception" = "Recepción";
+
+/* POI type */
+"Storage" = "Almacén";
+
+/* POI type */
+"Military Liaison" = "Enlace Militar";
+
+/* POI type */
+"Customs" = "Aduana";
+
+/* POI type */
+"Fast Food" = "Comida Rápida";
+
+/* POI type */
+"Charging Station" = "Estación de Carga";
+
+/* POI type */
+"Shoe Shine" = "Lustre de Zapatos";
+
+/* POI type */
+"Massage" = "Masajes";
+
+/* POI type */
+"Spa" = "Spa";
+
+/* POI type */
+"Vending Machine" = "Máquina Expendedora";
+
+/* POI type */
+"Defibrillator" = "Desfibrilador";
+
+/* POI type */
+"Nursing Room" = "Enfermería";
+
+/* POI type */
+"Pet Relief Area" = "Área de Mascotas";
+
+/* POI type */
+"Flight Monitor" = "Monitor de Vuelos";
+
+/* POI type */
+"Meditation Room" = "Cuarto de Meditación";
+
+/* POI type */
+"Seating" = "Asientos";
+
+/* POI type */
+"Wheelchair" = "Silla de Ruedas";
+
+/* POI type */
+"Mail" = "Correo";
+
+/* POI type */
+"Concourse" = "Concurso";
+
+/* POI type */
+"Aisle" = "Pasillo";
+
+/* POI type */
+"Amusement Ride" = "Paseo de Diversión";
+
+/* POI type */
+"Animal Enclosure" = "Recinto Animal";
+
+/* POI type */
+"Aquarium" = "Acuario";
+
+/* POI type */
+"Booth" = "Cabina";
+
+/* POI type */
+"Campsite" = "Sitio de Acampado";
+
+/* POI type */
+"Woodland" = "Bosques";
+
+/* POI type */
+"Drop Off Point" = "Área de Desembarque";
+
+/* POI type */
+"Gaming Area" = "Área de Juegos";
+
+/* POI type */
+"Grass/Field" = "Pasto/Campo";
+
+/* POI type */
+"Hotel Room" = "Cuarto de Hotel";
+
+/* POI type */
+"Museum Exhibit" = "Exhibición de Museo";
+
+/* POI type */
+"Pedestrian Path" = "Paso Peatonal";
+
+/* POI type */
+"Picnic Area" = "Área de Picnic";
+
+/* POI type */
+"Sports Field" = "Campo de Deportes";
+
+/* POI type */
+"Track" = "Pista";
+
+/* POI type */
+"Water Feature" = "Fuente de Agua";
+
+/* POI type */
+"ATM" = "Cajero Automático";
+
+/* POI type */
+"Marina" = "Marina";
+
+/* POI type */
+"Airport" = "Aeropuerto";
+
+/* POI type */
+"Business Facility" = "Área de Negocios";
+
+/* POI type */
+"Grocery Store" = "Tienda de Abarrotes";
+
+/* POI type */
+"Auto Dealerships" = "Concesionario de Automóviles";
+
+/* POI type */
+"Petrol/Gasoline Station" = "Gasolinería";
+
+/* POI type */
+"Motorcycle Dealership" = "Concesionario de Motos";
+
+/* POI type */
+"Restaurant" = "Restaurante";
+
+/* POI type */
+"Nightlife" = "Vida Nocturna";
+
+/* POI type */
+"Bank" = "Banco";
+
+/* POI type */
+"Shopping" = "Compras";
+
+/* POI type */
+"Hotel" = "Hotel";
+
+/* POI type */
+"Other Accommodation" = "Otro Hospedaje";
+
+/* POI type */
+"Tourist Information" = "Información Turística";
+
+/* POI type */
+"Rental Car Agency" = "Agencia de Renta de Autos";
+
+/* POI type */
+"Park & Ride" = "Parque y Recreación";
+
+/* POI type */
+"Auto Service & Maintenance" = "Mantenimiento y Servicio de Automóviles";
+
+/* POI type */
+"Park/Recreation Area" = "Área de Recreación/Parque";
+
+/* POI type */
+"Cinema" = "Cine";
+
+/* POI type */
+"Rest Area" = "Área de Descanso";
+
+/* POI type */
+"Performing Arts" = "Artes Escénicas";
+
+/* POI type */
+"Casino" = "Casino";
+
+/* POI type */
+"Convention/Exhibition Centre" = "Convención/Centro de Exhibición";
+
+/* POI type */
+"Golf Course" = "Campo de Golf";
+
+/* POI type */
+"Civic/Community Centre" = "Centro Comunitario/Cívico";
+
+/* POI type */
+"Amusement Park" = "Parque de Diversiones";
+
+/* POI type */
+"Sports Centre" = "Centro de Deportes";
+
+/* POI type */
+"Ice Skating Rink" = "Pista de Patinaje sobre Hielo";
+
+/* POI type */
+"Tourist Attraction" = "Atracción Turística";
+
+/* POI type */
+"Hospital" = "Hospital";
+
+/* POI type */
+"Higher Education" = "Educación Superior";
+
+/* POI type */
+"School" = "Escuela";
+
+/* POI type */
+"Library" = "Biblioteca";
+
+/* POI type */
+"Museum" = "Museo";
+
+/* POI type */
+"Automobile Club" = "Club Automovilístico";
+
+/* POI type */
+"City Hall" = "Alcaldía";
+
+/* POI type */
+"Police Station" = "Estación de Policía";
+
+/* POI type */
+"Business Service" = "Servicio de Negocios";
+
+/* POI type */
+"Other Communication" = "Otras Comunicaciones";
+
+/* POI type */
+"Telephone Service" = "Servicio de Teléfono";
+
+/* POI type */
+"Cleaning & Laundry" = "Limpieza y lavandería";
+
+/* POI type */
+"Hair & Beauty" = "Cabello y Belleza";
+
+/* POI type */
+"Health Care Service" = "Servicio de Cuidado de Salud";
+
+/* POI type */
+"Photography" = "Fotografía";
+
+/* POI type */
+"Video & Game Rental" = "Renta de Videos y Juegos";
+
+/* POI type */
+"Storage" = "Almacén";
+
+/* POI type */
+"Tailor & Alteration" = "Sastre";
+
+/* POI type */
+"Tax Service" = "Servicio de Impuestos";
+
+/* POI type */
+"Repair Service" = "Servicio de Reparación";
+
+/* POI type */
+"Retirement/Nursing Home" = "Casa de Retiro/Cuidados";
+
+/* POI type */
+"Social Service" = "Servicio Social";
+
+/* POI type */
+"Utilities" = "Utilidades";
+
+/* POI type */
+"Waste & Sanitary" = "Área de Desechos";
+
+/* POI type */
+"Auto Parts" = "Partes de Automóvil";
+
+/* POI type */
+"Car Wash/Detailing" = "Auto Lavado";
+
+/* POI type */
+"Local Transit" = "Tránsito Local";
+
+/* POI type */
+"Travel Agent & Ticketing" = "Agente de Viajes y Boletos";
+
+/* POI type */
+"Church" = "Iglesia";
+
+/* POI type */
+"Government Office" = "Oficina de Gobierno";
+
+/* POI type */
+"Fire Department" = "Bomberos";
+
+/* POI type */
+"Post Office" = "Oficina de Correos";
+
+/* POI type */
+"Banquet Hall" = "Sala de Banquetes";
+
+/* POI type */
+"Bar or Pub" = "Bar";
+
+/* POI type */
+"Cocktail Lounge" = "Sala de Coctél";
+
+/* POI type */
+"Night Club" = "Club Nocturno";
+
+/* POI type */
+"Convenience Store" = "Tienda de Conveniencia";
+
+/* POI type */
+"Specialty Food Store" = "Mercado";
+
+/* POI type */
+"Clothing Store" = "Tienda de Ropa";
+
+/* POI type */
+"Men's Apparel" = "Ropa para Hombre";
+
+/* POI type */
+"Shoe Store" = "Zapatería";
+
+/* POI type */
+"Specialty Clothing Store" = "Tienda de Ropa de Especialidad";
+
+/* POI type */
+"Women's Apparel" = "Ropa de Mujer";
+
+/* POI type */
+"Check Cashing Service" = "Servicio de Cambio de Cheques";
+
+/* POI type */
+"Currency Exchange" = "Casa de Cambio";
+
+/* POI type */
+"Money Transferring Service" = "Servicio de Transferencia de Dinero";
+
+/* POI type */
+"Department Store" = "Tienda Departamental";
+
+/* POI type */
+"Discount Store" = "Tienda de Descuento";
+
+/* POI type */
+"Other General Merchandise" = "Otras Mercancías Generales";
+
+/* POI type */
+"Variety Store" = "Tienda de Variedad";
+
+/* POI type */
+"Garden Centre" = "Jardín";
+
+/* POI type */
+"Glass & Window" = "Vidrios y Ventanas";
+
+/* POI type */
+"Hardware Store" = "Tienda de Hardware";
+
+/* POI type */
+"Paint" = "Pintura";
+
+/* POI type */
+"Entertainment Electronics" = "Electrónicos de Entretenimiento";
+
+/* POI type */
+"Furniture Store" = "Tienda de Muebles";
+
+/* POI type */
+"Major Appliance" = "Tienda de Línea Blanca";
+
+/* POI type */
+"Home Specialty Store" = "Tienda de Artículos para el Hogar";
+
+/* POI type */
+"Computer & Software" = "Computadoras y Software";
+
+/* POI type */
+"Flowers & Jewelry" = "Flores y Joyería";
+
+/* POI type */
+"Gift, Antique, & Art" = "Regalos, Antigüedades y Arte";
+
+/* POI type */
+"Optical" = "Óptica";
+
+/* POI type */
+"Pharmacy" = "Farmacía";
+
+/* POI type */
+"Record, CD, & Video" = "Discos, CDs y Video";
+
+/* POI type */
+"Specialty Store" = "Tienda de Especialidad";
+
+/* POI type */
+"Sporting Goods Store" = "Tienda de Artículos Deportivos";
+
+/* POI type */
+"Wine & Liquor" = "Vinos y Licores";
+
+/* POI type */
+"Boating" = "Navegación Marina";
+
+/* POI type */
+"Theater" = "Teatro";
+
+/* POI type */
+"Health Club" = "Club de Salud";
+
+/* POI type */
+"Bowling Alley" = "Boliche";
+
+/* POI type */
+"Sports Activities" = "Actividades Deportivas";
+
+/* POI type */
+"Attorney" = "Abogado";
+
+/* POI type */
+"Dentist" = "Dentista";
+
+/* POI type */
+"Physician" = "Médico";
+
+/* POI type */
+"Realtor" = "Corredor de Bienes Raíces";
+
+/* POI type */
+"Medical Service" = "Servicio Médico";
+
+/* POI type */
+"Police Service" = "Servicio de Policía";
+
+/* POI type */
+"Veterinarian Service" = "Servicio de Veterinario";
+
+/* POI type */
+"Sporting & Instructional Camp" = "Campamento Deportivo";
+
+/* POI type */
+"Public Restroom" = "Sanitarios Públicos";
+
+/* POI type */
+"Residental Area/Building" = "Área/Edificio Residencial";
+
+/* POI type */
+"Transportation Service" = "Servicio de Transporte";
+
+/* POI type */
+"Recreation Centre" = "Centro Recreativo";
+
+/* POI type */
+"Military Base" = "Base Militar";
+
+/* POI type */
+"Truck Dealership" = "Concesionario de Camiones";
+
+/* POI type */
+"Home Improvement & Hardware Store" = "Ferretería";
+
+/* POI type */
+"Consumer Electronics Store" = "Tienda de Electrónicos de Consumidor";
+
+/* POI type */
+"Office Supply & Services Store" = "Artículos de Oficina y Servicios";
+
+/* POI type */
+"Taxi Stand" = "Parada de Taxi";
+
+/* POI type */
+"Premium Default" = "Premium Default";
+
+/* POI type */
+"Place of Worship" = "Centro de Adoración";
+
+/* POI type */
+"Bookstore" = "Librería";
+
+/* POI type */
+"Coffee Shop" = "Tienda de Café";
+
+/* POI type */
+"Elevator" = "Elevador";
+
+
