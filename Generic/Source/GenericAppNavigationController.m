@@ -1,17 +1,17 @@
 //
-//  MallAppNavigationController.m
-//  MallApp
+//  GenericAppNavigationController.m
+//  GenericApp
 //
 //  Created by Héctor García Peña on 10/16/15.
 //  Copyright © 2015 Phunware. All rights reserved.
 //
 
-#import "MallAppNavigationController.h"
+#import "GenericAppNavigationController.h"
 #import "SplashViewController.h"
 #import <AppFrameworkCore/AFCUIImageSplashViewController.h>
 
 
-@implementation MallAppNavigationController
+@implementation GenericAppNavigationController
 {
     BOOL firstTime;
 }

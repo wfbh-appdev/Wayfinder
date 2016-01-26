@@ -60,8 +60,8 @@
 		8F8C542A1BD7ED9A0018A2ED /* AFCUIImageSplashViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F8C54291BD7ED9A0018A2ED /* AFCUIImageSplashViewController.plist */; };
 		8F8C542F1BD8191F0018A2ED /* AFCUIMallDetailViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F8C542E1BD8191F0018A2ED /* AFCUIMallDetailViewController.plist */; };
 		8FB674781BD6D73000E7BFE4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FB674771BD6D73000E7BFE4 /* LaunchScreen.xib */; };
-		8FDD0F3A1BD1775500A0C512 /* MallAppNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDD0F381BD1775500A0C512 /* MallAppNavigationController.m */; };
-		8FDD0F3B1BD1775500A0C512 /* MallAppNavigationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FDD0F391BD1775500A0C512 /* MallAppNavigationController.xib */; };
+		8FDD0F3A1BD1775500A0C512 /* GenericAppNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDD0F381BD1775500A0C512 /* GenericAppNavigationController.m */; };
+		8FDD0F3B1BD1775500A0C512 /* GenericAppNavigationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FDD0F391BD1775500A0C512 /* GenericAppNavigationController.xib */; };
 		8FDD0F491BD190B900A0C512 /* ApplicationShortcuts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FDD0F481BD190B900A0C512 /* ApplicationShortcuts.plist */; };
 		8FDD0F4D1BD1CC5000A0C512 /* Proxima Nova Sbold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8FDD0F4A1BD1CC5000A0C512 /* Proxima Nova Sbold.otf */; };
 		8FDD0F4E1BD1CC5000A0C512 /* ProximaNova-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8FDD0F4B1BD1CC5000A0C512 /* ProximaNova-Light.otf */; };
@@ -139,9 +139,9 @@
 		8F8C54291BD7ED9A0018A2ED /* AFCUIImageSplashViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCUIImageSplashViewController.plist; sourceTree = "<group>"; };
 		8F8C542E1BD8191F0018A2ED /* AFCUIMallDetailViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCUIMallDetailViewController.plist; sourceTree = "<group>"; };
 		8FB674771BD6D73000E7BFE4 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
-		8FDD0F371BD1775500A0C512 /* MallAppNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallAppNavigationController.h; sourceTree = "<group>"; };
-		8FDD0F381BD1775500A0C512 /* MallAppNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MallAppNavigationController.m; sourceTree = "<group>"; };
-		8FDD0F391BD1775500A0C512 /* MallAppNavigationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MallAppNavigationController.xib; sourceTree = "<group>"; };
+		8FDD0F371BD1775500A0C512 /* GenericAppNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericAppNavigationController.h; sourceTree = "<group>"; };
+		8FDD0F381BD1775500A0C512 /* GenericAppNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericAppNavigationController.m; sourceTree = "<group>"; };
+		8FDD0F391BD1775500A0C512 /* GenericAppNavigationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GenericAppNavigationController.xib; sourceTree = "<group>"; };
 		8FDD0F481BD190B900A0C512 /* ApplicationShortcuts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ApplicationShortcuts.plist; sourceTree = "<group>"; };
 		8FDD0F4A1BD1CC5000A0C512 /* Proxima Nova Sbold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Sbold.otf"; sourceTree = "<group>"; };
 		8FDD0F4B1BD1CC5000A0C512 /* ProximaNova-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Light.otf"; sourceTree = "<group>"; };
@@ -213,8 +213,7 @@
 				558BA0AF1C44531A00394237 /* Info.plist */,
 				8F06130D1BC8569800A55F16 /* Supporting Files */,
 			);
-			name = Generic;
-			path = MallApp;
+			path = Generic;
 			sourceTree = "<group>";
 		};
 		8F06130D1BC8569800A55F16 /* Supporting Files */ = {
@@ -272,9 +271,9 @@
 				8F4355791BC858B700FFD46C /* AppDelegate.m */,
 				5574F5501C3B21AD007BC741 /* AFCUIDistanceUnitsCellViewClassTableViewCell.m */,
 				5574F5511C3B21AD007BC741 /* AFCUIDistanceUnitsCellViewClassTableViewCell.h */,
-				8FDD0F371BD1775500A0C512 /* MallAppNavigationController.h */,
-				8FDD0F381BD1775500A0C512 /* MallAppNavigationController.m */,
-				8FDD0F391BD1775500A0C512 /* MallAppNavigationController.xib */,
+				8FDD0F371BD1775500A0C512 /* GenericAppNavigationController.h */,
+				8FDD0F381BD1775500A0C512 /* GenericAppNavigationController.m */,
+				8FDD0F391BD1775500A0C512 /* GenericAppNavigationController.xib */,
 				8F8C54141BD6DB440018A2ED /* SplashViewController.h */,
 				8F8C54151BD6DB440018A2ED /* SplashViewController.m */,
 				8F8C54161BD6DB440018A2ED /* SplashViewController.xib */,
@@ -414,7 +413,7 @@
 				8F4355881BC858B700FFD46C /* AFCParkingPhotoViewController.plist in Resources */,
 				8F8C54221BD798060018A2ED /* AFCUIHoneyBadgerTableViewCell.plist in Resources */,
 				551BF9261C1B51E9004D7ECD /* Pods-GenericAF4.debug.xcconfig in Resources */,
-				8FDD0F3B1BD1775500A0C512 /* MallAppNavigationController.xib in Resources */,
+				8FDD0F3B1BD1775500A0C512 /* GenericAppNavigationController.xib in Resources */,
 				8F4355861BC858B700FFD46C /* AFCParkingMapViewController.plist in Resources */,
 				8F5FFFBE1BCC2F58000B027C /* AFCUIMLocationCell.plist in Resources */,
 				8F4355901BC858B700FFD46C /* Customization.xcassets in Resources */,
@@ -506,7 +505,7 @@
 				5574F5521C3B21AD007BC741 /* AFCUIDistanceUnitsCellViewClassTableViewCell.m in Sources */,
 				8F43558E1BC858B700FFD46C /* AppDelegate.m in Sources */,
 				8F06130F1BC8569800A55F16 /* main.m in Sources */,
-				8FDD0F3A1BD1775500A0C512 /* MallAppNavigationController.m in Sources */,
+				8FDD0F3A1BD1775500A0C512 /* GenericAppNavigationController.m in Sources */,
 				8F8C54171BD6DB440018A2ED /* SplashViewController.m in Sources */,
 				5574F54F1C3AF889007BC741 /* AFCUILocationProviderViewClassTableViewCell.m in Sources */,
 				5574F54C1C3AD921007BC741 /* AFCUIMaasVersionCellViewClassTableViewCell.m in Sources */,
@@ -685,7 +684,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = MallApp/Info.plist;
+				INFOPLIST_FILE = Generic/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
@@ -709,7 +708,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = MallApp/Info.plist;
+				INFOPLIST_FILE = Generic/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.generic.af4.ios;
@@ -769,7 +768,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = MallApp/Info.plist;
+				INFOPLIST_FILE = Generic/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.generic.af4.ios;
@@ -829,7 +828,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = MallApp/Info.plist;
+				INFOPLIST_FILE = Generic/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.generic.af4.ios;
