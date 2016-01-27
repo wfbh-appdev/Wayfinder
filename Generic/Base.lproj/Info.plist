@@ -21,11 +21,11 @@
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>LPAppID</key>
-	<string>1f170126-0772-44ea-bec5-8da3e05cfe55</string>
+	<string>#ENTER A VALID VALUE#</string>
 	<key>LPBrand</key>
-	<string>engageme</string>
+	<string>#ENTER A VALID VALUE#</string>
 	<key>LPServer</key>
-	<string>sandbox</string>
+	<string>#ENTER A VALID VALUE#</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
