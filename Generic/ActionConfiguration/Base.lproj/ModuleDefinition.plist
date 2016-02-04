@@ -8,6 +8,51 @@
 	<array/>
 	<key>contentTypes</key>
 	<dict>
+		<key>Page</key>
+		<dict>
+			<key>show</key>
+			<dict>
+				<key>className</key>
+				<string>AFCLoadDynamicPageIfFoundAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>viewController</key>
+					<string>AFCUIDynamicViewController</string>
+					<key>presentationMode</key>
+					<string>replaceTop</string>
+					<key>shouldAnimate</key>
+					<true/>
+					<key>properties</key>
+					<dict>
+						<key>pages</key>
+						<string>$module.pages</string>
+						<key>pageUUID</key>
+						<string>$action.pageUUID</string>
+					</dict>
+				</dict>
+				<key>dependencies</key>
+				<array>
+					<dict>
+						<key>className</key>
+						<string>AFCBuildPagesAction</string>
+						<key>dependencies</key>
+						<array>
+							<dict>
+								<key>className</key>
+								<string>AFCActionIncluder</string>
+								<key>parameters</key>
+								<dict>
+									<key>includeContentType</key>
+									<string>DynamicContent</string>
+									<key>includeContentAction</key>
+									<string>load</string>
+								</dict>
+							</dict>
+						</array>
+					</dict>
+				</array>
+			</dict>
+		</dict>
 		<key>DirectoryItem</key>
 		<dict>
 			<key>show</key>
