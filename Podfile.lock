@@ -14,10 +14,10 @@ PODS:
   - AFNetworking/Serialization (3.0.4)
   - AFNetworking/UIKit (3.0.4):
     - AFNetworking/NSURLSession
-  - AppFrameworkAlertsModule (1.0.0):
+  - AppFrameworkAlertsModule (4.0.0):
     - CocoaLumberjack
     - PWAlerts (~> 1.4.0)
-  - AppFrameworkCore (1.0.0):
+  - AppFrameworkCore (4.0.0):
     - CocoaLumberjack
     - JLRoutes
     - PSAlertView (~> 2.0)
@@ -26,16 +26,16 @@ PODS:
     - PWAnalytics (~> 1.3.0)
     - PWCME (~> 1.3.0)
     - PWCore (~> 2.0.0)
-  - AppFrameworkDirectoryModule (1.0.0)
-  - AppFrameworkEventsModule (1.0.0)
-  - AppFrameworkLocationMarketingModule (1.0.0)
-  - AppFrameworkMappingModule (1.0.0):
+  - AppFrameworkDirectoryModule (4.0.0)
+  - AppFrameworkEventsModule (4.0.0)
+  - AppFrameworkLocationMarketingModule (4.0.0)
+  - AppFrameworkMappingModule (4.0.0):
     - PWLocation (~> 1.2.0)
     - PWMapKit (~> 2.6.0)
     - REMenu
     - TurtleBezierPath
-  - AppFrameworkParkingModule (1.0.0)
-  - AppFrameworkRenderModule (1.0.0):
+  - AppFrameworkParkingModule (4.0.0)
+  - AppFrameworkRenderModule (4.0.0):
     - Mantle (~> 2.0)
   - AppFrameworkSalesModule (1.0.0):
     - CocoaLumberjack
@@ -66,7 +66,7 @@ PODS:
   - GoogleSymbolUtilities (1.0.3)
   - GoogleUtilities (1.1.0):
     - GoogleSymbolUtilities (~> 1.0.0)
-  - JLRoutes (1.5.3)
+  - JLRoutes (1.5.4)
   - Mantle (2.0.6):
     - Mantle/extobjc (= 2.0.6)
   - Mantle/extobjc (2.0.6)
@@ -136,28 +136,28 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   AppFrameworkAlertsModule:
-    :commit: 48da3715c25078faf4ffa5d35e2418aad0249a82
+    :commit: cf67be7f870d5e22f6f93db7117b4e0a350b1b02
     :git: https://github.com/phunware/sdk-ios-appframework-alerts-binary.git
   AppFrameworkCore:
-    :commit: 051cac87153869c1c38905e2f9f2f04eaa8d41ca
+    :commit: cec95a00c41f41be94a604bbd2ca2772415e0aeb
     :git: https://github.com/phunware/sdk-ios-appframework-core-binary.git
   AppFrameworkDirectoryModule:
-    :commit: 37cdc04d520bfbc988633d8977f5d02e64a003c8
+    :commit: 756bcd9fee698e5f7ad88d01e7caca8fee368eb0
     :git: https://github.com/phunware/sdk-ios-appframework-directory-binary.git
   AppFrameworkEventsModule:
-    :commit: 12b6a5d83852c9b8e1b05f3ae82737308f0d2675
+    :commit: 68a06af450ea9d772d54a55be254ed8f4f9ddb9a
     :git: https://github.com/phunware/sdk-ios-appframework-events-binary.git
   AppFrameworkLocationMarketingModule:
-    :commit: 41c783df3e9c09d1a562aa53f86b3c338e4d92a8
+    :commit: 9cc1d3c8582e59437f500baf4568c5e132ea78a5
     :git: https://github.com/phunware/sdk-ios-appframework-location-marketing-binary.git
   AppFrameworkMappingModule:
-    :commit: 15c41f4c55b42d2f77efbbdd2a0d22e1089bc2ff
+    :commit: 2b779356b18a1764f3956c59d619e6fa77b286cf
     :git: https://github.com/phunware/sdk-ios-appframework-mapping-binary.git
   AppFrameworkParkingModule:
-    :commit: 65087d0deb00d0cc73c92791e8218528f2ae650f
+    :commit: a0cb02cfad13f3a8dc0f90f7d6655b1e4b181eb2
     :git: https://github.com/phunware/sdk-ios-appframework-parking-binary.git
   AppFrameworkRenderModule:
-    :commit: ce4ed529bc7fee286baf30dfbcc6ded030b38e32
+    :commit: 75066097145e5c3290e22dc206e8bcfb6fd698c2
     :git: https://github.com/phunware/sdk-ios-appframework-render-binary.git
   AppFrameworkSalesModule:
     :commit: 0357fa93b898def7cdb274f6ee8335ca046f48d6
@@ -174,14 +174,14 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
-  AppFrameworkAlertsModule: 3e7d018ac62d1cb29e8b647f6f4e278c8f931442
-  AppFrameworkCore: f741235239012eeddab4e99313eae2150bda50a5
-  AppFrameworkDirectoryModule: a08acf0bf3c66aca377c66757634d1efd0eb1d77
-  AppFrameworkEventsModule: 25ebf9a13a4e875e239692904ecb9078c6cf4f27
-  AppFrameworkLocationMarketingModule: f744130295c6f0aa2c914d7049e5c7814b2e82f1
-  AppFrameworkMappingModule: e889f644bfa6c4cd4833e2603303d6ac0f02c3bb
-  AppFrameworkParkingModule: e6391b280f2c8498124108ae32e4badfe36f9747
-  AppFrameworkRenderModule: c8cb3d89c7bff1464982c082575d7af1de8d4951
+  AppFrameworkAlertsModule: 03af5107112a01849b451c7195579f49bf0267c1
+  AppFrameworkCore: 3b0c9f63d2e17b916ca06a38ffae1b720b2b11aa
+  AppFrameworkDirectoryModule: 0b9dcea2a41a6172fdd7e71da1ce38f5cf3681cc
+  AppFrameworkEventsModule: e6fba448b0c77a2153b12ff54faf6ed45d0d021c
+  AppFrameworkLocationMarketingModule: 5610aba2b1cf35531c91f538abfa9dac2c61187a
+  AppFrameworkMappingModule: ff089a06822f841bd282a300a7a3956093ca1ccf
+  AppFrameworkParkingModule: 6c149180c58907a43c734e2501ade93e97f06acc
+  AppFrameworkRenderModule: a864dfc3467aebd36f1db7983262360c28aa4d3f
   AppFrameworkSalesModule: b7c1168329a8d3b958a7d1a7f8acb32bfb4f0869
   CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
   CoreNetwork: c599b27199ebc0ad2e9b1b34a576e6e48c59f4cb
@@ -191,7 +191,7 @@ SPEC CHECKSUMS:
   GoogleNetworkingUtilities: 292992ab31b7b4ba32809a0e8b40e324cdfb2c0c
   GoogleSymbolUtilities: 82ad9f93d3615244b3f4ce440f5ab2515e8b4f56
   GoogleUtilities: 8ed9134debe11719097881711464752900668f10
-  JLRoutes: 20555d00693855b71e80715eeaae6a930a33b2f5
+  JLRoutes: 14d098fc811df4ae8012513d317bc9009b2be179
   Mantle: 299966b00759634931699f69cb6a30b9239b944d
   PSAlertView: 16d35f5dba549418492cf68a750d4f0dca21f4a2
   PWAds: 0c9aadee6bb44df6d6df0aac757df8f992759014
