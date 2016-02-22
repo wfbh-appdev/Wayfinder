@@ -159,7 +159,7 @@ CHECKOUT OPTIONS:
     :commit: cf67be7f870d5e22f6f93db7117b4e0a350b1b02
     :git: https://github.com/phunware/sdk-ios-appframework-alerts-binary.git
   AppFrameworkCore:
-    :commit: cec95a00c41f41be94a604bbd2ca2772415e0aeb
+    :commit: a614cc3f639f7edb9b7e07e17a08cc82c84ad6a6
     :git: https://github.com/phunware/sdk-ios-appframework-core-binary.git
   AppFrameworkDirectoryModule:
     :commit: 756bcd9fee698e5f7ad88d01e7caca8fee368eb0
@@ -171,13 +171,13 @@ CHECKOUT OPTIONS:
     :commit: 9cc1d3c8582e59437f500baf4568c5e132ea78a5
     :git: https://github.com/phunware/sdk-ios-appframework-location-marketing-binary.git
   AppFrameworkMappingModule:
-    :commit: 2b779356b18a1764f3956c59d619e6fa77b286cf
+    :commit: f4ce72b04dcee124ba90d89a0eec30afa259f153
     :git: https://github.com/phunware/sdk-ios-appframework-mapping-binary.git
   AppFrameworkParkingModule:
     :commit: a0cb02cfad13f3a8dc0f90f7d6655b1e4b181eb2
     :git: https://github.com/phunware/sdk-ios-appframework-parking-binary.git
   AppFrameworkRenderModule:
-    :commit: 75066097145e5c3290e22dc206e8bcfb6fd698c2
+    :commit: a8b51f4b78b1836f015ecb4fbe791045be48d781
     :git: https://github.com/phunware/sdk-ios-appframework-render-binary.git
   AppFrameworkSalesModule:
     :commit: 0357fa93b898def7cdb274f6ee8335ca046f48d6
