@@ -66,7 +66,7 @@ PODS:
   - GoogleSymbolUtilities (1.0.3)
   - GoogleUtilities (1.1.0):
     - GoogleSymbolUtilities (~> 1.0.0)
-  - JLRoutes (1.5.4)
+  - JLRoutes (1.5.5)
   - Mantle (2.0.6):
     - Mantle/extobjc (= 2.0.6)
   - Mantle/extobjc (2.0.6)
@@ -94,40 +94,60 @@ PODS:
   - TurtleBezierPath (1.0)
 
 DEPENDENCIES:
-  - AppFrameworkAlertsModule (from `https://github.com/phunware/sdk-ios-appframework-alerts-binary.git`)
-  - AppFrameworkCore (from `https://github.com/phunware/sdk-ios-appframework-core-binary.git`)
-  - AppFrameworkDirectoryModule (from `https://github.com/phunware/sdk-ios-appframework-directory-binary.git`)
-  - AppFrameworkEventsModule (from `https://github.com/phunware/sdk-ios-appframework-events-binary.git`)
-  - AppFrameworkLocationMarketingModule (from `https://github.com/phunware/sdk-ios-appframework-location-marketing-binary.git`)
-  - AppFrameworkMappingModule (from `https://github.com/phunware/sdk-ios-appframework-mapping-binary.git`)
-  - AppFrameworkParkingModule (from `https://github.com/phunware/sdk-ios-appframework-parking-binary.git`)
-  - AppFrameworkRenderModule (from `https://github.com/phunware/sdk-ios-appframework-render-binary.git`)
-  - AppFrameworkSalesModule (from `https://github.com/phunware/sdk-ios-appframework-sales.git`)
-  - CoreNetwork (from `https://github.com/phunware/sdk-ios-appframework-network.git`)
+  - AppFrameworkAlertsModule (from `https://github.com/phunware/sdk-ios-appframework-alerts-binary.git`,
+    branch `develop`)
+  - AppFrameworkCore (from `https://github.com/phunware/sdk-ios-appframework-core-binary.git`,
+    branch `develop`)
+  - AppFrameworkDirectoryModule (from `https://github.com/phunware/sdk-ios-appframework-directory-binary.git`,
+    branch `develop`)
+  - AppFrameworkEventsModule (from `https://github.com/phunware/sdk-ios-appframework-events-binary.git`,
+    branch `develop`)
+  - AppFrameworkLocationMarketingModule (from `https://github.com/phunware/sdk-ios-appframework-location-marketing-binary.git`,
+    branch `develop`)
+  - AppFrameworkMappingModule (from `https://github.com/phunware/sdk-ios-appframework-mapping-binary.git`,
+    branch `develop`)
+  - AppFrameworkParkingModule (from `https://github.com/phunware/sdk-ios-appframework-parking-binary.git`,
+    branch `develop`)
+  - AppFrameworkRenderModule (from `https://github.com/phunware/sdk-ios-appframework-render-binary.git`,
+    branch `develop`)
+  - AppFrameworkSalesModule (from `https://github.com/phunware/sdk-ios-appframework-sales.git`,
+    branch `develop`)
+  - CoreNetwork (from `https://github.com/phunware/sdk-ios-appframework-network.git`,
+    branch `develop`)
   - Google/Analytics
   - PWLocalpoint (from `https://github.com/phunware/maas-localpoint-ios-sdk.git`)
   - PWUIKit (from `https://github.com/phunware/sdk-ios-pwuikit-binary.git`)
 
 EXTERNAL SOURCES:
   AppFrameworkAlertsModule:
+    :branch: develop
     :git: https://github.com/phunware/sdk-ios-appframework-alerts-binary.git
   AppFrameworkCore:
+    :branch: develop
     :git: https://github.com/phunware/sdk-ios-appframework-core-binary.git
   AppFrameworkDirectoryModule:
+    :branch: develop
     :git: https://github.com/phunware/sdk-ios-appframework-directory-binary.git
   AppFrameworkEventsModule:
+    :branch: develop
     :git: https://github.com/phunware/sdk-ios-appframework-events-binary.git
   AppFrameworkLocationMarketingModule:
+    :branch: develop
     :git: https://github.com/phunware/sdk-ios-appframework-location-marketing-binary.git
   AppFrameworkMappingModule:
+    :branch: develop
     :git: https://github.com/phunware/sdk-ios-appframework-mapping-binary.git
   AppFrameworkParkingModule:
+    :branch: develop
     :git: https://github.com/phunware/sdk-ios-appframework-parking-binary.git
   AppFrameworkRenderModule:
+    :branch: develop
     :git: https://github.com/phunware/sdk-ios-appframework-render-binary.git
   AppFrameworkSalesModule:
+    :branch: develop
     :git: https://github.com/phunware/sdk-ios-appframework-sales.git
   CoreNetwork:
+    :branch: develop
     :git: https://github.com/phunware/sdk-ios-appframework-network.git
   PWLocalpoint:
     :git: https://github.com/phunware/maas-localpoint-ios-sdk.git
@@ -191,7 +211,7 @@ SPEC CHECKSUMS:
   GoogleNetworkingUtilities: 292992ab31b7b4ba32809a0e8b40e324cdfb2c0c
   GoogleSymbolUtilities: 82ad9f93d3615244b3f4ce440f5ab2515e8b4f56
   GoogleUtilities: 8ed9134debe11719097881711464752900668f10
-  JLRoutes: 14d098fc811df4ae8012513d317bc9009b2be179
+  JLRoutes: d191a496b820f60d70225202d04289582da962df
   Mantle: 299966b00759634931699f69cb6a30b9239b944d
   PSAlertView: 16d35f5dba549418492cf68a750d4f0dca21f4a2
   PWAds: 0c9aadee6bb44df6d6df0aac757df8f992759014
