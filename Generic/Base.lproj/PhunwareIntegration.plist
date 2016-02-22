@@ -102,9 +102,9 @@
 						<array>
 							<dict>
 								<key>vscBuildingName</key>
-								<string>Phunware San Diego</string>
+								<string>Phunware Austin</string>
 								<key>vscBuildingId</key>
-								<real>20466</real>
+								<real>17498</real>
 								<key>vscBuildingActive</key>
 								<true/>
 								<key>Floors</key>
@@ -115,9 +115,21 @@
 										<key>vscFloorActive</key>
 										<true/>
 										<key>vscFloorId</key>
-										<real>109641</real>
+										<real>102951</real>
 										<key>vscFloorName</key>
-										<string>First Floor</string>
+										<string>Floor 1</string>
+										<key>vscSenionFloorKeyiOS</key>
+										<string>1</string>
+									</dict>
+									<dict>
+										<key>Beacons</key>
+										<array/>
+										<key>vscFloorActive</key>
+										<true/>
+										<key>vscFloorId</key>
+										<real>102950</real>
+										<key>vscFloorName</key>
+										<string>Floor 2</string>
 										<key>vscSenionFloorKeyiOS</key>
 										<string>0</string>
 									</dict>
@@ -125,33 +137,33 @@
 								<key>Geo Settings</key>
 								<dict>
 									<key>latitude</key>
-									<real>33.02183</real>
+									<real>30.359927</real>
 									<key>longitude</key>
-									<real>-117.08266</real>
+									<real>-97.74473399999999</real>
 									<key>geofenceLocationCode</key>
-									<string>PhunwareSanDiego</string>
+									<string>PhunwareAustin</string>
 									<key>geofenceRadius</key>
 									<string>100</string>
 								</dict>
 								<key>Map Settings</key>
 								<dict>
 									<key>vscMapDefaultFloor</key>
-									<integer>1</integer>
+									<integer>2</integer>
 									<key>vscMapZoomLevel</key>
-									<integer>18</integer>
+									<integer>17</integer>
 									<key>vscMapEyeAltitude</key>
-									<integer>300</integer>
+									<integer>500</integer>
 									<key>vscSenionCustomerIdiOS</key>
 									<string>c3f5aa2d-f6a9-4477-80ed-3d8ccfd6fddb</string>
 									<key>vscSenionMapIdiOS</key>
-									<string>37cbbadf-a434-40da-8e01-c6011175ade9</string>
+									<string>6486f9ae-3bf1-4552-b3e4-70b8d79a38ad</string>
 								</dict>
 							</dict>
 						</array>
 						<key>vscCampusName</key>
-						<string>Phunware San Diego</string>
+						<string>Phunware Austin</string>
 						<key>vscCampusId</key>
-						<integer>540</integer>
+						<integer>500</integer>
 						<key>vscCampusActive</key>
 						<true/>
 						<key>vscCampusPropertyUUID</key>
