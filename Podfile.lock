@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.0.4)
   - AFNetworking/UIKit (3.0.4):
     - AFNetworking/NSURLSession
-  - AppFrameworkAlertsModule (4.0.0):
+  - AppFrameworkAlertsModule (4.0.1):
     - CocoaLumberjack
     - PWAlerts (~> 1.4.0)
   - AppFrameworkCore (4.0.1):
@@ -156,7 +156,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   AppFrameworkAlertsModule:
-    :commit: cf67be7f870d5e22f6f93db7117b4e0a350b1b02
+    :commit: cc080584ea1a8875a65df104bb25627d166273b9
     :git: https://github.com/phunware/sdk-ios-appframework-alerts-binary.git
   AppFrameworkCore:
     :commit: 50377683fea55094a3be5ab4c08536c1956099d7
@@ -194,7 +194,7 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
-  AppFrameworkAlertsModule: 03af5107112a01849b451c7195579f49bf0267c1
+  AppFrameworkAlertsModule: 616a1f8f609d80bf0334c6e37b4926f8227c3b01
   AppFrameworkCore: 87f1bd9c38daa50fc93136fe8ee878b060fa2eca
   AppFrameworkDirectoryModule: 0b9dcea2a41a6172fdd7e71da1ce38f5cf3681cc
   AppFrameworkEventsModule: e6fba448b0c77a2153b12ff54faf6ed45d0d021c
