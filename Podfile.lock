@@ -177,7 +177,7 @@ CHECKOUT OPTIONS:
     :commit: a0cb02cfad13f3a8dc0f90f7d6655b1e4b181eb2
     :git: https://github.com/phunware/sdk-ios-appframework-parking-binary.git
   AppFrameworkRenderModule:
-    :commit: 31c96c9da9a0a52f2dd6b080d5cba9ec85abe5e4
+    :commit: 51ed2d372828d867c621fa54b4822cf6d67ed9ce
     :git: https://github.com/phunware/sdk-ios-appframework-render-binary.git
   AppFrameworkSalesModule:
     :commit: 0357fa93b898def7cdb274f6ee8335ca046f48d6
