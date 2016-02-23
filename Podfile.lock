@@ -17,7 +17,7 @@ PODS:
   - AppFrameworkAlertsModule (4.0.0):
     - CocoaLumberjack
     - PWAlerts (~> 1.4.0)
-  - AppFrameworkCore (4.0.0):
+  - AppFrameworkCore (4.0.1):
     - CocoaLumberjack
     - JLRoutes
     - PSAlertView (~> 2.0)
@@ -35,7 +35,7 @@ PODS:
     - REMenu
     - TurtleBezierPath
   - AppFrameworkParkingModule (4.0.0)
-  - AppFrameworkRenderModule (4.0.0):
+  - AppFrameworkRenderModule (4.0.1):
     - Mantle (~> 2.0)
   - AppFrameworkSalesModule (1.0.0):
     - CocoaLumberjack
@@ -159,7 +159,7 @@ CHECKOUT OPTIONS:
     :commit: cf67be7f870d5e22f6f93db7117b4e0a350b1b02
     :git: https://github.com/phunware/sdk-ios-appframework-alerts-binary.git
   AppFrameworkCore:
-    :commit: a614cc3f639f7edb9b7e07e17a08cc82c84ad6a6
+    :commit: 166ce0f0c65ab4f3c083e7426bbffe59a551e1a0
     :git: https://github.com/phunware/sdk-ios-appframework-core-binary.git
   AppFrameworkDirectoryModule:
     :commit: 756bcd9fee698e5f7ad88d01e7caca8fee368eb0
@@ -177,7 +177,7 @@ CHECKOUT OPTIONS:
     :commit: a0cb02cfad13f3a8dc0f90f7d6655b1e4b181eb2
     :git: https://github.com/phunware/sdk-ios-appframework-parking-binary.git
   AppFrameworkRenderModule:
-    :commit: a8b51f4b78b1836f015ecb4fbe791045be48d781
+    :commit: 31c96c9da9a0a52f2dd6b080d5cba9ec85abe5e4
     :git: https://github.com/phunware/sdk-ios-appframework-render-binary.git
   AppFrameworkSalesModule:
     :commit: 0357fa93b898def7cdb274f6ee8335ca046f48d6
@@ -195,13 +195,13 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
   AppFrameworkAlertsModule: 03af5107112a01849b451c7195579f49bf0267c1
-  AppFrameworkCore: 3b0c9f63d2e17b916ca06a38ffae1b720b2b11aa
+  AppFrameworkCore: 87f1bd9c38daa50fc93136fe8ee878b060fa2eca
   AppFrameworkDirectoryModule: 0b9dcea2a41a6172fdd7e71da1ce38f5cf3681cc
   AppFrameworkEventsModule: e6fba448b0c77a2153b12ff54faf6ed45d0d021c
   AppFrameworkLocationMarketingModule: 5610aba2b1cf35531c91f538abfa9dac2c61187a
   AppFrameworkMappingModule: ff089a06822f841bd282a300a7a3956093ca1ccf
   AppFrameworkParkingModule: 6c149180c58907a43c734e2501ade93e97f06acc
-  AppFrameworkRenderModule: a864dfc3467aebd36f1db7983262360c28aa4d3f
+  AppFrameworkRenderModule: e255331c0ba3672ac250a10d87f135790aea9911
   AppFrameworkSalesModule: b7c1168329a8d3b958a7d1a7f8acb32bfb4f0869
   CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
   CoreNetwork: c599b27199ebc0ad2e9b1b34a576e6e48c59f4cb
