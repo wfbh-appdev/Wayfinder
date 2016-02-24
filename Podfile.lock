@@ -171,7 +171,7 @@ CHECKOUT OPTIONS:
     :commit: 9cc1d3c8582e59437f500baf4568c5e132ea78a5
     :git: https://github.com/phunware/sdk-ios-appframework-location-marketing-binary.git
   AppFrameworkMappingModule:
-    :commit: f4ce72b04dcee124ba90d89a0eec30afa259f153
+    :commit: ce34209ac058c904599b639a4f3952e7a5dc7841
     :git: https://github.com/phunware/sdk-ios-appframework-mapping-binary.git
   AppFrameworkParkingModule:
     :commit: a0cb02cfad13f3a8dc0f90f7d6655b1e4b181eb2
