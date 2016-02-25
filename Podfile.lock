@@ -159,7 +159,7 @@ CHECKOUT OPTIONS:
     :commit: cc080584ea1a8875a65df104bb25627d166273b9
     :git: https://github.com/phunware/sdk-ios-appframework-alerts-binary.git
   AppFrameworkCore:
-    :commit: 50377683fea55094a3be5ab4c08536c1956099d7
+    :commit: 9e0de642e006729f0193f826f190b4047eda6e31
     :git: https://github.com/phunware/sdk-ios-appframework-core-binary.git
   AppFrameworkDirectoryModule:
     :commit: 756bcd9fee698e5f7ad88d01e7caca8fee368eb0
@@ -168,7 +168,7 @@ CHECKOUT OPTIONS:
     :commit: 68a06af450ea9d772d54a55be254ed8f4f9ddb9a
     :git: https://github.com/phunware/sdk-ios-appframework-events-binary.git
   AppFrameworkLocationMarketingModule:
-    :commit: 9cc1d3c8582e59437f500baf4568c5e132ea78a5
+    :commit: a9042cf453e841bbdcd3614ef075594b1bbd38b8
     :git: https://github.com/phunware/sdk-ios-appframework-location-marketing-binary.git
   AppFrameworkMappingModule:
     :commit: ce34209ac058c904599b639a4f3952e7a5dc7841
