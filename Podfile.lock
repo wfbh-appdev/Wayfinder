@@ -168,7 +168,7 @@ CHECKOUT OPTIONS:
     :commit: 68a06af450ea9d772d54a55be254ed8f4f9ddb9a
     :git: https://github.com/phunware/sdk-ios-appframework-events-binary.git
   AppFrameworkLocationMarketingModule:
-    :commit: a9042cf453e841bbdcd3614ef075594b1bbd38b8
+    :commit: af07a8bbc23b7dc607c20775aef698cc8f2c51d7
     :git: https://github.com/phunware/sdk-ios-appframework-location-marketing-binary.git
   AppFrameworkMappingModule:
     :commit: ce34209ac058c904599b639a4f3952e7a5dc7841
