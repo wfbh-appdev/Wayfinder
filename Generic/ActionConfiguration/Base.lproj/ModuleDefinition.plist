@@ -2103,12 +2103,6 @@
 						</dict>
 						<dict>
 							<key>className</key>
-							<string>AFCLMStartLMServiceAction</string>
-							<key>queue</key>
-							<string>concurrent</string>
-						</dict>
-						<dict>
-							<key>className</key>
 							<string>AFCASetupPushNotifications</string>
 							<key>queue</key>
 							<string>concurrent</string>
