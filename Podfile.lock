@@ -17,15 +17,6 @@ PODS:
   - AppFrameworkAlertsModule (4.0.1):
     - CocoaLumberjack
     - PWAlerts (~> 1.4.0)
-  - AppFrameworkCore (4.0.0):
-    - CocoaLumberjack
-    - JLRoutes
-    - PSAlertView (~> 2.0)
-    - PWAds (~> 3.2.0)
-    - PWAlerts (~> 1.4.0)
-    - PWAnalytics (~> 1.3.0)
-    - PWCME (~> 1.3.0)
-    - PWCore (~> 2.0.0)
   - AppFrameworkDirectoryModule (4.0.0)
   - AppFrameworkEventsModule (4.0.0)
   - AppFrameworkLocationMarketingModule (4.0.0)
@@ -66,18 +57,10 @@ PODS:
   - GoogleSymbolUtilities (1.0.3)
   - GoogleUtilities (1.1.0):
     - GoogleSymbolUtilities (~> 1.0.0)
-  - JLRoutes (1.5.5)
   - Mantle (2.0.6):
     - Mantle/extobjc (= 2.0.6)
   - Mantle/extobjc (2.0.6)
-  - PSAlertView (2.0.3)
-  - PWAds (3.2.0):
-    - PWCore
   - PWAlerts (1.4.0):
-    - PWCore
-  - PWAnalytics (1.3.0):
-    - PWCore
-  - PWCME (1.3.0):
     - PWCore
   - PWCore (2.0.0)
   - PWLocalpoint (2.6.3.1)
@@ -96,8 +79,6 @@ PODS:
 DEPENDENCIES:
   - AppFrameworkAlertsModule (from `https://github.com/phunware/sdk-ios-appframework-alerts-binary.git`,
     branch `develop`)
-  - AppFrameworkCore (from `https://github.com/phunware/sdk-ios-appframework-core-binary.git`,
-    branch `master`)
   - AppFrameworkDirectoryModule (from `https://github.com/phunware/sdk-ios-appframework-directory-binary.git`,
     branch `develop`)
   - AppFrameworkEventsModule (from `https://github.com/phunware/sdk-ios-appframework-events-binary.git`,
@@ -122,9 +103,6 @@ EXTERNAL SOURCES:
   AppFrameworkAlertsModule:
     :branch: develop
     :git: https://github.com/phunware/sdk-ios-appframework-alerts-binary.git
-  AppFrameworkCore:
-    :branch: master
-    :git: https://github.com/phunware/sdk-ios-appframework-core-binary.git
   AppFrameworkDirectoryModule:
     :branch: develop
     :git: https://github.com/phunware/sdk-ios-appframework-directory-binary.git
@@ -158,9 +136,6 @@ CHECKOUT OPTIONS:
   AppFrameworkAlertsModule:
     :commit: cc080584ea1a8875a65df104bb25627d166273b9
     :git: https://github.com/phunware/sdk-ios-appframework-alerts-binary.git
-  AppFrameworkCore:
-    :commit: cec95a00c41f41be94a604bbd2ca2772415e0aeb
-    :git: https://github.com/phunware/sdk-ios-appframework-core-binary.git
   AppFrameworkDirectoryModule:
     :commit: 756bcd9fee698e5f7ad88d01e7caca8fee368eb0
     :git: https://github.com/phunware/sdk-ios-appframework-directory-binary.git
@@ -195,7 +170,6 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
   AppFrameworkAlertsModule: 616a1f8f609d80bf0334c6e37b4926f8227c3b01
-  AppFrameworkCore: 3b0c9f63d2e17b916ca06a38ffae1b720b2b11aa
   AppFrameworkDirectoryModule: 0b9dcea2a41a6172fdd7e71da1ce38f5cf3681cc
   AppFrameworkEventsModule: e6fba448b0c77a2153b12ff54faf6ed45d0d021c
   AppFrameworkLocationMarketingModule: 5610aba2b1cf35531c91f538abfa9dac2c61187a
@@ -211,13 +185,8 @@ SPEC CHECKSUMS:
   GoogleNetworkingUtilities: 292992ab31b7b4ba32809a0e8b40e324cdfb2c0c
   GoogleSymbolUtilities: 82ad9f93d3615244b3f4ce440f5ab2515e8b4f56
   GoogleUtilities: 8ed9134debe11719097881711464752900668f10
-  JLRoutes: d191a496b820f60d70225202d04289582da962df
   Mantle: 299966b00759634931699f69cb6a30b9239b944d
-  PSAlertView: 16d35f5dba549418492cf68a750d4f0dca21f4a2
-  PWAds: 0c9aadee6bb44df6d6df0aac757df8f992759014
   PWAlerts: 2e425cf1f88ffc627c8af875a8f2bdc3c8bd3efd
-  PWAnalytics: 3dcaabd78e46cef1429352ef75609069f0f808de
-  PWCME: e89339e757279130560bb06b5e315eb2d49accc8
   PWCore: 64c409008f6c6733f0145625ae144ad15a53e80d
   PWLocalpoint: e91c3ed9b9b5e2da4a4ee63a81fe55b79e47a6e7
   PWLocation: ffe62c2aec9de305452aad73db67d64c4354d216

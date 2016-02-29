@@ -11,7 +11,7 @@ target :'GenericAF4', :exclusive => true do
     pod 'PWUIKit', :git =>  'https://github.com/phunware/sdk-ios-pwuikit-binary.git'
     pod 'PWLocalpoint', :git => 'https://github.com/phunware/maas-localpoint-ios-sdk.git'
  
-    pod 'AppFrameworkCore', :git =>  'https://github.com/phunware/sdk-ios-appframework-core-binary.git',:branch => 'master'
+    #pod 'AppFrameworkCore', :git =>  'https://github.com/phunware/sdk-ios-appframework-core-binary.git',:branch => 'master'
     #pod 'AppFrameworkCore', :path =>  '../sdk-ios-appframework-core/AppFrameworkCore/Framework'
     #pod 'AppFrameworkCore', :path =>  '../sdk-ios-appframework-core/AppFrameworkCore'
  
