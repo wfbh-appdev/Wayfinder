@@ -17,7 +17,7 @@ PODS:
   - AppFrameworkAlertsModule (4.0.1):
     - CocoaLumberjack
     - PWAlerts (~> 1.4.0)
-  - AppFrameworkCore (4.0.1):
+  - AppFrameworkCore (4.0.0):
     - CocoaLumberjack
     - JLRoutes
     - PSAlertView (~> 2.0)
@@ -97,7 +97,7 @@ DEPENDENCIES:
   - AppFrameworkAlertsModule (from `https://github.com/phunware/sdk-ios-appframework-alerts-binary.git`,
     branch `develop`)
   - AppFrameworkCore (from `https://github.com/phunware/sdk-ios-appframework-core-binary.git`,
-    branch `develop`)
+    branch `master`)
   - AppFrameworkDirectoryModule (from `https://github.com/phunware/sdk-ios-appframework-directory-binary.git`,
     branch `develop`)
   - AppFrameworkEventsModule (from `https://github.com/phunware/sdk-ios-appframework-events-binary.git`,
@@ -123,7 +123,7 @@ EXTERNAL SOURCES:
     :branch: develop
     :git: https://github.com/phunware/sdk-ios-appframework-alerts-binary.git
   AppFrameworkCore:
-    :branch: develop
+    :branch: master
     :git: https://github.com/phunware/sdk-ios-appframework-core-binary.git
   AppFrameworkDirectoryModule:
     :branch: develop
@@ -159,7 +159,7 @@ CHECKOUT OPTIONS:
     :commit: cc080584ea1a8875a65df104bb25627d166273b9
     :git: https://github.com/phunware/sdk-ios-appframework-alerts-binary.git
   AppFrameworkCore:
-    :commit: 10da178eae7125fa2e153e5b87d5a64efd49a1f7
+    :commit: cec95a00c41f41be94a604bbd2ca2772415e0aeb
     :git: https://github.com/phunware/sdk-ios-appframework-core-binary.git
   AppFrameworkDirectoryModule:
     :commit: 756bcd9fee698e5f7ad88d01e7caca8fee368eb0
@@ -195,7 +195,7 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
   AppFrameworkAlertsModule: 616a1f8f609d80bf0334c6e37b4926f8227c3b01
-  AppFrameworkCore: 87f1bd9c38daa50fc93136fe8ee878b060fa2eca
+  AppFrameworkCore: 3b0c9f63d2e17b916ca06a38ffae1b720b2b11aa
   AppFrameworkDirectoryModule: 0b9dcea2a41a6172fdd7e71da1ce38f5cf3681cc
   AppFrameworkEventsModule: e6fba448b0c77a2153b12ff54faf6ed45d0d021c
   AppFrameworkLocationMarketingModule: 5610aba2b1cf35531c91f538abfa9dac2c61187a
