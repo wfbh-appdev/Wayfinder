@@ -96,7 +96,7 @@ PODS:
 DEPENDENCIES:
   - AppFrameworkAlertsModule (from `https://github.com/phunware/sdk-ios-appframework-alerts-binary.git`,
     branch `develop`)
-  - AppFrameworkCore (from `https://github.com/phunware/sdk-ios-appframework-core-binary.git`,
+  - AppFrameworkCore (from `https://jenkins-phunware@github.com/phunware/sdk-ios-appframework-core-binary.git`,
     branch `develop`)
   - AppFrameworkDirectoryModule (from `https://github.com/phunware/sdk-ios-appframework-directory-binary.git`,
     branch `develop`)
@@ -124,7 +124,7 @@ EXTERNAL SOURCES:
     :git: https://github.com/phunware/sdk-ios-appframework-alerts-binary.git
   AppFrameworkCore:
     :branch: develop
-    :git: https://github.com/phunware/sdk-ios-appframework-core-binary.git
+    :git: https://jenkins-phunware@github.com/phunware/sdk-ios-appframework-core-binary.git
   AppFrameworkDirectoryModule:
     :branch: develop
     :git: https://github.com/phunware/sdk-ios-appframework-directory-binary.git
@@ -160,7 +160,7 @@ CHECKOUT OPTIONS:
     :git: https://github.com/phunware/sdk-ios-appframework-alerts-binary.git
   AppFrameworkCore:
     :commit: 10da178eae7125fa2e153e5b87d5a64efd49a1f7
-    :git: https://github.com/phunware/sdk-ios-appframework-core-binary.git
+    :git: https://jenkins-phunware@github.com/phunware/sdk-ios-appframework-core-binary.git
   AppFrameworkDirectoryModule:
     :commit: 756bcd9fee698e5f7ad88d01e7caca8fee368eb0
     :git: https://github.com/phunware/sdk-ios-appframework-directory-binary.git
