@@ -7,7 +7,7 @@ xcodeproj 'GenericAF4.xcodeproj'
 
 
 target :'GenericAF4', :exclusive => true do
-    pod 'CoreNetwork', :git => 'https://jenkins-phunware:K3yM@$ter!@github.com/phunware/sdk-ios-appframework-network.git', :branch => 'develop'
+    pod 'CoreNetwork', :git => 'https://github.com/phunware/sdk-ios-appframework-network.git', :branch => 'develop'
     pod 'PWUIKit', :git =>  'https://github.com/phunware/sdk-ios-pwuikit-binary.git'
     pod 'PWLocalpoint', :git => 'https://github.com/phunware/maas-localpoint-ios-sdk.git'
  
@@ -26,14 +26,13 @@ target :'GenericAF4', :exclusive => true do
     #pod 'AppFrameworkDirectoryModule', :path => '../sdk-ios-appframework-directory'
     
     pod 'AppFrameworkEventsModule', :git =>  'https://github.com/phunware/sdk-ios-appframework-events-binary.git',:branch => 'develop'
-    pod 'AppFrameworkAlertsModule', :git =>  'https://github.com/phunware/sdk-ios-appframework-alerts-binary.git',:branch => 'develop'
+    pod 'AppFrameworkAlertsModule', :git =>  'https://jenkins-phunware:K3yM%40%24ter%21@github.com/phunware/sdk-ios-appframework-alerts-binary.git',:branch => 'develop'
     pod 'AppFrameworkLocationMarketingModule', :git =>  'https://github.com/phunware/sdk-ios-appframework-location-marketing-binary.git',:branch => 'develop'
+    
     
     pod 'AppFrameworkMappingModule', :git =>  'https://github.com/phunware/sdk-ios-appframework-mapping-binary.git',:branch => 'develop'
     #pod 'AppFrameworkMappingModule', :path =>  '../sdk-ios-appframework-mapping'
-    
-    pod 'AppFrameworkAlertsModule', :git =>  'https://github.com/phunware/sdk-ios-appframework-alerts-binary.git',:branch => 'develop'
-    
+        
     #pod 'AppFrameworkMoviesModule', :path =>  '../sdk-ios-appframework-movies'
     #pod 'AppFrameworkMoviesModule', :git =>  'https://github.com/phunware/sdk-ios-appframework-movies.git'
     
