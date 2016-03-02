@@ -8,8 +8,8 @@ xcodeproj 'GenericAF4.xcodeproj'
 
 target :'GenericAF4', :exclusive => true do
     pod 'CoreNetwork', :git => 'https://jenkins-phunware:K3yM%40%24ter%21@github.com/phunware/sdk-ios-appframework-network.git', :branch => 'develop'
-    pod 'PWUIKit', :git =>  'https://jenkins-phunware:K3yM%40%24ter%21@ggithub.com/phunware/sdk-ios-pwuikit-binary.git'
-    pod 'PWLocalpoint', :git => 'https://jenkins-phunware:K3yM%40%24ter%21@ggithub.com/phunware/maas-localpoint-ios-sdk.git'
+    pod 'PWUIKit', :git =>  'https://jenkins-phunware:K3yM%40%24ter%21@github.com/phunware/sdk-ios-pwuikit-binary.git'
+    pod 'PWLocalpoint', :git => 'https://jenkins-phunware:K3yM%40%24ter%21@github.com/phunware/maas-localpoint-ios-sdk.git'
  
     pod 'AppFrameworkCore', :git =>  'https://jenkins-phunware:K3yM%40%24ter%21@github.com/phunware/sdk-ios-appframework-core-binary.git',:branch => 'develop'
     #pod 'AppFrameworkCore', :path =>  '../sdk-ios-appframework-core/AppFrameworkCore/Framework'
