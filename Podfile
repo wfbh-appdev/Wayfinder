@@ -26,7 +26,7 @@ target :'GenericAF4', :exclusive => true do
     #pod 'AppFrameworkDirectoryModule', :path => '../sdk-ios-appframework-directory'
     
     pod 'AppFrameworkEventsModule', :git =>  'https://jenkins-phunware:K3yM%40%24ter%21@github.com/phunware/sdk-ios-appframework-events-binary.git',:branch => 'develop'
-    pod 'AppFrameworkAlertsModule', :git =>  'https://jenkins-phunware:K3yM%40%24ter%21@github.com/phunware/sdk-ios-appframework-alerts-binary.git',:branch => 'develop'
+    pod 'AppFrameworkAlertsModule', :git =>  'https://github.com/phunware/sdk-ios-appframework-alerts-binary.git',:branch => 'develop'
     pod 'AppFrameworkLocationMarketingModule', :git =>  'https://jenkins-phunware:K3yM%40%24ter%21@github.com/phunware/sdk-ios-appframework-location-marketing-binary.git',:branch => 'develop'
     
     
