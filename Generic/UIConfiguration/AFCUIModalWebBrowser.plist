@@ -67,7 +67,7 @@
 		<key>alignment</key>
 		<string>center</string>
 		<key>color</key>
-		<string>#ffffff</string>
+		<string>#000000</string>
 		<key>background</key>
 		<string>Default.ToolBarButton.png</string>
 	</dict>
