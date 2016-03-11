@@ -1023,13 +1023,6 @@
 					<string>modal</string>
 					<key>shouldAnimate</key>
 					<true/>
-					<key>properties</key>
-					<dict>
-						<key>url</key>
-						<string>$action.auxID1</string>
-						<key>title</key>
-						<string>$action.buttonTitle</string>
-					</dict>
 				</dict>
 			</dict>
 			<key>70</key>
@@ -1039,9 +1032,19 @@
 				<key>parameters</key>
 				<dict>
 					<key>forwardContentType</key>
-					<string>SettingsMap</string>
+					<string>Layer</string>
 					<key>forwardContentAction</key>
-					<string>show</string>
+					<string>switch</string>
+					<key>pickerViewController</key>
+					<string>VC</string>
+					<key>UUIDs</key>
+					<string>$action.auxID1</string>
+					<key>permanentChange</key>
+					<string>$action.auxID2</string>
+					<key>topLayerShown</key>
+					<string>$action.auxID3</string>
+					<key>properties</key>
+					<dict/>
 				</dict>
 			</dict>
 			<key>84</key>
@@ -2009,7 +2012,7 @@
 					<key>databaseName</key>
 					<string>eula</string>
 					<key>shouldPrependProperty</key>
-					<false/>
+					<true/>
 					<key>databaseType</key>
 					<string>10</string>
 				</dict>
@@ -2228,11 +2231,11 @@
 				<key>parameters</key>
 				<dict>
 					<key>databaseName</key>
-					<string>PropertyList</string>
+					<string>20160120_android_multilayer_sandbox</string>
 					<key>databaseType</key>
 					<string>1</string>
 					<key>shouldPrependProperty</key>
-					<false/>
+					<true/>
 				</dict>
 				<key>dependencies</key>
 				<array>
@@ -2301,12 +2304,34 @@
 								<key>parameters</key>
 								<dict>
 									<key>path</key>
-									<string>$CACHES</string>
+									<string></string>
 								</dict>
 							</dict>
 						</array>
 					</dict>
 				</array>
+			</dict>
+		</dict>
+		<key>Layer</key>
+		<dict>
+			<key>displayPicker</key>
+			<dict>
+				<key>className</key>
+				<string>AFCLoadViewControllerAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>presentationMode</key>
+					<string>modal</string>
+					<key>shouldAnimate</key>
+					<true/>
+					<key>properties</key>
+					<dict/>
+				</dict>
+			</dict>
+			<key>switch</key>
+			<dict>
+				<key>className</key>
+				<string>AFCSwitchLayerAction</string>
 			</dict>
 		</dict>
 		<key>Lobby</key>
@@ -2685,9 +2710,9 @@
 								<key>parameters</key>
 								<dict>
 									<key>databaseName</key>
-									<string>PropertyList</string>
+									<string>20160120_android_multilayer_sandbox</string>
 									<key>path</key>
-									<string>$CACHES</string>
+									<string></string>
 								</dict>
 							</dict>
 						</array>
@@ -2710,11 +2735,11 @@
 							<key>parameters</key>
 							<dict>
 								<key>databaseName</key>
-								<string>PropertyList</string>
+								<string>20160120_android_multilayer_sandbox</string>
 								<key>databaseType</key>
 								<string>1</string>
 								<key>shouldPrependProperty</key>
-								<false/>
+								<true/>
 								<key>triggerContentType</key>
 								<string></string>
 								<key>triggerContentAction</key>
@@ -2734,7 +2759,7 @@
 										<key>includeParameters</key>
 										<dict>
 											<key>databaseName</key>
-											<string>PropertyList</string>
+											<string>20160120_android_multilayer_sandbox</string>
 										</dict>
 									</dict>
 								</dict>
@@ -2752,7 +2777,7 @@
 								<key>databaseType</key>
 								<string>16</string>
 								<key>shouldPrependProperty</key>
-								<false/>
+								<true/>
 							</dict>
 							<key>dependencies</key>
 							<array>
@@ -2788,7 +2813,7 @@
 								<key>databaseType</key>
 								<string>14</string>
 								<key>shouldPrependProperty</key>
-								<false/>
+								<true/>
 							</dict>
 							<key>dependencies</key>
 							<array>
