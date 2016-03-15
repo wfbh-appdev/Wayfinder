@@ -1036,7 +1036,7 @@
 					<key>forwardContentAction</key>
 					<string>switch</string>
 					<key>pickerViewController</key>
-					<string>VC</string>
+					<string>AFCLayerPickerViewController</string>
 					<key>UUIDs</key>
 					<string>$action.auxID1</string>
 					<key>permanentChange</key>
@@ -2321,11 +2321,16 @@
 				<key>parameters</key>
 				<dict>
 					<key>presentationMode</key>
-					<string>modal</string>
+					<string>push</string>
 					<key>shouldAnimate</key>
 					<true/>
 					<key>properties</key>
-					<dict/>
+					<dict>
+						<key>permanentChange</key>
+						<string>$action.permanentChange</string>
+						<key>layers</key>
+						<string>$action.layers</string>
+					</dict>
 				</dict>
 			</dict>
 			<key>switch</key>

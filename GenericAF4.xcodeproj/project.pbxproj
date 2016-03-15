@@ -23,6 +23,8 @@
 		5574F54F1C3AF889007BC741 /* AFCUILocationProviderViewClassTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5574F54E1C3AF889007BC741 /* AFCUILocationProviderViewClassTableViewCell.m */; };
 		5574F5521C3B21AD007BC741 /* AFCUIDistanceUnitsCellViewClassTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5574F5501C3B21AD007BC741 /* AFCUIDistanceUnitsCellViewClassTableViewCell.m */; };
 		55BAB7CB1C3EB98600799988 /* PhunwareIntegration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55BAB7CD1C3EB98600799988 /* PhunwareIntegration.plist */; };
+		7E699E741C973AE500000BA9 /* AFCLayerPickerViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E699E731C973AE500000BA9 /* AFCLayerPickerViewController.plist */; };
+		7E699E761C97708B00000BA9 /* AFCLayerPickerTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E699E751C97708B00000BA9 /* AFCLayerPickerTableViewCell.plist */; };
 		8C10FC371C49CD5A000A7913 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C10FC361C49CD5A000A7913 /* Fabric.framework */; };
 		8CA4FA061C8F9FE900E0028C /* 20160120_android_multilayer_sandbox.s3db in Resources */ = {isa = PBXBuildFile; fileRef = 8CA4FA051C8F9FE900E0028C /* 20160120_android_multilayer_sandbox.s3db */; };
 		8CB729D21C20A30D00F016B7 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB729D11C20A30D00F016B7 /* Crashlytics.framework */; };
@@ -98,6 +100,8 @@
 		558BA0B01C44533000394237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
 		55BAB7CC1C3EB98600799988 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/PhunwareIntegration.plist; sourceTree = "<group>"; };
 		55BAB7CE1C3EB98800799988 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = es; path = es.lproj/PhunwareIntegration.plist; sourceTree = "<group>"; };
+		7E699E731C973AE500000BA9 /* AFCLayerPickerViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCLayerPickerViewController.plist; sourceTree = "<group>"; };
+		7E699E751C97708B00000BA9 /* AFCLayerPickerTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCLayerPickerTableViewCell.plist; sourceTree = "<group>"; };
 		886B07E6664FE0E20EF5859F /* libPods-MallApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MallApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C10FC361C49CD5A000A7913 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		8CA4FA051C8F9FE900E0028C /* 20160120_android_multilayer_sandbox.s3db */ = {isa = PBXFileReference; lastKnownFileType = file; path = 20160120_android_multilayer_sandbox.s3db; sourceTree = "<group>"; };
@@ -256,6 +260,8 @@
 				8F8C54211BD798060018A2ED /* AFCUIHoneyBadgerTableViewCell.plist */,
 				8F8C54291BD7ED9A0018A2ED /* AFCUIImageSplashViewController.plist */,
 				8F8C542E1BD8191F0018A2ED /* AFCUIMallDetailViewController.plist */,
+				7E699E731C973AE500000BA9 /* AFCLayerPickerViewController.plist */,
+				7E699E751C97708B00000BA9 /* AFCLayerPickerTableViewCell.plist */,
 			);
 			path = UIConfiguration;
 			sourceTree = "<group>";
@@ -388,6 +394,7 @@
 				8F4355911BC858B700FFD46C /* Splash-568h@2x.mov in Resources */,
 				8F8C54281BD7E59B0018A2ED /* iTunesArtwork in Resources */,
 				55BAB7CB1C3EB98600799988 /* PhunwareIntegration.plist in Resources */,
+				7E699E741C973AE500000BA9 /* AFCLayerPickerViewController.plist in Resources */,
 				8F43559D1BC85B8F00FFD46C /* EventTableViewCell.plist in Resources */,
 				551BF9281C1B51E9004D7ECD /* Pods-GenericAF4.release.xcconfig in Resources */,
 				5555DB071C44646800E37207 /* AFCDirectoryViewController.plist in Resources */,
@@ -408,6 +415,7 @@
 				8F43558A1BC858B700FFD46C /* AFCParkingVoiceMemoViewController.plist in Resources */,
 				8F5FFFBD1BCC2F58000B027C /* AFCUIMAnnotationDirectoryViewController.plist in Resources */,
 				8F5FFFC11BCC2F58000B027C /* AFCUIAnnotationDetailViewController.plist in Resources */,
+				7E699E761C97708B00000BA9 /* AFCLayerPickerTableViewCell.plist in Resources */,
 				8FDD0F4D1BD1CC5000A0C512 /* Proxima Nova Sbold.otf in Resources */,
 				8F4355931BC858B700FFD46C /* Splash@2x.mov in Resources */,
 				8F43559C1BC85B8F00FFD46C /* EventsListViewController.plist in Resources */,
