@@ -12,14 +12,14 @@ target :'GenericAF4', :exclusive => true do
     pod 'AppFrameworkDirectoryModule', :git =>  'https://github.com/phunware/sdk-ios-appframework-directory-binary.git', :tag => 'v4.0.1'
     pod 'AppFrameworkEventsModule', :git =>  'https://github.com/phunware/sdk-ios-appframework-events-binary.git', :tag => 'v4.0.1'
     pod 'AppFrameworkLocationMarketingModule', :git =>  'https://github.com/phunware/sdk-ios-appframework-location-marketing-binary.git', :tag => 'v4.0.1'
-    pod 'AppFrameworkMappingModule', :git =>  'https://github.com/phunware/sdk-ios-appframework-mapping-binary.git', :tag => 'v4.0.1'
+    #pod 'AppFrameworkMappingModule', :git =>  'https://github.com/phunware/sdk-ios-appframework-mapping-binary.git', :tag => 'v4.0.1'
     pod 'AppFrameworkParkingModule', :git =>  'https://github.com/phunware/sdk-ios-appframework-parking-binary.git', :tag => 'v4.0.1'
     #pod 'AppFrameworkRenderModule', :git => 'https://github.com/phunware/sdk-ios-appframework-render-binary.git', :tag => 'v4.0.1'
     
     pod 'CoreNetwork', :git => 'https://github.com/phunware/sdk-ios-appframework-network.git', :tag => 'v4.0.1'
     pod 'PWUIKit', :git =>  'https://github.com/phunware/sdk-ios-pwuikit-binary.git', :tag => 'v4.0.1'
     
-    pod 'Google/Analytics', '1.3.2'
+    pod 'Google/Analytics'
     pod 'PWLocalpoint', '2.6.3.1'
     
     #pod 'AppFrameworkAlertsModule', :path =>  '../sdk-ios-appframework-alerts'
@@ -27,7 +27,7 @@ target :'GenericAF4', :exclusive => true do
     #pod 'AppFrameworkDirectoryModule', :path =>  '../sdk-ios-appframework-directory'
     #pod 'AppFrameworkEventsModule', :path =>  '../sdk-ios-appframework-events'
     #pod 'AppFrameworkLocationMarketingModule', :path =>  '../sdk-ios-appframework-location-marketing'
-    #pod 'AppFrameworkMappingModule', :path =>  '../sdk-ios-appframework-mapping'
+    pod 'AppFrameworkMappingModule', :path =>  '../sdk-ios-appframework-mapping'
     #pod 'AppFrameworkParkingModule', :path =>  '../sdk-ios-appframework-parking'
     pod 'AppFrameworkRenderModule', :path =>  '../sdk-ios-appframework-render'
     

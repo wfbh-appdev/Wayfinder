@@ -344,13 +344,13 @@
 										<key>parameters</key>
 										<dict>
 											<key>structureName</key>
-											<string>vscVenues</string>
+											<string>venues</string>
 											<key>cmeDTOClass</key>
 											<string>CMEVenue</string>
 											<key>cmeResultKey</key>
 											<string>venueLevelVenues</string>
 											<key>cmeMappingKey</key>
-											<string>vscVenue</string>
+											<string>venue</string>
 										</dict>
 									</dict>
 									<key>className</key>
@@ -358,13 +358,13 @@
 									<key>parameters</key>
 									<dict>
 										<key>structureName</key>
-										<string>vscAppVenues</string>
+										<string>appVenues</string>
 										<key>cmeDTOClass</key>
 										<string>CMEAdvertisementSettings</string>
 										<key>cmeResultKey</key>
 										<string>appLevelVenues</string>
 										<key>cmeMappingKey</key>
-										<string>vscAppAdvertisementSettings</string>
+										<string>appAdvertisementSettings</string>
 									</dict>
 								</dict>
 								<dict>
@@ -373,13 +373,13 @@
 									<key>parameters</key>
 									<dict>
 										<key>structureName</key>
-										<string>vscVenues</string>
+										<string>venues</string>
 										<key>cmeDTOClass</key>
 										<string>CMEVenue</string>
 										<key>cmeResultKey</key>
 										<string>venueLevelVenues</string>
 										<key>cmeMappingKey</key>
-										<string>vscVenue</string>
+										<string>venue</string>
 									</dict>
 								</dict>
 								<dict>
@@ -388,13 +388,13 @@
 									<key>parameters</key>
 									<dict>
 										<key>structureName</key>
-										<string>vscVenueCampuses</string>
+										<string>venueCampuses</string>
 										<key>cmeDTOClass</key>
 										<string>CMECampus</string>
 										<key>cmeResultKey</key>
 										<string>campuses</string>
 										<key>cmeMappingKey</key>
-										<string>vscCampus</string>
+										<string>campus</string>
 									</dict>
 								</dict>
 								<dict>
@@ -403,13 +403,13 @@
 									<key>parameters</key>
 									<dict>
 										<key>structureName</key>
-										<string>vscCampusBuildings</string>
+										<string>campusBuildings</string>
 										<key>cmeDTOClass</key>
 										<string>CMEBuilding</string>
 										<key>cmeResultKey</key>
 										<string>buildings</string>
 										<key>cmeMappingKey</key>
-										<string>vscBuilding</string>
+										<string>building</string>
 									</dict>
 								</dict>
 								<dict>
@@ -418,13 +418,13 @@
 									<key>parameters</key>
 									<dict>
 										<key>structureName</key>
-										<string>vscBuildingFloors</string>
+										<string>buildingFloors</string>
 										<key>cmeDTOClass</key>
 										<string>CMEFloor</string>
 										<key>cmeResultKey</key>
 										<string>floors</string>
 										<key>cmeMappingKey</key>
-										<string>vscFloor</string>
+										<string>floor</string>
 									</dict>
 								</dict>
 								<dict>
@@ -433,13 +433,13 @@
 									<key>parameters</key>
 									<dict>
 										<key>structureName</key>
-										<string>vscFloorBeacons</string>
+										<string>floorBeacons</string>
 										<key>cmeDTOClass</key>
 										<string>CMEBeacon</string>
 										<key>cmeResultKey</key>
 										<string>beacons</string>
 										<key>cmeMappingKey</key>
-										<string>vscBeacon</string>
+										<string>beacon</string>
 									</dict>
 								</dict>
 								<dict>
@@ -448,13 +448,13 @@
 									<key>parameters</key>
 									<dict>
 										<key>structureName</key>
-										<string>vscBeaconAlerts</string>
+										<string>beaconAlerts</string>
 										<key>cmeDTOClass</key>
 										<string>CMEProximyAlert</string>
 										<key>cmeResultKey</key>
 										<string>alerts</string>
 										<key>cmeMappingKey</key>
-										<string>vscProximityAlert</string>
+										<string>proximityAlert</string>
 									</dict>
 								</dict>
 							</array>
@@ -1025,7 +1025,7 @@
 					<true/>
 				</dict>
 			</dict>
-			<key>70</key>
+			<key>73</key>
 			<dict>
 				<key>className</key>
 				<string>AFCForwardAction</string>
@@ -1056,7 +1056,7 @@
 					<key>forwardContentType</key>
 					<string>Map</string>
 					<key>forwardContentAction</key>
-					<string>show</string>
+					<string>switch</string>
 				</dict>
 			</dict>
 		</dict>
@@ -1206,6 +1206,35 @@
 		</dict>
 		<key>Map</key>
 		<dict>
+			<key>displayPicker</key>
+			<dict>
+				<key>className</key>
+				<string>AFCLoadViewControllerAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>presentationMode</key>
+					<string>push</string>
+					<key>shouldAnimate</key>
+					<true/>
+					<key>properties</key>
+					<dict>
+						<key>buildings</key>
+						<string>$action.buildings</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>switch</key>
+			<dict>
+				<key>className</key>
+				<string>AFCMChangeBuildingAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>pickerViewController</key>
+					<string>AFCMMapPickerViewController</string>
+					<key>buildings</key>
+					<string>$action.auxID1</string>
+				</dict>
+			</dict>
 			<key>show</key>
 			<dict>
 				<key>className</key>
@@ -2231,7 +2260,7 @@
 				<key>parameters</key>
 				<dict>
 					<key>databaseName</key>
-					<string>20160120_android_multilayer_sandbox</string>
+					<string>PropertyList</string>
 					<key>databaseType</key>
 					<string>1</string>
 					<key>shouldPrependProperty</key>
@@ -2304,7 +2333,7 @@
 								<key>parameters</key>
 								<dict>
 									<key>path</key>
-									<string></string>
+									<string>$CACHES</string>
 								</dict>
 							</dict>
 						</array>
@@ -2314,6 +2343,140 @@
 		</dict>
 		<key>Layer</key>
 		<dict>
+			<key>load</key>
+			<dict>
+				<key>queue</key>
+				<string>serial</string>
+				<key>className</key>
+				<string>AFCActionDivider</string>
+				<key>parameters</key>
+				<dict>
+					<key>dividerActions</key>
+					<array>
+						<dict>
+							<key>className</key>
+							<string>AFCS3VerifyDatabase</string>
+							<key>queue</key>
+							<string>serial</string>
+							<key>parameters</key>
+							<dict>
+								<key>databaseName</key>
+								<string>PropertyList</string>
+								<key>databaseType</key>
+								<string>2</string>
+								<key>shouldPrependProperty</key>
+								<true/>
+								<key>triggerContentType</key>
+								<string></string>
+								<key>triggerContentAction</key>
+								<string></string>
+							</dict>
+							<key>dependencies</key>
+							<array>
+								<dict>
+									<key>className</key>
+									<string>AFCActionIncluder</string>
+									<key>parameters</key>
+									<dict>
+										<key>includeContentType</key>
+										<string>Database</string>
+										<key>includeContentAction</key>
+										<string>readVersion</string>
+										<key>includeParameters</key>
+										<dict>
+											<key>databaseName</key>
+											<string>PropertyList</string>
+										</dict>
+									</dict>
+								</dict>
+							</array>
+						</dict>
+						<dict>
+							<key>className</key>
+							<string>AFCS3VerifyDatabase</string>
+							<key>queue</key>
+							<string>serial</string>
+							<key>parameters</key>
+							<dict>
+								<key>databaseName</key>
+								<string>events</string>
+								<key>databaseType</key>
+								<string>16</string>
+								<key>shouldPrependProperty</key>
+								<true/>
+							</dict>
+							<key>dependencies</key>
+							<array>
+								<dict>
+									<key>className</key>
+									<string>AFCActionIncluder</string>
+									<key>queue</key>
+									<string>serial</string>
+									<key>parameters</key>
+									<dict>
+										<key>includeContentType</key>
+										<string>Database</string>
+										<key>includeContentAction</key>
+										<string>readVersion</string>
+										<key>includeParameters</key>
+										<dict>
+											<key>databaseName</key>
+											<string>events</string>
+										</dict>
+									</dict>
+								</dict>
+							</array>
+						</dict>
+						<dict>
+							<key>className</key>
+							<string>AFCS3VerifyDatabase</string>
+							<key>queue</key>
+							<string>serial</string>
+							<key>parameters</key>
+							<dict>
+								<key>databaseName</key>
+								<string>directory</string>
+								<key>databaseType</key>
+								<string>14</string>
+								<key>shouldPrependProperty</key>
+								<true/>
+							</dict>
+							<key>dependencies</key>
+							<array>
+								<dict>
+									<key>className</key>
+									<string>AFCActionIncluder</string>
+									<key>parameters</key>
+									<dict>
+										<key>includeContentType</key>
+										<string>Database</string>
+										<key>includeContentAction</key>
+										<string>readVersion</string>
+										<key>includeParameters</key>
+										<dict>
+											<key>databaseName</key>
+											<string>directory</string>
+										</dict>
+									</dict>
+								</dict>
+							</array>
+						</dict>
+						<dict>
+							<key>queue</key>
+							<string>serial</string>
+							<key>className</key>
+							<string>AFCForwardAction</string>
+							<key>parameters</key>
+							<dict>
+								<key>forwardContentType</key>
+								<string>Lobby</string>
+								<key>forwardContentAction</key>
+								<string>load</string>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
 			<key>displayPicker</key>
 			<dict>
 				<key>className</key>
@@ -2715,9 +2878,9 @@
 								<key>parameters</key>
 								<dict>
 									<key>databaseName</key>
-									<string>20160120_android_multilayer_sandbox</string>
+									<string>PropertyList</string>
 									<key>path</key>
-									<string></string>
+									<string>$CACHES</string>
 								</dict>
 							</dict>
 						</array>
@@ -2740,7 +2903,7 @@
 							<key>parameters</key>
 							<dict>
 								<key>databaseName</key>
-								<string>20160120_android_multilayer_sandbox</string>
+								<string>PropertyList</string>
 								<key>databaseType</key>
 								<string>1</string>
 								<key>shouldPrependProperty</key>
@@ -2764,7 +2927,7 @@
 										<key>includeParameters</key>
 										<dict>
 											<key>databaseName</key>
-											<string>20160120_android_multilayer_sandbox</string>
+											<string>PropertyList</string>
 										</dict>
 									</dict>
 								</dict>

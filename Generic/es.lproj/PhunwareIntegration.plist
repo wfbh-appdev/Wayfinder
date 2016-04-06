@@ -49,6 +49,8 @@
 	</dict>
 	<key>Core WS Integration</key>
 	<dict>
+		<key>topLevelContentName</key>
+		<string>Generic Top Level</string>
 		<key>applicationUUID</key>
 		<string>7d021f92-8435-4501-9e91-0dfddb3fb5ac</string>
 		<key>rootURL</key>
@@ -89,119 +91,6 @@
 		<true/>
 		<key>TourEnabled</key>
 		<true/>
-	</dict>
-	<key>CME</key>
-	<dict>
-		<key>Venues</key>
-		<array>
-			<dict>
-				<key>Campuses</key>
-				<array>
-					<dict>
-						<key>Buildings</key>
-						<array>
-							<dict>
-								<key>vscBuildingName</key>
-								<string>Phunware Austin</string>
-								<key>vscBuildingId</key>
-								<real>17498</real>
-								<key>vscBuildingActive</key>
-								<true/>
-								<key>Floors</key>
-								<array>
-									<dict>
-										<key>Beacons</key>
-										<array/>
-										<key>vscFloorActive</key>
-										<true/>
-										<key>vscFloorId</key>
-										<real>102951</real>
-										<key>vscFloorName</key>
-										<string>Floor 1</string>
-										<key>vscSenionFloorKeyiOS</key>
-										<string>1</string>
-									</dict>
-									<dict>
-										<key>Beacons</key>
-										<array/>
-										<key>vscFloorActive</key>
-										<true/>
-										<key>vscFloorId</key>
-										<real>102950</real>
-										<key>vscFloorName</key>
-										<string>Floor 2</string>
-										<key>vscSenionFloorKeyiOS</key>
-										<string>0</string>
-									</dict>
-								</array>
-								<key>Geo Settings</key>
-								<dict>
-									<key>latitude</key>
-									<real>30.359927</real>
-									<key>longitude</key>
-									<real>-97.74473399999999</real>
-									<key>geofenceLocationCode</key>
-									<string>PhunwareAustin</string>
-									<key>geofenceRadius</key>
-									<string>100</string>
-								</dict>
-								<key>Map Settings</key>
-								<dict>
-									<key>vscMapDefaultFloor</key>
-									<integer>2</integer>
-									<key>vscMapZoomLevel</key>
-									<integer>17</integer>
-									<key>vscMapEyeAltitude</key>
-									<integer>500</integer>
-									<key>vscSenionCustomerIdiOS</key>
-									<string>c3f5aa2d-f6a9-4477-80ed-3d8ccfd6fddb</string>
-									<key>vscSenionMapIdiOS</key>
-									<string>6486f9ae-3bf1-4552-b3e4-70b8d79a38ad</string>
-								</dict>
-							</dict>
-						</array>
-						<key>vscCampusName</key>
-						<string>Phunware Austin</string>
-						<key>vscCampusId</key>
-						<integer>500</integer>
-						<key>vscCampusActive</key>
-						<true/>
-						<key>vscCampusPropertyUUID</key>
-						<string></string>
-					</dict>
-				</array>
-				<key>vscVenueName</key>
-				<string>Phunware</string>
-				<key>vscVenueUUID</key>
-				<string>9a24647f-e455-4582-ae86-089930855dfe</string>
-				<key>vscVenuePropertyUUID</key>
-				<string>ef84f782-47fd-11e4-b8da-d450167c2d6d</string>
-				<key>vscVenueActive</key>
-				<true/>
-			</dict>
-		</array>
-		<key>AdvertisementSettings</key>
-		<dict>
-			<key>vscAdsBannerZone</key>
-			<integer>65</integer>
-			<key>vscAdsBannerFrequency</key>
-			<integer>10</integer>
-			<key>vscAdsInterstitialZone</key>
-			<integer>65</integer>
-			<key>vscAdsInterstitialFrequency</key>
-			<integer>10</integer>
-			<key>vscAdsNativeBannerZone</key>
-			<integer>65</integer>
-			<key>vscAdsDirectoryRow</key>
-			<integer>3</integer>
-			<key>vscAdsNativeEnable</key>
-			<true/>
-		</dict>
-		<key>ApplicationSettings</key>
-		<dict>
-			<key>vscDefaultIndoorLocationProvider</key>
-			<string>PWSLLocationManager</string>
-		</dict>
 	</dict>
 	<key>MaaSLocationProvider</key>
 	<dict>

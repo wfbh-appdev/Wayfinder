@@ -299,13 +299,13 @@
 										<key>parameters</key>
 										<dict>
 											<key>structureName</key>
-											<string>vscVenues</string>
+											<string>venues</string>
 											<key>cmeDTOClass</key>
 											<string>CMEVenue</string>
 											<key>cmeResultKey</key>
 											<string>venueLevelVenues</string>
 											<key>cmeMappingKey</key>
-											<string>vscVenue</string>
+											<string>venue</string>
 										</dict>
 									</dict>
 									<key>className</key>
@@ -313,13 +313,13 @@
 									<key>parameters</key>
 									<dict>
 										<key>structureName</key>
-										<string>vscAppVenues</string>
+										<string>appVenues</string>
 										<key>cmeDTOClass</key>
 										<string>CMEAdvertisementSettings</string>
 										<key>cmeResultKey</key>
 										<string>appLevelVenues</string>
 										<key>cmeMappingKey</key>
-										<string>vscAppAdvertisementSettings</string>
+										<string>appAdvertisementSettings</string>
 									</dict>
 								</dict>
 								<dict>
@@ -328,13 +328,13 @@
 									<key>parameters</key>
 									<dict>
 										<key>structureName</key>
-										<string>vscVenues</string>
+										<string>venues</string>
 										<key>cmeDTOClass</key>
 										<string>CMEVenue</string>
 										<key>cmeResultKey</key>
 										<string>venueLevelVenues</string>
 										<key>cmeMappingKey</key>
-										<string>vscVenue</string>
+										<string>venue</string>
 									</dict>
 								</dict>
 								<dict>
@@ -343,13 +343,13 @@
 									<key>parameters</key>
 									<dict>
 										<key>structureName</key>
-										<string>vscVenueCampuses</string>
+										<string>venueCampuses</string>
 										<key>cmeDTOClass</key>
 										<string>CMECampus</string>
 										<key>cmeResultKey</key>
 										<string>campuses</string>
 										<key>cmeMappingKey</key>
-										<string>vscCampus</string>
+										<string>campus</string>
 									</dict>
 								</dict>
 								<dict>
@@ -358,13 +358,13 @@
 									<key>parameters</key>
 									<dict>
 										<key>structureName</key>
-										<string>vscCampusBuildings</string>
+										<string>campusBuildings</string>
 										<key>cmeDTOClass</key>
 										<string>CMEBuilding</string>
 										<key>cmeResultKey</key>
 										<string>buildings</string>
 										<key>cmeMappingKey</key>
-										<string>vscBuilding</string>
+										<string>building</string>
 									</dict>
 								</dict>
 								<dict>
@@ -373,13 +373,13 @@
 									<key>parameters</key>
 									<dict>
 										<key>structureName</key>
-										<string>vscBuildingFloors</string>
+										<string>buildingFloors</string>
 										<key>cmeDTOClass</key>
 										<string>CMEFloor</string>
 										<key>cmeResultKey</key>
 										<string>floors</string>
 										<key>cmeMappingKey</key>
-										<string>vscFloor</string>
+										<string>floor</string>
 									</dict>
 								</dict>
 								<dict>
@@ -388,13 +388,13 @@
 									<key>parameters</key>
 									<dict>
 										<key>structureName</key>
-										<string>vscFloorBeacons</string>
+										<string>floorBeacons</string>
 										<key>cmeDTOClass</key>
 										<string>CMEBeacon</string>
 										<key>cmeResultKey</key>
 										<string>beacons</string>
 										<key>cmeMappingKey</key>
-										<string>vscBeacon</string>
+										<string>beacon</string>
 									</dict>
 								</dict>
 								<dict>
@@ -403,13 +403,13 @@
 									<key>parameters</key>
 									<dict>
 										<key>structureName</key>
-										<string>vscBeaconAlerts</string>
+										<string>beaconAlerts</string>
 										<key>cmeDTOClass</key>
 										<string>CMEProximyAlert</string>
 										<key>cmeResultKey</key>
 										<string>alerts</string>
 										<key>cmeMappingKey</key>
-										<string>vscProximityAlert</string>
+										<string>proximityAlert</string>
 									</dict>
 								</dict>
 							</array>
