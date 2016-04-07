@@ -8,6 +8,44 @@
 	<array/>
 	<key>contentTypes</key>
 	<dict>
+		<key>DeepLinking</key>
+		<dict>
+			<key>register</key>
+			<dict>
+				<key>className</key>
+				<string>AFCActionDivider</string>
+				<key>parameters</key>
+				<dict>
+					<key>dividerActions</key>
+					<array>
+						<dict>
+							<key>className</key>
+							<string>AFCDirectoryRegisterDeepLinksAction</string>
+						</dict>
+						<dict>
+							<key>className</key>
+							<string>AFCEventsRegisterDeepLinksAction</string>
+						</dict>
+						<dict>
+							<key>className</key>
+							<string>AFCLocationMarketingRegisterDeepLinksAction</string>
+						</dict>
+						<dict>
+							<key>className</key>
+							<string>AFCMappingRegisterDeepLinksAction</string>
+						</dict>
+						<dict>
+							<key>className</key>
+							<string>AFCParkingRegisterDeepLinksAction</string>
+						</dict>
+						<dict>
+							<key>className</key>
+							<string>AFCRenderRegisterDeepLinksAction</string>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+		</dict>
 		<key>Page</key>
 		<dict>
 			<key>show</key>
@@ -1203,38 +1241,81 @@
 		</dict>
 		<key>Map</key>
 		<dict>
+			<key>route</key>
+			<dict>
+				<key>className</key>
+				<string>AFCForwardAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>forwardContentType</key>
+					<string>Route</string>
+					<key>forwardContentAction</key>
+					<string>make</string>
+				</dict>
+				<key>dependencies</key>
+				<array>
+					<dict>
+						<key>className</key>
+						<string>AFCActionIncluder</string>
+						<key>parameters</key>
+						<dict>
+							<key>includeContentType</key>
+							<string>Map</string>
+							<key>includeContentAction</key>
+							<string>show</string>
+							<key>includeParameters</key>
+							<dict>
+								<key>contentId</key>
+								<string>$action.contentId</string>
+							</dict>
+						</dict>
+					</dict>
+				</array>
+			</dict>
 			<key>show</key>
 			<dict>
 				<key>className</key>
-				<string>AFCLoadViewControllerAction</string>
+				<string>AFCShowAnnotationCardAction</string>
 				<key>parameters</key>
 				<dict>
-					<key>viewController</key>
-					<string>AFCUIMMapViewController</string>
-					<key>presentationMode</key>
-					<string>replaceTop</string>
-					<key>shouldAnimate</key>
-					<true/>
-					<key>properties</key>
-					<dict>
-						<key>campus</key>
-						<string>$app.kAFCApplicationStateCurrentCampus</string>
-						<key>favoritesContext</key>
-						<string>$module.mapFavoritesContext</string>
-						<key>annotations</key>
-						<string>$module.pois</string>
-						<key>altitudeToApplyWorkaroundiOS9</key>
-						<integer>210</integer>
-						<key>associatedData</key>
-						<string>$module.databaseDirectoryItems</string>
-						<key>associatedDataAnnotationIdentifierKey</key>
-						<string>POI</string>
-						<key>associatedDataDescriptionKey</key>
-						<string>Description</string>
-						<key>associatedDataBannerKey</key>
-						<string>DetailImage</string>
-					</dict>
+					<key>annotations</key>
+					<string>$module.pois</string>
 				</dict>
+				<key>dependencies</key>
+				<array>
+					<dict>
+						<key>className</key>
+						<string>AFCLoadViewControllerAction</string>
+						<key>parameters</key>
+						<dict>
+							<key>viewController</key>
+							<string>AFCUIMMapViewController</string>
+							<key>presentationMode</key>
+							<string>replaceTop</string>
+							<key>shouldAnimate</key>
+							<true/>
+							<key>properties</key>
+							<dict>
+								<key>campus</key>
+								<string>$app.kAFCApplicationStateCurrentCampus</string>
+								<key>favoritesContext</key>
+								<string>$module.mapFavoritesContext</string>
+								<key>annotations</key>
+								<string>$module.pois</string>
+								<key>altitudeToApplyWorkaroundiOS9</key>
+								<integer>210</integer>
+								<key>associatedData</key>
+								<string>$module.databaseDirectoryItems</string>
+								<key>associatedDataAnnotationIdentifierKey</key>
+								<string>POI</string>
+								<key>associatedDataDescriptionKey</key>
+								<string>Description</string>
+								<key>associatedDataBannerKey</key>
+								<string>DetailImage</string>
+							</dict>
+						</dict>
+					</dict>
+				</array>
 			</dict>
 			<key>push</key>
 			<dict>
@@ -2170,6 +2251,19 @@
 				<dict>
 					<key>dividerActions</key>
 					<array>
+						<dict>
+							<key>className</key>
+							<string>AFCForwardAction</string>
+							<key>ignoresParentParameters</key>
+							<true/>
+							<key>parameters</key>
+							<dict>
+								<key>forwardContentType</key>
+								<string>DeepLinking</string>
+								<key>forwardContentAction</key>
+								<string>register</string>
+							</dict>
+						</dict>
 						<dict>
 							<key>className</key>
 							<string>AFCARegisterAPNTokenAction</string>
