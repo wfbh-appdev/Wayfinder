@@ -369,143 +369,21 @@
 				<array>
 					<dict>
 						<key>className</key>
-						<string>AFCActionDivider</string>
+						<string>AFCLoadCMEMyPlatform</string>
 						<key>parameters</key>
 						<dict>
-							<key>dividerActions</key>
-							<array>
-								<dict>
-									<key>New item</key>
-									<dict>
-										<key>className</key>
-										<string>AFCLoadCMEObjects</string>
-										<key>parameters</key>
-										<dict>
-											<key>structureName</key>
-											<string>venues</string>
-											<key>cmeDTOClass</key>
-											<string>CMEVenue</string>
-											<key>cmeResultKey</key>
-											<string>venueLevelVenues</string>
-											<key>cmeMappingKey</key>
-											<string>venue</string>
-										</dict>
-									</dict>
-									<key>className</key>
-									<string>AFCLoadCMEObjects</string>
-									<key>parameters</key>
-									<dict>
-										<key>structureName</key>
-										<string>appVenues</string>
-										<key>cmeDTOClass</key>
-										<string>CMEAdvertisementSettings</string>
-										<key>cmeResultKey</key>
-										<string>appLevelVenues</string>
-										<key>cmeMappingKey</key>
-										<string>appAdvertisementSettings</string>
-									</dict>
-								</dict>
-								<dict>
-									<key>className</key>
-									<string>AFCLoadCMEObjects</string>
-									<key>parameters</key>
-									<dict>
-										<key>structureName</key>
-										<string>venues</string>
-										<key>cmeDTOClass</key>
-										<string>CMEVenue</string>
-										<key>cmeResultKey</key>
-										<string>venueLevelVenues</string>
-										<key>cmeMappingKey</key>
-										<string>venue</string>
-									</dict>
-								</dict>
-								<dict>
-									<key>className</key>
-									<string>AFCLoadCMEObjects</string>
-									<key>parameters</key>
-									<dict>
-										<key>structureName</key>
-										<string>venueCampuses</string>
-										<key>cmeDTOClass</key>
-										<string>CMECampus</string>
-										<key>cmeResultKey</key>
-										<string>campuses</string>
-										<key>cmeMappingKey</key>
-										<string>campus</string>
-									</dict>
-								</dict>
-								<dict>
-									<key>className</key>
-									<string>AFCLoadCMEObjects</string>
-									<key>parameters</key>
-									<dict>
-										<key>structureName</key>
-										<string>campusBuildings</string>
-										<key>cmeDTOClass</key>
-										<string>CMEBuilding</string>
-										<key>cmeResultKey</key>
-										<string>buildings</string>
-										<key>cmeMappingKey</key>
-										<string>building</string>
-									</dict>
-								</dict>
-								<dict>
-									<key>className</key>
-									<string>AFCLoadCMEObjects</string>
-									<key>parameters</key>
-									<dict>
-										<key>structureName</key>
-										<string>buildingFloors</string>
-										<key>cmeDTOClass</key>
-										<string>CMEFloor</string>
-										<key>cmeResultKey</key>
-										<string>floors</string>
-										<key>cmeMappingKey</key>
-										<string>floor</string>
-									</dict>
-								</dict>
-								<dict>
-									<key>className</key>
-									<string>AFCLoadCMEObjects</string>
-									<key>parameters</key>
-									<dict>
-										<key>structureName</key>
-										<string>floorBeacons</string>
-										<key>cmeDTOClass</key>
-										<string>CMEBeacon</string>
-										<key>cmeResultKey</key>
-										<string>beacons</string>
-										<key>cmeMappingKey</key>
-										<string>beacon</string>
-									</dict>
-								</dict>
-								<dict>
-									<key>className</key>
-									<string>AFCLoadCMEObjects</string>
-									<key>parameters</key>
-									<dict>
-										<key>structureName</key>
-										<string>beaconAlerts</string>
-										<key>cmeDTOClass</key>
-										<string>CMEProximyAlert</string>
-										<key>cmeResultKey</key>
-										<string>alerts</string>
-										<key>cmeMappingKey</key>
-										<string>proximityAlert</string>
-									</dict>
-								</dict>
-							</array>
+							<key>AppPlatform</key>
+							<string>iOS</string>
+							<key>AppName</key>
+							<string>PhunGeneric_v4</string>
 						</dict>
 						<key>dependencies</key>
 						<array>
 							<dict>
 								<key>className</key>
-								<string>AFCLoadCMEMyPlatform</string>
+								<string>AFCLoadCMEMyApp</string>
 								<key>parameters</key>
 								<dict>
-									<key>AppPlatform</key>
-									<string>iOS</string>
 									<key>AppName</key>
 									<string>PhunGeneric_v4</string>
 								</dict>
@@ -513,26 +391,14 @@
 								<array>
 									<dict>
 										<key>className</key>
-										<string>AFCLoadCMEMyApp</string>
+										<string>AFCLoadCMEStructures</string>
+										<key>queue</key>
+										<string>concurrent</string>
 										<key>parameters</key>
 										<dict>
-											<key>AppName</key>
-											<string>PhunGeneric_v4</string>
+											<key>containerId</key>
+											<string>$appDefaults.solutions.appUUID</string>
 										</dict>
-										<key>dependencies</key>
-										<array>
-											<dict>
-												<key>className</key>
-												<string>AFCLoadCMEStructures</string>
-												<key>queue</key>
-												<string>concurrent</string>
-												<key>parameters</key>
-												<dict>
-													<key>containerId</key>
-													<string>$appDefaults.solutions.appUUID</string>
-												</dict>
-											</dict>
-										</array>
 									</dict>
 								</array>
 							</dict>
@@ -899,6 +765,20 @@
 					<string>Directory</string>
 					<key>forwardContentAction</key>
 					<string>show</string>
+				</dict>
+			</dict>
+			<key>51</key>
+			<dict>
+				<key>className</key>
+				<string>AFCForwardAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>forwardContentType</key>
+					<string>Layer</string>
+					<key>forwardContentAction</key>
+					<string>switch</string>
+					<key>UUIDs</key>
+					<string>EXIT</string>
 				</dict>
 			</dict>
 			<key>56</key>
@@ -1723,6 +1603,20 @@
 						<true/>
 					</dict>
 				</dict>
+				<key>dependencies</key>
+				<array>
+					<dict>
+						<key>className</key>
+						<string>AFCActionIncluder</string>
+						<key>parameters</key>
+						<dict>
+							<key>includeContentType</key>
+							<string>Directory</string>
+							<key>includeContentAction</key>
+							<string>load</string>
+						</dict>
+					</dict>
+				</array>
 			</dict>
 			<key>load</key>
 			<dict>

@@ -52,7 +52,7 @@
 		<key>topLevelContentName</key>
 		<string>Generic Top Level</string>
 		<key>applicationUUID</key>
-		<string>d650cfb3-e0a3-4b55-9df6-953fc2987224</string>
+		<string>ca4a0a6f-4534-45ea-80e7-354825d9c71a</string>
 		<key>rootURL</key>
 		<string>http://solutions-ws-stage.phunware.com/AFManagementWS/</string>
 		<key>voiceURL</key>
@@ -67,17 +67,17 @@
 	<key>MaaS Integration</key>
 	<dict>
 		<key>MaaSAppID</key>
-		<string>338</string>
+		<string>468</string>
 		<key>MaaSAccessKey</key>
-		<string>107c737ef0c26d620b5978571823dc1eb38c8af9</string>
+		<string>a289c53bd83e756c276a78119d06f5bbbc0b3acf</string>
 		<key>MaaSSignatureKey</key>
-		<string>de379d6c2e044d163127e4ef279ea2bdd77b7227</string>
+		<string>35629f69ef8a6a4dc5acb324e91bfbd3706577da</string>
 		<key>MaaSContainerID</key>
 		<string>56f982a7759fd7b41f000043</string>
 		<key>MaaSMapVenueGUID</key>
-		<string>50823c75-c362-4141-b213-1dbb5220c968</string>
+		<string>c44e0549-a7bf-4d38-8cba-2b4fcded036b</string>
 		<key>MaaSAppName</key>
-		<string>PhunGeneric_v4</string>
+		<string>Generic 4.1 (iOS)</string>
 		<key>MaaSPlatformName</key>
 		<string>iOS</string>
 		<key>S3URL</key>
