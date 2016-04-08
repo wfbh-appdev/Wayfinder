@@ -202,4 +202,9 @@
 "afcuimroutingannotationview.tome.title" = "Take";
 "afcuimroutingannotationview.hacia.title" = "to";
 
+/**
+ * Layer Picker
+ */
+"afclayerpickerviewcontroller.navbar.title" = "Layers";
+
 

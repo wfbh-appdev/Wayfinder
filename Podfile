@@ -7,37 +7,29 @@ xcodeproj 'GenericAF4.xcodeproj'
 
 
 target :'GenericAF4', :exclusive => true do
-    pod 'CoreNetwork', :git => 'https://jenkins-phunware:K3yM%40%24ter%21@github.com/phunware/sdk-ios-appframework-network.git', :branch => 'develop'
-    pod 'PWUIKit', :git =>  'https://jenkins-phunware:K3yM%40%24ter%21@github.com/phunware/sdk-ios-pwuikit-binary.git'
-    pod 'PWLocalpoint', :git => 'https://jenkins-phunware:K3yM%40%24ter%21@github.com/phunware/maas-localpoint-ios-sdk.git'
- 
-    pod 'AppFrameworkCore', :git =>  'https://jenkins-phunware:K3yM%40%24ter%21@github.com/phunware/sdk-ios-appframework-core-binary.git',:branch => 'develop'
-    #pod 'AppFrameworkCore', :path =>  '../sdk-ios-appframework-core/AppFrameworkCore/Framework'
-    #pod 'AppFrameworkCore', :path =>  '../sdk-ios-appframework-core/AppFrameworkCore'
- 
-    pod 'AppFrameworkRenderModule', :git => 'https://jenkins-phunware:K3yM%40%24ter%21@github.com/phunware/sdk-ios-appframework-render-binary.git',:branch => 'develop'
-    #pod 'AppFrameworkRenderModule', :path =>  '../sdk-ios-appframework-render'
+    pod 'AppFrameworkAlertsModule', :git =>  'https://github.com/phunware/sdk-ios-appframework-alerts-binary.git', :tag => 'v4.0.1'
+    #pod 'AppFrameworkCore', :git =>  'https://github.com/phunware/sdk-ios-appframework-core-binary.git', :tag => 'v4.0.1'
+    pod 'AppFrameworkDirectoryModule', :git =>  'https://github.com/phunware/sdk-ios-appframework-directory-binary.git', :tag => 'v4.0.1'
+    pod 'AppFrameworkEventsModule', :git =>  'https://github.com/phunware/sdk-ios-appframework-events-binary.git', :tag => 'v4.0.1'
+    pod 'AppFrameworkLocationMarketingModule', :git =>  'https://github.com/phunware/sdk-ios-appframework-location-marketing-binary.git', :tag => 'v4.0.1'
+    #pod 'AppFrameworkMappingModule', :git =>  'https://github.com/phunware/sdk-ios-appframework-mapping-binary.git', :tag => 'v4.0.1'
+    pod 'AppFrameworkParkingModule', :git =>  'https://github.com/phunware/sdk-ios-appframework-parking-binary.git', :tag => 'v4.0.1'
+    #pod 'AppFrameworkRenderModule', :git => 'https://github.com/phunware/sdk-ios-appframework-render-binary.git', :tag => 'v4.0.1'
+    
+    pod 'CoreNetwork', :git => 'https://github.com/phunware/sdk-ios-appframework-network.git', :tag => 'v4.0.1'
+    pod 'PWUIKit', :git =>  'https://github.com/phunware/sdk-ios-pwuikit-binary.git', :tag => 'v4.0.1'
     
     pod 'Google/Analytics'
+    pod 'PWLocalpoint', '2.6.3.1'
     
-    pod 'AppFrameworkParkingModule', :git =>  'https://jenkins-phunware:K3yM%40%24ter%21@github.com/phunware/sdk-ios-appframework-parking-binary.git',:branch => 'develop'
-    
-    pod 'AppFrameworkDirectoryModule', :git =>  'https://jenkins-phunware:K3yM%40%24ter%21@github.com/phunware/sdk-ios-appframework-directory-binary.git',:branch => 'develop'
-    #pod 'AppFrameworkDirectoryModule', :path => '../sdk-ios-appframework-directory'
-    
-    pod 'AppFrameworkEventsModule', :git =>  'https://jenkins-phunware:K3yM%40%24ter%21@github.com/phunware/sdk-ios-appframework-events-binary.git',:branch => 'develop'
-    pod 'AppFrameworkAlertsModule', :git =>  'https://github.com/phunware/sdk-ios-appframework-alerts-binary.git',:branch => 'develop'
-    pod 'AppFrameworkLocationMarketingModule', :git =>  'https://jenkins-phunware:K3yM%40%24ter%21@github.com/phunware/sdk-ios-appframework-location-marketing-binary.git',:branch => 'develop'
-    
-    
-    pod 'AppFrameworkMappingModule', :git =>  'https://jenkins-phunware:K3yM%40%24ter%21@github.com/phunware/sdk-ios-appframework-mapping-binary.git',:branch => 'develop'
-    #pod 'AppFrameworkMappingModule', :path =>  '../sdk-ios-appframework-mapping'
-        
-    #pod 'AppFrameworkMoviesModule', :path =>  '../sdk-ios-appframework-movies'
-    #pod 'AppFrameworkMoviesModule', :git =>  'https://github.com/phunware/sdk-ios-appframework-movies.git'
-    
-    pod 'AppFrameworkSalesModule', :git =>  'https://jenkins-phunware:K3yM%40%24ter%21@github.com/phunware/sdk-ios-appframework-sales.git',:branch => 'develop'
-    #pod 'AppFrameworkSalesModule', :path =>  '../sdk-ios-appframework-sales'
+    #pod 'AppFrameworkAlertsModule', :path =>  '../sdk-ios-appframework-alerts'
+    pod 'AppFrameworkCore', :path =>  '../sdk-ios-appframework-core/AppFrameworkCore'
+    #pod 'AppFrameworkDirectoryModule', :path =>  '../sdk-ios-appframework-directory'
+    #pod 'AppFrameworkEventsModule', :path =>  '../sdk-ios-appframework-events'
+    #pod 'AppFrameworkLocationMarketingModule', :path =>  '../sdk-ios-appframework-location-marketing'
+    pod 'AppFrameworkMappingModule', :path =>  '../sdk-ios-appframework-mapping'
+    #pod 'AppFrameworkParkingModule', :path =>  '../sdk-ios-appframework-parking'
+    pod 'AppFrameworkRenderModule', :path =>  '../sdk-ios-appframework-render'
     
     xcodeproj 'GenericAF4.xcodeproj'
 end
