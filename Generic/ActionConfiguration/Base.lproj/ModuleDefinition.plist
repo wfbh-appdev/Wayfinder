@@ -1588,7 +1588,7 @@
 						<key>itemDetailContext</key>
 						<string>Directory Detail</string>
 						<key>category</key>
-						<string>$action.auxID1</string>
+						<string>$action.auxID2</string>
 						<key>title</key>
 						<string>$action.buttonTitle</string>
 						<key>keyForSorting</key>
@@ -1614,6 +1614,11 @@
 							<string>Directory</string>
 							<key>includeContentAction</key>
 							<string>load</string>
+							<key>includeParameters</key>
+							<dict>
+								<key>cmeid</key>
+								<string>$action.auxID1</string>
+							</dict>
 						</dict>
 					</dict>
 				</array>
@@ -1671,7 +1676,34 @@
 									<string>directory.s3db</string>
 									<key>path</key>
 									<string>$CACHES</string>
+									<key>cmeid</key>
+									<string>$action.cmeid</string>
 								</dict>
+								<key>dependencies</key>
+								<array>
+									<dict>
+										<key>className</key>
+										<string>AFCActionIncluder</string>
+										<key>parameters</key>
+										<dict>
+											<key>includeContentType</key>
+											<string>Database</string>
+											<key>includeContentAction</key>
+											<string>verify</string>
+											<key>includeParameters</key>
+											<dict>
+												<key>databaseName</key>
+												<string>directory</string>
+												<key>databaseType</key>
+												<string>14</string>
+												<key>shouldPrependCme</key>
+												<true/>
+												<key>cmeid</key>
+												<string>$action.cmeid</string>
+											</dict>
+										</dict>
+									</dict>
+								</array>
 							</dict>
 						</array>
 					</dict>
@@ -2245,15 +2277,6 @@
 			<dict>
 				<key>className</key>
 				<string>AFCS3VerifyDatabase</string>
-				<key>parameters</key>
-				<dict>
-					<key>databaseName</key>
-					<string>PropertyList</string>
-					<key>databaseType</key>
-					<string>1</string>
-					<key>shouldPrependProperty</key>
-					<true/>
-				</dict>
 				<key>dependencies</key>
 				<array>
 					<dict>
@@ -2353,69 +2376,43 @@
 							<array>
 								<dict>
 									<key>className</key>
-									<string>AFCS3VerifyDatabase</string>
+									<string>AFCActionIncluder</string>
 									<key>parameters</key>
 									<dict>
-										<key>databaseName</key>
-										<string>PropertyList</string>
-										<key>databaseType</key>
-										<string>2</string>
-										<key>shouldPrependProperty</key>
-										<true/>
-									</dict>
-									<key>dependencies</key>
-									<array>
+										<key>includeContentType</key>
+										<string>Database</string>
+										<key>includeContentAction</key>
+										<string>verify</string>
+										<key>includeParameters</key>
 										<dict>
-											<key>className</key>
-											<string>AFCActionIncluder</string>
-											<key>parameters</key>
-											<dict>
-												<key>includeContentType</key>
-												<string>Database</string>
-												<key>includeContentAction</key>
-												<string>readVersion</string>
-												<key>includeParameters</key>
-												<dict>
-													<key>databaseName</key>
-													<string>PropertyList</string>
-												</dict>
-											</dict>
+											<key>databaseName</key>
+											<string>PropertyList</string>
+											<key>databaseType</key>
+											<string>2</string>
+											<key>shouldPrependProperty</key>
+											<true/>
 										</dict>
-									</array>
+									</dict>
 								</dict>
 								<dict>
 									<key>className</key>
-									<string>AFCS3VerifyDatabase</string>
+									<string>AFCActionIncluder</string>
 									<key>parameters</key>
 									<dict>
-										<key>databaseName</key>
-										<string>events</string>
-										<key>databaseType</key>
-										<string>16</string>
-										<key>shouldPrependProperty</key>
-										<true/>
-									</dict>
-									<key>dependencies</key>
-									<array>
+										<key>includeContentType</key>
+										<string>Database</string>
+										<key>includeContentAction</key>
+										<string>verify</string>
+										<key>includeParameters</key>
 										<dict>
-											<key>className</key>
-											<string>AFCActionIncluder</string>
-											<key>queue</key>
-											<string>serial</string>
-											<key>parameters</key>
-											<dict>
-												<key>includeContentType</key>
-												<string>Database</string>
-												<key>includeContentAction</key>
-												<string>readVersion</string>
-												<key>includeParameters</key>
-												<dict>
-													<key>databaseName</key>
-													<string>events</string>
-												</dict>
-											</dict>
+											<key>databaseName</key>
+											<string>events</string>
+											<key>databaseType</key>
+											<string>16</string>
+											<key>shouldPrependProperty</key>
+											<true/>
 										</dict>
-									</array>
+									</dict>
 								</dict>
 							</array>
 						</dict>
