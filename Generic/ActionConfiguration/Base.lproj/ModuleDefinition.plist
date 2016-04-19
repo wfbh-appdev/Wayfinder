@@ -70,32 +70,6 @@
 						</dict>
 						<dict>
 							<key>className</key>
-							<string>AFCForwardAction</string>
-							<key>ignoreParentParameters</key>
-							<true/>
-							<key>parameters</key>
-							<dict>
-								<key>forwardContentType</key>
-								<string>POIs</string>
-								<key>forwardContentAction</key>
-								<string>loadAll</string>
-							</dict>
-						</dict>
-						<dict>
-							<key>className</key>
-							<string>AFCForwardAction</string>
-							<key>ignoreParentParameters</key>
-							<true/>
-							<key>parameters</key>
-							<dict>
-								<key>forwardContentType</key>
-								<string>POIs</string>
-								<key>forwardContentAction</key>
-								<string>loadTypes</string>
-							</dict>
-						</dict>
-						<dict>
-							<key>className</key>
 							<string>AFCASetupPushNotifications</string>
 							<key>queue</key>
 							<string>concurrent</string>
@@ -2214,6 +2188,57 @@
 								<string>DetailImage</string>
 							</dict>
 						</dict>
+						<key>dependencies</key>
+						<array>
+							<dict>
+								<key>className</key>
+								<string>AFCActionDivider</string>
+								<key>parameters</key>
+								<dict>
+									<key>dividerActions</key>
+									<array>
+										<dict>
+											<key>className</key>
+											<string>AFCActionIncluder</string>
+											<key>parameters</key>
+											<dict>
+												<key>includeContentType</key>
+												<string>POIs</string>
+												<key>includeContentAction</key>
+												<string>loadAll</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>className</key>
+											<string>AFCActionIncluder</string>
+											<key>parameters</key>
+											<dict>
+												<key>includeContentTyoe</key>
+												<string>POIs</string>
+												<key>includeContentAction</key>
+												<string>loadTypes</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>className</key>
+											<string>AFCActionIncluder</string>
+											<key>parameters</key>
+											<dict>
+												<key>includeContentType</key>
+												<string>Directory</string>
+												<key>includeContentAction</key>
+												<string>load</string>
+												<key>includeParameters</key>
+												<dict>
+													<key>cmeid</key>
+													<string>$app.kAFCMCmeIdKey</string>
+												</dict>
+											</dict>
+										</dict>
+									</array>
+								</dict>
+							</dict>
+						</array>
 					</dict>
 				</array>
 			</dict>
@@ -2249,6 +2274,57 @@
 						<string>DetailImage</string>
 					</dict>
 				</dict>
+				<key>dependencies</key>
+				<array>
+					<dict>
+						<key>className</key>
+						<string>AFCActionDivider</string>
+						<key>parameters</key>
+						<dict>
+							<key>dividerActions</key>
+							<array>
+								<dict>
+									<key>className</key>
+									<string>AFCActionIncluder</string>
+									<key>parameters</key>
+									<dict>
+										<key>includeContentType</key>
+										<string>POIs</string>
+										<key>includeContentAction</key>
+										<string>loadAll</string>
+									</dict>
+								</dict>
+								<dict>
+									<key>className</key>
+									<string>AFCActionIncluder</string>
+									<key>parameters</key>
+									<dict>
+										<key>includeContentTyoe</key>
+										<string>POIs</string>
+										<key>includeContentAction</key>
+										<string>loadTypes</string>
+									</dict>
+								</dict>
+								<dict>
+									<key>className</key>
+									<string>AFCActionIncluder</string>
+									<key>parameters</key>
+									<dict>
+										<key>includeContentType</key>
+										<string>Directory</string>
+										<key>includeContentAction</key>
+										<string>load</string>
+										<key>includeParameters</key>
+										<dict>
+											<key>cmeid</key>
+											<string>$app.kAFCMCmeIdKey</string>
+										</dict>
+									</dict>
+								</dict>
+							</array>
+						</dict>
+					</dict>
+				</array>
 			</dict>
 			<key>showAnnotation</key>
 			<dict>
