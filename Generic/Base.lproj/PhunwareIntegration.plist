@@ -52,9 +52,9 @@
 		<key>topLevelContentName</key>
 		<string>Generic Top Level</string>
 		<key>applicationUUID</key>
-		<string>ca4a0a6f-4534-45ea-80e7-354825d9c71a</string>
+		<string>613c65e3-f1ea-400a-b86e-29603e4c7799</string>
 		<key>rootURL</key>
-		<string>http://solutions-ws-stage.phunware.com/AFManagementWS/</string>
+		<string>http://solutions-ws.phunware.com/AFManagementWS/</string>
 		<key>voiceURL</key>
 		<string></string>
 		<key>webservicesID</key>
@@ -67,21 +67,21 @@
 	<key>MaaS Integration</key>
 	<dict>
 		<key>MaaSAppID</key>
-		<string>468</string>
+		<string>1299</string>
 		<key>MaaSAccessKey</key>
-		<string>a289c53bd83e756c276a78119d06f5bbbc0b3acf</string>
+		<string>560825a4265bb3cfc2aaee038d1c5df8ff778192</string>
 		<key>MaaSSignatureKey</key>
-		<string>35629f69ef8a6a4dc5acb324e91bfbd3706577da</string>
+		<string>48973a929b447e81860ec196f4fbe6083cff9a7b</string>
 		<key>MaaSContainerID</key>
-		<string>56f982a7759fd7b41f000043</string>
+		<string></string>
 		<key>MaaSMapVenueGUID</key>
-		<string>c44e0549-a7bf-4d38-8cba-2b4fcded036b</string>
+		<string></string>
 		<key>MaaSAppName</key>
 		<string>Generic 4.1 (iOS)</string>
 		<key>MaaSPlatformName</key>
 		<string>iOS</string>
 		<key>S3URL</key>
-		<string>https://solutions-db-dev.phunware.com</string>
+		<string>https://solutions-db.phunware.com</string>
 	</dict>
 	<key>StartupSettings</key>
 	<dict>
