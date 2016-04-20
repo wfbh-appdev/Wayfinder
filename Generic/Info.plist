@@ -57,6 +57,10 @@
 		<string>ProximaNova-Light.otf</string>
 		<string>ProximaNova-Reg.otf</string>
 	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

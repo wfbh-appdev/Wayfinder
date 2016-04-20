@@ -49,6 +49,8 @@
 "afcuimroutebuilderviewcontroller.cancelbutton.buttontitle" = "Cancel";
 "afcuimroutebuilderviewcontroller.routebutton.buttontitle" = "Route";
 "afcuimroutebuilderviewcontroller.handicapaccessibilitylabel.text" = "Handicap  Accessibility";
+"afcuimroutebuilderviewcontroller.outdoortoindoornotificationtitle.text" = "Welcome to";
+"afcuimroutebuilderviewcontroller.outdoortoindoornotificationtitle.message" = "Please launch the app for indoor directions to your final destination.";
 "afcuimroutebuilderviewcontroller.outdoortoindooralerttitle.text" = "Need Directions to the Venue?";
 "afcuimroutebuilderviewcontroller.outdoortoindooralerttitle.message" = "We noticed you are currently not at the facility.\nWould you like to route to the venue instead?";
 "afcuimroutebuilderviewcontroller.dismissoutdoortoindoor.buttontitle" = "DISMISS";

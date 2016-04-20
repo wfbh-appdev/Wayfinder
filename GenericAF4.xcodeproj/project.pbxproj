@@ -362,7 +362,15 @@
 				TargetAttributes = {
 					8F0613091BC8569800A55F16 = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = 4WTCU2JN7L;
+						DevelopmentTeam = 84CK77G588;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -725,6 +733,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.generic.af4.ios;
 				PRODUCT_NAME = GenericAF4;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -785,6 +794,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.generic.af4.ios;
 				PRODUCT_NAME = GenericAF4;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Distribution;
 		};
@@ -845,6 +855,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.generic.af4.ios;
 				PRODUCT_NAME = GenericAF4;
+				PROVISIONING_PROFILE = "";
 			};
 			name = AdHoc;
 		};
