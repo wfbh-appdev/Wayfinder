@@ -605,6 +605,18 @@
 					<true/>
 				</dict>
 			</dict>
+			<key>70</key>
+			<dict>
+				<key>className</key>
+				<string>AFCForwardAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>forwardContentType</key>
+					<string>SettingsMap</string>
+					<key>forwardContentAction</key>
+					<string>show</string>
+				</dict>
+			</dict>
 			<key>73</key>
 			<dict>
 				<key>className</key>
