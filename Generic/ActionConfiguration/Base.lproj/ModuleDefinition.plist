@@ -2144,84 +2144,96 @@
 			<key>push</key>
 			<dict>
 				<key>className</key>
-				<string>AFCLoadViewControllerAction</string>
+				<string>AFCShowAnnotationCardAction</string>
 				<key>parameters</key>
 				<dict>
-					<key>viewController</key>
-					<string>AFCUIMMapViewController</string>
-					<key>presentationMode</key>
-					<string>push</string>
-					<key>shouldAnimate</key>
-					<true/>
-					<key>properties</key>
-					<dict>
-						<key>campus</key>
-						<string>$app.kAFCApplicationStateCurrentCampus</string>
-						<key>favoritesContext</key>
-						<string>$module.mapFavoritesContext</string>
-						<key>annotations</key>
-						<string>$module.pois</string>
-						<key>altitudeToApplyWorkaroundiOS9</key>
-						<integer>210</integer>
-						<key>associatedData</key>
-						<string>$module.databaseDirectoryItems</string>
-						<key>associatedDataAnnotationIdentifierKey</key>
-						<string>POI</string>
-						<key>associatedDataDescriptionKey</key>
-						<string>Description</string>
-						<key>associatedDataBannerKey</key>
-						<string>DetailImage</string>
-					</dict>
+					<key>annotations</key>
+					<string>$module.pois</string>
 				</dict>
 				<key>dependencies</key>
 				<array>
 					<dict>
 						<key>className</key>
-						<string>AFCActionDivider</string>
+						<string>AFCLoadViewControllerAction</string>
 						<key>parameters</key>
 						<dict>
-							<key>dividerActions</key>
-							<array>
-								<dict>
-									<key>className</key>
-									<string>AFCActionIncluder</string>
-									<key>parameters</key>
-									<dict>
-										<key>includeContentType</key>
-										<string>POIs</string>
-										<key>includeContentAction</key>
-										<string>loadAll</string>
-									</dict>
-								</dict>
-								<dict>
-									<key>className</key>
-									<string>AFCActionIncluder</string>
-									<key>parameters</key>
-									<dict>
-										<key>includeContentTyoe</key>
-										<string>POIs</string>
-										<key>includeContentAction</key>
-										<string>loadTypes</string>
-									</dict>
-								</dict>
-								<dict>
-									<key>className</key>
-									<string>AFCActionIncluder</string>
-									<key>parameters</key>
-									<dict>
-										<key>includeContentType</key>
-										<string>Directory</string>
-										<key>includeContentAction</key>
-										<string>load</string>
-										<key>includeParameters</key>
-										<dict>
-											<key>cmeid</key>
-											<string>$app.kAFCMCmeIdKey</string>
-										</dict>
-									</dict>
-								</dict>
-							</array>
+							<key>viewController</key>
+							<string>AFCUIMMapViewController</string>
+							<key>presentationMode</key>
+							<string>push</string>
+							<key>shouldAnimate</key>
+							<true/>
+							<key>properties</key>
+							<dict>
+								<key>campus</key>
+								<string>$app.kAFCApplicationStateCurrentCampus</string>
+								<key>favoritesContext</key>
+								<string>$module.mapFavoritesContext</string>
+								<key>annotations</key>
+								<string>$module.pois</string>
+								<key>altitudeToApplyWorkaroundiOS9</key>
+								<integer>210</integer>
+								<key>associatedData</key>
+								<string>$module.databaseDirectoryItems</string>
+								<key>associatedDataAnnotationIdentifierKey</key>
+								<string>POI</string>
+								<key>associatedDataDescriptionKey</key>
+								<string>Description</string>
+								<key>associatedDataBannerKey</key>
+								<string>DetailImage</string>
+							</dict>
 						</dict>
+						<key>dependencies</key>
+						<array>
+							<dict>
+								<key>className</key>
+								<string>AFCActionDivider</string>
+								<key>parameters</key>
+								<dict>
+									<key>dividerActions</key>
+									<array>
+										<dict>
+											<key>className</key>
+											<string>AFCActionIncluder</string>
+											<key>parameters</key>
+											<dict>
+												<key>includeContentType</key>
+												<string>POIs</string>
+												<key>includeContentAction</key>
+												<string>loadAll</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>className</key>
+											<string>AFCActionIncluder</string>
+											<key>parameters</key>
+											<dict>
+												<key>includeContentType</key>
+												<string>POIs</string>
+												<key>includeContentAction</key>
+												<string>loadTypes</string>
+											</dict>
+										</dict>
+										<dict>
+											<key>className</key>
+											<string>AFCActionIncluder</string>
+											<key>parameters</key>
+											<dict>
+												<key>includeContentType</key>
+												<string>Directory</string>
+												<key>includeContentAction</key>
+												<string>load</string>
+												<key>includeParameters</key>
+												<dict>
+													<key>cmeid</key>
+													<string>$app.kAFCMCmeIdKey</string>
+												</dict>
+											</dict>
+										</dict>
+									</array>
+								</dict>
+							</dict>
+						</array>
 					</dict>
 				</array>
 			</dict>
@@ -2590,14 +2602,17 @@
 					<dict>
 						<key>className</key>
 						<string>AFCActionIncluder</string>
-						<key>ignoreParentParameters</key>
-						<true/>
 						<key>parameters</key>
 						<dict>
 							<key>includeContentType</key>
 							<string>Map</string>
 							<key>includeContentAction</key>
 							<string>push</string>
+							<key>includeParameters</key>
+							<dict>
+								<key>contentId</key>
+								<string>$action.POI</string>
+							</dict>
 						</dict>
 					</dict>
 					<dict>
