@@ -209,4 +209,10 @@
  */
 "afclayerpickerviewcontroller.navbar.title" = "Layers";
 
+/**
+ * Segments Error
+ */
 
+"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.title" = "Alert Settings";
+"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.message" = "Please setup alert segments for this app on the portal.";
+"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.cancelbutton.title" = "Ok";
