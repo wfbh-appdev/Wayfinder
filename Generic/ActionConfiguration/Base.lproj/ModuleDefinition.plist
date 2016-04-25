@@ -603,6 +603,13 @@
 					<string>modal</string>
 					<key>shouldAnimate</key>
 					<true/>
+					<key>properties</key>
+					<dict>
+						<key>url</key>
+						<string>$action.auxID1</string>
+						<key>viewTitle</key>
+						<string>$action.buttonTitle</string>
+					</dict>
 				</dict>
 			</dict>
 			<key>70</key>
@@ -2105,7 +2112,7 @@
 											<string>AFCActionIncluder</string>
 											<key>parameters</key>
 											<dict>
-												<key>includeContentTyoe</key>
+												<key>includeContentType</key>
 												<string>POIs</string>
 												<key>includeContentAction</key>
 												<string>loadTypes</string>
