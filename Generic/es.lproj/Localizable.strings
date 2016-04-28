@@ -225,9 +225,18 @@
  * Segments Error
  */
 
-"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.title" = "Alert Settings";
-"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.message" = "Please setup alert segments for this app on the portal.";
-"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.cancelbutton.title" = "Ok";
+"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.title" = "Configuracion de Alertas";
+"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.message" = "Por favor configura los segmentos para esta application en App Builder portal.";
+"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.cancelbutton.title" = "SÍ";
+
+/*
+ *  AFCUIMMapViewController Strings
+ */
+
+"afcuimmapviewcontroller.promptlocationalert.title" = "¿Necesita direcciones?";
+"afcuimmapviewcontroller.promptlocationalert.message" = "Por favor habilite Location Services para obtener direcciones hacia su destino.";
+"afcuimmapviewcontroller.promptlocationalert.takemetherebutton" = "Llevame ahí";
+"afcuimmapviewcontroller.promptlocationalert.cancelbutton" = "No Gracias";
 
 //POI Translations/* POI type */
 "Unknown" = "Desconocido";

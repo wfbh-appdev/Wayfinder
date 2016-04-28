@@ -216,3 +216,12 @@
 "afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.title" = "Alert Settings";
 "afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.message" = "Please setup alert segments for this app on the portal.";
 "afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.cancelbutton.title" = "Ok";
+
+/*
+ *  AFCUIMMapViewController Strings
+ */
+
+"afcuimmapviewcontroller.promptlocationalert.title" = "Need directions?";
+"afcuimmapviewcontroller.promptlocationalert.message" = "Please enable location services for directions to the facility.";
+"afcuimmapviewcontroller.promptlocationalert.takemetherebutton" = "Take me there";
+"afcuimmapviewcontroller.promptlocationalert.cancelbutton" = "No Thanks";
