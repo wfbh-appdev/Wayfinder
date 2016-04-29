@@ -171,6 +171,13 @@
 			<dict>
 				<key>className</key>
 				<string>AFCNotificationShowAction</string>
+				<key>dependencies</key>
+				<array>
+					<dict>
+						<key>className</key>
+						<string>AFCAProcessPushNotificationAction</string>
+					</dict>
+				</array>
 			</dict>
 		</dict>
 		<key>Button</key>
