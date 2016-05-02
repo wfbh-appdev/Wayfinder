@@ -175,6 +175,20 @@
 "afccheckforceupdate.displayupdateavailable.alert.button.title" = "Update";
 "afccheckforceupdate.displayupdateavailable.alert.cancel.title" = "Not Now";
 
+/*
+ *  No Initial Database Strings
+ */
+"afinitialdatabase.displayforceupdate.alert.title" = "Error";
+"afinitialdatabase.displayforceupdate.alert.message" = "Unable to start the application.  Please verify that your device is connected to a network.";
+"afinitialdatabase.displayforceupdate.alert.button" = "Close app";
+
+/*
+ *  No Layer Database Strings
+ */
+"aflayerdatabase.displayforceupdate.alert.title" = "Error";
+"aflayerdatabase.displayforceupdate.alert.message" = "This content requires a data connection, please check your mobile or WiFi network and try again.";
+"aflayerdatabase.displayforceupdate.alert.button" = "Ok";
+
 /**
  * EULA Agreement
  */

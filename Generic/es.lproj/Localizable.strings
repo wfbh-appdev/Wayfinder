@@ -221,6 +221,20 @@
 "at"="a las";
 "Directory"="Directorio";
 
+/*
+ *  No Initial Database Strings
+ */
+"afinitialdatabase.displayforceupdate.alert.title" = "Error";
+"afinitialdatabase.displayforceupdate.alert.message" = "No se puede iniciar la aplicación . Por favor, compruebe que el dispositivo está conectado a una red.";
+"afinitialdatabase.displayforceupdate.alert.button" = "Cerca de aplicación";
+
+/*
+ *  No Layer Database Strings
+ */
+"aflayerdatabase.displayforceupdate.alert.title" = "Error";
+"aflayerdatabase.displayforceupdate.alert.message" = "Este contenido requiere una conexión de datos, por favor revise su red móvil o WiFi y vuelve a intentarlo.";
+"aflayerdatabase.displayforceupdate.alert.button" = "SÍ";
+
 /**
  * Segments Error
  */
