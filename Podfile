@@ -1,10 +1,7 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
 workspace 'GenericAF4'
-platform :ios, '7.0'
-
-xcodeproj 'GenericAF4.xcodeproj'
-
+platform :ios, '8.0'
 
 target :'GenericAF4', :exclusive => true do
     pod 'AppFrameworkAlertsModule', :git =>  'https://github.com/phunware/sdk-ios-appframework-alerts-binary.git', :branch => 'develop'
