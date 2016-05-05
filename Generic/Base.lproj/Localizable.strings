@@ -224,6 +224,11 @@
 "afclayerpickerviewcontroller.navbar.title" = "Layers";
 
 /**
+ * Layer Picker
+ */
+"afcmmappickerviewcontroller.navbar.title" = "Maps";
+
+/**
  * Segments Error
  */
 
