@@ -671,30 +671,67 @@
 			<key>load</key>
 			<dict>
 				<key>className</key>
-				<string>AFCLoadCMEConsolidateData</string>
-				<key>queue</key>
-				<string>main</string>
+				<string>AFCActionIncluder</string>
 				<key>parameters</key>
 				<dict>
-					<key>appLevelVenuesKey</key>
-					<string>appLevelVenues</string>
-					<key>venueLevelVenuesKey</key>
-					<string>venueLevelVenues</string>
-					<key>campusesKey</key>
-					<string>campuses</string>
-					<key>buildingsKey</key>
-					<string>buildings</string>
-					<key>floorsKey</key>
-					<string>floors</string>
-					<key>beaconsKey</key>
-					<string>beacons</string>
-					<key>alertsKey</key>
-					<string>alerts</string>
-					<key>adsKey</key>
-					<string>advertisement</string>
+					<key>includeContentType</key>
+					<string>Layer</string>
+					<key>includeContentAction</key>
+					<string>checkDisabled</string>
 				</dict>
 				<key>dependencies</key>
 				<array>
+					<dict>
+						<key>className</key>
+						<string>AFCLoadCMEConsolidateData</string>
+						<key>queue</key>
+						<string>main</string>
+						<key>parameters</key>
+						<dict>
+							<key>appLevelVenuesKey</key>
+							<string>appLevelVenues</string>
+							<key>venueLevelVenuesKey</key>
+							<string>venueLevelVenues</string>
+							<key>campusesKey</key>
+							<string>campuses</string>
+							<key>buildingsKey</key>
+							<string>buildings</string>
+							<key>floorsKey</key>
+							<string>floors</string>
+							<key>beaconsKey</key>
+							<string>beacons</string>
+							<key>alertsKey</key>
+							<string>alerts</string>
+							<key>adsKey</key>
+							<string>advertisement</string>
+						</dict>
+						<key>dependencies</key>
+						<array>
+							<dict>
+								<key>className</key>
+								<string>AFCLoadCMEMyApp</string>
+								<key>parameters</key>
+								<dict>
+									<key>AppName</key>
+									<string>PhunGeneric_v4</string>
+								</dict>
+								<key>dependencies</key>
+								<array>
+									<dict>
+										<key>className</key>
+										<string>AFCLoadCMEStructures</string>
+										<key>queue</key>
+										<string>concurrent</string>
+										<key>parameters</key>
+										<dict>
+											<key>containerId</key>
+											<string>$appDefaults.solutions.appUUID</string>
+										</dict>
+									</dict>
+								</array>
+							</dict>
+						</array>
+					</dict>
 					<dict>
 						<key>className</key>
 						<string>AFCLoadCMEMyPlatform</string>
@@ -1803,6 +1840,34 @@
 		</dict>
 		<key>Layer</key>
 		<dict>
+			<key>checkDisabled</key>
+			<dict>
+				<key>className</key>
+				<string>AFCSQLiteDatabaseClose</string>
+				<key>dependencies</key>
+				<array>
+					<dict>
+						<key>className</key>
+						<string>AFCCheckDisabledLayers</string>
+						<key>dependencies</key>
+						<array>
+							<dict>
+								<key>className</key>
+								<string>AFCSQLiteDatabaseOpen</string>
+								<key>parameters</key>
+								<dict>
+									<key>topLevel</key>
+									<true/>
+									<key>databaseName</key>
+									<string>PropertyList</string>
+									<key>path</key>
+									<string>$CACHES</string>
+								</dict>
+							</dict>
+						</array>
+					</dict>
+				</array>
+			</dict>
 			<key>load</key>
 			<dict>
 				<key>className</key>
