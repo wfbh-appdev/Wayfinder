@@ -12,5 +12,5 @@
  * info.plist
  */
 
-"NSLocationWhenInUseUsageDescription" = "La aplicación requiere su ubicación para mostrarle dónde se estacionó";
-"NSLocationAlwaysUsageDescription" = "La aplicación requiere su ubicación para mostrarle dónde se estacionó";
+"NSLocationWhenInUseUsageDescription" = "La aplicación requiere su ubicación para mostrarle dónde se encuentra";
+"NSLocationAlwaysUsageDescription" = "La aplicación requiere su ubicación para mostrarle dónde se encuentra";
