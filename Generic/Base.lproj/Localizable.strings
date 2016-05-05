@@ -231,6 +231,10 @@
 "afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.message" = "Please setup alert segments for this app on the portal.";
 "afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.cancelbutton.title" = "Ok";
 
+"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.title" = "Alert Settings";
+"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.message" = "This content requires a data connection, please check your mobile or wifi network and try again.";
+"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.cancelbutton.title" = "Ok";
+
 /*
  *  AFCUIMMapViewController Strings
  */

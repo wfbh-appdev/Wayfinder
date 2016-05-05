@@ -243,6 +243,10 @@
 "afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.message" = "Por favor configura los segmentos para esta application en App Builder portal.";
 "afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.cancelbutton.title" = "SÍ";
 
+"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.title" = "Configuracion de Alertas";
+"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.message" = "Este contenido requiere una conexión de datos , por favor revise su red móvil o Wi-Fi y vuelve a intentarlo.";
+"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.cancelbutton.title" = "SÍ";
+
 /*
  *  AFCUIMMapViewController Strings
  */
