@@ -23,6 +23,8 @@
 		5574F54F1C3AF889007BC741 /* AFCUILocationProviderViewClassTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5574F54E1C3AF889007BC741 /* AFCUILocationProviderViewClassTableViewCell.m */; };
 		5574F5521C3B21AD007BC741 /* AFCUIDistanceUnitsCellViewClassTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5574F5501C3B21AD007BC741 /* AFCUIDistanceUnitsCellViewClassTableViewCell.m */; };
 		55BAB7CB1C3EB98600799988 /* PhunwareIntegration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55BAB7CD1C3EB98600799988 /* PhunwareIntegration.plist */; };
+		7E1303381CDA451300AF350E /* AFCMMapPickerViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E1303371CDA451300AF350E /* AFCMMapPickerViewController.plist */; };
+		7E13033A1CDA453100AF350E /* AFCMMapPickerTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E1303391CDA453100AF350E /* AFCMMapPickerTableViewCell.plist */; };
 		7E699E741C973AE500000BA9 /* AFCLayerPickerViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E699E731C973AE500000BA9 /* AFCLayerPickerViewController.plist */; };
 		7E699E761C97708B00000BA9 /* AFCLayerPickerTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E699E751C97708B00000BA9 /* AFCLayerPickerTableViewCell.plist */; };
 		8C10FC371C49CD5A000A7913 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C10FC361C49CD5A000A7913 /* Fabric.framework */; };
@@ -101,6 +103,8 @@
 		558BA0B01C44533000394237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
 		55BAB7CC1C3EB98600799988 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/PhunwareIntegration.plist; sourceTree = "<group>"; };
 		55BAB7CE1C3EB98800799988 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = es; path = es.lproj/PhunwareIntegration.plist; sourceTree = "<group>"; };
+		7E1303371CDA451300AF350E /* AFCMMapPickerViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCMMapPickerViewController.plist; sourceTree = "<group>"; };
+		7E1303391CDA453100AF350E /* AFCMMapPickerTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCMMapPickerTableViewCell.plist; sourceTree = "<group>"; };
 		7E699E731C973AE500000BA9 /* AFCLayerPickerViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCLayerPickerViewController.plist; sourceTree = "<group>"; };
 		7E699E751C97708B00000BA9 /* AFCLayerPickerTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCLayerPickerTableViewCell.plist; sourceTree = "<group>"; };
 		886B07E6664FE0E20EF5859F /* libPods-MallApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MallApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -267,6 +271,8 @@
 				8F8C542E1BD8191F0018A2ED /* AFCUIMallDetailViewController.plist */,
 				7E699E731C973AE500000BA9 /* AFCLayerPickerViewController.plist */,
 				7E699E751C97708B00000BA9 /* AFCLayerPickerTableViewCell.plist */,
+				7E1303371CDA451300AF350E /* AFCMMapPickerViewController.plist */,
+				7E1303391CDA453100AF350E /* AFCMMapPickerTableViewCell.plist */,
 			);
 			path = UIConfiguration;
 			sourceTree = "<group>";
@@ -418,6 +424,7 @@
 				8F43558C1BC858B700FFD46C /* AFCUIModalWebBrowser.plist in Resources */,
 				551BF9251C1B51E9004D7ECD /* Pods-GenericAF4.adhoc.xcconfig in Resources */,
 				551BF9271C1B51E9004D7ECD /* Pods-GenericAF4.distribution.xcconfig in Resources */,
+				7E1303381CDA451300AF350E /* AFCMMapPickerViewController.plist in Resources */,
 				8F4355941BC858B700FFD46C /* StandardIcons.xcassets in Resources */,
 				5520ABC71C19E3A000757715 /* Splash@2x.mov in Resources */,
 				8FDD0F4F1BD1CC5000A0C512 /* ProximaNova-Reg.otf in Resources */,
@@ -425,6 +432,7 @@
 				8F8C542A1BD7ED9A0018A2ED /* AFCUIImageSplashViewController.plist in Resources */,
 				8F4355921BC858B700FFD46C /* Splash.mov in Resources */,
 				8F43558D1BC858B700FFD46C /* AFCUITrayMenuViewController.plist in Resources */,
+				7E13033A1CDA453100AF350E /* AFCMMapPickerTableViewCell.plist in Resources */,
 				5555DB0B1C446C6A00E37207 /* AFCDirectoryCategoryViewController.plist in Resources */,
 				8F43558A1BC858B700FFD46C /* AFCParkingVoiceMemoViewController.plist in Resources */,
 				8F5FFFBD1BCC2F58000B027C /* AFCUIMAnnotationDirectoryViewController.plist in Resources */,
