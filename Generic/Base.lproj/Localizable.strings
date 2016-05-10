@@ -224,7 +224,7 @@
 "afclayerpickerviewcontroller.navbar.title" = "Layers";
 
 /**
- * Layer Picker
+ * Map Picker
  */
 "afcmmappickerviewcontroller.navbar.title" = "Maps";
 
@@ -248,3 +248,7 @@
 "afcuimmapviewcontroller.promptlocationalert.message" = "Please enable location services for directions to the facility.";
 "afcuimmapviewcontroller.promptlocationalert.takemetherebutton" = "Take me there";
 "afcuimmapviewcontroller.promptlocationalert.cancelbutton" = "No Thanks";
+"afcuimmapviewcontroller.buildingloaderroralert.title" = "Map Error";
+"afcuimmapviewcontroller.buildingloaderroralert.message" = "We cannot load the map at this time. Check your network connection.";
+"afcuimmapviewcontroller.buildingloaderroralert.button" = "Ok";
+
