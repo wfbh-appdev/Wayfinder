@@ -67,17 +67,17 @@
 	<key>MaaS Integration</key>
 	<dict>
 		<key>MaaSAppID</key>
-		<string>1198</string>
+		<string>1299</string>
 		<key>MaaSAccessKey</key>
-		<string>c6e01eacf4364f25ec942ef91e62a6f7f37a3572</string>
+		<string>560825a4265bb3cfc2aaee038d1c5df8ff778192</string>
 		<key>MaaSSignatureKey</key>
-		<string>a3ffd882810c66067162ac2e9331480a11a05c2d</string>
+		<string>48973a929b447e81860ec196f4fbe6083cff9a7b</string>
 		<key>MaaSContainerID</key>
-		<string>55088f4cd325e6b80a0007c7</string>
+		<string></string>
 		<key>MaaSMapVenueGUID</key>
-		<string>9a24647f-e455-4582-ae86-089930855dfe</string>
+		<string></string>
 		<key>MaaSAppName</key>
-		<string>PhunGeneric_v4</string>
+		<string>Generic 4.1 (iOS)</string>
 		<key>MaaSPlatformName</key>
 		<string>iOS</string>
 		<key>S3URL</key>
