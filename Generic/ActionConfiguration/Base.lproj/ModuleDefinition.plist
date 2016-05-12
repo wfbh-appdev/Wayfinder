@@ -1902,7 +1902,7 @@
 											<key>databaseName</key>
 											<string>PropertyList</string>
 											<key>databaseType</key>
-											<string>2</string>
+											<string>1</string>
 											<key>shouldPrependProperty</key>
 											<true/>
 										</dict>
