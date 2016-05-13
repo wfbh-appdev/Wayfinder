@@ -34,9 +34,9 @@
 		<true/>
 	</dict>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>App use your location to show you where you parked</string>
+	<string>Help us determine directions to and around your destination</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>App use your location to show you where you parked</string>
+	<string>Help us determine directions to and around your destination</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Proxima Nova Sbold.otf</string>

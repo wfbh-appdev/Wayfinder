@@ -251,7 +251,7 @@
  *  AFCUIMMapViewController Strings
  */
 
-"afcuimmapviewcontroller.promptlocationalert.title" = "¿Necesita direcciones?";
+"afcuimmapviewcontroller.promptlocationalert.title" = "Nos ayudan a guiar";
 "afcuimmapviewcontroller.promptlocationalert.message" = "Por favor habilite Location Services para obtener direcciones hacia su destino.";
 "afcuimmapviewcontroller.promptlocationalert.takemetherebutton" = "Llevame ahí";
 "afcuimmapviewcontroller.promptlocationalert.cancelbutton" = "No Gracias";
@@ -268,6 +268,8 @@
  * Map Picker
  */
 "afcmmappickerviewcontroller.navbar.title" = "Mapas";
+"afcmmappickerviewcontroller.promptlocationalert.title" = "Nos ayudan a guiar";
+"afcmmappickerviewcontroller.promptlocationalert.message" = "Por favor, activa los servicios de localización de manera que le guiará por las instalaciones.";
 
 //POI Translations/* POI type */
 "Unknown" = "Desconocido";

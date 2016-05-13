@@ -227,6 +227,8 @@
  * Map Picker
  */
 "afcmmappickerviewcontroller.navbar.title" = "Maps";
+"afcmmappickerviewcontroller.promptlocationalert.title" = "Help us guide you";
+"afcmmappickerviewcontroller.promptlocationalert.message" = "Please enable location services so we can show you the nearest location.";
 
 /**
  * Segments Error
@@ -244,8 +246,8 @@
  *  AFCUIMMapViewController Strings
  */
 
-"afcuimmapviewcontroller.promptlocationalert.title" = "Need directions?";
-"afcuimmapviewcontroller.promptlocationalert.message" = "Please enable location services for directions to the facility.";
+"afcuimmapviewcontroller.promptlocationalert.title" = "Help us guide you";
+"afcuimmapviewcontroller.promptlocationalert.message" = "Please enable location services so we can guide you around the facility.";
 "afcuimmapviewcontroller.promptlocationalert.takemetherebutton" = "Take me there";
 "afcuimmapviewcontroller.promptlocationalert.cancelbutton" = "No Thanks";
 "afcuimmapviewcontroller.buildingloaderroralert.title" = "Map Error";

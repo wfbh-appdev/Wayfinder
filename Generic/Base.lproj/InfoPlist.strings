@@ -9,5 +9,5 @@
  * info.plist
  */
 
-"NSLocationWhenInUseUsageDescription" = "Help us determine directions to your destination";
-"NSLocationAlwaysUsageDescription" = "Help us determine directions to your destination";
+"NSLocationWhenInUseUsageDescription" = "Help us determine directions to and around your destination";
+"NSLocationAlwaysUsageDescription" = "Help us determine directions to and around your destination";
