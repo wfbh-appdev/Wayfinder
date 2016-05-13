@@ -199,6 +199,10 @@
 "afcuimroutingannotationview.hacia.title" = "hacia";
 
 
+"afcdirectoryviewcontroller.nonetwork.failure.title" = "Directorio";
+"afcdirectoryviewcontroller.nonetwork.failure.message" = "Por favor configura los segmentos para esta application en App Builder portal.";
+"afcdirectoryviewcontroller.nonetwork.failure.cancelbutton.title" = "SÍ";
+
 "We can help you find your way to the\nfacility or within it."= "Nosotros le podemos ayudar a encontrar su camino\nhacia el establecimiento o dentro del mismo";
 "Need Directions?"="¿Necesita direcciones?";
 "Indoor Directions"="Direcciones Internas";

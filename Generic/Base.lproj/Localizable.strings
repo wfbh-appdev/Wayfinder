@@ -218,6 +218,10 @@
 "afcuimroutingannotationview.tome.title" = "Take";
 "afcuimroutingannotationview.hacia.title" = "to";
 
+"afcdirectoryviewcontroller.nonetwork.failure.title" = "Directory";
+"afcdirectoryviewcontroller.nonetwork.failure.message" = "This content requires a data connection, please check your mobile or wifi network and try again.";
+"afcdirectoryviewcontroller.nonetwork.failure.cancelbutton.title" = "Ok";
+
 /**
  * Layer Picker
  */
