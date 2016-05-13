@@ -732,43 +732,6 @@
 							</dict>
 						</array>
 					</dict>
-					<dict>
-						<key>className</key>
-						<string>AFCLoadCMEMyPlatform</string>
-						<key>parameters</key>
-						<dict>
-							<key>AppPlatform</key>
-							<string>iOS</string>
-							<key>AppName</key>
-							<string>PhunGeneric_v4</string>
-						</dict>
-						<key>dependencies</key>
-						<array>
-							<dict>
-								<key>className</key>
-								<string>AFCLoadCMEMyApp</string>
-								<key>parameters</key>
-								<dict>
-									<key>AppName</key>
-									<string>PhunGeneric_v4</string>
-								</dict>
-								<key>dependencies</key>
-								<array>
-									<dict>
-										<key>className</key>
-										<string>AFCLoadCMEStructures</string>
-										<key>queue</key>
-										<string>concurrent</string>
-										<key>parameters</key>
-										<dict>
-											<key>containerId</key>
-											<string>$appDefaults.solutions.appUUID</string>
-										</dict>
-									</dict>
-								</array>
-							</dict>
-						</array>
-					</dict>
 				</array>
 			</dict>
 		</dict>
