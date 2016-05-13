@@ -57,6 +57,8 @@
 "afcuimroutebuilderviewcontroller.welcomebackmessage.text" = "Ahora mostraremos la ruta del estacionamiento\na su destino previamente seleccionado.";
 "afcuimroutebuilderviewcontroller.welcomebackdismiss.buttontitle" = "CERRAR";
 "afcuimroutebuilderviewcontroller.welcomebackrouteme.buttontitle" = "RUTA";
+"afcuimroutebuilderviewcontroller.outdoortoindoornotificationtitle.text" = "Bienvenido a";
+"afcuimroutebuilderviewcontroller.outdoortoindoornotificationtitle.message" = "Por favor, inicie la aplicación de las direcciones de interior a su destino final.";
 
 /*
  *  AFCUIMPOIFilterEditorViewController Strings
