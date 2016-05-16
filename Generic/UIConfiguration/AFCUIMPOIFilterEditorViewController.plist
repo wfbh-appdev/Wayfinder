@@ -34,7 +34,7 @@
 		<key>buttonTitle</key>
 		<string>#afcuimpoifiltereditorviewcontroller.savefiltersbutton.buttontitle</string>
 	</dict>
-	<key>cancelButton</key>
+	<key>closeButton</key>
 	<dict>
 		<key>height</key>
 		<string>30</string>
