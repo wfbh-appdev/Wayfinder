@@ -106,9 +106,10 @@
 "afcparkingmapviewcontroller.droppinbutton.droppindisabled.buttontitle" = "Drop a Pin";
 "afcparkingmapviewcontroller.titlelabel.text" = "Pin My Location";
 
-"afcparkingmapviewcontroller.locationauthorization.erroralert.title" = "Location Authorization";
-"afcparkingmapviewcontroller.locationauthorization.erroralert.message" = "Check the location permissions";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.title" = "Please enable location";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.message" = "Help us keep track of your parking spot by enabling location";
 "afcparkingmapviewcontroller.locationauthorization.erroralert.okbutton.title" = "OK";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.cancelbutton.title" = "No Thanks";
 
 /*
  *  AFCParkingNoteViewController Strings
