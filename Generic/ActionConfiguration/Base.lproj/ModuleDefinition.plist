@@ -21,19 +21,6 @@
 						<dict>
 							<key>className</key>
 							<string>AFCForwardAction</string>
-							<key>ignoreParentParameters</key>
-							<string>YES</string>
-							<key>parameters</key>
-							<dict>
-								<key>forwardContentType</key>
-								<string>CME</string>
-								<key>forwardContentAction</key>
-								<string>load</string>
-							</dict>
-						</dict>
-						<dict>
-							<key>className</key>
-							<string>AFCForwardAction</string>
 							<key>parameters</key>
 							<dict>
 								<key>forwardContentType</key>
@@ -79,6 +66,19 @@
 				<string>AFCLMNotifyApplicationStartedAction</string>
 				<key>dependencies</key>
 				<array>
+					<dict>
+						<key>className</key>
+						<string>AFCForwardAction</string>
+						<key>ignoreParentParameters</key>
+						<string>YES</string>
+						<key>parameters</key>
+						<dict>
+							<key>forwardContentType</key>
+							<string>CME</string>
+							<key>forwardContentAction</key>
+							<string>load</string>
+						</dict>
+					</dict>
 					<dict>
 						<key>className</key>
 						<string>AFCLMStartLMServiceAction</string>
