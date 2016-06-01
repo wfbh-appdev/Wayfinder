@@ -63,45 +63,50 @@
 			<key>didFinishLaunching</key>
 			<dict>
 				<key>className</key>
-				<string>AFCLMNotifyApplicationStartedAction</string>
-				<key>dependencies</key>
-				<array>
-					<dict>
-						<key>className</key>
-						<string>AFCForwardAction</string>
-						<key>ignoreParentParameters</key>
-						<string>YES</string>
-						<key>parameters</key>
+				<string>AFCActionDivider</string>
+				<key>parameters</key>
+				<dict>
+					<key>dividerActions</key>
+					<array>
 						<dict>
-							<key>forwardContentType</key>
-							<string>CME</string>
-							<key>forwardContentAction</key>
-							<string>load</string>
+							<key>className</key>
+							<string>AFCForwardAction</string>
+							<key>parameters</key>
+							<dict>
+								<key>forwardContentType</key>
+								<string>CME</string>
+								<key>forwardContentAction</key>
+								<string>load</string>
+							</dict>
 						</dict>
-					</dict>
-					<dict>
-						<key>className</key>
-						<string>AFCLMStartLMServiceAction</string>
-						<key>dependencies</key>
-						<array>
-							<dict>
-								<key>className</key>
-								<string>AFCLMRegisterListenersAction</string>
-								<key>dependencies</key>
-								<array>
-									<dict>
-										<key>className</key>
-										<string>AFCLMInitializeLMRegistrationAction</string>
-									</dict>
-								</array>
-							</dict>
-							<dict>
-								<key>className</key>
-								<string>AFCApplicationShortcutsSetupAction</string>
-							</dict>
-						</array>
-					</dict>
-				</array>
+						<dict>
+							<key>className</key>
+							<string>AFCLMNotifyApplicationStartedAction</string>
+						</dict>
+						<dict>
+							<key>className</key>
+							<string>AFCLMStartLMServiceAction</string>
+							<key>dependencies</key>
+							<array>
+								<dict>
+									<key>className</key>
+									<string>AFCLMRegisterListenersAction</string>
+									<key>dependencies</key>
+									<array>
+										<dict>
+											<key>className</key>
+											<string>AFCLMInitializeLMRegistrationAction</string>
+										</dict>
+									</array>
+								</dict>
+								<dict>
+									<key>className</key>
+									<string>AFCApplicationShortcutsSetupAction</string>
+								</dict>
+							</array>
+						</dict>
+					</array>
+				</dict>
 			</dict>
 			<key>didRegisterForRemoteNotifications</key>
 			<dict>

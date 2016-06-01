@@ -2,29 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>MaaSMapCampus</key>
-	<dict>
-		<key>Buildings</key>
-		<array>
-			<dict>
-				<key>BuildingID</key>
-				<string>17498</string>
-				<key>BuildingName</key>
-				<string>Phunware_Austin</string>
-				<key>Location</key>
-				<dict>
-					<key>latitude</key>
-					<real>30.359954</real>
-					<key>longitude</key>
-					<real>-97.74257299999999</real>
-				</dict>
-			</dict>
-		</array>
-		<key>CampusID</key>
-		<string>500</string>
-		<key>CampusName</key>
-		<string>Phunware_Campus</string>
-	</dict>
 	<key>Crashlytics API Key</key>
 	<string>b3915deee54ba3a77cbf104696b7fe19d113203b</string>
 	<key>Analytics</key>
