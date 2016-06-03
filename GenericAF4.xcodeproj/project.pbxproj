@@ -28,6 +28,8 @@
 		7E699E741C973AE500000BA9 /* AFCLayerPickerViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E699E731C973AE500000BA9 /* AFCLayerPickerViewController.plist */; };
 		7E699E761C97708B00000BA9 /* AFCLayerPickerTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E699E751C97708B00000BA9 /* AFCLayerPickerTableViewCell.plist */; };
 		8C10FC371C49CD5A000A7913 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C10FC361C49CD5A000A7913 /* Fabric.framework */; };
+		8C64BA151D02143100AB0FDD /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C64BA141D02143100AB0FDD /* CoreBluetooth.framework */; };
+		8C64BA271D02273300AB0FDD /* SLIndoorLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C64BA261D02273300AB0FDD /* SLIndoorLocation.framework */; };
 		8CA4FA061C8F9FE900E0028C /* 20160120_android_multilayer_sandbox.s3db in Resources */ = {isa = PBXBuildFile; fileRef = 8CA4FA051C8F9FE900E0028C /* 20160120_android_multilayer_sandbox.s3db */; };
 		8CB729D21C20A30D00F016B7 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB729D11C20A30D00F016B7 /* Crashlytics.framework */; };
 		8CCAD9611C2B13890069AEB1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8CCAD9631C2B13890069AEB1 /* Localizable.strings */; };
@@ -109,6 +111,8 @@
 		7E699E751C97708B00000BA9 /* AFCLayerPickerTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCLayerPickerTableViewCell.plist; sourceTree = "<group>"; };
 		886B07E6664FE0E20EF5859F /* libPods-MallApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MallApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C10FC361C49CD5A000A7913 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		8C64BA141D02143100AB0FDD /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		8C64BA261D02273300AB0FDD /* SLIndoorLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SLIndoorLocation.framework; sourceTree = "<group>"; };
 		8C8951D41CD3C832005CBC96 /* Austin.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Austin.gpx; path = Generic/Austin.gpx; sourceTree = "<group>"; };
 		8CA4FA051C8F9FE900E0028C /* 20160120_android_multilayer_sandbox.s3db */ = {isa = PBXFileReference; lastKnownFileType = file; path = 20160120_android_multilayer_sandbox.s3db; sourceTree = "<group>"; };
 		8CB729D11C20A30D00F016B7 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
@@ -166,7 +170,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C64BA151D02143100AB0FDD /* CoreBluetooth.framework in Frameworks */,
 				8CB729D21C20A30D00F016B7 /* Crashlytics.framework in Frameworks */,
+				8C64BA271D02273300AB0FDD /* SLIndoorLocation.framework in Frameworks */,
 				FD6085DFE751F247A831A1C4 /* libPods-GenericAF4.a in Frameworks */,
 				8C10FC371C49CD5A000A7913 /* Fabric.framework in Frameworks */,
 			);
@@ -178,6 +184,8 @@
 		107C6A95EB070C251FE734E3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8C64BA261D02273300AB0FDD /* SLIndoorLocation.framework */,
+				8C64BA141D02143100AB0FDD /* CoreBluetooth.framework */,
 				8C10FC361C49CD5A000A7913 /* Fabric.framework */,
 				8CB729D11C20A30D00F016B7 /* Crashlytics.framework */,
 				886B07E6664FE0E20EF5859F /* libPods-MallApp.a */,
@@ -719,7 +727,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Generic/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.generic.af4.ios;
@@ -743,7 +751,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Generic/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.generic.af4.ios;
 				PRODUCT_NAME = GenericAF4;
@@ -804,7 +812,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Generic/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.generic.af4.ios;
 				PRODUCT_NAME = GenericAF4;
@@ -865,7 +873,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Generic/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.generic.af4.ios;
 				PRODUCT_NAME = GenericAF4;
