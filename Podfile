@@ -1,4 +1,5 @@
 source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/phunware/phunware-specs.git'
 
 workspace 'GenericAF4'
 xcodeproj 'GenericAF4.xcodeproj'
