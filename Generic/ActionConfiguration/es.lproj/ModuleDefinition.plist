@@ -1088,47 +1088,6 @@
 					</dict>
 				</dict>
 			</dict>
-			<key>peek</key>
-			<dict>
-				<key>className</key>
-				<string>AFCPeekViewControllerAction</string>
-				<key>queue</key>
-				<string>concurrent</string>
-				<key>parameters</key>
-				<dict>
-					<key>viewController</key>
-					<string>AFCUIMallDetailViewController</string>
-					<key>presentationMode</key>
-					<string>push</string>
-					<key>shouldAnimate</key>
-					<true/>
-					<key>properties</key>
-					<dict>
-						<key>itemDetailData</key>
-						<string>$action.directoryItem</string>
-						<key>itemDetailTitleKey</key>
-						<string>Name</string>
-						<key>itemDetailSubtitleKey</key>
-						<string>SubTitle</string>
-						<key>itemDetailBannerURLKey</key>
-						<string>DetailImage</string>
-						<key>itemDetailLocationKey</key>
-						<string>POI</string>
-						<key>itemDetailDescriptionKey</key>
-						<string>Description</string>
-						<key>itemDetailIdentifierKey</key>
-						<string>ItemId</string>
-						<key>itemDetailFavoriteContext</key>
-						<string>$action.favoritesContext</string>
-						<key>itemDetailContext</key>
-						<string>$action.itemDetailContext</string>
-						<key>itemWebsiteKey</key>
-						<string>Website</string>
-						<key>itemPhoneKey</key>
-						<string>Phone</string>
-					</dict>
-				</dict>
-			</dict>
 		</dict>
 		<key>DirectoryItem</key>
 		<dict>
@@ -1619,41 +1578,6 @@
 			<dict>
 				<key>className</key>
 				<string>AFCLoadViewControllerAction</string>
-				<key>parameters</key>
-				<dict>
-					<key>viewController</key>
-					<string>AFCUIItemDetailViewController</string>
-					<key>presentationMode</key>
-					<string>push</string>
-					<key>shouldAnimate</key>
-					<true/>
-					<key>properties</key>
-					<dict>
-						<key>itemDetailData</key>
-						<string>$action.event</string>
-						<key>itemDetailTitleKey</key>
-						<string>Name</string>
-						<key>itemDetailSubtitleKey</key>
-						<string>EventSubtitle</string>
-						<key>itemDetailBannerURLKey</key>
-						<string>ImageURL</string>
-						<key>itemDetailLocationKey</key>
-						<string></string>
-						<key>itemDetailDescriptionKey</key>
-						<string>Details</string>
-						<key>itemDetailIdentifierKey</key>
-						<string>EventID</string>
-						<key>itemDetailFavoriteContext</key>
-						<string>$action.favoritesContext</string>
-						<key>itemDetailContext</key>
-						<string>$action.itemDetailContext</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>peek</key>
-			<dict>
-				<key>className</key>
-				<string>AFCPeekViewControllerAction</string>
 				<key>parameters</key>
 				<dict>
 					<key>viewController</key>
