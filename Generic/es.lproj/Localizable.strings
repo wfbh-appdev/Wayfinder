@@ -57,6 +57,8 @@
 "afcuimroutebuilderviewcontroller.welcomebackmessage.text" = "Ahora mostraremos la ruta del estacionamiento\na su destino previamente seleccionado.";
 "afcuimroutebuilderviewcontroller.welcomebackdismiss.buttontitle" = "CERRAR";
 "afcuimroutebuilderviewcontroller.welcomebackrouteme.buttontitle" = "RUTA";
+"afcuimroutebuilderviewcontroller.outdoortoindoornotificationtitle.text" = "Bienvenido a";
+"afcuimroutebuilderviewcontroller.outdoortoindoornotificationtitle.message" = "Por favor, inicie la aplicación de las direcciones de interior a su destino final.";
 
 /*
  *  AFCUIMPOIFilterEditorViewController Strings
@@ -104,9 +106,10 @@
 "afcparkingmapviewcontroller.droppinbutton.droppindisabled.buttontitle" = "Colocar un Pin";
 "afcparkingmapviewcontroller.titlelabel.text" = "Pin en mi ubicación";
 
-"afcparkingmapviewcontroller.locationauthorization.erroralert.title" = "Autorización de Ubicación";
-"afcparkingmapviewcontroller.locationauthorization.erroralert.message" = "Revise los permisos de localización";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.title" = "Por favor, activa ubicación";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.message" = "Ayúdanos a mantener un registro de su lugar de estacionamiento al permitir la ubicación";
 "afcparkingmapviewcontroller.locationauthorization.erroralert.okbutton.title" = "SÍ";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.cancelbutton.title" = "No gracias";
 
 /*
  *  AFCParkingNoteViewController Strings
@@ -199,6 +202,10 @@
 "afcuimroutingannotationview.hacia.title" = "hacia";
 
 
+"afcdirectoryviewcontroller.nonetwork.failure.title" = "Directorio";
+"afcdirectoryviewcontroller.nonetwork.failure.message" = "Por favor configura los segmentos para esta application en App Builder portal.";
+"afcdirectoryviewcontroller.nonetwork.failure.cancelbutton.title" = "SÍ";
+
 "We can help you find your way to the\nfacility or within it."= "Nosotros le podemos ayudar a encontrar su camino\nhacia el establecimiento o dentro del mismo";
 "Need Directions?"="¿Necesita direcciones?";
 "Indoor Directions"="Direcciones Internas";
@@ -221,6 +228,55 @@
 "at"="a las";
 "Directory"="Directorio";
 
+/*
+ *  No Initial Database Strings
+ */
+"afinitialdatabase.displayforceupdate.alert.title" = "Error";
+"afinitialdatabase.displayforceupdate.alert.message" = "No se puede iniciar la aplicación . Por favor, compruebe que el dispositivo está conectado a una red.";
+"afinitialdatabase.displayforceupdate.alert.button" = "Cerca de aplicación";
+
+/*
+ *  No Layer Database Strings
+ */
+"aflayerdatabase.displayforceupdate.alert.title" = "Error";
+"aflayerdatabase.displayforceupdate.alert.message" = "Este contenido requiere una conexión de datos, por favor revise su red móvil o WiFi y vuelve a intentarlo.";
+"aflayerdatabase.displayforceupdate.alert.button" = "SÍ";
+
+/**
+ * Segments Error
+ */
+
+"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.title" = "Configuracion de Alertas";
+"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.message" = "Por favor configura los segmentos para esta application en App Builder portal.";
+"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.cancelbutton.title" = "SÍ";
+
+"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.title" = "Configuracion de Alertas";
+"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.message" = "Este contenido requiere una conexión de datos , por favor revise su red móvil o Wi-Fi y vuelve a intentarlo.";
+"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.cancelbutton.title" = "SÍ";
+
+/*
+ *  AFCUIMMapViewController Strings
+ */
+
+"afcuimmapviewcontroller.promptlocationalert.title" = "Nos ayudan a guiar";
+"afcuimmapviewcontroller.promptlocationalert.message" = "Por favor habilite Location Services para obtener direcciones hacia su destino.";
+"afcuimmapviewcontroller.promptlocationalert.takemetherebutton" = "Llevame ahí";
+"afcuimmapviewcontroller.promptlocationalert.cancelbutton" = "No Gracias";
+"afcuimmapviewcontroller.buildingloaderroralert.title" = "Error en el Mapa";
+"afcuimmapviewcontroller.buildingloaderroralert.message" = "No podemos cargar el mapa en este momento. Compruebe su conexión de red.";
+"afcuimmapviewcontroller.buildingloaderroralert.button" = "SÍ";
+
+/**
+ * Layer Picker
+ */
+"afclayerpickerviewcontroller.navbar.title" = "Capas";
+
+/**
+ * Map Picker
+ */
+"afcmmappickerviewcontroller.navbar.title" = "Mapas";
+"afcmmappickerviewcontroller.promptlocationalert.title" = "Nos ayudan a guiar";
+"afcmmappickerviewcontroller.promptlocationalert.message" = "Por favor, activa los servicios de localización de manera que le guiará por las instalaciones.";
 
 //POI Translations/* POI type */
 "Unknown" = "Desconocido";

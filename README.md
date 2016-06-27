@@ -1,7 +1,19 @@
-# App Framework iOS 4.0.1 Generic App
+# solutions-app-generic
+AppFramework for iOS *(4.1.0)*
+===================
 
-What's New In iOS AF 4.0.1<br>
- -Implementation of actions manager<br>
- -Memory leak fixes
 
-See documentation in Confluence for Getting Started Using Generic App as a Template - https://confluence.phunware.com/display/PRODDOCS/iOS+AF4.x+Developer+Guide
+AppFramework for iOS is an extensible and modular framework for building Vertical Solutions applications.
+
+
+Changelog
+----------------------------
+
+[See CHANGELOG](CHANGELOG.md)
+
+
+Documentation
+----------------------------
+For specific configuration/setup documentation related to modules please see:  https://confluence.phunware.com/display/PRODDOCS/iOS+AF4.x+Developer+Guide
+
+For Team Onboarding see: https://confluence.phunware.com/pages/viewpage.action?pageId=15272909

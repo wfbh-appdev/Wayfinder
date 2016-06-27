@@ -2,52 +2,38 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>MaaSMapCampus</key>
-	<dict>
-		<key>Buildings</key>
-		<array>
-			<dict>
-				<key>BuildingID</key>
-				<string>#ENTER A VALID VALUE#</string>
-				<key>BuildingName</key>
-				<string>#ENTER A VALID VALUE#</string>
-				<key>Location</key>
-				<dict>
-					<key>latitude</key>
-					<real>0</real>
-					<key>longitude</key>
-					<real>0</real>
-				</dict>
-			</dict>
-		</array>
-		<key>CampusID</key>
-		<string>#ENTER A VALID VALUE#</string>
-		<key>CampusName</key>
-		<string>#ENTER A VALID VALUE#</string>
-	</dict>
 	<key>Crashlytics API Key</key>
 	<string>#ENTER A VALID VALUE#</string>
+	<key>Analytics</key>
+	<dict>
+		<key>TOKEN_MIXPANEL</key>
+		<string>YOUR_MIXPANEL_TOKEN</string>
+		<key>TOKEN_GOOGLE</key>
+		<string>YOUR_GOOGLE_TOKEN</string>
+		<key>TOKEN_MAAS</key>
+		<string>YOUR_MAAS_TOKEN</string>
+		<key>TOKEN_LOCALYTICS</key>
+		<string>YOUR_LOCALYTICS_TOKEN</string>
+		<key>TOKEN_FLURRY</key>
+		<string>YOUR_FLURRY_TOKEN</string>
+	</dict>
 	<key>LogSettings</key>
 	<dict>
 		<key>logToStdout</key>
 		<true/>
 		<key>verbosity</key>
-		<string>Info</string>
+		<string>Debug</string>
 	</dict>
 	<key>Core WS Integration</key>
 	<dict>
+		<key>topLevelContentName</key>
+		<string>#ENTER A VALID VALUE#</string>
 		<key>applicationUUID</key>
 		<string>#ENTER A VALID VALUE#</string>
-		<key>rootURL</key>
-		<string>#ENTER A VALID VALUE#</string>
-		<key>voiceURL</key>
-		<string>#ENTER A VALID VALUE#</string>
 		<key>webservicesID</key>
-		<string>#ENTER A VALID VALUE#</string>
+		<string>e7ee6efb-c66e-11df-bbda-ab061b74f77a</string>
 		<key>webservicesKey</key>
-		<string>#ENTER A VALID VALUE#</string>
-		<key>databaseStorageVersion</key>
-		<string>2.4.0</string>
+		<string>15be1351-c66f-11df-bbda-ab061b74f77a</string>
 	</dict>
 	<key>MaaS Integration</key>
 	<dict>
@@ -57,16 +43,12 @@
 		<string>#ENTER A VALID VALUE#</string>
 		<key>MaaSSignatureKey</key>
 		<string>#ENTER A VALID VALUE#</string>
-		<key>MaaSContainerID</key>
-		<string>#ENTER A VALID VALUE#</string>
-		<key>MaaSMapVenueGUID</key>
-		<string>#ENTER A VALID VALUE#</string>
 		<key>MaaSAppName</key>
 		<string>#ENTER A VALID VALUE#</string>
 		<key>MaaSPlatformName</key>
 		<string>iOS</string>
 		<key>S3URL</key>
-		<string>https://solutions-db.phunware.com</string>
+		<string>#ENTER A VALID VALUE#</string>
 	</dict>
 	<key>StartupSettings</key>
 	<dict>
@@ -76,107 +58,6 @@
 		<true/>
 		<key>TourEnabled</key>
 		<true/>
-	</dict>
-	<key>CME</key>
-	<dict>
-		<key>Venues</key>
-		<array>
-			<dict>
-				<key>Campuses</key>
-				<array>
-					<dict>
-						<key>Buildings</key>
-						<array>
-							<dict>
-								<key>vscBuildingName</key>
-								<string>#ENTER A VALID VALUE#</string>
-								<key>vscBuildingId</key>
-								<real>17498</real>
-								<key>vscBuildingActive</key>
-								<true/>
-								<key>Floors</key>
-								<array>
-									<dict>
-										<key>Beacons</key>
-										<array/>
-										<key>vscFloorActive</key>
-										<true/>
-										<key>vscFloorId</key>
-										<real>0</real>
-										<key>vscFloorName</key>
-										<string>#ENTER A VALID VALUE#</string>
-										<key>vscSenionFloorKeyiOS</key>
-										<string>#ENTER A VALID VALUE#</string>
-									</dict>
-								</array>
-								<key>Geo Settings</key>
-								<dict>
-									<key>latitude</key>
-									<real>0</real>
-									<key>longitude</key>
-									<real>0</real>
-									<key>geofenceLocationCode</key>
-									<string>#ENTER A VALID VALUE#</string>
-									<key>geofenceRadius</key>
-									<string>#ENTER A VALID VALUE#</string>
-								</dict>
-								<key>Map Settings</key>
-								<dict>
-									<key>vscMapDefaultFloor</key>
-									<integer>1</integer>
-									<key>vscMapZoomLevel</key>
-									<integer>17</integer>
-									<key>vscMapEyeAltitude</key>
-									<integer>500</integer>
-									<key>vscSenionCustomerIdiOS</key>
-									<string>#ENTER A VALID VALUE#</string>
-									<key>vscSenionMapIdiOS</key>
-									<string>#ENTER A VALID VALUE#</string>
-								</dict>
-							</dict>
-						</array>
-						<key>vscCampusName</key>
-						<string>#ENTER A VALID VALUE#</string>
-						<key>vscCampusId</key>
-						<real>0</real>
-						<key>vscCampusActive</key>
-						<true/>
-						<key>vscCampusPropertyUUID</key>
-						<string></string>
-					</dict>
-				</array>
-				<key>vscVenueName</key>
-				<string>#ENTER A VALID VALUE#</string>
-				<key>vscVenueUUID</key>
-				<string>#ENTER A VALID VALUE#</string>
-				<key>vscVenuePropertyUUID</key>
-				<string>#ENTER A VALID VALUE#</string>
-				<key>vscVenueActive</key>
-				<true/>
-			</dict>
-		</array>
-		<key>AdvertisementSettings</key>
-		<dict>
-			<key>vscAdsBannerZone</key>
-			<integer>0</integer>
-			<key>vscAdsBannerFrequency</key>
-			<integer>0</integer>
-			<key>vscAdsInterstitialZone</key>
-			<integer>0</integer>
-			<key>vscAdsInterstitialFrequency</key>
-			<integer>0</integer>
-			<key>vscAdsNativeBannerZone</key>
-			<integer>0</integer>
-			<key>vscAdsDirectoryRow</key>
-			<integer>0</integer>
-			<key>vscAdsNativeEnable</key>
-			<false/>
-		</dict>
-		<key>ApplicationSettings</key>
-		<dict>
-			<key>vscDefaultIndoorLocationProvider</key>
-			<string>PWSLLocationManager</string>
-		</dict>
 	</dict>
 </dict>
 </plist>

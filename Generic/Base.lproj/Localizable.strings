@@ -49,6 +49,8 @@
 "afcuimroutebuilderviewcontroller.cancelbutton.buttontitle" = "Cancel";
 "afcuimroutebuilderviewcontroller.routebutton.buttontitle" = "Route";
 "afcuimroutebuilderviewcontroller.handicapaccessibilitylabel.text" = "Handicap  Accessibility";
+"afcuimroutebuilderviewcontroller.outdoortoindoornotificationtitle.text" = "Welcome to";
+"afcuimroutebuilderviewcontroller.outdoortoindoornotificationtitle.message" = "Please launch the app for indoor directions to your final destination.";
 "afcuimroutebuilderviewcontroller.outdoortoindooralerttitle.text" = "Need Directions to the Venue?";
 "afcuimroutebuilderviewcontroller.outdoortoindooralerttitle.message" = "We noticed you are currently not at the facility.\nWould you like to route to the venue instead?";
 "afcuimroutebuilderviewcontroller.dismissoutdoortoindoor.buttontitle" = "DISMISS";
@@ -104,9 +106,10 @@
 "afcparkingmapviewcontroller.droppinbutton.droppindisabled.buttontitle" = "Drop a Pin";
 "afcparkingmapviewcontroller.titlelabel.text" = "Pin My Location";
 
-"afcparkingmapviewcontroller.locationauthorization.erroralert.title" = "Location Authorization";
-"afcparkingmapviewcontroller.locationauthorization.erroralert.message" = "Check the location permissions";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.title" = "Please enable location";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.message" = "Help us keep track of your parking spot by enabling location";
 "afcparkingmapviewcontroller.locationauthorization.erroralert.okbutton.title" = "OK";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.cancelbutton.title" = "No Thanks";
 
 /*
  *  AFCParkingNoteViewController Strings
@@ -173,6 +176,20 @@
 "afccheckforceupdate.displayupdateavailable.alert.button.title" = "Update";
 "afccheckforceupdate.displayupdateavailable.alert.cancel.title" = "Not Now";
 
+/*
+ *  No Initial Database Strings
+ */
+"afinitialdatabase.displayforceupdate.alert.title" = "Error";
+"afinitialdatabase.displayforceupdate.alert.message" = "Unable to start the application.  Please verify that your device is connected to a network.";
+"afinitialdatabase.displayforceupdate.alert.button" = "Close app";
+
+/*
+ *  No Layer Database Strings
+ */
+"aflayerdatabase.displayforceupdate.alert.title" = "Error";
+"aflayerdatabase.displayforceupdate.alert.message" = "This content requires a data connection, please check your mobile or WiFi network and try again.";
+"aflayerdatabase.displayforceupdate.alert.button" = "Ok";
+
 /**
  * EULA Agreement
  */
@@ -202,4 +219,43 @@
 "afcuimroutingannotationview.tome.title" = "Take";
 "afcuimroutingannotationview.hacia.title" = "to";
 
+"afcdirectoryviewcontroller.nonetwork.failure.title" = "Directory";
+"afcdirectoryviewcontroller.nonetwork.failure.message" = "This content requires a data connection, please check your mobile or wifi network and try again.";
+"afcdirectoryviewcontroller.nonetwork.failure.cancelbutton.title" = "Ok";
+
+/**
+ * Layer Picker
+ */
+"afclayerpickerviewcontroller.navbar.title" = "Layers";
+
+/**
+ * Map Picker
+ */
+"afcmmappickerviewcontroller.navbar.title" = "Maps";
+"afcmmappickerviewcontroller.promptlocationalert.title" = "Help us guide you";
+"afcmmappickerviewcontroller.promptlocationalert.message" = "Please enable location services so we can show you the nearest location.";
+
+/**
+ * Segments Error
+ */
+
+"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.title" = "Alert Settings";
+"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.message" = "Please setup alert segments for this app on the portal.";
+"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.cancelbutton.title" = "Ok";
+
+"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.title" = "Alert Settings";
+"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.message" = "This content requires a data connection, please check your mobile or wifi network and try again.";
+"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.cancelbutton.title" = "Ok";
+
+/*
+ *  AFCUIMMapViewController Strings
+ */
+
+"afcuimmapviewcontroller.promptlocationalert.title" = "Help us guide you";
+"afcuimmapviewcontroller.promptlocationalert.message" = "Please enable location services so we can guide you around the facility.";
+"afcuimmapviewcontroller.promptlocationalert.takemetherebutton" = "Take me there";
+"afcuimmapviewcontroller.promptlocationalert.cancelbutton" = "No Thanks";
+"afcuimmapviewcontroller.buildingloaderroralert.title" = "Map Error";
+"afcuimmapviewcontroller.buildingloaderroralert.message" = "We cannot load the map at this time. Check your network connection.";
+"afcuimmapviewcontroller.buildingloaderroralert.button" = "Ok";
 

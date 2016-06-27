@@ -22,7 +22,7 @@ apply plugin: 'com.phunware.brandme.xcode-plugin'
 // Configure the following items below
 xcodebuild {
     // Specify the Xcode version you want to use for building
-    xcodeversion '7.1'
+    xcodeversion '7.3'
     defaultConfig {
         // replace the TargetName with your project's target name (required)
         target 'GenericAF4'

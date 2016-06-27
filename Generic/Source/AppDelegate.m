@@ -27,20 +27,7 @@
     
     AFCAbstractModule *module=[[AFCDictionaryBasedModule alloc] initWithDictionary:dictionary];
     [[AFCCoreEngine sharedCore] addModule:module];
-    
-    AFCCMEConfiguration *configuration=[AFCAppDefaults standardDefaults].cme;
-    if(configuration.venues)
-    {
-        CMEVenue *venue=[configuration.venues objectAtIndex:0];
-        if(venue.campuses)
-        {
-            CMECampus *campus=[venue.campuses objectAtIndex:0];
-            [[UIApplication sharedApplication] setValue:[NSNumber numberWithInteger:campus.currentBuilding.buildingId] forKey:@"buildingId"];
-            [[UIApplication sharedApplication] setValue:campus forKey:kAFCApplicationStateCurrentCampus];
-        }
-    }
-//    [UIApplication.registerAnalyticsDelegate:[[AFGoogleAnalyticsController alloc] init]];
-    
+        
     [[UIApplication sharedApplication] registerAnalyticsDelegate: [[AFGoogleAnalyticsController alloc] init]];
       
     return [super application:application willFinishLaunchingWithOptions:launchOptions];

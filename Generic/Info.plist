@@ -48,14 +48,18 @@
 		<true/>
 	</dict>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>App use your location to show you where you parked</string>
+	<string>App uses your location to do indoor routing and mapping to venues.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>App use your location to show you where you parked</string>
+	<string>App uses your location to do indoor routing and mapping to venues.</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Proxima Nova Sbold.otf</string>
 		<string>ProximaNova-Light.otf</string>
 		<string>ProximaNova-Reg.otf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
