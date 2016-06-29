@@ -93,90 +93,91 @@ PODS:
   - TurtleBezierPath (1.0)
 
 DEPENDENCIES:
-  - AppFrameworkAlertsModule (from `https://github.com/phunware/sdk-ios-appframework-alerts-binary.git`,
+  - AppFrameworkAlertsModule (from `https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-alerts.git`,
     tag `v4.1`)
-  - AppFrameworkCore (from `https://github.com/phunware/sdk-ios-appframework-core-binary.git`,
+  - AppFrameworkCore (from `https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-core.git`,
     tag `v4.1`)
-  - AppFrameworkDirectoryModule (from `https://github.com/phunware/sdk-ios-appframework-directory-binary.git`,
+  - AppFrameworkDirectoryModule (from `https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-directory.git`,
     tag `v4.1`)
-  - AppFrameworkEventsModule (from `https://github.com/phunware/sdk-ios-appframework-events-binary.git`,
+  - AppFrameworkEventsModule (from `https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-events.git`,
     tag `v4.1`)
-  - AppFrameworkLocationMarketingModule (from `https://github.com/phunware/sdk-ios-appframework-location-marketing-binary.git`,
+  - AppFrameworkLocationMarketingModule (from `https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-location-marketing.git`,
     tag `v4.1`)
-  - AppFrameworkMappingModule (from `https://github.com/phunware/sdk-ios-appframework-mapping-binary.git`,
+  - AppFrameworkMappingModule (from `https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-mapping.git`,
     tag `v4.1`)
-  - AppFrameworkParkingModule (from `https://github.com/phunware/sdk-ios-appframework-parking-binary.git`,
+  - AppFrameworkParkingModule (from `https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-parking.git`,
     tag `v4.1`)
-  - AppFrameworkRenderModule (from `https://github.com/phunware/sdk-ios-appframework-render-binary.git`,
+  - AppFrameworkRenderModule (from `https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-render.git`,
     tag `v4.1`)
-  - CoreNetwork (from `https://github.com/phunware/sdk-ios-appframework-network.git`,
+  - CoreNetwork (from `https://bitbucket.phunware.com/scm/af/af-sdk-ios-module-network.git`,
     tag `v4.1`)
   - Google/Analytics
   - PWLocalpoint (= 2.6.3.1)
-  - PWUIKit (from `https://github.com/phunware/sdk-ios-pwuikit-binary.git`, tag `v4.1`)
+  - PWUIKit (from `https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-pwuikit.git`,
+    tag `v4.1`)
 
 EXTERNAL SOURCES:
   AppFrameworkAlertsModule:
-    :git: https://github.com/phunware/sdk-ios-appframework-alerts-binary.git
+    :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-alerts.git
     :tag: v4.1
   AppFrameworkCore:
-    :git: https://github.com/phunware/sdk-ios-appframework-core-binary.git
+    :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-core.git
     :tag: v4.1
   AppFrameworkDirectoryModule:
-    :git: https://github.com/phunware/sdk-ios-appframework-directory-binary.git
+    :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-directory.git
     :tag: v4.1
   AppFrameworkEventsModule:
-    :git: https://github.com/phunware/sdk-ios-appframework-events-binary.git
+    :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-events.git
     :tag: v4.1
   AppFrameworkLocationMarketingModule:
-    :git: https://github.com/phunware/sdk-ios-appframework-location-marketing-binary.git
+    :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-location-marketing.git
     :tag: v4.1
   AppFrameworkMappingModule:
-    :git: https://github.com/phunware/sdk-ios-appframework-mapping-binary.git
+    :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-mapping.git
     :tag: v4.1
   AppFrameworkParkingModule:
-    :git: https://github.com/phunware/sdk-ios-appframework-parking-binary.git
+    :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-parking.git
     :tag: v4.1
   AppFrameworkRenderModule:
-    :git: https://github.com/phunware/sdk-ios-appframework-render-binary.git
+    :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-render.git
     :tag: v4.1
   CoreNetwork:
-    :git: https://github.com/phunware/sdk-ios-appframework-network.git
+    :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-module-network.git
     :tag: v4.1
   PWUIKit:
-    :git: https://github.com/phunware/sdk-ios-pwuikit-binary.git
+    :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-pwuikit.git
     :tag: v4.1
 
 CHECKOUT OPTIONS:
   AppFrameworkAlertsModule:
-    :git: https://github.com/phunware/sdk-ios-appframework-alerts-binary.git
+    :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-alerts.git
     :tag: v4.1
   AppFrameworkCore:
-    :git: https://github.com/phunware/sdk-ios-appframework-core-binary.git
+    :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-core.git
     :tag: v4.1
   AppFrameworkDirectoryModule:
-    :git: https://github.com/phunware/sdk-ios-appframework-directory-binary.git
+    :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-directory.git
     :tag: v4.1
   AppFrameworkEventsModule:
-    :git: https://github.com/phunware/sdk-ios-appframework-events-binary.git
+    :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-events.git
     :tag: v4.1
   AppFrameworkLocationMarketingModule:
-    :git: https://github.com/phunware/sdk-ios-appframework-location-marketing-binary.git
+    :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-location-marketing.git
     :tag: v4.1
   AppFrameworkMappingModule:
-    :git: https://github.com/phunware/sdk-ios-appframework-mapping-binary.git
+    :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-mapping.git
     :tag: v4.1
   AppFrameworkParkingModule:
-    :git: https://github.com/phunware/sdk-ios-appframework-parking-binary.git
+    :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-parking.git
     :tag: v4.1
   AppFrameworkRenderModule:
-    :git: https://github.com/phunware/sdk-ios-appframework-render-binary.git
+    :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-render.git
     :tag: v4.1
   CoreNetwork:
-    :git: https://github.com/phunware/sdk-ios-appframework-network.git
+    :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-module-network.git
     :tag: v4.1
   PWUIKit:
-    :git: https://github.com/phunware/sdk-ios-pwuikit-binary.git
+    :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-pwuikit.git
     :tag: v4.1
 
 SPEC CHECKSUMS:
