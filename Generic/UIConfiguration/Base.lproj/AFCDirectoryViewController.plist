@@ -6,22 +6,22 @@
 	<dict/>
 	<key>view</key>
 	<dict>
-		<key>backgroundColor</key>
-		<string>#ffffff</string>
 		<key>constraints</key>
 		<array>
 			<string>H:|[table]|</string>
 			<string>V:|[table]|</string>
-			<string>H:|[noResultsFoundLabel]|</string>
-			<string>V:|-&gt;=1-[noResultsFoundLabel(21)]-&gt;=1-|</string>
+			<string>H:|-(&gt;=100)-[noResultsFoundLabel]-(&gt;=100)-|</string>
+			<string>V:|-(&lt;=50)-[noResultsFoundLabel(21)]-(&gt;=100)-|</string>
 			<string>H:|[favoritesBar]|</string>
-			<string>#noResultsFoundLabel.centery=self.centery,1,-60</string>
+			<string>#noResultsFoundLabel.centerx=self.centerx,1,0</string>
 		</array>
+		<key>backgroundColor</key>
+		<string>#ffffff</string>
 	</dict>
 	<key>noResultsFoundLabel</key>
 	<dict>
 		<key>text</key>
-		<string>No Results Found.</string>
+		<string>#afcdirectoryviewcontroller.noresultsfound.title</string>
 		<key>fontName</key>
 		<string>HelveticaNeue</string>
 		<key>fontSize</key>
@@ -57,7 +57,7 @@
 		<key>color</key>
 		<string>#0080FF</string>
 		<key>text</key>
-		<string>Filtered by</string>
+		<string>#afcdirectoryviewcontroller.filternotice.title</string>
 		<key>alignment</key>
 		<string>left</string>
 	</dict>
@@ -72,7 +72,7 @@
 		<key>color</key>
 		<string>#0080FF</string>
 		<key>text</key>
-		<string>All</string>
+		<string>#afcdirectoryviewcontroller.filtercategory.title</string>
 	</dict>
 	<key>favoritesBar</key>
 	<dict>
@@ -97,7 +97,7 @@
 	<key>filterCategoriesButton</key>
 	<dict>
 		<key>buttonTitle</key>
-		<string>Filter</string>
+		<string>#afcdirectoryviewcontroller.filtercategorybutton.title</string>
 		<key>fontName</key>
 		<string>ProximaNova-Regular</string>
 		<key>fontSize</key>

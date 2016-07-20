@@ -13,9 +13,10 @@
 			<string>H:|[table]|</string>
 			<string>V:|[table]|</string>
 			<string>H:|[noResultsFoundLabel]|</string>
-			<string>V:|-&gt;=1-[noResultsFoundLabel(21)]-&gt;=1-|</string>
+			<string>V:|-(&gt;=100)-[noResultsFoundLabel(21)]-(&gt;=100)-|</string>
 			<string>H:|[favoritesBar]|</string>
 			<string>#noResultsFoundLabel.centery=self.centery,1,-60</string>
+			<string>#noResultsFoundLabel.centerx=self.centerx,1,0</string>
 		</array>
 	</dict>
 	<key>noResultsFoundLabel</key>
