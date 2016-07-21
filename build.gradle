@@ -31,6 +31,13 @@ xcodebuild {
         // replace 'path/to/ThirdParty.txt' with the correct path to your attributions file, relative to the build.gradle file
         thirdPartyAttributions 'ThirdParty.txt'
     }
+    pod {
+        version "0.39.0"
+        shouldUpdate false
+        verbose false
+        shouldClearCache true
+    }
+
     signingConfigs {
         enterprise {
             certificate file('Certificates/enterprise.p12')

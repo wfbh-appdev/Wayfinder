@@ -14,28 +14,28 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - AppFrameworkAlertsModule (4.1):
+  - AppFrameworkAlertsModule (4.2):
     - CocoaLumberjack
     - PWAlerts (~> 1.4.0)
-  - AppFrameworkCore (4.1):
+  - AppFrameworkCore (4.2):
     - CocoaLumberjack
     - JLRoutes
     - PSAlertView (~> 2.0)
-    - PWAds (~> 3.3.0)
+    - PWAds (~> 3.2.0)
     - PWAlerts (~> 1.4.0)
     - PWAnalytics (~> 1.3.0)
     - PWCME (~> 1.3.0)
     - PWCore (~> 2.0.0)
   - AppFrameworkDirectoryModule (4.1)
   - AppFrameworkEventsModule (4.1)
-  - AppFrameworkLocationMarketingModule (4.1)
+  - AppFrameworkLocationMarketingModule (4.0.0)
   - AppFrameworkMappingModule (4.1):
     - PWLocation (~> 1.2.0)
     - PWMapKit (~> 2.6.0)
     - REMenu
     - TurtleBezierPath
   - AppFrameworkParkingModule (4.1)
-  - AppFrameworkRenderModule (4.1):
+  - AppFrameworkRenderModule (4.2):
     - Mantle (~> 2.0)
   - CocoaLumberjack (2.3.0):
     - CocoaLumberjack/Default (= 2.3.0)
@@ -45,15 +45,16 @@ PODS:
     - CocoaLumberjack/Core
   - CocoaLumberjack/Extensions (2.3.0):
     - CocoaLumberjack/Default
-  - CoreNetwork (0.52):
+  - CoreNetwork (4.2):
     - AFNetworking
+    - PW_Shared (~> 2.1.2)
     - SDWebImage (~> 3.7.2)
-  - FirebaseAnalytics (3.2.0):
+  - FirebaseAnalytics (3.2.1):
     - FirebaseInstanceID (~> 1.0)
     - GoogleInterchangeUtilities (~> 1.2)
     - GoogleSymbolUtilities (~> 1.1)
     - GoogleUtilities (~> 1.3)
-  - FirebaseInstanceID (1.0.6)
+  - FirebaseInstanceID (1.0.7)
   - Google/Analytics (3.0.3):
     - Google/Core
     - GoogleAnalytics (~> 3.12)
@@ -70,7 +71,8 @@ PODS:
     - Mantle/extobjc (= 2.0.7)
   - Mantle/extobjc (2.0.7)
   - PSAlertView (2.0.3)
-  - PWAds (3.3.0):
+  - PW_Shared (2.1.2)
+  - PWAds (3.2.2):
     - PWCore
   - PWAlerts (1.4.0):
     - PWCore
@@ -93,106 +95,107 @@ PODS:
   - TurtleBezierPath (1.0)
 
 DEPENDENCIES:
-  - AppFrameworkAlertsModule (from `https://github.com/phunware/sdk-ios-appframework-alerts-binary.git`,
-    tag `v4.1`)
-  - AppFrameworkCore (from `https://github.com/phunware/sdk-ios-appframework-core-binary.git`,
-    tag `v4.1`)
-  - AppFrameworkDirectoryModule (from `https://github.com/phunware/sdk-ios-appframework-directory-binary.git`,
-    tag `v4.1`)
-  - AppFrameworkEventsModule (from `https://github.com/phunware/sdk-ios-appframework-events-binary.git`,
-    tag `v4.1`)
-  - AppFrameworkLocationMarketingModule (from `https://github.com/phunware/sdk-ios-appframework-location-marketing-binary.git`,
-    tag `v4.1`)
-  - AppFrameworkMappingModule (from `https://github.com/phunware/sdk-ios-appframework-mapping-binary.git`,
-    tag `v4.1`)
-  - AppFrameworkParkingModule (from `https://github.com/phunware/sdk-ios-appframework-parking-binary.git`,
-    tag `v4.1`)
-  - AppFrameworkRenderModule (from `https://github.com/phunware/sdk-ios-appframework-render-binary.git`,
-    tag `v4.1`)
-  - CoreNetwork (from `https://github.com/phunware/sdk-ios-appframework-network.git`,
-    tag `v4.1`)
+  - AppFrameworkAlertsModule (from `https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-alerts.git`,
+    tag `develop`)
+  - AppFrameworkCore (from `https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-core.git`,
+    tag `develop`)
+  - AppFrameworkDirectoryModule (from `https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-directory.git`,
+    tag `develop`)
+  - AppFrameworkEventsModule (from `https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-events.git`,
+    tag `develop`)
+  - AppFrameworkLocationMarketingModule (from `https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-location-marketing.git`,
+    tag `develop`)
+  - AppFrameworkMappingModule (from `https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-mapping.git`,
+    tag `develop`)
+  - AppFrameworkParkingModule (from `https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-parking.git`,
+    tag `develop`)
+  - AppFrameworkRenderModule (from `https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-render.git`,
+    tag `develop`)
+  - CoreNetwork (from `https://bitbucket.phunware.com/scm/af/af-sdk-ios-module-network.git`,
+    tag `develop`)
   - Google/Analytics
   - PWLocalpoint (= 2.6.3.1)
-  - PWUIKit (from `https://github.com/phunware/sdk-ios-pwuikit-binary.git`, tag `v4.1`)
+  - PWUIKit (from `https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-pwuikit.git`,
+    tag `develop`)
 
 EXTERNAL SOURCES:
   AppFrameworkAlertsModule:
-    :git: https://github.com/phunware/sdk-ios-appframework-alerts-binary.git
-    :tag: v4.1
+    :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-alerts.git
+    :tag: develop
   AppFrameworkCore:
-    :git: https://github.com/phunware/sdk-ios-appframework-core-binary.git
-    :tag: v4.1
+    :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-core.git
+    :tag: develop
   AppFrameworkDirectoryModule:
-    :git: https://github.com/phunware/sdk-ios-appframework-directory-binary.git
-    :tag: v4.1
+    :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-directory.git
+    :tag: develop
   AppFrameworkEventsModule:
-    :git: https://github.com/phunware/sdk-ios-appframework-events-binary.git
-    :tag: v4.1
+    :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-events.git
+    :tag: develop
   AppFrameworkLocationMarketingModule:
-    :git: https://github.com/phunware/sdk-ios-appframework-location-marketing-binary.git
-    :tag: v4.1
+    :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-location-marketing.git
+    :tag: develop
   AppFrameworkMappingModule:
-    :git: https://github.com/phunware/sdk-ios-appframework-mapping-binary.git
-    :tag: v4.1
+    :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-mapping.git
+    :tag: develop
   AppFrameworkParkingModule:
-    :git: https://github.com/phunware/sdk-ios-appframework-parking-binary.git
-    :tag: v4.1
+    :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-parking.git
+    :tag: develop
   AppFrameworkRenderModule:
-    :git: https://github.com/phunware/sdk-ios-appframework-render-binary.git
-    :tag: v4.1
+    :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-render.git
+    :tag: develop
   CoreNetwork:
-    :git: https://github.com/phunware/sdk-ios-appframework-network.git
-    :tag: v4.1
+    :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-module-network.git
+    :tag: develop
   PWUIKit:
-    :git: https://github.com/phunware/sdk-ios-pwuikit-binary.git
-    :tag: v4.1
+    :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-pwuikit.git
+    :tag: develop
 
 CHECKOUT OPTIONS:
   AppFrameworkAlertsModule:
-    :git: https://github.com/phunware/sdk-ios-appframework-alerts-binary.git
-    :tag: v4.1
+    :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-alerts.git
+    :tag: develop
   AppFrameworkCore:
-    :git: https://github.com/phunware/sdk-ios-appframework-core-binary.git
-    :tag: v4.1
+    :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-core.git
+    :tag: develop
   AppFrameworkDirectoryModule:
-    :git: https://github.com/phunware/sdk-ios-appframework-directory-binary.git
-    :tag: v4.1
+    :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-directory.git
+    :tag: develop
   AppFrameworkEventsModule:
-    :git: https://github.com/phunware/sdk-ios-appframework-events-binary.git
-    :tag: v4.1
+    :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-events.git
+    :tag: develop
   AppFrameworkLocationMarketingModule:
-    :git: https://github.com/phunware/sdk-ios-appframework-location-marketing-binary.git
-    :tag: v4.1
+    :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-location-marketing.git
+    :tag: develop
   AppFrameworkMappingModule:
-    :git: https://github.com/phunware/sdk-ios-appframework-mapping-binary.git
-    :tag: v4.1
+    :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-mapping.git
+    :tag: develop
   AppFrameworkParkingModule:
-    :git: https://github.com/phunware/sdk-ios-appframework-parking-binary.git
-    :tag: v4.1
+    :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-parking.git
+    :tag: develop
   AppFrameworkRenderModule:
-    :git: https://github.com/phunware/sdk-ios-appframework-render-binary.git
-    :tag: v4.1
+    :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-render.git
+    :tag: develop
   CoreNetwork:
-    :git: https://github.com/phunware/sdk-ios-appframework-network.git
-    :tag: v4.1
+    :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-module-network.git
+    :tag: develop
   PWUIKit:
-    :git: https://github.com/phunware/sdk-ios-pwuikit-binary.git
-    :tag: v4.1
+    :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-pwuikit.git
+    :tag: develop
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  AppFrameworkAlertsModule: 5f85874e17bebdf1a091e4109a55d272ded36794
-  AppFrameworkCore: 8f4647c54f388487db544352970a604844888b60
+  AppFrameworkAlertsModule: f2b0d31b28042fbf1c678aa7305aefb4a0ec2648
+  AppFrameworkCore: d45ddaaa1203d3366b8096a15341d64ec33dd76d
   AppFrameworkDirectoryModule: 63e9f08f53f3ff5e5ee462c4ee513e24961d34ed
   AppFrameworkEventsModule: 984a24d4712b32c801686ca969de66a5285a03c9
-  AppFrameworkLocationMarketingModule: 7ab2a5174787d0df1a98b2e27e78bb430799f7fc
+  AppFrameworkLocationMarketingModule: 5610aba2b1cf35531c91f538abfa9dac2c61187a
   AppFrameworkMappingModule: f1f61921fad16e128e60196ce6c9a98bf6a94686
   AppFrameworkParkingModule: 2dd69019198cafd552725a781da498f3ac4b538c
-  AppFrameworkRenderModule: c1d717fa7789cb7389fa999cece2a330c1d4666d
+  AppFrameworkRenderModule: ebad36a1d39e004c2079deee06150e805f2633a4
   CocoaLumberjack: 97fab7ee5f507fe54445cca7ea80f926729cfd15
-  CoreNetwork: c599b27199ebc0ad2e9b1b34a576e6e48c59f4cb
-  FirebaseAnalytics: 6f75b04e6bfb8e0b6e9ef298e04c24eea3b13863
-  FirebaseInstanceID: d014d574053a2fe84478f12f7bae96979e7051bb
+  CoreNetwork: b799cfacc7c5990d5b05a17a6d39a940b5278136
+  FirebaseAnalytics: 0fd6532cb2c3d03cd5cf26ad295ccb091efd3104
+  FirebaseInstanceID: a9d923f3d0b6fbf9fac89310860357aaadc34be5
   Google: 813c467362eabc11385f5a5cc9ad0cb651a58f4e
   GoogleAnalytics: 9be1afdb8deeac4bb5f13ca7f7d3b9db2a1f43dc
   GoogleInterchangeUtilities: def8415a862effc67d549d5b5b0b9c7a2f97d4de
@@ -201,7 +204,8 @@ SPEC CHECKSUMS:
   JLRoutes: 435d791422e96c9b9b5e1c4db1aedb3ae1b1a08f
   Mantle: bc40bb061d8c2c6fb48d5083e04d928c3b7f73d9
   PSAlertView: 16d35f5dba549418492cf68a750d4f0dca21f4a2
-  PWAds: 6cf7b925e25d51639de72581d4c5abe3bc74c103
+  PW_Shared: c280cddb8301e4f391e7d8400be39fe4dfd07fc1
+  PWAds: fb4fc5d849dcfde387883a1dea472ed0214323b3
   PWAlerts: 2e425cf1f88ffc627c8af875a8f2bdc3c8bd3efd
   PWAnalytics: 3dcaabd78e46cef1429352ef75609069f0f808de
   PWCME: e89339e757279130560bb06b5e315eb2d49accc8
