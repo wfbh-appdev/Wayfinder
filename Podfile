@@ -16,8 +16,6 @@ target :'GenericAF4' do
     pod 'AppFrameworkMappingModule',            :git => 'https://bitbucket.phunware.com/scm/af/af-sdk-ios-binaries.git',       :branch => 'develop'
     pod 'AppFrameworkParkingModule',            :git => 'https://bitbucket.phunware.com/scm/af/af-sdk-ios-binaries.git',       :branch => 'develop'
     pod 'AppFrameworkRenderModule',             :git => 'https://bitbucket.phunware.com/scm/af/af-sdk-ios-binaries.git',       :branch => 'develop'
-    pod 'CoreNetwork',                          :git => 'https://bitbucket.phunware.com/scm/af/af-sdk-ios-module-network.git', :branch => 'develop'
-    pod 'PWUIKit',                              :git => 'https://bitbucket.phunware.com/scm/af/af-sdk-ios-binary-pwuikit.git', :branch => 'develop'
     
     pod 'Google/Analytics'
     pod 'PWLocalpoint', '2.6.3.1'
@@ -30,8 +28,8 @@ target :'GenericAF4' do
     #pod 'AppFrameworkMappingModule',           :path => ’../af-sdk-ios/af-modules/af-mapping’
     #pod 'AppFrameworkParkingModule',           :path => ’../af-sdk-ios/af-modules/af-parking’
     #pod 'AppFrameworkRenderModule',            :path => ’../af-sdk-ios/af-modules/af-render’
-    #pod ‘CoreNetwork’,                         :path => ’../af-sdk-ios/af-modules/af-network’
-    #pod ‘PWUIKit’,                             :path => ’../af-sdk-ios/af-modules/af-pwuikit’
+    pod ‘CoreNetwork’,                         :path => ’../af-sdk-ios/af-modules/af-network’
+    pod ‘PWUIKit’,                             :path => ’../af-sdk-ios/af-modules/af-pwuikit’
     
     project 'GenericAF4.xcodeproj'
 
