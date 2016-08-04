@@ -90,7 +90,6 @@
 		5555DB041C4460C900E37207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5555DB061C4460CC00E37207 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5555DB081C44646800E37207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/AFCDirectoryViewController.plist; sourceTree = "<group>"; };
-		5555DB0A1C44646B00E37207 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = es; path = es.lproj/AFCDirectoryViewController.plist; sourceTree = "<group>"; };
 		5555DB0C1C446C6A00E37207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/AFCDirectoryCategoryViewController.plist; sourceTree = "<group>"; };
 		5555DB0E1C446C6B00E37207 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = es; path = es.lproj/AFCDirectoryCategoryViewController.plist; sourceTree = "<group>"; };
 		5555DB101C448FDB00E37207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/ModuleDefinition.plist; sourceTree = "<group>"; };
@@ -566,7 +565,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				5555DB081C44646800E37207 /* Base */,
-				5555DB0A1C44646B00E37207 /* es */,
 			);
 			name = AFCDirectoryViewController.plist;
 			sourceTree = "<group>";

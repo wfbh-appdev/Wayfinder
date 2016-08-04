@@ -201,6 +201,11 @@
 "afcuimroutingannotationview.tome.title" = "Tome";
 "afcuimroutingannotationview.hacia.title" = "hacia";
 
+"afcdirectoryviewcontroller.noresultsfound.title"="No se han encontrado resultados.";
+
+"afcdirectoryviewcontroller.filternotice.title"="Filtrado por";
+"afcdirectoryviewcontroller.filtercategory.title"="Todos";
+"afcdirectoryviewcontroller.filtercategorybutton.title"="Filtrar";
 
 "afcdirectoryviewcontroller.nonetwork.failure.title" = "Directorio";
 "afcdirectoryviewcontroller.nonetwork.failure.message" = "Por favor configura los segmentos para esta application en App Builder portal.";
