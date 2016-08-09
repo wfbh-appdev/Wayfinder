@@ -13,7 +13,6 @@
 #import <PWCore/PWCore.h>
 #import <PWAlerts/PWAlerts.h>
 #import <PWAnalytics/PWAnalytics.h>
-#import <PWUIKit/PWUIKit.h>
 #import <PWAdvertising/PWAds.h>
 #import <PWCME/PWCME.h>
 #import <Localpoint/Localpoint.h>
