@@ -44,7 +44,7 @@
 					<array>
 						<dict>
 							<key>className</key>
-							<string>AFCASetupPushNotifications</string>
+							<string>AFCSetupPushNotifications</string>
 							<key>queue</key>
 							<string>concurrent</string>
 						</dict>
@@ -131,7 +131,7 @@
 						</dict>
 						<dict>
 							<key>className</key>
-							<string>AFCARegisterAPNTokenAction</string>
+							<string>AFCRegisterAPNTokenAction</string>
 						</dict>
 						<dict>
 							<key>className</key>
@@ -148,7 +148,7 @@
 				<array>
 					<dict>
 						<key>className</key>
-						<string>AFCAProcessPushNotificationAction</string>
+						<string>AFCProcessPushNotificationAction</string>
 					</dict>
 					<dict>
 						<key>className</key>
@@ -164,7 +164,7 @@
 				<array>
 					<dict>
 						<key>className</key>
-						<string>AFCAProcessPushNotificationAction</string>
+						<string>AFCProcessPushNotificationAction</string>
 					</dict>
 					<dict>
 						<key>className</key>
@@ -180,7 +180,7 @@
 				<array>
 					<dict>
 						<key>className</key>
-						<string>AFCAProcessPushNotificationAction</string>
+						<string>AFCProcessPushNotificationAction</string>
 					</dict>
 				</array>
 			</dict>
@@ -2659,7 +2659,7 @@
 				<key>parameters</key>
 				<dict>
 					<key>viewController</key>
-					<string>AFCASubscriptionsSetupViewController</string>
+					<string>AFCSubscriptionsSetupViewController</string>
 					<key>presentationMode</key>
 					<string>push</string>
 					<key>shouldAnimate</key>
@@ -2676,7 +2676,7 @@
 			<key>showValidating</key>
 			<dict>
 				<key>className</key>
-				<string>AFCAShowSubscriptionsIfRequiredAction</string>
+				<string>AFCShowSubscriptionsIfRequiredAction</string>
 				<key>parameters</key>
 				<dict>
 					<key>validateDefault</key>
@@ -2690,7 +2690,7 @@
 			<key>showNoValidation</key>
 			<dict>
 				<key>className</key>
-				<string>AFCAShowSubscriptionsIfRequiredAction</string>
+				<string>AFCShowSubscriptionsIfRequiredAction</string>
 				<key>parameters</key>
 				<dict>
 					<key>validateDefault</key>
