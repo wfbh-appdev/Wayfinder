@@ -8,13 +8,15 @@
 
 #import "SplashViewController.h"
 
+
 @interface SplashViewController ()
 
 @end
 
+
 @implementation SplashViewController
 
--(void)viewWillDisappear:(BOOL)animated
+- (void)viewWillDisappear:(BOOL)animated
 {
     [super viewWillDisappear:animated];
 }

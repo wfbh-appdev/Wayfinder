@@ -21,11 +21,11 @@
 @implementation AFCUIMaasVersionCellViewClassTableViewCell
 
 
+- (void)drawRect:(CGRect)rect
+{
+    NSString *versionString = @"-";
 
-- (void)drawRect:(CGRect)rect{
-    NSString *versionString=@"-";
-    
-    
+
     if ([super.textLabel.text isEqualToString:@"PwMapKit"])
         versionString = PWMapKit_VERSION;
     if ([super.textLabel.text isEqualToString:@"PwLocation"])
@@ -40,13 +40,12 @@
         versionString = PWADS_VERSION;
     if ([super.textLabel.text isEqualToString:@"PwCME"])
         versionString = MaaSCMS_VERSION;
-    if ([super.textLabel.text isEqualToString:@"PwLocationMarketing"]){
+    if ([super.textLabel.text isEqualToString:@"PwLocationMarketing"]) {
         versionString = [[[LPLocalpointService instance] getSDKVersion] getValue];
     }
 
-    
-    
-    UILabel *subLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 60, 40)];
+
+    UILabel *subLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 60, 40)];
     subLabel.textColor = [UIColor lightGrayColor];
     subLabel.font = super.textLabel.font;
     subLabel.textAlignment = NSTextAlignmentLeft;
@@ -55,17 +54,17 @@
     super.accessoryView = subLabel;
 }
 
-- (void)layoutSubviews{
-    
+- (void)layoutSubviews
+{
     //Code to draw different content goes here.
-    
 
-    
+
     [super layoutSubviews];
 }
 
 
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated
+{
     [super setSelected:selected animated:animated];
 
     // Configure the view for the selected state
