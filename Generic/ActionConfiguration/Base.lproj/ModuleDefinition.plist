@@ -13,51 +13,13 @@
 			<key>didBecomeActive</key>
 			<dict>
 				<key>className</key>
-				<string>AFCActionDivider</string>
+				<string>AFCForwardAction</string>
 				<key>parameters</key>
 				<dict>
-					<key>dividerActions</key>
-					<array>
-						<dict>
-							<key>className</key>
-							<string>AFCForwardAction</string>
-							<key>parameters</key>
-							<dict>
-								<key>forwardContentType</key>
-								<string>DynamicContent</string>
-								<key>forwardContentAction</key>
-								<string>verifyDatabases</string>
-							</dict>
-						</dict>
-					</array>
-				</dict>
-			</dict>
-			<key>finishStartup</key>
-			<dict>
-				<key>className</key>
-				<string>AFCActionDivider</string>
-				<key>ignoreParentParameters</key>
-				<true/>
-				<key>parameters</key>
-				<dict>
-					<key>dividerActions</key>
-					<array>
-						<dict>
-							<key>className</key>
-							<string>AFCSetupPushNotifications</string>
-							<key>queue</key>
-							<string>concurrent</string>
-						</dict>
-						<dict>
-							<key>className</key>
-							<string>AFCMSetLocationProviderAction</string>
-							<key>parameters</key>
-							<dict>
-								<key>contentId</key>
-								<string>PWSLLocationManager</string>
-							</dict>
-						</dict>
-					</array>
+					<key>forwardContentType</key>
+					<string>DynamicContent</string>
+					<key>forwardContentAction</key>
+					<string>verifyDatabases</string>
 				</dict>
 			</dict>
 			<key>didFinishLaunching</key>
@@ -81,29 +43,24 @@
 						</dict>
 						<dict>
 							<key>className</key>
-							<string>AFCLMNotifyApplicationStartedAction</string>
+							<string>AFCLMStartLMServiceAction</string>
 						</dict>
 						<dict>
 							<key>className</key>
-							<string>AFCLMStartLMServiceAction</string>
-							<key>dependencies</key>
-							<array>
-								<dict>
-									<key>className</key>
-									<string>AFCLMRegisterListenersAction</string>
-									<key>dependencies</key>
-									<array>
-										<dict>
-											<key>className</key>
-											<string>AFCLMInitializeLMRegistrationAction</string>
-										</dict>
-									</array>
-								</dict>
-								<dict>
-									<key>className</key>
-									<string>AFCApplicationShortcutsSetupAction</string>
-								</dict>
-							</array>
+							<string>AFCApplicationShortcutSetupAction</string>
+						</dict>
+						<dict>
+							<key>className</key>
+							<string>AFCSetupPushNotifications</string>
+						</dict>
+						<dict>
+							<key>className</key>
+							<string>AFCMSetLocationProviderAction</string>
+							<key>parameters</key>
+							<dict>
+								<key>contentId</key>
+								<string>PWSLLocationManager</string>
+							</dict>
 						</dict>
 					</array>
 				</dict>
@@ -688,54 +645,7 @@
 				<array>
 					<dict>
 						<key>className</key>
-						<string>AFCLoadCMEConsolidateData</string>
-						<key>queue</key>
-						<string>main</string>
-						<key>parameters</key>
-						<dict>
-							<key>appLevelVenuesKey</key>
-							<string>appLevelVenues</string>
-							<key>venueLevelVenuesKey</key>
-							<string>venueLevelVenues</string>
-							<key>campusesKey</key>
-							<string>campuses</string>
-							<key>buildingsKey</key>
-							<string>buildings</string>
-							<key>floorsKey</key>
-							<string>floors</string>
-							<key>beaconsKey</key>
-							<string>beacons</string>
-							<key>alertsKey</key>
-							<string>alerts</string>
-							<key>adsKey</key>
-							<string>advertisement</string>
-						</dict>
-						<key>dependencies</key>
-						<array>
-							<dict>
-								<key>className</key>
-								<string>AFCLoadCMEMyApp</string>
-								<key>parameters</key>
-								<dict>
-									<key>AppName</key>
-									<string>PhunGeneric_v4</string>
-								</dict>
-								<key>dependencies</key>
-								<array>
-									<dict>
-										<key>className</key>
-										<string>AFCLoadCMEStructures</string>
-										<key>queue</key>
-										<string>concurrent</string>
-										<key>parameters</key>
-										<dict>
-											<key>containerId</key>
-											<string>$appDefaults.solutions.appUUID</string>
-										</dict>
-									</dict>
-								</array>
-							</dict>
-						</array>
+						<string>AFCLoadCMEAction</string>
 					</dict>
 				</array>
 			</dict>
@@ -1327,22 +1237,6 @@
 								<key>forwardContentAction</key>
 								<string>load</string>
 							</dict>
-							<key>dependencies</key>
-							<array>
-								<dict>
-									<key>className</key>
-									<string>AFCForwardAction</string>
-									<key>ignoreParentParameters</key>
-									<true/>
-									<key>parameters</key>
-									<dict>
-										<key>forwardContentType</key>
-										<string>App</string>
-										<key>forwardContentAction</key>
-										<string>finishStartup</string>
-									</dict>
-								</dict>
-							</array>
 						</dict>
 					</array>
 				</dict>
@@ -1430,22 +1324,6 @@
 					<key>forwardContentAction</key>
 					<string>load</string>
 				</dict>
-				<key>dependencies</key>
-				<array>
-					<dict>
-						<key>className</key>
-						<string>AFCForwardAction</string>
-						<key>ignoreParentParameters</key>
-						<true/>
-						<key>parameters</key>
-						<dict>
-							<key>forwardContentType</key>
-							<string>App</string>
-							<key>forwardContentAction</key>
-							<string>finishStartup</string>
-						</dict>
-					</dict>
-				</array>
 			</dict>
 			<key>download</key>
 			<dict>
