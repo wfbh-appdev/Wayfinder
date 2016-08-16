@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AFCUIParkingButton</key>
+	<dict>
+		<key>alignment</key>
+		<string>center</string>
+		<key>color</key>
+		<string>#000000</string>
+		<key>fontSize</key>
+		<integer>15</integer>
+		<key>fontName</key>
+		<string>HelveticaNeue-Light</string>
+	</dict>
+	<key>AFCUIItemDetailTitleLabel</key>
+	<dict>
+		<key>fontSize</key>
+		<string>15</string>
+		<key>fontName</key>
+		<string>HelveticaNeue-Light</string>
+		<key>color</key>
+		<string>#ffffff</string>
+	</dict>
+	<key>AFCUIItemDetailItemTitle</key>
+	<dict>
+		<key>alignment</key>
+		<string>left</string>
+		<key>fontSize</key>
+		<string>22</string>
+		<key>fontName</key>
+		<string>HelveticaNeue-Thin</string>
+		<key>color </key>
+		<string>#000000</string>
+	</dict>
+	<key>AFCUIItemDetailItemSubtitle</key>
+	<dict>
+		<key>alignment</key>
+		<string>left</string>
+		<key>fontSize</key>
+		<string>12</string>
+		<key>fontName</key>
+		<string>HelveticaNeue-Light</string>
+		<key>color</key>
+		<string>#0080FF</string>
+	</dict>
+</dict>
+</plist>

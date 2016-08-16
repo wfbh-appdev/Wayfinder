@@ -115,55 +115,31 @@
 	</dict>
 	<key>gpsLocationButtonLabel</key>
 	<dict>
-		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
-		<key>fontSize</key>
-		<integer>15</integer>
+		<key>type</key>
+		<string>AFCUIParkingButton</string>
 		<key>text</key>
 		<string>#afcparkingviewcontroller.gpslocationbuttonlabel.text</string>
-		<key>color</key>
-		<string>#000000</string>
-		<key>alignment</key>
-		<string>center</string>
 	</dict>
 	<key>takePictureButtonLabel</key>
 	<dict>
-		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
-		<key>fontSize</key>
-		<integer>15</integer>
-		<key>alignment</key>
-		<string>center</string>
+		<key>type</key>
+		<string>AFCUIParkingButton</string>
 		<key>text</key>
 		<string>#afcparkingviewcontroller.takepicturebuttonlabel.text</string>
-		<key>color</key>
-		<string>#000000</string>
 	</dict>
 	<key>recordVoiceMemoButtonLabel</key>
 	<dict>
-		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
-		<key>fontSize</key>
-		<integer>15</integer>
+		<key>type</key>
+		<string>AFCUIParkingButton</string>
 		<key>text</key>
 		<string>#afcparkingviewcontroller.recordvoicememobuttonlabel.text</string>
-		<key>alignment</key>
-		<string>center</string>
-		<key>color</key>
-		<string>#000000</string>
 	</dict>
 	<key>writeNoteButtonLabel</key>
 	<dict>
-		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
-		<key>fontSize</key>
-		<integer>15</integer>
-		<key>color</key>
-		<string>#000000</string>
+		<key>type</key>
+		<string>AFCUIParkingButton</string>
 		<key>text</key>
 		<string>#afcparkingviewcontroller.writenotebuttonlabel.text</string>
-		<key>alignment</key>
-		<string>center</string>
 	</dict>
 	<key>locationSavedMessage</key>
 	<dict>
