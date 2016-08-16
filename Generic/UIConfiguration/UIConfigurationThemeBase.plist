@@ -11,7 +11,7 @@
 		<key>fontSize</key>
 		<integer>15</integer>
 		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
+		<string>$MainFontLight</string>
 	</dict>
 	<key>AFCUIItemDetailTitleLabel</key>
 	<dict>
@@ -43,6 +43,13 @@
 		<string>HelveticaNeue-Light</string>
 		<key>color</key>
 		<string>#0080FF</string>
+	</dict>
+	<key>AFCUIFontNames</key>
+	<dict>
+		<key>$MainFontLight</key>
+		<string>HelveticaNeue-Light</string>
+		<key>$MainFontThin</key>
+		<string>HelveticaNeue-Thin</string>
 	</dict>
 </dict>
 </plist>
