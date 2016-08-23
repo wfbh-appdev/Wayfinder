@@ -1976,6 +1976,8 @@
 					<string>AFCMMapPickerViewController</string>
 					<key>buildings</key>
 					<string>$action.auxID1</string>
+					<key>poiID</key>
+					<string>$action.auxID2</string>
 				</dict>
 			</dict>
 			<key>route</key>
