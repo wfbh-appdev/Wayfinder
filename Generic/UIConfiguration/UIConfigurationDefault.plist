@@ -9,18 +9,18 @@
 			<key>alignment</key>
 			<string>center</string>
 			<key>color</key>
-			<string>#000000</string>
+			<string>$MainWhiteColor</string>
 			<key>fontSize</key>
-			<integer>15</integer>
+			<string>$MainFontSize</string>
 			<key>fontName</key>
-			<string>$MainFontLight</string>
+			<string>$MainFontThin</string>
 		</dict>
 		<key>AFCUIItemDetailTitleLabel</key>
 		<dict>
 			<key>fontSize</key>
-			<string>15</string>
+			<string>$MainFontSize</string>
 			<key>fontName</key>
-			<string>HelveticaNeue-Light</string>
+			<string>$MainFont</string>
 			<key>color</key>
 			<string>#ffffff</string>
 		</dict>
@@ -29,30 +29,36 @@
 			<key>alignment</key>
 			<string>left</string>
 			<key>fontSize</key>
-			<string>22</string>
+			<string>$MainFontSize</string>
 			<key>fontName</key>
-			<string>HelveticaNeue-Thin</string>
+			<string>$MainFont</string>
 			<key>color </key>
-			<string>#000000</string>
+			<string>$MainWhiteColor</string>
 		</dict>
 		<key>AFCUIItemDetailItemSubtitle</key>
 		<dict>
 			<key>alignment</key>
 			<string>left</string>
 			<key>fontSize</key>
-			<string>12</string>
+			<string>$MainFontSize</string>
 			<key>fontName</key>
-			<string>HelveticaNeue-Light</string>
+			<string>$MainFontLight</string>
 			<key>color</key>
 			<string>#0080FF</string>
 		</dict>
 	</dict>
 	<key>Keys</key>
 	<dict>
+		<key>MainFontSize</key>
+		<integer>15</integer>
+		<key>MainFont</key>
+		<string>HelveticaNeue</string>
 		<key>MainFontLight</key>
 		<string>HelveticaNeue-Light</string>
 		<key>MainFontThin</key>
 		<string>HelveticaNeue-Thin</string>
+		<key>MainWhiteColor</key>
+		<string>#000000</string>
 	</dict>
 </dict>
 </plist>

@@ -76,7 +76,7 @@
 	<key>parkingChooseMethod</key>
 	<dict>
 		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
+		<string>$MainFont</string>
 		<key>fontSize</key>
 		<integer>15</integer>
 		<key>color</key>
