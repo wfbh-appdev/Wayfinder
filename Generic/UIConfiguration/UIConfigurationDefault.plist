@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Types</key>
+	<dict>
+		<key>AFCUIParkingButton</key>
+		<dict>
+			<key>alignment</key>
+			<string>center</string>
+			<key>color</key>
+			<string>$MainWhiteColor</string>
+			<key>fontSize</key>
+			<string>$MainFontSize</string>
+			<key>fontName</key>
+			<string>$MainFontThin</string>
+		</dict>
+		<key>AFCUIItemDetailTitleLabel</key>
+		<dict>
+			<key>fontSize</key>
+			<string>$MainFontSize</string>
+			<key>fontName</key>
+			<string>$MainFont</string>
+			<key>color</key>
+			<string>#ffffff</string>
+		</dict>
+		<key>AFCUIItemDetailItemTitle</key>
+		<dict>
+			<key>alignment</key>
+			<string>left</string>
+			<key>fontSize</key>
+			<string>$MainFontSize</string>
+			<key>fontName</key>
+			<string>$MainFont</string>
+			<key>color </key>
+			<string>$MainWhiteColor</string>
+		</dict>
+		<key>AFCUIItemDetailItemSubtitle</key>
+		<dict>
+			<key>alignment</key>
+			<string>left</string>
+			<key>fontSize</key>
+			<string>$MainFontSize</string>
+			<key>fontName</key>
+			<string>$MainFontLight</string>
+			<key>color</key>
+			<string>#0080FF</string>
+		</dict>
+	</dict>
+	<key>Keys</key>
+	<dict>
+		<key>MainFontSize</key>
+		<integer>15</integer>
+		<key>MainFont</key>
+		<string>HelveticaNeue</string>
+		<key>MainFontLight</key>
+		<string>HelveticaNeue-Light</string>
+		<key>MainFontThin</key>
+		<string>HelveticaNeue-Thin</string>
+		<key>MainWhiteColor</key>
+		<string>#000000</string>
+	</dict>
+</dict>
+</plist>
