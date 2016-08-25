@@ -100,46 +100,17 @@
 			<key>didReceiveRemoteNotificationBackground</key>
 			<dict>
 				<key>className</key>
-				<string>AFCNotificationShowAction</string>
-				<key>dependencies</key>
-				<array>
-					<dict>
-						<key>className</key>
-						<string>AFCProcessPushNotificationAction</string>
-					</dict>
-					<dict>
-						<key>className</key>
-						<string>AFCLMNotifyPushNotificationReceivedAction</string>
-					</dict>
-				</array>
+				<string>AFCProcessPushNotificationAction</string>
 			</dict>
 			<key>didReceiveRemoteNotification</key>
 			<dict>
 				<key>className</key>
-				<string>AFCNotificationShowAction</string>
-				<key>dependencies</key>
-				<array>
-					<dict>
-						<key>className</key>
-						<string>AFCProcessPushNotificationAction</string>
-					</dict>
-					<dict>
-						<key>className</key>
-						<string>AFCLMNotifyPushNotificationReceivedAction</string>
-					</dict>
-				</array>
+				<string>AFCProcessPushNotificationAction</string>
 			</dict>
 			<key>didReceiveLocalNotification</key>
 			<dict>
 				<key>className</key>
-				<string>AFCNotificationShowAction</string>
-				<key>dependencies</key>
-				<array>
-					<dict>
-						<key>className</key>
-						<string>AFCProcessPushNotificationAction</string>
-					</dict>
-				</array>
+				<string>AFCProcessPushNotificationAction</string>
 			</dict>
 		</dict>
 		<key>Button</key>
@@ -751,7 +722,7 @@
 						</dict>
 						<dict>
 							<key>className</key>
-							<string>AFCLocationMarketingRegisterDeepLinksAction</string>
+							<string>AFCLMRegisterDeepLinksAction</string>
 						</dict>
 						<dict>
 							<key>className</key>
@@ -2223,11 +2194,6 @@
 						<string>$action.body</string>
 					</dict>
 				</dict>
-			</dict>
-			<key>show</key>
-			<dict>
-				<key>className</key>
-				<string>AFCLMDeepLinkOfferWalletAction</string>
 			</dict>
 			<key>select</key>
 			<dict>
