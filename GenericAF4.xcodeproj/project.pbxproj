@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3C1DE4301C3F306B0074369D /* AFGoogleAnalyticsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1DE42F1C3F306B0074369D /* AFGoogleAnalyticsController.m */; };
-		551BF9251C1B51E9004D7ECD /* Pods-GenericAF4.adhoc.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 551BF9211C1B51E9004D7ECD /* Pods-GenericAF4.adhoc.xcconfig */; };
-		551BF9261C1B51E9004D7ECD /* Pods-GenericAF4.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 551BF9221C1B51E9004D7ECD /* Pods-GenericAF4.debug.xcconfig */; };
-		551BF9271C1B51E9004D7ECD /* Pods-GenericAF4.distribution.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 551BF9231C1B51E9004D7ECD /* Pods-GenericAF4.distribution.xcconfig */; };
-		551BF9281C1B51E9004D7ECD /* Pods-GenericAF4.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 551BF9241C1B51E9004D7ECD /* Pods-GenericAF4.release.xcconfig */; };
+		551BF9251C1B51E9004D7ECD /* (null) in Resources */ = {isa = PBXBuildFile; };
+		551BF9261C1B51E9004D7ECD /* (null) in Resources */ = {isa = PBXBuildFile; };
+		551BF9271C1B51E9004D7ECD /* (null) in Resources */ = {isa = PBXBuildFile; };
+		551BF9281C1B51E9004D7ECD /* (null) in Resources */ = {isa = PBXBuildFile; };
 		5520ABC51C19E3A000757715 /* Splash-568h@2x.mov in Resources */ = {isa = PBXBuildFile; fileRef = 5520ABC21C19E3A000757715 /* Splash-568h@2x.mov */; };
 		5520ABC61C19E3A000757715 /* Splash.mov in Resources */ = {isa = PBXBuildFile; fileRef = 5520ABC31C19E3A000757715 /* Splash.mov */; };
 		5520ABC71C19E3A000757715 /* Splash@2x.mov in Resources */ = {isa = PBXBuildFile; fileRef = 5520ABC41C19E3A000757715 /* Splash@2x.mov */; };
@@ -73,17 +73,15 @@
 		8FDD0F4D1BD1CC5000A0C512 /* Proxima Nova Sbold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8FDD0F4A1BD1CC5000A0C512 /* Proxima Nova Sbold.otf */; };
 		8FDD0F4E1BD1CC5000A0C512 /* ProximaNova-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8FDD0F4B1BD1CC5000A0C512 /* ProximaNova-Light.otf */; };
 		8FDD0F4F1BD1CC5000A0C512 /* ProximaNova-Reg.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8FDD0F4C1BD1CC5000A0C512 /* ProximaNova-Reg.otf */; };
-		FD6085DFE751F247A831A1C4 /* libPods-GenericAF4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E5B123ED1B492C74F121FB6 /* libPods-GenericAF4.a */; };
+		A0635984A5FB24C2723C0843 /* libPods-GenericAF4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBCEF16D6522FDE51CFD094 /* libPods-GenericAF4.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0E5B123ED1B492C74F121FB6 /* libPods-GenericAF4.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GenericAF4.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EF4E56AF445BB70AA4842D9 /* Pods-GenericAF4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericAF4.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4.debug.xcconfig"; sourceTree = "<group>"; };
 		3C1DE42E1C3F306B0074369D /* AFGoogleAnalyticsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFGoogleAnalyticsController.h; sourceTree = "<group>"; };
 		3C1DE42F1C3F306B0074369D /* AFGoogleAnalyticsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFGoogleAnalyticsController.m; sourceTree = "<group>"; };
-		551BF9211C1B51E9004D7ECD /* Pods-GenericAF4.adhoc.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-GenericAF4.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4.adhoc.xcconfig"; sourceTree = "<group>"; };
-		551BF9221C1B51E9004D7ECD /* Pods-GenericAF4.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-GenericAF4.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4.debug.xcconfig"; sourceTree = "<group>"; };
-		551BF9231C1B51E9004D7ECD /* Pods-GenericAF4.distribution.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-GenericAF4.distribution.xcconfig"; path = "Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4.distribution.xcconfig"; sourceTree = "<group>"; };
-		551BF9241C1B51E9004D7ECD /* Pods-GenericAF4.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-GenericAF4.release.xcconfig"; path = "Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4.release.xcconfig"; sourceTree = "<group>"; };
+		41FD609847E4CF544D69A4A7 /* Pods-GenericAF4.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericAF4.distribution.xcconfig"; path = "Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4.distribution.xcconfig"; sourceTree = "<group>"; };
+		4DBCEF16D6522FDE51CFD094 /* libPods-GenericAF4.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GenericAF4.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5520ABC21C19E3A000757715 /* Splash-568h@2x.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Splash-568h@2x.mov"; sourceTree = "<group>"; };
 		5520ABC31C19E3A000757715 /* Splash.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Splash.mov; sourceTree = "<group>"; };
 		5520ABC41C19E3A000757715 /* Splash@2x.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Splash@2x.mov"; sourceTree = "<group>"; };
@@ -108,7 +106,7 @@
 		7E1303391CDA453100AF350E /* AFCMMapPickerTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCMMapPickerTableViewCell.plist; sourceTree = "<group>"; };
 		7E699E731C973AE500000BA9 /* AFCLayerPickerViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCLayerPickerViewController.plist; sourceTree = "<group>"; };
 		7E699E751C97708B00000BA9 /* AFCLayerPickerTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCLayerPickerTableViewCell.plist; sourceTree = "<group>"; };
-		886B07E6664FE0E20EF5859F /* libPods-MallApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MallApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F01059C6453DA90787B3CEC /* Pods-GenericAF4.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericAF4.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4.adhoc.xcconfig"; sourceTree = "<group>"; };
 		8C10FC361C49CD5A000A7913 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		8C64BA141D02143100AB0FDD /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		8C8951D41CD3C832005CBC96 /* Austin.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Austin.gpx; path = Generic/Austin.gpx; sourceTree = "<group>"; };
@@ -161,6 +159,7 @@
 		8FDD0F4A1BD1CC5000A0C512 /* Proxima Nova Sbold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Sbold.otf"; sourceTree = "<group>"; };
 		8FDD0F4B1BD1CC5000A0C512 /* ProximaNova-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Light.otf"; sourceTree = "<group>"; };
 		8FDD0F4C1BD1CC5000A0C512 /* ProximaNova-Reg.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Reg.otf"; sourceTree = "<group>"; };
+		B32DE114CFB8540CF2480316 /* Pods-GenericAF4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericAF4.release.xcconfig"; path = "Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,22 +169,32 @@
 			files = (
 				8C64BA151D02143100AB0FDD /* CoreBluetooth.framework in Frameworks */,
 				8CB729D21C20A30D00F016B7 /* Crashlytics.framework in Frameworks */,
-				FD6085DFE751F247A831A1C4 /* libPods-GenericAF4.a in Frameworks */,
 				8C10FC371C49CD5A000A7913 /* Fabric.framework in Frameworks */,
+				A0635984A5FB24C2723C0843 /* libPods-GenericAF4.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00D9A97AB76425B0ECE03494 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EF4E56AF445BB70AA4842D9 /* Pods-GenericAF4.debug.xcconfig */,
+				B32DE114CFB8540CF2480316 /* Pods-GenericAF4.release.xcconfig */,
+				41FD609847E4CF544D69A4A7 /* Pods-GenericAF4.distribution.xcconfig */,
+				7F01059C6453DA90787B3CEC /* Pods-GenericAF4.adhoc.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		107C6A95EB070C251FE734E3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				8C64BA141D02143100AB0FDD /* CoreBluetooth.framework */,
 				8C10FC361C49CD5A000A7913 /* Fabric.framework */,
 				8CB729D11C20A30D00F016B7 /* Crashlytics.framework */,
-				886B07E6664FE0E20EF5859F /* libPods-MallApp.a */,
-				0E5B123ED1B492C74F121FB6 /* libPods-GenericAF4.a */,
+				4DBCEF16D6522FDE51CFD094 /* libPods-GenericAF4.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -203,8 +212,8 @@
 				8C8951D41CD3C832005CBC96 /* Austin.gpx */,
 				8F06130C1BC8569800A55F16 /* Generic */,
 				8F06130B1BC8569800A55F16 /* Products */,
-				F101D8964FBE1CE76A3D842C /* Pods */,
 				107C6A95EB070C251FE734E3 /* Frameworks */,
+				00D9A97AB76425B0ECE03494 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -331,17 +340,6 @@
 			path = ActionConfiguration;
 			sourceTree = "<group>";
 		};
-		F101D8964FBE1CE76A3D842C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				551BF9211C1B51E9004D7ECD /* Pods-GenericAF4.adhoc.xcconfig */,
-				551BF9221C1B51E9004D7ECD /* Pods-GenericAF4.debug.xcconfig */,
-				551BF9231C1B51E9004D7ECD /* Pods-GenericAF4.distribution.xcconfig */,
-				551BF9241C1B51E9004D7ECD /* Pods-GenericAF4.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -349,13 +347,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F0613211BC8569800A55F16 /* Build configuration list for PBXNativeTarget "GenericAF4" */;
 			buildPhases = (
-				2051D254D1C5135ECA9B96C4 /* Check Pods Manifest.lock */,
+				6F9BF0CADE702297AED33BDE /* [CP] Check Pods Manifest.lock */,
 				8F0613061BC8569800A55F16 /* Sources */,
 				8F0613071BC8569800A55F16 /* Frameworks */,
 				8F0613081BC8569800A55F16 /* Resources */,
-				2D19F38CAB4E152C95281C55 /* Embed Pods Frameworks */,
-				825DEFF4F16C86409EB4A44F /* Copy Pods Resources */,
 				8CB729D01C20A1D000F016B7 /* ShellScript */,
+				5EA9E6FBF147CE52B3D4E971 /* [CP] Embed Pods Frameworks */,
+				2357685547D3669ECBE7C00E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -419,15 +417,15 @@
 				55BAB7CB1C3EB98600799988 /* PhunwareIntegration.plist in Resources */,
 				7E699E741C973AE500000BA9 /* AFCLayerPickerViewController.plist in Resources */,
 				8F43559D1BC85B8F00FFD46C /* EventTableViewCell.plist in Resources */,
-				551BF9281C1B51E9004D7ECD /* Pods-GenericAF4.release.xcconfig in Resources */,
+				551BF9281C1B51E9004D7ECD /* (null) in Resources */,
 				5555DB071C44646800E37207 /* AFCDirectoryViewController.plist in Resources */,
 				8F885A611BCC2352004E2474 /* AFCParkingViewController.plist in Resources */,
 				8CFB59F01CCFECB300ADACEE /* AFCUIMMapViewController.plist in Resources */,
 				8F8C542F1BD8191F0018A2ED /* AFCUIMallDetailViewController.plist in Resources */,
 				8F43558B1BC858B700FFD46C /* AFCUIItemDetailViewController.plist in Resources */,
 				8F43558C1BC858B700FFD46C /* AFCUIModalWebBrowser.plist in Resources */,
-				551BF9251C1B51E9004D7ECD /* Pods-GenericAF4.adhoc.xcconfig in Resources */,
-				551BF9271C1B51E9004D7ECD /* Pods-GenericAF4.distribution.xcconfig in Resources */,
+				551BF9251C1B51E9004D7ECD /* (null) in Resources */,
+				551BF9271C1B51E9004D7ECD /* (null) in Resources */,
 				7E1303381CDA451300AF350E /* AFCMMapPickerViewController.plist in Resources */,
 				8F4355941BC858B700FFD46C /* StandardIcons.xcassets in Resources */,
 				5520ABC71C19E3A000757715 /* Splash@2x.mov in Resources */,
@@ -449,7 +447,7 @@
 				5555DB0F1C448FDB00E37207 /* ModuleDefinition.plist in Resources */,
 				8F4355881BC858B700FFD46C /* AFCParkingPhotoViewController.plist in Resources */,
 				8F8C54221BD798060018A2ED /* AFCUIHoneyBadgerTableViewCell.plist in Resources */,
-				551BF9261C1B51E9004D7ECD /* Pods-GenericAF4.debug.xcconfig in Resources */,
+				551BF9261C1B51E9004D7ECD /* (null) in Resources */,
 				8FDD0F3B1BD1775500A0C512 /* GenericAppNavigationController.xib in Resources */,
 				8F4355861BC858B700FFD46C /* AFCParkingMapViewController.plist in Resources */,
 				8F5FFFBE1BCC2F58000B027C /* AFCUIMLocationCell.plist in Resources */,
@@ -474,29 +472,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2051D254D1C5135ECA9B96C4 /* Check Pods Manifest.lock */ = {
+		2357685547D3669ECBE7C00E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2D19F38CAB4E152C95281C55 /* Embed Pods Frameworks */ = {
+		5EA9E6FBF147CE52B3D4E971 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -504,19 +502,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		825DEFF4F16C86409EB4A44F /* Copy Pods Resources */ = {
+		6F9BF0CADE702297AED33BDE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4-resources.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		8CB729D01C20A1D000F016B7 /* ShellScript */ = {
@@ -710,7 +708,7 @@
 		};
 		8F0613221BC8569800A55F16 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 551BF9221C1B51E9004D7ECD /* Pods-GenericAF4.debug.xcconfig */;
+			baseConfigurationReference = 2EF4E56AF445BB70AA4842D9 /* Pods-GenericAF4.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -734,7 +732,7 @@
 		};
 		8F0613231BC8569800A55F16 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 551BF9241C1B51E9004D7ECD /* Pods-GenericAF4.release.xcconfig */;
+			baseConfigurationReference = B32DE114CFB8540CF2480316 /* Pods-GenericAF4.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -795,7 +793,7 @@
 		};
 		8F5FFFD31BCD6F62000B027C /* Distribution */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 551BF9231C1B51E9004D7ECD /* Pods-GenericAF4.distribution.xcconfig */;
+			baseConfigurationReference = 41FD609847E4CF544D69A4A7 /* Pods-GenericAF4.distribution.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -856,7 +854,7 @@
 		};
 		8F5FFFD51BCD6F6B000B027C /* AdHoc */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 551BF9211C1B51E9004D7ECD /* Pods-GenericAF4.adhoc.xcconfig */;
+			baseConfigurationReference = 7F01059C6453DA90787B3CEC /* Pods-GenericAF4.adhoc.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
