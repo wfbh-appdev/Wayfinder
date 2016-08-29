@@ -10,37 +10,9 @@
 		<array>
 			<string>V:|-0-[webView]|</string>
 			<string>H:|[webView]|</string>
-			<string>V:|-&gt;=1-[alertBackground(171)]-&gt;=1-|</string>
-			<string>H:|-&gt;=1-[alertBackground(229)]-&gt;=1-|</string>
-			<string>#alertBackground.centery=self.centery,1,0</string>
-			<string>#alertBackground.centerx=self.centerx,1,0</string>
-			<string>H:|-&gt;=1-[message(190)]-&gt;=1-|</string>
-			<string>V:|-&gt;=1-[message(55)]-&gt;=1-|</string>
-			<string>#message.centerx=self.centerx,1,0</string>
-			<string>#message.centery=self.centery,1,0</string>
 		</array>
 	</dict>
 	<key>webView</key>
 	<dict/>
-	<key>alertBackground</key>
-	<dict>
-		<key>image</key>
-		<string>Default.AlertBackground.png</string>
-	</dict>
-	<key>message</key>
-	<dict>
-		<key>color</key>
-		<string>#000000</string>
-		<key>text</key>
-		<string>#afcuiwebviewcontroller.message.text</string>
-		<key>fontName</key>
-		<string>Thonburi</string>
-		<key>fontSize</key>
-		<integer>19</integer>
-		<key>alignment</key>
-		<string>center</string>
-		<key>lines</key>
-		<string>0</string>
-	</dict>
 </dict>
 </plist>
