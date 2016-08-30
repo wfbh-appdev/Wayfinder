@@ -39,9 +39,12 @@
 		<key>buttonTitle</key>
 		<string>Cancelar</string>
 		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
+		<string>$MainFontLight</string>
 	</dict>
 	<key>titleLabel</key>
-	<dict/>
+	<dict>
+		<key>type</key>
+		<string>DefaultTitleLabel</string>
+	</dict>
 </dict>
 </plist>

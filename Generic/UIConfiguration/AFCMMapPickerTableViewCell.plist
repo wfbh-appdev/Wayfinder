@@ -7,7 +7,7 @@
 		<key>fontSize</key>
 		<string>17</string>
 		<key>fontName</key>
-		<string>HelveticaNeue</string>
+		<string>$MainFont</string>
 	</dict>
 </dict>
 </plist>

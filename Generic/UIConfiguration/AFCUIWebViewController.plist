@@ -34,7 +34,7 @@
 		<key>text</key>
 		<string>#afcuiwebviewcontroller.message.text</string>
 		<key>fontName</key>
-		<string>Thonburi</string>
+		<string>$MainFont</string>
 		<key>fontSize</key>
 		<integer>19</integer>
 		<key>alignment</key>

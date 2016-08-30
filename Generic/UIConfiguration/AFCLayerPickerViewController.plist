@@ -15,6 +15,8 @@
 	<dict/>
 	<key>titleLabel</key>
 	<dict>
+		<key>type</key>
+		<string>DefaultTitleLabel</string>
 		<key>text</key>
 		<string>#afclayerpickerviewcontroller.navbar.title</string>
 	</dict>
@@ -23,7 +25,7 @@
 		<key>text</key>
 		<string>#afcdirectoryviewcontroller.noresultsfound.title</string>
 		<key>fontName</key>
-		<string>HelveticaNeue</string>
+		<string>$MainFont</string>
 		<key>fontSize</key>
 		<integer>18</integer>
 		<key>color</key>

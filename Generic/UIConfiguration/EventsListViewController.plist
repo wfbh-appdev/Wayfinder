@@ -34,12 +34,10 @@
 	</dict>
 	<key>titleLabel</key>
 	<dict>
-		<key>color</key>
-		<string>#ffffff</string>
+		<key>type</key>
+		<string>DefaultTitleLabel</string>
 		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
-		<key>fontSize</key>
-		<integer>16</integer>
+		<string>$MainFontLight</string>
 	</dict>
 </dict>
 </plist>

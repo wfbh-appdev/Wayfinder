@@ -35,7 +35,7 @@ interests?</string>
 		<key>lines</key>
 		<integer>0</integer>
 		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
+		<string>$MainFontLight</string>
 		<key>fontSize</key>
 		<integer>42</integer>
 		<key>alignment</key>
@@ -55,7 +55,7 @@ interests?</string>
 		<key>buttonTitle</key>
 		<string>SUBSCRIBE</string>
 		<key>fontName</key>
-		<string>HelveticaNeue-Thin</string>
+		<string>$MainFontThin</string>
 		<key>fontSize</key>
 		<integer>22</integer>
 		<key>alignment</key>
@@ -74,7 +74,7 @@ interests?</string>
 		<key>color</key>
 		<string>#7fffffff</string>
 		<key>fontName</key>
-		<string>HelveticaNeue-Medium</string>
+		<string>$MainFontMedium</string>
 		<key>fontSize</key>
 		<integer>14</integer>
 	</dict>

@@ -19,7 +19,7 @@
 		<key>color</key>
 		<string>#686868</string>
 		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
+		<string>$MainFontLight</string>
 		<key>fontSize</key>
 		<integer>14</integer>
 		<key>alignment</key>
@@ -30,7 +30,7 @@
 		<key>color</key>
 		<string>#686868</string>
 		<key>fontName</key>
-		<string>HelveticaNeue-LightItalic</string>
+		<string>$MainFontLightItalic</string>
 		<key>fontSize</key>
 		<integer>14</integer>
 		<key>text</key>
@@ -42,12 +42,12 @@
 	</dict>
 	<key>titleLabel</key>
 	<dict>
+		<key>type</key>
+		<string>DefaultTitleLabel</string>
 		<key>text</key>
 		<string>#afcparkingnoteviewcontroller.titlelabel.text</string>
-		<key>color</key>
-		<string>#ffffff</string>
 		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
+		<string>$MainFontLight</string>
 		<key>fontSize</key>
 		<integer>16</integer>
 	</dict>

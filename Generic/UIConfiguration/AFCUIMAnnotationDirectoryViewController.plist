@@ -4,6 +4,8 @@
 <dict>
 	<key>titleLabel</key>
 	<dict>
+		<key>type</key>
+		<string>DefaultTitleLabel</string>
 		<key>text</key>
 		<string>#afcuimannotationdirectoryviewcontroller.titlelabel.text</string>
 	</dict>
@@ -24,7 +26,7 @@
 	<key>noResultsFound</key>
 	<dict>
 		<key>fontName</key>
-		<string>HelveticaNeue</string>
+		<string>$MainFont</string>
 		<key>fontSize</key>
 		<integer>21</integer>
 		<key>text</key>
