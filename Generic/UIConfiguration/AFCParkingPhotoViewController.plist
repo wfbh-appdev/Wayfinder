@@ -22,7 +22,7 @@
 		<key>text</key>
 		<string>#afcparkingphotoviewcontroller.message.text</string>
 		<key>fontName</key>
-		<string>HelveticaNeue</string>
+		<string>$MainFont</string>
 		<key>fontSize</key>
 		<integer>17</integer>
 		<key>lines</key>
@@ -38,12 +38,12 @@
 	<dict/>
 	<key>titleLabel</key>
 	<dict>
+		<key>type</key>
+		<string>DefaultTitleLabel</string>
 		<key>text</key>
 		<string></string>
 		<key>color</key>
 		<string>#ffffff</string>
-		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
 		<key>fontSize</key>
 		<integer>16</integer>
 	</dict>

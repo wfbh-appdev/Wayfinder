@@ -53,7 +53,7 @@
 	<key>titleLabel</key>
 	<dict>
 		<key>type</key>
-		<string>AFCUIItemDetailTitleLabel</string>
+		<string>DefaultTitleLabel</string>
 	</dict>
 	<key>tableView</key>
 	<dict/>

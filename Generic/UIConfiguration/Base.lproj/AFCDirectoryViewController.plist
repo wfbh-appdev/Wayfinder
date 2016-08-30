@@ -23,7 +23,7 @@
 		<key>text</key>
 		<string>#afcdirectoryviewcontroller.noresultsfound.title</string>
 		<key>fontName</key>
-		<string>HelveticaNeue</string>
+		<string>$MainFont</string>
 		<key>fontSize</key>
 		<integer>18</integer>
 		<key>color</key>
@@ -51,7 +51,7 @@
 	<key>filterNotice</key>
 	<dict>
 		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
+		<string>$MainFontLight</string>
 		<key>fontSize</key>
 		<string>12</string>
 		<key>color</key>
@@ -64,7 +64,7 @@
 	<key>filterCategory</key>
 	<dict>
 		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
+		<string>$MainFontLight</string>
 		<key>fontSize</key>
 		<integer>12</integer>
 		<key>alignment</key>

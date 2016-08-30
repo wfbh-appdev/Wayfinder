@@ -44,7 +44,7 @@
 		<key>text</key>
 		<string>#afcuimodalwebbrowser.status.text</string>
 		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
+		<string>$MainFontLight</string>
 		<key>fontSize</key>
 		<integer>15</integer>
 		<key>alignment</key>
@@ -61,7 +61,7 @@
 		<key>buttonTitle</key>
 		<string>#afcuimodalwebbrowser.closeButton.buttontitle</string>
 		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
+		<string>$MainFontLight</string>
 		<key>fontSize</key>
 		<integer>15</integer>
 		<key>alignment</key>

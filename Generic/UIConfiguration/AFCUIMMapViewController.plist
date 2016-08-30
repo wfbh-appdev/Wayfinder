@@ -14,7 +14,7 @@
 		<key>backgroundColor</key>
 		<string>#333333</string>
 		<key>fontName</key>
-		<string>HelveticaNeue-Medium</string>
+		<string>$MainFontMedium</string>
 		<key>fontSize</key>
 		<string>16</string>
 		<key>color</key>
@@ -29,7 +29,7 @@
 		<key>lines</key>
 		<string>2</string>
 		<key>fontName</key>
-		<string>HelveticaNeue</string>
+		<string>$MainFont</string>
 		<key>fontSize</key>
 		<string>13</string>
 		<key>alignment</key>
@@ -42,7 +42,7 @@
 		<key>buttonTitle</key>
 		<string>#afcuimmapviewcontroller.promptlocationalert.takemetherebutton</string>
 		<key>fontName</key>
-		<string>HelveticaNeue</string>
+		<string>$MainFont</string>
 		<key>fontSize</key>
 		<string>14</string>
 		<key>alignment</key>
@@ -61,7 +61,7 @@
 		<key>buttonTitle</key>
 		<string>#afcuimmapviewcontroller.promptlocationalert.cancelbutton</string>
 		<key>fontName</key>
-		<string>HelveticaNeue</string>
+		<string>$MainFont</string>
 		<key>fontSize</key>
 		<string>14</string>
 		<key>alignment</key>

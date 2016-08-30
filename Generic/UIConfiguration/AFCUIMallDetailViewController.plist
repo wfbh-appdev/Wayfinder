@@ -17,7 +17,7 @@
 	<key>itemSubtitle</key>
 	<dict>
 		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
+		<string>$MainFontLight</string>
 		<key>fontSize</key>
 		<integer>12</integer>
 		<key>color</key>
@@ -30,7 +30,7 @@
 	<key>itemTitle</key>
 	<dict>
 		<key>fontName</key>
-		<string>HelveticaNeue-Thin</string>
+		<string>$MainFontThin</string>
 		<key>fontSize</key>
 		<integer>22</integer>
 		<key>alignment</key>
@@ -61,10 +61,10 @@
 	</dict>
 	<key>titleLabel</key>
 	<dict>
-		<key>color</key>
-		<string>#ffffff</string>
+		<key>type</key>
+		<string>DefaultTitleLabel</string>
 		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
+		<string>$MainFontLight</string>
 		<key>fontSize</key>
 		<string>17</string>
 	</dict>
