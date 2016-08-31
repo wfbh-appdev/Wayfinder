@@ -40,6 +40,13 @@
 		<key>lines</key>
 		<integer>1</integer>
 	</dict>
+	<key>descriptionLabel</key>
+	<dict>
+		<key>fontName</key>
+		<string>$MainFont</string>
+		<key>fontSize</key>
+		<string>$MainFontSize</string>
+	</dict>
 	<key>storeFrontImage</key>
 	<dict/>
 	<key>routeButton</key>
