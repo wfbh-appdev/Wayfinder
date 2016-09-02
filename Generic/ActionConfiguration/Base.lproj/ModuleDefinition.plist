@@ -2470,8 +2470,6 @@
 					<string>modal</string>
 					<key>shouldAnimate</key>
 					<true/>
-					<key>homeToVenueEnabled</key>
-					<true/>
 					<key>properties</key>
 					<dict>
 						<key>userLocation</key>
@@ -2484,6 +2482,8 @@
 						<string>$action.floors</string>
 						<key>showOutdoorToIndoorStart</key>
 						<string>$action.outdoor2Indoor</string>
+						<key>homeToVenueEnabled</key>
+						<true/>
 					</dict>
 				</dict>
 			</dict>
