@@ -2482,6 +2482,8 @@
 						<string>$action.floors</string>
 						<key>showOutdoorToIndoorStart</key>
 						<string>$action.outdoor2Indoor</string>
+						<key>homeToVenueEnabled</key>
+						<true/>
 					</dict>
 				</dict>
 			</dict>
