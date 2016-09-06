@@ -2095,6 +2095,8 @@
 						<string>$module.mapFavoritesContext</string>
 						<key>annotations</key>
 						<string>$module.pois</string>
+						<key>floors</key>
+						<string>$action.floors</string>
 						<key>focusSearchBarOnDidAppear</key>
 						<string>$action.focusSearchBarOnDidAppear</string>
 						<key>alphaSorted</key>
@@ -2120,6 +2122,8 @@
 						<string>$module.mapFavoritesContext</string>
 						<key>annotations</key>
 						<string>$module.pois</string>
+						<key>floors</key>
+						<string>$action.floors</string>
 						<key>focusSearchBarOnDidAppear</key>
 						<true/>
 						<key>alphaSorted</key>
