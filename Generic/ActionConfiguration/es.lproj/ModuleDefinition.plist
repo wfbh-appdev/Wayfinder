@@ -2091,6 +2091,8 @@
 					<true/>
 					<key>properties</key>
 					<dict>
+						<key>floors</key>
+						<string>$action.floors</string>
 						<key>favoritesContext</key>
 						<string>$module.mapFavoritesContext</string>
 						<key>annotations</key>
@@ -2116,6 +2118,8 @@
 					<false/>
 					<key>properties</key>
 					<dict>
+						<key>floors</key>
+						<string>$action.floors</string>
 						<key>favoritesContext</key>
 						<string>$module.mapFavoritesContext</string>
 						<key>annotations</key>
