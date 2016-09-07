@@ -85,7 +85,12 @@
 		</array>
 	</dict>
 	<key>phoneButton</key>
-	<dict/>
+	<dict>
+		<key>tintColor</key>
+		<string>#0080ff</string>
+		<key>image</key>
+		<string>icon_pw_call</string>
+	</dict>
 	<key>websiteButton</key>
 	<dict/>
 </dict>
