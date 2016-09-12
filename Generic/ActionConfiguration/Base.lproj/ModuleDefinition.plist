@@ -10,18 +10,6 @@
 	<dict>
 		<key>App</key>
 		<dict>
-			<key>didBecomeActive</key>
-			<dict>
-				<key>className</key>
-				<string>AFCForwardAction</string>
-				<key>parameters</key>
-				<dict>
-					<key>forwardContentType</key>
-					<string>DynamicContent</string>
-					<key>forwardContentAction</key>
-					<string>verifyDatabases</string>
-				</dict>
-			</dict>
 			<key>didFinishLaunching</key>
 			<dict>
 				<key>className</key>
@@ -226,137 +214,6 @@
 					<string>main</string>
 				</dict>
 			</dict>
-			<key>35</key>
-			<dict>
-				<key>className</key>
-				<string>AFCLoadViewControllerAction</string>
-				<key>parameters</key>
-				<dict>
-					<key>properties</key>
-					<dict>
-						<key>titleKey</key>
-						<string>Name</string>
-						<key>subtitleKey</key>
-						<string></string>
-						<key>iconKey</key>
-						<string>LogoName</string>
-						<key>bannerKey</key>
-						<string></string>
-						<key>identifierKey</key>
-						<string>Id</string>
-						<key>databaseMovieItems</key>
-						<string>$module.databaseMovieItems</string>
-						<key>databaseShowTimes</key>
-						<string>$module.databaseShowTimes</string>
-						<key>databaseTheater</key>
-						<string>$module.databaseTheater</string>
-						<key>favoritesContext</key>
-						<string></string>
-						<key>categoryNameKey</key>
-						<string>Name</string>
-						<key>categoryDirectoryItemIDsKey</key>
-						<string>DirectoryItemIDs</string>
-						<key>directoryItemIdKey</key>
-						<string>DirectoryItemID</string>
-						<key>descriptionKey</key>
-						<string>Description</string>
-						<key>itemDetailContext</key>
-						<string>Directory Detail</string>
-						<key>category</key>
-						<string>$action.auxID1</string>
-						<key>viewTitle</key>
-						<string>$action.buttonTitle</string>
-					</dict>
-					<key>viewController</key>
-					<string>MoviesListViewController</string>
-					<key>presentationMode</key>
-					<string>replaceTop</string>
-					<key>shouldAnimate</key>
-					<true/>
-				</dict>
-				<key>dependencies</key>
-				<array>
-					<dict>
-						<key>className</key>
-						<string>AFCSQLiteDatabaseClose</string>
-						<key>dependencies</key>
-						<array>
-							<dict>
-								<key>className</key>
-								<string>AFCActionDivider</string>
-								<key>parameters</key>
-								<dict>
-									<key>dividerActions</key>
-									<array>
-										<dict>
-											<key>className</key>
-											<string>AFCSQLiteQuery</string>
-											<key>parameters</key>
-											<dict>
-												<key>query</key>
-												<string>select * from Movies</string>
-												<key>resultsKey</key>
-												<string>databaseMovieItems</string>
-												<key>queryParameters</key>
-												<dict>
-													<key>$minimum</key>
-													<integer>5</integer>
-												</dict>
-											</dict>
-										</dict>
-										<dict>
-											<key>className</key>
-											<string>AFCSQLiteQuery</string>
-											<key>parameters</key>
-											<dict>
-												<key>query</key>
-												<string>select * from ShowTimes</string>
-												<key>resultsKey</key>
-												<string>databaseShowTimes</string>
-												<key>queryParameters</key>
-												<dict>
-													<key>$minimum</key>
-													<integer>5</integer>
-												</dict>
-											</dict>
-										</dict>
-										<dict>
-											<key>className</key>
-											<string>AFCSQLiteQuery</string>
-											<key>parameters</key>
-											<dict>
-												<key>query</key>
-												<string>select * from Theater</string>
-												<key>resultsKey</key>
-												<string>databaseTheater</string>
-												<key>queryParameters</key>
-												<dict>
-													<key>$minimum</key>
-													<integer>1</integer>
-												</dict>
-											</dict>
-										</dict>
-									</array>
-								</dict>
-								<key>dependencies</key>
-								<array>
-									<dict>
-										<key>className</key>
-										<string>AFCSQLiteDatabaseOpen</string>
-										<key>parameters</key>
-										<dict>
-											<key>databaseName</key>
-											<string>movies.s3db</string>
-											<key>path</key>
-											<string>$CACHES</string>
-										</dict>
-									</dict>
-								</array>
-							</dict>
-						</array>
-					</dict>
-				</array>
-			</dict>
 			<key>36</key>
 			<dict>
 				<key>className</key>
@@ -392,144 +249,6 @@
 					<key>phoneNumber</key>
 					<string>$action.auxID1</string>
 				</dict>
-			</dict>
-			<key>57</key>
-			<dict>
-				<key>className</key>
-				<string>AFCLoadViewControllerAction</string>
-				<key>parameters</key>
-				<dict>
-					<key>presentationMode</key>
-					<string>replaceTop</string>
-					<key>shouldAnimate</key>
-					<true/>
-					<key>viewController</key>
-					<string>SalesListViewController</string>
-					<key>properties</key>
-					<dict>
-						<key>databaseSales</key>
-						<string>$module.databaseSales</string>
-						<key>databaseCategories</key>
-						<string>$module.databaseCategories</string>
-						<key>databaseDirectoryItems</key>
-						<string>$module.databaseDirectoryItems</string>
-						<key>title</key>
-						<string>$action.buttonTitle</string>
-					</dict>
-				</dict>
-				<key>dependencies</key>
-				<array>
-					<dict>
-						<key>className</key>
-						<string>AFCSQLiteDatabaseClose</string>
-						<key>dependencies</key>
-						<array>
-							<dict>
-								<key>className</key>
-								<string>AFCActionDivider</string>
-								<key>parameters</key>
-								<dict>
-									<key>dividerActions</key>
-									<array>
-										<dict>
-											<key>className</key>
-											<string>AFCSQLiteQuery</string>
-											<key>parameters</key>
-											<dict>
-												<key>query</key>
-												<string>select * from Sales</string>
-												<key>resultsKey</key>
-												<string>databaseSales</string>
-												<key>queryParameters</key>
-												<dict>
-													<key>$minimum</key>
-													<integer>1</integer>
-												</dict>
-											</dict>
-										</dict>
-									</array>
-								</dict>
-								<key>dependencies</key>
-								<array>
-									<dict>
-										<key>className</key>
-										<string>AFCSQLiteDatabaseOpen</string>
-										<key>parameters</key>
-										<dict>
-											<key>databaseName</key>
-											<string>SalesDB.s3db</string>
-											<key>path</key>
-											<string>$CACHES</string>
-										</dict>
-									</dict>
-								</array>
-							</dict>
-						</array>
-					</dict>
-					<dict>
-						<key>className</key>
-						<string>AFCSQLiteDatabaseClose</string>
-						<key>dependencies</key>
-						<array>
-							<dict>
-								<key>className</key>
-								<string>AFCActionDivider</string>
-								<key>parameters</key>
-								<dict>
-									<key>dividerActions</key>
-									<array>
-										<dict>
-											<key>className</key>
-											<string>AFCSQLiteQuery</string>
-											<key>parameters</key>
-											<dict>
-												<key>query</key>
-												<string>select * from DirectoryItems</string>
-												<key>resultsKey</key>
-												<string>databaseDirectoryItems</string>
-												<key>queryParameters</key>
-												<dict>
-													<key>$minimum</key>
-													<integer>1</integer>
-												</dict>
-											</dict>
-										</dict>
-										<dict>
-											<key>className</key>
-											<string>AFCSQLiteQuery</string>
-											<key>parameters</key>
-											<dict>
-												<key>query</key>
-												<string>select * from Categories</string>
-												<key>resultsKey</key>
-												<string>databaseCategories</string>
-												<key>queryParameters</key>
-												<dict>
-													<key>$minimum</key>
-													<integer>1</integer>
-												</dict>
-											</dict>
-										</dict>
-									</array>
-								</dict>
-								<key>dependencies</key>
-								<array>
-									<dict>
-										<key>className</key>
-										<string>AFCSQLiteDatabaseOpen</string>
-										<key>parameters</key>
-										<dict>
-											<key>databaseName</key>
-											<string>directory.s3db</string>
-											<key>path</key>
-											<string>$CACHES</string>
-										</dict>
-									</dict>
-								</array>
-							</dict>
-						</array>
-					</dict>
-				</array>
 			</dict>
 			<key>62</key>
 			<dict>
@@ -582,8 +301,6 @@
 					<string>$action.auxID2</string>
 					<key>topLayerShown</key>
 					<string>$action.auxID3</string>
-					<key>properties</key>
-					<dict/>
 				</dict>
 			</dict>
 			<key>84</key>
@@ -617,87 +334,6 @@
 					<dict>
 						<key>className</key>
 						<string>AFCLoadCMEAction</string>
-					</dict>
-				</array>
-			</dict>
-		</dict>
-		<key>Database</key>
-		<dict>
-			<key>verify</key>
-			<dict>
-				<key>className</key>
-				<string>AFCS3VerifyDatabase</string>
-				<key>dependencies</key>
-				<array>
-					<dict>
-						<key>className</key>
-						<string>AFCActionIncluder</string>
-						<key>parameters</key>
-						<dict>
-							<key>includeContentType</key>
-							<string>Database</string>
-							<key>includeContentAction</key>
-							<string>readVersion</string>
-						</dict>
-					</dict>
-				</array>
-			</dict>
-			<key>download</key>
-			<dict>
-				<key>className</key>
-				<string>AFCActionIncluder</string>
-				<key>parameters</key>
-				<dict>
-					<key>includeContentType</key>
-					<string>Database</string>
-					<key>includeContentAction</key>
-					<string>readVersion</string>
-					<key>includeParameters</key>
-					<dict>
-						<key>databaseName</key>
-						<string>$action.databaseName</string>
-					</dict>
-				</dict>
-				<key>dependencies</key>
-				<array>
-					<dict>
-						<key>className</key>
-						<string>AFCS3DownloadDatabaseAction</string>
-					</dict>
-				</array>
-			</dict>
-			<key>readVersion</key>
-			<dict>
-				<key>className</key>
-				<string>AFCSQLiteDatabaseClose</string>
-				<key>dependencies</key>
-				<array>
-					<dict>
-						<key>className</key>
-						<string>AFCSQLiteQuery</string>
-						<key>parameters</key>
-						<dict>
-							<key>query</key>
-							<string>select version from METADATA</string>
-							<key>resultsKey</key>
-							<string>$action.databaseName</string>
-							<key>nowrap</key>
-							<true/>
-							<key>scope</key>
-							<string>app</string>
-						</dict>
-						<key>dependencies</key>
-						<array>
-							<dict>
-								<key>className</key>
-								<string>AFCSQLiteDatabaseOpen</string>
-								<key>parameters</key>
-								<dict>
-									<key>path</key>
-									<string>$CACHES</string>
-								</dict>
-							</dict>
-						</array>
 					</dict>
 				</array>
 			</dict>
@@ -821,88 +457,25 @@
 			<key>load</key>
 			<dict>
 				<key>className</key>
-				<string>AFCSQLiteDatabaseClose</string>
-				<key>dependencies</key>
-				<array>
+				<string>AFCDirectoryLoadAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>databaseName</key>
+					<string>directory</string>
+					<key>databaseType</key>
+					<string>14</string>
+					<key>path</key>
+					<string>$CACHES</string>
+					<key>shouldPrependCme</key>
+					<true/>
+					<key>queryData</key>
 					<dict>
-						<key>className</key>
-						<string>AFCActionDivider</string>
-						<key>parameters</key>
-						<dict>
-							<key>dividerActions</key>
-							<array>
-								<dict>
-									<key>className</key>
-									<string>AFCSQLiteQuery</string>
-									<key>parameters</key>
-									<dict>
-										<key>query</key>
-										<string>select * from DirectoryItems</string>
-										<key>resultsKey</key>
-										<string>databaseDirectoryItems</string>
-									</dict>
-								</dict>
-								<dict>
-									<key>className</key>
-									<string>AFCSQLiteQuery</string>
-									<key>parameters</key>
-									<dict>
-										<key>query</key>
-										<string>select * from Categories order by Name</string>
-										<key>resultsKey</key>
-										<string>databaseCategories</string>
-										<key>queryParameters</key>
-										<dict>
-											<key>$minimum</key>
-											<integer>5</integer>
-										</dict>
-									</dict>
-								</dict>
-							</array>
-						</dict>
-						<key>dependencies</key>
-						<array>
-							<dict>
-								<key>className</key>
-								<string>AFCSQLiteDatabaseOpen</string>
-								<key>parameters</key>
-								<dict>
-									<key>databaseName</key>
-									<string>directory.s3db</string>
-									<key>path</key>
-									<string>$CACHES</string>
-									<key>cmeid</key>
-									<string>$action.cmeid</string>
-								</dict>
-								<key>dependencies</key>
-								<array>
-									<dict>
-										<key>className</key>
-										<string>AFCActionIncluder</string>
-										<key>parameters</key>
-										<dict>
-											<key>includeContentType</key>
-											<string>Database</string>
-											<key>includeContentAction</key>
-											<string>verify</string>
-											<key>includeParameters</key>
-											<dict>
-												<key>databaseName</key>
-												<string>directory</string>
-												<key>databaseType</key>
-												<string>14</string>
-												<key>shouldPrependCme</key>
-												<true/>
-												<key>cmeid</key>
-												<string>$action.cmeid</string>
-											</dict>
-										</dict>
-									</dict>
-								</array>
-							</dict>
-						</array>
+						<key>databaseDirectoryItems</key>
+						<string>select * from DirectoryItems</string>
+						<key>databaseCategories</key>
+						<string>select * from Categories order by Name</string>
 					</dict>
-				</array>
+				</dict>
 			</dict>
 		</dict>
 		<key>DirectoryCategory</key>
@@ -1019,83 +592,44 @@
 				<array>
 					<dict>
 						<key>className</key>
-						<string>AFCSQLiteDatabaseClose</string>
-						<key>dependencies</key>
-						<array>
+						<string>AFCActionIncluder</string>
+						<key>parameters</key>
+						<dict>
+							<key>includeContentType</key>
+							<string>DirectoryItem</string>
+							<key>includeContentAction</key>
+							<string>load</string>
+							<key>includeParameters</key>
 							<dict>
-								<key>className</key>
-								<string>AFCActionDivider</string>
-								<key>parameters</key>
-								<dict>
-									<key>dividerActions</key>
-									<array>
-										<dict>
-											<key>className</key>
-											<string>AFCSQLiteQuery</string>
-											<key>parameters</key>
-											<dict>
-												<key>nowrap</key>
-												<true/>
-												<key>query</key>
-												<string>select * from DirectoryItems</string>
-												<key>resultsKey</key>
-												<string>directoryItem</string>
-												<key>condition</key>
-												<string>ItemId = </string>
-												<key>queryParameters</key>
-												<dict>
-													<key>$minimum</key>
-													<integer>5</integer>
-												</dict>
-											</dict>
-										</dict>
-									</array>
-								</dict>
-								<key>dependencies</key>
-								<array>
-									<dict>
-										<key>className</key>
-										<string>AFCSQLiteDatabaseOpen</string>
-										<key>parameters</key>
-										<dict>
-											<key>databaseName</key>
-											<string>directory.s3db</string>
-											<key>path</key>
-											<string>$CACHES</string>
-											<key>cmeid</key>
-											<string>$action.cmeid</string>
-										</dict>
-										<key>dependencies</key>
-										<array>
-											<dict>
-												<key>className</key>
-												<string>AFCActionIncluder</string>
-												<key>parameters</key>
-												<dict>
-													<key>includeContentType</key>
-													<string>Database</string>
-													<key>includeContentAction</key>
-													<string>verify</string>
-													<key>includeParameters</key>
-													<dict>
-														<key>databaseName</key>
-														<string>directory</string>
-														<key>databaseType</key>
-														<string>14</string>
-														<key>shouldPrependCme</key>
-														<true/>
-														<key>cmeid</key>
-														<string>$action.cmeid</string>
-													</dict>
-												</dict>
-											</dict>
-										</array>
-									</dict>
-								</array>
+								<key>contentId</key>
+								<string>$action.contentId</string>
+								<key>cmeid</key>
+								<string>$action.cmeid</string>
 							</dict>
-						</array>
+						</dict>
 					</dict>
 				</array>
+			</dict>
+			<key>load</key>
+			<dict>
+				<key>className</key>
+				<string>AFCDirectoryItemLoadAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>databaseName</key>
+					<string>directory</string>
+					<key>databaseType</key>
+					<string>14</string>
+					<key>path</key>
+					<string>$CACHES</string>
+					<key>shouldPrependCme</key>
+					<true/>
+					<key>queryData</key>
+					<dict>
+						<key>directoryItem</key>
+						<string>select * from DirectoryItems WHERE ItemId = </string>
+					</dict>
+				</dict>
 			</dict>
 		</dict>
 		<key>DynamicContent</key>
@@ -1103,72 +637,17 @@
 			<key>load</key>
 			<dict>
 				<key>className</key>
-				<string>AFCSQLiteDatabaseClose</string>
-				<key>dependencies</key>
-				<array>
-					<dict>
-						<key>className</key>
-						<string>AFCLoadDatabaseTables</string>
-						<key>dependencies</key>
-						<array>
-							<dict>
-								<key>className</key>
-								<string>AFCSQLiteDatabaseOpen</string>
-								<key>parameters</key>
-								<dict>
-									<key>databaseName</key>
-									<string>PropertyList</string>
-									<key>path</key>
-									<string>$CACHES</string>
-								</dict>
-							</dict>
-						</array>
-					</dict>
-				</array>
-			</dict>
-			<key>verifyDatabases</key>
-			<dict>
-				<key>className</key>
-				<string>AFCActionDivider</string>
+				<string>AFCLoadDatabaseTables</string>
 				<key>parameters</key>
 				<dict>
-					<key>dividerActions</key>
-					<array>
-						<dict>
-							<key>className</key>
-							<string>AFCS3VerifyDatabase</string>
-							<key>queue</key>
-							<string>concurrent</string>
-							<key>parameters</key>
-							<dict>
-								<key>databaseName</key>
-								<string>PropertyList</string>
-								<key>databaseType</key>
-								<string>1</string>
-								<key>shouldPrependProperty</key>
-								<true/>
-							</dict>
-							<key>dependencies</key>
-							<array>
-								<dict>
-									<key>className</key>
-									<string>AFCActionIncluder</string>
-									<key>parameters</key>
-									<dict>
-										<key>includeContentType</key>
-										<string>Database</string>
-										<key>includeContentAction</key>
-										<string>readVersion</string>
-										<key>includeParameters</key>
-										<dict>
-											<key>databaseName</key>
-											<string>PropertyList</string>
-										</dict>
-									</dict>
-								</dict>
-							</array>
-						</dict>
-					</array>
+					<key>databaseName</key>
+					<string>PropertyList</string>
+					<key>databaseType</key>
+					<string>1</string>
+					<key>path</key>
+					<string>$CACHES</string>
+					<key>shouldPrependProperty</key>
+					<true/>
 				</dict>
 			</dict>
 		</dict>
@@ -1195,7 +674,7 @@
 								<key>forwardContentType</key>
 								<string>EULA</string>
 								<key>forwardContentAction</key>
-								<string>download</string>
+								<string>load</string>
 							</dict>
 						</dict>
 						<dict>
@@ -1236,51 +715,19 @@
 				<array>
 					<dict>
 						<key>className</key>
-						<string>AFCSQLiteDatabaseClose</string>
-						<key>dependencies</key>
-						<array>
+						<string>AFCActionIncluder</string>
+						<key>parameters</key>
+						<dict>
+							<key>includeContentType</key>
+							<string>EULA</string>
+							<key>includeContentAction</key>
+							<string>load</string>
+							<key>includeParameters</key>
 							<dict>
-								<key>className</key>
-								<string>AFCSQLiteQuery</string>
-								<key>parameters</key>
-								<dict>
-									<key>query</key>
-									<string>select TEXT from DATA</string>
-									<key>resultsKey</key>
-									<string>eulaText</string>
-									<key>nowrap</key>
-									<true/>
-								</dict>
-								<key>dependencies</key>
-								<array>
-									<dict>
-										<key>className</key>
-										<string>AFCSQLiteDatabaseOpen</string>
-										<key>parameters</key>
-										<dict>
-											<key>databaseName</key>
-											<string>eula.s3db</string>
-											<key>path</key>
-											<string>$CACHES</string>
-										</dict>
-										<key>dependencies</key>
-										<array>
-											<dict>
-												<key>className</key>
-												<string>AFCActionIncluder</string>
-												<key>parameters</key>
-												<dict>
-													<key>includeContentType</key>
-													<string>EULA</string>
-													<key>includeContentAction</key>
-													<string>download</string>
-												</dict>
-											</dict>
-										</array>
-									</dict>
-								</array>
+								<key>shouldLoadEulaText</key>
+								<true/>
 							</dict>
-						</array>
+						</dict>
 					</dict>
 				</array>
 			</dict>
@@ -1296,18 +743,23 @@
 					<string>load</string>
 				</dict>
 			</dict>
-			<key>download</key>
+			<key>load</key>
 			<dict>
 				<key>className</key>
-				<string>AFCS3DownloadDatabaseAction</string>
+				<string>AFCEULALoadAction</string>
 				<key>parameters</key>
 				<dict>
 					<key>databaseName</key>
 					<string>eula</string>
-					<key>shouldPrependProperty</key>
-					<true/>
 					<key>databaseType</key>
 					<string>10</string>
+					<key>path</key>
+					<string>$CACHES</string>
+					<key>queryData</key>
+					<dict>
+						<key>eulaText</key>
+						<string>select TEXT from DATA</string>
+					</dict>
 				</dict>
 			</dict>
 		</dict>
@@ -1367,63 +819,23 @@
 			<key>load</key>
 			<dict>
 				<key>className</key>
-				<string>AFCSQLiteDatabaseClose</string>
-				<key>dependencies</key>
-				<array>
+				<string>AFCEventsLoadAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>databaseName</key>
+					<string>events</string>
+					<key>databaseType</key>
+					<string>16</string>
+					<key>path</key>
+					<string>$CACHES</string>
+					<key>shouldPrependProperty</key>
+					<true/>
+					<key>queryData</key>
 					<dict>
-						<key>className</key>
-						<string>AFCSQLiteQuery</string>
-						<key>parameters</key>
-						<dict>
-							<key>query</key>
-							<string>select * from Events order by StartDate</string>
-							<key>resultsKey</key>
-							<string>events</string>
-							<key>queryParameters</key>
-							<dict>
-								<key>$minimum</key>
-								<integer>5</integer>
-							</dict>
-						</dict>
-						<key>dependencies</key>
-						<array>
-							<dict>
-								<key>className</key>
-								<string>AFCSQLiteDatabaseOpen</string>
-								<key>parameters</key>
-								<dict>
-									<key>databaseName</key>
-									<string>events.s3db</string>
-									<key>path</key>
-									<string>$CACHES</string>
-								</dict>
-								<key>dependencies</key>
-								<array>
-									<dict>
-										<key>className</key>
-										<string>AFCActionIncluder</string>
-										<key>parameters</key>
-										<dict>
-											<key>includeContentType</key>
-											<string>Database</string>
-											<key>includeContentAction</key>
-											<string>verify</string>
-											<key>includeParameters</key>
-											<dict>
-												<key>databaseName</key>
-												<string>events</string>
-												<key>databaseType</key>
-												<string>16</string>
-												<key>shouldPrependProperty</key>
-												<true/>
-											</dict>
-										</dict>
-									</dict>
-								</array>
-							</dict>
-						</array>
+						<key>events</key>
+						<string>select * from Events order by StartDate</string>
 					</dict>
-				</array>
+				</dict>
 			</dict>
 		</dict>
 		<key>EventDetail</key>
@@ -1504,79 +916,42 @@
 				<array>
 					<dict>
 						<key>className</key>
-						<string>AFCSQLiteDatabaseClose</string>
-						<key>dependencies</key>
-						<array>
+						<string>AFCActionIncluder</string>
+						<key>parameters</key>
+						<dict>
+							<key>includeContentType</key>
+							<string>EventItem</string>
+							<key>includeContentAction</key>
+							<string>load</string>
+							<key>includeParameters</key>
 							<dict>
-								<key>className</key>
-								<string>AFCActionDivider</string>
-								<key>parameters</key>
-								<dict>
-									<key>dividerActions</key>
-									<array>
-										<dict>
-											<key>className</key>
-											<string>AFCSQLiteQuery</string>
-											<key>parameters</key>
-											<dict>
-												<key>nowrap</key>
-												<true/>
-												<key>query</key>
-												<string>select * from Events</string>
-												<key>resultsKey</key>
-												<string>event</string>
-												<key>condition</key>
-												<string>EventID = </string>
-												<key>queryParameters</key>
-												<dict>
-													<key>$minimum</key>
-													<integer>5</integer>
-												</dict>
-											</dict>
-										</dict>
-									</array>
-								</dict>
-								<key>dependencies</key>
-								<array>
-									<dict>
-										<key>className</key>
-										<string>AFCSQLiteDatabaseOpen</string>
-										<key>parameters</key>
-										<dict>
-											<key>databaseName</key>
-											<string>events.s3db</string>
-											<key>path</key>
-											<string>$CACHES</string>
-										</dict>
-										<key>dependencies</key>
-										<array>
-											<dict>
-												<key>className</key>
-												<string>AFCActionIncluder</string>
-												<key>parameters</key>
-												<dict>
-													<key>includeContentType</key>
-													<string>Database</string>
-													<key>includeContentAction</key>
-													<string>verify</string>
-													<key>includeParameters</key>
-													<dict>
-														<key>databaseName</key>
-														<string>events</string>
-														<key>databaseType</key>
-														<string>16</string>
-														<key>shouldPrependProperty</key>
-														<true/>
-													</dict>
-												</dict>
-											</dict>
-										</array>
-									</dict>
-								</array>
+								<key>contentId</key>
+								<string>$action.contentId</string>
 							</dict>
-						</array>
+						</dict>
 					</dict>
 				</array>
+			</dict>
+			<key>load</key>
+			<dict>
+				<key>className</key>
+				<string>AFCEventItemLoadAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>databaseName</key>
+					<string>events</string>
+					<key>databaseType</key>
+					<string>16</string>
+					<key>path</key>
+					<string>$CACHES</string>
+					<key>shouldPrependProperty</key>
+					<true/>
+					<key>queryData</key>
+					<dict>
+						<key>event</key>
+						<string>select * from Events WHERE EventID = </string>
+					</dict>
+				</dict>
 			</dict>
 		</dict>
 		<key>Layer</key>
@@ -1584,30 +959,16 @@
 			<key>checkDisabled</key>
 			<dict>
 				<key>className</key>
-				<string>AFCSQLiteDatabaseClose</string>
-				<key>dependencies</key>
-				<array>
-					<dict>
-						<key>className</key>
-						<string>AFCCheckDisabledLayers</string>
-						<key>dependencies</key>
-						<array>
-							<dict>
-								<key>className</key>
-								<string>AFCSQLiteDatabaseOpen</string>
-								<key>parameters</key>
-								<dict>
-									<key>topLevel</key>
-									<true/>
-									<key>databaseName</key>
-									<string>PropertyList</string>
-									<key>path</key>
-									<string>$CACHES</string>
-								</dict>
-							</dict>
-						</array>
-					</dict>
-				</array>
+				<string>AFCCheckDisabledLayers</string>
+				<key>parameters</key>
+				<dict>
+					<key>databaseName</key>
+					<string>PropertyList</string>
+					<key>databaseType</key>
+					<string>1</string>
+					<key>path</key>
+					<string>$CACHES</string>
+				</dict>
 			</dict>
 			<key>load</key>
 			<dict>
@@ -1620,39 +981,6 @@
 					<key>forwardContentAction</key>
 					<string>load</string>
 				</dict>
-				<key>dependencies</key>
-				<array>
-					<dict>
-						<key>className</key>
-						<string>AFCActionDivider</string>
-						<key>parameters</key>
-						<dict>
-							<key>dividerActions</key>
-							<array>
-								<dict>
-									<key>className</key>
-									<string>AFCActionIncluder</string>
-									<key>parameters</key>
-									<dict>
-										<key>includeContentType</key>
-										<string>Database</string>
-										<key>includeContentAction</key>
-										<string>verify</string>
-										<key>includeParameters</key>
-										<dict>
-											<key>databaseName</key>
-											<string>PropertyList</string>
-											<key>databaseType</key>
-											<string>1</string>
-											<key>shouldPrependProperty</key>
-											<true/>
-										</dict>
-									</dict>
-								</dict>
-							</array>
-						</dict>
-					</dict>
-				</array>
 			</dict>
 			<key>displayPicker</key>
 			<dict>
@@ -2066,8 +1394,6 @@
 			<dict>
 				<key>className</key>
 				<string>AFCMSetLocationProviderAction</string>
-				<key>parameters</key>
-				<dict/>
 			</dict>
 			<key>clearCache</key>
 			<dict>
@@ -2560,7 +1886,7 @@
 				<key>parameters</key>
 				<dict>
 					<key>viewController</key>
-					<string>AFCUIAAlertSubscriptionsViewController</string>
+					<string>AFCUIAlertSubscriptionsViewController</string>
 					<key>presentationMode</key>
 					<string>push</string>
 					<key>shouldAnimate</key>
@@ -2814,74 +2140,6 @@
 					<string>EULA</string>
 					<key>forwardContentAction</key>
 					<string>prompt</string>
-				</dict>
-			</dict>
-		</dict>
-		<key>UI</key>
-		<dict>
-			<key>showList</key>
-			<dict>
-				<key>className</key>
-				<string>AFCLoadViewControllerAction</string>
-				<key>parameters</key>
-				<dict>
-					<key>viewController</key>
-					<string>AFCUIMovieSplashViewController</string>
-					<key>presentationMode</key>
-					<string>replaceTop</string>
-					<key>shouldAnimate</key>
-					<false/>
-				</dict>
-			</dict>
-			<key>load1</key>
-			<dict>
-				<key>className</key>
-				<string>AFCLoadViewControllerAction</string>
-				<key>parameters</key>
-				<dict>
-					<key>viewController</key>
-					<string>Test2ViewController</string>
-					<key>presentationMode</key>
-					<string>push</string>
-					<key>shouldAnimate</key>
-					<true/>
-					<key>properties</key>
-					<dict>
-						<key>records</key>
-						<string>$module.directory</string>
-						<key>textColumn</key>
-						<string>Name</string>
-						<key>detailColumn</key>
-						<string>Level</string>
-						<key>cellClass</key>
-						<string>CustomTableViewCell</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>load2</key>
-			<dict>
-				<key>className</key>
-				<string>AFCLoadViewControllerAction</string>
-				<key>parameters</key>
-				<dict>
-					<key>viewController</key>
-					<string>Test1ViewController</string>
-					<key>presentationMode</key>
-					<string>replaceTop</string>
-					<key>shouldAnimate</key>
-					<true/>
-				</dict>
-			</dict>
-			<key>loadDynamic</key>
-			<dict>
-				<key>className</key>
-				<string>AFCForwardAction</string>
-				<key>parameters</key>
-				<dict>
-					<key>forwardContentType</key>
-					<string>WebView</string>
-					<key>forwardContentAction</key>
-					<string>show</string>
 				</dict>
 			</dict>
 		</dict>
