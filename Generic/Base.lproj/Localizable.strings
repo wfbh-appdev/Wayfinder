@@ -123,6 +123,8 @@
  */
 
 "afcparkingphotoviewcontroller.message.text" = "Please tap the camera button\nbelow to take a photo";
+"afcparkingphotoviewcontroller.deniedcamera.message.text" = "To take a photo of your parking spot, please allow the app to access your phone's camera.";
+"afcparkingphotoviewcontroller.restrictedcamera.message.text" = "Camera can't be accessed due restrictions on your device.";
 
 /*
  *  AFCParkingViewController Strings
