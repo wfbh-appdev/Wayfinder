@@ -29,10 +29,16 @@
 	<dict>
 		<key>borderColor</key>
 		<string>#363636</string>
+		<key>color</key>
+		<string>#363636</string>
 		<key>borderWidth</key>
 		<real>1</real>
 		<key>buttonTitle</key>
 		<string>#afcuimpoifiltereditorviewcontroller.savefiltersbutton.buttontitle</string>
+		<key>fontName</key>
+		<string>$MainFontLight</string>
+		<key>fontSize</key>
+		<integer>18</integer>
 	</dict>
 	<key>closeButton</key>
 	<dict>
