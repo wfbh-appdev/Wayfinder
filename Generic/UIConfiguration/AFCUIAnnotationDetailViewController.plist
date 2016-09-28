@@ -82,6 +82,15 @@
 		<key>image#selected</key>
 		<string>favorite.selected.png</string>
 	</dict>
+	<key>descriptionLabel</key>
+	<dict>
+		<key>fontName</key>
+		<string>$MainFontLight</string>
+		<key>fontSize</key>
+		<string>$MainFontSize</string>
+		<key>color</key>
+		<string>#333333</string>
+	</dict>
 	<key>poiName</key>
 	<dict>
 		<key>fontName</key>
