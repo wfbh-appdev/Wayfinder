@@ -232,7 +232,8 @@
 /**
  * Layer Picker
  */
-"afclayerpickerviewcontroller.navbar.title" = "Layers";
+"afclayerpickerviewcontroller.navbar.default.title" = "Levels";
+"afclayerpickerviewcontroller.searchbar.default.text" = "Search";
 
 /**
  * Map Picker

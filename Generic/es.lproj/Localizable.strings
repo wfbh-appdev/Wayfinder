@@ -276,7 +276,8 @@
 /**
  * Layer Picker
  */
-"afclayerpickerviewcontroller.navbar.title" = "Capas";
+"afclayerpickerviewcontroller.navbar.default.title" = "Capas";
+"afclayerpickerviewcontroller.searchbar.default.text" = "Buscar";
 
 /**
  * Map Picker
