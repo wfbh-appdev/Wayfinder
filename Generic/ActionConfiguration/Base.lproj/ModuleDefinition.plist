@@ -301,6 +301,8 @@
 					<string>$action.auxID2</string>
 					<key>topLayerShown</key>
 					<string>$action.auxID3</string>
+					<key>searchText</key>
+					<string>$action.auxID4</string>
 				</dict>
 			</dict>
 			<key>84</key>
@@ -998,6 +1000,10 @@
 						<string>$action.permanentChange</string>
 						<key>layers</key>
 						<string>$action.layers</string>
+						<key>searchText</key>
+						<string>$action.searchText</string>
+						<key>navBarTitle</key>
+						<string>$action.navBarTitle</string>
 					</dict>
 				</dict>
 			</dict>
