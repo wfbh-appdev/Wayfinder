@@ -2138,6 +2138,11 @@
 					<dict>
 						<key>className</key>
 						<string>AFCCheckForceUpdate</string>
+						<key>parameters</key>
+						<dict>
+							<key>delegateClassName</key>
+							<string>AFCDefaultAppVersionComparison</string>
+						</dict>
 					</dict>
 				</array>
 				<key>parameters</key>
