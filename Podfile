@@ -16,8 +16,14 @@ target :'GenericAF4' do
     pod 'AppFrameworkParkingModule',            :git => 'https://bitbucket.phunware.com/scm/af/af-sdk-ios-binaries.git',       :branch => 'develop'
     pod 'AppFrameworkRenderModule',             :git => 'https://bitbucket.phunware.com/scm/af/af-sdk-ios-binaries.git',       :branch => 'develop'
     
-    pod 'Google/Analytics'
-    pod 'PWLocalpoint', '2.6.3.1'
+    pod 'FirebaseAnalytics',          '3.4.2'
+    pod 'FirebaseInstanceID',         '1.0.8'
+    pod 'Google',                     '3.0.3'
+    pod 'GoogleAnalytics',            '3.17.0'
+    pod 'GoogleInterchangeUtilities', '1.2.1'
+    pod 'GoogleSymbolUtilities',      '1.1.1'
+    pod 'GoogleUtilities',            '1.3.1'
+    pod 'PWLocalpoint',               '2.6.3.1'
 
     #pod 'AppFrameworkCore',                    :path => '../af-sdk-ios/af-modules/af-core’
     #pod 'AppFrameworkDirectoryModule',         :path => ’../af-sdk-ios/af-modules/af-directory’

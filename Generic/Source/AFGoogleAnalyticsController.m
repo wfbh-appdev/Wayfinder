@@ -8,7 +8,10 @@
 
 #import "AFGoogleAnalyticsController.h"
 #import <AppFrameworkCore/UIApplication+AFAnalytics.h>
-#import <Google/Analytics.h>
+#import <GoogleAnalytics/GAI.h>
+#import <GoogleAnalytics/GAIDictionaryBuilder.h>
+#import <GoogleAnalytics/GAIFields.h>
+#import <Google/Core-Module.h>
 
 static NSString *const AFGoogleAnalyticsControllerTokenSuffix = @"GOOGLE";
 
