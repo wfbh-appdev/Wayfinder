@@ -27,7 +27,7 @@
 
 
     if ([super.textLabel.text isEqualToString:@"PwMapKit"])
-        versionString = PWMapKit_VERSION;
+        versionString = @"3.0.1";
     if ([super.textLabel.text isEqualToString:@"PwLocation"])
         versionString = PWLocation_VERSION;
     if ([super.textLabel.text isEqualToString:@"PwCore"])
