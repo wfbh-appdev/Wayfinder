@@ -47,7 +47,7 @@
 							<key>parameters</key>
 							<dict>
 								<key>contentId</key>
-								<string>PWSLLocationManager</string>
+								<string>PWMapViewLocationTypeBLE</string>
 							</dict>
 						</dict>
 					</array>
@@ -89,16 +89,27 @@
 			<dict>
 				<key>className</key>
 				<string>AFCProcessPushNotificationAction</string>
+				<key>queue</key>
+				<string>serial</string>
 			</dict>
 			<key>didReceiveRemoteNotification</key>
 			<dict>
 				<key>className</key>
 				<string>AFCProcessPushNotificationAction</string>
+				<key>queue</key>
+				<string>serial</string>
 			</dict>
 			<key>didReceiveLocalNotification</key>
 			<dict>
 				<key>className</key>
 				<string>AFCProcessPushNotificationAction</string>
+				<key>queue</key>
+				<string>serial</string>
+			</dict>
+			<key>didFailToRegisterForRemoteNotifications</key>
+			<dict>
+				<key>className</key>
+				<string>AFCMappingRegisterDeepLinksAction</string>
 			</dict>
 		</dict>
 		<key>Button</key>
@@ -301,6 +312,8 @@
 					<string>$action.auxID2</string>
 					<key>topLayerShown</key>
 					<string>$action.auxID3</string>
+					<key>searchText</key>
+					<string>$action.auxID4</string>
 				</dict>
 			</dict>
 			<key>84</key>
@@ -998,6 +1011,10 @@
 						<string>$action.permanentChange</string>
 						<key>layers</key>
 						<string>$action.layers</string>
+						<key>searchText</key>
+						<string>$action.searchText</string>
+						<key>navBarTitle</key>
+						<string>$action.navBarTitle</string>
 					</dict>
 				</dict>
 			</dict>
@@ -1126,6 +1143,120 @@
 		</dict>
 		<key>Map</key>
 		<dict>
+			<key>push</key>
+			<dict>
+				<key>className</key>
+				<string>AFCShowAnnotationCardAction</string>
+				<key>dependencies</key>
+				<array>
+					<dict>
+						<key>className</key>
+						<string>AFCLoadViewControllerAction</string>
+						<key>parameters</key>
+						<dict>
+							<key>viewController</key>
+							<string>AFCUIMMapViewController</string>
+							<key>presentationMode</key>
+							<string>push</string>
+							<key>shouldAnimate</key>
+							<true/>
+							<key>properties</key>
+							<dict>
+								<key>campus</key>
+								<string>$app.kAFCApplicationStateCurrentCampus</string>
+								<key>favoritesContext</key>
+								<string>$module.mapFavoritesContext</string>
+								<key>altitudeToApplyWorkaroundiOS9</key>
+								<integer>210</integer>
+								<key>associatedData</key>
+								<string>$module.databaseDirectoryItems</string>
+								<key>associatedDataAnnotationIdentifierKey</key>
+								<string>POI</string>
+								<key>associatedDataDescriptionKey</key>
+								<string>Description</string>
+								<key>associatedDataBannerKey</key>
+								<string>DetailImage</string>
+							</dict>
+						</dict>
+						<key>dependencies</key>
+						<array>
+							<dict>
+								<key>className</key>
+								<string>AFCActionIncluder</string>
+								<key>parameters</key>
+								<dict>
+									<key>includeContentType</key>
+									<string>Directory</string>
+									<key>includeContentAction</key>
+									<string>load</string>
+									<key>includeParameters</key>
+									<dict>
+										<key>cmeid</key>
+										<string>$app.kAFCMCmeIdKey</string>
+									</dict>
+								</dict>
+							</dict>
+						</array>
+					</dict>
+				</array>
+			</dict>
+			<key>show</key>
+			<dict>
+				<key>className</key>
+				<string>AFCShowAnnotationCardAction</string>
+				<key>dependencies</key>
+				<array>
+					<dict>
+						<key>className</key>
+						<string>AFCLoadViewControllerAction</string>
+						<key>parameters</key>
+						<dict>
+							<key>viewController</key>
+							<string>AFCUIMMapViewController</string>
+							<key>presentationMode</key>
+							<string>replaceTop</string>
+							<key>shouldAnimate</key>
+							<true/>
+							<key>properties</key>
+							<dict>
+								<key>campus</key>
+								<string>$app.kAFCApplicationStateCurrentCampus</string>
+								<key>favoritesContext</key>
+								<string>$module.mapFavoritesContext</string>
+								<key>altitudeToApplyWorkaroundiOS9</key>
+								<integer>210</integer>
+								<key>associatedData</key>
+								<string>$module.databaseDirectoryItems</string>
+								<key>associatedDataAnnotationIdentifierKey</key>
+								<string>POI</string>
+								<key>associatedDataDescriptionKey</key>
+								<string>Description</string>
+								<key>associatedDataBannerKey</key>
+								<string>DetailImage</string>
+							</dict>
+						</dict>
+						<key>dependencies</key>
+						<array>
+							<dict>
+								<key>className</key>
+								<string>AFCActionIncluder</string>
+								<key>parameters</key>
+								<dict>
+									<key>includeContentType</key>
+									<string>Directory</string>
+									<key>includeContentAction</key>
+									<string>load</string>
+									<key>includeParameters</key>
+									<dict>
+										<key>cmeid</key>
+										<string>$app.kAFCMCmeIdKey</string>
+									</dict>
+								</dict>
+							</dict>
+						</array>
+					</dict>
+				</array>
+			</dict>
 			<key>displayPicker</key>
 			<dict>
 				<key>className</key>
@@ -1188,207 +1319,10 @@
 					</dict>
 				</array>
 			</dict>
-			<key>show</key>
-			<dict>
-				<key>className</key>
-				<string>AFCShowAnnotationCardAction</string>
-				<key>parameters</key>
-				<dict>
-					<key>annotations</key>
-					<string>$module.pois</string>
-				</dict>
-				<key>dependencies</key>
-				<array>
-					<dict>
-						<key>className</key>
-						<string>AFCLoadViewControllerAction</string>
-						<key>parameters</key>
-						<dict>
-							<key>viewController</key>
-							<string>AFCUIMMapViewController</string>
-							<key>presentationMode</key>
-							<string>replaceTop</string>
-							<key>shouldAnimate</key>
-							<true/>
-							<key>properties</key>
-							<dict>
-								<key>campus</key>
-								<string>$app.kAFCApplicationStateCurrentCampus</string>
-								<key>favoritesContext</key>
-								<string>$module.mapFavoritesContext</string>
-								<key>annotations</key>
-								<string>$module.pois</string>
-								<key>altitudeToApplyWorkaroundiOS9</key>
-								<integer>210</integer>
-								<key>associatedData</key>
-								<string>$module.databaseDirectoryItems</string>
-								<key>associatedDataAnnotationIdentifierKey</key>
-								<string>POI</string>
-								<key>associatedDataDescriptionKey</key>
-								<string>Description</string>
-								<key>associatedDataBannerKey</key>
-								<string>DetailImage</string>
-							</dict>
-						</dict>
-						<key>dependencies</key>
-						<array>
-							<dict>
-								<key>className</key>
-								<string>AFCActionDivider</string>
-								<key>parameters</key>
-								<dict>
-									<key>dividerActions</key>
-									<array>
-										<dict>
-											<key>className</key>
-											<string>AFCActionIncluder</string>
-											<key>parameters</key>
-											<dict>
-												<key>includeContentType</key>
-												<string>POIs</string>
-												<key>includeContentAction</key>
-												<string>loadAll</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>className</key>
-											<string>AFCActionIncluder</string>
-											<key>parameters</key>
-											<dict>
-												<key>includeContentType</key>
-												<string>POIs</string>
-												<key>includeContentAction</key>
-												<string>loadTypes</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>className</key>
-											<string>AFCActionIncluder</string>
-											<key>parameters</key>
-											<dict>
-												<key>includeContentType</key>
-												<string>Directory</string>
-												<key>includeContentAction</key>
-												<string>load</string>
-												<key>includeParameters</key>
-												<dict>
-													<key>cmeid</key>
-													<string>$app.kAFCMCmeIdKey</string>
-												</dict>
-											</dict>
-										</dict>
-									</array>
-								</dict>
-							</dict>
-						</array>
-					</dict>
-				</array>
-			</dict>
-			<key>push</key>
-			<dict>
-				<key>className</key>
-				<string>AFCShowAnnotationCardAction</string>
-				<key>parameters</key>
-				<dict>
-					<key>annotations</key>
-					<string>$module.pois</string>
-				</dict>
-				<key>dependencies</key>
-				<array>
-					<dict>
-						<key>className</key>
-						<string>AFCLoadViewControllerAction</string>
-						<key>parameters</key>
-						<dict>
-							<key>viewController</key>
-							<string>AFCUIMMapViewController</string>
-							<key>presentationMode</key>
-							<string>push</string>
-							<key>shouldAnimate</key>
-							<true/>
-							<key>properties</key>
-							<dict>
-								<key>campus</key>
-								<string>$app.kAFCApplicationStateCurrentCampus</string>
-								<key>favoritesContext</key>
-								<string>$module.mapFavoritesContext</string>
-								<key>annotations</key>
-								<string>$module.pois</string>
-								<key>altitudeToApplyWorkaroundiOS9</key>
-								<integer>210</integer>
-								<key>associatedData</key>
-								<string>$module.databaseDirectoryItems</string>
-								<key>associatedDataAnnotationIdentifierKey</key>
-								<string>POI</string>
-								<key>associatedDataDescriptionKey</key>
-								<string>Description</string>
-								<key>associatedDataBannerKey</key>
-								<string>DetailImage</string>
-							</dict>
-						</dict>
-						<key>dependencies</key>
-						<array>
-							<dict>
-								<key>className</key>
-								<string>AFCActionDivider</string>
-								<key>parameters</key>
-								<dict>
-									<key>dividerActions</key>
-									<array>
-										<dict>
-											<key>className</key>
-											<string>AFCActionIncluder</string>
-											<key>parameters</key>
-											<dict>
-												<key>includeContentType</key>
-												<string>POIs</string>
-												<key>includeContentAction</key>
-												<string>loadAll</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>className</key>
-											<string>AFCActionIncluder</string>
-											<key>parameters</key>
-											<dict>
-												<key>includeContentType</key>
-												<string>POIs</string>
-												<key>includeContentAction</key>
-												<string>loadTypes</string>
-											</dict>
-										</dict>
-										<dict>
-											<key>className</key>
-											<string>AFCActionIncluder</string>
-											<key>parameters</key>
-											<dict>
-												<key>includeContentType</key>
-												<string>Directory</string>
-												<key>includeContentAction</key>
-												<string>load</string>
-												<key>includeParameters</key>
-												<dict>
-													<key>cmeid</key>
-													<string>$app.kAFCMCmeIdKey</string>
-												</dict>
-											</dict>
-										</dict>
-									</array>
-								</dict>
-							</dict>
-						</array>
-					</dict>
-				</array>
-			</dict>
 			<key>showAnnotation</key>
 			<dict>
 				<key>className</key>
 				<string>AFCShowAnnotationCardAction</string>
-				<key>parameters</key>
-				<dict>
-					<key>annotations</key>
-					<string>$module.pois</string>
-				</dict>
 			</dict>
 			<key>setLocationProvider</key>
 			<dict>
@@ -1476,10 +1410,6 @@
 					<dict>
 						<key>dismissalBlock</key>
 						<string>$action.dismissalBlock</string>
-						<key>annotations</key>
-						<string>$module.pois</string>
-						<key>annotationTypes</key>
-						<string>$module.poiTypes</string>
 					</dict>
 				</dict>
 			</dict>
@@ -1490,18 +1420,6 @@
 			<dict>
 				<key>className</key>
 				<string>AFCMStartRouteInAppleMapsAction</string>
-				<key>dependencies</key>
-				<array>
-					<dict>
-						<key>className</key>
-						<string>AFCMInitializeOutdoorToIndoor</string>
-						<key>parameters</key>
-						<dict>
-							<key>annotations</key>
-							<string>$module.pois</string>
-						</dict>
-					</dict>
-				</array>
 			</dict>
 		</dict>
 		<key>Offer</key>
@@ -1701,42 +1619,12 @@
 				</dict>
 			</dict>
 		</dict>
-		<key>POIs</key>
-		<dict>
-			<key>loadAll</key>
-			<dict>
-				<key>className</key>
-				<string>AFCMLoadBuildingPOIsAction</string>
-				<key>parameters</key>
-				<dict>
-					<key>resultsKey</key>
-					<string>pois</string>
-					<key>buildingId</key>
-					<string>$app.buildingId</string>
-				</dict>
-			</dict>
-			<key>loadTypes</key>
-			<dict>
-				<key>className</key>
-				<string>AFCMLoadBuildingPOITypesAction</string>
-				<key>parameters</key>
-				<dict>
-					<key>resultsKey</key>
-					<string>poiTypes</string>
-				</dict>
-			</dict>
-		</dict>
 		<key>Route</key>
 		<dict>
 			<key>link</key>
 			<dict>
 				<key>className</key>
 				<string>AFCMStartRouteBuilderUIAction</string>
-				<key>parameters</key>
-				<dict>
-					<key>annotations</key>
-					<string>$module.pois</string>
-				</dict>
 				<key>dependencies</key>
 				<array>
 					<dict>
@@ -1770,11 +1658,6 @@
 			<dict>
 				<key>className</key>
 				<string>AFCMStartRouteBuilderUIAction</string>
-				<key>parameters</key>
-				<dict>
-					<key>annotations</key>
-					<string>$module.pois</string>
-				</dict>
 				<key>dependencies</key>
 				<array>
 					<dict>
@@ -1806,8 +1689,6 @@
 						<string>$action.userLocation</string>
 						<key>destination</key>
 						<string>$action.destination</string>
-						<key>annotations</key>
-						<string>$module.pois</string>
 						<key>floors</key>
 						<string>$action.floors</string>
 						<key>showOutdoorToIndoorStart</key>
@@ -1996,7 +1877,7 @@
 										<key>name</key>
 										<string>BLE</string>
 										<key>identifier</key>
-										<string>PWSLLocationManager</string>
+										<string>PWMapViewLocationTypeBLE</string>
 										<key>default</key>
 										<true/>
 									</dict>
@@ -2004,13 +1885,13 @@
 										<key>name</key>
 										<string>MSE</string>
 										<key>identifier</key>
-										<string>PWMSELocationManager</string>
+										<string>PWMapViewLocationTypeMSE</string>
 									</dict>
 									<dict>
 										<key>name</key>
 										<string>GPS / Apple Indoor (if available)</string>
 										<key>identifier</key>
-										<string>PWGPSLocationManager</string>
+										<string>PWMapViewLocationTypeGPS</string>
 									</dict>
 								</array>
 							</dict>
@@ -2085,32 +1966,7 @@
 			<key>clearCache</key>
 			<dict>
 				<key>className</key>
-				<string>AFCPrompCacheClearAction</string>
-				<key>parameters</key>
-				<dict>
-					<key>clearActions</key>
-					<array>
-						<dict>
-							<key>className</key>
-							<string>AFCMClearMapCacheAction</string>
-							<key>ignoreParentParameters</key>
-							<true/>
-						</dict>
-						<dict>
-							<key>className</key>
-							<string>AFCForwardAction</string>
-							<key>ignoreParentParameters</key>
-							<true/>
-							<key>parameters</key>
-							<dict>
-								<key>forwardContentType</key>
-								<string>SplashScreen</string>
-								<key>forwardContentAction</key>
-								<string>show</string>
-							</dict>
-						</dict>
-					</array>
-				</dict>
+				<string>AFCMClearMapCacheAction</string>
 			</dict>
 		</dict>
 		<key>SplashScreen</key>
@@ -2138,6 +1994,11 @@
 					<dict>
 						<key>className</key>
 						<string>AFCCheckForceUpdate</string>
+						<key>parameters</key>
+						<dict>
+							<key>delegateClassName</key>
+							<string>AFCDefaultAppVersionComparison</string>
+						</dict>
 					</dict>
 				</array>
 				<key>parameters</key>
