@@ -2070,6 +2070,12 @@
 										<key>identifier</key>
 										<string>$app.appVersion</string>
 									</dict>
+									<dict>
+										<key>name</key>
+										<string>UUID</string>
+										<key>identifier</key>
+										<string>$appDefaults.solutions.appUUID</string>
+									</dict>
 								</array>
 							</dict>
 						</array>
