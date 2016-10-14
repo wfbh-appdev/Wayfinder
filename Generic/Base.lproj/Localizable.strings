@@ -265,4 +265,6 @@
 "afcuimmapviewcontroller.buildingloaderroralert.title" = "Map Error";
 "afcuimmapviewcontroller.buildingloaderroralert.message" = "We cannot load the map at this time. Check your network connection.";
 "afcuimmapviewcontroller.buildingloaderroralert.button" = "Ok";
+"afcuimmapviewcontroller.endPointOfInterest.message" = "You have reached";
+
 

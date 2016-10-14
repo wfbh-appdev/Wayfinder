@@ -272,6 +272,7 @@
 "afcuimmapviewcontroller.buildingloaderroralert.title" = "Error en el Mapa";
 "afcuimmapviewcontroller.buildingloaderroralert.message" = "No podemos cargar el mapa en este momento. Compruebe su conexión de red.";
 "afcuimmapviewcontroller.buildingloaderroralert.button" = "SÍ";
+"afcuimmapviewcontroller.endPointOfInterest.message" = "Ha llegado a";
 
 /**
  * Layer Picker
