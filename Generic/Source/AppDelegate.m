@@ -16,7 +16,7 @@
 #import <AppFrameworkCore/AppFrameworkCore.h>
 #import "AFGoogleAnalyticsController.h"
 #import <Crashlytics/Crashlytics.h>
-#import <AppFrameworkMappingModule/AFCMOutdoorToIndoor.h>
+#import <AppFrameworkMappingModule/AFMOutdoorToIndoor.h>
 
 
 @implementation AppDelegate
@@ -34,7 +34,7 @@
     [[UIApplication sharedApplication] registerAnalyticsDelegate:[[AFGoogleAnalyticsController alloc] init]];
 
     if ([launchOptions valueForKey:UIApplicationLaunchOptionsLocationKey]) {
-        [AFCMOutdoorToIndoor sharedConfiguration];
+        [AFMOutdoorToIndoor sharedConfiguration];
     }
 
     return [super application:application willFinishLaunchingWithOptions:launchOptions];

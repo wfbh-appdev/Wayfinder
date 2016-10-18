@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3C1DE4301C3F306B0074369D /* AFGoogleAnalyticsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1DE42F1C3F306B0074369D /* AFGoogleAnalyticsController.m */; };
+		4AD72CD87B22250320E754C5 /* libPods-GenericAF4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5A55BB941F06A8E81EA3DF /* libPods-GenericAF4.a */; };
 		55173FDE1D62790500EE540B /* UIConfigurationDefault.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55173FDD1D62790500EE540B /* UIConfigurationDefault.plist */; };
 		551BF9251C1B51E9004D7ECD /* (null) in Resources */ = {isa = PBXBuildFile; };
 		551BF9261C1B51E9004D7ECD /* (null) in Resources */ = {isa = PBXBuildFile; };
@@ -24,8 +25,8 @@
 		5574F54F1C3AF889007BC741 /* AFCUILocationProviderViewClassTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5574F54E1C3AF889007BC741 /* AFCUILocationProviderViewClassTableViewCell.m */; };
 		5574F5521C3B21AD007BC741 /* AFCUIDistanceUnitsCellViewClassTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5574F5501C3B21AD007BC741 /* AFCUIDistanceUnitsCellViewClassTableViewCell.m */; };
 		55BAB7CB1C3EB98600799988 /* PhunwareIntegration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55BAB7CD1C3EB98600799988 /* PhunwareIntegration.plist */; };
-		7E1303381CDA451300AF350E /* AFCMMapPickerViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E1303371CDA451300AF350E /* AFCMMapPickerViewController.plist */; };
-		7E13033A1CDA453100AF350E /* AFCMMapPickerTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E1303391CDA453100AF350E /* AFCMMapPickerTableViewCell.plist */; };
+		7E1303381CDA451300AF350E /* AFMUIMapPickerViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E1303371CDA451300AF350E /* AFMUIMapPickerViewController.plist */; };
+		7E13033A1CDA453100AF350E /* AFMUIMapPickerTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E1303391CDA453100AF350E /* AFMUIMapPickerTableViewCell.plist */; };
 		7E699E741C973AE500000BA9 /* AFCLayerPickerViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E699E731C973AE500000BA9 /* AFCLayerPickerViewController.plist */; };
 		7E699E761C97708B00000BA9 /* AFCLayerPickerTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E699E751C97708B00000BA9 /* AFCLayerPickerTableViewCell.plist */; };
 		8C10FC371C49CD5A000A7913 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C10FC361C49CD5A000A7913 /* Fabric.framework */; };
@@ -33,7 +34,7 @@
 		8CA4FA061C8F9FE900E0028C /* 20160120_android_multilayer_sandbox.s3db in Resources */ = {isa = PBXBuildFile; fileRef = 8CA4FA051C8F9FE900E0028C /* 20160120_android_multilayer_sandbox.s3db */; };
 		8CB729D21C20A30D00F016B7 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB729D11C20A30D00F016B7 /* Crashlytics.framework */; };
 		8CCAD9611C2B13890069AEB1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8CCAD9631C2B13890069AEB1 /* Localizable.strings */; };
-		8CFB59F01CCFECB300ADACEE /* AFCUIMMapViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8CFB59EF1CCFECB300ADACEE /* AFCUIMMapViewController.plist */; };
+		8CFB59F01CCFECB300ADACEE /* AFMUIMapViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8CFB59EF1CCFECB300ADACEE /* AFMUIMapViewController.plist */; };
 		8F06130F1BC8569800A55F16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F06130E1BC8569800A55F16 /* main.m */; };
 		8F0613181BC8569800A55F16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F0613161BC8569800A55F16 /* Main.storyboard */; };
 		8F106FA31BC9D44000CCDD86 /* InteractivePushNotificationCategories.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F106FA21BC9D44000CCDD86 /* InteractivePushNotificationCategories.plist */; };
@@ -54,11 +55,11 @@
 		8F4355991BC85B7800FFD46C /* AFCUIWebViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F4355981BC85B7800FFD46C /* AFCUIWebViewController.plist */; };
 		8F43559C1BC85B8F00FFD46C /* EventsListViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F43559A1BC85B8F00FFD46C /* EventsListViewController.plist */; };
 		8F43559D1BC85B8F00FFD46C /* EventTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F43559B1BC85B8F00FFD46C /* EventTableViewCell.plist */; };
-		8F5FFFBD1BCC2F58000B027C /* AFCUIMAnnotationDirectoryViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F5FFFB81BCC2F58000B027C /* AFCUIMAnnotationDirectoryViewController.plist */; };
-		8F5FFFBE1BCC2F58000B027C /* AFCUIMLocationCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F5FFFB91BCC2F58000B027C /* AFCUIMLocationCell.plist */; };
-		8F5FFFBF1BCC2F58000B027C /* AFCUIMRouteBuilderViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F5FFFBA1BCC2F58000B027C /* AFCUIMRouteBuilderViewController.plist */; };
-		8F5FFFC01BCC2F58000B027C /* AFCUIMPOIFilterEditorViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F5FFFBB1BCC2F58000B027C /* AFCUIMPOIFilterEditorViewController.plist */; };
-		8F5FFFC11BCC2F58000B027C /* AFCUIAnnotationDetailViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F5FFFBC1BCC2F58000B027C /* AFCUIAnnotationDetailViewController.plist */; };
+		8F5FFFBD1BCC2F58000B027C /* AFMUIPOIViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F5FFFB81BCC2F58000B027C /* AFMUIPOIViewController.plist */; };
+		8F5FFFBE1BCC2F58000B027C /* AFMUILocationCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F5FFFB91BCC2F58000B027C /* AFMUILocationCell.plist */; };
+		8F5FFFBF1BCC2F58000B027C /* AFMUIRouteViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F5FFFBA1BCC2F58000B027C /* AFMUIRouteViewController.plist */; };
+		8F5FFFC01BCC2F58000B027C /* AFMUIPOIFilterViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F5FFFBB1BCC2F58000B027C /* AFMUIPOIFilterViewController.plist */; };
+		8F5FFFC11BCC2F58000B027C /* AFMUIPOIDetailViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F5FFFBC1BCC2F58000B027C /* AFMUIPOIDetailViewController.plist */; };
 		8F5FFFD71BCDB00C000B027C /* AFCASubscriptionsSetupViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F5FFFD61BCDB00C000B027C /* AFCASubscriptionsSetupViewController.plist */; };
 		8F885A611BCC2352004E2474 /* AFCParkingViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F885A601BCC2352004E2474 /* AFCParkingViewController.plist */; };
 		8F8C54171BD6DB440018A2ED /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8C54151BD6DB440018A2ED /* SplashViewController.m */; };
@@ -74,15 +75,14 @@
 		8FDD0F4D1BD1CC5000A0C512 /* Proxima Nova Sbold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8FDD0F4A1BD1CC5000A0C512 /* Proxima Nova Sbold.otf */; };
 		8FDD0F4E1BD1CC5000A0C512 /* ProximaNova-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8FDD0F4B1BD1CC5000A0C512 /* ProximaNova-Light.otf */; };
 		8FDD0F4F1BD1CC5000A0C512 /* ProximaNova-Reg.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8FDD0F4C1BD1CC5000A0C512 /* ProximaNova-Reg.otf */; };
-		A867D5E6CAF16308F588523F /* libPods-GenericAF4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F801A9A7628D6C3AF22851C /* libPods-GenericAF4.a */; };
 		C398FC971D75E9C700FD48DE /* AFCUIDynamicViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = C398FC961D75E9C700FD48DE /* AFCUIDynamicViewController.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2E0C08B8CBA2DD50A9ABAC11 /* Pods-GenericAF4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericAF4.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4.debug.xcconfig"; sourceTree = "<group>"; };
-		3A8C79C9DFBF5083A80298B8 /* Pods-GenericAF4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericAF4.release.xcconfig"; path = "Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4.release.xcconfig"; sourceTree = "<group>"; };
 		3C1DE42E1C3F306B0074369D /* AFGoogleAnalyticsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFGoogleAnalyticsController.h; sourceTree = "<group>"; };
 		3C1DE42F1C3F306B0074369D /* AFGoogleAnalyticsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFGoogleAnalyticsController.m; sourceTree = "<group>"; };
+		49FCFC7DF95FB8AE2E10158A /* Pods-GenericAF4.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericAF4.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4.adhoc.xcconfig"; sourceTree = "<group>"; };
+		4FBB0FA85ED06251D65C4E04 /* Pods-GenericAF4.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericAF4.distribution.xcconfig"; path = "Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4.distribution.xcconfig"; sourceTree = "<group>"; };
 		55173FDD1D62790500EE540B /* UIConfigurationDefault.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UIConfigurationDefault.plist; sourceTree = "<group>"; };
 		5520ABC21C19E3A000757715 /* Splash-568h@2x.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Splash-568h@2x.mov"; sourceTree = "<group>"; };
 		5520ABC31C19E3A000757715 /* Splash.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Splash.mov; sourceTree = "<group>"; };
@@ -103,9 +103,9 @@
 		558BA0B01C44533000394237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
 		55BAB7CC1C3EB98600799988 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/PhunwareIntegration.plist; sourceTree = "<group>"; };
 		55BAB7CE1C3EB98800799988 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = es; path = es.lproj/PhunwareIntegration.plist; sourceTree = "<group>"; };
-		5F801A9A7628D6C3AF22851C /* libPods-GenericAF4.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GenericAF4.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E1303371CDA451300AF350E /* AFCMMapPickerViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCMMapPickerViewController.plist; sourceTree = "<group>"; };
-		7E1303391CDA453100AF350E /* AFCMMapPickerTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCMMapPickerTableViewCell.plist; sourceTree = "<group>"; };
+		6D5A55BB941F06A8E81EA3DF /* libPods-GenericAF4.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GenericAF4.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E1303371CDA451300AF350E /* AFMUIMapPickerViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFMUIMapPickerViewController.plist; sourceTree = "<group>"; };
+		7E1303391CDA453100AF350E /* AFMUIMapPickerTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFMUIMapPickerTableViewCell.plist; sourceTree = "<group>"; };
 		7E699E731C973AE500000BA9 /* AFCLayerPickerViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCLayerPickerViewController.plist; sourceTree = "<group>"; };
 		7E699E751C97708B00000BA9 /* AFCLayerPickerTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCLayerPickerTableViewCell.plist; sourceTree = "<group>"; };
 		8C10FC361C49CD5A000A7913 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
@@ -115,7 +115,7 @@
 		8CB729D11C20A30D00F016B7 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		8CCAD9621C2B13890069AEB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8CCAD9661C2B14A50069AEB1 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
-		8CFB59EF1CCFECB300ADACEE /* AFCUIMMapViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCUIMMapViewController.plist; sourceTree = "<group>"; };
+		8CFB59EF1CCFECB300ADACEE /* AFMUIMapViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFMUIMapViewController.plist; sourceTree = "<group>"; };
 		8F06130A1BC8569800A55F16 /* GenericAF4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenericAF4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F06130E1BC8569800A55F16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8F0613171BC8569800A55F16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -138,11 +138,11 @@
 		8F4355981BC85B7800FFD46C /* AFCUIWebViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCUIWebViewController.plist; sourceTree = "<group>"; };
 		8F43559A1BC85B8F00FFD46C /* EventsListViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EventsListViewController.plist; sourceTree = "<group>"; };
 		8F43559B1BC85B8F00FFD46C /* EventTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EventTableViewCell.plist; sourceTree = "<group>"; };
-		8F5FFFB81BCC2F58000B027C /* AFCUIMAnnotationDirectoryViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCUIMAnnotationDirectoryViewController.plist; sourceTree = "<group>"; };
-		8F5FFFB91BCC2F58000B027C /* AFCUIMLocationCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCUIMLocationCell.plist; sourceTree = "<group>"; };
-		8F5FFFBA1BCC2F58000B027C /* AFCUIMRouteBuilderViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCUIMRouteBuilderViewController.plist; sourceTree = "<group>"; };
-		8F5FFFBB1BCC2F58000B027C /* AFCUIMPOIFilterEditorViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCUIMPOIFilterEditorViewController.plist; sourceTree = "<group>"; };
-		8F5FFFBC1BCC2F58000B027C /* AFCUIAnnotationDetailViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCUIAnnotationDetailViewController.plist; sourceTree = "<group>"; };
+		8F5FFFB81BCC2F58000B027C /* AFMUIPOIViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFMUIPOIViewController.plist; sourceTree = "<group>"; };
+		8F5FFFB91BCC2F58000B027C /* AFMUILocationCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFMUILocationCell.plist; sourceTree = "<group>"; };
+		8F5FFFBA1BCC2F58000B027C /* AFMUIRouteViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFMUIRouteViewController.plist; sourceTree = "<group>"; };
+		8F5FFFBB1BCC2F58000B027C /* AFMUIPOIFilterViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFMUIPOIFilterViewController.plist; sourceTree = "<group>"; };
+		8F5FFFBC1BCC2F58000B027C /* AFMUIPOIDetailViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFMUIPOIDetailViewController.plist; sourceTree = "<group>"; };
 		8F5FFFD61BCDB00C000B027C /* AFCASubscriptionsSetupViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCASubscriptionsSetupViewController.plist; sourceTree = "<group>"; };
 		8F885A601BCC2352004E2474 /* AFCParkingViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCParkingViewController.plist; sourceTree = "<group>"; };
 		8F8C54141BD6DB440018A2ED /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
@@ -160,9 +160,9 @@
 		8FDD0F4A1BD1CC5000A0C512 /* Proxima Nova Sbold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Sbold.otf"; sourceTree = "<group>"; };
 		8FDD0F4B1BD1CC5000A0C512 /* ProximaNova-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Light.otf"; sourceTree = "<group>"; };
 		8FDD0F4C1BD1CC5000A0C512 /* ProximaNova-Reg.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Reg.otf"; sourceTree = "<group>"; };
+		C02DC45A51222D0A8E013A46 /* Pods-GenericAF4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericAF4.release.xcconfig"; path = "Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4.release.xcconfig"; sourceTree = "<group>"; };
 		C398FC961D75E9C700FD48DE /* AFCUIDynamicViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCUIDynamicViewController.plist; sourceTree = "<group>"; };
-		C5FCD20CACD9F9285E56B182 /* Pods-GenericAF4.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericAF4.distribution.xcconfig"; path = "Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4.distribution.xcconfig"; sourceTree = "<group>"; };
-		D5A469EB412EDC9A92682749 /* Pods-GenericAF4.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericAF4.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4.adhoc.xcconfig"; sourceTree = "<group>"; };
+		CD63D1DBC98CA341DD182074 /* Pods-GenericAF4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericAF4.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,7 +173,7 @@
 				8C64BA151D02143100AB0FDD /* CoreBluetooth.framework in Frameworks */,
 				8CB729D21C20A30D00F016B7 /* Crashlytics.framework in Frameworks */,
 				8C10FC371C49CD5A000A7913 /* Fabric.framework in Frameworks */,
-				A867D5E6CAF16308F588523F /* libPods-GenericAF4.a in Frameworks */,
+				4AD72CD87B22250320E754C5 /* libPods-GenericAF4.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,20 +186,9 @@
 				8C64BA141D02143100AB0FDD /* CoreBluetooth.framework */,
 				8C10FC361C49CD5A000A7913 /* Fabric.framework */,
 				8CB729D11C20A30D00F016B7 /* Crashlytics.framework */,
-				5F801A9A7628D6C3AF22851C /* libPods-GenericAF4.a */,
+				6D5A55BB941F06A8E81EA3DF /* libPods-GenericAF4.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		43F131A83DF9E5F652E68AFA /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2E0C08B8CBA2DD50A9ABAC11 /* Pods-GenericAF4.debug.xcconfig */,
-				3A8C79C9DFBF5083A80298B8 /* Pods-GenericAF4.release.xcconfig */,
-				C5FCD20CACD9F9285E56B182 /* Pods-GenericAF4.distribution.xcconfig */,
-				D5A469EB412EDC9A92682749 /* Pods-GenericAF4.adhoc.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		5520ABC11C19E36E00757715 /* Splash */ = {
@@ -216,7 +205,7 @@
 				8F06130C1BC8569800A55F16 /* Generic */,
 				8F06130B1BC8569800A55F16 /* Products */,
 				107C6A95EB070C251FE734E3 /* Frameworks */,
-				43F131A83DF9E5F652E68AFA /* Pods */,
+				CF99A4EC9477B8A8D7AEE9C6 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -261,12 +250,12 @@
 		8F43556C1BC858B700FFD46C /* UIConfiguration */ = {
 			isa = PBXGroup;
 			children = (
-				8CFB59EF1CCFECB300ADACEE /* AFCUIMMapViewController.plist */,
-				8F5FFFB81BCC2F58000B027C /* AFCUIMAnnotationDirectoryViewController.plist */,
-				8F5FFFB91BCC2F58000B027C /* AFCUIMLocationCell.plist */,
-				8F5FFFBA1BCC2F58000B027C /* AFCUIMRouteBuilderViewController.plist */,
-				8F5FFFBB1BCC2F58000B027C /* AFCUIMPOIFilterEditorViewController.plist */,
-				8F5FFFBC1BCC2F58000B027C /* AFCUIAnnotationDetailViewController.plist */,
+				8CFB59EF1CCFECB300ADACEE /* AFMUIMapViewController.plist */,
+				8F5FFFB81BCC2F58000B027C /* AFMUIPOIViewController.plist */,
+				8F5FFFB91BCC2F58000B027C /* AFMUILocationCell.plist */,
+				8F5FFFBA1BCC2F58000B027C /* AFMUIRouteViewController.plist */,
+				8F5FFFBB1BCC2F58000B027C /* AFMUIPOIFilterViewController.plist */,
+				8F5FFFBC1BCC2F58000B027C /* AFMUIPOIDetailViewController.plist */,
 				8F43559A1BC85B8F00FFD46C /* EventsListViewController.plist */,
 				8F43559B1BC85B8F00FFD46C /* EventTableViewCell.plist */,
 				8F4355981BC85B7800FFD46C /* AFCUIWebViewController.plist */,
@@ -287,8 +276,8 @@
 				8F8C542E1BD8191F0018A2ED /* AFCUIMallDetailViewController.plist */,
 				7E699E731C973AE500000BA9 /* AFCLayerPickerViewController.plist */,
 				7E699E751C97708B00000BA9 /* AFCLayerPickerTableViewCell.plist */,
-				7E1303371CDA451300AF350E /* AFCMMapPickerViewController.plist */,
-				7E1303391CDA453100AF350E /* AFCMMapPickerTableViewCell.plist */,
+				7E1303371CDA451300AF350E /* AFMUIMapPickerViewController.plist */,
+				7E1303391CDA453100AF350E /* AFMUIMapPickerTableViewCell.plist */,
 				C398FC961D75E9C700FD48DE /* AFCUIDynamicViewController.plist */,
 				55173FDD1D62790500EE540B /* UIConfigurationDefault.plist */,
 			);
@@ -345,6 +334,17 @@
 			path = ActionConfiguration;
 			sourceTree = "<group>";
 		};
+		CF99A4EC9477B8A8D7AEE9C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD63D1DBC98CA341DD182074 /* Pods-GenericAF4.debug.xcconfig */,
+				C02DC45A51222D0A8E013A46 /* Pods-GenericAF4.release.xcconfig */,
+				4FBB0FA85ED06251D65C4E04 /* Pods-GenericAF4.distribution.xcconfig */,
+				49FCFC7DF95FB8AE2E10158A /* Pods-GenericAF4.adhoc.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -352,13 +352,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F0613211BC8569800A55F16 /* Build configuration list for PBXNativeTarget "GenericAF4" */;
 			buildPhases = (
-				B827BB3DEAC96751D4B354C2 /* [CP] Check Pods Manifest.lock */,
+				66564558351BA9BBD3F9917E /* [CP] Check Pods Manifest.lock */,
 				8F0613061BC8569800A55F16 /* Sources */,
 				8F0613071BC8569800A55F16 /* Frameworks */,
 				8F0613081BC8569800A55F16 /* Resources */,
 				8CB729D01C20A1D000F016B7 /* ShellScript */,
-				07438387F180B3A439CD2387 /* [CP] Embed Pods Frameworks */,
-				8E73104D0575D2D56DC0DF6A /* [CP] Copy Pods Resources */,
+				2E58BF4339C92E477C9DCF89 /* [CP] Embed Pods Frameworks */,
+				37C060B07D52E596952EAEB1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -425,13 +425,13 @@
 				551BF9281C1B51E9004D7ECD /* (null) in Resources */,
 				5555DB071C44646800E37207 /* AFCDirectoryViewController.plist in Resources */,
 				8F885A611BCC2352004E2474 /* AFCParkingViewController.plist in Resources */,
-				8CFB59F01CCFECB300ADACEE /* AFCUIMMapViewController.plist in Resources */,
+				8CFB59F01CCFECB300ADACEE /* AFMUIMapViewController.plist in Resources */,
 				8F8C542F1BD8191F0018A2ED /* AFCUIMallDetailViewController.plist in Resources */,
 				8F43558B1BC858B700FFD46C /* AFCUIItemDetailViewController.plist in Resources */,
 				8F43558C1BC858B700FFD46C /* AFCUIModalWebBrowser.plist in Resources */,
 				551BF9251C1B51E9004D7ECD /* (null) in Resources */,
 				551BF9271C1B51E9004D7ECD /* (null) in Resources */,
-				7E1303381CDA451300AF350E /* AFCMMapPickerViewController.plist in Resources */,
+				7E1303381CDA451300AF350E /* AFMUIMapPickerViewController.plist in Resources */,
 				8F4355941BC858B700FFD46C /* StandardIcons.xcassets in Resources */,
 				5520ABC71C19E3A000757715 /* Splash@2x.mov in Resources */,
 				8FDD0F4F1BD1CC5000A0C512 /* ProximaNova-Reg.otf in Resources */,
@@ -440,11 +440,11 @@
 				8F4355921BC858B700FFD46C /* Splash.mov in Resources */,
 				55173FDE1D62790500EE540B /* UIConfigurationDefault.plist in Resources */,
 				8F43558D1BC858B700FFD46C /* AFCUITrayMenuViewController.plist in Resources */,
-				7E13033A1CDA453100AF350E /* AFCMMapPickerTableViewCell.plist in Resources */,
+				7E13033A1CDA453100AF350E /* AFMUIMapPickerTableViewCell.plist in Resources */,
 				5555DB0B1C446C6A00E37207 /* AFCDirectoryCategoryViewController.plist in Resources */,
 				8F43558A1BC858B700FFD46C /* AFCParkingVoiceMemoViewController.plist in Resources */,
-				8F5FFFBD1BCC2F58000B027C /* AFCUIMAnnotationDirectoryViewController.plist in Resources */,
-				8F5FFFC11BCC2F58000B027C /* AFCUIAnnotationDetailViewController.plist in Resources */,
+				8F5FFFBD1BCC2F58000B027C /* AFMUIPOIViewController.plist in Resources */,
+				8F5FFFC11BCC2F58000B027C /* AFMUIPOIDetailViewController.plist in Resources */,
 				7E699E761C97708B00000BA9 /* AFCLayerPickerTableViewCell.plist in Resources */,
 				8FDD0F4D1BD1CC5000A0C512 /* Proxima Nova Sbold.otf in Resources */,
 				8F4355931BC858B700FFD46C /* Splash@2x.mov in Resources */,
@@ -456,14 +456,14 @@
 				551BF9261C1B51E9004D7ECD /* (null) in Resources */,
 				8FDD0F3B1BD1775500A0C512 /* GenericAppNavigationController.xib in Resources */,
 				8F4355861BC858B700FFD46C /* AFCParkingMapViewController.plist in Resources */,
-				8F5FFFBE1BCC2F58000B027C /* AFCUIMLocationCell.plist in Resources */,
+				8F5FFFBE1BCC2F58000B027C /* AFMUILocationCell.plist in Resources */,
 				8F4355901BC858B700FFD46C /* Customization.xcassets in Resources */,
 				8F4355991BC85B7800FFD46C /* AFCUIWebViewController.plist in Resources */,
 				8CA4FA061C8F9FE900E0028C /* 20160120_android_multilayer_sandbox.s3db in Resources */,
 				8FDD0F491BD190B900A0C512 /* ApplicationShortcuts.plist in Resources */,
-				8F5FFFBF1BCC2F58000B027C /* AFCUIMRouteBuilderViewController.plist in Resources */,
+				8F5FFFBF1BCC2F58000B027C /* AFMUIRouteViewController.plist in Resources */,
 				8CCAD9611C2B13890069AEB1 /* Localizable.strings in Resources */,
-				8F5FFFC01BCC2F58000B027C /* AFCUIMPOIFilterEditorViewController.plist in Resources */,
+				8F5FFFC01BCC2F58000B027C /* AFMUIPOIFilterViewController.plist in Resources */,
 				8FB674781BD6D73000E7BFE4 /* LaunchScreen.xib in Resources */,
 				8F106FA31BC9D44000CCDD86 /* InteractivePushNotificationCategories.plist in Resources */,
 				5555DB031C4460C900E37207 /* InfoPlist.strings in Resources */,
@@ -479,7 +479,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		07438387F180B3A439CD2387 /* [CP] Embed Pods Frameworks */ = {
+		2E58BF4339C92E477C9DCF89 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -494,20 +494,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8CB729D01C20A1D000F016B7 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "./Crashlytics.framework/run b8127086af392cb1b73dc00a7387bb7a0856138f 47c407d9fb90f3350023f2dac10c37722a9caf3ae98396a16b0b41715177000a";
-		};
-		8E73104D0575D2D56DC0DF6A /* [CP] Copy Pods Resources */ = {
+		37C060B07D52E596952EAEB1 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -522,7 +509,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B827BB3DEAC96751D4B354C2 /* [CP] Check Pods Manifest.lock */ = {
+		66564558351BA9BBD3F9917E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -534,8 +521,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
+		};
+		8CB729D01C20A1D000F016B7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Crashlytics.framework/run b8127086af392cb1b73dc00a7387bb7a0856138f 47c407d9fb90f3350023f2dac10c37722a9caf3ae98396a16b0b41715177000a";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -716,7 +716,7 @@
 		};
 		8F0613221BC8569800A55F16 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E0C08B8CBA2DD50A9ABAC11 /* Pods-GenericAF4.debug.xcconfig */;
+			baseConfigurationReference = CD63D1DBC98CA341DD182074 /* Pods-GenericAF4.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -740,7 +740,7 @@
 		};
 		8F0613231BC8569800A55F16 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A8C79C9DFBF5083A80298B8 /* Pods-GenericAF4.release.xcconfig */;
+			baseConfigurationReference = C02DC45A51222D0A8E013A46 /* Pods-GenericAF4.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -802,7 +802,7 @@
 		};
 		8F5FFFD31BCD6F62000B027C /* Distribution */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5FCD20CACD9F9285E56B182 /* Pods-GenericAF4.distribution.xcconfig */;
+			baseConfigurationReference = 4FBB0FA85ED06251D65C4E04 /* Pods-GenericAF4.distribution.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -864,7 +864,7 @@
 		};
 		8F5FFFD51BCD6F6B000B027C /* AdHoc */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5A469EB412EDC9A92682749 /* Pods-GenericAF4.adhoc.xcconfig */;
+			baseConfigurationReference = 49FCFC7DF95FB8AE2E10158A /* Pods-GenericAF4.adhoc.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

@@ -7,7 +7,7 @@
 //
 
 #import "AFCUIDistanceUnitsCellViewClassTableViewCell.h"
-#import <AppFrameworkMappingModule/AFCMAppStateConstants.h>
+#import <AppFrameworkMappingModule/AFMAppStateConstants.h>
 #import <AppFrameworkCore/AppFrameworkCore.h>
 
 

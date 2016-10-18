@@ -43,7 +43,7 @@
 						</dict>
 						<dict>
 							<key>className</key>
-							<string>AFCMSetLocationProviderAction</string>
+							<string>AFMSetLocationProviderAction</string>
 							<key>parameters</key>
 							<dict>
 								<key>contentId</key>
@@ -109,7 +109,7 @@
 			<key>didFailToRegisterForRemoteNotifications</key>
 			<dict>
 				<key>className</key>
-				<string>AFCMappingRegisterDeepLinksAction</string>
+				<string>AFMMappingRegisterDeepLinksAction</string>
 			</dict>
 		</dict>
 		<key>Button</key>
@@ -375,7 +375,7 @@
 						</dict>
 						<dict>
 							<key>className</key>
-							<string>AFCMappingRegisterDeepLinksAction</string>
+							<string>AFMMappingRegisterDeepLinksAction</string>
 						</dict>
 						<dict>
 							<key>className</key>
@@ -1107,7 +1107,7 @@
 			<key>find</key>
 			<dict>
 				<key>className</key>
-				<string>AFCMFindPOIById</string>
+				<string>AFMFindPOIById</string>
 				<key>parameters</key>
 				<dict>
 					<key>pois</key>
@@ -1117,7 +1117,7 @@
 			<key>show</key>
 			<dict>
 				<key>className</key>
-				<string>AFCShowAnnotationCardAction</string>
+				<string>AFMShowAnnotationCardAction</string>
 				<key>parameters</key>
 				<dict>
 					<key>annotations</key>
@@ -1146,7 +1146,7 @@
 			<key>push</key>
 			<dict>
 				<key>className</key>
-				<string>AFCShowAnnotationCardAction</string>
+				<string>AFMShowAnnotationCardAction</string>
 				<key>dependencies</key>
 				<array>
 					<dict>
@@ -1155,7 +1155,7 @@
 						<key>parameters</key>
 						<dict>
 							<key>viewController</key>
-							<string>AFCUIMMapViewController</string>
+							<string>AFMUIMapViewController</string>
 							<key>presentationMode</key>
 							<string>push</string>
 							<key>shouldAnimate</key>
@@ -1203,7 +1203,7 @@
 			<key>show</key>
 			<dict>
 				<key>className</key>
-				<string>AFCShowAnnotationCardAction</string>
+				<string>AFMShowAnnotationCardAction</string>
 				<key>dependencies</key>
 				<array>
 					<dict>
@@ -1212,7 +1212,7 @@
 						<key>parameters</key>
 						<dict>
 							<key>viewController</key>
-							<string>AFCUIMMapViewController</string>
+							<string>AFMUIMapViewController</string>
 							<key>presentationMode</key>
 							<string>replaceTop</string>
 							<key>shouldAnimate</key>
@@ -1277,11 +1277,11 @@
 			<key>switch</key>
 			<dict>
 				<key>className</key>
-				<string>AFCMChangeBuildingAction</string>
+				<string>AFMChangeBuildingAction</string>
 				<key>parameters</key>
 				<dict>
 					<key>pickerViewController</key>
-					<string>AFCMMapPickerViewController</string>
+					<string>AFMUIMapPickerViewController</string>
 					<key>buildings</key>
 					<string>$action.auxID1</string>
 					<key>poiID</key>
@@ -1322,17 +1322,17 @@
 			<key>showAnnotation</key>
 			<dict>
 				<key>className</key>
-				<string>AFCShowAnnotationCardAction</string>
+				<string>AFMShowAnnotationCardAction</string>
 			</dict>
 			<key>setLocationProvider</key>
 			<dict>
 				<key>className</key>
-				<string>AFCMSetLocationProviderAction</string>
+				<string>AFMSetLocationProviderAction</string>
 			</dict>
 			<key>clearCache</key>
 			<dict>
 				<key>className</key>
-				<string>AFCMClearMapCacheAction</string>
+				<string>AFMClearMapCacheAction</string>
 			</dict>
 		</dict>
 		<key>MapDirectory</key>
@@ -1344,7 +1344,7 @@
 				<key>parameters</key>
 				<dict>
 					<key>viewController</key>
-					<string>AFCUIMAnnotationDirectoryViewController</string>
+					<string>AFMUIPOIViewController</string>
 					<key>presentationMode</key>
 					<string>push</string>
 					<key>shouldAnimate</key>
@@ -1371,7 +1371,7 @@
 				<key>parameters</key>
 				<dict>
 					<key>viewController</key>
-					<string>AFCUIMAnnotationDirectoryViewController</string>
+					<string>AFMUIPOIViewController</string>
 					<key>presentationMode</key>
 					<string>push</string>
 					<key>shouldAnimate</key>
@@ -1401,7 +1401,7 @@
 				<key>parameters</key>
 				<dict>
 					<key>viewController</key>
-					<string>AFCUIMPOIFilterEditorViewController</string>
+					<string>AFMUIPOIFilterViewController</string>
 					<key>presentationMode</key>
 					<string>push</string>
 					<key>shouldAnimate</key>
@@ -1419,7 +1419,7 @@
 			<key>show</key>
 			<dict>
 				<key>className</key>
-				<string>AFCMStartRouteInAppleMapsAction</string>
+				<string>AFMStartRouteInAppleMapsAction</string>
 			</dict>
 		</dict>
 		<key>Offer</key>
@@ -1624,7 +1624,7 @@
 			<key>link</key>
 			<dict>
 				<key>className</key>
-				<string>AFCMStartRouteBuilderUIAction</string>
+				<string>AFMStartRouteBuilderUIAction</string>
 				<key>dependencies</key>
 				<array>
 					<dict>
@@ -1645,7 +1645,7 @@
 					</dict>
 					<dict>
 						<key>className</key>
-						<string>AFCMVerifyUserInFacilityAction</string>
+						<string>AFMVerifyUserInFacilityAction</string>
 						<key>parameters</key>
 						<dict>
 							<key>resultsKey</key>
@@ -1657,12 +1657,12 @@
 			<key>make</key>
 			<dict>
 				<key>className</key>
-				<string>AFCMStartRouteBuilderUIAction</string>
+				<string>AFMStartRouteBuilderUIAction</string>
 				<key>dependencies</key>
 				<array>
 					<dict>
 						<key>className</key>
-						<string>AFCMVerifyUserInFacilityAction</string>
+						<string>AFMVerifyUserInFacilityAction</string>
 						<key>parameters</key>
 						<dict>
 							<key>resultsKey</key>
@@ -1678,7 +1678,7 @@
 				<key>parameters</key>
 				<dict>
 					<key>viewController</key>
-					<string>AFCUIMRouteBuilderViewController</string>
+					<string>AFMUIRouteViewController</string>
 					<key>presentationMode</key>
 					<string>modal</string>
 					<key>shouldAnimate</key>
@@ -1701,7 +1701,7 @@
 			<key>show</key>
 			<dict>
 				<key>className</key>
-				<string>AFCMPresentRouteAction</string>
+				<string>AFMPresentRouteAction</string>
 				<key>parameters</key>
 				<dict>
 					<key>route</key>
@@ -1966,7 +1966,7 @@
 			<key>clearCache</key>
 			<dict>
 				<key>className</key>
-				<string>AFCMClearMapCacheAction</string>
+				<string>AFMClearMapCacheAction</string>
 			</dict>
 		</dict>
 		<key>SplashScreen</key>

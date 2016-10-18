@@ -212,8 +212,8 @@
 "afcdirectoryviewcontroller.setSearchBarPlaceHolder.searchText" = "Search";
 "afcuimmapviewcontroller.searchbar.text" = "Search...";
 
-"afcuimroutingannotationview.starthereannotation.title"="Start Here";
-"afcuimroutingannotationview.destinationannotation.title"="Destination";
+"afcuimroutingannotationview.starthereannotation.title"="Start";
+"afcuimroutingannotationview.destinationannotation.title"="End";
 
 "afcuimroutingannotationview.taptogoback.title" = "TAP TO GO BACK";
 "afcuimroutingannotationview.taptoviewnext.title" = "TAP TO VIEW NEXT";

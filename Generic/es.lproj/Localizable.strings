@@ -194,8 +194,8 @@
 "afcuimmapviewcontroller.searchbar.text" = "Buscar...";
 "Search...                                                                " = "Buscar...                                                                ";
 
-"afcuimroutingannotationview.starthereannotation.title"="Comience Aquí";
-"afcuimroutingannotationview.destinationannotation.title"="Destino";
+"afcuimroutingannotationview.starthereannotation.title"="Comience";
+"afcuimroutingannotationview.destinationannotation.title"="Termina";
 
 "afcuimroutingannotationview.taptogoback.title" = "TAP PARA REGRESAR";
 "afcuimroutingannotationview.taptoviewnext.title" = "TAP PARA SIGUIENTE";
