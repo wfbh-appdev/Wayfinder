@@ -49,6 +49,10 @@
 	</dict>
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>App uses your location to do indoor routing and mapping to venues.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>$(EXECUTABLE_NAME) Camera Use</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>$(PRODUCT_NAME) microphone use</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>App uses your location to do indoor routing and mapping to venues.</string>
 	<key>UIAppFonts</key>
