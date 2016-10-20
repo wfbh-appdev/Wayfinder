@@ -34,7 +34,7 @@
 			<key>alignment</key>
 			<string>center</string>
 			<key>color</key>
-			<string>$MainFontColorLight</string>
+			<string>$MainFontColor</string>
 			<key>fontSize</key>
 			<string>$MainFontSize</string>
 			<key>fontName</key>
