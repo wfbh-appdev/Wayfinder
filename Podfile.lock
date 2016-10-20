@@ -132,25 +132,25 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   AppFrameworkCore:
-    :commit: 9fa307f4a037f467102cadc3c428309ec7aed342
+    :commit: e36a612f9e307c41dcb5a4e6f98f945d3d919409
     :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binaries.git
   AppFrameworkDirectoryModule:
-    :commit: 9fa307f4a037f467102cadc3c428309ec7aed342
+    :commit: e36a612f9e307c41dcb5a4e6f98f945d3d919409
     :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binaries.git
   AppFrameworkEventsModule:
-    :commit: 9fa307f4a037f467102cadc3c428309ec7aed342
+    :commit: e36a612f9e307c41dcb5a4e6f98f945d3d919409
     :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binaries.git
   AppFrameworkLocationMarketingModule:
-    :commit: 9fa307f4a037f467102cadc3c428309ec7aed342
+    :commit: e36a612f9e307c41dcb5a4e6f98f945d3d919409
     :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binaries.git
   AppFrameworkMappingModule:
-    :commit: 9fa307f4a037f467102cadc3c428309ec7aed342
+    :commit: e36a612f9e307c41dcb5a4e6f98f945d3d919409
     :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binaries.git
   AppFrameworkParkingModule:
-    :commit: 9fa307f4a037f467102cadc3c428309ec7aed342
+    :commit: e36a612f9e307c41dcb5a4e6f98f945d3d919409
     :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binaries.git
   AppFrameworkRenderModule:
-    :commit: 9fa307f4a037f467102cadc3c428309ec7aed342
+    :commit: e36a612f9e307c41dcb5a4e6f98f945d3d919409
     :git: https://bitbucket.phunware.com/scm/af/af-sdk-ios-binaries.git
 
 SPEC CHECKSUMS:
@@ -187,6 +187,6 @@ SPEC CHECKSUMS:
   SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
   TurtleBezierPath: 680f51b8ed5a27c652974f1b89782c8e2146116b
 
-PODFILE CHECKSUM: 09092d4e82defc948d1147ad3966f15e849dbc70
+PODFILE CHECKSUM: 4fe1cbfbc700552556a9fedf01fa318299a3bf7f
 
 COCOAPODS: 1.1.0.rc.2
