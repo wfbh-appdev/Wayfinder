@@ -15,26 +15,27 @@
 		<string>#ffffff</string>
 		<key>constraints</key>
 		<array>
-			<string>V:|-0-[poiTable]|</string>
-			<string>H:|[poiTable]|</string>
-			<string>V:|-193-[noResultsFound(50)]-&gt;=1-|</string>
-			<string>H:|[noResultsFound]|</string>
+			<string>V:|[table]|</string>
+			<string>H:|[table]|</string>
+			<string>H:|-(&gt;=100)-[noResultsFoundLabel]-(&gt;=100)-|</string>
+			<string>V:|-(&lt;=100)-[noResultsFoundLabel(21)]-(&gt;=100)-|</string>
+			<string>#noResultsFoundLabel.centerx=self.centerx,1,0</string>
 		</array>
 	</dict>
-	<key>poiTable</key>
+	<key>table</key>
 	<dict/>
-	<key>noResultsFound</key>
+	<key>noResultsFoundLabel</key>
 	<dict>
-		<key>fontName</key>
-		<string>$MainFont</string>
-		<key>fontSize</key>
-		<integer>21</integer>
+		<key>type</key>
+		<real>0</real>
 		<key>text</key>
 		<string>#afcuimannotationdirectoryviewcontroller.noresultsfound.text</string>
+		<key>fontSize</key>
+		<string>18</string>
+		<key>color</key>
+		<string>#AAAAAA</string>
 		<key>alignment</key>
 		<string>center</string>
-		<key>lines</key>
-		<integer>1</integer>
 	</dict>
 	<key>favoritesBar</key>
 	<dict>
