@@ -1104,16 +1104,6 @@
 		</dict>
 		<key>Location</key>
 		<dict>
-			<key>find</key>
-			<dict>
-				<key>className</key>
-				<string>AFMFindPOIById</string>
-				<key>parameters</key>
-				<dict>
-					<key>pois</key>
-					<string>$module.pois</string>
-				</dict>
-			</dict>
 			<key>show</key>
 			<dict>
 				<key>className</key>
