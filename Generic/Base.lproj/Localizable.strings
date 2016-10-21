@@ -266,5 +266,6 @@
 "afcuimmapviewcontroller.buildingloaderroralert.message" = "We cannot load the map at this time. Check your network connection.";
 "afcuimmapviewcontroller.buildingloaderroralert.button" = "Ok";
 "afcuimmapviewcontroller.endPointOfInterest.message" = "You have arrived.";
-
+"afcuimapviewcontroller.nopoifound.alert.title" = "POI Not Found";
+"afcuimapviewcontroller.nopoifound.alert.message" = "The POI was not found in the building POIs.";
 

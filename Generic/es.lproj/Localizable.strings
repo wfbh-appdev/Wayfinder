@@ -273,6 +273,8 @@
 "afcuimmapviewcontroller.buildingloaderroralert.message" = "No podemos cargar el mapa en este momento. Compruebe su conexión de red.";
 "afcuimmapviewcontroller.buildingloaderroralert.button" = "SÍ";
 "afcuimmapviewcontroller.endPointOfInterest.message" = "Has llegado.";
+"afcuimapviewcontroller.nopoifound.alert.title" = "Punto de interés no encontrado";
+"afcuimapviewcontroller.nopoifound.alert.message" = "El punto de interés no fue encontrado en el edificio.";
 
 /**
  * Layer Picker
