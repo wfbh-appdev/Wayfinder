@@ -8,13 +8,13 @@ platform :ios, '9.0'
 
 target :'GenericAF4' do
 
-    pod 'AppFrameworkCore',                     :git => 'https://bitbucket.phunware.com/scm/af/af-sdk-ios-binaries.git',       :branch => 'develop'
-    pod 'AppFrameworkDirectoryModule',          :git => 'https://bitbucket.phunware.com/scm/af/af-sdk-ios-binaries.git',       :branch => 'develop'
-    pod 'AppFrameworkEventsModule',             :git => 'https://bitbucket.phunware.com/scm/af/af-sdk-ios-binaries.git',       :branch => 'develop'
-    pod 'AppFrameworkLocationMarketingModule',  :git => 'https://bitbucket.phunware.com/scm/af/af-sdk-ios-binaries.git',       :branch => 'develop'
-    pod 'AppFrameworkMappingModule',            :git => 'https://bitbucket.phunware.com/scm/af/af-sdk-ios-binaries.git',       :branch => 'develop'
-    pod 'AppFrameworkParkingModule',            :git => 'https://bitbucket.phunware.com/scm/af/af-sdk-ios-binaries.git',       :branch => 'develop'
-    pod 'AppFrameworkRenderModule',             :git => 'https://bitbucket.phunware.com/scm/af/af-sdk-ios-binaries.git',       :branch => 'develop'
+    pod 'AppFrameworkCore',                    :git => 'ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git', :branch => 'develop'
+    pod 'AppFrameworkDirectoryModule',         :git => 'ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git', :branch => 'develop'
+    pod 'AppFrameworkEventsModule',            :git => 'ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git', :branch => 'develop'
+    pod 'AppFrameworkLocationMarketingModule', :git => 'ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git', :branch => 'develop'
+    pod 'AppFrameworkMappingModule',           :git => 'ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git', :branch => 'develop'
+    pod 'AppFrameworkParkingModule',           :git => 'ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git', :branch => 'develop'
+    pod 'AppFrameworkRenderModule',            :git => 'ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git', :branch => 'develop'
     
     pod 'FirebaseAnalytics',          '3.4.2'
     pod 'FirebaseInstanceID',         '1.0.8'
