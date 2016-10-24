@@ -18,7 +18,9 @@ private_lane :configure_build do
         cert_file: "Certificates/enterprise.p12",
         cert_pw: "K3yM@$ter!",
         identity: "iPhone Distribution: Phunware, Inc.",
-        teamId: "84CK77G588"
+        profileSpecifier: "GenericAF4_InHousePushEnabled",
+        teamId: "84CK77G588",
+        customProfilesPath: "Certificates"
     )
 
     add_build_type(
