@@ -10,7 +10,7 @@ private_lane :configure_build do
     default_config(
         workspace: "GenericAF4.xcworkspace",
         scheme: "GenericAF4",
-        thirdPartyAttributions: "../ThirdParty.txt"
+        thirdPartyAttributions: "af-generic-app-ios/ThirdParty.txt"
     )
 
     add_signing_config(
