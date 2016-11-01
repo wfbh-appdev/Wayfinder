@@ -14,9 +14,6 @@
 		551BF9261C1B51E9004D7ECD /* (null) in Resources */ = {isa = PBXBuildFile; };
 		551BF9271C1B51E9004D7ECD /* (null) in Resources */ = {isa = PBXBuildFile; };
 		551BF9281C1B51E9004D7ECD /* (null) in Resources */ = {isa = PBXBuildFile; };
-		5520ABC51C19E3A000757715 /* Splash-568h@2x.mov in Resources */ = {isa = PBXBuildFile; fileRef = 5520ABC21C19E3A000757715 /* Splash-568h@2x.mov */; };
-		5520ABC61C19E3A000757715 /* Splash.mov in Resources */ = {isa = PBXBuildFile; fileRef = 5520ABC31C19E3A000757715 /* Splash.mov */; };
-		5520ABC71C19E3A000757715 /* Splash@2x.mov in Resources */ = {isa = PBXBuildFile; fileRef = 5520ABC41C19E3A000757715 /* Splash@2x.mov */; };
 		5555DB031C4460C900E37207 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5555DB051C4460C900E37207 /* InfoPlist.strings */; };
 		5555DB071C44646800E37207 /* AFCDirectoryViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5555DB091C44646800E37207 /* AFCDirectoryViewController.plist */; };
 		5555DB0B1C446C6A00E37207 /* AFCDirectoryCategoryViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5555DB0D1C446C6A00E37207 /* AFCDirectoryCategoryViewController.plist */; };
@@ -84,9 +81,6 @@
 		49FCFC7DF95FB8AE2E10158A /* Pods-GenericAF4.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericAF4.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4.adhoc.xcconfig"; sourceTree = "<group>"; };
 		4FBB0FA85ED06251D65C4E04 /* Pods-GenericAF4.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericAF4.distribution.xcconfig"; path = "Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4.distribution.xcconfig"; sourceTree = "<group>"; };
 		55173FDD1D62790500EE540B /* UIConfigurationDefault.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UIConfigurationDefault.plist; sourceTree = "<group>"; };
-		5520ABC21C19E3A000757715 /* Splash-568h@2x.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Splash-568h@2x.mov"; sourceTree = "<group>"; };
-		5520ABC31C19E3A000757715 /* Splash.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Splash.mov; sourceTree = "<group>"; };
-		5520ABC41C19E3A000757715 /* Splash@2x.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Splash@2x.mov"; sourceTree = "<group>"; };
 		5555DB041C4460C900E37207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5555DB061C4460CC00E37207 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5555DB081C44646800E37207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/AFCDirectoryViewController.plist; sourceTree = "<group>"; };
@@ -240,9 +234,6 @@
 		8F06130D1BC8569800A55F16 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5520ABC21C19E3A000757715 /* Splash-568h@2x.mov */,
-				5520ABC31C19E3A000757715 /* Splash.mov */,
-				5520ABC41C19E3A000757715 /* Splash@2x.mov */,
 				5520ABC11C19E36E00757715 /* Splash */,
 				8F06130E1BC8569800A55F16 /* main.m */,
 			);
@@ -377,13 +368,13 @@
 		8F0613021BC8569800A55F16 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = Phunware;
 				TargetAttributes = {
 					8F0613091BC8569800A55F16 = {
 						CreatedOnToolsVersion = 7.0;
 						DevelopmentTeam = 84CK77G588;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -436,9 +427,7 @@
 				551BF9271C1B51E9004D7ECD /* (null) in Resources */,
 				7E1303381CDA451300AF350E /* AFMUIMapPickerViewController.plist in Resources */,
 				8F4355941BC858B700FFD46C /* StandardIcons.xcassets in Resources */,
-				5520ABC71C19E3A000757715 /* Splash@2x.mov in Resources */,
 				8FDD0F4F1BD1CC5000A0C512 /* ProximaNova-Reg.otf in Resources */,
-				5520ABC51C19E3A000757715 /* Splash-568h@2x.mov in Resources */,
 				8F8C542A1BD7ED9A0018A2ED /* AFCUIImageSplashViewController.plist in Resources */,
 				8F4355921BC858B700FFD46C /* Splash.mov in Resources */,
 				55173FDE1D62790500EE540B /* UIConfigurationDefault.plist in Resources */,
@@ -475,7 +464,6 @@
 				8F5FFFD71BCDB00C000B027C /* AFCASubscriptionsSetupViewController.plist in Resources */,
 				8F4355871BC858B700FFD46C /* AFCParkingNoteViewController.plist in Resources */,
 				8F4355971BC85B7100FFD46C /* AFCUIEULAViewController.plist in Resources */,
-				5520ABC61C19E3A000757715 /* Splash.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -638,6 +626,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -647,8 +636,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -683,6 +674,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -692,8 +684,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -727,7 +721,8 @@
 				CODE_SIGN_ENTITLEMENTS = GenericAF4/GenericAF4.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 84CK77G588;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -739,8 +734,8 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.generic.af4.ios;
 				PRODUCT_NAME = GenericAF4;
-				PROVISIONING_PROFILE = "15177d88-bebf-46c1-860c-30160cbe6fd9";
-				PROVISIONING_PROFILE_SPECIFIER = GenericAF4_DevCert;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -754,6 +749,7 @@
 				CODE_SIGN_ENTITLEMENTS = GenericAF4/GenericAF4.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -774,6 +770,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -783,8 +780,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -818,6 +817,7 @@
 				CODE_SIGN_ENTITLEMENTS = GenericAF4/GenericAF4.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -838,6 +838,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -847,8 +848,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -882,6 +885,7 @@
 				CODE_SIGN_ENTITLEMENTS = GenericAF4/GenericAF4.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (

@@ -1,5 +1,5 @@
 source 'https://github.com/CocoaPods/Specs.git'
-source 'https://github.com/phunware/phunware-specs.git'
+source 'ssh://git@bitbucket.phunware.com:7999/misc/cocoapods-sdk-ios.git'
 
 workspace 'GenericAF4'
 project 'GenericAF4.xcodeproj'
@@ -25,14 +25,14 @@ target :'GenericAF4' do
     pod 'GoogleUtilities',            '1.3.1'
     pod 'PWLocalpoint',               '2.6.3.1'
 
-    #pod 'AppFrameworkCore',                    :path => '../af-sdk-ios/af-modules/af-core'
-    #pod 'AppFrameworkDirectoryModule',         :path => '../af-sdk-ios/af-modules/af-directory'
-    #pod 'AppFrameworkEventsModule',            :path => '../af-sdk-ios/af-modules/af-events'
-    #pod 'AppFrameworkLocationMarketingModule', :path => '../af-sdk-ios/af-modules/af-location-marketing'
-    #pod 'AppFrameworkMappingModule',           :path => '../af-sdk-ios/af-modules/af-mapping'
-    #pod 'AppFrameworkParkingModule',           :path => '../af-sdk-ios/af-modules/af-parking'
-    #pod 'AppFrameworkRenderModule',            :path => '../af-sdk-ios/af-modules/af-render'
-    
+#    pod 'AppFrameworkCore',                    :path => '../af-sdk-ios/af-modules/af-core'
+#    pod 'AppFrameworkDirectoryModule',         :path => '../af-sdk-ios/af-modules/af-directory'
+#    pod 'AppFrameworkEventsModule',            :path => '../af-sdk-ios/af-modules/af-events'
+#    pod 'AppFrameworkLocationMarketingModule', :path => '../af-sdk-ios/af-modules/af-location-marketing'
+#    pod 'AppFrameworkMappingModule',           :path => '../af-sdk-ios/af-modules/af-mapping'
+#    pod 'AppFrameworkParkingModule',           :path => '../af-sdk-ios/af-modules/af-parking'
+#    pod 'AppFrameworkRenderModule',            :path => '../af-sdk-ios/af-modules/af-render'
+
     project 'GenericAF4.xcodeproj'
 
 end
