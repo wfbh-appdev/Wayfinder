@@ -17,7 +17,7 @@
 		<array>
 			<string>V:|[table]|</string>
 			<string>H:|[table]|</string>
-			<string>H:|-(&gt;=100)-[noResultsFoundLabel]-(&gt;=100)-|</string>
+			<string>H:|-(&gt;=50)-[noResultsFoundLabel]-(&gt;=50)-|</string>
 			<string>V:|-(&lt;=100)-[noResultsFoundLabel(21)]-(&gt;=100)-|</string>
 			<string>#noResultsFoundLabel.centerx=self.centerx,1,0</string>
 		</array>

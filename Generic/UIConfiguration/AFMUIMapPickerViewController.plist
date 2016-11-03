@@ -92,7 +92,7 @@
 	<dict>
 		<key>constraints</key>
 		<array>
-			<string>H:|-(&gt;=100)-[noResultsFoundLabel]-(&gt;=100)-|</string>
+			<string>H:|-(&gt;=50)-[noResultsFoundLabel]-(&gt;=50)-|</string>
 			<string>V:|-(&lt;=150)-[noResultsFoundLabel(21)]-(&gt;=100)-|</string>
 			<string>#noResultsFoundLabel.centerx=self.centerx,1,0</string>
 		</array>
