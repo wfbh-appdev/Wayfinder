@@ -31,7 +31,7 @@
  */
 
 "afcuimannotationdirectoryviewcontroller.titlelabel.text" = "POI Directory";
-"afcuimannotationdirectoryviewcontroller.noresultsfound.text" = "No Results Found";
+"afcuimannotationdirectoryviewcontroller.noresultsfound.text" = "No Results Found.";
 
 /*
  *  AFCUIMRouteBuilderViewController Strings
