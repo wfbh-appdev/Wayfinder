@@ -14,7 +14,7 @@
 	<key>dropPinButton</key>
 	<dict>
 		<key>borderColor</key>
-		<string>#acacac</string>
+		<string>$LightGrayColor</string>
 		<key>borderWidth</key>
 		<integer>1</integer>
 		<key>fontName</key>
@@ -22,7 +22,7 @@
 		<key>fontSize</key>
 		<integer>16</integer>
 		<key>color</key>
-		<string>#acacac</string>
+		<string>$LightGrayColor</string>
 		<key>buttonTitle</key>
 		<string>#afcparkingmapviewcontroller.droppinbutton.buttontitle</string>
 	</dict>
@@ -35,9 +35,9 @@
 		<key>fontSize</key>
 		<integer>16</integer>
 		<key>color</key>
-		<string>#0067b1</string>
+		<string>$BlueColor</string>
 		<key>borderColor</key>
-		<string>#0067b1</string>
+		<string>$BlueColor</string>
 		<key>borderWidth</key>
 		<integer>1</integer>
 	</dict>
@@ -50,9 +50,9 @@
 		<key>fontSize</key>
 		<integer>16</integer>
 		<key>color</key>
-		<string>#0067b1</string>
+		<string>$BlueColor</string>
 		<key>borderColor</key>
-		<string>#0067b1</string>
+		<string>$BlueColor</string>
 		<key>borderWidth</key>
 		<integer>1</integer>
 	</dict>
@@ -65,9 +65,9 @@
 		<key>fontSize</key>
 		<integer>16</integer>
 		<key>color</key>
-		<string>#acacac</string>
+		<string>$LightGrayColor</string>
 		<key>borderColor</key>
-		<string>#acacac</string>
+		<string>$LightGrayColor</string>
 		<key>borderWidth</key>
 		<integer>1</integer>
 	</dict>
@@ -81,7 +81,7 @@
 	<key>dropPinContainerView</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>constraints</key>
 		<array>
 			<string>H:|-20-[dropPinButton]-20-|</string>

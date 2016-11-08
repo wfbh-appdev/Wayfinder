@@ -11,7 +11,7 @@
 		<key>fontSize</key>
 		<integer>18</integer>
 		<key>color</key>
-		<string>#AAAAAA</string>
+		<string>$LightGrayColor</string>
 		<key>alignment</key>
 		<string>center</string>
 	</dict>
@@ -31,9 +31,9 @@
 		<key>alignment</key>
 		<string>center</string>
 		<key>color</key>
-		<string>#333333</string>
+		<string>$GrayColor</string>
 		<key>borderColor</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>borderWidth</key>
 		<string>1</string>
 		<key>cornerRadius</key>
@@ -50,9 +50,9 @@
 		<key>alignment</key>
 		<string>center</string>
 		<key>color</key>
-		<string>#333333</string>
+		<string>$GrayColor</string>
 		<key>borderColor</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>borderWidth</key>
 		<string>1</string>
 		<key>cornerRadius</key>
@@ -71,20 +71,20 @@
 		<key>alignment</key>
 		<string>center</string>
 		<key>color</key>
-		<string>#333333</string>
+		<string>$GrayColor</string>
 	</dict>
 	<key>promptLocationAlertTitle</key>
 	<dict>
 		<key>text</key>
 		<string>#afcmmappickerviewcontroller.promptlocationalert.title</string>
 		<key>backgroundColor</key>
-		<string>#333333</string>
+		<string>$GrayColor</string>
 		<key>fontName</key>
 		<string>$MainFontMedium</string>
 		<key>fontSize</key>
 		<string>16</string>
 		<key>color</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>alignment</key>
 		<string>center</string>
 	</dict>

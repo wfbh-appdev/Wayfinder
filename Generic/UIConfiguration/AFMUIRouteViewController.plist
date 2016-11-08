@@ -5,7 +5,7 @@
 	<key>view</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>constraints</key>
 		<array>
 			<string>V:|[navBarView(64)]-9-[startLocationTextField(30)]-8-[separator1(1)]-7-[endLocationTextField(30)]-5-[separator2(1)]-16-[handicapAccessibilityLabel(21)]-16-[separator3(1)][poiTableView]|</string>
@@ -35,7 +35,7 @@
 		<key>fontSize</key>
 		<integer>20</integer>
 		<key>color</key>
-		<string>#000000</string>
+		<string>$BlackColor</string>
 		<key>alignment</key>
 		<string>left</string>
 		<key>placeholder</key>
@@ -48,7 +48,7 @@
 		<key>fontSize</key>
 		<string>20</string>
 		<key>color</key>
-		<string>#000000</string>
+		<string>$BlackColor</string>
 		<key>alignment</key>
 		<string>left</string>
 		<key>placeholder</key>
@@ -80,9 +80,9 @@
 		<key>text</key>
 		<string>#afcuimroutebuilderviewcontroller.endlabel.text</string>
 		<key>alignment</key>
-		<string>LEFT</string>
+		<string>left</string>
 		<key>color</key>
-		<string>#0080FF</string>
+		<string>$BlueColor</string>
 		<key>width</key>
 		<string>60</string>
 		<key>height</key>
@@ -98,7 +98,7 @@
 	<key>navBarView</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#000000</string>
+		<string>$BlackColor</string>
 		<key>constraints</key>
 		<array>
 			<string>V:|-&gt;=0-[titleLabel(44)]-&gt;=0-|</string>
@@ -118,7 +118,7 @@
 		<key>fontSize</key>
 		<integer>16</integer>
 		<key>color</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>text</key>
 		<string>#afcuimroutebuilderviewcontroller.titlelabel.text</string>
 		<key>alignment</key>
@@ -135,7 +135,7 @@
 		<key>alignment</key>
 		<string>center</string>
 		<key>color</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 	</dict>
 	<key>routeButton</key>
 	<dict>
@@ -146,24 +146,24 @@
 		<key>fontSize</key>
 		<integer>16</integer>
 		<key>color</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>alignment</key>
 		<string>center</string>
 	</dict>
 	<key>separator1</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#aaaaaa</string>
+		<string>$LightGrayColor</string>
 	</dict>
 	<key>separator2</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#aaaaaa</string>
+		<string>$LightGrayColor</string>
 	</dict>
 	<key>separator3</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#aaaaaa</string>
+		<string>$LightGrayColor</string>
 	</dict>
 	<key>handicapAccessibilityLabel</key>
 	<dict>
@@ -215,7 +215,7 @@
 		<key>fontSize</key>
 		<integer>16</integer>
 		<key>color</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>alignment</key>
 		<string>center</string>
 	</dict>
@@ -232,7 +232,7 @@
 		<key>alignment</key>
 		<string>center</string>
 		<key>color</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 	</dict>
 	<key>dismissOutdoorToIndoor</key>
 	<dict>
@@ -245,11 +245,11 @@
 		<key>alignment</key>
 		<string>center</string>
 		<key>color</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>cornerRadius</key>
 		<integer>5</integer>
 		<key>borderColor</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>borderWidth</key>
 		<integer>1</integer>
 	</dict>
@@ -264,9 +264,9 @@
 		<key>alignment</key>
 		<string>center</string>
 		<key>color</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>borderColor</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>borderWidth</key>
 		<real>1</real>
 		<key>cornerRadius</key>
@@ -304,7 +304,7 @@
 		<key>fontSize</key>
 		<integer>16</integer>
 		<key>color</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 	</dict>
 	<key>welcomeBackMessage</key>
 	<dict>
@@ -317,7 +317,7 @@
 		<key>alignment</key>
 		<string>center</string>
 		<key>color</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>lines</key>
 		<string>2</string>
 	</dict>
@@ -330,11 +330,11 @@
 		<key>fontSize</key>
 		<integer>14</integer>
 		<key>color</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>aligment</key>
 		<string>center</string>
 		<key>borderColor</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>borderWidth</key>
 		<integer>1</integer>
 		<key>cornerRadius</key>
@@ -345,7 +345,7 @@
 		<key>buttonTitle</key>
 		<string>#afcuimroutebuilderviewcontroller.welcomebackrouteme.buttontitle</string>
 		<key>color</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>fontName</key>
 		<string>$MainFont</string>
 		<key>fontsize</key>
@@ -353,7 +353,7 @@
 		<key>aligment</key>
 		<string>center</string>
 		<key>borderColor</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>borderWidth</key>
 		<integer>1</integer>
 		<key>cornerRadius</key>

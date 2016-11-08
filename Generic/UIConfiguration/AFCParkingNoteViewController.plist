@@ -5,7 +5,7 @@
 	<key>view</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>constraints</key>
 		<array>
 			<string>V:|-0-[notes]|</string>
@@ -17,7 +17,7 @@
 	<key>notes</key>
 	<dict>
 		<key>color</key>
-		<string>#686868</string>
+		<string>$GrayColor</string>
 		<key>fontName</key>
 		<string>$MainFontLight</string>
 		<key>fontSize</key>
@@ -28,7 +28,7 @@
 	<key>notesLabel</key>
 	<dict>
 		<key>color</key>
-		<string>#686868</string>
+		<string>$GrayColor</string>
 		<key>fontName</key>
 		<string>$MainFontLightItalic</string>
 		<key>fontSize</key>

@@ -25,6 +25,12 @@
 "afcclearcacheaction.prompt.title" = "Confirmar";
 "afcclearcacheaction.cancel.title" = "Cancelar";
 "afcclearcacheaction.ok.title" = "Limpiar Cache";
+/*
+ *
+ */
+
+"afcdirectorycategoryviewcontroller.cancel.text" = "Cancelar";
+"afcdirectorycategoryviewcontroller.categories.text" = "Categorias";
 
 /*
  *  AFCUIMAnnotationDirectoryViewController Strings

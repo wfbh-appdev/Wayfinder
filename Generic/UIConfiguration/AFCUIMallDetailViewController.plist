@@ -21,7 +21,7 @@
 		<key>fontSize</key>
 		<integer>12</integer>
 		<key>color</key>
-		<string>#0080FF</string>
+		<string>$BlueColor</string>
 		<key>alignment</key>
 		<string>left</string>
 		<key>lines</key>
@@ -36,7 +36,7 @@
 		<key>alignment</key>
 		<string>left</string>
 		<key>color</key>
-		<string>#000000</string>
+		<string>$BlackColor</string>
 		<key>lines</key>
 		<integer>1</integer>
 	</dict>
@@ -87,7 +87,7 @@
 	<key>phoneButton</key>
 	<dict>
 		<key>tintColor</key>
-		<string>#0080ff</string>
+		<string>$BlueColor</string>
 		<key>image</key>
 		<string>icon_pw_call</string>
 	</dict>

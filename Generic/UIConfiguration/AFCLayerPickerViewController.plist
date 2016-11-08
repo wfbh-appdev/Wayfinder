@@ -27,7 +27,7 @@
 		<key>fontSize</key>
 		<integer>18</integer>
 		<key>color</key>
-		<string>#AAAAAA</string>
+		<string>$LightGrayColor</string>
 		<key>alignment</key>
 		<string>center</string>
 	</dict>
