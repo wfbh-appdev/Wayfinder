@@ -39,7 +39,7 @@
 		<key>alignment</key>
 		<string>left</string>
 		<key>color</key>
-		<string>#000000</string>
+		<string>$BlackColor</string>
 		<key>lines</key>
 		<string>1</string>
 	</dict>

@@ -7,7 +7,7 @@
 		<key>fontName</key>
 		<string>$MainFontLight</string>
 		<key>color</key>
-		<string>#0080ff</string>
+		<string>$BlueColor</string>
 		<key>fontSize</key>
 		<string>13</string>
 	</dict>
@@ -16,7 +16,7 @@
 		<key>fontName</key>
 		<string>$MainFontLight</string>
 		<key>color</key>
-		<string>#000000</string>
+		<string>$BlackColor</string>
 		<key>fontSize</key>
 		<string>17</string>
 	</dict>

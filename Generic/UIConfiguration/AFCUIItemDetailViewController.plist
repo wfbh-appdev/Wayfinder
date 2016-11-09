@@ -19,7 +19,7 @@
 	<key>view</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>constraints</key>
 		<array>
 			<string>H:|[tableView]|</string>

@@ -5,7 +5,7 @@
 	<key>view</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>constraints</key>
 		<array>
 			<string>V:|-0-[recordVoiceMemoTitle(49)]-20-[recordButton(76)]-44-[separator(2)]-23-[recordingLabel(21)][lastRecordingMessage(27)]-35-[progress(2)]-&gt;=0-|</string>
@@ -44,7 +44,7 @@
 		<key>fontSize</key>
 		<integer>15</integer>
 		<key>color</key>
-		<string>#0067b1</string>
+		<string>$BlueColor</string>
 		<key>lines</key>
 		<integer>1</integer>
 		<key>alignment</key>
@@ -59,7 +59,7 @@
 		<key>lines</key>
 		<integer>2</integer>
 		<key>color</key>
-		<string>#000000</string>
+		<string>$BlackColor</string>
 		<key>alignment</key>
 		<string>left</string>
 	</dict>
@@ -96,7 +96,7 @@
 		<key>text</key>
 		<string>Parking Memo</string>
 		<key>color</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>fontSize</key>
 		<integer>16</integer>
 	</dict>

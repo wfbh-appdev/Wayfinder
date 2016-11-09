@@ -5,7 +5,7 @@
 	<key>view</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#000000</string>
+		<string>$BlackColor</string>
 		<key>constraints</key>
 		<array>
 			<string>H:|[photo]|</string>
@@ -28,7 +28,7 @@
 		<key>lines</key>
 		<integer>0</integer>
 		<key>color</key>
-		<string>#000000</string>
+		<string>$BlackColor</string>
 		<key>alignment</key>
 		<string>center</string>
 		<key>hidden</key>
@@ -43,7 +43,7 @@
 		<key>text</key>
 		<string></string>
 		<key>color</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>fontSize</key>
 		<integer>16</integer>
 	</dict>

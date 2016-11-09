@@ -47,7 +47,7 @@
 			<key>fontName</key>
 			<string>$MainFont</string>
 			<key>color</key>
-			<string>#ffffff</string>
+			<string>$WhiteColor</string>
 		</dict>
 		<key>AFCUIItemDetailItemTitle</key>
 		<dict>
@@ -69,7 +69,7 @@
 			<key>fontName</key>
 			<string>$MainFontLight</string>
 			<key>color</key>
-			<string>#0080FF</string>
+			<string>$BlueColor</string>
 		</dict>
 	</dict>
 	<key>Keys</key>
@@ -98,6 +98,16 @@
 		<string>#00587a</string>
 		<key>TableSeparatorColor</key>
 		<string>#b9991a</string>
+		<key>WhiteColor</key>
+		<string>#ffffff</string>
+		<key>BlackColor</key>
+		<string>#000000</string>
+		<key>BlueColor</key>
+		<string>#0080ff</string>
+		<key>GrayColor</key>
+		<string>#333333</string>
+		<key>LightGrayColor</key>
+		<string>#aaaaaa</string>
 	</dict>
 </dict>
 </plist>

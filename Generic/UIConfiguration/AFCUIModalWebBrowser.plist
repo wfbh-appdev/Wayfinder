@@ -5,7 +5,7 @@
 	<key>view</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>constraints</key>
 		<array>
 			<string>V:|[controlsBar][webView]|</string>
@@ -37,7 +37,7 @@
 	<key>webView</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 	</dict>
 	<key>status</key>
 	<dict>
@@ -50,7 +50,7 @@
 		<key>alignment</key>
 		<string>left</string>
 		<key>color</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>lines</key>
 		<string>1</string>
 	</dict>
@@ -67,7 +67,7 @@
 		<key>alignment</key>
 		<string>center</string>
 		<key>color</key>
-		<string>#000000</string>
+		<string>$BlackColor</string>
 		<key>background</key>
 		<string>Default.ToolBarButton.png</string>
 	</dict>

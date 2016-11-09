@@ -85,7 +85,6 @@
 		5555DB061C4460CC00E37207 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5555DB081C44646800E37207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/AFCDirectoryViewController.plist; sourceTree = "<group>"; };
 		5555DB0C1C446C6A00E37207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/AFCDirectoryCategoryViewController.plist; sourceTree = "<group>"; };
-		5555DB0E1C446C6B00E37207 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = es; path = es.lproj/AFCDirectoryCategoryViewController.plist; sourceTree = "<group>"; };
 		5555DB101C448FDB00E37207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/ModuleDefinition.plist; sourceTree = "<group>"; };
 		5555DB121C448FDE00E37207 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = es; path = es.lproj/ModuleDefinition.plist; sourceTree = "<group>"; };
 		5574F54A1C3AD921007BC741 /* AFCUIMaasVersionCellViewClassTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCUIMaasVersionCellViewClassTableViewCell.h; sourceTree = "<group>"; };
@@ -512,7 +511,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		8CB729D01C20A1D000F016B7 /* ShellScript */ = {
@@ -570,7 +569,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				5555DB0C1C446C6A00E37207 /* Base */,
-				5555DB0E1C446C6B00E37207 /* es */,
 			);
 			name = AFCDirectoryCategoryViewController.plist;
 			sourceTree = "<group>";

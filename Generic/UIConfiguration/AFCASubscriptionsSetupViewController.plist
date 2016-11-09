@@ -41,14 +41,14 @@ interests?</string>
 		<key>alignment</key>
 		<string>left</string>
 		<key>color</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 	</dict>
 	<key>segmentsTable</key>
 	<dict/>
 	<key>backgroundDoneButton</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#3D3D3D</string>
+		<string>$GrayColor</string>
 	</dict>
 	<key>doneSubscriptionsButton</key>
 	<dict>
@@ -61,7 +61,7 @@ interests?</string>
 		<key>alignment</key>
 		<string>center</string>
 		<key>color</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>borderColor</key>
 		<string>#7fffffff</string>
 		<key>borderWidth</key>

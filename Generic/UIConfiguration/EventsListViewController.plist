@@ -15,7 +15,7 @@
 	<key>favoritesToggle</key>
 	<dict>
 		<key>tintColor</key>
-		<string>#0080ff</string>
+		<string>$BlueColor</string>
 	</dict>
 	<key>favoritesBar</key>
 	<dict>
@@ -26,7 +26,7 @@
 			<string>V:|-&gt;=1-[favoritesToggle]-&gt;=1-|</string>
 		</array>
 		<key>backgroundColor</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>width</key>
 		<integer>320</integer>
 		<key>height</key>

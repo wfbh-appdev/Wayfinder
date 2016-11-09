@@ -12,7 +12,7 @@
 	<key>view</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>constraints</key>
 		<array>
 			<string>V:|[table]|</string>
@@ -33,14 +33,14 @@
 		<key>fontSize</key>
 		<string>18</string>
 		<key>color</key>
-		<string>#AAAAAA</string>
+		<string>$LightGrayColor</string>
 		<key>alignment</key>
 		<string>center</string>
 	</dict>
 	<key>favoritesBar</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>width</key>
 		<integer>320</integer>
 		<key>height</key>
@@ -54,7 +54,7 @@
 	<key>favoritesToggle</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 	</dict>
 </dict>
 </plist>

@@ -16,7 +16,7 @@
 			<string>#noResultsFoundLabel.centerx=self.centerx,1,0</string>
 		</array>
 		<key>backgroundColor</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 	</dict>
 	<key>noResultsFoundLabel</key>
 	<dict>
@@ -27,14 +27,14 @@
 		<key>fontSize</key>
 		<integer>18</integer>
 		<key>color</key>
-		<string>#AAAAAA</string>
+		<string>$LightGrayColor</string>
 		<key>alignment</key>
 		<string>center</string>
 	</dict>
 	<key>filterNoticeBar</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#363636</string>
+		<string>$GrayColor</string>
 		<key>width</key>
 		<integer>320</integer>
 		<key>height</key>
@@ -55,7 +55,7 @@
 		<key>fontSize</key>
 		<string>12</string>
 		<key>color</key>
-		<string>#0080FF</string>
+		<string>$BlueColor</string>
 		<key>text</key>
 		<string>#afcdirectoryviewcontroller.filternotice.title</string>
 		<key>alignment</key>
@@ -70,14 +70,14 @@
 		<key>alignment</key>
 		<string>left</string>
 		<key>color</key>
-		<string>#0080FF</string>
+		<string>$BlueColor</string>
 		<key>text</key>
 		<string>#afcdirectoryviewcontroller.filtercategory.title</string>
 	</dict>
 	<key>favoritesBar</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>height</key>
 		<string>43</string>
 		<key>width</key>
@@ -92,7 +92,7 @@
 	<key>favoritesToggle</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 	</dict>
 	<key>filterCategoriesButton</key>
 	<dict>
@@ -103,7 +103,7 @@
 		<key>fontSize</key>
 		<integer>18</integer>
 		<key>color</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>alignment</key>
 		<string>center</string>
 	</dict>

@@ -5,7 +5,7 @@
 	<key>view</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>constraints</key>
 		<array>
 			<string>V:|-0-[poiTable][backgroundSaveFiltersButton]|</string>
@@ -23,14 +23,14 @@
 			<string>H:|-25-[saveFiltersButton]-25-|</string>
 		</array>
 		<key>backgroundColor</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 	</dict>
 	<key>saveFiltersButton</key>
 	<dict>
 		<key>borderColor</key>
-		<string>#363636</string>
+		<string>$GrayColor</string>
 		<key>color</key>
-		<string>#363636</string>
+		<string>$GrayColor</string>
 		<key>borderWidth</key>
 		<real>1</real>
 		<key>buttonTitle</key>
@@ -49,7 +49,7 @@
 		<key>buttonTitle</key>
 		<string>#afcuimpoifiltereditorviewcontroller.cancelbutton.buttontitle</string>
 		<key>color</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>fontName</key>
 		<string>$MainFont</string>
 		<key>fontSize</key>
