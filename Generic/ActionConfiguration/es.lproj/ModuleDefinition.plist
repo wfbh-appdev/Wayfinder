@@ -1414,27 +1414,6 @@
 		</dict>
 		<key>Offer</key>
 		<dict>
-			<key>present</key>
-			<dict>
-				<key>className</key>
-				<string>AFCLoadViewControllerAction</string>
-				<key>parameters</key>
-				<dict>
-					<key>viewController</key>
-					<string>AFCUIWebViewController</string>
-					<key>presentationMode</key>
-					<string>push</string>
-					<key>shouldAnimate</key>
-					<true/>
-					<key>properties</key>
-					<dict>
-						<key>title</key>
-						<string>$action.title</string>
-						<key>content</key>
-						<string>$action.body</string>
-					</dict>
-				</dict>
-			</dict>
 			<key>select</key>
 			<dict>
 				<key>className</key>
@@ -1463,11 +1442,53 @@
 				<key>parameters</key>
 				<dict>
 					<key>viewController</key>
-					<string>AFCOfferWalletViewController</string>
+					<string>AFMCOfferWalletViewController</string>
 					<key>presentationMode</key>
-					<string>replaceTop</string>
+					<string>push</string>
 					<key>shouldAnimate</key>
 					<string>YES</string>
+				</dict>
+			</dict>
+			<key>present</key>
+			<dict>
+				<key>className</key>
+				<string>AFCLoadViewControllerAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>viewController</key>
+					<string>AFCUIWebViewController</string>
+					<key>presentationMode</key>
+					<string>push</string>
+					<key>shouldAnimate</key>
+					<true/>
+					<key>properties</key>
+					<dict>
+						<key>title</key>
+						<string>$action.title</string>
+						<key>content</key>
+						<string>$action.body</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>detail</key>
+			<dict>
+				<key>className</key>
+				<string>AFCLoadViewControllerAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>viewController</key>
+					<string>AFMCOfferDetailViewController</string>
+					<key>presentationMode</key>
+					<string>push</string>
+					<key>shouldAnimate</key>
+					<true/>
+					<key>properties</key>
+					<dict>
+						<key>title</key>
+						<string>$action.title</string>
+						<key>content</key>
+						<string>$action.body</string>
+					</dict>
 				</dict>
 			</dict>
 		</dict>

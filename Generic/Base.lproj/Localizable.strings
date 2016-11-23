@@ -160,11 +160,23 @@
  *  AFCOfferWalletViewController Strings
  */
 
-"afcofferwalletviewcontroller.titlelabel.text" = "Offers";
-"afcofferwalletviewcontroller.cell.expirationdate.detailtextlabel.text" = "Expires";
-"afcofferwalletviewcontroller.cell.nooffers.text" = "No Offers";
-"afcofferwalletviewcontroller.header.validoffers.text" = "Valid Offers";
-"afcofferwalletviewcontroller.header.expiredoffers.text" = "Expired Offers";
+"afmcofferwalletviewcontroller.titlelabel.text" = "Offers";
+"afmcofferwalletviewcontroller.emptymessagelabel.text" = "You don't have any messages at this time.";
+"afmcofferwalletviewcontroller.cell.expirationdate.detailtextlabel.text" = "Expires";
+"afmcofferwalletviewcontroller.cell.nooffers.text" = "No Offers";
+"afmcofferwalletviewcontroller.header.validoffers.text" = "Valid Offers";
+"afmcofferwalletviewcontroller.header.expiredoffers.text" = "Expired Offers";
+"afmcofferwalletviewcontroller.deletebutton.title" = "Delete";
+"afmcofferwalletviewcontroller.alert.title" = "Delete messages";
+"afmcofferwalletviewcontroller.alert.description" = "Are you sure you would like to delete these messages?";
+"afmcofferwalletviewcontroller.alert.cancelbutton.title" = "Cancel";
+"afmcofferwalletviewcontroller.alert.deletebutton.title" = "Delete";
+"afmcofferwalletviewcontroller.expirationdate.text" = "EXPIRES %@";
+"afmcofferdetailviewcontroller.offerbutton.title" = "Receive Offer!";
+"afmcofferdetailviewcontroller.alert.title" = "Delete message";
+"afmcofferdetailviewcontroller.alert.message" = "Would you like to delete this message?";
+"afmcofferdetailviewcontroller.alert.deletebutton.title" = "Delete";
+"afmcofferdetailviewcontroller.alert.cancelbutton.title" = "Cancel";
 
 /*
  *  AFCCheckForceUpdate Strings
