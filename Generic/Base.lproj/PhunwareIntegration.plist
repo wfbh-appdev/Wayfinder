@@ -29,7 +29,7 @@
 		<key>topLevelContentName</key>
 		<string>Phunware Corporate</string>
 		<key>applicationUUID</key>
-		<string>613c65e3-f1ea-400a-b86e-29603e4c7799</string>
+		<string>5c452f69-746b-4b1e-9681-14344f1d055e</string>
 		<key>rootURL</key>
 		<string>http://solutions-ws.phunware.com/AFManagementWS/</string>
 		<key>voiceURL</key>
@@ -44,11 +44,11 @@
 	<key>MaaS Integration</key>
 	<dict>
 		<key>MaaSAppID</key>
-		<string>1299</string>
+		<string>1460</string>
 		<key>MaaSAccessKey</key>
-		<string>560825a4265bb3cfc2aaee038d1c5df8ff778192</string>
+		<string>46f390d8a01859b5dbfa804db1634dd9603399df</string>
 		<key>MaaSSignatureKey</key>
-		<string>48973a929b447e81860ec196f4fbe6083cff9a7b</string>
+		<string>9a92d23a51d49114b19d54c3f1c0508a4a98e576</string>
 		<key>MaaSContainerID</key>
 		<string></string>
 		<key>MaaSMapVenueGUID</key>
