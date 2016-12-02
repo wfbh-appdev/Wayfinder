@@ -15,7 +15,7 @@
 #import <PWAnalytics/PWAnalytics.h>
 #import <PWAdvertising/PWAds.h>
 #import <PWCME/PWCME.h>
-#import <Localpoint/Localpoint.h>
+#import <PWMessaging/PWMessaging.h>
 
 
 @implementation AFCUIMaasVersionCellViewClassTableViewCell
@@ -27,7 +27,7 @@
 
 
     if ([super.textLabel.text isEqualToString:@"PwMapKit"])
-        versionString = @"3.0.1";
+        versionString = @"3.0.4";
     if ([super.textLabel.text isEqualToString:@"PwLocation"])
         versionString = PWLocation_VERSION;
     if ([super.textLabel.text isEqualToString:@"PwCore"])
@@ -41,7 +41,7 @@
     if ([super.textLabel.text isEqualToString:@"PwCME"])
         versionString = MaaSCMS_VERSION;
     if ([super.textLabel.text isEqualToString:@"PwLocationMarketing"]) {
-        versionString = [[[LPLocalpointService instance] getSDKVersion] getValue];
+        versionString = [PWMessaging version];
     }
 
 

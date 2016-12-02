@@ -31,7 +31,7 @@
 						</dict>
 						<dict>
 							<key>className</key>
-							<string>AFCLMStartLMServiceAction</string>
+							<string>AFMCStartLMServiceAction</string>
 						</dict>
 						<dict>
 							<key>className</key>
@@ -80,7 +80,11 @@
 						</dict>
 						<dict>
 							<key>className</key>
-							<string>AFCLMDidReceiveAPNTokenAction</string>
+							<string>AFMCDidReceiveAPNTokenAction</string>
+						</dict>
+						<dict>
+							<key>className</key>
+							<string>AFMCCheckForPowerUser</string>
 						</dict>
 					</array>
 				</dict>
@@ -371,7 +375,7 @@
 						</dict>
 						<dict>
 							<key>className</key>
-							<string>AFCLMRegisterDeepLinksAction</string>
+							<string>AFMCRegisterDeepLinksAction</string>
 						</dict>
 						<dict>
 							<key>className</key>
