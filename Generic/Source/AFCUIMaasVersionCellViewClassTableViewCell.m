@@ -40,7 +40,7 @@
         versionString = PWADS_VERSION;
     if ([super.textLabel.text isEqualToString:@"PwCME"])
         versionString = MaaSCMS_VERSION;
-    if ([super.textLabel.text isEqualToString:@"PwLocationMarketing"]) {
+    if ([super.textLabel.text isEqualToString:@"PwMessaging"]) {
         versionString = [PWMessaging version];
     }
 
