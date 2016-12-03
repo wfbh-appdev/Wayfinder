@@ -288,5 +288,14 @@
 		<key>type</key>
 		<string>PWGPSLocationManager</string>
 	</dict>
+	<key>PowerUser</key>
+	<dict>
+		<key>Days</key>
+		<string>7</string>
+		<key>TriggerValue</key>
+		<string>3</string>
+		<key>Attribute</key>
+		<string>poweruser</string>
+	</dict>
 </dict>
 </plist>
