@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>readIndicatorImageView</key>
+	<dict>
+		<key>image</key>
+		<string>offerwallet.unread.indicator</string>
+	</dict>
+	<key>titleLabel</key>
+	<dict>
+		<key>lines</key>
+		<integer>2</integer>
+	</dict>
+	<key>expirationDateLabel</key>
+	<dict>
+		<key>color</key>
+		<string>#0066ff</string>
+	</dict>
+	<key>descriptionLabel</key>
+	<dict>
+		<key>lines</key>
+		<integer>3</integer>
+	</dict>
+	<key>contentView</key>
+	<dict>
+		<key>constraints</key>
+		<array>
+			<string>H:|-[readIndicatorImageView]-[titleLabel]-|</string>
+			<string>#readIndicatorImageView.width=readIndicatorImageView.height,1,0</string>
+			<string>#expirationDateLabel.leading=titleLabel.leading,1,0</string>
+			<string>#descriptionLabel.leading=titleLabel.leading,1,0</string>
+			<string>V:|-20-[readIndicatorImageView]</string>
+			<string>V:|-[titleLabel]-[expirationDateLabel]-[descriptionLabel]-|</string>
+			<string>V:[titleLabel]-8@749-[descriptionLabel]</string>
+		</array>
+	</dict>
+</dict>
+</plist>
