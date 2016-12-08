@@ -1933,10 +1933,6 @@
 									</dict>
 									<dict>
 										<key>name</key>
-										<string>PwAlerts</string>
-									</dict>
-									<dict>
-										<key>name</key>
 										<string>PwAnalytics</string>
 									</dict>
 									<dict>

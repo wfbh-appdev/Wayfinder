@@ -11,7 +11,6 @@
 #import <PWMapKit/PWMapKit.h>
 #import <PWLocation/PWLocation.h>
 #import <PWCore/PWCore.h>
-#import <PWAlerts/PWAlerts.h>
 #import <PWAnalytics/PWAnalytics.h>
 #import <PWAdvertising/PWAds.h>
 #import <PWCME/PWCME.h>
@@ -32,8 +31,6 @@
         versionString = PWLocation_VERSION;
     if ([super.textLabel.text isEqualToString:@"PwCore"])
         versionString = PWCore_Version;
-    if ([super.textLabel.text isEqualToString:@"PwAlerts"])
-        versionString = PWAlerts_VERSION;
     if ([super.textLabel.text isEqualToString:@"PwAnalytics"])
         versionString = PWAnalytics_VERSION;
     if ([super.textLabel.text isEqualToString:@"PwAds"])
