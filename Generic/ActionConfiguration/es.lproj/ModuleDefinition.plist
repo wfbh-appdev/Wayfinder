@@ -1788,7 +1788,7 @@
 					<key>shouldAnimate</key>
 					<string>YES</string>
 					<key>title</key>
-					<string>Segments &amp; Subscriptions</string>
+					<string>Profiles</string>
 				</dict>
 			</dict>
 		</dict>
@@ -1825,7 +1825,7 @@
 								<array>
 									<dict>
 										<key>name</key>
-										<string>Subscriptions</string>
+										<string>Profiles</string>
 									</dict>
 								</array>
 							</dict>
