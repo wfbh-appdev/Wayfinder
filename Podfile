@@ -27,7 +27,7 @@ target :'GenericAF4' do
 #    pod 'AppFrameworkCore',                    :path => '../af-sdk-ios/af-modules/af-core'
 #    pod 'AppFrameworkDirectoryModule',         :path => '../af-sdk-ios/af-modules/af-directory'
 #    pod 'AppFrameworkEventsModule',            :path => '../af-sdk-ios/af-modules/af-events'
-#    pod 'AppFrameworkLocationMarketingModule', :path => '../af-sdk-ios/af-modules/af-location-marketing'
+#    pod 'AppFrameworkMessageCenterModule',     :path => '../af-sdk-ios/af-modules/af-msgcenter'
 #    pod 'AppFrameworkMappingModule',           :path => '../af-sdk-ios/af-modules/af-mapping'
 #    pod 'AppFrameworkParkingModule',           :path => '../af-sdk-ios/af-modules/af-parking'
 #    pod 'AppFrameworkRenderModule',            :path => '../af-sdk-ios/af-modules/af-render'
