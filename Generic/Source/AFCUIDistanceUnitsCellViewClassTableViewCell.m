@@ -34,7 +34,7 @@
             PWSLocationManagerKey = @"PWMapDistanceKilometers";
 
         if (![PWSLocationManagerKey isEqualToString:@""])
-            [[UIApplication sharedApplication] setValue:PWSLocationManagerKey forKey:kAFCMAppStateCurrentDistanceUnitsKey];
+            [[NSUserDefaults standardUserDefaults] setValue:PWSLocationManagerKey forKey:kAFCMAppStateCurrentDistanceUnitsKey];
         [self setAccessoryType:UITableViewCellAccessoryCheckmark];
     }
 
@@ -48,16 +48,23 @@
 - (BOOL)isTheSelectedRow:(NSString *)value
 {
     BOOL finalValue = NO;
-    if ([[[UIApplication sharedApplication] valueForKey:kAFCMAppStateCurrentDistanceUnitsKey] isEqualToString:@"PWMapDistanceMiles"] && [value isEqualToString:@"Miles"]) {
+    if ([[[NSUserDefaults standardUserDefaults] valueForKey:kAFCMAppStateCurrentDistanceUnitsKey] isEqualToString:@"PWMapDistanceMiles"] && [value isEqualToString:@"Miles"]) {
         finalValue = YES;
     }
 
-    if ([[[UIApplication sharedApplication] valueForKey:kAFCMAppStateCurrentDistanceUnitsKey] isEqualToString:@"PWMapDistanceKilometers"] && [value isEqualToString:@"Kilometers"]) {
+    if ([[[NSUserDefaults standardUserDefaults] valueForKey:kAFCMAppStateCurrentDistanceUnitsKey] isEqualToString:@"PWMapDistanceKilometers"] && [value isEqualToString:@"Kilometers"]) {
         finalValue = YES;
     }
 
 
     return finalValue;
 }
+
+
+- (void)selectStoredRowValue{
+    if ([self isTheSelectedRow:self.textLabel.text])
+        [self setAccessoryType:UITableViewCellAccessoryCheckmark];
+}
+
 
 @end

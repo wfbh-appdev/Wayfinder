@@ -11,5 +11,6 @@
 
 @interface AFCUIDistanceUnitsCellViewClassTableViewCell : UITableViewCell
 
+- (void)selectStoredRowValue;
 
 @end
