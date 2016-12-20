@@ -517,10 +517,6 @@
  *  AFCOfferWalletViewController Strings
  */
 "afmcofferwalletviewcontroller.titlelabel.text" = "Ofertas";
-"afcofferwalletviewcontroller.cell.expirationdate.detailtextlabel.text" = "Caduca";
-"afmcofferwalletviewcontroller.cell.nooffers.text" = "Sin Ofertas";
-"afmcofferwalletviewcontroller.header.validoffers.text" = "Ofertas Válidas";
-"afmcofferwalletviewcontroller.header.expiredoffers.text" = "Ofertas Vencidas";
 "afmcofferwalletviewcontroller.emptymessagelabel.text" = "No tienes mensajes en este momento.";
 "afmcofferwalletviewcontroller.deletebutton.title" = "Eliminar";
 "afmcofferwalletviewcontroller.alert.title" = "Eliminar mensajes";
@@ -528,13 +524,21 @@
 "afmcofferwalletviewcontroller.alert.cancelbutton.title" = "Cancelar";
 "afmcofferwalletviewcontroller.alert.deletebutton.title" = "Eliminar";
 "afmcofferwalletviewcontroller.expirationdate.text" = "EXPIRA %@";
+
+/*
+ *  AFCOfferDetailViewController Strings
+ */
+"afmcofferdetailviewcontroller.titlelabel.text" = "Promoción";
 "afmcofferdetailviewcontroller.offerbutton.title" = "¡Recibir oferta!";
 "afmcofferdetailviewcontroller.alert.title" = "Eliminar mensaje";
 "afmcofferdetailviewcontroller.alert.message" = "¿Desea eliminar el mensaje?";
 "afmcofferdetailviewcontroller.alert.deletebutton.title" = "Eliminar";
 "afmcofferdetailviewcontroller.alert.cancelbutton.title" = "Cancelar";
-"afmcofferwalletviewcontroller.cell.expirationdate.detailtextlabel.text" = "Vence";
 
+/*
+ *  AFMCOfferSwipeViewController Strings
+ */
+"afmcofferswipeviewcontroller.titlelabel.text" = "Promociones";
 
 
 
