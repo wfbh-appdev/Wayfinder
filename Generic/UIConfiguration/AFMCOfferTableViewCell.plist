@@ -33,6 +33,8 @@
 			<string>V:|-20-[readIndicatorImageView]</string>
 			<string>V:|-[titleLabel]-[expirationDateLabel]-[descriptionLabel]-|</string>
 			<string>V:[titleLabel]-8@749-[descriptionLabel]</string>
+			<string>H:[titleLabel]-&gt;=8-|</string>
+			<string>H:[descriptionLabel]-&gt;=8-|</string>
 		</array>
 	</dict>
 </dict>
