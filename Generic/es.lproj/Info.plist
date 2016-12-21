@@ -43,6 +43,10 @@
 		<string>ProximaNova-Light.otf</string>
 		<string>ProximaNova-Reg.otf</string>
 	</array>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>uber</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

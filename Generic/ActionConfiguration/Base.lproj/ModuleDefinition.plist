@@ -328,6 +328,18 @@
 					<string>switch</string>
 				</dict>
 			</dict>
+			<key>87</key>
+			<dict>
+				<key>className</key>
+				<string>AFCDeepLinkLoadAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>deepLinkURL</key>
+					<string>$action.auxID1</string>
+					<key>appstoreURL</key>
+					<string>$action.auxID2</string>
+				</dict>
+			</dict>
 		</dict>
 		<key>CME</key>
 		<dict>
