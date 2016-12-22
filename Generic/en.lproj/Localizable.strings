@@ -308,7 +308,7 @@
 /*
  *  AFCOfferWalletViewController Strings
  */
-"afmcofferwalletviewcontroller.titlelabel.text" = "Offers";
+"afmcofferwalletviewcontroller.titlelabel.text" = "Message Center";
 "afmcofferwalletviewcontroller.emptymessagelabel.text" = "You don't have any messages at this time.";
 "afmcofferwalletviewcontroller.deletebutton.title" = "Delete";
 "afmcofferwalletviewcontroller.alert.title" = "Delete messages";
