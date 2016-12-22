@@ -23,6 +23,10 @@
 	</dict>
 	<key>descriptionLabel</key>
 	<dict>
+		<key>fontName</key>
+		<string>$MainFont</string>
+		<key>fontSize</key>
+		<string>$MainFontSize</string>
 		<key>lines</key>
 		<integer>3</integer>
 	</dict>
@@ -34,7 +38,7 @@
 			<string>#readIndicatorImageView.width=readIndicatorImageView.height,1,0</string>
 			<string>#expirationDateLabel.leading=titleLabel.leading,1,0</string>
 			<string>#descriptionLabel.leading=titleLabel.leading,1,0</string>
-			<string>#readIndicatorImageView.top=titleLabel.top,1,0</string>
+			<string>#readIndicatorImageView.centery=titleLabel.centery,1,0</string>
 			<string>V:|-[titleLabel]-[expirationDateLabel]-[descriptionLabel]-|</string>
 			<string>V:[titleLabel]-8@749-[descriptionLabel]</string>
 			<string>H:[titleLabel]-&gt;=8-|</string>
