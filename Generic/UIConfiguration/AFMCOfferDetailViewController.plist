@@ -22,7 +22,10 @@
 		<integer>0</integer>
 	</dict>
 	<key>expirationDateLabel</key>
-	<dict/>
+	<dict>
+		<key>color</key>
+		<string>$BlueColor</string>
+	</dict>
 	<key>descriptionLabel</key>
 	<dict>
 		<key>fontName</key>

@@ -19,7 +19,7 @@
 	<key>expirationDateLabel</key>
 	<dict>
 		<key>color</key>
-		<string>#0066ff</string>
+		<string>$BlueColor</string>
 	</dict>
 	<key>descriptionLabel</key>
 	<dict>
