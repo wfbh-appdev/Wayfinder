@@ -516,7 +516,7 @@
 /*
  *  AFCOfferWalletViewController Strings
  */
-"afmcofferwalletviewcontroller.titlelabel.text" = "Ofertas";
+"afmcofferwalletviewcontroller.titlelabel.text" = "Centro de Mensajes";
 "afmcofferwalletviewcontroller.emptymessagelabel.text" = "No tienes mensajes en este momento.";
 "afmcofferwalletviewcontroller.deletebutton.title" = "Eliminar";
 "afmcofferwalletviewcontroller.alert.title" = "Eliminar mensajes";
