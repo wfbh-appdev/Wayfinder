@@ -16,6 +16,9 @@
 #import <PWCME/PWCME.h>
 #import <PWMessaging/PWMessaging.h>
 
+NSString *kPwMapKitVersion = @"3.0.4";
+NSString *kPwMessagingVersion = @"3.0.2";
+
 
 @implementation AFCUIMaasVersionCellViewClassTableViewCell
 
@@ -26,7 +29,7 @@
 
 
     if ([super.textLabel.text isEqualToString:@"PwMapKit"])
-        versionString = @"3.0.4";
+        versionString = kPwMapKitVersion;
     if ([super.textLabel.text isEqualToString:@"PwLocation"])
         versionString = PWLocation_VERSION;
     if ([super.textLabel.text isEqualToString:@"PwCore"])
@@ -38,7 +41,7 @@
     if ([super.textLabel.text isEqualToString:@"PwCME"])
         versionString = MaaSCMS_VERSION;
     if ([super.textLabel.text isEqualToString:@"PwMessaging"]) {
-        versionString = [PWMessaging version];
+        versionString = kPwMessagingVersion;
     }
 
 
