@@ -521,7 +521,7 @@
 "afmcofferwalletviewcontroller.emptymessagelabel.text" = "No tienes mensajes en este momento.";
 "afmcofferwalletviewcontroller.deletebutton.title" = "Eliminar";
 "afmcofferwalletviewcontroller.alert.title" = "Eliminar Mensajes";
-"afmcofferwalletviewcontroller.alert.description" = "¿Desea eliminar estos [%d] menasajes?";
+"afmcofferwalletviewcontroller.alert.description" = "¿Desea eliminar estos %d menasajes?";
 "afmcofferwalletviewcontroller.alert.cancelbutton.title" = "NO";
 "afmcofferwalletviewcontroller.alert.deletebutton.title" = "SI";
 "afmcofferwalletviewcontroller.expirationdate.text" = "EXPIRA %@";
