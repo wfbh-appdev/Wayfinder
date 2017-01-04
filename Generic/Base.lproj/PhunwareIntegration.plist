@@ -68,6 +68,8 @@
 		<true/>
 		<key>TourEnabled</key>
 		<true/>
+		<key>H2VExpirationTime</key>
+		<integer>6</integer>
 	</dict>
 	<key>MaaSLocationProvider</key>
 	<dict>
