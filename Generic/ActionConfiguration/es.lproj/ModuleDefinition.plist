@@ -31,7 +31,7 @@
 						</dict>
 						<dict>
 							<key>className</key>
-							<string>AFCLMStartLMServiceAction</string>
+							<string>AFMCStartLMServiceAction</string>
 						</dict>
 						<dict>
 							<key>className</key>
@@ -80,7 +80,11 @@
 						</dict>
 						<dict>
 							<key>className</key>
-							<string>AFCLMDidReceiveAPNTokenAction</string>
+							<string>AFMCDidReceiveAPNTokenAction</string>
+						</dict>
+						<dict>
+							<key>className</key>
+							<string>AFMCCheckForPowerUser</string>
 						</dict>
 					</array>
 				</dict>
@@ -383,7 +387,7 @@
 						</dict>
 						<dict>
 							<key>className</key>
-							<string>AFCLMRegisterDeepLinksAction</string>
+							<string>AFMCRegisterDeepLinksAction</string>
 						</dict>
 						<dict>
 							<key>className</key>
@@ -1456,7 +1460,7 @@
 					<key>viewController</key>
 					<string>AFMCOfferWalletViewController</string>
 					<key>presentationMode</key>
-					<string>push</string>
+					<string>replaceTop</string>
 					<key>shouldAnimate</key>
 					<string>YES</string>
 				</dict>
@@ -1496,10 +1500,8 @@
 					<true/>
 					<key>properties</key>
 					<dict>
-						<key>title</key>
-						<string>$action.title</string>
-						<key>content</key>
-						<string>$action.body</string>
+						<key>message</key>
+						<string>$action.message</string>
 					</dict>
 				</dict>
 			</dict>
@@ -1796,7 +1798,7 @@
 					<key>shouldAnimate</key>
 					<string>YES</string>
 					<key>title</key>
-					<string>Segments &amp; Subscriptions</string>
+					<string>Profiles</string>
 				</dict>
 			</dict>
 		</dict>
@@ -1833,7 +1835,7 @@
 								<array>
 									<dict>
 										<key>name</key>
-										<string>Subscriptions</string>
+										<string>Profiles</string>
 									</dict>
 								</array>
 							</dict>
@@ -1941,10 +1943,6 @@
 									</dict>
 									<dict>
 										<key>name</key>
-										<string>PwAlerts</string>
-									</dict>
-									<dict>
-										<key>name</key>
 										<string>PwAnalytics</string>
 									</dict>
 									<dict>
@@ -1953,7 +1951,7 @@
 									</dict>
 									<dict>
 										<key>name</key>
-										<string>PwLocationMarketing</string>
+										<string>PwMessaging</string>
 									</dict>
 									<dict>
 										<key>name</key>

@@ -516,25 +516,31 @@
 /*
  *  AFCOfferWalletViewController Strings
  */
-"afmcofferwalletviewcontroller.titlelabel.text" = "Ofertas";
-"afcofferwalletviewcontroller.cell.expirationdate.detailtextlabel.text" = "Caduca";
-"afmcofferwalletviewcontroller.cell.nooffers.text" = "Sin Ofertas";
-"afmcofferwalletviewcontroller.header.validoffers.text" = "Ofertas Válidas";
-"afmcofferwalletviewcontroller.header.expiredoffers.text" = "Ofertas Vencidas";
+"afmcofferwalletviewcontroller.titlelabel.text" = "Centro de Mensajes";
+"afmcofferwalletviewcontroller.titlelabel.text.editing" = "Editar";
 "afmcofferwalletviewcontroller.emptymessagelabel.text" = "No tienes mensajes en este momento.";
 "afmcofferwalletviewcontroller.deletebutton.title" = "Eliminar";
-"afmcofferwalletviewcontroller.alert.title" = "Eliminar mensajes";
-"afmcofferwalletviewcontroller.alert.description" = "¿Desea eliminar los menasajes?";
-"afmcofferwalletviewcontroller.alert.cancelbutton.title" = "Cancelar";
-"afmcofferwalletviewcontroller.alert.deletebutton.title" = "Eliminar";
+"afmcofferwalletviewcontroller.alert.title" = "Eliminar Mensajes";
+"afmcofferwalletviewcontroller.alert.description" = "¿Desea eliminar estos %d menasajes?";
+"afmcofferwalletviewcontroller.alert.cancelbutton.title" = "NO";
+"afmcofferwalletviewcontroller.alert.deletebutton.title" = "SI";
 "afmcofferwalletviewcontroller.expirationdate.text" = "EXPIRA %@";
-"afmcofferdetailviewcontroller.offerbutton.title" = "¡Recibir oferta!";
-"afmcofferdetailviewcontroller.alert.title" = "Eliminar mensaje";
-"afmcofferdetailviewcontroller.alert.message" = "¿Desea eliminar el mensaje?";
-"afmcofferdetailviewcontroller.alert.deletebutton.title" = "Eliminar";
-"afmcofferdetailviewcontroller.alert.cancelbutton.title" = "Cancelar";
-"afmcofferwalletviewcontroller.cell.expirationdate.detailtextlabel.text" = "Vence";
 
+/*
+ *  AFCOfferDetailViewController Strings
+ */
+"afmcofferdetailviewcontroller.titlelabel.text" = "Promoción";
+"afmcofferdetailviewcontroller.expirationdatelabel.text" = "EXPIRA %@";
+"afmcofferdetailviewcontroller.offerbutton.title" = "¡Recibir oferta!";
+"afmcofferdetailviewcontroller.alert.title" = "Eliminar";
+"afmcofferdetailviewcontroller.alert.message" = "¿Desea eliminar el mensaje?";
+"afmcofferdetailviewcontroller.alert.deletebutton.title" = "SI";
+"afmcofferdetailviewcontroller.alert.cancelbutton.title" = "NO";
+
+/*
+ *  AFMCOfferSwipeViewController Strings
+ */
+"afmcofferswipeviewcontroller.titlelabel.text" = "Promoción";
 
 
 

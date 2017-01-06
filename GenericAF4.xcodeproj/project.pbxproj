@@ -28,6 +28,9 @@
 		7E699E761C97708B00000BA9 /* AFCLayerPickerTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E699E751C97708B00000BA9 /* AFCLayerPickerTableViewCell.plist */; };
 		8C10FC371C49CD5A000A7913 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C10FC361C49CD5A000A7913 /* Fabric.framework */; };
 		8C64BA151D02143100AB0FDD /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C64BA141D02143100AB0FDD /* CoreBluetooth.framework */; };
+		8C6B9A4C1DF62F400067DABC /* AFMCOfferWalletViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C6B9A4B1DF62F400067DABC /* AFMCOfferWalletViewController.plist */; };
+		8C6B9A4F1DF630F10067DABC /* AFMCOfferDetailViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C6B9A4D1DF630F10067DABC /* AFMCOfferDetailViewController.plist */; };
+		8C6B9A501DF630F10067DABC /* AFMCOfferTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C6B9A4E1DF630F10067DABC /* AFMCOfferTableViewCell.plist */; };
 		8CA4FA061C8F9FE900E0028C /* 20160120_android_multilayer_sandbox.s3db in Resources */ = {isa = PBXBuildFile; fileRef = 8CA4FA051C8F9FE900E0028C /* 20160120_android_multilayer_sandbox.s3db */; };
 		8CB729D21C20A30D00F016B7 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB729D11C20A30D00F016B7 /* Crashlytics.framework */; };
 		8CCAD9611C2B13890069AEB1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8CCAD9631C2B13890069AEB1 /* Localizable.strings */; };
@@ -72,6 +75,7 @@
 		8FDD0F4D1BD1CC5000A0C512 /* Proxima Nova Sbold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8FDD0F4A1BD1CC5000A0C512 /* Proxima Nova Sbold.otf */; };
 		8FDD0F4E1BD1CC5000A0C512 /* ProximaNova-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8FDD0F4B1BD1CC5000A0C512 /* ProximaNova-Light.otf */; };
 		8FDD0F4F1BD1CC5000A0C512 /* ProximaNova-Reg.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8FDD0F4C1BD1CC5000A0C512 /* ProximaNova-Reg.otf */; };
+		C3610AF61E08A4A2000FF63E /* AFMCOfferSwipeViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3610AF51E08A4A2000FF63E /* AFMCOfferSwipeViewController.plist */; };
 		C398FC971D75E9C700FD48DE /* AFCUIDynamicViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = C398FC961D75E9C700FD48DE /* AFCUIDynamicViewController.plist */; };
 /* End PBXBuildFile section */
 
@@ -105,6 +109,9 @@
 		7E705E301DBE89C40047C09C /* GenericAF4.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = GenericAF4.entitlements; path = GenericAF4/GenericAF4.entitlements; sourceTree = "<group>"; };
 		8C10FC361C49CD5A000A7913 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		8C64BA141D02143100AB0FDD /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		8C6B9A4B1DF62F400067DABC /* AFMCOfferWalletViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFMCOfferWalletViewController.plist; sourceTree = "<group>"; };
+		8C6B9A4D1DF630F10067DABC /* AFMCOfferDetailViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFMCOfferDetailViewController.plist; sourceTree = "<group>"; };
+		8C6B9A4E1DF630F10067DABC /* AFMCOfferTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFMCOfferTableViewCell.plist; sourceTree = "<group>"; };
 		8C8951D41CD3C832005CBC96 /* Austin.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Austin.gpx; path = Generic/Austin.gpx; sourceTree = "<group>"; };
 		8CA4FA051C8F9FE900E0028C /* 20160120_android_multilayer_sandbox.s3db */ = {isa = PBXFileReference; lastKnownFileType = file; path = 20160120_android_multilayer_sandbox.s3db; sourceTree = "<group>"; };
 		8CB729D11C20A30D00F016B7 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
@@ -155,6 +162,7 @@
 		8FDD0F4B1BD1CC5000A0C512 /* ProximaNova-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Light.otf"; sourceTree = "<group>"; };
 		8FDD0F4C1BD1CC5000A0C512 /* ProximaNova-Reg.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Reg.otf"; sourceTree = "<group>"; };
 		C02DC45A51222D0A8E013A46 /* Pods-GenericAF4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericAF4.release.xcconfig"; path = "Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4.release.xcconfig"; sourceTree = "<group>"; };
+		C3610AF51E08A4A2000FF63E /* AFMCOfferSwipeViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFMCOfferSwipeViewController.plist; sourceTree = "<group>"; };
 		C398FC961D75E9C700FD48DE /* AFCUIDynamicViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCUIDynamicViewController.plist; sourceTree = "<group>"; };
 		CD63D1DBC98CA341DD182074 /* Pods-GenericAF4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericAF4.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -242,35 +250,39 @@
 		8F43556C1BC858B700FFD46C /* UIConfiguration */ = {
 			isa = PBXGroup;
 			children = (
-				8CFB59EF1CCFECB300ADACEE /* AFMUIMapViewController.plist */,
-				8F5FFFB81BCC2F58000B027C /* AFMUIPOIViewController.plist */,
-				8F5FFFB91BCC2F58000B027C /* AFMUILocationCell.plist */,
-				8F5FFFBA1BCC2F58000B027C /* AFMUIRouteViewController.plist */,
-				8F5FFFBB1BCC2F58000B027C /* AFMUIPOIFilterViewController.plist */,
-				8F5FFFBC1BCC2F58000B027C /* AFMUIPOIDetailViewController.plist */,
-				8F43559A1BC85B8F00FFD46C /* EventsListViewController.plist */,
-				8F43559B1BC85B8F00FFD46C /* EventTableViewCell.plist */,
-				8F4355981BC85B7800FFD46C /* AFCUIWebViewController.plist */,
-				8F4355961BC85B7100FFD46C /* AFCUIEULAViewController.plist */,
+				8F5FFFD61BCDB00C000B027C /* AFCASubscriptionsSetupViewController.plist */,
 				5555DB0D1C446C6A00E37207 /* AFCDirectoryCategoryViewController.plist */,
 				5555DB091C44646800E37207 /* AFCDirectoryViewController.plist */,
+				7E699E751C97708B00000BA9 /* AFCLayerPickerTableViewCell.plist */,
+				7E699E731C973AE500000BA9 /* AFCLayerPickerViewController.plist */,
 				8F43556F1BC858B700FFD46C /* AFCParkingMapViewController.plist */,
 				8F4355701BC858B700FFD46C /* AFCParkingNoteViewController.plist */,
 				8F4355711BC858B700FFD46C /* AFCParkingPhotoViewController.plist */,
 				8F885A601BCC2352004E2474 /* AFCParkingViewController.plist */,
 				8F4355731BC858B700FFD46C /* AFCParkingVoiceMemoViewController.plist */,
-				8F4355741BC858B700FFD46C /* AFCUIItemDetailViewController.plist */,
-				8F4355751BC858B700FFD46C /* AFCUIModalWebBrowser.plist */,
-				8F4355761BC858B700FFD46C /* AFCUITrayMenuViewController.plist */,
-				8F5FFFD61BCDB00C000B027C /* AFCASubscriptionsSetupViewController.plist */,
+				C398FC961D75E9C700FD48DE /* AFCUIDynamicViewController.plist */,
+				8F4355961BC85B7100FFD46C /* AFCUIEULAViewController.plist */,
 				8F8C54211BD798060018A2ED /* AFCUIHoneyBadgerTableViewCell.plist */,
 				8F8C54291BD7ED9A0018A2ED /* AFCUIImageSplashViewController.plist */,
+				8F4355741BC858B700FFD46C /* AFCUIItemDetailViewController.plist */,
 				8F8C542E1BD8191F0018A2ED /* AFCUIMallDetailViewController.plist */,
-				7E699E731C973AE500000BA9 /* AFCLayerPickerViewController.plist */,
-				7E699E751C97708B00000BA9 /* AFCLayerPickerTableViewCell.plist */,
-				7E1303371CDA451300AF350E /* AFMUIMapPickerViewController.plist */,
+				8F4355751BC858B700FFD46C /* AFCUIModalWebBrowser.plist */,
+				8F4355761BC858B700FFD46C /* AFCUITrayMenuViewController.plist */,
+				8F4355981BC85B7800FFD46C /* AFCUIWebViewController.plist */,
+				8C6B9A4D1DF630F10067DABC /* AFMCOfferDetailViewController.plist */,
+				8C6B9A4E1DF630F10067DABC /* AFMCOfferTableViewCell.plist */,
+				8C6B9A4B1DF62F400067DABC /* AFMCOfferWalletViewController.plist */,
+				C3610AF51E08A4A2000FF63E /* AFMCOfferSwipeViewController.plist */,
+				8F5FFFB91BCC2F58000B027C /* AFMUILocationCell.plist */,
 				7E1303391CDA453100AF350E /* AFMUIMapPickerTableViewCell.plist */,
-				C398FC961D75E9C700FD48DE /* AFCUIDynamicViewController.plist */,
+				7E1303371CDA451300AF350E /* AFMUIMapPickerViewController.plist */,
+				8CFB59EF1CCFECB300ADACEE /* AFMUIMapViewController.plist */,
+				8F5FFFBC1BCC2F58000B027C /* AFMUIPOIDetailViewController.plist */,
+				8F5FFFBB1BCC2F58000B027C /* AFMUIPOIFilterViewController.plist */,
+				8F5FFFB81BCC2F58000B027C /* AFMUIPOIViewController.plist */,
+				8F5FFFBA1BCC2F58000B027C /* AFMUIRouteViewController.plist */,
+				8F43559A1BC85B8F00FFD46C /* EventsListViewController.plist */,
+				8F43559B1BC85B8F00FFD46C /* EventTableViewCell.plist */,
 				55173FDD1D62790500EE540B /* UIConfigurationDefault.plist */,
 			);
 			path = UIConfiguration;
@@ -417,7 +429,9 @@
 				8F43559D1BC85B8F00FFD46C /* EventTableViewCell.plist in Resources */,
 				551BF9281C1B51E9004D7ECD /* (null) in Resources */,
 				5555DB071C44646800E37207 /* AFCDirectoryViewController.plist in Resources */,
+				8C6B9A4F1DF630F10067DABC /* AFMCOfferDetailViewController.plist in Resources */,
 				8F885A611BCC2352004E2474 /* AFCParkingViewController.plist in Resources */,
+				8C6B9A4C1DF62F400067DABC /* AFMCOfferWalletViewController.plist in Resources */,
 				8CFB59F01CCFECB300ADACEE /* AFMUIMapViewController.plist in Resources */,
 				8F8C542F1BD8191F0018A2ED /* AFCUIMallDetailViewController.plist in Resources */,
 				8F43558B1BC858B700FFD46C /* AFCUIItemDetailViewController.plist in Resources */,
@@ -443,6 +457,7 @@
 				8FDD0F4E1BD1CC5000A0C512 /* ProximaNova-Light.otf in Resources */,
 				5555DB0F1C448FDB00E37207 /* ModuleDefinition.plist in Resources */,
 				8F4355881BC858B700FFD46C /* AFCParkingPhotoViewController.plist in Resources */,
+				C3610AF61E08A4A2000FF63E /* AFMCOfferSwipeViewController.plist in Resources */,
 				8F8C54221BD798060018A2ED /* AFCUIHoneyBadgerTableViewCell.plist in Resources */,
 				551BF9261C1B51E9004D7ECD /* (null) in Resources */,
 				8FDD0F3B1BD1775500A0C512 /* GenericAppNavigationController.xib in Resources */,
@@ -451,6 +466,7 @@
 				8F4355901BC858B700FFD46C /* Customization.xcassets in Resources */,
 				8F4355991BC85B7800FFD46C /* AFCUIWebViewController.plist in Resources */,
 				8CA4FA061C8F9FE900E0028C /* 20160120_android_multilayer_sandbox.s3db in Resources */,
+				8C6B9A501DF630F10067DABC /* AFMCOfferTableViewCell.plist in Resources */,
 				8FDD0F491BD190B900A0C512 /* ApplicationShortcuts.plist in Resources */,
 				8F5FFFBF1BCC2F58000B027C /* AFMUIRouteViewController.plist in Resources */,
 				8CCAD9611C2B13890069AEB1 /* Localizable.strings in Resources */,
@@ -511,7 +527,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		8CB729D01C20A1D000F016B7 /* ShellScript */ = {
@@ -718,7 +734,7 @@
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CODE_SIGN_ENTITLEMENTS = GenericAF4/GenericAF4.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 84CK77G588;
 				ENABLE_BITCODE = NO;
@@ -732,8 +748,8 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.generic.af4.ios;
 				PRODUCT_NAME = GenericAF4;
-				PROVISIONING_PROFILE = "15177d88-bebf-46c1-860c-30160cbe6fd9";
-				PROVISIONING_PROFILE_SPECIFIER = GenericAF4_DevCert;
+				PROVISIONING_PROFILE = "989dff4f-3f48-4359-b746-b68f4dbb4580";
+				PROVISIONING_PROFILE_SPECIFIER = GenericAF4_InHousePushEnabled;
 			};
 			name = Debug;
 		};

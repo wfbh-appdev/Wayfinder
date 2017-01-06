@@ -11,11 +11,13 @@
 #import <PWMapKit/PWMapKit.h>
 #import <PWLocation/PWLocation.h>
 #import <PWCore/PWCore.h>
-#import <PWAlerts/PWAlerts.h>
 #import <PWAnalytics/PWAnalytics.h>
 #import <PWAdvertising/PWAds.h>
 #import <PWCME/PWCME.h>
-#import <Localpoint/Localpoint.h>
+#import <PWMessaging/PWMessaging.h>
+
+NSString *kPwMapKitVersion = @"3.0.4";
+NSString *kPwMessagingVersion = @"3.0.2";
 
 
 @implementation AFCUIMaasVersionCellViewClassTableViewCell
@@ -27,21 +29,19 @@
 
 
     if ([super.textLabel.text isEqualToString:@"PwMapKit"])
-        versionString = @"3.0.1";
+        versionString = kPwMapKitVersion;
     if ([super.textLabel.text isEqualToString:@"PwLocation"])
         versionString = PWLocation_VERSION;
     if ([super.textLabel.text isEqualToString:@"PwCore"])
         versionString = PWCore_Version;
-    if ([super.textLabel.text isEqualToString:@"PwAlerts"])
-        versionString = PWAlerts_VERSION;
     if ([super.textLabel.text isEqualToString:@"PwAnalytics"])
         versionString = PWAnalytics_VERSION;
     if ([super.textLabel.text isEqualToString:@"PwAds"])
         versionString = PWADS_VERSION;
     if ([super.textLabel.text isEqualToString:@"PwCME"])
         versionString = MaaSCMS_VERSION;
-    if ([super.textLabel.text isEqualToString:@"PwLocationMarketing"]) {
-        versionString = [[[LPLocalpointService instance] getSDKVersion] getValue];
+    if ([super.textLabel.text isEqualToString:@"PwMessaging"]) {
+        versionString = kPwMessagingVersion;
     }
 
 
