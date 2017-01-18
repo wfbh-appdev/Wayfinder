@@ -8,6 +8,7 @@
 
 #import <AppFrameworkCore/AFAnalyticsController.h>
 
+
 @interface AFGoogleAnalyticsController : AFAnalyticsController
 
 @end

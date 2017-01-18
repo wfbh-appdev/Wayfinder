@@ -5,7 +5,7 @@
 	<key>view</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#000000</string>
+		<string>$BlackColor</string>
 		<key>constraints</key>
 		<array>
 			<string>H:|[photo]|</string>
@@ -22,13 +22,13 @@
 		<key>text</key>
 		<string>#afcparkingphotoviewcontroller.message.text</string>
 		<key>fontName</key>
-		<string>HelveticaNeue</string>
+		<string>$MainFont</string>
 		<key>fontSize</key>
 		<integer>17</integer>
 		<key>lines</key>
 		<integer>0</integer>
 		<key>color</key>
-		<string>#000000</string>
+		<string>$BlackColor</string>
 		<key>alignment</key>
 		<string>center</string>
 		<key>hidden</key>
@@ -38,12 +38,12 @@
 	<dict/>
 	<key>titleLabel</key>
 	<dict>
+		<key>type</key>
+		<string>DefaultTitleLabel</string>
 		<key>text</key>
 		<string></string>
 		<key>color</key>
-		<string>#ffffff</string>
-		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
+		<string>$WhiteColor</string>
 		<key>fontSize</key>
 		<integer>16</integer>
 	</dict>

@@ -16,20 +16,27 @@
 #import <AppFrameworkCore/AppFrameworkCore.h>
 #import "AFGoogleAnalyticsController.h"
 #import <Crashlytics/Crashlytics.h>
+#import <AppFrameworkMappingModule/AFMOutdoorToIndoor.h>
+
 
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+- (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
     [Crashlytics startWithAPIKey:@"b8127086af392cb1b73dc00a7387bb7a0856138f"];
-    
-    NSDictionary *dictionary=[NSDictionary dictionaryWithContentsOfURL:[[NSBundle mainBundle] URLForResource:@"ModuleDefinition" withExtension:@"plist"]];
-    
-    AFCAbstractModule *module=[[AFCDictionaryBasedModule alloc] initWithDictionary:dictionary];
+
+    NSDictionary *dictionary = [NSDictionary dictionaryWithContentsOfURL:[[NSBundle mainBundle] URLForResource:@"ModuleDefinition" withExtension:@"plist"]];
+
+    AFCAbstractModule *module = [[AFCDictionaryBasedModule alloc] initWithDictionary:dictionary];
     [[AFCCoreEngine sharedCore] addModule:module];
-        
-    [[UIApplication sharedApplication] registerAnalyticsDelegate: [[AFGoogleAnalyticsController alloc] init]];
-      
+
+    [[UIApplication sharedApplication] registerAnalyticsDelegate:[[AFGoogleAnalyticsController alloc] init]];
+
+    if ([launchOptions valueForKey:UIApplicationLaunchOptionsLocationKey]) {
+        [AFMOutdoorToIndoor sharedConfiguration];
+    }
+
     return [super application:application willFinishLaunchingWithOptions:launchOptions];
 }
 

@@ -5,9 +5,9 @@
 	<key>view</key>
 	<dict>
 		<key>title</key>
-		<string>Categories</string>
+		<string>#afcdirectorycategoryviewcontroller.categories.text</string>
 		<key>backgroundColor</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>constraints</key>
 		<array>
 			<string>H:|[table]|</string>
@@ -20,7 +20,7 @@
 	<key>topBar</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#000000</string>
+		<string>$BlackColor</string>
 		<key>constraints</key>
 		<array>
 			<string>H:|-&gt;=50-[cancelButton(80)]-6-|</string>
@@ -33,15 +33,18 @@
 	<key>cancelButton</key>
 	<dict>
 		<key>color</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>fontSize</key>
 		<integer>14</integer>
 		<key>buttonTitle</key>
-		<string>Cancel</string>
+		<string>#afcdirectorycategoryviewcontroller.cancel.text</string>
 		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
+		<string>$MainFontLight</string>
 	</dict>
 	<key>titleLabel</key>
-	<dict/>
+	<dict>
+		<key>type</key>
+		<string>DefaultTitleLabel</string>
+	</dict>
 </dict>
 </plist>

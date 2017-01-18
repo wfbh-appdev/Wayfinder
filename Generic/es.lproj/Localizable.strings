@@ -6,37 +6,239 @@
   Copyright © 2015 Phunware. All rights reserved.
 */
 
+/*** AF-CORE STRINGS ***/
+/*
+ * EULA Agreement
+ */
 
+"afceulapromoptaction.prompt.message" = "¿Está de acuerdo con el contenido de la licencia de uso y los términos y condiciones de uso?";
+"afceulapromoptaction.prompt.message.title" = "Acuerdo de Licencia";
+"afceulapromoptaction.prompt.message.agreebutton.title"="DE ACUERDO";
+"afceulapromoptaction.prompt.message.viewbutton.title"="VER LICENCIA";
 
 /*
-*
-*/
+ *   AFCUIEULAViewController Strings
+ */
 
+"afcuieulaviewcontroller.agreebutton.buttontitle" = "Acepto";
+"afcuieulaviewcontroller.navbar.title" = "Acuerdo de Licencia";
+
+/*
+ *   AFCUIWebViewController Strings
+ */
+
+"afcuiwebviewcontroller.message.text" = "Por favor espere...";
+
+/*
+ *  AFCUIModalWebBrowser Strings
+ */
+
+"afcuimodalwebbrowser.status.text" = "Cargando";
+"afcuimodalwebbrowser.closeButton.buttontitle" = "Cerrar";
+
+/*
+ *  AFCCheckForceUpdate Strings
+ */
+"afccheckforceupdate.prompt.message.displayforceupdate.alert.title" = "Actualización Requerida";
+"afccheckforceupdate.displayforceupdate.alert.title" = "Actualización Disponible";
+"afccheckforceupdate.displayforceupdate.alert.message" = "Una nueva versión ha sido lanzada. Usted debe actualizar a la última versión.";
+"afccheckforceupdate.displayforceupdate.alert.button.title" = "Actualizar";
+"afccheckforceupdate.displayupdateavailable.alert.title" = "Actualización Disponible";
+"afccheckforceupdate.displayupdateavailable.alert.message" = "Una nueva versión ha sido lanzada. Por favor actualice a la última versión.";
+"afccheckforceupdate.displayupdateavailable.alert.button.title" = "Actualizar";
+"afccheckforceupdate.displayupdateavailable.alert.cancel.title" = "Ahora no";
+
+/*
+ *  AFCLogout Strings
+ */
+"afclogoutaction.alert.title" = "Salir con éxito";
+"afclogoutaction.alert.message" = "Ha iniciado sesión con éxito de la sesión actual.";
+"afclogoutaction.alert.button.title" = "SÍ";
+
+/*
+ * SSO WebView Alert Strings
+ */
+"afcuimodalwebbrowser.alert.title" = "Error";
+"afcuimodalwebbrowser.alert.message" = "Usted debe ingresar para ver el contenido de esta página.";
+"afcuimodalwebbrowser.alert.ok" = "Bueno";
+
+/**
+ * Layer Picker
+ */
+"afclayerpickerviewcontroller.navbar.default.title" = "Capas";
+"afclayerpickerviewcontroller.searchbar.default.text" = "Buscar";
+
+/**
+ * Segments Error
+ */
+"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.title" = "Configuracion de Alertas";
+"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.message" = "Por favor configura los segmentos para esta application en App Builder portal.";
+"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.cancelbutton.title" = "SÍ";
+"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.title" = "Configuracion de Alertas";
+"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.message" = "Este contenido requiere una conexión de datos , por favor revise su red móvil o Wi-Fi y vuelve a intentarlo.";
+"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.cancelbutton.title" = "SÍ";
+
+/*
+ *  No Initial Database Strings
+ */
+"afinitialdatabase.displayforceupdate.alert.title" = "Error";
+"afinitialdatabase.displayforceupdate.alert.message" = "No se puede iniciar la aplicación . Por favor, compruebe que el dispositivo está conectado a una red.";
+"afinitialdatabase.displayforceupdate.alert.button" = "Cerca de aplicación";
+
+/*
+ *  No Layer Database Strings
+ */
+"aflayerdatabase.displayforceupdate.alert.title" = "Error";
+"aflayerdatabase.displayforceupdate.alert.message" = "Este contenido requiere una conexión de datos, por favor revise su red móvil o WiFi y vuelve a intentarlo.";
+"aflayerdatabase.displayforceupdate.alert.button" = "SÍ";
+
+
+
+
+/*** AF-RENDER STRINGS ***/
+
+/*
+ * Smart Form Date/Time Picker Strings
+ */
+"afcuidatepicker.alert.title" = "Seleccione Fecha";
+"afcuidatepicker.navbar.today" = "Hoy";
+"afcuitimepicker.alert.title" = "Seleccione Hora";
+"afcuipicker.alert.ok" = "De acuerdo";
+"afcuipicker.alert.cancel" = "Cancelar";
+
+/*
+ * Smart Form Image Upload Strings
+ */
+"afcuimediapicker.navbar.title" = "Seleccionar Imagen";
+"afcuimediapicker.toolbar.selectimage" = "Seleccionar Imagen";
+"afcuimediapicker.toolbar.clearimage" = "Limpiar Imagen";
+"afcuimediapicker.alert.cancel" = "Cancelar";
+"afcuimediapicker.imageselect" = "Seleccionar Foto de Galería";
+"afcuimediapicker.takeimage" = "Tomar Foto";
+"afcuimediapicker.button.defaulttext" = "Seleccionar Imagen Para Subir";
+"afcuimediapicker.button.photouploaded" = "Carga de Foto Completa";
+
+/*
+ * User Login Content Type Strings
+ */
+"afcuiuserloginview.textfieldplaceholder.username" = "Usuario";
+"afcuiuserloginview.textfieldplaceholder.password" = "Contraseña";
+"afcuiuserloginview.loginbutton.text" = "Iniciar sesión";
+"afcuiuserloginview.loginbutton.failedtext" = "Inicio de Sesión Fallido";
+"afcuiuserloginview.loginmessage.invalidusernamepassword" = "Nombre de Usuario o Contraseña\ninválidos. Por favor, intente de nuevo.";
+
+
+
+
+
+
+
+/*** AF-DIRECTORY STRINGS ***/
+/*
+ * Mall Detail Strings
+ */
 "mall.detail.error.phone.message" = "No parece existir un número de teléfono.";
 "mall.detail.error.phone.title" = "";
 "mall.detail.error.website.message" = "No parece existir el sitio web.";
 "mall.detail.error.website.title" = "";
 
 /*
-*
-*/
-
+ * AFCClearCacheAction Strings
+ */
 "afcclearcacheaction.prompt.message" = "Esta acción borrará todos los datos almacenados y reiniciará la aplicación. ¿Está seguro de continuar?";
 "afcclearcacheaction.prompt.title" = "Confirmar";
 "afcclearcacheaction.cancel.title" = "Cancelar";
 "afcclearcacheaction.ok.title" = "Limpiar Cache";
 
 /*
- *  AFCUIMAnnotationDirectoryViewController Strings
+ * AFCUIMAnnotationDirectoryViewController Strings
  */
+"afcdirectorycategoryviewcontroller.cancel.text" = "Cancelar";
+"afcdirectorycategoryviewcontroller.categories.text" = "Categorias";
 
+/**
+ * AFCDirectoryViewController Strings
+ */
+"afcdirectoryviewcontroller.viewdidload.allString" = "Todos";
+"afcdirectoryviewcontroller.viewdidload.favoritesString" = "Favoritos";
+"afcdirectoryviewcontroller.setSearchBarPlaceHolder.searchText" = "Buscar";
+"Search...                                                                " = "Buscar...                                                                ";
+"afcdirectoryviewcontroller.nonetwork.failure.title" = "Directorio";
+"afcdirectoryviewcontroller.nonetwork.failure.message" = "Por favor configura los segmentos para esta application en App Builder portal.";
+"afcdirectoryviewcontroller.nonetwork.failure.cancelbutton.title" = "SÍ";
+"afcdirectoryviewcontroller.noresultsfound.title"="No se han encontrado resultados.";
+"afcdirectoryviewcontroller.filternotice.title"="Filtrado por";
+"afcdirectoryviewcontroller.filtercategory.title"="Todos";
+"afcdirectoryviewcontroller.filtercategorybutton.title"="Filtrar";
+
+/*
+ * AFCUIMAnnotationDirectoryViewController Strings
+ */
 "afcuimannotationdirectoryviewcontroller.titlelabel.text" = "Directorio de POI";
-"afcuimannotationdirectoryviewcontroller.noresultsfound.text" = "No Hay Resultados";
+"afcuimannotationdirectoryviewcontroller.noresultsfound.text" = "No se han encontrado resultados.";
+
+
+
+
+
+/*** AF-PARKING STRINGS ***/
+/*
+ *  AFCParkingMapViewController Strings
+ */
+"afcparkingmapviewcontroller.droppinbutton.buttontitle" = "Colocar un Pin";
+"afcparkingmapviewcontroller.droppinbutton.clearenabled.buttontitle" = "Borrar todo";
+"afcparkingmapviewcontroller.droppinbutton.droppinenabled.buttontitle" = "Colocar un Pin";
+"afcparkingmapviewcontroller.droppinbutton.droppindisabled.buttontitle" = "Colocar un Pin";
+"afcparkingmapviewcontroller.titlelabel.text" = "Pin en mi ubicación";
+
+"afcparkingmapviewcontroller.locationauthorization.erroralert.title" = "Por favor, activa ubicación";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.message" = "Ayúdanos a mantener un registro de su lugar de estacionamiento al permitir la ubicación";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.okbutton.title" = "SÍ";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.cancelbutton.title" = "No gracias";
+
+/*
+ *  AFCParkingNoteViewController Strings
+ */
+"afcparkingnoteviewcontroller.noteslabel.text" = "Escriba una nota que le recuerde dónde se ha estacionado...";
+"afcparkingnoteviewcontroller.titlelabel.text" = "Nota de Estacionamiento";
+
+/*
+ *  AFCParkingPhotoViewController Strings
+ */
+"afcparkingphotoviewcontroller.message.text" = "Por favor, haga tap en el botón de la cámara\npara tomar una foto";
+"afcparkingphotoviewcontroller.deniedcamera.message.text" = "Para tomar una fotografía de su espacio de estacionamiento, permita a la aplicación acceder a la cámara de su teléfono.";
+"afcparkingphotoviewcontroller.restrictedcamera.message.text" = "La cámara no puede ser accedida debido a las restricciones de su dispositivo.";
+
+/*
+ *  AFCParkingViewController Strings
+ */
+"afcparkingviewcontroller.parkingremindertitle.text" = "Recordatorio de Estacionamiento";
+"afcparkingviewcontroller.parkingchoosemethod.text" = "Elija un método:";
+"afcparkingviewcontroller.gpslocationbuttonlabel.text" = "Colocar un Pin";
+"afcparkingviewcontroller.takepicturebuttonlabel.text" = "Tomar una Foto";
+"afcparkingviewcontroller.recordvoicememobuttonlabel.text" = "Grabar Una Nota de Voz";
+"afcparkingviewcontroller.writenotebuttonlabel.text" = "Escribir Una Nota";
+"afcparkingviewcontroller.locationsavedmessage.text" = "Ubicación Guardada";
+"afcparkingviewcontroller.imagesavedmessage.text" = "Imagen Guardada";
+"afcparkingviewcontroller.voicememosavedmessage.text" = "Nota de Voz Guardada";
+"afcparkingviewcontroller.notesavedmessage.text" = "Nota Guardada";
+"afcparkingviewcontroller.titlelabel.text" = "Estacionamiento";
+
+/*
+ *  AFCParkingVoiceMemoViewController Strings
+ */
+"afcparkingvoicememoviewcontroller.recordvoicememotitle.text" = "Guardar una nota de voz para recordarle dónde se estacionó";
+"afcparkingvoicememoviewcontroller.titlelabel.text" = "Recordatorio de Estacionamiento";
+
+
+
+
+/*** AF-MAPPING STRINGS ***/
 
 /*
  *  AFCUIMRouteBuilderViewController Strings
  */
-
+"afcuimroutebuilderviewcontroller.route.error.nostartend" = "La locación inicial y final deben ser especificadas para encontrar una ruta.";
 "afcuimroutebuilderviewcontroller.route.error.endstart.same" = "El punto inicial y final deben ser diferentes.";
 "afcuimroutebuilderviewcontroller.route.error.cantfindpoi" = "No podemos encontrar el Punto de Interés, busque de nuevo.";
 "afcuimroutebuilderviewcontroller.route.error.title" = "Lo Sentimos";
@@ -60,10 +262,10 @@
 "afcuimroutebuilderviewcontroller.outdoortoindoornotificationtitle.text" = "Bienvenido a";
 "afcuimroutebuilderviewcontroller.outdoortoindoornotificationtitle.message" = "Por favor, inicie la aplicación de las direcciones de interior a su destino final.";
 
+
 /*
  *  AFCUIMPOIFilterEditorViewController Strings
  */
-
 "afcuimpoifiltereditorviewcontroller.savefiltersbutton.buttontitle" = "Guardar Filtros";
 "afcuimpoifiltereditorviewcontroller.cancelbutton.buttontitle" = "Cancelar";
 "afcuimpoifiltereditorviewcontroller.titlelabel.text" = "Elija Filtro de POI";
@@ -71,140 +273,279 @@
 /*
  *  AFCUIAnnotationDetailViewController Strings
  */
-
 "afcuiannotationdetailviewcontroller.selectCampusButton.buttontitle" = "SELECCIONA ESTE CAMPUS";
 
 /*
- *   AFCUIEULAViewController Strings
+ *  AFCUIMMapViewController Strings
  */
+"afcuimmapviewcontroller.endPointOfInterest.message" = "Has llegado.";
+"afcuimmapviewcontroller.promptlocationalert.backtofacilitymapbutton" = "Volver al mapa de instalaciones";
+"afcuimmapviewcontroller.promptlocationalert.takemetherebutton" = "Llevame ahí";
+"afcuimmapviewcontroller.promptlocationalert.cancelbutton" = "No Gracias";
+"afcuimapviewcontroller.nopoifound.alert.title" = "Punto de interés no encontrado";
+"afcuimapviewcontroller.nopoifound.alert.message" = "El punto de interés no fue encontrado en el edificio.";
+"afcuimmapviewcontroller.searchbar.text" = "Search...";
+"afcuimmapviewcontroller.promptlocationalert.title" = "Nos ayudan a guiar";
+"afcuimmapviewcontroller.promptlocationalert.message" = "Por favor habilite Location Services para obtener direcciones hacia su destino.";
+"afcuimmapviewcontroller.buildingloaderroralert.title" = "Error en el Mapa";
+"afcuimmapviewcontroller.buildingloaderroralert.message" = "No podemos cargar el mapa en este momento. Compruebe su conexión de red.";
+"afcuimmapviewcontroller.buildingloaderroralert.button" = "SÍ";
 
-"afcuieulaviewcontroller.agreebutton.buttontitle" = "Acepto";
-"afcuieulaviewcontroller.navbar.title" = "Acuerdo de Licencia";
 
 /*
- *   AFCUIWebViewController Strings
+ *  AFCUIMRoutingAnnotationView Strings
  */
-
-"afcuiwebviewcontroller.message.text" = "Por favor espere...";
-"afcuimodalwebbrowser.closeButton.buttontitle" = "Cerrar";
-
-
-/*
- *   AFCUIModalWebBrowser Strings
- */
-
-"afcuimodalwebbrowser.status.text" = "Cargando";
-"afcuimodalwebbrowser.closebutton.buttontitle" = "Cerrar";
-
-/*
- *  AFCParkingMapViewController Strings
- */
-
-"afcparkingmapviewcontroller.droppinbutton.buttontitle" = "Colocar un Pin";
-"afcparkingmapviewcontroller.droppinbutton.clearenabled.buttontitle" = "Borrar todo";
-"afcparkingmapviewcontroller.droppinbutton.droppinenabled.buttontitle" = "Colocar un Pin";
-"afcparkingmapviewcontroller.droppinbutton.droppindisabled.buttontitle" = "Colocar un Pin";
-"afcparkingmapviewcontroller.titlelabel.text" = "Pin en mi ubicación";
-
-"afcparkingmapviewcontroller.locationauthorization.erroralert.title" = "Por favor, activa ubicación";
-"afcparkingmapviewcontroller.locationauthorization.erroralert.message" = "Ayúdanos a mantener un registro de su lugar de estacionamiento al permitir la ubicación";
-"afcparkingmapviewcontroller.locationauthorization.erroralert.okbutton.title" = "SÍ";
-"afcparkingmapviewcontroller.locationauthorization.erroralert.cancelbutton.title" = "No gracias";
-
-/*
- *  AFCParkingNoteViewController Strings
- */
-
-"afcparkingnoteviewcontroller.noteslabel.text" = "Escriba una nota que le recuerde dónde se ha estacionado...";
-"afcparkingnoteviewcontroller.titlelabel.text" = "Nota de Estacionamiento";
-
-/*
- *  AFCParkingPhotoViewController Strings
- */
-
-"afcparkingphotoviewcontroller.message.text" = "Por favor, haga tap en el botón de la cámara\npara tomar una foto";
-
-/*
- *  AFCParkingViewController Strings
- */
-
-"afcparkingviewcontroller.parkingremindertitle.text" = "Recordatorio de Estacionamiento";
-"afcparkingviewcontroller.parkingchoosemethod.text" = "Elija un método:";
-"afcparkingviewcontroller.gpslocationbuttonlabel.text" = "Colocar un Pin";
-"afcparkingviewcontroller.takepicturebuttonlabel.text" = "Tomar una Foto";
-"afcparkingviewcontroller.recordvoicememobuttonlabel.text" = "Grabar Una Nota de Voz";
-"afcparkingviewcontroller.writenotebuttonlabel.text" = "Escribir Una Nota";
-"afcparkingviewcontroller.locationsavedmessage.text" = "Ubicación Guardada";
-"afcparkingviewcontroller.imagesavedmessage.text" = "Imagen Guardada";
-"afcparkingviewcontroller.voicememosavedmessage.text" = "Nota de Voz Guardada";
-"afcparkingviewcontroller.notesavedmessage.text" = "Nota Guardada";
-"afcparkingviewcontroller.titlelabel.text" = "Estacionamiento";
-
-/*
- *  AFCParkingVoiceMemoViewController Strings
- */
-
-"afcparkingvoicememoviewcontroller.recordvoicememotitle.text" = "Guardar una nota de voz para recordarle dónde se estacionó";
-"afcparkingvoicememoviewcontroller.titlelabel.text" = "Recordatorio de Estacionamiento";
-
-/*
- *   AFCUIWebViewController Strings
- */
-
-"afcuiwebviewcontroller.message.text" = "Por favor espere...";
-
-/*
- *  AFCOfferWalletViewController Strings
- */
-
-"afcofferwalletviewcontroller.titlelabel.text" = "Ofertas";
-"afcofferwalletviewcontroller.cell.expirationdate.detailtextlabel.text" = "Expira";
-"afcofferwalletviewcontroller.cell.nooffers.text" = "No hay Ofertas";
-"afcofferwalletviewcontroller.header.validoffers.text" = "Ofertas Válidas";
-"afcofferwalletviewcontroller.header.expiredoffers.text" = "Ofertas Expiradas";
-
-/*
- *  AFCCheckForceUpdate Strings
- */
-"afccheckforceupdate.prompt.message.displayforceupdate.alert.title" = "Actualización Requerida";
-"afccheckforceupdate.displayforceupdate.alert.title" = "Actualización Disponible";
-"afccheckforceupdate.displayforceupdate.alert.message" = "Una nueva versión ha sido lanzada. Usted debe actualizar a la última versión.";
-"afccheckforceupdate.displayforceupdate.alert.button.title" = "Actualizar";
-"afccheckforceupdate.displayupdateavailable.alert.title" = "Actualización Disponible";
-"afccheckforceupdate.displayupdateavailable.alert.message" = "Una nueva versión ha sido lanzada. Por favor actualice a la última versión.";
-"afccheckforceupdate.displayupdateavailable.alert.button.title" = "Actualizar";
-"afccheckforceupdate.displayupdateavailable.alert.cancel.title" = "Ahora no";
-
-/*
- * EULA Agreement
- */
-
-"afceulapromoptaction.prompt.message" = "¿Está de acuerdo con el contenido de la licencia de uso y los términos y condiciones de uso?";
-"afceulapromoptaction.prompt.message.title" = "Acuerdo de Licencia";
-"afceulapromoptaction.prompt.message.agreebutton.title"="DE ACUERDO";
-"afceulapromoptaction.prompt.message.viewbutton.title"="VER LICENCIA";
-
-"afcdirectoryviewcontroller.viewdidload.allString" = "Todos";
-"afcdirectoryviewcontroller.viewdidload.favoritesString" = "Favoritos";
-
-"afcdirectoryviewcontroller.setSearchBarPlaceHolder.searchText" = "Buscar";
-
-"afcuimmapviewcontroller.searchbar.text" = "Buscar...";
-"Search...                                                                " = "Buscar...                                                                ";
-
-"afcuimroutingannotationview.starthereannotation.title"="Comience Aquí";
-"afcuimroutingannotationview.destinationannotation.title"="Destino";
-
 "afcuimroutingannotationview.taptogoback.title" = "TAP PARA REGRESAR";
 "afcuimroutingannotationview.taptoviewnext.title" = "TAP PARA SIGUIENTE";
-
+"afcuimroutingannotationview.starthereannotation.title"="Comience";
+"afcuimroutingannotationview.destinationannotation.title"="Termina";
 "afcuimroutingannotationview.tome.title" = "Tome";
 "afcuimroutingannotationview.hacia.title" = "hacia";
 
+/**
+ * Map Picker
+ */
+"afcmmappickerviewcontroller.navbar.title" = "Mapas";
+"afcmmappickerviewcontroller.promptlocationalert.title" = "Nos ayudan a guiar";
+"afcmmappickerviewcontroller.promptlocationalert.message" = "Por favor, activa los servicios de localización de manera que le guiará por las instalaciones.";
 
-"afcdirectoryviewcontroller.nonetwork.failure.title" = "Directorio";
-"afcdirectoryviewcontroller.nonetwork.failure.message" = "Por favor configura los segmentos para esta application en App Builder portal.";
-"afcdirectoryviewcontroller.nonetwork.failure.cancelbutton.title" = "SÍ";
+
+//POI Translations
+"Unknown" = "Desconocido";
+"Restroom" = "Sanitario";
+"Drinking Fountain" = "Fuente de Sodas";
+"Phone" = "Teléfono";
+"Security Checkpoint" = "Control de Seguridad";
+"Information" = "Información";
+"Baggage Room" = "Sala de Equipaje";
+"Valet" = "Valet";
+"Luggage" = "Equipaje";
+"Ticket Counter" = "Taquilla";
+"Gate" = "Puerta";
+"Terminal" = "Terminal";
+"First Aid Station" = "Estación de Primeros Auxilios";
+"Lost and Found" = "Perdido y Encontrado";
+"Luggage Carts" = "Carros de Equipaje";
+"Lockers" = "Casilleros";
+"Smoking Area" = "Área de Fumar";
+"Airline Lounge" = "Sala VIP de la aerolínea";
+"Business Area(s)" = "Área(s) Ejecutiva(s)";
+"Play Area" = "Área de Juego";
+"Security Office" = "Oficina de Seguridad";
+"Management Office" = "Oficina de Administración";
+"Food Court" = "Área de Comida";
+"Service Counter" = "Mostrador de Atención al Público";
+"Cafeteria" = "Cafetería";
+"Waiting Area" = "Área de Espera";
+"Meeting Area" = "Área de Encuentro";
+"Cafe" = "Café";
+"Conference Room" = "Sala de Conferencia";
+"Education" = "Educación";
+"Fitness" = "Ejercicio/Gimnasio";
+"Mailroom" = "Sala de Correos";
+"Offices" = "Oficinas";
+"Reception" = "Recepción";
+"Storage" = "Almacén";
+"Military Liaison" = "Enlace Militar";
+"Customs" = "Aduana";
+"Fast Food" = "Comida Rápida";
+"Charging Station" = "Estación de Carga";
+"Shoe Shine" = "Lustre de Zapatos";
+"Massage" = "Masajes";
+"Spa" = "Spa";
+"Vending Machine" = "Máquina Expendedora";
+"Defibrillator" = "Desfibrilador";
+"Nursing Room" = "Enfermería";
+"Pet Relief Area" = "Área de Mascotas";
+"Flight Monitor" = "Monitor de Vuelos";
+"Meditation Room" = "Cuarto de Meditación";
+"Seating" = "Asientos";
+"Wheelchair" = "Silla de Ruedas";
+"Mail" = "Correo";
+"Concourse" = "Concurso";
+"Aisle" = "Pasillo";
+"Amusement Ride" = "Paseo de Diversión";
+"Animal Enclosure" = "Recinto Animal";
+"Aquarium" = "Acuario";
+"Booth" = "Cabina";
+"Campsite" = "Sitio de Acampado";
+"Woodland" = "Bosques";
+"Drop Off Point" = "Área de Desembarque";
+"Gaming Area" = "Área de Juegos";
+"Grass/Field" = "Pasto/Campo";
+"Hotel Room" = "Cuarto de Hotel";
+"Museum Exhibit" = "Exhibición de Museo";
+"Pedestrian Path" = "Paso Peatonal";
+"Picnic Area" = "Área de Picnic";
+"Sports Field" = "Campo de Deportes";
+"Track" = "Pista";
+"Water Feature" = "Fuente de Agua";
+"ATM" = "Cajero Automático";
+"Marina" = "Marina";
+"Airport" = "Aeropuerto";
+"Business Facility" = "Área de Negocios";
+"Grocery Store" = "Tienda de Abarrotes";
+"Auto Dealerships" = "Concesionario de Automóviles";
+"Petrol/Gasoline Station" = "Gasolinería";
+"Motorcycle Dealership" = "Concesionario de Motos";
+"Restaurant" = "Restaurante";
+"Nightlife" = "Vida Nocturna";
+"Bank" = "Banco";
+"Shopping" = "Compras";
+"Hotel" = "Hotel";
+"Other Accommodation" = "Otro Hospedaje";
+"Tourist Information" = "Información Turística";
+"Rental Car Agency" = "Agencia de Renta de Autos";
+"Park & Ride" = "Parque y Recreación";
+"Auto Service & Maintenance" = "Mantenimiento y Servicio de Automóviles";
+"Park/Recreation Area" = "Área de Recreación/Parque";
+"Cinema" = "Cine";
+"Rest Area" = "Área de Descanso";
+"Performing Arts" = "Artes Escénicas";
+"Casino" = "Casino";
+"Convention/Exhibition Centre" = "Convención/Centro de Exhibición";
+"Golf Course" = "Campo de Golf";
+"Civic/Community Centre" = "Centro Comunitario/Cívico";
+"Amusement Park" = "Parque de Diversiones";
+"Sports Centre" = "Centro de Deportes";
+"Ice Skating Rink" = "Pista de Patinaje sobre Hielo";
+"Tourist Attraction" = "Atracción Turística";
+"Hospital" = "Hospital";
+"Higher Education" = "Educación Superior";
+"School" = "Escuela";
+"Library" = "Biblioteca";
+"Museum" = "Museo";
+"Automobile Club" = "Club Automovilístico";
+"City Hall" = "Alcaldía";
+"Police Station" = "Estación de Policía";
+"Business Service" = "Servicio de Negocios";
+"Other Communication" = "Otras Comunicaciones";
+"Telephone Service" = "Servicio de Teléfono";
+"Cleaning & Laundry" = "Limpieza y lavandería";
+"Hair & Beauty" = "Cabello y Belleza";
+"Health Care Service" = "Servicio de Cuidado de Salud";
+"Photography" = "Fotografía";
+"Video & Game Rental" = "Renta de Videos y Juegos";
+"Storage" = "Almacén";
+"Tailor & Alteration" = "Sastre";
+"Tax Service" = "Servicio de Impuestos";
+"Repair Service" = "Servicio de Reparación";
+"Retirement/Nursing Home" = "Casa de Retiro/Cuidados";
+"Social Service" = "Servicio Social";
+"Utilities" = "Utilidades";
+"Waste & Sanitary" = "Área de Desechos";
+"Auto Parts" = "Partes de Automóvil";
+"Car Wash/Detailing" = "Auto Lavado";
+"Local Transit" = "Tránsito Local";
+"Travel Agent & Ticketing" = "Agente de Viajes y Boletos";
+"Church" = "Iglesia";
+"Government Office" = "Oficina de Gobierno";
+"Fire Department" = "Bomberos";
+"Post Office" = "Oficina de Correos";
+"Banquet Hall" = "Sala de Banquetes";
+"Bar or Pub" = "Bar";
+"Cocktail Lounge" = "Sala de Coctél";
+"Night Club" = "Club Nocturno";
+"Convenience Store" = "Tienda de Conveniencia";
+"Specialty Food Store" = "Mercado";
+"Clothing Store" = "Tienda de Ropa";
+"Men's Apparel" = "Ropa para Hombre";
+"Shoe Store" = "Zapatería";
+"Specialty Clothing Store" = "Tienda de Ropa de Especialidad";
+"Women's Apparel" = "Ropa de Mujer";
+"Check Cashing Service" = "Servicio de Cambio de Cheques";
+"Currency Exchange" = "Casa de Cambio";
+"Money Transferring Service" = "Servicio de Transferencia de Dinero";
+"Department Store" = "Tienda Departamental";
+"Discount Store" = "Tienda de Descuento";
+"Other General Merchandise" = "Otras Mercancías Generales";
+"Variety Store" = "Tienda de Variedad";
+"Garden Centre" = "Jardín";
+"Glass & Window" = "Vidrios y Ventanas";
+"Hardware Store" = "Tienda de Hardware";
+"Paint" = "Pintura";
+"Entertainment Electronics" = "Electrónicos de Entretenimiento";
+"Furniture Store" = "Tienda de Muebles";
+"Major Appliance" = "Tienda de Línea Blanca";
+"Home Specialty Store" = "Tienda de Artículos para el Hogar";
+"Computer & Software" = "Computadoras y Software";
+"Flowers & Jewelry" = "Flores y Joyería";
+"Gift, Antique, & Art" = "Regalos, Antigüedades y Arte";
+"Optical" = "Óptica";
+"Pharmacy" = "Farmacía";
+"Record, CD, & Video" = "Discos, CDs y Video";
+"Specialty Store" = "Tienda de Especialidad";
+"Sporting Goods Store" = "Tienda de Artículos Deportivos";
+"Wine & Liquor" = "Vinos y Licores";
+"Boating" = "Navegación Marina";
+"Theater" = "Teatro";
+"Health Club" = "Club de Salud";
+"Bowling Alley" = "Boliche";
+"Sports Activities" = "Actividades Deportivas";
+"Attorney" = "Abogado";
+"Dentist" = "Dentista";
+"Physician" = "Médico";
+"Realtor" = "Corredor de Bienes Raíces";
+"Medical Service" = "Servicio Médico";
+"Police Service" = "Servicio de Policía";
+"Veterinarian Service" = "Servicio de Veterinario";
+"Sporting & Instructional Camp" = "Campamento Deportivo";
+"Public Restroom" = "Sanitarios Públicos";
+"Residental Area/Building" = "Área/Edificio Residencial";
+"Transportation Service" = "Servicio de Transporte";
+"Recreation Centre" = "Centro Recreativo";
+"Military Base" = "Base Militar";
+"Truck Dealership" = "Concesionario de Camiones";
+"Home Improvement & Hardware Store" = "Ferretería";
+"Consumer Electronics Store" = "Tienda de Electrónicos de Consumidor";
+"Office Supply & Services Store" = "Artículos de Oficina y Servicios";
+"Taxi Stand" = "Parada de Taxi";
+"Premium Default" = "Premium Default";
+"Place of Worship" = "Centro de Adoración";
+"Bookstore" = "Librería";
+"Coffee Shop" = "Tienda de Café";
+"Elevator" = "Elevador";
+
+
+
+
+
+
+
+/*** AF-LOCATIONMARKETING STRINGS ***/
+/*
+ *  AFCOfferWalletViewController Strings
+ */
+"afmcofferwalletviewcontroller.titlelabel.text" = "Centro de Mensajes";
+"afmcofferwalletviewcontroller.titlelabel.text.editing" = "Editar";
+"afmcofferwalletviewcontroller.emptymessagelabel.text" = "No tienes mensajes en este momento.";
+"afmcofferwalletviewcontroller.deletebutton.title" = "Eliminar";
+"afmcofferwalletviewcontroller.alert.title" = "Eliminar Mensajes";
+"afmcofferwalletviewcontroller.alert.description" = "¿Desea eliminar estos %d menasajes?";
+"afmcofferwalletviewcontroller.alert.cancelbutton.title" = "NO";
+"afmcofferwalletviewcontroller.alert.deletebutton.title" = "SI";
+"afmcofferwalletviewcontroller.expirationdate.text" = "EXPIRA %@";
+
+/*
+ *  AFCOfferDetailViewController Strings
+ */
+"afmcofferdetailviewcontroller.titlelabel.text" = "Promoción";
+"afmcofferdetailviewcontroller.expirationdatelabel.text" = "EXPIRA %@";
+"afmcofferdetailviewcontroller.offerbutton.title" = "¡Recibir oferta!";
+"afmcofferdetailviewcontroller.alert.title" = "Eliminar";
+"afmcofferdetailviewcontroller.alert.message" = "¿Desea eliminar el mensaje?";
+"afmcofferdetailviewcontroller.alert.deletebutton.title" = "SI";
+"afmcofferdetailviewcontroller.alert.cancelbutton.title" = "NO";
+
+/*
+ *  AFMCOfferSwipeViewController Strings
+ */
+"afmcofferswipeviewcontroller.titlelabel.text" = "Promoción";
+
+
+
+
+/*** EXTRA STRINGS ***/
 
 "We can help you find your way to the\nfacility or within it."= "Nosotros le podemos ayudar a encontrar su camino\nhacia el establecimiento o dentro del mismo";
 "Need Directions?"="¿Necesita direcciones?";
@@ -228,636 +569,8 @@
 "at"="a las";
 "Directory"="Directorio";
 
-/*
- *  No Initial Database Strings
- */
-"afinitialdatabase.displayforceupdate.alert.title" = "Error";
-"afinitialdatabase.displayforceupdate.alert.message" = "No se puede iniciar la aplicación . Por favor, compruebe que el dispositivo está conectado a una red.";
-"afinitialdatabase.displayforceupdate.alert.button" = "Cerca de aplicación";
 
-/*
- *  No Layer Database Strings
- */
-"aflayerdatabase.displayforceupdate.alert.title" = "Error";
-"aflayerdatabase.displayforceupdate.alert.message" = "Este contenido requiere una conexión de datos, por favor revise su red móvil o WiFi y vuelve a intentarlo.";
-"aflayerdatabase.displayforceupdate.alert.button" = "SÍ";
 
-/**
- * Segments Error
- */
 
-"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.title" = "Configuracion de Alertas";
-"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.message" = "Por favor configura los segmentos para esta application en App Builder portal.";
-"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.cancelbutton.title" = "SÍ";
-
-"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.title" = "Configuracion de Alertas";
-"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.message" = "Este contenido requiere una conexión de datos , por favor revise su red móvil o Wi-Fi y vuelve a intentarlo.";
-"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.cancelbutton.title" = "SÍ";
-
-/*
- *  AFCUIMMapViewController Strings
- */
-
-"afcuimmapviewcontroller.promptlocationalert.title" = "Nos ayudan a guiar";
-"afcuimmapviewcontroller.promptlocationalert.message" = "Por favor habilite Location Services para obtener direcciones hacia su destino.";
-"afcuimmapviewcontroller.promptlocationalert.takemetherebutton" = "Llevame ahí";
-"afcuimmapviewcontroller.promptlocationalert.cancelbutton" = "No Gracias";
-"afcuimmapviewcontroller.buildingloaderroralert.title" = "Error en el Mapa";
-"afcuimmapviewcontroller.buildingloaderroralert.message" = "No podemos cargar el mapa en este momento. Compruebe su conexión de red.";
-"afcuimmapviewcontroller.buildingloaderroralert.button" = "SÍ";
-
-/**
- * Layer Picker
- */
-"afclayerpickerviewcontroller.navbar.title" = "Capas";
-
-/**
- * Map Picker
- */
-"afcmmappickerviewcontroller.navbar.title" = "Mapas";
-"afcmmappickerviewcontroller.promptlocationalert.title" = "Nos ayudan a guiar";
-"afcmmappickerviewcontroller.promptlocationalert.message" = "Por favor, activa los servicios de localización de manera que le guiará por las instalaciones.";
-
-//POI Translations/* POI type */
-"Unknown" = "Desconocido";
-
-/* POI type */
-"Restroom" = "Sanitario";
-
-/* POI type */
-"Drinking Fountain" = "Fuente de Sodas";
-
-/* POI type */
-"Phone" = "Teléfono";
-
-/* POI type */
-"Security Checkpoint" = "Control de Seguridad";
-
-/* POI type */
-"Information" = "Información";
-
-/* POI type */
-"Baggage Room" = "Sala de Equipaje";
-
-/* POI type */
-"Valet" = "Valet";
-
-/* POI type */
-"Luggage" = "Equipaje";
-
-/* POI type */
-"Ticket Counter" = "Taquilla";
-
-/* POI type */
-"Gate" = "Puerta";
-
-/* POI type */
-"Terminal" = "Terminal";
-
-/* POI type */
-"First Aid Station" = "Estación de Primeros Auxilios";
-
-/* POI type */
-"Lost and Found" = "Perdido y Encontrado";
-
-/* POI type */
-"Luggage Carts" = "Carros de Equipaje";
-
-/* POI type */
-"Lockers" = "Casilleros";
-
-/* POI type */
-"Smoking Area" = "Área de Fumar";
-
-/* POI type */
-"Airline Lounge" = "Sala VIP de la aerolínea";
-
-/* POI type */
-"Business Area(s)" = "Área(s) Ejecutiva(s)";
-
-/* POI type */
-"Play Area" = "Área de Juego";
-
-/* POI type */
-"Security Office" = "Oficina de Seguridad";
-
-/* POI type */
-"Management Office" = "Oficina de Administración";
-
-/* POI type */
-"Food Court" = "Área de Comida";
-
-/* POI type */
-"Service Counter" = "Mostrador de Atención al Público";
-
-/* POI type */
-"Cafeteria" = "Cafetería";
-
-/* POI type */
-"Waiting Area" = "Área de Espera";
-
-/* POI type */
-"Meeting Area" = "Área de Encuentro";
-
-/* POI type */
-"Cafe" = "Café";
-
-/* POI type */
-"Conference Room" = "Sala de Conferencia";
-
-/* POI type */
-"Education" = "Educación";
-
-/* POI type */
-"Fitness" = "Ejercicio/Gimnasio";
-
-/* POI type */
-"Mailroom" = "Sala de Correos";
-
-/* POI type */
-"Offices" = "Oficinas";
-
-/* POI type */
-"Reception" = "Recepción";
-
-/* POI type */
-"Storage" = "Almacén";
-
-/* POI type */
-"Military Liaison" = "Enlace Militar";
-
-/* POI type */
-"Customs" = "Aduana";
-
-/* POI type */
-"Fast Food" = "Comida Rápida";
-
-/* POI type */
-"Charging Station" = "Estación de Carga";
-
-/* POI type */
-"Shoe Shine" = "Lustre de Zapatos";
-
-/* POI type */
-"Massage" = "Masajes";
-
-/* POI type */
-"Spa" = "Spa";
-
-/* POI type */
-"Vending Machine" = "Máquina Expendedora";
-
-/* POI type */
-"Defibrillator" = "Desfibrilador";
-
-/* POI type */
-"Nursing Room" = "Enfermería";
-
-/* POI type */
-"Pet Relief Area" = "Área de Mascotas";
-
-/* POI type */
-"Flight Monitor" = "Monitor de Vuelos";
-
-/* POI type */
-"Meditation Room" = "Cuarto de Meditación";
-
-/* POI type */
-"Seating" = "Asientos";
-
-/* POI type */
-"Wheelchair" = "Silla de Ruedas";
-
-/* POI type */
-"Mail" = "Correo";
-
-/* POI type */
-"Concourse" = "Concurso";
-
-/* POI type */
-"Aisle" = "Pasillo";
-
-/* POI type */
-"Amusement Ride" = "Paseo de Diversión";
-
-/* POI type */
-"Animal Enclosure" = "Recinto Animal";
-
-/* POI type */
-"Aquarium" = "Acuario";
-
-/* POI type */
-"Booth" = "Cabina";
-
-/* POI type */
-"Campsite" = "Sitio de Acampado";
-
-/* POI type */
-"Woodland" = "Bosques";
-
-/* POI type */
-"Drop Off Point" = "Área de Desembarque";
-
-/* POI type */
-"Gaming Area" = "Área de Juegos";
-
-/* POI type */
-"Grass/Field" = "Pasto/Campo";
-
-/* POI type */
-"Hotel Room" = "Cuarto de Hotel";
-
-/* POI type */
-"Museum Exhibit" = "Exhibición de Museo";
-
-/* POI type */
-"Pedestrian Path" = "Paso Peatonal";
-
-/* POI type */
-"Picnic Area" = "Área de Picnic";
-
-/* POI type */
-"Sports Field" = "Campo de Deportes";
-
-/* POI type */
-"Track" = "Pista";
-
-/* POI type */
-"Water Feature" = "Fuente de Agua";
-
-/* POI type */
-"ATM" = "Cajero Automático";
-
-/* POI type */
-"Marina" = "Marina";
-
-/* POI type */
-"Airport" = "Aeropuerto";
-
-/* POI type */
-"Business Facility" = "Área de Negocios";
-
-/* POI type */
-"Grocery Store" = "Tienda de Abarrotes";
-
-/* POI type */
-"Auto Dealerships" = "Concesionario de Automóviles";
-
-/* POI type */
-"Petrol/Gasoline Station" = "Gasolinería";
-
-/* POI type */
-"Motorcycle Dealership" = "Concesionario de Motos";
-
-/* POI type */
-"Restaurant" = "Restaurante";
-
-/* POI type */
-"Nightlife" = "Vida Nocturna";
-
-/* POI type */
-"Bank" = "Banco";
-
-/* POI type */
-"Shopping" = "Compras";
-
-/* POI type */
-"Hotel" = "Hotel";
-
-/* POI type */
-"Other Accommodation" = "Otro Hospedaje";
-
-/* POI type */
-"Tourist Information" = "Información Turística";
-
-/* POI type */
-"Rental Car Agency" = "Agencia de Renta de Autos";
-
-/* POI type */
-"Park & Ride" = "Parque y Recreación";
-
-/* POI type */
-"Auto Service & Maintenance" = "Mantenimiento y Servicio de Automóviles";
-
-/* POI type */
-"Park/Recreation Area" = "Área de Recreación/Parque";
-
-/* POI type */
-"Cinema" = "Cine";
-
-/* POI type */
-"Rest Area" = "Área de Descanso";
-
-/* POI type */
-"Performing Arts" = "Artes Escénicas";
-
-/* POI type */
-"Casino" = "Casino";
-
-/* POI type */
-"Convention/Exhibition Centre" = "Convención/Centro de Exhibición";
-
-/* POI type */
-"Golf Course" = "Campo de Golf";
-
-/* POI type */
-"Civic/Community Centre" = "Centro Comunitario/Cívico";
-
-/* POI type */
-"Amusement Park" = "Parque de Diversiones";
-
-/* POI type */
-"Sports Centre" = "Centro de Deportes";
-
-/* POI type */
-"Ice Skating Rink" = "Pista de Patinaje sobre Hielo";
-
-/* POI type */
-"Tourist Attraction" = "Atracción Turística";
-
-/* POI type */
-"Hospital" = "Hospital";
-
-/* POI type */
-"Higher Education" = "Educación Superior";
-
-/* POI type */
-"School" = "Escuela";
-
-/* POI type */
-"Library" = "Biblioteca";
-
-/* POI type */
-"Museum" = "Museo";
-
-/* POI type */
-"Automobile Club" = "Club Automovilístico";
-
-/* POI type */
-"City Hall" = "Alcaldía";
-
-/* POI type */
-"Police Station" = "Estación de Policía";
-
-/* POI type */
-"Business Service" = "Servicio de Negocios";
-
-/* POI type */
-"Other Communication" = "Otras Comunicaciones";
-
-/* POI type */
-"Telephone Service" = "Servicio de Teléfono";
-
-/* POI type */
-"Cleaning & Laundry" = "Limpieza y lavandería";
-
-/* POI type */
-"Hair & Beauty" = "Cabello y Belleza";
-
-/* POI type */
-"Health Care Service" = "Servicio de Cuidado de Salud";
-
-/* POI type */
-"Photography" = "Fotografía";
-
-/* POI type */
-"Video & Game Rental" = "Renta de Videos y Juegos";
-
-/* POI type */
-"Storage" = "Almacén";
-
-/* POI type */
-"Tailor & Alteration" = "Sastre";
-
-/* POI type */
-"Tax Service" = "Servicio de Impuestos";
-
-/* POI type */
-"Repair Service" = "Servicio de Reparación";
-
-/* POI type */
-"Retirement/Nursing Home" = "Casa de Retiro/Cuidados";
-
-/* POI type */
-"Social Service" = "Servicio Social";
-
-/* POI type */
-"Utilities" = "Utilidades";
-
-/* POI type */
-"Waste & Sanitary" = "Área de Desechos";
-
-/* POI type */
-"Auto Parts" = "Partes de Automóvil";
-
-/* POI type */
-"Car Wash/Detailing" = "Auto Lavado";
-
-/* POI type */
-"Local Transit" = "Tránsito Local";
-
-/* POI type */
-"Travel Agent & Ticketing" = "Agente de Viajes y Boletos";
-
-/* POI type */
-"Church" = "Iglesia";
-
-/* POI type */
-"Government Office" = "Oficina de Gobierno";
-
-/* POI type */
-"Fire Department" = "Bomberos";
-
-/* POI type */
-"Post Office" = "Oficina de Correos";
-
-/* POI type */
-"Banquet Hall" = "Sala de Banquetes";
-
-/* POI type */
-"Bar or Pub" = "Bar";
-
-/* POI type */
-"Cocktail Lounge" = "Sala de Coctél";
-
-/* POI type */
-"Night Club" = "Club Nocturno";
-
-/* POI type */
-"Convenience Store" = "Tienda de Conveniencia";
-
-/* POI type */
-"Specialty Food Store" = "Mercado";
-
-/* POI type */
-"Clothing Store" = "Tienda de Ropa";
-
-/* POI type */
-"Men's Apparel" = "Ropa para Hombre";
-
-/* POI type */
-"Shoe Store" = "Zapatería";
-
-/* POI type */
-"Specialty Clothing Store" = "Tienda de Ropa de Especialidad";
-
-/* POI type */
-"Women's Apparel" = "Ropa de Mujer";
-
-/* POI type */
-"Check Cashing Service" = "Servicio de Cambio de Cheques";
-
-/* POI type */
-"Currency Exchange" = "Casa de Cambio";
-
-/* POI type */
-"Money Transferring Service" = "Servicio de Transferencia de Dinero";
-
-/* POI type */
-"Department Store" = "Tienda Departamental";
-
-/* POI type */
-"Discount Store" = "Tienda de Descuento";
-
-/* POI type */
-"Other General Merchandise" = "Otras Mercancías Generales";
-
-/* POI type */
-"Variety Store" = "Tienda de Variedad";
-
-/* POI type */
-"Garden Centre" = "Jardín";
-
-/* POI type */
-"Glass & Window" = "Vidrios y Ventanas";
-
-/* POI type */
-"Hardware Store" = "Tienda de Hardware";
-
-/* POI type */
-"Paint" = "Pintura";
-
-/* POI type */
-"Entertainment Electronics" = "Electrónicos de Entretenimiento";
-
-/* POI type */
-"Furniture Store" = "Tienda de Muebles";
-
-/* POI type */
-"Major Appliance" = "Tienda de Línea Blanca";
-
-/* POI type */
-"Home Specialty Store" = "Tienda de Artículos para el Hogar";
-
-/* POI type */
-"Computer & Software" = "Computadoras y Software";
-
-/* POI type */
-"Flowers & Jewelry" = "Flores y Joyería";
-
-/* POI type */
-"Gift, Antique, & Art" = "Regalos, Antigüedades y Arte";
-
-/* POI type */
-"Optical" = "Óptica";
-
-/* POI type */
-"Pharmacy" = "Farmacía";
-
-/* POI type */
-"Record, CD, & Video" = "Discos, CDs y Video";
-
-/* POI type */
-"Specialty Store" = "Tienda de Especialidad";
-
-/* POI type */
-"Sporting Goods Store" = "Tienda de Artículos Deportivos";
-
-/* POI type */
-"Wine & Liquor" = "Vinos y Licores";
-
-/* POI type */
-"Boating" = "Navegación Marina";
-
-/* POI type */
-"Theater" = "Teatro";
-
-/* POI type */
-"Health Club" = "Club de Salud";
-
-/* POI type */
-"Bowling Alley" = "Boliche";
-
-/* POI type */
-"Sports Activities" = "Actividades Deportivas";
-
-/* POI type */
-"Attorney" = "Abogado";
-
-/* POI type */
-"Dentist" = "Dentista";
-
-/* POI type */
-"Physician" = "Médico";
-
-/* POI type */
-"Realtor" = "Corredor de Bienes Raíces";
-
-/* POI type */
-"Medical Service" = "Servicio Médico";
-
-/* POI type */
-"Police Service" = "Servicio de Policía";
-
-/* POI type */
-"Veterinarian Service" = "Servicio de Veterinario";
-
-/* POI type */
-"Sporting & Instructional Camp" = "Campamento Deportivo";
-
-/* POI type */
-"Public Restroom" = "Sanitarios Públicos";
-
-/* POI type */
-"Residental Area/Building" = "Área/Edificio Residencial";
-
-/* POI type */
-"Transportation Service" = "Servicio de Transporte";
-
-/* POI type */
-"Recreation Centre" = "Centro Recreativo";
-
-/* POI type */
-"Military Base" = "Base Militar";
-
-/* POI type */
-"Truck Dealership" = "Concesionario de Camiones";
-
-/* POI type */
-"Home Improvement & Hardware Store" = "Ferretería";
-
-/* POI type */
-"Consumer Electronics Store" = "Tienda de Electrónicos de Consumidor";
-
-/* POI type */
-"Office Supply & Services Store" = "Artículos de Oficina y Servicios";
-
-/* POI type */
-"Taxi Stand" = "Parada de Taxi";
-
-/* POI type */
-"Premium Default" = "Premium Default";
-
-/* POI type */
-"Place of Worship" = "Centro de Adoración";
-
-/* POI type */
-"Bookstore" = "Librería";
-
-/* POI type */
-"Coffee Shop" = "Tienda de Café";
-
-/* POI type */
-"Elevator" = "Elevador";
 
 

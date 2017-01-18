@@ -5,7 +5,7 @@
 	<key>view</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>constraints</key>
 		<array>
 			<string>H:|[theText]|</string>
@@ -16,7 +16,7 @@
 	<key>buttonBackgroundView</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>constraints</key>
 		<array>
 			<string>H:|-26-[agreeButton]-26-|</string>
@@ -26,7 +26,7 @@
 	<key>agreeButton</key>
 	<dict>
 		<key>borderColor</key>
-		<string>#363636</string>
+		<string>$GrayColor</string>
 		<key>borderWidth</key>
 		<real>2</real>
 		<key>buttonTitle</key>
@@ -34,9 +34,9 @@
 		<key>alignment</key>
 		<string>center</string>
 		<key>color</key>
-		<string>#363636</string>
+		<string>$GrayColor</string>
 		<key>fontName</key>
-		<string>HelveticaNeue</string>
+		<string>$MainFont</string>
 		<key>fontSize</key>
 		<integer>16</integer>
 	</dict>
@@ -44,6 +44,8 @@
 	<dict/>
 	<key>titleLabel</key>
 	<dict>
+		<key>type</key>
+		<string>DefaultTitleLabel</string>
 		<key>text</key>
 		<string>#afcuieulaviewcontroller.navbar.title</string>
 	</dict>

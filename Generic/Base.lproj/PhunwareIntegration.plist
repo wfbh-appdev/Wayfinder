@@ -27,9 +27,9 @@
 	<key>Core WS Integration</key>
 	<dict>
 		<key>topLevelContentName</key>
-		<string>#ENTER A VALID VALUE#</string>
+		<string>Phunware Corporate</string>
 		<key>applicationUUID</key>
-		<string>#ENTER A VALID VALUE#</string>
+		<string>5c452f69-746b-4b1e-9681-14344f1d055e</string>
 		<key>webservicesID</key>
 		<string>e7ee6efb-c66e-11df-bbda-ab061b74f77a</string>
 		<key>webservicesKey</key>
@@ -38,17 +38,13 @@
 	<key>MaaS Integration</key>
 	<dict>
 		<key>MaaSAppID</key>
-		<string>#ENTER A VALID VALUE#</string>
+		<string>1460</string>
 		<key>MaaSAccessKey</key>
-		<string>#ENTER A VALID VALUE#</string>
+		<string>46f390d8a01859b5dbfa804db1634dd9603399df</string>
 		<key>MaaSSignatureKey</key>
-		<string>#ENTER A VALID VALUE#</string>
-		<key>MaaSAppName</key>
-		<string>#ENTER A VALID VALUE#</string>
-		<key>MaaSPlatformName</key>
-		<string>iOS</string>
+		<string>9a92d23a51d49114b19d54c3f1c0508a4a98e576</string>
 		<key>S3URL</key>
-		<string>#ENTER A VALID VALUE#</string>
+		<string>https://solutions-db.phunware.com</string>
 	</dict>
 	<key>StartupSettings</key>
 	<dict>
@@ -58,6 +54,15 @@
 		<true/>
 		<key>TourEnabled</key>
 		<true/>
+	</dict>
+	<key>PowerUser</key>
+	<dict>
+		<key>Days</key>
+		<string>7</string>
+		<key>TriggerValue</key>
+		<string>3</string>
+		<key>Attribute</key>
+		<string>poweruser</string>
 	</dict>
 </dict>
 </plist>

@@ -17,11 +17,11 @@
 	<key>itemSubtitle</key>
 	<dict>
 		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
+		<string>$MainFontLight</string>
 		<key>fontSize</key>
 		<integer>12</integer>
 		<key>color</key>
-		<string>#0080FF</string>
+		<string>$BlueColor</string>
 		<key>alignment</key>
 		<string>left</string>
 		<key>lines</key>
@@ -30,15 +30,22 @@
 	<key>itemTitle</key>
 	<dict>
 		<key>fontName</key>
-		<string>HelveticaNeue-Thin</string>
+		<string>$MainFontThin</string>
 		<key>fontSize</key>
 		<integer>22</integer>
 		<key>alignment</key>
 		<string>left</string>
 		<key>color</key>
-		<string>#000000</string>
+		<string>$BlackColor</string>
 		<key>lines</key>
 		<integer>1</integer>
+	</dict>
+	<key>descriptionLabel</key>
+	<dict>
+		<key>fontName</key>
+		<string>$MainFont</string>
+		<key>fontSize</key>
+		<string>$MainFontSize</string>
 	</dict>
 	<key>storeFrontImage</key>
 	<dict/>
@@ -61,10 +68,10 @@
 	</dict>
 	<key>titleLabel</key>
 	<dict>
-		<key>color</key>
-		<string>#ffffff</string>
+		<key>type</key>
+		<string>DefaultTitleLabel</string>
 		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
+		<string>$MainFontLight</string>
 		<key>fontSize</key>
 		<string>17</string>
 	</dict>
@@ -78,7 +85,12 @@
 		</array>
 	</dict>
 	<key>phoneButton</key>
-	<dict/>
+	<dict>
+		<key>tintColor</key>
+		<string>$BlueColor</string>
+		<key>image</key>
+		<string>icon_pw_call</string>
+	</dict>
 	<key>websiteButton</key>
 	<dict/>
 </dict>

@@ -1,36 +1,39 @@
 source 'https://github.com/CocoaPods/Specs.git'
-source 'https://github.com/phunware/phunware-specs.git'
+source 'ssh://git@bitbucket.phunware.com:7999/misc/cocoapods-sdk-ios.git'
 
 workspace 'GenericAF4'
 project 'GenericAF4.xcodeproj'
 
-platform :ios, '8.0'
+platform :ios, '9.0'
 
 target :'GenericAF4' do
-    pod 'AppFrameworkAlertsModule',            :git => 'ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binary-alerts.git',             :tag => 'v4.2'
-    pod 'AppFrameworkCore',                    :git => 'ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binary-core.git',               :tag => 'v4.2'
-    pod 'AppFrameworkDirectoryModule',         :git => 'ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binary-directory.git',          :tag => 'v4.2'
-    pod 'AppFrameworkEventsModule',            :git => 'ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binary-events.git',             :tag => 'v4.2'
-    pod 'AppFrameworkLocationMarketingModule', :git => 'ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binary-location-marketing.git', :tag => 'v4.2'
-    pod 'AppFrameworkMappingModule',           :git => 'ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binary-mapping.git',            :tag => 'v4.2'
-    pod 'AppFrameworkParkingModule',           :git => 'ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binary-parking.git',            :tag => 'v4.2'
-    pod 'AppFrameworkRenderModule',            :git => 'ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binary-render.git',             :tag => 'v4.2'
-    pod 'CoreNetwork',                         :git => 'ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-module-network.git',            :tag => 'v4.2'
-    pod 'PWUIKit',                             :git => 'ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binary-pwuikit.git',            :tag => 'v4.2'
+
+    pod 'AppFrameworkCore',                    :git => 'ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git', :branch => 'release/v4.4.0'
+    pod 'AppFrameworkDirectoryModule',         :git => 'ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git', :branch => 'release/v4.4.0'
+    pod 'AppFrameworkEventsModule',            :git => 'ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git', :branch => 'release/v4.4.0'
+    pod 'AppFrameworkMessageCenterModule',     :git => 'ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git', :branch => 'release/v4.4.0'
+    pod 'AppFrameworkMappingModule',           :git => 'ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git', :branch => 'release/v4.4.0'
+    pod 'AppFrameworkParkingModule',           :git => 'ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git', :branch => 'release/v4.4.0'
+    pod 'AppFrameworkRenderModule',            :git => 'ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git', :branch => 'release/v4.4.0'
     
-    pod 'Google/Analytics'
-    pod 'PWLocalpoint', '2.6.3.1'
-    
-    #pod 'AppFrameworkAlertsModule', :path =>  '../af-sdk-ios-module-alerts'
-    #pod 'AppFrameworkCore', :path =>  '../af-sdk-ios-module-core/AppFrameworkCore'
-    #pod 'AppFrameworkDirectoryModule', :path =>  '../af-sdk-ios-module-directory'
-    #pod 'AppFrameworkEventsModule', :path =>  '../af-sdk-ios-module-events'
-    #pod 'AppFrameworkLocationMarketingModule', :path =>  '../af-sdk-ios-module-location-marketing'
-    #pod 'AppFrameworkMappingModule', :path =>  '../af-sdk-ios-module-mapping'
-    #pod 'AppFrameworkParkingModule', :path =>  '../af-sdk-ios-module-parking'
-    #pod 'AppFrameworkRenderModule', :path =>  '../af-sdk-ios-module-render'
-    
+    pod 'FirebaseAnalytics',          '3.4.2'
+    pod 'FirebaseInstanceID',         '1.0.8'
+    pod 'Google',                     '3.0.3'
+    pod 'GoogleAnalytics',            '3.17.0'
+    pod 'GoogleInterchangeUtilities', '1.2.1'
+    pod 'GoogleSymbolUtilities',      '1.1.1'
+    pod 'GoogleUtilities',            '1.3.1'
+
+#    pod 'AppFrameworkCore',                    :path => '../af-sdk-ios/af-modules/af-core'
+#    pod 'AppFrameworkDirectoryModule',         :path => '../af-sdk-ios/af-modules/af-directory'
+#    pod 'AppFrameworkEventsModule',            :path => '../af-sdk-ios/af-modules/af-events'
+#    pod 'AppFrameworkMessageCenterModule',     :path => '../af-sdk-ios/af-modules/af-msgcenter'
+#    pod 'AppFrameworkMappingModule',           :path => '../af-sdk-ios/af-modules/af-mapping'
+#    pod 'AppFrameworkParkingModule',           :path => '../af-sdk-ios/af-modules/af-parking'
+#    pod 'AppFrameworkRenderModule',            :path => '../af-sdk-ios/af-modules/af-render'
+
     project 'GenericAF4.xcodeproj'
+
 end
 
 

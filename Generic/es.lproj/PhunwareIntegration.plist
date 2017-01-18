@@ -27,9 +27,13 @@
 	<key>Core WS Integration</key>
 	<dict>
 		<key>topLevelContentName</key>
-		<string>#ENTER A VALID VALUE#</string>
+		<string>Phunware Corporate</string>
 		<key>applicationUUID</key>
-		<string>#ENTER A VALID VALUE#</string>
+		<string>2207e384-9667-4219-9fa4-ded148569147</string>
+		<key>rootURL</key>
+		<string>http://solutions-ws.phunware.com/AFManagementWS/</string>
+		<key>voiceURL</key>
+		<string></string>
 		<key>webservicesID</key>
 		<string>e7ee6efb-c66e-11df-bbda-ab061b74f77a</string>
 		<key>webservicesKey</key>
@@ -38,17 +42,13 @@
 	<key>MaaS Integration</key>
 	<dict>
 		<key>MaaSAppID</key>
-		<string>#ENTER A VALID VALUE#</string>
+		<string>1469</string>
 		<key>MaaSAccessKey</key>
-		<string>#ENTER A VALID VALUE#</string>
+		<string>ae1cbf7a60488c433c4ce7d461f849f017aa5033</string>
 		<key>MaaSSignatureKey</key>
-		<string>#ENTER A VALID VALUE#</string>
-		<key>MaaSAppName</key>
-		<string>#ENTER A VALID VALUE#</string>
-		<key>MaaSPlatformName</key>
-		<string>iOS</string>
+		<string>304034e0a16b568763622cc0af8a014d85e4bb86</string>
 		<key>S3URL</key>
-		<string>#ENTER A VALID VALUE#</string>
+		<string>https://solutions-db.phunware.com</string>
 	</dict>
 	<key>StartupSettings</key>
 	<dict>
@@ -58,6 +58,15 @@
 		<true/>
 		<key>TourEnabled</key>
 		<true/>
+	</dict>
+	<key>PowerUser</key>
+	<dict>
+		<key>Days</key>
+		<string>7</string>
+		<key>TriggerValue</key>
+		<string>3</string>
+		<key>Attribute</key>
+		<string>poweruser</string>
 	</dict>
 </dict>
 </plist>

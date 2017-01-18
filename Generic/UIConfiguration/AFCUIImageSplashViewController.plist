@@ -17,7 +17,7 @@
 		<key>image</key>
 		<string>Splash.png</string>
 		<key>backgroundColor</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 	</dict>
 	<key>loading</key>
 	<dict/>

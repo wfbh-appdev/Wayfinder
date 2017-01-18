@@ -16,29 +16,26 @@
     BOOL firstTime;
 }
 
--(instancetype)initWithCoder:(NSCoder *)aDecoder
+- (instancetype)initWithCoder:(NSCoder *)aDecoder
 {
-    if(self=[super initWithCoder:aDecoder])
-    {
-        SplashViewController *controller=[[SplashViewController alloc] initWithNibName:@"SplashViewController" bundle:[NSBundle mainBundle]];
-        [self setViewControllers:@[controller]];
-        self.navigationBarHidden=YES;
+    if (self = [super initWithCoder:aDecoder]) {
+        SplashViewController *controller = [[SplashViewController alloc] initWithNibName:@"SplashViewController" bundle:[NSBundle mainBundle]];
+        [self setViewControllers:@[ controller ]];
+        self.navigationBarHidden = YES;
     }
     return self;
 }
 
-- (void)viewWillAppear:(BOOL)animated {
+- (void)viewWillAppear:(BOOL)animated
+{
     [super viewWillAppear:animated];
-    self.navigationBar.barStyle=UIBarStyleBlack;
-    if(!firstTime)
-    {
-        self.navigationBarHidden=YES;
-        firstTime=YES;
+    self.navigationBar.barStyle = UIBarStyleBlack;
+    if (!firstTime) {
+        self.navigationBarHidden = YES;
+        firstTime = YES;
     }
-    self.navigationBar.translucent=NO;
+    self.navigationBar.translucent = NO;
 }
-
-
 
 
 @end

@@ -14,6 +14,8 @@ Changelog
 
 Documentation
 ----------------------------
-For specific configuration/setup documentation related to modules please see:  https://confluence.phunware.com/display/PRODDOCS/iOS+AF4.x+Developer+Guide
+For specific configuration/setup documentation related to modules, please see:  https://confluence.phunware.com/display/PRODDOCS/iOS+AF4.x+Developer+Guide
 
-For Team Onboarding see: https://confluence.phunware.com/pages/viewpage.action?pageId=15272909
+For known issues, see: https://confluence.phunware.com/display/PRODDOCS/AppFramework+Known+Issues
+
+For Team Onboarding, see: https://confluence.phunware.com/pages/viewpage.action?pageId=15272909

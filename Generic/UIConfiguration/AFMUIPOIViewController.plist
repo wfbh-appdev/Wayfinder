@@ -4,40 +4,43 @@
 <dict>
 	<key>titleLabel</key>
 	<dict>
+		<key>type</key>
+		<string>DefaultTitleLabel</string>
 		<key>text</key>
 		<string>#afcuimannotationdirectoryviewcontroller.titlelabel.text</string>
 	</dict>
 	<key>view</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>constraints</key>
 		<array>
-			<string>V:|-0-[poiTable]|</string>
-			<string>H:|[poiTable]|</string>
-			<string>V:|-193-[noResultsFound(50)]-&gt;=1-|</string>
-			<string>H:|[noResultsFound]|</string>
+			<string>V:|[table]|</string>
+			<string>H:|[table]|</string>
+			<string>H:|-(&gt;=50)-[noResultsFoundLabel]-(&gt;=50)-|</string>
+			<string>V:|-(&lt;=100)-[noResultsFoundLabel(21)]-(&gt;=100)-|</string>
+			<string>#noResultsFoundLabel.centerx=self.centerx,1,0</string>
 		</array>
 	</dict>
-	<key>poiTable</key>
+	<key>table</key>
 	<dict/>
-	<key>noResultsFound</key>
+	<key>noResultsFoundLabel</key>
 	<dict>
-		<key>fontName</key>
-		<string>HelveticaNeue</string>
-		<key>fontSize</key>
-		<integer>21</integer>
+		<key>type</key>
+		<real>0</real>
 		<key>text</key>
 		<string>#afcuimannotationdirectoryviewcontroller.noresultsfound.text</string>
+		<key>fontSize</key>
+		<string>18</string>
+		<key>color</key>
+		<string>$LightGrayColor</string>
 		<key>alignment</key>
 		<string>center</string>
-		<key>lines</key>
-		<integer>1</integer>
 	</dict>
 	<key>favoritesBar</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>width</key>
 		<integer>320</integer>
 		<key>height</key>
@@ -51,7 +54,7 @@
 	<key>favoritesToggle</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 	</dict>
 </dict>
 </plist>

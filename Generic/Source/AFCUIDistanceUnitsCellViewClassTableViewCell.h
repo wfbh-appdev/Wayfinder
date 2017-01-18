@@ -9,10 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-
-
 @interface AFCUIDistanceUnitsCellViewClassTableViewCell : UITableViewCell
-
 
 
 @end

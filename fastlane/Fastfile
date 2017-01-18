@@ -1,0 +1,48 @@
+import_from_git(
+    url: "ssh://git@bitbucket.phunware.com:7999/services/dev-scripts-fastlane.git",
+    path: "ios/fastlane/Fastfile"
+)
+
+private_lane :configure_build do
+
+    jenkins_xcode_select version: "~> 8"
+
+    default_config(
+        workspace: "GenericAF4.xcworkspace",
+        scheme: "GenericAF4",
+        thirdPartyAttributions: "ThirdParty.txt"
+    )
+
+    add_signing_config(
+        name: "enterprise",
+        cert_file: "Certificates/enterprise.p12",
+        cert_pw: "K3yM@$ter!",
+        identity: "iPhone Distribution: Phunware, Inc.",
+        profileSpecifier: "GenericAF4_InHousePushEnabled",
+        teamId: "84CK77G588",
+        customProfilesPath: "Certificates"
+    )
+
+    add_build_type(
+        name: "debug",
+        config: "Debug",
+        versionSuffix: "-dev"
+    )
+
+    add_build_type(
+        name: "distribution",
+        config: "Distribution",
+        versionSuffix: "-dist"
+    )
+
+    add_build_type(
+        name: "adhoc",
+        config: "AdHoc",
+        versionSuffix: "-adhoc"
+    )
+
+    publish_to_enterprise_ota(
+        signingConfig: "enterprise"
+    )
+
+end

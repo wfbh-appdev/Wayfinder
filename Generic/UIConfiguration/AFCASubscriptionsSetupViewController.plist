@@ -35,33 +35,33 @@ interests?</string>
 		<key>lines</key>
 		<integer>0</integer>
 		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
+		<string>$MainFontLight</string>
 		<key>fontSize</key>
 		<integer>42</integer>
 		<key>alignment</key>
 		<string>left</string>
 		<key>color</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 	</dict>
 	<key>segmentsTable</key>
 	<dict/>
 	<key>backgroundDoneButton</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#3D3D3D</string>
+		<string>$GrayColor</string>
 	</dict>
 	<key>doneSubscriptionsButton</key>
 	<dict>
 		<key>buttonTitle</key>
 		<string>SUBSCRIBE</string>
 		<key>fontName</key>
-		<string>HelveticaNeue-Thin</string>
+		<string>$MainFontThin</string>
 		<key>fontSize</key>
 		<integer>22</integer>
 		<key>alignment</key>
 		<string>center</string>
 		<key>color</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>borderColor</key>
 		<string>#7fffffff</string>
 		<key>borderWidth</key>
@@ -74,7 +74,7 @@ interests?</string>
 		<key>color</key>
 		<string>#7fffffff</string>
 		<key>fontName</key>
-		<string>HelveticaNeue-Medium</string>
+		<string>$MainFontMedium</string>
 		<key>fontSize</key>
 		<integer>14</integer>
 	</dict>

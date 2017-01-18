@@ -22,7 +22,7 @@
 		<key>alignment</key>
 		<string>left</string>
 		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
+		<string>$MainFontLight</string>
 		<key>fontSize</key>
 		<integer>12</integer>
 		<key>color</key>
@@ -33,13 +33,13 @@
 	<key>titleLabel</key>
 	<dict>
 		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
+		<string>$MainFontLight</string>
 		<key>fontSize</key>
 		<integer>20</integer>
 		<key>alignment</key>
 		<string>left</string>
 		<key>color</key>
-		<string>#000000</string>
+		<string>$BlackColor</string>
 		<key>lines</key>
 		<string>1</string>
 	</dict>

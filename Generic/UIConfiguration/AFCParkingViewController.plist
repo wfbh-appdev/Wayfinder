@@ -63,7 +63,7 @@
 	<key>parkingReminderTitle</key>
 	<dict>
 		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
+		<string>$MainFontLight</string>
 		<key>fontSize</key>
 		<integer>18</integer>
 		<key>alignment</key>
@@ -71,12 +71,12 @@
 		<key>text</key>
 		<string>#afcparkingviewcontroller.parkingremindertitle.text</string>
 		<key>color</key>
-		<string>#0067b1</string>
+		<string>$BlueColor</string>
 	</dict>
 	<key>parkingChooseMethod</key>
 	<dict>
 		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
+		<string>$MainFont</string>
 		<key>fontSize</key>
 		<integer>15</integer>
 		<key>color</key>
@@ -115,64 +115,40 @@
 	</dict>
 	<key>gpsLocationButtonLabel</key>
 	<dict>
-		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
-		<key>fontSize</key>
-		<integer>15</integer>
+		<key>type</key>
+		<string>AFCUIParkingButton</string>
 		<key>text</key>
 		<string>#afcparkingviewcontroller.gpslocationbuttonlabel.text</string>
-		<key>color</key>
-		<string>#000000</string>
-		<key>alignment</key>
-		<string>center</string>
 	</dict>
 	<key>takePictureButtonLabel</key>
 	<dict>
-		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
-		<key>fontSize</key>
-		<integer>15</integer>
-		<key>alignment</key>
-		<string>center</string>
+		<key>type</key>
+		<string>AFCUIParkingButton</string>
 		<key>text</key>
 		<string>#afcparkingviewcontroller.takepicturebuttonlabel.text</string>
-		<key>color</key>
-		<string>#000000</string>
 	</dict>
 	<key>recordVoiceMemoButtonLabel</key>
 	<dict>
-		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
-		<key>fontSize</key>
-		<integer>15</integer>
+		<key>type</key>
+		<string>AFCUIParkingButton</string>
 		<key>text</key>
 		<string>#afcparkingviewcontroller.recordvoicememobuttonlabel.text</string>
-		<key>alignment</key>
-		<string>center</string>
-		<key>color</key>
-		<string>#000000</string>
 	</dict>
 	<key>writeNoteButtonLabel</key>
 	<dict>
-		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
-		<key>fontSize</key>
-		<integer>15</integer>
-		<key>color</key>
-		<string>#000000</string>
+		<key>type</key>
+		<string>AFCUIParkingButton</string>
 		<key>text</key>
 		<string>#afcparkingviewcontroller.writenotebuttonlabel.text</string>
-		<key>alignment</key>
-		<string>center</string>
 	</dict>
 	<key>locationSavedMessage</key>
 	<dict>
 		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
+		<string>$MainFontLight</string>
 		<key>fontSize</key>
 		<integer>10</integer>
 		<key>color</key>
-		<string>#0067b1</string>
+		<string>$BlueColor</string>
 		<key>text</key>
 		<string>#afcparkingviewcontroller.locationsavedmessage.text</string>
 		<key>alignment</key>
@@ -181,11 +157,11 @@
 	<key>imageSavedMessage</key>
 	<dict>
 		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
+		<string>$MainFontLight</string>
 		<key>fontSize</key>
 		<integer>10</integer>
 		<key>color</key>
-		<string>#0067b1</string>
+		<string>$BlueColor</string>
 		<key>text</key>
 		<string>#afcparkingviewcontroller.imagesavedmessage.text</string>
 		<key>alignment</key>
@@ -194,11 +170,11 @@
 	<key>voiceMemoSavedMessage</key>
 	<dict>
 		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
+		<string>$MainFontLight</string>
 		<key>fontSize</key>
 		<integer>10</integer>
 		<key>color</key>
-		<string>#0067b1</string>
+		<string>$BlueColor</string>
 		<key>text</key>
 		<string>#afcparkingviewcontroller.voicememosavedmessage.text</string>
 		<key>alignment</key>
@@ -207,11 +183,11 @@
 	<key>noteSavedMessage</key>
 	<dict>
 		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
+		<string>$MainFontLight</string>
 		<key>fontSize</key>
 		<integer>10</integer>
 		<key>color</key>
-		<string>#0067b1</string>
+		<string>$BlueColor</string>
 		<key>alignment</key>
 		<string>center</string>
 		<key>text</key>
@@ -219,12 +195,12 @@
 	</dict>
 	<key>titleLabel</key>
 	<dict>
+		<key>type</key>
+		<string>DefaultTitleLabel</string>
 		<key>text</key>
 		<string>#afcparkingviewcontroller.titlelabel.text</string>
 		<key>color</key>
-		<string>#ffffff</string>
-		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
+		<string>$WhiteColor</string>
 		<key>fontSize</key>
 		<integer>16</integer>
 	</dict>

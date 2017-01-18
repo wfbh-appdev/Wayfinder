@@ -5,7 +5,7 @@
 	<key>view</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>constraints</key>
 		<array>
 			<string>V:|[navBarView(64)]-9-[startLocationTextField(30)]-8-[separator1(1)]-7-[endLocationTextField(30)]-5-[separator2(1)]-16-[handicapAccessibilityLabel(21)]-16-[separator3(1)][poiTableView]|</string>
@@ -31,11 +31,11 @@
 	<key>startLocationTextField</key>
 	<dict>
 		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
+		<string>$MainFontLight</string>
 		<key>fontSize</key>
 		<integer>20</integer>
 		<key>color</key>
-		<string>#000000</string>
+		<string>$BlackColor</string>
 		<key>alignment</key>
 		<string>left</string>
 		<key>placeholder</key>
@@ -44,11 +44,11 @@
 	<key>endLocationTextField</key>
 	<dict>
 		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
+		<string>$MainFontLight</string>
 		<key>fontSize</key>
 		<string>20</string>
 		<key>color</key>
-		<string>#000000</string>
+		<string>$BlackColor</string>
 		<key>alignment</key>
 		<string>left</string>
 		<key>placeholder</key>
@@ -57,7 +57,7 @@
 	<key>startLabel</key>
 	<dict>
 		<key>fontName</key>
-		<string>HelveticaNeue-Medium</string>
+		<string>$MainFontMedium</string>
 		<key>fontSize</key>
 		<integer>12</integer>
 		<key>text</key>
@@ -74,15 +74,15 @@
 	<key>endLabel</key>
 	<dict>
 		<key>fontName</key>
-		<string>HelveticaNeue-Medium</string>
+		<string>$MainFontMedium</string>
 		<key>fontSize</key>
 		<integer>12</integer>
 		<key>text</key>
 		<string>#afcuimroutebuilderviewcontroller.endlabel.text</string>
 		<key>alignment</key>
-		<string>LEFT</string>
+		<string>left</string>
 		<key>color</key>
-		<string>#0080FF</string>
+		<string>$BlueColor</string>
 		<key>width</key>
 		<string>60</string>
 		<key>height</key>
@@ -98,7 +98,7 @@
 	<key>navBarView</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#000000</string>
+		<string>$BlackColor</string>
 		<key>constraints</key>
 		<array>
 			<string>V:|-&gt;=0-[titleLabel(44)]-&gt;=0-|</string>
@@ -114,11 +114,11 @@
 	<key>titleLabel</key>
 	<dict>
 		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
+		<string>$MainFontLight</string>
 		<key>fontSize</key>
 		<integer>16</integer>
 		<key>color</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>text</key>
 		<string>#afcuimroutebuilderviewcontroller.titlelabel.text</string>
 		<key>alignment</key>
@@ -129,46 +129,46 @@
 		<key>buttonTitle</key>
 		<string>#afcuimroutebuilderviewcontroller.cancelbutton.buttontitle</string>
 		<key>fontName</key>
-		<string>HelveticaNeue</string>
+		<string>$MainFont</string>
 		<key>fontSize</key>
 		<integer>16</integer>
 		<key>alignment</key>
 		<string>center</string>
 		<key>color</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 	</dict>
 	<key>routeButton</key>
 	<dict>
 		<key>buttonTitle</key>
 		<string>#afcuimroutebuilderviewcontroller.routebutton.buttontitle</string>
 		<key>fontName</key>
-		<string>HelveticaNeue-Bold</string>
+		<string>$MainFontBold</string>
 		<key>fontSize</key>
 		<integer>16</integer>
 		<key>color</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>alignment</key>
 		<string>center</string>
 	</dict>
 	<key>separator1</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#aaaaaa</string>
+		<string>$LightGrayColor</string>
 	</dict>
 	<key>separator2</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#aaaaaa</string>
+		<string>$LightGrayColor</string>
 	</dict>
 	<key>separator3</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#aaaaaa</string>
+		<string>$LightGrayColor</string>
 	</dict>
 	<key>handicapAccessibilityLabel</key>
 	<dict>
 		<key>fontName</key>
-		<string>HelveticaNeue-LightItalic</string>
+		<string>$MainFontLightItalic</string>
 		<key>fontSize</key>
 		<integer>14</integer>
 		<key>color</key>
@@ -211,11 +211,11 @@
 		<key>text</key>
 		<string>#afcuimroutebuilderviewcontroller.outdoortoindooralerttitle.text</string>
 		<key>fontName</key>
-		<string>HelveticaNeue-Medium</string>
+		<string>$MainFontMedium</string>
 		<key>fontSize</key>
 		<integer>16</integer>
 		<key>color</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>alignment</key>
 		<string>center</string>
 	</dict>
@@ -226,30 +226,30 @@
 		<key>lines</key>
 		<integer>2</integer>
 		<key>fontName</key>
-		<string>HelveticaNeue</string>
+		<string>$MainFont</string>
 		<key>fontSize</key>
 		<integer>13</integer>
 		<key>alignment</key>
 		<string>center</string>
 		<key>color</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 	</dict>
 	<key>dismissOutdoorToIndoor</key>
 	<dict>
 		<key>buttonTitle</key>
 		<string>#afcuimroutebuilderviewcontroller.dismissoutdoortoindoor.buttontitle</string>
 		<key>fontName</key>
-		<string>HelveticaNeue</string>
+		<string>$MainFont</string>
 		<key>fontSize</key>
 		<integer>14</integer>
 		<key>alignment</key>
 		<string>center</string>
 		<key>color</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>cornerRadius</key>
 		<integer>5</integer>
 		<key>borderColor</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>borderWidth</key>
 		<integer>1</integer>
 	</dict>
@@ -258,15 +258,15 @@
 		<key>buttonTitle</key>
 		<string>#afcuimroutebuilderviewcontroller.openinmapsbutton.buttontitle</string>
 		<key>fontName</key>
-		<string>HelveticaNeue</string>
+		<string>$MainFont</string>
 		<key>fontSize</key>
 		<integer>14</integer>
 		<key>alignment</key>
 		<string>center</string>
 		<key>color</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>borderColor</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>borderWidth</key>
 		<real>1</real>
 		<key>cornerRadius</key>
@@ -300,24 +300,24 @@
 		<key>alignment</key>
 		<string>center</string>
 		<key>fontName</key>
-		<string>HelveticaNeue-Medium</string>
+		<string>$MainFontMedium</string>
 		<key>fontSize</key>
 		<integer>16</integer>
 		<key>color</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 	</dict>
 	<key>welcomeBackMessage</key>
 	<dict>
 		<key>text</key>
 		<string>#afcuimroutebuilderviewcontroller.welcomebackmessage.text</string>
 		<key>fontName</key>
-		<string>HelveticaNeue</string>
+		<string>$MainFont</string>
 		<key>fontSize</key>
 		<integer>13</integer>
 		<key>alignment</key>
 		<string>center</string>
 		<key>color</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>lines</key>
 		<string>2</string>
 	</dict>
@@ -326,15 +326,15 @@
 		<key>buttonTitle</key>
 		<string>#afcuimroutebuilderviewcontroller.welcomebackdismiss.buttontitle</string>
 		<key>fontName</key>
-		<string>HelveticaNeue</string>
+		<string>$MainFont</string>
 		<key>fontSize</key>
 		<integer>14</integer>
 		<key>color</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>aligment</key>
 		<string>center</string>
 		<key>borderColor</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>borderWidth</key>
 		<integer>1</integer>
 		<key>cornerRadius</key>
@@ -345,15 +345,15 @@
 		<key>buttonTitle</key>
 		<string>#afcuimroutebuilderviewcontroller.welcomebackrouteme.buttontitle</string>
 		<key>color</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>fontName</key>
-		<string>HelveticaNeue</string>
+		<string>$MainFont</string>
 		<key>fontsize</key>
 		<integer>14</integer>
 		<key>aligment</key>
 		<string>center</string>
 		<key>borderColor</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>borderWidth</key>
 		<integer>1</integer>
 		<key>cornerRadius</key>

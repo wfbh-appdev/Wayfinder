@@ -82,27 +82,36 @@
 		<key>image#selected</key>
 		<string>favorite.selected.png</string>
 	</dict>
+	<key>descriptionLabel</key>
+	<dict>
+		<key>fontName</key>
+		<string>$MainFontLight</string>
+		<key>fontSize</key>
+		<string>$MainFontSize</string>
+		<key>color</key>
+		<string>$GrayColor</string>
+	</dict>
 	<key>poiName</key>
 	<dict>
 		<key>fontName</key>
-		<string>HelveticaNeue-Thin</string>
+		<string>$MainFontThin</string>
 		<key>fontSize</key>
 		<integer>22</integer>
 		<key>alignment</key>
 		<string>left</string>
 		<key>color</key>
-		<string>#000000</string>
+		<string>$BlackColor</string>
 		<key>lines</key>
 		<integer>1</integer>
 	</dict>
 	<key>poiLevel</key>
 	<dict>
 		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
+		<string>$MainFontLight</string>
 		<key>fontSize</key>
 		<integer>12</integer>
 		<key>color</key>
-		<string>#0080FF</string>
+		<string>$BlueColor</string>
 		<key>alignment</key>
 		<string>left</string>
 		<key>lines</key>
@@ -111,7 +120,7 @@
 	<key>distanceToPOI</key>
 	<dict>
 		<key>fontName</key>
-		<string>HelveticaNeue-Bold</string>
+		<string>$MainFontBold</string>
 		<key>fontSize</key>
 		<integer>9</integer>
 		<key>alignment</key>
@@ -119,22 +128,22 @@
 		<key>lines</key>
 		<integer>1</integer>
 		<key>color</key>
-		<string>#0080FF</string>
+		<string>$BlueColor</string>
 	</dict>
 	<key>maskView</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 	</dict>
 	<key>bottomMargin</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 	</dict>
 	<key>selectCampusButtonContainer</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>constraints</key>
 		<array>
 			<string>H:|-20-[selectCampusButton]-20-|</string>
@@ -152,7 +161,7 @@
 		<key>fontSize</key>
 		<integer>12</integer>
 		<key>color</key>
-		<string>#ffffff</string>
+		<string>$WhiteColor</string>
 		<key>buttonTitle</key>
 		<string>#afcuiannotationdetailviewcontroller.selectCampusButton.buttontitle</string>
 	</dict>
