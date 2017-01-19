@@ -74,5 +74,7 @@
 	<string>$(EXECUTABLE_NAME) acceso a cámara</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>$(EXECUTABLE_NAME) acceso a micrófono</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>$(PRODUCT_NAME) photo library use</string>
 </dict>
 </plist>
