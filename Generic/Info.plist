@@ -55,6 +55,8 @@
 	<string>App uses your location to do indoor routing and mapping to venues.</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>$(PRODUCT_NAME) microphone use</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>$(PRODUCT_NAME) photo library use</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Proxima Nova Sbold.otf</string>
