@@ -334,4 +334,19 @@
  */
 "afmcofferswipeviewcontroller.titlelabel.text" = "Promotion";
 
-
+/**
+ * Turn by Turn
+ */
+//Not used
+"PWRouteInstructionDirectionStraight" = "";
+"PWRouteInstructionDirectionLeft" = "Turn left in";
+"PWRouteInstructionDirectionRight" = "Turn right in";
+"PWRouteInstructionDirectionBearLeft" = "Bear left in";
+"PWRouteInstructionDirectionBearRight" = "Bear right in";
+//Not used
+"PWRouteInstructionDirectionFloorChange" = "";
+"PWRouteInstructionDirectionElevatorUp" = "Take the elevator up to";
+"PWRouteInstructionDirectionElevatorDown" = "Take the elevator down to";
+"PWRouteInstructionDirectionStairsUp" = "Take the stairs up to";
+"PWRouteInstructionDirectionStairsDown" = "Take the stairs down to";
+"PWRouteInstructionLast" = "You've arrived at";

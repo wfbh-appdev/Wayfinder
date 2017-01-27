@@ -26,6 +26,8 @@
 		7E13033A1CDA453100AF350E /* AFMUIMapPickerTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E1303391CDA453100AF350E /* AFMUIMapPickerTableViewCell.plist */; };
 		7E699E741C973AE500000BA9 /* AFCLayerPickerViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E699E731C973AE500000BA9 /* AFCLayerPickerViewController.plist */; };
 		7E699E761C97708B00000BA9 /* AFCLayerPickerTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E699E751C97708B00000BA9 /* AFCLayerPickerTableViewCell.plist */; };
+		7E75FD9B1E3A77170025A831 /* AFMUITurnByTurnInstructionView.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E75FD991E3A77170025A831 /* AFMUITurnByTurnInstructionView.plist */; };
+		7E75FD9C1E3A77170025A831 /* AFMUITurnByTurnTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E75FD9A1E3A77170025A831 /* AFMUITurnByTurnTableViewCell.plist */; };
 		8C10FC371C49CD5A000A7913 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C10FC361C49CD5A000A7913 /* Fabric.framework */; };
 		8C64BA151D02143100AB0FDD /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C64BA141D02143100AB0FDD /* CoreBluetooth.framework */; };
 		8C6B9A4C1DF62F400067DABC /* AFMCOfferWalletViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C6B9A4B1DF62F400067DABC /* AFMCOfferWalletViewController.plist */; };
@@ -107,6 +109,8 @@
 		7E699E731C973AE500000BA9 /* AFCLayerPickerViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCLayerPickerViewController.plist; sourceTree = "<group>"; };
 		7E699E751C97708B00000BA9 /* AFCLayerPickerTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCLayerPickerTableViewCell.plist; sourceTree = "<group>"; };
 		7E705E301DBE89C40047C09C /* GenericAF4.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = GenericAF4.entitlements; path = GenericAF4/GenericAF4.entitlements; sourceTree = "<group>"; };
+		7E75FD991E3A77170025A831 /* AFMUITurnByTurnInstructionView.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFMUITurnByTurnInstructionView.plist; sourceTree = "<group>"; };
+		7E75FD9A1E3A77170025A831 /* AFMUITurnByTurnTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFMUITurnByTurnTableViewCell.plist; sourceTree = "<group>"; };
 		8C10FC361C49CD5A000A7913 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		8C64BA141D02143100AB0FDD /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		8C6B9A4B1DF62F400067DABC /* AFMCOfferWalletViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFMCOfferWalletViewController.plist; sourceTree = "<group>"; };
@@ -250,6 +254,8 @@
 		8F43556C1BC858B700FFD46C /* UIConfiguration */ = {
 			isa = PBXGroup;
 			children = (
+				7E75FD991E3A77170025A831 /* AFMUITurnByTurnInstructionView.plist */,
+				7E75FD9A1E3A77170025A831 /* AFMUITurnByTurnTableViewCell.plist */,
 				8F5FFFD61BCDB00C000B027C /* AFCASubscriptionsSetupViewController.plist */,
 				5555DB0D1C446C6A00E37207 /* AFCDirectoryCategoryViewController.plist */,
 				5555DB091C44646800E37207 /* AFCDirectoryViewController.plist */,
@@ -447,6 +453,7 @@
 				8F43558D1BC858B700FFD46C /* AFCUITrayMenuViewController.plist in Resources */,
 				7E13033A1CDA453100AF350E /* AFMUIMapPickerTableViewCell.plist in Resources */,
 				5555DB0B1C446C6A00E37207 /* AFCDirectoryCategoryViewController.plist in Resources */,
+				7E75FD9C1E3A77170025A831 /* AFMUITurnByTurnTableViewCell.plist in Resources */,
 				8F43558A1BC858B700FFD46C /* AFCParkingVoiceMemoViewController.plist in Resources */,
 				8F5FFFBD1BCC2F58000B027C /* AFMUIPOIViewController.plist in Resources */,
 				8F5FFFC11BCC2F58000B027C /* AFMUIPOIDetailViewController.plist in Resources */,
@@ -475,6 +482,7 @@
 				8F106FA31BC9D44000CCDD86 /* InteractivePushNotificationCategories.plist in Resources */,
 				5555DB031C4460C900E37207 /* InfoPlist.strings in Resources */,
 				C398FC971D75E9C700FD48DE /* AFCUIDynamicViewController.plist in Resources */,
+				7E75FD9B1E3A77170025A831 /* AFMUITurnByTurnInstructionView.plist in Resources */,
 				8F0613181BC8569800A55F16 /* Main.storyboard in Resources */,
 				8F5FFFD71BCDB00C000B027C /* AFCASubscriptionsSetupViewController.plist in Resources */,
 				8F4355871BC858B700FFD46C /* AFCParkingNoteViewController.plist in Resources */,
