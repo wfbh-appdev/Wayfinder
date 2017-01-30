@@ -1978,6 +1978,12 @@
 										<key>identifier</key>
 										<string>$appDefaults.solutions.appUUID</string>
 									</dict>
+									<dict>
+										<key>name</key>
+										<string>Device ID</string>
+										<key>identifier</key>
+										<string>$app.kDeviceIdString</string>
+									</dict>
 								</array>
 							</dict>
 						</array>
