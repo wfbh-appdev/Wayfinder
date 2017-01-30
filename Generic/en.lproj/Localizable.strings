@@ -334,4 +334,8 @@
  */
 "afmcofferswipeviewcontroller.titlelabel.text" = "Promotion";
 
-
+/**
+ * Extra strings
+ */
+"afcuisettingsviewcontroller.deviceidcopy.alert.title" = "Notice";
+"afcuisettingsviewcontroller.deviceidcopy.alert.message" = "The device ID has been copied to the clipboard";
