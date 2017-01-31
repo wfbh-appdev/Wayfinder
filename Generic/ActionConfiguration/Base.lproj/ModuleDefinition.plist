@@ -1190,6 +1190,8 @@
 								<string>#000000</string>
 								<key>tbtDistanceUpdatedByInterval</key>
 								<true/>
+								<key>tbtAnimationClass</key>
+								<string>AFMCustomTurnByTurnAnimation</string>
 							</dict>
 						</dict>
 						<key>dependencies</key>
@@ -1255,6 +1257,8 @@
 								<string>#000000</string>
 								<key>tbtDistanceUpdatedByInterval</key>
 								<true/>
+								<key>tbtAnimationClass</key>
+								<string>AFMCustomTurnByTurnAnimation</string>
 							</dict>
 						</dict>
 						<key>dependencies</key>
