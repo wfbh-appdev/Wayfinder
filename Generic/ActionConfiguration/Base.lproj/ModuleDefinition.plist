@@ -1182,6 +1182,8 @@
 								<string>Description</string>
 								<key>associatedDataBannerKey</key>
 								<string>DetailImage</string>
+								<key>turnByTurnEnabled</key>
+								<true/>
 								<key>tbtPrefixTextColor</key>
 								<string>#00FF00</string>
 								<key>tbtDistanceTextColor</key>
@@ -1245,6 +1247,8 @@
 								<string>Description</string>
 								<key>associatedDataBannerKey</key>
 								<string>DetailImage</string>
+								<key>turnByTurnEnabled</key>
+								<true/>
 								<key>tbtPrefixTextColor</key>
 								<string>#00FF00</string>
 								<key>tbtDistanceTextColor</key>
