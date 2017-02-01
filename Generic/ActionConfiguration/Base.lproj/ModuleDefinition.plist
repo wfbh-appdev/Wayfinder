@@ -1192,6 +1192,10 @@
 								<true/>
 								<key>tbtAnimationClass</key>
 								<string>AFMCustomTurnByTurnAnimation</string>
+								<key>tbtUpdateInterval</key>
+								<integer>7</integer>
+								<key>tbtUpdateMinimumDistance</key>
+								<integer>50</integer>
 							</dict>
 						</dict>
 						<key>dependencies</key>
@@ -1259,6 +1263,10 @@
 								<true/>
 								<key>tbtAnimationClass</key>
 								<string>AFMCustomTurnByTurnAnimation</string>
+								<key>tbtUpdateInterval</key>
+								<integer>7</integer>
+								<key>tbtUpdateMinimumDistance</key>
+								<integer>50</integer>
 							</dict>
 						</dict>
 						<key>dependencies</key>
