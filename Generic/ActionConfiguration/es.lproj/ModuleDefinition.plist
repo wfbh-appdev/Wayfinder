@@ -1182,7 +1182,7 @@
 								<string>Description</string>
 								<key>associatedDataBannerKey</key>
 								<string>DetailImage</string>
-								<key>turnByTurnEnabled</key>
+								<key>tbtEnabled</key>
 								<true/>
 								<key>tbtPrefixTextColor</key>
 								<string>#00FF00</string>
@@ -1190,6 +1190,12 @@
 								<string>#000000</string>
 								<key>tbtDistanceUpdatedByInterval</key>
 								<true/>
+								<key>tbtAnimationClass</key>
+								<string>AFMCustomTurnByTurnAnimation</string>
+								<key>tbtUpdateInterval</key>
+								<integer>7</integer>
+								<key>tbtUpdateMinimumDistance</key>
+								<integer>50</integer>
 							</dict>
 						</dict>
 						<key>dependencies</key>
@@ -1247,7 +1253,7 @@
 								<string>Description</string>
 								<key>associatedDataBannerKey</key>
 								<string>DetailImage</string>
-								<key>turnByTurnEnabled</key>
+								<key>tbtEnabled</key>
 								<true/>
 								<key>tbtPrefixTextColor</key>
 								<string>#00FF00</string>
@@ -1255,6 +1261,12 @@
 								<string>#000000</string>
 								<key>tbtDistanceUpdatedByInterval</key>
 								<true/>
+								<key>tbtAnimationClass</key>
+								<string>AFMCustomTurnByTurnAnimation</string>
+								<key>tbtUpdateInterval</key>
+								<integer>7</integer>
+								<key>tbtUpdateMinimumDistance</key>
+								<integer>50</integer>
 							</dict>
 						</dict>
 						<key>dependencies</key>

@@ -1182,7 +1182,7 @@
 								<string>Description</string>
 								<key>associatedDataBannerKey</key>
 								<string>DetailImage</string>
-								<key>turnByTurnEnabled</key>
+								<key>tbtEnabled</key>
 								<true/>
 								<key>tbtPrefixTextColor</key>
 								<string>#00FF00</string>
@@ -1253,7 +1253,7 @@
 								<string>Description</string>
 								<key>associatedDataBannerKey</key>
 								<string>DetailImage</string>
-								<key>turnByTurnEnabled</key>
+								<key>tbtEnabled</key>
 								<true/>
 								<key>tbtPrefixTextColor</key>
 								<string>#00FF00</string>
