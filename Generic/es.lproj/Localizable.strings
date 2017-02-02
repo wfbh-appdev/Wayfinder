@@ -92,7 +92,13 @@
 "aflayerdatabase.displayforceupdate.alert.message" = "Este contenido requiere una conexión de datos, por favor revise su red móvil o WiFi y vuelve a intentarlo.";
 "aflayerdatabase.displayforceupdate.alert.button" = "SÍ";
 
-
+/*
+ * AFCPhoneCallAction
+ */
+"afcphonecallaction.alert.title" = "Realizar una llamada";
+"afcphonecallaction.alert.message" = "Está seguro de llamar a:\n%@";
+"afcphonecallaction.alert.accept" = "Si";
+"afcphonecallaction.alert.cancel" = "No";
 
 
 /*** AF-RENDER STRINGS ***/
