@@ -7,6 +7,7 @@
 */
 
 /*** AF-CORE STRINGS ***/
+
 /**
  * EULA Agreement
  */
@@ -96,7 +97,6 @@
 "afcphonecallaction.alert.accept" = "Yes";
 "afcphonecallaction.alert.cancel" = "No";
 
-
 /*** AF-RENDER STRINGS ***/
 
 /*
@@ -129,10 +129,8 @@
 "afcuiuserloginview.loginbutton.failedtext" = "Login Failed";
 "afcuiuserloginview.loginmessage.invalidusernamepassword" = "Invalid username or password entered.\nPlease, try again.";
 
-
-
-
 /*** AF-DIRECTORY STRINGS ***/
+
 /*
  * Mall Detail Strings
  */
@@ -170,9 +168,11 @@
 "afcdirectoryviewcontroller.filtercategory.title" = "All";
 "afcdirectoryviewcontroller.filtercategorybutton.title" = "Filter";
 
-
-
-
+/*
+ * AFCUIMAnnotationDirectoryViewController Strings
+ */
+"afcuimannotationdirectoryviewcontroller.titlelabel.text" = "POI Directory";
+"afcuimannotationdirectoryviewcontroller.noresultsfound.text" = "No Results Found";
 
 /*** AF-PARKING STRINGS ***/
 
@@ -223,17 +223,7 @@
 "afcparkingvoicememoviewcontroller.recordvoicememotitle.text" = "Record a memo to help you remember";
 "afcparkingvoicememoviewcontroller.titlelabel.text" = "Parking Memo";
 
-
-
-
-
-
 /*** AF-MAPPING STRINGS ***/
-/*
- * AFCUIMAnnotationDirectoryViewController Strings
- */
-"afcuimannotationdirectoryviewcontroller.titlelabel.text" = "POI Directory";
-"afcuimannotationdirectoryviewcontroller.noresultsfound.text" = "No Results Found.";
 
 /*
  *  AFCUIMRouteBuilderViewController Strings
@@ -307,11 +297,8 @@
 "afcmmappickerviewcontroller.promptlocationalert.title" = "Help us guide you";
 "afcmmappickerviewcontroller.promptlocationalert.message" = "Please enable location services so we can show you the nearest location.";
 
-
-
-
-
 /*** AF-LOCATIONMARKETING STRINGS ***/
+
 /*
  *  AFCOfferWalletViewController Strings
  */
