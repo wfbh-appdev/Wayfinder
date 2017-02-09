@@ -40,6 +40,10 @@
 	<string>engageme</string>
 	<key>LPServer</key>
 	<string>sandbox</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>uber</string>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
@@ -65,12 +69,9 @@
 	</array>
 	<key>UIBackgroundModes</key>
 	<array>
+		<string>bluetooth-central</string>
 		<string>location</string>
 		<string>remote-notification</string>
-	</array>
-	<key>LSApplicationQueriesSchemes</key>
-	<array>
-		<string>uber</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
