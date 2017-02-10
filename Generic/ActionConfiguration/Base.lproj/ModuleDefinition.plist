@@ -47,7 +47,7 @@
 							<key>parameters</key>
 							<dict>
 								<key>contentId</key>
-								<string>PWMapViewLocationTypeBLE</string>
+								<string>PWMapViewLocationTypeManagedProvider</string>
 							</dict>
 						</dict>
 					</array>
@@ -1945,6 +1945,12 @@
 										<string>GPS / Apple Indoor (if available)</string>
 										<key>identifier</key>
 										<string>PWMapViewLocationTypeGPS</string>
+									</dict>
+									<dict>
+										<key>name</key>
+										<string>Managed Provider</string>
+										<key>identifier</key>
+										<string>PWMapViewLocationTypeManagedProvider</string>
 									</dict>
 								</array>
 							</dict>
