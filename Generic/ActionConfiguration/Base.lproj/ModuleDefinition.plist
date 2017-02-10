@@ -421,8 +421,32 @@
 					<true/>
 					<key>properties</key>
 					<dict>
-						<key>cmeId</key>
-						<string>$action.auxID1</string>
+						<key>titleKey</key>
+						<string>Name</string>
+						<key>subtitleKey</key>
+						<string>SubTitle</string>
+						<key>iconKey</key>
+						<string>Thumbnail</string>
+						<key>bannerKey</key>
+						<string>DetailImage</string>
+						<key>identifierKey</key>
+						<string>ItemId</string>
+						<key>databaseDirectoryItems</key>
+						<string>$module.databaseDirectoryItems</string>
+						<key>databaseCategories</key>
+						<string>$module.databaseCategories</string>
+						<key>favoritesContext</key>
+						<string>databaseDirectoryItems</string>
+						<key>categoryNameKey</key>
+						<string>Name</string>
+						<key>categoryDirectoryItemIDsKey</key>
+						<string>Items</string>
+						<key>directoryItemIdKey</key>
+						<string>ItemId</string>
+						<key>descriptionKey</key>
+						<string>Description</string>
+						<key>itemDetailContext</key>
+						<string>Directory Detail</string>
 						<key>category</key>
 						<string>$action.auxID2</string>
 						<key>title</key>
@@ -433,12 +457,12 @@
 						<true/>
 						<key>cellClass</key>
 						<string>AFCUIHoneyBadgerTableViewCell</string>
+						<key>itemDetailLocationKey</key>
+						<string>POI</string>
 						<key>alphabeticalIndex</key>
 						<true/>
-						<key>directoryItems</key>
-						<string>$module.directoryItems</string>
-						<key>directoryCategories</key>
-						<string>$module.directoryCategories</string>
+						<key>cmeid</key>
+						<string>$action.auxID1</string>
 					</dict>
 				</dict>
 				<key>dependencies</key>
@@ -477,9 +501,9 @@
 					<true/>
 					<key>queryData</key>
 					<dict>
-						<key>directoryItems</key>
+						<key>databaseDirectoryItems</key>
 						<string>select * from DirectoryItems</string>
-						<key>directoryCategories</key>
+						<key>databaseCategories</key>
 						<string>select * from Categories order by Name</string>
 					</dict>
 				</dict>
