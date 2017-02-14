@@ -146,3 +146,27 @@
 "PWRouteInstructionDirectionStairsUp" = "خذ على الدرج الى";
 "PWRouteInstructionDirectionStairsDown" = "اصعد السلالم وصولا الى";
 "PWRouteInstructionLast" = "كنت قد وصلت في";
+
+/*** AF-LOCATIONMARKETING STRINGS ***/
+
+/* * AFCOfferWalletViewController Strings * */
+"afmcofferwalletviewcontroller.titlelabel.text" = "مركز الرسائل ";
+"afmcofferwalletviewcontroller.titlelabel.text.editing" = "تصحيح";
+"afmcofferwalletviewcontroller.emptymessagelabel.text" = " ليس لديك أية رسائل في هذا وقت.";
+"afmcofferwalletviewcontroller.deletebutton.title" = "حذف ";
+"afmcofferwalletviewcontroller.alert.title" = "حذف الرسائل ";
+"afmcofferwalletviewcontroller.alert.description" = "هل أنت متأكد أنك ترغب في حذف هذه د٪ الرسائل?";
+"afmcofferwalletviewcontroller.alert.cancelbutton.title" = "لا ";
+"afmcofferwalletviewcontroller.alert.deletebutton.title" = " نعم ";
+"afmcofferwalletviewcontroller.expirationdate.text" = "@% تنقضي";
+
+/* * AFCOfferDetailViewController Strings * */
+"afmcofferdetailviewcontroller.titlelabel.text" = "ترويج ";
+"afmcofferdetailviewcontroller.expirationdatelabel.text" = "@% تنقضي ";
+"afmcofferdetailviewcontroller.offerbutton.title" = " تلقي عرض مجاني!";
+"afmcofferdetailviewcontroller.alert.title" = " حذف رسالة ";
+"afmcofferdetailviewcontroller.alert.message" = " هل ترغب في حذف هذه الرسالة?";
+"afmcofferdetailviewcontroller.alert.deletebutton.title" = " لا";
+"afmcofferdetailviewcontroller.alert.cancelbutton.title" = " نعم ";
+/* * AFMCOfferSwipeViewController Strings */
+"afmcofferswipeviewcontroller.titlelabel.text" = " ترويج ";

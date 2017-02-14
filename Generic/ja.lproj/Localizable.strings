@@ -177,3 +177,28 @@
 "PWRouteInstructionDirectionStairsUp" = "テーク ザー ステアズ アップ トゥー";
 "PWRouteInstructionDirectionStairsDown" = "テーク ザー ステアズ ダウン トゥー";
 "PWRouteInstructionLast" = "ユーブ アライブド アット";
+
+/*** AF-LOCATIONMARKETING STRINGS ***/
+
+/* * AFCOfferWalletViewController Strings * */
+"afmcofferwalletviewcontroller.titlelabel.text" = " メシッジ・センター";
+"afmcofferwalletviewcontroller.titlelabel.text.editing" = "エディット";
+"afmcofferwalletviewcontroller.emptymessagelabel.text" = "ユー ドーント ハブ エニー メシジズ アット ジス タイム.";
+"afmcofferwalletviewcontroller.deletebutton.title" = "ディリート";
+"afmcofferdetailviewcontroller.alert.title" = "ディリート メシッジ";
+"afmcofferwalletviewcontroller.alert.description" = "アー ユー シュア ユー ウッド ライク トゥー ディリート ジーズ ディー メシジズ";
+"afmcofferwalletviewcontroller.alert.cancelbutton.title" = "ノー";
+"afmcofferwalletviewcontroller.alert.deletebutton.title" = "イェス";
+"afmcofferwalletviewcontroller.expirationdate.text" = "イクスパイウズ%@";
+
+/* * AFCOfferDetailViewController Strings * */
+"afmcofferdetailviewcontroller.titlelabel.text" = "プロモーション";
+"afmcofferdetailviewcontroller.expirationdatelabel.text" = "イクスパイウズ%@";
+"afmcofferdetailviewcontroller.offerbutton.title" = "リシーブ フリー オファー!";
+"afmcofferdetailviewcontroller.alert.title" = "ディリート メシッジ";
+"afmcofferdetailviewcontroller.alert.message" = "ウッド ユー ライク トゥー ディリート ジス メシッジ?";
+"afmcofferdetailviewcontroller.alert.deletebutton.title" = "ノー";
+"afmcofferdetailviewcontroller.alert.cancelbutton.title" = "イェス";
+
+/* * AFMCOfferSwipeViewController Strings */
+"afmcofferswipeviewcontroller.titlelabel.text" = "プロモーション";

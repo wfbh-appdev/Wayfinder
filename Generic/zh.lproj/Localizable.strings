@@ -185,3 +185,29 @@
 "PWRouteInstructionDirectionStairsUp" = "走上楼梯";
 "PWRouteInstructionDirectionStairsDown" = "走下楼梯";
 "PWRouteInstructionLast" = "你到了";
+
+
+/*** AF-LOCATIONMARKETING STRINGS ***/
+
+/* * AFCOfferWalletViewController Strings * */
+"afmcofferwalletviewcontroller.titlelabel.text" = "消息中心";
+"afmcofferwalletviewcontroller.titlelabel.text.editing" = "编辑";
+"afmcofferwalletviewcontroller.emptymessagelabel.text" = "此时你没有任何信息.";
+"afmcofferwalletviewcontroller.deletebutton.title" = "删除";
+"afmcofferwalletviewcontroller.alert.title" = "删除邮件";
+"afmcofferwalletviewcontroller.alert.description" = "确实要删除这些%d消息吗？";
+"afmcofferwalletviewcontroller.alert.cancelbutton.title" = "没有";
+"afmcofferwalletviewcontroller.alert.deletebutton.title" = "是";
+"afmcofferwalletviewcontroller.expirationdate.text" = " 过期%@";
+
+/* * AFCOfferDetailViewController Strings * */
+"afmcofferdetailviewcontroller.titlelabel.text" = "促销";
+"afmcofferdetailviewcontroller.expirationdatelabel.text" = "过期 %@";
+"afmcofferdetailviewcontroller.offerbutton.title" = "免费提供!";
+"afmcofferdetailviewcontroller.alert.title" = "删除邮件";
+"afmcofferdetailviewcontroller.alert.message" = "要删除此消息吗？";
+"afmcofferdetailviewcontroller.alert.deletebutton.title" = "没有";
+"afmcofferdetailviewcontroller.alert.cancelbutton.title" = "是";
+
+/* * AFMCOfferSwipeViewController Strings */
+"afmcofferswipeviewcontroller.titlelabel.text" = "促销";
