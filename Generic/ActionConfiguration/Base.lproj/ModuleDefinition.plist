@@ -1363,11 +1363,6 @@
 				<key>className</key>
 				<string>AFMSetLocationProviderAction</string>
 			</dict>
-			<key>clearCache</key>
-			<dict>
-				<key>className</key>
-				<string>AFMClearMapCacheAction</string>
-			</dict>
 		</dict>
 		<key>MapDirectory</key>
 		<dict>
@@ -1869,52 +1864,6 @@
 							</dict>
 							<dict>
 								<key>title</key>
-								<string>GENERAL</string>
-								<key>type</key>
-								<string>action</string>
-								<key>forwardContentType</key>
-								<string>SettingsMap</string>
-								<key>forwardContentAction</key>
-								<string>clearCache</string>
-								<key>items</key>
-								<array>
-									<dict>
-										<key>name</key>
-										<string>Clear Cache</string>
-									</dict>
-								</array>
-							</dict>
-							<dict>
-								<key>title</key>
-								<string>DISTANCE UNITS</string>
-								<key>type</key>
-								<string>choice</string>
-								<key>forwardContentType</key>
-								<string>DistanceUnits</string>
-								<key>forwardContentAction</key>
-								<string>set</string>
-								<key>cellViewClass</key>
-								<string>AFCUIDistanceUnitsCellViewClassTableViewCell</string>
-								<key>items</key>
-								<array>
-									<dict>
-										<key>name</key>
-										<string>Miles</string>
-										<key>identifier</key>
-										<string>0</string>
-										<key>default</key>
-										<true/>
-									</dict>
-									<dict>
-										<key>name</key>
-										<string>Kilometers</string>
-										<key>identifier</key>
-										<string>1</string>
-									</dict>
-								</array>
-							</dict>
-							<dict>
-								<key>title</key>
 								<string>LOCATION PROVIDER</string>
 								<key>type</key>
 								<string>choice</string>
@@ -2023,11 +1972,6 @@
 						</array>
 					</dict>
 				</dict>
-			</dict>
-			<key>clearCache</key>
-			<dict>
-				<key>className</key>
-				<string>AFMClearMapCacheAction</string>
 			</dict>
 		</dict>
 		<key>SplashScreen</key>

@@ -140,14 +140,6 @@
 "mall.detail.error.website.title" = "";
 
 /*
- * AFCClearCacheAction Strings
- */
-"afcclearcacheaction.prompt.message" = "Esta acción borrará todos los datos almacenados y reiniciará la aplicación. ¿Está seguro de continuar?";
-"afcclearcacheaction.prompt.title" = "Confirmar";
-"afcclearcacheaction.cancel.title" = "Cancelar";
-"afcclearcacheaction.ok.title" = "Limpiar Cache";
-
-/*
  * AFCUIMAnnotationDirectoryViewController Strings
  */
 "afcdirectorycategoryviewcontroller.cancel.text" = "Cancelar";
