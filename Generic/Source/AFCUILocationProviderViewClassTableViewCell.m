@@ -26,7 +26,7 @@
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated
 {
     if (selected) {
-         [self setAccessoryType:UITableViewCellAccessoryNone];
+        [self setAccessoryType:UITableViewCellAccessoryNone];
         NSString *PWSLocationManagerKey = @"";
         if ([[super textLabel].text isEqualToString:@"BLE"])
             PWSLocationManagerKey = @"PWMapViewLocationTypeBLE";
@@ -36,6 +36,9 @@
 
         if ([[super textLabel].text isEqualToString:@"GPS / Apple Indoor (if available)"])
             PWSLocationManagerKey = @"PWMapViewLocationTypeGPS";
+
+        if ([[super textLabel].text isEqualToString:@"Managed Provider"])
+            PWSLocationManagerKey = @"PWMapViewLocationTypeManagedProvider";
 
         if (![PWSLocationManagerKey isEqualToString:@""])
             [[NSUserDefaults standardUserDefaults] setValue:PWSLocationManagerKey forKey:kAFCMAppStateCurrentLocationProviderKey];
@@ -65,11 +68,16 @@
         finalValue = YES;
     }
 
+    if ([[[NSUserDefaults standardUserDefaults] valueForKey:kAFCMAppStateCurrentLocationProviderKey] isEqualToString:@"PWMapViewLocationTypeManagedProvider"] && [value isEqualToString:@"Managed Provider"]) {
+        finalValue = YES;
+    }
+
 
     return finalValue;
 }
 
-- (void)selectStoredRowValue{
+- (void)selectStoredRowValue
+{
     if ([self isTheSelectedRow:self.textLabel.text])
         [self setAccessoryType:UITableViewCellAccessoryCheckmark];
 }
