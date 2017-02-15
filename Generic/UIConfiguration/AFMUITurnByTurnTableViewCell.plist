@@ -7,7 +7,7 @@
 		<key>fontName</key>
 		<string>$MainFont</string>
 		<key>fontSize</key>
-		<integer>12</integer>
+		<integer>16</integer>
 		<key>lines</key>
 		<string>2</string>
 	</dict>
