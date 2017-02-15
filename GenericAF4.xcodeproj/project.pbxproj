@@ -20,7 +20,6 @@
 		5555DB0F1C448FDB00E37207 /* ModuleDefinition.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5555DB111C448FDB00E37207 /* ModuleDefinition.plist */; };
 		5574F54C1C3AD921007BC741 /* AFCUIMaasVersionCellViewClassTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5574F54B1C3AD921007BC741 /* AFCUIMaasVersionCellViewClassTableViewCell.m */; };
 		5574F54F1C3AF889007BC741 /* AFCUILocationProviderViewClassTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5574F54E1C3AF889007BC741 /* AFCUILocationProviderViewClassTableViewCell.m */; };
-		5574F5521C3B21AD007BC741 /* AFCUIDistanceUnitsCellViewClassTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5574F5501C3B21AD007BC741 /* AFCUIDistanceUnitsCellViewClassTableViewCell.m */; };
 		55BAB7CB1C3EB98600799988 /* PhunwareIntegration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55BAB7CD1C3EB98600799988 /* PhunwareIntegration.plist */; };
 		7E1303381CDA451300AF350E /* AFMUIMapPickerViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E1303371CDA451300AF350E /* AFMUIMapPickerViewController.plist */; };
 		7E13033A1CDA453100AF350E /* AFMUIMapPickerTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E1303391CDA453100AF350E /* AFMUIMapPickerTableViewCell.plist */; };
@@ -97,8 +96,6 @@
 		5574F54B1C3AD921007BC741 /* AFCUIMaasVersionCellViewClassTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFCUIMaasVersionCellViewClassTableViewCell.m; sourceTree = "<group>"; };
 		5574F54D1C3AF889007BC741 /* AFCUILocationProviderViewClassTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCUILocationProviderViewClassTableViewCell.h; sourceTree = "<group>"; };
 		5574F54E1C3AF889007BC741 /* AFCUILocationProviderViewClassTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFCUILocationProviderViewClassTableViewCell.m; sourceTree = "<group>"; };
-		5574F5501C3B21AD007BC741 /* AFCUIDistanceUnitsCellViewClassTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFCUIDistanceUnitsCellViewClassTableViewCell.m; sourceTree = "<group>"; };
-		5574F5511C3B21AD007BC741 /* AFCUIDistanceUnitsCellViewClassTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCUIDistanceUnitsCellViewClassTableViewCell.h; sourceTree = "<group>"; };
 		558BA0B01C44533000394237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
 		55BAB7CC1C3EB98600799988 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/PhunwareIntegration.plist; sourceTree = "<group>"; };
 		55BAB7CE1C3EB98800799988 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = es; path = es.lproj/PhunwareIntegration.plist; sourceTree = "<group>"; };
@@ -302,8 +299,6 @@
 				5574F54E1C3AF889007BC741 /* AFCUILocationProviderViewClassTableViewCell.m */,
 				8F4355781BC858B700FFD46C /* AppDelegate.h */,
 				8F4355791BC858B700FFD46C /* AppDelegate.m */,
-				5574F5501C3B21AD007BC741 /* AFCUIDistanceUnitsCellViewClassTableViewCell.m */,
-				5574F5511C3B21AD007BC741 /* AFCUIDistanceUnitsCellViewClassTableViewCell.h */,
 				8FDD0F371BD1775500A0C512 /* GenericAppNavigationController.h */,
 				8FDD0F381BD1775500A0C512 /* GenericAppNavigationController.m */,
 				8FDD0F391BD1775500A0C512 /* GenericAppNavigationController.xib */,
@@ -555,7 +550,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C1DE4301C3F306B0074369D /* AFGoogleAnalyticsController.m in Sources */,
-				5574F5521C3B21AD007BC741 /* AFCUIDistanceUnitsCellViewClassTableViewCell.m in Sources */,
 				8F43558E1BC858B700FFD46C /* AppDelegate.m in Sources */,
 				8F06130F1BC8569800A55F16 /* main.m in Sources */,
 				8FDD0F3A1BD1775500A0C512 /* GenericAppNavigationController.m in Sources */,
