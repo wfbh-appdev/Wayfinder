@@ -129,6 +129,13 @@
 "afcuiuserloginview.loginbutton.failedtext" = "Inicio de Sesión Fallido";
 "afcuiuserloginview.loginmessage.invalidusernamepassword" = "Nombre de Usuario o Contraseña\ninválidos. Por favor, intente de nuevo.";
 
+"forms.success.title" = "Enviado";
+"forms.success.message" = "Su solicitud ha sido enviada con éxito";
+"forms.success.button.title" = "OK";
+"forms.error.title" = "Error";
+"forms.error.message" = "Ha habido un error con su solicitud";
+"forms.error.button.title" = "OK";
+
 /*** AF-DIRECTORY STRINGS ***/
 
 /*
