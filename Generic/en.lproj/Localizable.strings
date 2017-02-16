@@ -272,6 +272,11 @@
 "afcuimmapviewcontroller.buildingloaderroralert.message" = "We cannot load the map at this time. Check your network connection.";
 "afcuimmapviewcontroller.buildingloaderroralert.button" = "Ok";
 
+/**
+ *  AFMUIPOIViewController Strings
+ */
+"afmuipoiviewcontroller.search.placeholder" = "Search for poi...";
+
 /*
  *  AFCUIMRoutingAnnotationView Strings
  */

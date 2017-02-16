@@ -135,10 +135,7 @@
  * Mall Detail Strings
  */
 "mall.detail.error.phone.message" = "No parece existir un número de teléfono.";
-"mall.detail.error.phone.title" = "";
-"mall.detail.error.website.message" = "No parece existir el sitio web.";
-"mall.detail.error.website.title" = "";
-
+"mall.detail.error.phone.title" = ""; "mall.detail.error.website.message" = "No parece existir el sitio web."; "mall.detail.error.website.title" = ""; 
 /*
  * AFCUIMAnnotationDirectoryViewController Strings
  */
@@ -271,6 +268,11 @@
 "afcuimmapviewcontroller.buildingloaderroralert.title" = "Error en el Mapa";
 "afcuimmapviewcontroller.buildingloaderroralert.message" = "No podemos cargar el mapa en este momento. Compruebe su conexión de red.";
 "afcuimmapviewcontroller.buildingloaderroralert.button" = "SÍ";
+
+/**
+ *  AFMUIPOIViewController Strings
+ */
+"afmuipoiviewcontroller.search.placeholder" = "Buscar un punto de interés...";
 
 /*
  *  AFCUIMRoutingAnnotationView Strings
