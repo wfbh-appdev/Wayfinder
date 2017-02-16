@@ -880,7 +880,7 @@
 				<key>parameters</key>
 				<dict>
 					<key>viewController</key>
-					<string>AFCUIItemDetailViewController</string>
+					<string>EventDetailViewController</string>
 					<key>presentationMode</key>
 					<string>push</string>
 					<key>shouldAnimate</key>
@@ -891,8 +891,8 @@
 						<string>$action.event</string>
 						<key>itemDetailTitleKey</key>
 						<string>Name</string>
-						<key>itemDetailSubtitleKey</key>
-						<string>EventSubtitle</string>
+						<key>itemDetailSubtitle</key>
+						<string>$action.eventSubtitle</string>
 						<key>itemDetailBannerURLKey</key>
 						<string>ImageURL</string>
 						<key>itemDetailLocationKey</key>
@@ -918,7 +918,7 @@
 				<key>parameters</key>
 				<dict>
 					<key>viewController</key>
-					<string>AFCUIItemDetailViewController</string>
+					<string>EventDetailViewController</string>
 					<key>presentationMode</key>
 					<string>push</string>
 					<key>shouldAnimate</key>
@@ -926,11 +926,11 @@
 					<key>properties</key>
 					<dict>
 						<key>itemDetailData</key>
-						<string>$module.event</string>
+						<string>$action.event</string>
 						<key>itemDetailTitleKey</key>
 						<string>Name</string>
-						<key>itemDetailSubtitleKey</key>
-						<string>EventSubtitle</string>
+						<key>itemDetailSubtitle</key>
+						<string>$action.eventSubtitle</string>
 						<key>itemDetailBannerURLKey</key>
 						<string>ImageURL</string>
 						<key>itemDetailLocationKey</key>
@@ -981,8 +981,8 @@
 					<true/>
 					<key>queryData</key>
 					<dict>
-						<key>event</key>
-						<string>select * from Events WHERE EventID = </string>
+						<key>events</key>
+						<string>select * from Events order by StartDate</string>
 					</dict>
 				</dict>
 			</dict>
