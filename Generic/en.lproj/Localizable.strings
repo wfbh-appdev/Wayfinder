@@ -134,6 +134,8 @@
 /*
  * Mall Detail Strings
  */
+"mall.detail.error.email.message" = "It doesn't seem to have an email.";
+"mall.detail.error.email.title" = "";
 "mall.detail.error.phone.message" = "It doesn't seem to have a phone number.";
 "mall.detail.error.phone.title" = "";
 "mall.detail.error.website.message" = "It doesn't seem to have a website.";
