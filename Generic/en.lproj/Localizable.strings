@@ -343,17 +343,20 @@
 /**
  * Turn by Turn
  */
-"PWRouteInstructionDirectionStraight" = ""; //unused
+//Not used
+"PWRouteInstructionDirectionStraight" = "";
 "PWRouteInstructionDirectionLeft" = "Turn left in";
 "PWRouteInstructionDirectionRight" = "Turn right in";
 "PWRouteInstructionDirectionBearLeft" = "Bear left in";
 "PWRouteInstructionDirectionBearRight" = "Bear right in";
-"PWRouteInstructionDirectionFloorChange" = ""; //unused
+//Not used
+"PWRouteInstructionDirectionFloorChange" = "";
 "PWRouteInstructionDirectionElevatorUp" = "Take the elevator up to";
 "PWRouteInstructionDirectionElevatorDown" = "Take the elevator down to";
 "PWRouteInstructionDirectionStairsUp" = "Take the stairs up to";
 "PWRouteInstructionDirectionStairsDown" = "Take the stairs down to";
 "PWRouteInstructionLast" = "You've arrived at";
+"PWRouteInstructionLastEmpty" = "You have arrived.";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime" = "Total Travel Time";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minute" = "minute";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "minutes";
