@@ -1,5 +1,6 @@
 import_from_git(
     url: "ssh://git@bitbucket.phunware.com:7999/services/dev-scripts-fastlane.git",
+    branch: "feature/app-thinning",
     path: "ios/fastlane/Fastfile"
 )
 
