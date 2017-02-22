@@ -1877,29 +1877,35 @@
 								<array>
 									<dict>
 										<key>name</key>
-										<string>BLE</string>
+										<string>Auto</string>
 										<key>identifier</key>
-										<string>PWMapViewLocationTypeBLE</string>
+										<string>PWMapViewLocationTypeManagedProvider</string>
 										<key>default</key>
 										<true/>
 									</dict>
 									<dict>
 										<key>name</key>
-										<string>MSE</string>
+										<string>BLE</string>
+										<key>identifier</key>
+										<string>PWMapViewLocationTypeBLE</string>
+									</dict>
+									<dict>
+										<key>name</key>
+										<string>HyperLocation</string>
 										<key>identifier</key>
 										<string>PWMapViewLocationTypeMSE</string>
 									</dict>
 									<dict>
 										<key>name</key>
-										<string>GPS / Apple Indoor (if available)</string>
+										<string>GPS</string>
 										<key>identifier</key>
 										<string>PWMapViewLocationTypeGPS</string>
 									</dict>
 									<dict>
 										<key>name</key>
-										<string>Managed Provider</string>
+										<string>None</string>
 										<key>identifier</key>
-										<string>PWMapViewLocationTypeManagedProvider</string>
+										<string>PWMapViewLocationTypeNone</string>
 									</dict>
 								</array>
 							</dict>

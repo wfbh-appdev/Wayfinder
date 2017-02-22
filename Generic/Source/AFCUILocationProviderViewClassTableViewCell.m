@@ -28,17 +28,21 @@
     if (selected) {
         [self setAccessoryType:UITableViewCellAccessoryNone];
         NSString *PWSLocationManagerKey = @"";
+        
+        if ([[super textLabel].text isEqualToString:@"Auto"])
+            PWSLocationManagerKey = @"PWMapViewLocationTypeManagedProvider";
+        
         if ([[super textLabel].text isEqualToString:@"BLE"])
             PWSLocationManagerKey = @"PWMapViewLocationTypeBLE";
 
         if ([[super textLabel].text isEqualToString:@"MSE"])
             PWSLocationManagerKey = @"PWMapViewLocationTypeMSE";
 
-        if ([[super textLabel].text isEqualToString:@"GPS / Apple Indoor (if available)"])
+        if ([[super textLabel].text isEqualToString:@"GPS"])
             PWSLocationManagerKey = @"PWMapViewLocationTypeGPS";
 
-        if ([[super textLabel].text isEqualToString:@"Managed Provider"])
-            PWSLocationManagerKey = @"PWMapViewLocationTypeManagedProvider";
+        if ([[super textLabel].text isEqualToString:@"None"])
+            PWSLocationManagerKey = @"PWMapViewLocationTypeNone";
 
         if (![PWSLocationManagerKey isEqualToString:@""])
             [[NSUserDefaults standardUserDefaults] setValue:PWSLocationManagerKey forKey:kAFCMAppStateCurrentLocationProviderKey];
@@ -56,19 +60,24 @@
 - (BOOL)isTheSelectedRow:(NSString *)value
 {
     BOOL finalValue = NO;
+    
+    if ([[[NSUserDefaults standardUserDefaults] valueForKey:kAFCMAppStateCurrentLocationProviderKey] isEqualToString:@"PWMapViewLocationTypeManagedProvider"] && [value isEqualToString:@"Auto"]) {
+        finalValue = YES;
+    }
+    
     if ([[[NSUserDefaults standardUserDefaults] valueForKey:kAFCMAppStateCurrentLocationProviderKey] isEqualToString:@"PWMapViewLocationTypeBLE"] && [value isEqualToString:@"BLE"]) {
         finalValue = YES;
     }
 
-    if ([[[NSUserDefaults standardUserDefaults] valueForKey:kAFCMAppStateCurrentLocationProviderKey] isEqualToString:@"PWMapViewLocationTypeMSE"] && [value isEqualToString:@"MSE"]) {
+    if ([[[NSUserDefaults standardUserDefaults] valueForKey:kAFCMAppStateCurrentLocationProviderKey] isEqualToString:@"PWMapViewLocationTypeMSE"] && [value isEqualToString:@"HyperLocation"]) {
         finalValue = YES;
     }
 
-    if ([[[NSUserDefaults standardUserDefaults] valueForKey:kAFCMAppStateCurrentLocationProviderKey] isEqualToString:@"PWMapViewLocationTypeGPS"] && [value isEqualToString:@"GPS / Apple Indoor (if available)"]) {
+    if ([[[NSUserDefaults standardUserDefaults] valueForKey:kAFCMAppStateCurrentLocationProviderKey] isEqualToString:@"PWMapViewLocationTypeGPS"] && [value isEqualToString:@"GPS"]) {
         finalValue = YES;
     }
 
-    if ([[[NSUserDefaults standardUserDefaults] valueForKey:kAFCMAppStateCurrentLocationProviderKey] isEqualToString:@"PWMapViewLocationTypeManagedProvider"] && [value isEqualToString:@"Managed Provider"]) {
+    if ([[[NSUserDefaults standardUserDefaults] valueForKey:kAFCMAppStateCurrentLocationProviderKey] isEqualToString:@"PWMapViewLocationTypeNone"] && [value isEqualToString:@"None"]) {
         finalValue = YES;
     }
 
