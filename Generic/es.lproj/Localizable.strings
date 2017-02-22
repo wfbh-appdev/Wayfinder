@@ -355,6 +355,6 @@
 "PWRouteInstructionLast" = "Has llegado a";
 "PWRouteInstructionLastEmpty" = "Has llegado.";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime" = "Tiempo total de viaje";
-"afmuimapviewcontroller.turnbyturn.totaltraveltime.minute" = "minuto";
-"afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "minutos";
+"afmuimapviewcontroller.turnbyturn.totaltraveltime.minute" = "min";
+"afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "mins";
 "afmuimapviewcontroller.turnbyturn.in" = "en";
