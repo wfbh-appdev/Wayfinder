@@ -35,7 +35,7 @@
         if ([[super textLabel].text isEqualToString:@"BLE"])
             PWSLocationManagerKey = @"PWMapViewLocationTypeBLE";
 
-        if ([[super textLabel].text isEqualToString:@"MSE"])
+        if ([[super textLabel].text isEqualToString:@"HyperLocation"])
             PWSLocationManagerKey = @"PWMapViewLocationTypeMSE";
 
         if ([[super textLabel].text isEqualToString:@"GPS"])
