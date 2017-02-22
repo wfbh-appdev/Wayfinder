@@ -340,17 +340,20 @@
 /**
  * Turn by Turn
  */
-"PWRouteInstructionDirectionStraight" = ""; //unused
+//Not used
+"PWRouteInstructionDirectionStraight" = "";
 "PWRouteInstructionDirectionLeft" = "Gire a la izquierda en";
 "PWRouteInstructionDirectionRight" = "Gire a la derecha en";
 "PWRouteInstructionDirectionBearLeft" = "Oso a la izquierda en";
 "PWRouteInstructionDirectionBearRight" = "Lleve a la derecha en";
-"PWRouteInstructionDirectionFloorChange" = ""; //unused
+//Not used
+"PWRouteInstructionDirectionFloorChange" = "";
 "PWRouteInstructionDirectionElevatorUp" = "Toma el ascensor hasta";
 "PWRouteInstructionDirectionElevatorDown" = "Toma el ascensor hasta";
 "PWRouteInstructionDirectionStairsUp" = "Sube las escaleras hasta";
 "PWRouteInstructionDirectionStairsDown" = "Sube las escaleras hasta";
 "PWRouteInstructionLast" = "Has llegado a";
+"PWRouteInstructionLastEmpty" = "Has llegado.";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime" = "Tiempo total de viaje";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minute" = "minuto";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "minutos";
