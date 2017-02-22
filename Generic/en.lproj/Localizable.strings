@@ -355,6 +355,6 @@
 "PWRouteInstructionDirectionStairsDown" = "Take the stairs down to";
 "PWRouteInstructionLast" = "You've arrived at";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime" = "Total Travel Time";
-"afmuimapviewcontroller.turnbyturn.totaltraveltime.minute" = "minute";
-"afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "minutes";
+"afmuimapviewcontroller.turnbyturn.totaltraveltime.minute" = "min";
+"afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "mins";
 "afmuimapviewcontroller.turnbyturn.in" = "in";
