@@ -1196,6 +1196,8 @@
 								<integer>7</integer>
 								<key>tbtUpdateMinimumDistance</key>
 								<integer>50</integer>
+								<key>tbtCellClass</key>
+								<string>AFMUITurnByTurnTableViewCell</string>
 							</dict>
 						</dict>
 						<key>dependencies</key>
@@ -1267,6 +1269,8 @@
 								<integer>7</integer>
 								<key>tbtUpdateMinimumDistance</key>
 								<integer>50</integer>
+								<key>tbtCellClass</key>
+								<string>AFMUITurnByTurnTableViewCell</string>
 							</dict>
 						</dict>
 						<key>dependencies</key>
