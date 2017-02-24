@@ -343,8 +343,7 @@
 /**
  * Turn by Turn
  */
-//Not used
-"PWRouteInstructionDirectionStraight" = "";
+"PWRouteInstructionDirectionStraight" = "Go straight for";
 "PWRouteInstructionDirectionLeft" = "Turn left in";
 "PWRouteInstructionDirectionRight" = "Turn right in";
 "PWRouteInstructionDirectionBearLeft" = "Bear left in";
