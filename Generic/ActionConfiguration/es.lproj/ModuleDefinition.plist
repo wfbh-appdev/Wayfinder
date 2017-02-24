@@ -1185,9 +1185,9 @@
 								<key>tbtEnabled</key>
 								<true/>
 								<key>tbtPrefixTextColor</key>
-								<string>#00FF00</string>
+								<string>#a1c45e</string>
 								<key>tbtDistanceTextColor</key>
-								<string>#000000</string>
+								<string>#a1a09d</string>
 								<key>tbtDistanceUpdatedByInterval</key>
 								<true/>
 								<key>tbtAnimationClass</key>
@@ -1258,9 +1258,9 @@
 								<key>tbtEnabled</key>
 								<true/>
 								<key>tbtPrefixTextColor</key>
-								<string>#00FF00</string>
+								<string>#a1c45e</string>
 								<key>tbtDistanceTextColor</key>
-								<string>#000000</string>
+								<string>#a1a09d</string>
 								<key>tbtDistanceUpdatedByInterval</key>
 								<true/>
 								<key>tbtAnimationClass</key>
