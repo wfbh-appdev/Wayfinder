@@ -340,8 +340,7 @@
 /**
  * Turn by Turn
  */
-//Not used
-"PWRouteInstructionDirectionStraight" = "";
+"PWRouteInstructionDirectionStraight" = "Ir directamente a";
 "PWRouteInstructionDirectionLeft" = "Gire a la izquierda en";
 "PWRouteInstructionDirectionRight" = "Gire a la derecha en";
 "PWRouteInstructionDirectionBearLeft" = "Oso a la izquierda en";
