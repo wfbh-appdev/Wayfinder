@@ -10,6 +10,8 @@
 		<integer>16</integer>
 		<key>lines</key>
 		<string>2</string>
+		<key>lineBreakMode</key>
+		<string>bytruncatingtail</string>
 	</dict>
 </dict>
 </plist>
