@@ -7,5 +7,10 @@
 		<key>type</key>
 		<string>DefaultTitleLabel</string>
 	</dict>
+	<key>navigationBar</key>
+	<dict>
+		<key>tintColor</key>
+		<string>#ffffff</string>
+	</dict>
 </dict>
 </plist>

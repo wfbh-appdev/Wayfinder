@@ -59,7 +59,7 @@
 	<key>closeButton</key>
 	<dict>
 		<key>buttonTitle</key>
-		<string>#afcuimodalwebbrowser.closeButton.buttontitle</string>
+		<string>#afcuimodalwebbrowser.closebutton.buttontitle</string>
 		<key>fontName</key>
 		<string>$MainFontLight</string>
 		<key>fontSize</key>
