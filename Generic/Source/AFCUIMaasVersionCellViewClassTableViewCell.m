@@ -16,7 +16,7 @@
 #import <PWCME/PWCME.h>
 #import <PWMessaging/PWMessaging.h>
 
-NSString *kPwMapKitVersion = @"3.1.0";
+NSString *kPwMapKitVersion = @"3.1.1";
 NSString *kPwMessagingVersion = @"3.0.2";
 
 
@@ -31,7 +31,7 @@ NSString *kPwMessagingVersion = @"3.0.2";
     if ([super.textLabel.text isEqualToString:@"PwMapKit"])
         versionString = kPwMapKitVersion;
     if ([super.textLabel.text isEqualToString:@"PwLocation"])
-        versionString = PWLocation_VERSION;
+        versionString = kPwMapKitVersion;
     if ([super.textLabel.text isEqualToString:@"PwCore"])
         versionString = PWCore_Version;
     if ([super.textLabel.text isEqualToString:@"PwAnalytics"])
