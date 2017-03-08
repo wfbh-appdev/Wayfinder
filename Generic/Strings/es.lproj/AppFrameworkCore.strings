@@ -1,0 +1,94 @@
+/*** AF-CORE STRINGS ***/
+/*
+ * EULA Agreement
+ */
+
+"afceulapromoptaction.prompt.message" = "¿Está de acuerdo con el contenido de la licencia de uso y los términos y condiciones de uso?";
+"afceulapromoptaction.prompt.message.title" = "Acuerdo de Licencia";
+"afceulapromoptaction.prompt.message.agreebutton.title"="DE ACUERDO";
+"afceulapromoptaction.prompt.message.viewbutton.title"="VER LICENCIA";
+
+/*
+ *   AFCUIEULAViewController Strings
+ */
+
+"afcuieulaviewcontroller.agreebutton.buttontitle" = "Acepto";
+"afcuieulaviewcontroller.navbar.title" = "Acuerdo de Licencia";
+
+/*
+ *   AFCUIWebViewController Strings
+ */
+
+"afcuiwebviewcontroller.message.text" = "Por favor espere...";
+
+/*
+ *  AFCUIModalWebBrowser Strings
+ */
+
+"afcuimodalwebbrowser.status.text" = "Cargando";
+"afcuimodalwebbrowser.closeButton.buttontitle" = "Cerrar";
+
+/*
+ *  AFCCheckForceUpdate Strings
+ */
+"afccheckforceupdate.prompt.message.displayforceupdate.alert.title" = "Actualización Requerida";
+"afccheckforceupdate.displayforceupdate.alert.title" = "Actualización Disponible";
+"afccheckforceupdate.displayforceupdate.alert.message" = "Una nueva versión ha sido lanzada. Usted debe actualizar a la última versión.";
+"afccheckforceupdate.displayforceupdate.alert.button.title" = "Actualizar";
+"afccheckforceupdate.displayupdateavailable.alert.title" = "Actualización Disponible";
+"afccheckforceupdate.displayupdateavailable.alert.message" = "Una nueva versión ha sido lanzada. Por favor actualice a la última versión.";
+"afccheckforceupdate.displayupdateavailable.alert.button.title" = "Actualizar";
+"afccheckforceupdate.displayupdateavailable.alert.cancel.title" = "Ahora no";
+
+/*
+ *  AFCLogout Strings
+ */
+"afclogoutaction.alert.title" = "Salir con éxito";
+"afclogoutaction.alert.message" = "Ha iniciado sesión con éxito de la sesión actual.";
+"afclogoutaction.alert.button.title" = "SÍ";
+
+/*
+ * SSO WebView Alert Strings
+ */
+"afcuimodalwebbrowser.alert.title" = "Error";
+"afcuimodalwebbrowser.alert.message" = "Usted debe ingresar para ver el contenido de esta página.";
+"afcuimodalwebbrowser.alert.ok" = "Bueno";
+
+/**
+ * Layer Picker
+ */
+"afclayerpickerviewcontroller.navbar.default.title" = "Capas";
+"afclayerpickerviewcontroller.searchbar.default.text" = "Buscar";
+
+/**
+ * Segments Error
+ */
+"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.title" = "Configuracion de Alertas";
+"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.message" = "Por favor configura los segmentos para esta application en App Builder portal.";
+"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.cancelbutton.title" = "SÍ";
+"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.title" = "Configuracion de Alertas";
+"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.message" = "Este contenido requiere una conexión de datos , por favor revise su red móvil o Wi-Fi y vuelve a intentarlo.";
+"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.cancelbutton.title" = "SÍ";
+
+/*
+ *  No Initial Database Strings
+ */
+"afinitialdatabase.displayforceupdate.alert.title" = "Error";
+"afinitialdatabase.displayforceupdate.alert.message" = "No se puede iniciar la aplicación . Por favor, compruebe que el dispositivo está conectado a una red.";
+"afinitialdatabase.displayforceupdate.alert.button" = "Cerca de aplicación";
+
+/*
+ *  No Layer Database Strings
+ */
+"aflayerdatabase.displayforceupdate.alert.title" = "Error";
+"aflayerdatabase.displayforceupdate.alert.message" = "Este contenido requiere una conexión de datos, por favor revise su red móvil o WiFi y vuelve a intentarlo.";
+"aflayerdatabase.displayforceupdate.alert.button" = "SÍ";
+
+"afcforgotpasswordviewcontroller.alert.error.title" = "Error";
+"afcforgotpasswordviewcontroller.alert.error.message" = "Debe ingresar una dirección de correo válida.";
+"afcforgotpasswordviewcontroller.alert.error.button.title" = "OK";
+
+"afccomposeemailaction.alert.error.title" = "Email";
+"afccomposeemailaction.alert.error.message" = "Lo sentimos. Su dispositivo no tiene configurado una cuenta de correo.";
+"afccomposeemailaction.alert.button.title" = "OK";
+
