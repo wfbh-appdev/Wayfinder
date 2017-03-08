@@ -5,7 +5,7 @@
 	<key>view</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>$WhiteColor</string>
+		<string>#ffffff</string>
 		<key>constraints</key>
 		<array>
 			<string>V:|[controlsBar][webView]|</string>
@@ -37,20 +37,20 @@
 	<key>webView</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>$WhiteColor</string>
+		<string>#ffffff</string>
 	</dict>
 	<key>status</key>
 	<dict>
 		<key>text</key>
-		<string>#afcuimodalwebbrowser.status.text</string>
+		<string>#afcuimodalwebbrowser.status.text,AppFrameworkCore</string>
 		<key>fontName</key>
-		<string>$MainFontLight</string>
+		<string>HelveticaNeue-Light</string>
 		<key>fontSize</key>
 		<integer>15</integer>
 		<key>alignment</key>
 		<string>left</string>
 		<key>color</key>
-		<string>$WhiteColor</string>
+		<string>#ffffff</string>
 		<key>lines</key>
 		<string>1</string>
 	</dict>
@@ -59,15 +59,15 @@
 	<key>closeButton</key>
 	<dict>
 		<key>buttonTitle</key>
-		<string>#afcuimodalwebbrowser.closebutton.buttontitle</string>
+		<string>#afcuimodalwebbrowser.closebutton.buttontitle,AppFrameworkCore</string>
 		<key>fontName</key>
-		<string>$MainFontLight</string>
+		<string>HelveticaNeue-Light</string>
 		<key>fontSize</key>
 		<integer>15</integer>
 		<key>alignment</key>
 		<string>center</string>
 		<key>color</key>
-		<string>$BlackColor</string>
+		<string>#324F85</string>
 		<key>background</key>
 		<string>Default.ToolBarButton.png</string>
 	</dict>
