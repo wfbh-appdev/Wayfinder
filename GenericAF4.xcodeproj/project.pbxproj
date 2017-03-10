@@ -77,6 +77,7 @@
 		C34479CA1E70C77C001C701E /* AFCUIWebViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = C34479C71E70C77C001C701E /* AFCUIWebViewController.plist */; };
 		C34479CB1E70C77C001C701E /* AFCUIModalWebBrowser.plist in Resources */ = {isa = PBXBuildFile; fileRef = C34479C81E70C77C001C701E /* AFCUIModalWebBrowser.plist */; };
 		C34479D51E71C5FA001C701E /* AppFrameworkDirectory.strings in Resources */ = {isa = PBXBuildFile; fileRef = C34479D71E71C5FA001C701E /* AppFrameworkDirectory.strings */; };
+		C34479E11E734B50001C701E /* AppFrameworkEvents.strings in Resources */ = {isa = PBXBuildFile; fileRef = C34479E31E734B50001C701E /* AppFrameworkEvents.strings */; };
 		C3610AF61E08A4A2000FF63E /* AFMCOfferSwipeViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3610AF51E08A4A2000FF63E /* AFMCOfferSwipeViewController.plist */; };
 		C398FC971D75E9C700FD48DE /* AFCUIDynamicViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = C398FC961D75E9C700FD48DE /* AFCUIDynamicViewController.plist */; };
 /* End PBXBuildFile section */
@@ -167,6 +168,8 @@
 		C34479C81E70C77C001C701E /* AFCUIModalWebBrowser.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCUIModalWebBrowser.plist; sourceTree = "<group>"; };
 		C34479D61E71C5FA001C701E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AppFrameworkDirectory.strings; sourceTree = "<group>"; };
 		C34479D81E71C5FD001C701E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/AppFrameworkDirectory.strings; sourceTree = "<group>"; };
+		C34479E21E734B50001C701E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AppFrameworkEvents.strings; sourceTree = "<group>"; };
+		C34479E41E734B52001C701E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/AppFrameworkEvents.strings; sourceTree = "<group>"; };
 		C3610AF51E08A4A2000FF63E /* AFMCOfferSwipeViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFMCOfferSwipeViewController.plist; sourceTree = "<group>"; };
 		C398FC961D75E9C700FD48DE /* AFCUIDynamicViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCUIDynamicViewController.plist; sourceTree = "<group>"; };
 		CD63D1DBC98CA341DD182074 /* Pods-GenericAF4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericAF4.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4.debug.xcconfig"; sourceTree = "<group>"; };
@@ -348,6 +351,7 @@
 			children = (
 				C34479C41E70C6C7001C701E /* AppFrameworkCore.strings */,
 				C34479D71E71C5FA001C701E /* AppFrameworkDirectory.strings */,
+				C34479E31E734B50001C701E /* AppFrameworkEvents.strings */,
 			);
 			path = Strings;
 			sourceTree = "<group>";
@@ -457,6 +461,7 @@
 				8F4355941BC858B700FFD46C /* StandardIcons.xcassets in Resources */,
 				8FDD0F4F1BD1CC5000A0C512 /* ProximaNova-Reg.otf in Resources */,
 				8F8C542A1BD7ED9A0018A2ED /* AFCUIImageSplashViewController.plist in Resources */,
+				C34479E11E734B50001C701E /* AppFrameworkEvents.strings in Resources */,
 				8F4355921BC858B700FFD46C /* Splash.mov in Resources */,
 				55173FDE1D62790500EE540B /* UIConfigurationDefault.plist in Resources */,
 				8F43558D1BC858B700FFD46C /* AFCUITrayMenuViewController.plist in Resources */,
@@ -664,6 +669,15 @@
 				C34479D81E71C5FD001C701E /* es */,
 			);
 			name = AppFrameworkDirectory.strings;
+			sourceTree = "<group>";
+		};
+		C34479E31E734B50001C701E /* AppFrameworkEvents.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C34479E21E734B50001C701E /* en */,
+				C34479E41E734B52001C701E /* es */,
+			);
+			name = AppFrameworkEvents.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

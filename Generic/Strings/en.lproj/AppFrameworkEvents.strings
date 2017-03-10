@@ -1,0 +1,9 @@
+/* 
+  AppFrameworkEvents.strings
+  AFEDemo
+
+  Copyright © 2017 Phunware. All rights reserved.
+*/
+"eventlistviewcontroller.favorites.all" = "All";
+"eventslistviewcontroller.favorites.only" = "Favorites";
+"eventslistviewcontroller.event.subtitle.fromto" = "From %@ to %@";
