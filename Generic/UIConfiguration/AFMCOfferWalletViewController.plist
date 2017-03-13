@@ -2,11 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>navigationBar</key>
-	<dict>
-		<key>tintColor</key>
-		<string>#ffffff</string>
-	</dict>
 	<key>offersTableView</key>
 	<dict>
 		<key>constraints</key>
@@ -24,9 +19,9 @@
 	<key>titleLabel</key>
 	<dict>
 		<key>text</key>
-		<string>#afmcofferwalletviewcontroller.titlelabel.text</string>
+		<string>#afmcofferwalletviewcontroller.titlelabel.text,AppFrameworkMessageCenter</string>
 		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
+		<string>HevelticaNeue-Light</string>
 		<key>fontSize</key>
 		<string>16</string>
 		<key>color</key>
@@ -35,7 +30,7 @@
 	<key>emptyMessageLabel</key>
 	<dict>
 		<key>text</key>
-		<string>#afmcofferwalletviewcontroller.emptymessagelabel.text</string>
+		<string>#afmcofferwalletviewcontroller.emptymessagelabel.text,AppFrameworkMessageCenter</string>
 		<key>lines</key>
 		<string>2</string>
 		<key>alignment</key>

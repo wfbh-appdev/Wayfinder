@@ -10,41 +10,35 @@
 	<key>titleLabel</key>
 	<dict>
 		<key>text</key>
-		<string>#afmcofferdetailviewcontroller.titlelabel.text</string>
+		<string>#afmcofferdetailviewcontroller.titlelabel.text,AppFrameworkMessageCenter</string>
 	</dict>
 	<key>offerTitleLabel</key>
 	<dict>
-		<key>fontName</key>
+		<key>font</key>
 		<string>$MainFontBold</string>
-		<key>fontSize</key>
-		<integer>18</integer>
 		<key>lines</key>
 		<integer>0</integer>
 	</dict>
 	<key>expirationDateLabel</key>
 	<dict>
 		<key>color</key>
-		<string>$BlueColor</string>
+		<string>#0066ff</string>
 	</dict>
 	<key>descriptionLabel</key>
 	<dict>
-		<key>fontName</key>
-		<string>$MainFont</string>
-		<key>fontSize</key>
-		<string>$MainFontSize</string>
 		<key>lines</key>
 		<integer>0</integer>
 	</dict>
 	<key>offerButton</key>
 	<dict>
 		<key>borderColor</key>
-		<string>$BlueColor</string>
+		<string>#ff00ff</string>
 		<key>borderWidth</key>
 		<integer>2</integer>
 		<key>color</key>
-		<string>$BlueColor</string>
+		<string>#ff00ff</string>
 		<key>buttonTitle</key>
-		<string>#afmcofferdetailviewcontroller.offerbutton.title</string>
+		<string>#afmcofferdetailviewcontroller.offerbutton.title,AppFrameworkMessageCenter</string>
 		<key>cornerRadius</key>
 		<integer>20</integer>
 	</dict>
