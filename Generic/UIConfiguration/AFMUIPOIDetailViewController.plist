@@ -85,33 +85,33 @@
 	<key>descriptionLabel</key>
 	<dict>
 		<key>fontName</key>
-		<string>$MainFontLight</string>
+		<string>HelveticaNeue-Light</string>
 		<key>fontSize</key>
-		<string>$MainFontSize</string>
+		<integer>16</integer>
 		<key>color</key>
-		<string>$GrayColor</string>
+		<string>#333333</string>
 	</dict>
 	<key>poiName</key>
 	<dict>
 		<key>fontName</key>
-		<string>$MainFontThin</string>
+		<string>HelveticaNeue-Thin</string>
 		<key>fontSize</key>
 		<integer>22</integer>
 		<key>alignment</key>
 		<string>left</string>
 		<key>color</key>
-		<string>$BlackColor</string>
+		<string>#000000</string>
 		<key>lines</key>
 		<integer>1</integer>
 	</dict>
 	<key>poiLevel</key>
 	<dict>
 		<key>fontName</key>
-		<string>$MainFontLight</string>
+		<string>HelveticaNeue-Light</string>
 		<key>fontSize</key>
 		<integer>12</integer>
 		<key>color</key>
-		<string>$BlueColor</string>
+		<string>#0080FF</string>
 		<key>alignment</key>
 		<string>left</string>
 		<key>lines</key>
@@ -120,7 +120,7 @@
 	<key>distanceToPOI</key>
 	<dict>
 		<key>fontName</key>
-		<string>$MainFontBold</string>
+		<string>HelveticaNeue-Bold</string>
 		<key>fontSize</key>
 		<integer>9</integer>
 		<key>alignment</key>
@@ -128,22 +128,22 @@
 		<key>lines</key>
 		<integer>1</integer>
 		<key>color</key>
-		<string>$BlueColor</string>
+		<string>#0080FF</string>
 	</dict>
 	<key>maskView</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>$WhiteColor</string>
+		<string>#ffffff</string>
 	</dict>
 	<key>bottomMargin</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>$WhiteColor</string>
+		<string>#ffffff</string>
 	</dict>
 	<key>selectCampusButtonContainer</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>$WhiteColor</string>
+		<string>#ffffff</string>
 		<key>constraints</key>
 		<array>
 			<string>H:|-20-[selectCampusButton]-20-|</string>
@@ -161,9 +161,9 @@
 		<key>fontSize</key>
 		<integer>12</integer>
 		<key>color</key>
-		<string>$WhiteColor</string>
+		<string>#ffffff</string>
 		<key>buttonTitle</key>
-		<string>#afcuiannotationdetailviewcontroller.selectCampusButton.buttontitle</string>
+		<string>#afcuiannotationdetailviewcontroller.selectCampusButton.buttontitle,AppFrameworkMapping</string>
 	</dict>
 	<key>defaultCampusIcon</key>
 	<dict>
