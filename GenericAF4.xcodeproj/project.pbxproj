@@ -80,6 +80,7 @@
 		C3447A021E7719F0001C701E /* AFMCOfferWalletViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = C34479FF1E7719F0001C701E /* AFMCOfferWalletViewController.plist */; };
 		C3447A031E7719F0001C701E /* AFMCOfferSwipeViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3447A001E7719F0001C701E /* AFMCOfferSwipeViewController.plist */; };
 		C3447A041E7719F0001C701E /* AFMCOfferDetailViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3447A011E7719F0001C701E /* AFMCOfferDetailViewController.plist */; };
+		C3447A0D1E774CCC001C701E /* AppFrameworkMessageCenter.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3447A0F1E774CCC001C701E /* AppFrameworkMessageCenter.strings */; };
 		C398FC971D75E9C700FD48DE /* AFCUIDynamicViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = C398FC961D75E9C700FD48DE /* AFCUIDynamicViewController.plist */; };
 /* End PBXBuildFile section */
 
@@ -174,6 +175,8 @@
 		C34479FF1E7719F0001C701E /* AFMCOfferWalletViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFMCOfferWalletViewController.plist; sourceTree = "<group>"; };
 		C3447A001E7719F0001C701E /* AFMCOfferSwipeViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFMCOfferSwipeViewController.plist; sourceTree = "<group>"; };
 		C3447A011E7719F0001C701E /* AFMCOfferDetailViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFMCOfferDetailViewController.plist; sourceTree = "<group>"; };
+		C3447A0E1E774CCC001C701E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AppFrameworkMessageCenter.strings; sourceTree = "<group>"; };
+		C3447A101E774CCD001C701E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/AppFrameworkMessageCenter.strings; sourceTree = "<group>"; };
 		C398FC961D75E9C700FD48DE /* AFCUIDynamicViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCUIDynamicViewController.plist; sourceTree = "<group>"; };
 		CD63D1DBC98CA341DD182074 /* Pods-GenericAF4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericAF4.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -356,6 +359,7 @@
 				C34479D71E71C5FA001C701E /* AppFrameworkDirectory.strings */,
 				C34479E31E734B50001C701E /* AppFrameworkEvents.strings */,
 				C34479EF1E771408001C701E /* AppFrameworkMapping.strings */,
+				C3447A0F1E774CCC001C701E /* AppFrameworkMessageCenter.strings */,
 			);
 			path = Strings;
 			sourceTree = "<group>";
@@ -485,6 +489,7 @@
 				551BF9261C1B51E9004D7ECD /* (null) in Resources */,
 				C34479ED1E771408001C701E /* AppFrameworkMapping.strings in Resources */,
 				8FDD0F3B1BD1775500A0C512 /* GenericAppNavigationController.xib in Resources */,
+				C3447A0D1E774CCC001C701E /* AppFrameworkMessageCenter.strings in Resources */,
 				C34479FC1E771570001C701E /* AFMUIPOIFilterViewController.plist in Resources */,
 				8F4355861BC858B700FFD46C /* AFCParkingMapViewController.plist in Resources */,
 				8F5FFFBE1BCC2F58000B027C /* AFMUILocationCell.plist in Resources */,
@@ -692,6 +697,15 @@
 				C34479F21E77142D001C701E /* es */,
 			);
 			name = AppFrameworkMapping.strings;
+			sourceTree = "<group>";
+		};
+		C3447A0F1E774CCC001C701E /* AppFrameworkMessageCenter.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3447A0E1E774CCC001C701E /* en */,
+				C3447A101E774CCD001C701E /* es */,
+			);
+			name = AppFrameworkMessageCenter.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
