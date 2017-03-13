@@ -96,6 +96,10 @@
 "afcphonecallaction.alert.message" = "Are you sure you want to call:\n%@";
 "afcphonecallaction.alert.accept" = "Yes";
 "afcphonecallaction.alert.cancel" = "No";
+"afcphonecallaction.alert.ok" = "OK";
+"afcphonecallaction.error.alert.title" = "Error";
+"afcphonecallaction.error.alert.message" = "Your device is not capable of placing calls";
+
 
 /*** AF-RENDER STRINGS ***/
 
