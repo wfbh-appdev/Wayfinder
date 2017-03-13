@@ -78,6 +78,7 @@
 		C34479CB1E70C77C001C701E /* AFCUIModalWebBrowser.plist in Resources */ = {isa = PBXBuildFile; fileRef = C34479C81E70C77C001C701E /* AFCUIModalWebBrowser.plist */; };
 		C34479D51E71C5FA001C701E /* AppFrameworkDirectory.strings in Resources */ = {isa = PBXBuildFile; fileRef = C34479D71E71C5FA001C701E /* AppFrameworkDirectory.strings */; };
 		C34479E11E734B50001C701E /* AppFrameworkEvents.strings in Resources */ = {isa = PBXBuildFile; fileRef = C34479E31E734B50001C701E /* AppFrameworkEvents.strings */; };
+		C34479ED1E771408001C701E /* AppFrameworkMapping.strings in Resources */ = {isa = PBXBuildFile; fileRef = C34479EF1E771408001C701E /* AppFrameworkMapping.strings */; };
 		C3610AF61E08A4A2000FF63E /* AFMCOfferSwipeViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3610AF51E08A4A2000FF63E /* AFMCOfferSwipeViewController.plist */; };
 		C398FC971D75E9C700FD48DE /* AFCUIDynamicViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = C398FC961D75E9C700FD48DE /* AFCUIDynamicViewController.plist */; };
 /* End PBXBuildFile section */
@@ -170,6 +171,8 @@
 		C34479D81E71C5FD001C701E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/AppFrameworkDirectory.strings; sourceTree = "<group>"; };
 		C34479E21E734B50001C701E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AppFrameworkEvents.strings; sourceTree = "<group>"; };
 		C34479E41E734B52001C701E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/AppFrameworkEvents.strings; sourceTree = "<group>"; };
+		C34479EE1E771408001C701E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AppFrameworkMapping.strings; sourceTree = "<group>"; };
+		C34479F21E77142D001C701E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/AppFrameworkMapping.strings; sourceTree = "<group>"; };
 		C3610AF51E08A4A2000FF63E /* AFMCOfferSwipeViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFMCOfferSwipeViewController.plist; sourceTree = "<group>"; };
 		C398FC961D75E9C700FD48DE /* AFCUIDynamicViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCUIDynamicViewController.plist; sourceTree = "<group>"; };
 		CD63D1DBC98CA341DD182074 /* Pods-GenericAF4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericAF4.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4.debug.xcconfig"; sourceTree = "<group>"; };
@@ -352,6 +355,7 @@
 				C34479C41E70C6C7001C701E /* AppFrameworkCore.strings */,
 				C34479D71E71C5FA001C701E /* AppFrameworkDirectory.strings */,
 				C34479E31E734B50001C701E /* AppFrameworkEvents.strings */,
+				C34479EF1E771408001C701E /* AppFrameworkMapping.strings */,
 			);
 			path = Strings;
 			sourceTree = "<group>";
@@ -482,6 +486,7 @@
 				C34479C91E70C77C001C701E /* AFCUIEULAViewController.plist in Resources */,
 				8F8C54221BD798060018A2ED /* AFCUIHoneyBadgerTableViewCell.plist in Resources */,
 				551BF9261C1B51E9004D7ECD /* (null) in Resources */,
+				C34479ED1E771408001C701E /* AppFrameworkMapping.strings in Resources */,
 				8FDD0F3B1BD1775500A0C512 /* GenericAppNavigationController.xib in Resources */,
 				8F4355861BC858B700FFD46C /* AFCParkingMapViewController.plist in Resources */,
 				8F5FFFBE1BCC2F58000B027C /* AFMUILocationCell.plist in Resources */,
@@ -678,6 +683,15 @@
 				C34479E41E734B52001C701E /* es */,
 			);
 			name = AppFrameworkEvents.strings;
+			sourceTree = "<group>";
+		};
+		C34479EF1E771408001C701E /* AppFrameworkMapping.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C34479EE1E771408001C701E /* en */,
+				C34479F21E77142D001C701E /* es */,
+			);
+			name = AppFrameworkMapping.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
