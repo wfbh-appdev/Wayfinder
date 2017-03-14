@@ -1,0 +1,56 @@
+/* 
+  AppFrameworkParking.strings
+  AFPDemo
+
+  Copyright © 2017 Phunware. All rights reserved.
+*/
+
+/*** AF-PARKING STRINGS ***/
+
+/*
+ *  AFCParkingMapViewController Strings
+ */
+"afcparkingmapviewcontroller.droppinbutton.buttontitle" = "Drop a Pin";
+"afcparkingmapviewcontroller.droppinbutton.clearenabled.buttontitle" = "Clear";
+"afcparkingmapviewcontroller.droppinbutton.droppinenabled.buttontitle" = "Drop a Pin";
+"afcparkingmapviewcontroller.droppinbutton.droppindisabled.buttontitle" = "Drop a Pin";
+"afcparkingmapviewcontroller.titlelabel.text" = "Pin My Location";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.title" = "Please enable location";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.message" = "Help us keep track of your parking spot by enabling location";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.okbutton.title" = "OK";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.cancelbutton.title" = "No Thanks";
+
+/*
+ *  AFCParkingNoteViewController Strings
+ */
+"afcparkingnoteviewcontroller.noteslabel.text" = "Write a note to help you remember where you've parked...";
+"afcparkingnoteviewcontroller.titlelabel.text" = "Parking Note";
+
+/*
+ *  AFCParkingPhotoViewController Strings
+ */
+"afcparkingphotoviewcontroller.message.text" = "Please tap the camera button\nbelow to take a photo";
+"afcparkingphotoviewcontroller.deniedcamera.message.text" = "To take a photo of your parking spot, please allow the app to access your phone's camera.";
+"afcparkingphotoviewcontroller.restrictedcamera.message.text" = "Camera can't be accessed due restrictions on your device.";
+
+/*
+ *  AFCParkingViewController Strings
+ */
+"afcparkingviewcontroller.parkingremindertitle.text" = "Parking Reminder";
+"afcparkingviewcontroller.parkingchoosemethod.text" = "Choose a method below:";
+"afcparkingviewcontroller.gpslocationbuttonlabel.text" = "Pin GPS Location";
+"afcparkingviewcontroller.takepicturebuttonlabel.text" = "Take a Picture";
+"afcparkingviewcontroller.recordvoicememobuttonlabel.text" = "Record a Memo";
+"afcparkingviewcontroller.writenotebuttonlabel.text" = "Write a Note";
+"afcparkingviewcontroller.locationsavedmessage.text" = "Location Saved";
+"afcparkingviewcontroller.imagesavedmessage.text" = "Image Saved";
+"afcparkingviewcontroller.voicememosavedmessage.text" = "Voice Memo Saved";
+"afcparkingviewcontroller.notesavedmessage.text" = "Note Saved";
+"afcparkingviewcontroller.titlelabel.text" = "Parking";
+
+/*
+ *  AFCParkingVoiceMemoViewController Strings
+ */
+"afcparkingvoicememoviewcontroller.dateformat" = "EEE MMM dd 'at' h:mm a"
+"afcparkingvoicememoviewcontroller.recordvoicememotitle.text" = "Record a memo to help you remember";
+"afcparkingvoicememoviewcontroller.titlelabel.text" = "Parking Memo";
