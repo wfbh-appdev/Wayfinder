@@ -56,4 +56,8 @@ private_lane :configure_build do
         signingConfig: "enterprise"
     )
 
+    publish_to_custom_ota(
+        signingConfig: "custom"
+    )
+
 end
