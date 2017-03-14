@@ -51,6 +51,6 @@
 /*
  *  AFCParkingVoiceMemoViewController Strings
  */
-"afcparkingvoicememoviewcontroller.dateformat" = "EEE dd MMM 'a las' h:mm a"
+"afcparkingvoicememoviewcontroller.dateformat" = "EEE dd MMM 'a las' h:mm a";
 "afcparkingvoicememoviewcontroller.recordvoicememotitle.text" = "Guardar una nota de voz para recordarle dónde se estacionó";
 "afcparkingvoicememoviewcontroller.titlelabel.text" = "Recordatorio de Estacionamiento";
