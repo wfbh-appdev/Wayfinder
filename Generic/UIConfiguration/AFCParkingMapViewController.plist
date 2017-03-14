@@ -24,12 +24,12 @@
 		<key>color</key>
 		<string>$LightGrayColor</string>
 		<key>buttonTitle</key>
-		<string>#afcparkingmapviewcontroller.droppinbutton.buttontitle</string>
+		<string>#afcparkingmapviewcontroller.droppinbutton.buttontitle,AppFrameworkParking</string>
 	</dict>
 	<key>dropPinButton#clearEnabled</key>
 	<dict>
 		<key>buttonTitle</key>
-		<string>#afcparkingmapviewcontroller.droppinbutton.clearenabled.buttontitle</string>
+		<string>#afcparkingmapviewcontroller.droppinbutton.clearenabled.buttontitle,AppFrameworkParking</string>
 		<key>fontName</key>
 		<string>$MainFontLight</string>
 		<key>fontSize</key>
@@ -44,7 +44,7 @@
 	<key>dropPinButton#dropPinEnabled</key>
 	<dict>
 		<key>buttonTitle</key>
-		<string>#afcparkingmapviewcontroller.droppinbutton.droppinenabled.buttontitle</string>
+		<string>#afcparkingmapviewcontroller.droppinbutton.droppinenabled.buttontitle,AppFrameworkParking</string>
 		<key>fontName</key>
 		<string>$MainFontLight</string>
 		<key>fontSize</key>
@@ -59,7 +59,7 @@
 	<key>dropPinButton#dropPinDisabled</key>
 	<dict>
 		<key>buttonTitle</key>
-		<string>#afcparkingmapviewcontroller.droppinbutton.droppindisabled.buttontitle</string>
+		<string>#afcparkingmapviewcontroller.droppinbutton.droppindisabled.buttontitle,AppFrameworkParking</string>
 		<key>fontName</key>
 		<string>$MainFontLight</string>
 		<key>fontSize</key>
@@ -101,7 +101,7 @@
 		<key>type</key>
 		<string>DefaultTitleLabel</string>
 		<key>text</key>
-		<string>#afcparkingmapviewcontroller.titlelabel.text</string>
+		<string>#afcparkingmapviewcontroller.titlelabel.text,AppFrameworkParking</string>
 	</dict>
 </dict>
 </plist>
