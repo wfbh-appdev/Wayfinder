@@ -96,6 +96,9 @@
 "afcphonecallaction.alert.message" = "Está seguro de llamar a:\n%@";
 "afcphonecallaction.alert.accept" = "Si";
 "afcphonecallaction.alert.cancel" = "No";
+"afcphonecallaction.alert.ok" = "OK";
+"afcphonecallaction.error.alert.title" = "Error";
+"afcphonecallaction.error.alert.message" = "Su dispositivo no puede realizar llamadas";
 
 /*** AF-RENDER STRINGS ***/
 
