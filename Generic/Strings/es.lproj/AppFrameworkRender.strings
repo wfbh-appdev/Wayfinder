@@ -1,0 +1,45 @@
+/* 
+  AppFrameworkRender.strings
+  AFRMDemo
+
+  Copyright © 2017 Phunware. All rights reserved.
+*/
+
+/*** AF-RENDER STRINGS ***/
+
+/*
+ * Smart Form Date/Time Picker Strings
+ */
+"afcuidatepicker.alert.title" = "Seleccione Fecha";
+"afcuidatepicker.navbar.today" = "Hoy";
+"afcuitimepicker.alert.title" = "Seleccione Hora";
+"afcuipicker.alert.ok" = "De acuerdo";
+"afcuipicker.alert.cancel" = "Cancelar";
+
+/*
+ * Smart Form Image Upload Strings
+ */
+"afcuimediapicker.navbar.title" = "Seleccionar Imagen";
+"afcuimediapicker.toolbar.selectimage" = "Seleccionar Imagen";
+"afcuimediapicker.toolbar.clearimage" = "Limpiar Imagen";
+"afcuimediapicker.alert.cancel" = "Cancelar";
+"afcuimediapicker.imageselect" = "Seleccionar Foto de Galería";
+"afcuimediapicker.takeimage" = "Tomar Foto";
+"afcuimediapicker.button.defaulttext" = "Seleccionar Imagen Para Subir";
+"afcuimediapicker.button.photouploaded" = "Carga de Foto Completa";
+
+/*
+ * User Login Content Type Strings
+ */
+"afcuiuserloginview.textfieldplaceholder.username" = "Usuario";
+"afcuiuserloginview.textfieldplaceholder.password" = "Contraseña";
+"afcuiuserloginview.loginbutton.text" = "Iniciar sesión";
+"afcuiuserloginview.loginbutton.failedtext" = "Inicio de Sesión Fallido";
+"afcuiuserloginview.loginmessage.invalidusernamepassword" = "Nombre de Usuario o Contraseña\ninválidos. Por favor, intente de nuevo.";
+
+"forms.success.title" = "Enviado";
+"forms.success.message" = "Su solicitud ha sido enviada con éxito";
+"forms.success.button.title" = "OK";
+"forms.error.title" = "Error";
+"forms.error.message" = "Ha habido un error con su solicitud";
+"forms.error.button.title" = "OK";
