@@ -36,7 +36,7 @@
 		<key>color</key>
 		<string>#363636</string>
 		<key>fontName</key>
-		<string>HelveticaNeue</string>
+		<string>$MainFont</string>
 		<key>fontSize</key>
 		<integer>16</integer>
 	</dict>

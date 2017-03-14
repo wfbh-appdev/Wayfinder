@@ -30,7 +30,7 @@
 	<key>message</key>
 	<dict>
 		<key>color</key>
-		<string>#000000</string>
+		<string>$BlackColor</string>
 		<key>text</key>
 		<string>#afcuiwebviewcontroller.message.text,AppFrameworkCore</string>
 		<key>fontName</key>

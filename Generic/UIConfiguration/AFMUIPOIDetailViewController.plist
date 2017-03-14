@@ -85,7 +85,7 @@
 	<key>descriptionLabel</key>
 	<dict>
 		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
+		<string>$MainFontLight</string>
 		<key>fontSize</key>
 		<integer>16</integer>
 		<key>color</key>
@@ -94,20 +94,20 @@
 	<key>poiName</key>
 	<dict>
 		<key>fontName</key>
-		<string>HelveticaNeue-Thin</string>
+		<string>$MainFontThin</string>
 		<key>fontSize</key>
 		<integer>22</integer>
 		<key>alignment</key>
 		<string>left</string>
 		<key>color</key>
-		<string>#000000</string>
+		<string>$BlackColor</string>
 		<key>lines</key>
 		<integer>1</integer>
 	</dict>
 	<key>poiLevel</key>
 	<dict>
 		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
+		<string>$MainFontLight</string>
 		<key>fontSize</key>
 		<integer>12</integer>
 		<key>color</key>
@@ -120,7 +120,7 @@
 	<key>distanceToPOI</key>
 	<dict>
 		<key>fontName</key>
-		<string>HelveticaNeue-Bold</string>
+		<string>$MainFontBold</string>
 		<key>fontSize</key>
 		<integer>9</integer>
 		<key>alignment</key>

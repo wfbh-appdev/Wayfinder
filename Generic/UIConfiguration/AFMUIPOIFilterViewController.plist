@@ -36,7 +36,7 @@
 		<key>buttonTitle</key>
 		<string>#afcuimpoifiltereditorviewcontroller.savefiltersbutton.buttontitle,AppFrameworkMapping</string>
 		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
+		<string>$MainFontLight</string>
 		<key>fontSize</key>
 		<integer>18</integer>
 	</dict>
@@ -51,7 +51,7 @@
 		<key>color</key>
 		<string>#ffffff</string>
 		<key>fontName</key>
-		<string>HelveticaNeue</string>
+		<string>$MainFont</string>
 		<key>fontSize</key>
 		<integer>15</integer>
 	</dict>
