@@ -5,7 +5,7 @@
 	<key>titleLabel</key>
 	<dict>
 		<key>text</key>
-		<string>#afcuimannotationdirectoryviewcontroller.titlelabel.text,AppFrameworkMapping</string>
+		<string>#afmuipoiviewcontroller.titlelabel.text,AppFrameworkMapping</string>
 	</dict>
 	<key>view</key>
 	<dict>
@@ -29,7 +29,7 @@
 		<key>fontSize</key>
 		<integer>18</integer>
 		<key>text</key>
-		<string>#afcuimannotationdirectoryviewcontroller.noresultsfound.text,AppFrameworkMapping</string>
+		<string>#afmuipoiviewcontroller.noresultsfound.text,AppFrameworkMapping</string>
 		<key>alignment</key>
 		<string>center</string>
 		<key>color</key>

@@ -66,6 +66,8 @@
  *  AFMUIPOIViewController Strings
  */
 "afmuipoiviewcontroller.search.placeholder" = "Buscar un punto de interés...";
+"afmuipoiviewcontroller.titlelabel.text" = "Directorio de PDI";
+"afmuipoiviewcontroller.noresultsfound.text" = "Sin resultados.";
 
 /*
  *  AFCUIMRoutingAnnotationView Strings
