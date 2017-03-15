@@ -24,16 +24,6 @@ private_lane :configure_build do
         customProfilesPath: "Certificates"
     )
 
-    add_signing_config(
-        name: "custom",
-        cert_file: "Certificates/enterprise.p12",
-        cert_pw: "K3yM@$ter!",
-        identity: "iPhone Distribution: Phunware, Inc.",
-        profileSpecifier: "GenericAF4_InHousePushEnabled",
-        teamId: "84CK77G588",
-        customProfilesPath: "Certificates"
-    )
-
     add_build_type(
         name: "debug",
         config: "Debug",
@@ -54,10 +44,6 @@ private_lane :configure_build do
 
     publish_to_enterprise_ota(
         signingConfig: "enterprise"
-    )
-
-    publish_to_custom_ota(
-        signingConfig: "custom"
     )
 
 end
