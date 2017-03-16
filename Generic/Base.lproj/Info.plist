@@ -37,12 +37,6 @@
 	<string>Help us determine directions to and around your destination</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Help us determine directions to and around your destination</string>
-	<key>UIAppFonts</key>
-	<array>
-		<string>Proxima Nova Sbold.otf</string>
-		<string>ProximaNova-Light.otf</string>
-		<string>ProximaNova-Reg.otf</string>
-	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>LSApplicationQueriesSchemes</key>

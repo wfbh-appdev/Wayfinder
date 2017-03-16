@@ -99,7 +99,7 @@
 		<key>buttonTitle</key>
 		<string>#afcdirectoryviewcontroller.filtercategorybutton.title</string>
 		<key>fontName</key>
-		<string>ProximaNova-Regular</string>
+		<string>HelveticaNeue-Light</string>
 		<key>fontSize</key>
 		<integer>18</integer>
 		<key>color</key>
