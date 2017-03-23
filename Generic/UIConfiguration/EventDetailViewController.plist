@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>itemSubtitle</key>
+	<dict>
+		<key>lines</key>
+		<integer>1</integer>
+		<key>type</key>
+		<string>AFCUIItemDetailItemSubtitle</string>
+	</dict>
+	<key>itemTitle</key>
+	<dict>
+		<key>type</key>
+		<string>AFCUIItemDetailItemTitle</string>
+		<key>lines</key>
+		<integer>1</integer>
+	</dict>
+	<key>view</key>
+	<dict>
+		<key>backgroundColor</key>
+		<string>$WhiteColor</string>
+		<key>constraints</key>
+		<array>
+			<string>H:|[tableView]|</string>
+			<string>V:|[tableView]|</string>
+			<string>H:|[storeFrontImage]|</string>
+			<string>V:|[storeFrontImage(135)]-&gt;=1-|</string>
+		</array>
+	</dict>
+	<key>storeFrontImage</key>
+	<dict>
+		<key>clipsToBounds</key>
+		<true/>
+	</dict>
+	<key>routeButton</key>
+	<dict>
+		<key>image</key>
+		<string>directions.button.png</string>
+	</dict>
+	<key>shareButton</key>
+	<dict>
+		<key>image</key>
+		<string>EngageMe_ios_share.png</string>
+	</dict>
+	<key>favoriteButton</key>
+	<dict>
+		<key>image</key>
+		<string>favorite.button.png</string>
+		<key>image#selected</key>
+		<string>favorite.selected.png</string>
+	</dict>
+	<key>titleLabel</key>
+	<dict>
+		<key>type</key>
+		<string>DefaultTitleLabel</string>
+	</dict>
+	<key>tableView</key>
+	<dict/>
+</dict>
+</plist>

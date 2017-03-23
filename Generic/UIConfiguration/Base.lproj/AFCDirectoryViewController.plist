@@ -71,8 +71,6 @@
 		<string>left</string>
 		<key>color</key>
 		<string>$BlueColor</string>
-		<key>text</key>
-		<string>#afcdirectoryviewcontroller.filtercategory.title</string>
 	</dict>
 	<key>favoritesBar</key>
 	<dict>
