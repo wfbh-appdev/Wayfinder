@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>Crashlytics API Key</key>
-	<string>b3915deee54ba3a77cbf104696b7fe19d113203b</string>
+	<string>#ENTER A VALID VALUE#</string>
 	<key>Analytics</key>
 	<dict>
 		<key>TOKEN_MIXPANEL</key>
 		<string>YOUR_MIXPANEL_TOKEN</string>
 		<key>TOKEN_GOOGLE</key>
-		<string>UA-71848714-1</string>
+		<string>YOUR_GOOGLE_TOKEN</string>
 		<key>TOKEN_MAAS</key>
 		<string>YOUR_MAAS_TOKEN</string>
 		<key>TOKEN_LOCALYTICS</key>
@@ -38,8 +38,6 @@
 		<string>e7ee6efb-c66e-11df-bbda-ab061b74f77a</string>
 		<key>webservicesKey</key>
 		<string>15be1351-c66f-11df-bbda-ab061b74f77a</string>
-		<key>databaseStorageVersion</key>
-		<string>2.4.0</string>
 	</dict>
 	<key>MaaS Integration</key>
 	<dict>

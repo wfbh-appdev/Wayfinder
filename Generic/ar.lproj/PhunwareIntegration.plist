@@ -29,7 +29,7 @@
 		<key>topLevelContentName</key>
 		<string>Phunware Corporate</string>
 		<key>applicationUUID</key>
-		<string>4ea80fe9-3e84-4fc4-97c5-3d1d30561cdc</string>
+		<string>7f675474-278f-4bc7-9976-f5521c4d0806</string>
 		<key>webservicesID</key>
 		<string>e7ee6efb-c66e-11df-bbda-ab061b74f77a</string>
 		<key>webservicesKey</key>
@@ -38,11 +38,11 @@
 	<key>MaaS Integration</key>
 	<dict>
 		<key>MaaSAppID</key>
-		<string>1549</string>
+		<string>1550</string>
 		<key>MaaSAccessKey</key>
-		<string>3dbdfb6ef6f97f4f384dbfe87a369cd30723349c</string>
+		<string>6f98b14b27b5405af1eee95a55285aa70dafba98</string>
 		<key>MaaSSignatureKey</key>
-		<string>d8b8d22ab2f838beca621c7cb90f0f456c44305f</string>
+		<string>0cdb89bf2252bbc3c558fb3a85a7e48b98e6f4e3</string>
 		<key>S3URL</key>
 		<string>https://solutions-db.phunware.com</string>
 	</dict>
@@ -54,8 +54,6 @@
 		<true/>
 		<key>TourEnabled</key>
 		<true/>
-		<key>H2VExpirationTime</key>
-		<integer>6</integer>
 	</dict>
 	<key>PowerUser</key>
 	<dict>
