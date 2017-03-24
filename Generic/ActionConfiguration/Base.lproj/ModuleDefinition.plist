@@ -814,8 +814,12 @@
 						<string>StartDate</string>
 						<key>endDateKey</key>
 						<string>EndDate</string>
+						<key>DBDateFormatKey</key>
+						<string>MM/dd/yyyy HH:mm:ss</string>
+						<key>clientDateFormatKey</key>
+						<string>MMM d</string>
 						<key>iconKey</key>
-						<string>ThumbnailURL</string>
+						<string>ImageURL</string>
 						<key>bannerKey</key>
 						<string>ImageURL</string>
 						<key>identifierKey</key>
@@ -888,7 +892,7 @@
 						<key>itemDetailTitleKey</key>
 						<string>Name</string>
 						<key>itemDetailSubtitleKey</key>
-						<string>EventSubtitle</string>
+						<string>Description</string>
 						<key>itemDetailBannerURLKey</key>
 						<string>ImageURL</string>
 						<key>itemDetailLocationKey</key>
@@ -926,7 +930,7 @@
 						<key>itemDetailTitleKey</key>
 						<string>Name</string>
 						<key>itemDetailSubtitleKey</key>
-						<string>EventSubtitle</string>
+						<string>Description</string>
 						<key>itemDetailBannerURLKey</key>
 						<string>ImageURL</string>
 						<key>itemDetailLocationKey</key>

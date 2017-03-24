@@ -11,7 +11,10 @@
 		</array>
 	</dict>
 	<key>table</key>
-	<dict/>
+	<dict>
+		<key>backgroundColor</key>
+		<string>#ECECEC</string>
+	</dict>
 	<key>favoritesToggle</key>
 	<dict>
 		<key>tintColor</key>
@@ -26,7 +29,7 @@
 			<string>V:|-&gt;=1-[favoritesToggle]-&gt;=1-|</string>
 		</array>
 		<key>backgroundColor</key>
-		<string>$WhiteColor</string>
+		<string>#ECECEC</string>
 		<key>width</key>
 		<integer>320</integer>
 		<key>height</key>
