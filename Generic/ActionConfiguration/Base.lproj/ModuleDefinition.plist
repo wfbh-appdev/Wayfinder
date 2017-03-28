@@ -1206,6 +1206,8 @@
 								<integer>50</integer>
 								<key>tbtCellClass</key>
 								<string>AFMUITurnByTurnTableViewCell</string>
+								<key>routeSnappingTolerance</key>
+								<string>PWRouteSnapToleranceHigh</string>
 							</dict>
 						</dict>
 						<key>dependencies</key>
@@ -1279,6 +1281,8 @@
 								<integer>50</integer>
 								<key>tbtCellClass</key>
 								<string>AFMUITurnByTurnTableViewCell</string>
+								<key>routeSnappingTolerance</key>
+								<string>PWRouteSnapToleranceHigh</string>
 							</dict>
 						</dict>
 						<key>dependencies</key>
