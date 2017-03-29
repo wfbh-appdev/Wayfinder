@@ -1208,6 +1208,8 @@
 								<string>AFMUITurnByTurnTableViewCell</string>
 								<key>minZoomLevel</key>
 								<integer>18</integer>
+								<key>routeSnappingTolerance</key>
+								<string>PWRouteSnapToleranceHigh</string>
 							</dict>
 						</dict>
 						<key>dependencies</key>
@@ -1283,6 +1285,8 @@
 								<string>AFMUITurnByTurnTableViewCell</string>
 								<key>minZoomLevel</key>
 								<integer>18</integer>
+								<key>routeSnappingTolerance</key>
+								<string>PWRouteSnapToleranceHigh</string>
 							</dict>
 						</dict>
 						<key>dependencies</key>
