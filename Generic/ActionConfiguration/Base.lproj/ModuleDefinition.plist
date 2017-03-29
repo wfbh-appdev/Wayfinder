@@ -987,6 +987,36 @@
 				</dict>
 			</dict>
 		</dict>
+		<key>ItemDetail</key>
+		<dict>
+			<key>show</key>
+			<dict>
+				<key>className</key>
+				<string>AFCLoadViewControllerAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>viewController</key>
+					<string>AFCItemDetailViewController</string>
+					<key>presentationMode</key>
+					<string>push</string>
+					<key>shouldAnimate</key>
+					<true/>
+					<key>properties</key>
+					<dict>
+						<key>itemTitle</key>
+						<string>$action.itemTitle</string>
+						<key>itemSubtitle</key>
+						<string>$action.itemSubtitle</string>
+						<key>itemDescription</key>
+						<string>$action.itemDescription</string>
+						<key>buttons</key>
+						<string>$action.buttons</string>
+						<key>imageURL</key>
+						<string>$action.imageURL</string>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
 		<key>Layer</key>
 		<dict>
 			<key>checkDisabled</key>
