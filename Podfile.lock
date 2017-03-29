@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - AppFrameworkCore (4.4.0):
+  - AppFrameworkCore (4.5):
     - AFNetworking (= 3.1.0)
     - CocoaLumberjack (= 2.4.0)
     - FMDB (= 2.6.2)
@@ -24,19 +24,21 @@ PODS:
     - PWAds (= 3.5.0)
     - PWAnalytics (= 1.3.0)
     - PWCME (= 1.3.0)
-    - PWCore (= 3.0.2)
+    - PWCore (= 3.0.3)
+    - PWMessaging (= 3.0.2)
+    - Realm (= 2.4.2)
     - SDWebImage (= 3.7.6)
-  - AppFrameworkDirectoryModule (4.4.0)
-  - AppFrameworkEventsModule (4.4.0)
-  - AppFrameworkMappingModule (4.4.0):
-    - PWLocation (= 3.0.1)
-    - PWMapKit (= 3.0.4)
+  - AppFrameworkDirectoryModule (4.5)
+  - AppFrameworkEventsModule (4.5)
+  - AppFrameworkMappingModule (4.5):
+    - iCarousel (= 1.8.3)
+    - PW_MapKit (= 3.1.2.6)
     - REMenu-Scroll (= 1.11)
     - TurtleBezierPath (= 1.0.0)
-  - AppFrameworkMessageCenterModule (4.4.0):
+  - AppFrameworkMessageCenterModule (4.5):
     - PWMessaging (= 3.0.2)
-  - AppFrameworkParkingModule (4.4.0)
-  - AppFrameworkRenderModule (4.4.0):
+  - AppFrameworkParkingModule (4.5)
+  - AppFrameworkRenderModule (4.5):
     - Mantle (= 2.0.7)
   - CocoaLumberjack (2.4.0):
     - CocoaLumberjack/Default (= 2.4.0)
@@ -65,11 +67,18 @@ PODS:
   - GoogleSymbolUtilities (1.1.1)
   - GoogleUtilities (1.3.1):
     - GoogleSymbolUtilities (~> 1.0)
+  - iCarousel (1.8.3)
   - JLRoutes (1.6.3)
   - Mantle (2.0.7):
     - Mantle/extobjc (= 2.0.7)
   - Mantle/extobjc (2.0.7)
+  - MistSDK (0.0.1089)
   - PSAlertView (2.0.3)
+  - PW_Location (3.1.2.2):
+    - MistSDK
+    - PWCore
+  - PW_MapKit (3.1.2.6):
+    - PW_Location (~> 3.1)
   - PW_Shared (2.1.4)
   - PWAds (3.5.0):
     - PWCore
@@ -77,27 +86,28 @@ PODS:
     - PWCore
   - PWCME (1.3.0):
     - PWCore
-  - PWCore (3.0.2)
-  - PWLocation (3.0.1):
-    - PWCore
-  - PWMapKit (3.0.4):
-    - PWLocation
+  - PWCore (3.0.3):
+    - SSZipArchive
   - PWMessaging (3.0.2):
     - PWCore
+  - Realm (2.4.2):
+    - Realm/Headers (= 2.4.2)
+  - Realm/Headers (2.4.2)
   - REMenu-Scroll (1.11)
   - SDWebImage (3.7.6):
     - SDWebImage/Core (= 3.7.6)
   - SDWebImage/Core (3.7.6)
+  - SSZipArchive (1.7)
   - TurtleBezierPath (1.0)
 
 DEPENDENCIES:
-  - AppFrameworkCore (from `ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git`, branch `release/v4.4.0`)
-  - AppFrameworkDirectoryModule (from `ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git`, branch `release/v4.4.0`)
-  - AppFrameworkEventsModule (from `ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git`, branch `release/v4.4.0`)
-  - AppFrameworkMappingModule (from `ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git`, branch `release/v4.4.0`)
-  - AppFrameworkMessageCenterModule (from `ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git`, branch `release/v4.4.0`)
-  - AppFrameworkParkingModule (from `ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git`, branch `release/v4.4.0`)
-  - AppFrameworkRenderModule (from `ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git`, branch `release/v4.4.0`)
+  - AppFrameworkCore (from `ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git`, branch `release/v4.5.0`)
+  - AppFrameworkDirectoryModule (from `ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git`, branch `release/v4.5.0`)
+  - AppFrameworkEventsModule (from `ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git`, branch `release/v4.5.0`)
+  - AppFrameworkMappingModule (from `ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git`, branch `release/v4.5.0`)
+  - AppFrameworkMessageCenterModule (from `ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git`, branch `release/v4.5.0`)
+  - AppFrameworkParkingModule (from `ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git`, branch `release/v4.5.0`)
+  - AppFrameworkRenderModule (from `ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git`, branch `release/v4.5.0`)
   - FirebaseAnalytics (= 3.4.2)
   - FirebaseInstanceID (= 1.0.8)
   - Google (= 3.0.3)
@@ -108,59 +118,59 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   AppFrameworkCore:
-    :branch: release/v4.4.0
+    :branch: release/v4.5.0
     :git: ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git
   AppFrameworkDirectoryModule:
-    :branch: release/v4.4.0
+    :branch: release/v4.5.0
     :git: ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git
   AppFrameworkEventsModule:
-    :branch: release/v4.4.0
+    :branch: release/v4.5.0
     :git: ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git
   AppFrameworkMappingModule:
-    :branch: release/v4.4.0
+    :branch: release/v4.5.0
     :git: ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git
   AppFrameworkMessageCenterModule:
-    :branch: release/v4.4.0
+    :branch: release/v4.5.0
     :git: ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git
   AppFrameworkParkingModule:
-    :branch: release/v4.4.0
+    :branch: release/v4.5.0
     :git: ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git
   AppFrameworkRenderModule:
-    :branch: release/v4.4.0
+    :branch: release/v4.5.0
     :git: ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git
 
 CHECKOUT OPTIONS:
   AppFrameworkCore:
-    :commit: e83bcffb50a635e16541f15e1ecf0dd141763586
+    :commit: 06ebabf109fa8e854671051cc447c946575d59e4
     :git: ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git
   AppFrameworkDirectoryModule:
-    :commit: e83bcffb50a635e16541f15e1ecf0dd141763586
+    :commit: 06ebabf109fa8e854671051cc447c946575d59e4
     :git: ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git
   AppFrameworkEventsModule:
-    :commit: e83bcffb50a635e16541f15e1ecf0dd141763586
+    :commit: 06ebabf109fa8e854671051cc447c946575d59e4
     :git: ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git
   AppFrameworkMappingModule:
-    :commit: e83bcffb50a635e16541f15e1ecf0dd141763586
+    :commit: 06ebabf109fa8e854671051cc447c946575d59e4
     :git: ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git
   AppFrameworkMessageCenterModule:
-    :commit: e83bcffb50a635e16541f15e1ecf0dd141763586
+    :commit: 06ebabf109fa8e854671051cc447c946575d59e4
     :git: ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git
   AppFrameworkParkingModule:
-    :commit: e83bcffb50a635e16541f15e1ecf0dd141763586
+    :commit: 06ebabf109fa8e854671051cc447c946575d59e4
     :git: ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git
   AppFrameworkRenderModule:
-    :commit: e83bcffb50a635e16541f15e1ecf0dd141763586
+    :commit: 06ebabf109fa8e854671051cc447c946575d59e4
     :git: ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  AppFrameworkCore: d3543ef3237760baf11909ff22057ece2e1e0f80
-  AppFrameworkDirectoryModule: 7c1d789efcbdfed298c768963d81d25ce539f978
-  AppFrameworkEventsModule: 86a253a694a92cea4d628942868533e6e4f6853c
-  AppFrameworkMappingModule: 1bc1ed5c06e5be5089d24524dccfc7e0ff157c99
-  AppFrameworkMessageCenterModule: 62e2f518a4143c7c9ccad01a58f5a24460084b19
-  AppFrameworkParkingModule: 4a76ec21bee1c61277bb3494083f2384a1f886fa
-  AppFrameworkRenderModule: 310941524f53b71146aa94c03f546877de26a329
+  AppFrameworkCore: 43f7f1252db5fbf0d780641115923880e6396d02
+  AppFrameworkDirectoryModule: 46f8f503e45e100f5bdd9bd03de3c5615c870a0f
+  AppFrameworkEventsModule: 0474c7c6024ea36111f5635f49cf9874a53af9f9
+  AppFrameworkMappingModule: 3643b320217820860841f9f903bd5b025e873754
+  AppFrameworkMessageCenterModule: 5d09956bdc92c0227ffea3bb7093b42ca79bec0c
+  AppFrameworkParkingModule: b81e593e169a0949507c9dbfd6f85d912a4eecdf
+  AppFrameworkRenderModule: 55a9d23ad46a9fd3fe16b49f68e4e958e495b71f
   CocoaLumberjack: aa9dcab71bdf9eaf2a63bbd9ddc87863efe45457
   FirebaseAnalytics: 3f5358d9104adf159cc8d99b7b501e50099a39ad
   FirebaseInstanceID: ba1e640935235e5fac39dfa816fe7660e72e1a8a
@@ -170,21 +180,25 @@ SPEC CHECKSUMS:
   GoogleInterchangeUtilities: def8415a862effc67d549d5b5b0b9c7a2f97d4de
   GoogleSymbolUtilities: 33117db1b5f290c6fbf259585e4885b4c84b98d7
   GoogleUtilities: 56c5ac05b7aa5dc417a1bb85221a9516e04d7032
+  iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
   JLRoutes: 4acc62dfc96c8c9e95b234588e7bec1dfe08efd6
   Mantle: bc40bb061d8c2c6fb48d5083e04d928c3b7f73d9
+  MistSDK: 7ff10acffb20685ceeac19afdd71786381f7a0aa
   PSAlertView: 16d35f5dba549418492cf68a750d4f0dca21f4a2
+  PW_Location: 51bf9375b98943974c7392f6914cce244f5ee839
+  PW_MapKit: 95e67353bbcc07e5864ad027a106162d729db96d
   PW_Shared: 9eb26cbb364c77fd1be7fbbd77d789d278c531fe
   PWAds: 56b29c676b248b14fcbc7260dc0b62dfae173354
   PWAnalytics: 3dcaabd78e46cef1429352ef75609069f0f808de
   PWCME: e89339e757279130560bb06b5e315eb2d49accc8
-  PWCore: 6234f26690a667a2419946f34f50370b7f4236e2
-  PWLocation: 5fd22a5dac9843e7b37b90d89227f4f013c89d37
-  PWMapKit: e3b0778b83288280c368ee2a370ce47e40759160
+  PWCore: b409f96e11f7f59d7cc9d107c8b337a85964bda9
   PWMessaging: ec7e86ece0b23dad0682ffde36a5ceca6b11f68d
+  Realm: d27b758e12d62a3371879a065d4c40aa212c5a54
   REMenu-Scroll: 2e32c93058de4d95bc7aa55d5e2e104943549363
   SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  SSZipArchive: 63f8e11cfcc33e03e4cd666b4359ea8bd6facd0c
   TurtleBezierPath: 680f51b8ed5a27c652974f1b89782c8e2146116b
 
-PODFILE CHECKSUM: 9df7481721f24fb6112a6c27e1a73ac508ac546b
+PODFILE CHECKSUM: 4bc0be574154b3c7575331229b9c86dd11ad9dcf
 
-COCOAPODS: 1.2.0.beta.1
+COCOAPODS: 1.2.0
