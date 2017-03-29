@@ -1170,6 +1170,8 @@
 								<string>Description</string>
 								<key>associatedDataBannerKey</key>
 								<string>DetailImage</string>
+								<key>minZoomLevel</key>
+								<integer>18</integer>
 							</dict>
 						</dict>
 						<key>dependencies</key>
@@ -1227,6 +1229,8 @@
 								<string>Description</string>
 								<key>associatedDataBannerKey</key>
 								<string>DetailImage</string>
+								<key>minZoomLevel</key>
+								<integer>18</integer>
 							</dict>
 						</dict>
 						<key>dependencies</key>
