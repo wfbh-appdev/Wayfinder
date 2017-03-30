@@ -256,6 +256,8 @@
 "afcuimroutebuilderviewcontroller.welcomebackmessage.text" = "We will now continue routing from the parking lot\nto your previously selected destination.";
 "afcuimroutebuilderviewcontroller.welcomebackdismiss.buttontitle" = "DISMISS";
 "afcuimroutebuilderviewcontroller.welcomebackrouteme.buttontitle" = "ROUTE ME";
+"afcuimroutebuilderviewcontroller.routeme.error.title" = "Route Error";
+"afcuimroutebuilderviewcontroller.routeme.error.message" = "No route can be found.";
 
 /*
  *  AFCUIMPOIFilterEditorViewController Strings
