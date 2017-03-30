@@ -265,6 +265,16 @@
 					<string>$action.auxID1</string>
 				</dict>
 			</dict>
+			<key>61</key>
+			<dict>
+				<key>className</key>
+				<string>AFCComposeEmailAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>mailRecipient</key>
+					<string>$action.auxID1</string>
+				</dict>
+			</dict>
 			<key>62</key>
 			<dict>
 				<key>className</key>
