@@ -252,6 +252,8 @@
 "afcuimroutebuilderviewcontroller.welcomebackmessage.text" = "Ahora mostraremos la ruta del estacionamiento\na su destino previamente seleccionado.";
 "afcuimroutebuilderviewcontroller.welcomebackdismiss.buttontitle" = "CERRAR";
 "afcuimroutebuilderviewcontroller.welcomebackrouteme.buttontitle" = "RUTA";
+"afcuimroutebuilderviewcontroller.routeme.error.title" = "Error en la ruta";
+"afcuimroutebuilderviewcontroller.routeme.error.message" = "No se puede encontrar ninguna ruta";
 
 /*
  *  AFCUIMPOIFilterEditorViewController Strings
