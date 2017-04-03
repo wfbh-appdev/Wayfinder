@@ -12,6 +12,8 @@
 	</dict>
 	<key>table</key>
 	<dict>
+		<key>separatorStyle</key>
+		<string>none</string>
 		<key>backgroundColor</key>
 		<string>#ECECEC</string>
 	</dict>
