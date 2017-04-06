@@ -1827,53 +1827,36 @@
 								<array>
 									<dict>
 										<key>name</key>
-										<string>Profiles</string>
+										<string>Preferences</string>
 									</dict>
 								</array>
 							</dict>
 							<dict>
 								<key>title</key>
-								<string>GENERAL</string>
-								<key>type</key>
-								<string>action</string>
-								<key>forwardContentType</key>
-								<string>SettingsMap</string>
-								<key>forwardContentAction</key>
-								<string>clearCache</string>
-								<key>items</key>
-								<array>
-									<dict>
-										<key>name</key>
-										<string>Clear Cache</string>
-									</dict>
-								</array>
-							</dict>
-							<dict>
-								<key>title</key>
-								<string>DISTANCE UNITS</string>
+								<string>Managed Provider Debug</string>
 								<key>type</key>
 								<string>choice</string>
-								<key>forwardContentType</key>
-								<string>DistanceUnits</string>
-								<key>forwardContentAction</key>
-								<string>set</string>
 								<key>cellViewClass</key>
-								<string>AFCUIDistanceUnitsCellViewClassTableViewCell</string>
+								<string>AFMManagedProviderAlertTableViewCell</string>
+								<key>forwardContentType</key>
+								<string></string>
+								<key>forwardContentAction</key>
+								<string></string>
 								<key>items</key>
 								<array>
 									<dict>
 										<key>name</key>
-										<string>Miles</string>
+										<string>On</string>
 										<key>identifier</key>
-										<string>0</string>
-										<key>default</key>
-										<true/>
+										<string>On</string>
 									</dict>
 									<dict>
 										<key>name</key>
-										<string>Kilometers</string>
+										<string>Off</string>
 										<key>identifier</key>
-										<string>1</string>
+										<string>Off</string>
+										<key>default</key>
+										<true/>
 									</dict>
 								</array>
 							</dict>
@@ -1892,23 +1875,35 @@
 								<array>
 									<dict>
 										<key>name</key>
-										<string>BLE</string>
+										<string>Auto</string>
 										<key>identifier</key>
-										<string>PWMapViewLocationTypeBLE</string>
+										<string>PWMapViewLocationTypeManagedProvider</string>
 										<key>default</key>
 										<true/>
 									</dict>
 									<dict>
 										<key>name</key>
-										<string>MSE</string>
+										<string>BLE</string>
+										<key>identifier</key>
+										<string>PWMapViewLocationTypeBLE</string>
+									</dict>
+									<dict>
+										<key>name</key>
+										<string>HyperLocation</string>
 										<key>identifier</key>
 										<string>PWMapViewLocationTypeMSE</string>
 									</dict>
 									<dict>
 										<key>name</key>
-										<string>GPS / Apple Indoor (if available)</string>
+										<string>GPS</string>
 										<key>identifier</key>
 										<string>PWMapViewLocationTypeGPS</string>
+									</dict>
+									<dict>
+										<key>name</key>
+										<string>None</string>
+										<key>identifier</key>
+										<string>PWMapViewLocationTypeNone</string>
 									</dict>
 								</array>
 							</dict>
@@ -1970,16 +1965,17 @@
 										<key>identifier</key>
 										<string>$appDefaults.solutions.appUUID</string>
 									</dict>
+									<dict>
+										<key>name</key>
+										<string>Device ID</string>
+										<key>identifier</key>
+										<string>$app.kDeviceIdString</string>
+									</dict>
 								</array>
 							</dict>
 						</array>
 					</dict>
 				</dict>
-			</dict>
-			<key>clearCache</key>
-			<dict>
-				<key>className</key>
-				<string>AFMClearMapCacheAction</string>
 			</dict>
 		</dict>
 		<key>SplashScreen</key>

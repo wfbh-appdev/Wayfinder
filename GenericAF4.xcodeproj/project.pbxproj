@@ -35,6 +35,7 @@
 		8CA4FA061C8F9FE900E0028C /* 20160120_android_multilayer_sandbox.s3db in Resources */ = {isa = PBXBuildFile; fileRef = 8CA4FA051C8F9FE900E0028C /* 20160120_android_multilayer_sandbox.s3db */; };
 		8CB729D21C20A30D00F016B7 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB729D11C20A30D00F016B7 /* Crashlytics.framework */; };
 		8CCAD9611C2B13890069AEB1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8CCAD9631C2B13890069AEB1 /* Localizable.strings */; };
+		8CF49E0E1E96B23300568A52 /* AFMManagedProviderAlertTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF49E0D1E96B23300568A52 /* AFMManagedProviderAlertTableViewCell.m */; };
 		8CFB59F01CCFECB300ADACEE /* AFMUIMapViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8CFB59EF1CCFECB300ADACEE /* AFMUIMapViewController.plist */; };
 		8F06130F1BC8569800A55F16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F06130E1BC8569800A55F16 /* main.m */; };
 		8F0613181BC8569800A55F16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F0613161BC8569800A55F16 /* Main.storyboard */; };
@@ -114,6 +115,8 @@
 		8CA4FA051C8F9FE900E0028C /* 20160120_android_multilayer_sandbox.s3db */ = {isa = PBXFileReference; lastKnownFileType = file; path = 20160120_android_multilayer_sandbox.s3db; sourceTree = "<group>"; };
 		8CB729D11C20A30D00F016B7 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		8CCAD9661C2B14A50069AEB1 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8CF49E0C1E96B23300568A52 /* AFMManagedProviderAlertTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFMManagedProviderAlertTableViewCell.h; sourceTree = "<group>"; };
+		8CF49E0D1E96B23300568A52 /* AFMManagedProviderAlertTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFMManagedProviderAlertTableViewCell.m; sourceTree = "<group>"; };
 		8CFB59EF1CCFECB300ADACEE /* AFMUIMapViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFMUIMapViewController.plist; sourceTree = "<group>"; };
 		8F06130A1BC8569800A55F16 /* GenericAF4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenericAF4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F06130E1BC8569800A55F16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -300,12 +303,14 @@
 		8F4355771BC858B700FFD46C /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				3C1DE42E1C3F306B0074369D /* AFGoogleAnalyticsController.h */,
-				3C1DE42F1C3F306B0074369D /* AFGoogleAnalyticsController.m */,
-				5574F54A1C3AD921007BC741 /* AFCUIMaasVersionCellViewClassTableViewCell.h */,
-				5574F54B1C3AD921007BC741 /* AFCUIMaasVersionCellViewClassTableViewCell.m */,
 				5574F54D1C3AF889007BC741 /* AFCUILocationProviderViewClassTableViewCell.h */,
 				5574F54E1C3AF889007BC741 /* AFCUILocationProviderViewClassTableViewCell.m */,
+				5574F54A1C3AD921007BC741 /* AFCUIMaasVersionCellViewClassTableViewCell.h */,
+				5574F54B1C3AD921007BC741 /* AFCUIMaasVersionCellViewClassTableViewCell.m */,
+				3C1DE42E1C3F306B0074369D /* AFGoogleAnalyticsController.h */,
+				3C1DE42F1C3F306B0074369D /* AFGoogleAnalyticsController.m */,
+				8CF49E0C1E96B23300568A52 /* AFMManagedProviderAlertTableViewCell.h */,
+				8CF49E0D1E96B23300568A52 /* AFMManagedProviderAlertTableViewCell.m */,
 				8F4355781BC858B700FFD46C /* AppDelegate.h */,
 				8F4355791BC858B700FFD46C /* AppDelegate.m */,
 				8FDD0F371BD1775500A0C512 /* GenericAppNavigationController.h */,
@@ -389,7 +394,7 @@
 					8F0613091BC8569800A55F16 = {
 						CreatedOnToolsVersion = 7.0;
 						DevelopmentTeam = 84CK77G588;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -556,6 +561,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CF49E0E1E96B23300568A52 /* AFMManagedProviderAlertTableViewCell.m in Sources */,
 				3C1DE4301C3F306B0074369D /* AFGoogleAnalyticsController.m in Sources */,
 				8F43558E1BC858B700FFD46C /* AppDelegate.m in Sources */,
 				8F06130F1BC8569800A55F16 /* main.m in Sources */,
@@ -751,9 +757,9 @@
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = GenericAF4/GenericAF4.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 84CK77G588;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -765,8 +771,8 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.generic.af4.ios;
 				PRODUCT_NAME = GenericAF4;
-				PROVISIONING_PROFILE = "989dff4f-3f48-4359-b746-b68f4dbb4580";
-				PROVISIONING_PROFILE_SPECIFIER = GenericAF4_InHousePushEnabled;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -779,9 +785,9 @@
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = GenericAF4/GenericAF4.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 84CK77G588;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -793,8 +799,8 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.generic.af4.ios;
 				PRODUCT_NAME = GenericAF4;
-				PROVISIONING_PROFILE = "989dff4f-3f48-4359-b746-b68f4dbb4580";
-				PROVISIONING_PROFILE_SPECIFIER = GenericAF4_InHousePushEnabled;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -865,6 +871,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.generic.af4.ios;
 				PRODUCT_NAME = GenericAF4;
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Distribution;
 		};
@@ -939,6 +946,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.generic.af4.ios;
 				PRODUCT_NAME = GenericAF4;
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = AdHoc;
 		};
