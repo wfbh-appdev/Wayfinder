@@ -1878,7 +1878,36 @@
 								<array>
 									<dict>
 										<key>name</key>
-										<string>Profiles</string>
+										<string>Preferences</string>
+									</dict>
+								</array>
+							</dict>
+							<dict>
+								<key>title</key>
+								<string>Managed Provider Debug</string>
+								<key>type</key>
+								<string>choice</string>
+								<key>cellViewClass</key>
+								<string>AFMManagedProviderAlertTableViewCell</string>
+								<key>forwardContentType</key>
+								<string></string>
+								<key>forwardContentAction</key>
+								<string></string>
+								<key>items</key>
+								<array>
+									<dict>
+										<key>name</key>
+										<string>On</string>
+										<key>identifier</key>
+										<string>On</string>
+									</dict>
+									<dict>
+										<key>name</key>
+										<string>Off</string>
+										<key>identifier</key>
+										<string>Off</string>
+										<key>default</key>
+										<true/>
 									</dict>
 								</array>
 							</dict>

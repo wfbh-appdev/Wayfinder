@@ -146,6 +146,10 @@
 "PWRouteInstructionDirectionStairsUp" = "خذ على الدرج الى";
 "PWRouteInstructionDirectionStairsDown" = "اصعد السلالم وصولا الى";
 "PWRouteInstructionLast" = "كنت قد وصلت في";
+"afmuimapviewcontroller.turnbyturn.in" = "في";
+"afmuimapviewcontroller.turnbyturn.totaltraveltime" = "إجمالي مدة السفر";
+"afmuimapviewcontroller.turnbyturn.totaltraveltime.minute" = "دقيقة";
+"afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "دقائق";
 
 /*** AF-LOCATIONMARKETING STRINGS ***/
 
