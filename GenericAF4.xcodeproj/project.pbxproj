@@ -28,6 +28,7 @@
 		7E699E761C97708B00000BA9 /* AFCLayerPickerTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E699E751C97708B00000BA9 /* AFCLayerPickerTableViewCell.plist */; };
 		7E75FD9C1E3A77170025A831 /* AFMUITurnByTurnTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E75FD9A1E3A77170025A831 /* AFMUITurnByTurnTableViewCell.plist */; };
 		8C10FC371C49CD5A000A7913 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C10FC361C49CD5A000A7913 /* Fabric.framework */; };
+		8C19EFA71E9ABF360093F18D /* AFCItemDetailViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C19EFA61E9ABF360093F18D /* AFCItemDetailViewController.plist */; };
 		8C64BA151D02143100AB0FDD /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C64BA141D02143100AB0FDD /* CoreBluetooth.framework */; };
 		8C6B9A4C1DF62F400067DABC /* AFMCOfferWalletViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C6B9A4B1DF62F400067DABC /* AFMCOfferWalletViewController.plist */; };
 		8C6B9A4F1DF630F10067DABC /* AFMCOfferDetailViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C6B9A4D1DF630F10067DABC /* AFMCOfferDetailViewController.plist */; };
@@ -107,6 +108,7 @@
 		7E705E301DBE89C40047C09C /* GenericAF4.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = GenericAF4.entitlements; path = GenericAF4/GenericAF4.entitlements; sourceTree = "<group>"; };
 		7E75FD9A1E3A77170025A831 /* AFMUITurnByTurnTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFMUITurnByTurnTableViewCell.plist; sourceTree = "<group>"; };
 		8C10FC361C49CD5A000A7913 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		8C19EFA61E9ABF360093F18D /* AFCItemDetailViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCItemDetailViewController.plist; sourceTree = "<group>"; };
 		8C64BA141D02143100AB0FDD /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		8C6B9A4B1DF62F400067DABC /* AFMCOfferWalletViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFMCOfferWalletViewController.plist; sourceTree = "<group>"; };
 		8C6B9A4D1DF630F10067DABC /* AFMCOfferDetailViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFMCOfferDetailViewController.plist; sourceTree = "<group>"; };
@@ -260,42 +262,43 @@
 		8F43556C1BC858B700FFD46C /* UIConfiguration */ = {
 			isa = PBXGroup;
 			children = (
-				7E31C80C1E54F29400C6A1BA /* EventDetailViewController.plist */,
-				8CFB59EF1CCFECB300ADACEE /* AFMUIMapViewController.plist */,
-				8F5FFFB81BCC2F58000B027C /* AFMUIPOIViewController.plist */,
-				8F5FFFB91BCC2F58000B027C /* AFMUILocationCell.plist */,
-				8F5FFFBA1BCC2F58000B027C /* AFMUIRouteViewController.plist */,
-				8F5FFFBB1BCC2F58000B027C /* AFMUIPOIFilterViewController.plist */,
-				8F5FFFBC1BCC2F58000B027C /* AFMUIPOIDetailViewController.plist */,
-				8F43559A1BC85B8F00FFD46C /* EventsListViewController.plist */,
-				8F43559B1BC85B8F00FFD46C /* EventTableViewCell.plist */,
-				8F4355981BC85B7800FFD46C /* AFCUIWebViewController.plist */,
-				8F4355961BC85B7100FFD46C /* AFCUIEULAViewController.plist */,
+				8F5FFFD61BCDB00C000B027C /* AFCASubscriptionsSetupViewController.plist */,
 				5555DB0D1C446C6A00E37207 /* AFCDirectoryCategoryViewController.plist */,
 				5555DB091C44646800E37207 /* AFCDirectoryViewController.plist */,
+				8C19EFA61E9ABF360093F18D /* AFCItemDetailViewController.plist */,
+				7E699E751C97708B00000BA9 /* AFCLayerPickerTableViewCell.plist */,
+				7E699E731C973AE500000BA9 /* AFCLayerPickerViewController.plist */,
 				8F43556F1BC858B700FFD46C /* AFCParkingMapViewController.plist */,
 				8F4355701BC858B700FFD46C /* AFCParkingNoteViewController.plist */,
 				8F4355711BC858B700FFD46C /* AFCParkingPhotoViewController.plist */,
 				8F885A601BCC2352004E2474 /* AFCParkingViewController.plist */,
 				8F4355731BC858B700FFD46C /* AFCParkingVoiceMemoViewController.plist */,
-				8F4355741BC858B700FFD46C /* AFCUIItemDetailViewController.plist */,
-				8F4355751BC858B700FFD46C /* AFCUIModalWebBrowser.plist */,
-				8F4355761BC858B700FFD46C /* AFCUITrayMenuViewController.plist */,
-				8F5FFFD61BCDB00C000B027C /* AFCASubscriptionsSetupViewController.plist */,
+				C398FC961D75E9C700FD48DE /* AFCUIDynamicViewController.plist */,
+				8F4355961BC85B7100FFD46C /* AFCUIEULAViewController.plist */,
 				8F8C54211BD798060018A2ED /* AFCUIHoneyBadgerTableViewCell.plist */,
 				8F8C54291BD7ED9A0018A2ED /* AFCUIImageSplashViewController.plist */,
+				8F4355741BC858B700FFD46C /* AFCUIItemDetailViewController.plist */,
 				8F8C542E1BD8191F0018A2ED /* AFCUIMallDetailViewController.plist */,
-				7E699E731C973AE500000BA9 /* AFCLayerPickerViewController.plist */,
-				7E699E751C97708B00000BA9 /* AFCLayerPickerTableViewCell.plist */,
-				7E1303371CDA451300AF350E /* AFMUIMapPickerViewController.plist */,
-				7E1303391CDA453100AF350E /* AFMUIMapPickerTableViewCell.plist */,
-				55173FDD1D62790500EE540B /* UIConfigurationDefault.plist */,
-				C398FC961D75E9C700FD48DE /* AFCUIDynamicViewController.plist */,
-				7E75FD9A1E3A77170025A831 /* AFMUITurnByTurnTableViewCell.plist */,
+				8F4355751BC858B700FFD46C /* AFCUIModalWebBrowser.plist */,
+				8F4355761BC858B700FFD46C /* AFCUITrayMenuViewController.plist */,
+				8F4355981BC85B7800FFD46C /* AFCUIWebViewController.plist */,
 				8C6B9A4D1DF630F10067DABC /* AFMCOfferDetailViewController.plist */,
+				C3610AF51E08A4A2000FF63E /* AFMCOfferSwipeViewController.plist */,
 				8C6B9A4E1DF630F10067DABC /* AFMCOfferTableViewCell.plist */,
 				8C6B9A4B1DF62F400067DABC /* AFMCOfferWalletViewController.plist */,
-				C3610AF51E08A4A2000FF63E /* AFMCOfferSwipeViewController.plist */,
+				8F5FFFB91BCC2F58000B027C /* AFMUILocationCell.plist */,
+				7E1303391CDA453100AF350E /* AFMUIMapPickerTableViewCell.plist */,
+				7E1303371CDA451300AF350E /* AFMUIMapPickerViewController.plist */,
+				8CFB59EF1CCFECB300ADACEE /* AFMUIMapViewController.plist */,
+				8F5FFFBC1BCC2F58000B027C /* AFMUIPOIDetailViewController.plist */,
+				8F5FFFBB1BCC2F58000B027C /* AFMUIPOIFilterViewController.plist */,
+				8F5FFFB81BCC2F58000B027C /* AFMUIPOIViewController.plist */,
+				8F5FFFBA1BCC2F58000B027C /* AFMUIRouteViewController.plist */,
+				7E75FD9A1E3A77170025A831 /* AFMUITurnByTurnTableViewCell.plist */,
+				7E31C80C1E54F29400C6A1BA /* EventDetailViewController.plist */,
+				8F43559A1BC85B8F00FFD46C /* EventsListViewController.plist */,
+				8F43559B1BC85B8F00FFD46C /* EventTableViewCell.plist */,
+				55173FDD1D62790500EE540B /* UIConfigurationDefault.plist */,
 			);
 			path = UIConfiguration;
 			sourceTree = "<group>";
@@ -485,6 +488,7 @@
 				8FB674781BD6D73000E7BFE4 /* LaunchScreen.xib in Resources */,
 				8F106FA31BC9D44000CCDD86 /* InteractivePushNotificationCategories.plist in Resources */,
 				5555DB031C4460C900E37207 /* InfoPlist.strings in Resources */,
+				8C19EFA71E9ABF360093F18D /* AFCItemDetailViewController.plist in Resources */,
 				C398FC971D75E9C700FD48DE /* AFCUIDynamicViewController.plist in Resources */,
 				8F0613181BC8569800A55F16 /* Main.storyboard in Resources */,
 				8F5FFFD71BCDB00C000B027C /* AFCASubscriptionsSetupViewController.plist in Resources */,

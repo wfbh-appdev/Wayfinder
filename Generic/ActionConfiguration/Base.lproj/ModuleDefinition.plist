@@ -991,6 +991,36 @@
 				</dict>
 			</dict>
 		</dict>
+		<key>ItemDetail</key>
+		<dict>
+			<key>show</key>
+			<dict>
+				<key>className</key>
+				<string>AFCLoadViewControllerAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>viewController</key>
+					<string>AFCItemDetailViewController</string>
+					<key>presentationMode</key>
+					<string>push</string>
+					<key>shouldAnimate</key>
+					<true/>
+					<key>properties</key>
+					<dict>
+						<key>itemTitle</key>
+						<string>$action.itemTitle</string>
+						<key>itemSubtitle</key>
+						<string>$action.itemSubtitle</string>
+						<key>itemDescription</key>
+						<string>$action.itemDescription</string>
+						<key>buttons</key>
+						<string>$action.buttons</string>
+						<key>imageURL</key>
+						<string>$action.imageURL</string>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
 		<key>Layer</key>
 		<dict>
 			<key>checkDisabled</key>
@@ -2105,19 +2135,19 @@
 			<array>
 				<dict>
 					<key>dataKey</key>
-					<string>Phone</string>
+					<string>Name</string>
 					<key>title</key>
-					<string>Call</string>
+					<string>Route</string>
 					<key>titleColor</key>
-					<string>#ffffff</string>
+					<string>#000000</string>
 					<key>titleFontName</key>
-					<string>HelveticaNeue-Light</string>
+					<string>.SFUIText</string>
 					<key>titleFontSize</key>
 					<integer>15</integer>
 					<key>image</key>
 					<string></string>
 					<key>backgroundColor</key>
-					<string>#ff0000</string>
+					<string>#0000000</string>
 					<key>buttonClickClass</key>
 					<string>AFCPhoneButtonClickAction</string>
 					<key>contentType</key>
@@ -2129,17 +2159,17 @@
 					<key>dataKey</key>
 					<string>Name</string>
 					<key>title</key>
-					<string>Button 4</string>
+					<string>Call</string>
 					<key>titleColor</key>
-					<string>#ffffff</string>
+					<string>#000000</string>
 					<key>titleFontName</key>
-					<string>HelveticaNeue-Light</string>
+					<string>.SFUIText</string>
 					<key>titleFontSize</key>
 					<integer>15</integer>
 					<key>image</key>
-					<string>call.button</string>
+					<string></string>
 					<key>backgroundColor</key>
-					<string>#00cc00</string>
+					<string>#0000000</string>
 					<key>buttonClickClass</key>
 					<string>AFCPhoneButtonClickAction</string>
 					<key>contentType</key>
@@ -2151,17 +2181,17 @@
 					<key>dataKey</key>
 					<string></string>
 					<key>title</key>
-					<string>Button 3</string>
+					<string>Email</string>
 					<key>titleColor</key>
-					<string>#ffffff</string>
+					<string>#000000</string>
 					<key>titleFontName</key>
-					<string>HelveticaNeue-Light</string>
+					<string>.SFUIText</string>
 					<key>titleFontSize</key>
 					<integer>15</integer>
 					<key>image</key>
 					<string></string>
 					<key>backgroundColor</key>
-					<string>#ff0000</string>
+					<string>#0000000</string>
 					<key>buttonClickClass</key>
 					<string>AFCPhoneButtonClickAction</string>
 					<key>contentType</key>
@@ -2173,17 +2203,39 @@
 					<key>dataKey</key>
 					<string>Name</string>
 					<key>title</key>
-					<string>Button 2</string>
+					<string>Website</string>
 					<key>titleColor</key>
-					<string>#ffffff</string>
+					<string>#000000</string>
 					<key>titleFontName</key>
-					<string>HelveticaNeue-Light</string>
+					<string>.SFUIText</string>
 					<key>titleFontSize</key>
 					<integer>15</integer>
 					<key>image</key>
 					<string></string>
 					<key>backgroundColor</key>
-					<string>#00cc00</string>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFCPhoneButtonClickAction</string>
+					<key>contentType</key>
+					<string></string>
+					<key>contentAction</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>dataKey</key>
+					<string>Name</string>
+					<key>title</key>
+					<string>Map</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>15</integer>
+					<key>image</key>
+					<string></string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
 					<key>buttonClickClass</key>
 					<string>AFCPhoneButtonClickAction</string>
 					<key>contentType</key>
