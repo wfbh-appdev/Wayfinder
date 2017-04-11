@@ -892,11 +892,9 @@
 						<key>itemDetailTitleKey</key>
 						<string>Name</string>
 						<key>itemDetailSubtitleKey</key>
-						<string>EventSubtitle</string>
+						<string>Description</string>
 						<key>itemDetailBannerURLKey</key>
 						<string>ImageURL</string>
-						<key>itemDetailLocationKey</key>
-						<string></string>
 						<key>itemDetailDescriptionKey</key>
 						<string>Details</string>
 						<key>itemDetailIdentifierKey</key>
@@ -930,11 +928,9 @@
 						<key>itemDetailTitleKey</key>
 						<string>Name</string>
 						<key>itemDetailSubtitleKey</key>
-						<string>EventSubtitle</string>
+						<string>Description</string>
 						<key>itemDetailBannerURLKey</key>
 						<string>ImageURL</string>
-						<key>itemDetailLocationKey</key>
-						<string></string>
 						<key>itemDetailDescriptionKey</key>
 						<string>Details</string>
 						<key>itemDetailIdentifierKey</key>
