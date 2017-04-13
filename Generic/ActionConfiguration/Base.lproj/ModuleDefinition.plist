@@ -2150,10 +2150,8 @@
 					<string>#0000000</string>
 					<key>buttonClickClass</key>
 					<string>AFCPhoneButtonClickAction</string>
-					<key>contentType</key>
-					<string>Button</string>
-					<key>contentAction</key>
-					<string>56</string>
+					<key>buttonHiddenClass</key>
+					<string></string>
 				</dict>
 				<dict>
 					<key>dataKey</key>
@@ -2172,10 +2170,8 @@
 					<string>#0000000</string>
 					<key>buttonClickClass</key>
 					<string>AFCPhoneButtonClickAction</string>
-					<key>contentType</key>
-					<string></string>
-					<key>contentAction</key>
-					<string></string>
+					<key>buttonHiddenClass</key>
+					<string>AFCPhoneButtonHidden</string>
 				</dict>
 				<dict>
 					<key>dataKey</key>
@@ -2194,9 +2190,7 @@
 					<string>#0000000</string>
 					<key>buttonClickClass</key>
 					<string>AFCPhoneButtonClickAction</string>
-					<key>contentType</key>
-					<string></string>
-					<key>contentAction</key>
+					<key>buttonHiddenClass</key>
 					<string></string>
 				</dict>
 				<dict>
@@ -2216,9 +2210,7 @@
 					<string>#0000000</string>
 					<key>buttonClickClass</key>
 					<string>AFCPhoneButtonClickAction</string>
-					<key>contentType</key>
-					<string></string>
-					<key>contentAction</key>
+					<key>buttonHiddenClass</key>
 					<string></string>
 				</dict>
 				<dict>
@@ -2238,9 +2230,7 @@
 					<string>#0000000</string>
 					<key>buttonClickClass</key>
 					<string>AFCPhoneButtonClickAction</string>
-					<key>contentType</key>
-					<string></string>
-					<key>contentAction</key>
+					<key>buttonHiddenClass</key>
 					<string></string>
 				</dict>
 			</array>
