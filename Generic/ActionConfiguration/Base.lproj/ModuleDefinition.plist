@@ -265,6 +265,16 @@
 					<string>$action.auxID1</string>
 				</dict>
 			</dict>
+			<key>61</key>
+			<dict>
+				<key>className</key>
+				<string>AFCComposeEmailAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>mailRecipient</key>
+					<string>$action.auxID1</string>
+				</dict>
+			</dict>
 			<key>62</key>
 			<dict>
 				<key>className</key>
@@ -2135,7 +2145,7 @@
 			<array>
 				<dict>
 					<key>dataKey</key>
-					<string>Name</string>
+					<string>POI</string>
 					<key>title</key>
 					<string>Route</string>
 					<key>titleColor</key>
@@ -2149,7 +2159,7 @@
 					<key>backgroundColor</key>
 					<string>#0000000</string>
 					<key>buttonClickClass</key>
-					<string>AFCPhoneButtonClickAction</string>
+					<string>AFCMapRouteButtonClickAction</string>
 					<key>buttonHiddenClass</key>
 					<string></string>
 				</dict>
@@ -2175,7 +2185,7 @@
 				</dict>
 				<dict>
 					<key>dataKey</key>
-					<string></string>
+					<string>Email</string>
 					<key>title</key>
 					<string>Email</string>
 					<key>titleColor</key>
@@ -2189,13 +2199,13 @@
 					<key>backgroundColor</key>
 					<string>#0000000</string>
 					<key>buttonClickClass</key>
-					<string>AFCPhoneButtonClickAction</string>
+					<string>AFCEmailButtonClickAction</string>
 					<key>buttonHiddenClass</key>
 					<string></string>
 				</dict>
 				<dict>
 					<key>dataKey</key>
-					<string>Name</string>
+					<string>Website</string>
 					<key>title</key>
 					<string>Website</string>
 					<key>titleColor</key>
@@ -2209,13 +2219,13 @@
 					<key>backgroundColor</key>
 					<string>#0000000</string>
 					<key>buttonClickClass</key>
-					<string>AFCPhoneButtonClickAction</string>
+					<string>AFCWebsiteButtonClickAction</string>
 					<key>buttonHiddenClass</key>
 					<string></string>
 				</dict>
 				<dict>
 					<key>dataKey</key>
-					<string>Name</string>
+					<string>POI</string>
 					<key>title</key>
 					<string>Map</string>
 					<key>titleColor</key>
@@ -2229,7 +2239,7 @@
 					<key>backgroundColor</key>
 					<string>#0000000</string>
 					<key>buttonClickClass</key>
-					<string>AFCPhoneButtonClickAction</string>
+					<string>AFCMapShowButtonClickAction</string>
 					<key>buttonHiddenClass</key>
 					<string></string>
 				</dict>
