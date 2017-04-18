@@ -1,12 +1,11 @@
 import_from_git(
     url: "ssh://git@bitbucket.phunware.com:7999/services/dev-scripts-fastlane.git",
-    branch: "feature/app-thinning",
     path: "ios/fastlane/Fastfile"
 )
 
 private_lane :configure_build do
 
-    jenkins_xcode_select version: "8.2"
+    jenkins_xcode_select version: "~> 8"
 
     default_config(
         workspace: "GenericAF4.xcworkspace",

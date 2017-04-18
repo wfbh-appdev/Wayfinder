@@ -47,7 +47,7 @@
 							<key>parameters</key>
 							<dict>
 								<key>contentId</key>
-								<string>PWMapViewLocationTypeBLE</string>
+								<string>PWMapViewLocationTypeManagedProvider</string>
 							</dict>
 						</dict>
 					</array>
@@ -332,6 +332,18 @@
 					<string>switch</string>
 				</dict>
 			</dict>
+			<key>87</key>
+			<dict>
+				<key>className</key>
+				<string>AFCDeepLinkLoadAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>deepLinkURL</key>
+					<string>$action.auxID1</string>
+					<key>appstoreURL</key>
+					<string>$action.auxID2</string>
+				</dict>
+			</dict>
 		</dict>
 		<key>CME</key>
 		<dict>
@@ -449,6 +461,8 @@
 						<string>POI</string>
 						<key>alphabeticalIndex</key>
 						<true/>
+						<key>cmeid</key>
+						<string>$action.auxID1</string>
 					</dict>
 				</dict>
 				<key>dependencies</key>
@@ -643,8 +657,10 @@
 					<true/>
 					<key>queryData</key>
 					<dict>
-						<key>directoryItem</key>
-						<string>select * from DirectoryItems WHERE ItemId = </string>
+						<key>databaseDirectoryItems</key>
+						<string>select * from DirectoryItems</string>
+						<key>databaseCategories</key>
+						<string>select * from Categories order by Name</string>
 					</dict>
 				</dict>
 			</dict>
@@ -1170,8 +1186,26 @@
 								<string>Description</string>
 								<key>associatedDataBannerKey</key>
 								<string>DetailImage</string>
+								<key>tbtEnabled</key>
+								<true/>
+								<key>tbtPrefixTextColor</key>
+								<string>#a1c45e</string>
+								<key>tbtDistanceTextColor</key>
+								<string>#a1a09d</string>
+								<key>tbtDistanceUpdatedByInterval</key>
+								<true/>
+								<key>tbtAnimationClass</key>
+								<string>AFMCustomTurnByTurnAnimation</string>
+								<key>tbtUpdateInterval</key>
+								<integer>7</integer>
+								<key>tbtUpdateMinimumDistance</key>
+								<integer>50</integer>
+								<key>tbtCellClass</key>
+								<string>AFMUITurnByTurnTableViewCell</string>
 								<key>minZoomLevel</key>
 								<integer>18</integer>
+								<key>routeSnappingTolerance</key>
+								<string>PWRouteSnapToleranceHigh</string>
 							</dict>
 						</dict>
 						<key>dependencies</key>
@@ -1229,8 +1263,26 @@
 								<string>Description</string>
 								<key>associatedDataBannerKey</key>
 								<string>DetailImage</string>
+								<key>tbtEnabled</key>
+								<true/>
+								<key>tbtPrefixTextColor</key>
+								<string>#a1c45e</string>
+								<key>tbtDistanceTextColor</key>
+								<string>#a1a09d</string>
+								<key>tbtDistanceUpdatedByInterval</key>
+								<true/>
+								<key>tbtAnimationClass</key>
+								<string>AFMCustomTurnByTurnAnimation</string>
+								<key>tbtUpdateInterval</key>
+								<integer>7</integer>
+								<key>tbtUpdateMinimumDistance</key>
+								<integer>50</integer>
+								<key>tbtCellClass</key>
+								<string>AFMUITurnByTurnTableViewCell</string>
 								<key>minZoomLevel</key>
 								<integer>18</integer>
+								<key>routeSnappingTolerance</key>
+								<string>PWRouteSnapToleranceHigh</string>
 							</dict>
 						</dict>
 						<key>dependencies</key>
@@ -1326,11 +1378,6 @@
 			<dict>
 				<key>className</key>
 				<string>AFMSetLocationProviderAction</string>
-			</dict>
-			<key>clearCache</key>
-			<dict>
-				<key>className</key>
-				<string>AFMClearMapCacheAction</string>
 			</dict>
 		</dict>
 		<key>MapDirectory</key>
