@@ -21,7 +21,7 @@
 		<key>backgroundColor</key>
 		<string>#ffffff</string>
 		<key>contentMode</key>
-		<string>aspectFit</string>
+		<string>aspectFill</string>
 		<key>clipsToBounds</key>
 		<true/>
 	</dict>

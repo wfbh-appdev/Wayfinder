@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>titleLabel</key>
+	<dict>
+		<key>text</key>
+		<string>Directory</string>
+	</dict>
+	<key>tableView</key>
+	<dict/>
+	<key>searchBar</key>
+	<dict/>
+	<key>noResultsFoundLabel</key>
+	<dict>
+		<key>text</key>
+		<string>No Results Found.</string>
+		<key>fontName</key>
+		<string>HelveticaNeue</string>
+		<key>fontSize</key>
+		<integer>18</integer>
+		<key>color</key>
+		<string>#AAAAAA</string>
+		<key>alignment</key>
+		<string>center</string>
+	</dict>
+	<key>filterButtonItem</key>
+	<dict>
+		<key>image</key>
+		<string>map.filter.off</string>
+		<key>fontName</key>
+		<string>HelveticaNeue-Light</string>
+		<key>fontSize</key>
+		<integer>14</integer>
+		<key>color</key>
+		<string>#ffffff</string>
+		<key>alignment</key>
+		<string>center</string>
+	</dict>
+	<key>view</key>
+	<dict>
+		<key>backgroundColor</key>
+		<string>#ffffff</string>
+		<key>constraints</key>
+		<array>
+			<string>H:|[tableView]|</string>
+			<string>V:|[tableView]|</string>
+			<string>H:|[noResultsFoundLabel]|</string>
+			<string>V:|-&gt;=1-[noResultsFoundLabel(21)]-&gt;=1-|</string>
+			<string>H:|[favoritesBar]|</string>
+			<string>#noResultsFoundLabel.centery=self.centery,1,-60</string>
+		</array>
+	</dict>
+</dict>
+</plist>

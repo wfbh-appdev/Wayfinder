@@ -424,55 +424,25 @@
 				<key>parameters</key>
 				<dict>
 					<key>viewController</key>
-					<string>AFCDirectoryViewController</string>
+					<string>AFDDirectoryViewController</string>
 					<key>presentationMode</key>
 					<string>replaceTop</string>
 					<key>shouldAnimate</key>
 					<true/>
 					<key>properties</key>
 					<dict>
-						<key>titleKey</key>
-						<string>Name</string>
-						<key>subtitleKey</key>
-						<string>SubTitle</string>
-						<key>iconKey</key>
-						<string>Thumbnail</string>
-						<key>bannerKey</key>
-						<string>DetailImage</string>
-						<key>identifierKey</key>
-						<string>ItemId</string>
-						<key>databaseDirectoryItems</key>
+						<key>directoryItems</key>
 						<string>$module.databaseDirectoryItems</string>
-						<key>databaseCategories</key>
+						<key>categories</key>
 						<string>$module.databaseCategories</string>
-						<key>favoritesContext</key>
-						<string>databaseDirectoryItems</string>
-						<key>categoryNameKey</key>
-						<string>Name</string>
-						<key>categoryDirectoryItemIDsKey</key>
-						<string>Items</string>
-						<key>directoryItemIdKey</key>
-						<string>ItemId</string>
-						<key>descriptionKey</key>
-						<string>Description</string>
-						<key>itemDetailContext</key>
-						<string>Directory Detail</string>
 						<key>category</key>
 						<string>$action.auxID2</string>
 						<key>title</key>
 						<string>$action.buttonTitle</string>
-						<key>keyForSorting</key>
-						<string>Name</string>
-						<key>forceCategories</key>
-						<true/>
+						<key>showIndexTitlesAfter</key>
+						<integer>5</integer>
 						<key>cellClass</key>
-						<string>AFCUIHoneyBadgerTableViewCell</string>
-						<key>itemDetailLocationKey</key>
-						<string>POI</string>
-						<key>alphabeticalIndex</key>
-						<true/>
-						<key>cmeid</key>
-						<string>$action.auxID1</string>
+						<string>AFDDirectoryTableViewCell</string>
 					</dict>
 				</dict>
 				<key>dependencies</key>
@@ -502,11 +472,11 @@
 				<key>parameters</key>
 				<dict>
 					<key>databaseName</key>
-					<string>directory</string>
+					<string>engageme_directory</string>
 					<key>databaseType</key>
 					<string>14</string>
 					<key>path</key>
-					<string>$CACHES</string>
+					<string>$MAINBUNDLE</string>
 					<key>shouldPrependCme</key>
 					<true/>
 					<key>queryData</key>
