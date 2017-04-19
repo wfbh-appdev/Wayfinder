@@ -16,8 +16,8 @@
 #import <PWCME/PWCME.h>
 #import <PWMessaging/PWMessaging.h>
 
-NSString *kPwMapKitVersion = @"3.1.2.7";
-NSString *kPwLocationVersion = @"3.1.2.2";
+NSString *kPwMapKitVersion = @"3.1.3";
+NSString *kPwLocationVersion = @"3.1.1";
 NSString *kPwMessagingVersion = @"3.0.2";
 
 
