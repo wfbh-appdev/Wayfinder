@@ -2132,6 +2132,8 @@
 					<string>AFCMapRouteButtonClickAction</string>
 					<key>buttonHiddenClass</key>
 					<string></string>
+					<key>buttonSetupClass</key>
+					<string></string>
 				</dict>
 				<dict>
 					<key>dataKey</key>
@@ -2152,6 +2154,8 @@
 					<string>AFCPhoneButtonClickAction</string>
 					<key>buttonHiddenClass</key>
 					<string>AFCPhoneButtonHidden</string>
+					<key>buttonSetupClass</key>
+					<string></string>
 				</dict>
 				<dict>
 					<key>dataKey</key>
@@ -2171,6 +2175,8 @@
 					<key>buttonClickClass</key>
 					<string>AFCEmailButtonClickAction</string>
 					<key>buttonHiddenClass</key>
+					<string></string>
+					<key>buttonSetupClass</key>
 					<string></string>
 				</dict>
 				<dict>
@@ -2192,6 +2198,8 @@
 					<string>AFCWebsiteButtonClickAction</string>
 					<key>buttonHiddenClass</key>
 					<string></string>
+					<key>buttonSetupClass</key>
+					<string></string>
 				</dict>
 				<dict>
 					<key>dataKey</key>
@@ -2211,6 +2219,8 @@
 					<key>buttonClickClass</key>
 					<string>AFCMapShowButtonClickAction</string>
 					<key>buttonHiddenClass</key>
+					<string></string>
+					<key>buttonSetupClass</key>
 					<string></string>
 				</dict>
 			</array>
