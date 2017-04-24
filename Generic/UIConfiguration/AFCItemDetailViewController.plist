@@ -41,7 +41,14 @@
 		<integer>10</integer>
 	</dict>
 	<key>buttonsStackView</key>
-	<dict/>
+	<dict>
+		<key>axis</key>
+		<string>horizontal</string>
+		<key>alignment</key>
+		<string>center</string>
+		<key>distribution</key>
+		<string>fillEqually</string>
+	</dict>
 	<key>itemTitleLabel</key>
 	<dict>
 		<key>lines</key>
