@@ -181,6 +181,10 @@
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minute" = "ミーンズ";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "ミーンズ";
 "afmuimapviewcontroller.turnbyturn.in" = "in";
+"meter" = "ミーターズ"
+"foot" = "フィート"
+"meters" = "ミーターズ"
+"feet" = "フィート"
 
 /*** AF-LOCATIONMARKETING STRINGS ***/
 

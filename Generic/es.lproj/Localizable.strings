@@ -362,3 +362,8 @@
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minute" = "min";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "mins";
 "afmuimapviewcontroller.turnbyturn.in" = "en";
+"meter" = "metro";
+"meters" = "metros";
+"foot" = "pie";
+"feet" = "pies";
+

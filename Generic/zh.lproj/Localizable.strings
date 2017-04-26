@@ -189,6 +189,10 @@
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "分钟";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "分钟";
 "afmuimapviewcontroller.turnbyturn.in" = "在";
+"meter" = "公尺"
+"foot" = "英尺"
+"meters" = "公尺"
+"feet" = "英尺"
 
 /*** AF-LOCATIONMARKETING STRINGS ***/
 

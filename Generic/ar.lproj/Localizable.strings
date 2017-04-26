@@ -150,6 +150,10 @@
 "afmuimapviewcontroller.turnbyturn.totaltraveltime" = "إجمالي مدة السفر";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minute" = "دقيقة";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "دقائق";
+"meter" = "متر";
+"meters" = "متر";
+"foot" = "قدم";
+"feet" = "قدم";
 
 /*** AF-LOCATIONMARKETING STRINGS ***/
 
