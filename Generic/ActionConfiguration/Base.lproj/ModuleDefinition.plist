@@ -894,7 +894,7 @@
 				<key>parameters</key>
 				<dict>
 					<key>viewController</key>
-					<string>AFCUIItemDetailViewController</string>
+					<string>EventDetailViewController</string>
 					<key>presentationMode</key>
 					<string>push</string>
 					<key>shouldAnimate</key>
@@ -905,8 +905,8 @@
 						<string>$action.event</string>
 						<key>itemDetailTitleKey</key>
 						<string>Name</string>
-						<key>itemDetailSubtitleKey</key>
-						<string>eventSubtitle</string>
+						<key>itemDetailSubtitle</key>
+						<string>$action.eventSubtitle</string>
 						<key>itemDetailBannerURLKey</key>
 						<string>ImageURL</string>
 						<key>itemDetailLocationKey</key>
@@ -2101,6 +2101,133 @@
 	</dict>
 	<key>detailConfig</key>
 	<dict>
+		<key>directory</key>
+		<dict>
+			<key>buttons</key>
+			<array>
+				<dict>
+					<key>dataKey</key>
+					<string>POI</string>
+					<key>title</key>
+					<string>Route</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>15</integer>
+					<key>image</key>
+					<string></string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFCMapRouteButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string></string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>dataKey</key>
+					<string>Name</string>
+					<key>title</key>
+					<string>Call</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>15</integer>
+					<key>image</key>
+					<string></string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFCPhoneButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string>AFCPhoneButtonHidden</string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>dataKey</key>
+					<string>Email</string>
+					<key>title</key>
+					<string>Email</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>15</integer>
+					<key>image</key>
+					<string></string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFCEmailButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string></string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>dataKey</key>
+					<string>Website</string>
+					<key>title</key>
+					<string>Website</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>15</integer>
+					<key>image</key>
+					<string></string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFCWebsiteButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string></string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>dataKey</key>
+					<string>POI</string>
+					<key>title</key>
+					<string>Map</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>15</integer>
+					<key>image</key>
+					<string></string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFCMapShowButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string></string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+			</array>
+			<key>data</key>
+			<dict>
+				<key>itemTitle</key>
+				<string>Name</string>
+				<key>itemSubtitle</key>
+				<string>SubTitle</string>
+				<key>itemDescription</key>
+				<string>Description</string>
+				<key>imageURL</key>
+				<string>DetailImage</string>
+			</dict>
+		</dict>
 		<key>events</key>
 		<dict>
 			<key>buttons</key>
