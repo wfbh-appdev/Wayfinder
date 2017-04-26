@@ -439,6 +439,8 @@
 						<string>$action.auxID2</string>
 						<key>title</key>
 						<string>$action.buttonTitle</string>
+						<key>enableFiltering</key>
+						<true/>
 						<key>showIndexTitlesAfter</key>
 						<integer>5</integer>
 						<key>cellClass</key>
