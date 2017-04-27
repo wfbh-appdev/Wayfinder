@@ -367,3 +367,21 @@
 "foot" = "pie";
 "feet" = "pies";
 
+/**
+ * Push notification actions
+ */
+"Directory.show" = "Mostrar";
+"DirectoryItem.show" = "Mostrar";
+"Events.show" = "Mostrar";
+"EvenntItem.show" = "Mostrar";
+"Map.show" = "Mostrar";
+"Map.route" = "Ruta";
+"Offer.listing" = "Listado";
+"Offer.detail" = "Detalle";
+"Parking.main" = "Principal";
+"Parking.map" = "Mapa";
+"Parking.photo" = "Foto";
+"Parking.voice" = "Voz";
+"Parking.note" = "Apunte";
+"Page.show" = "Mostrar";
+"SettingsMap.show" = "Mostrar";

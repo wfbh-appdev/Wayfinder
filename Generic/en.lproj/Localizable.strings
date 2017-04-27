@@ -371,3 +371,21 @@
 "foot" = "foot";
 "feet" = "feet";
 
+/**
+ * Push notification actions
+ */
+"Directory.show" = "Show";
+"DirectoryItem.show" = "Show";
+"Events.show" = "Show";
+"EvenntItem.show" = "Show";
+"Map.show" = "Show";
+"Map.route" = "Route";
+"Offer.listing" = "Listing";
+"Offer.detail" = "Detail";
+"Parking.main" = "Main";
+"Parking.map" = "Map";
+"Parking.photo" = "Photo";
+"Parking.voice" = "Voice";
+"Parking.note" = "Note";
+"Page.show" = "Show";
+"SettingsMap.show" = "Show";

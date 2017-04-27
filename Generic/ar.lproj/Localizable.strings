@@ -200,3 +200,21 @@
 "afcuimediapicker.button.defaulttext" = "حدد صورة للتحميل";
 "afcuimediapicker.button.photouploaded" = "تم تحميل الصورة";
 
+/**
+ * Push notification actions
+ */
+"Directory.show" = "عرض";
+"DirectoryItem.show" = "عرض";
+"Events.show" = "عرض";
+"EvenntItem.show" = "عرض";
+"Map.show" = "عرض";
+"Map.route" = "مسار";
+"Offer.listing" = "قائمة";
+"Offer.detail" = "المفرزة المختارة";
+"Parking.main" = "الأساسية";
+"Parking.map" = "خريطة";
+"Parking.photo" = "صورة فوتوغرافية";
+"Parking.voice" = "صوت";
+"Parking.note" = "حاشية";
+"Page.show" = "عرض";
+"SettingsMap.show" = "عرض";

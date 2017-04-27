@@ -240,3 +240,21 @@
 "afcuimediapicker.button.defaulttext" = "选择要上传的图像";
 "afcuimediapicker.button.photouploaded" = "照片上传";
 
+/**
+ * Push notification actions
+ */
+"Directory.show" = "显示";
+"DirectoryItem.show" = "显示";
+"Events.show" = "显示";
+"EvenntItem.show" = "显示";
+"Map.show" = "显示";
+"Map.route" = "路线";
+"Offer.listing" = "目录";
+"Offer.detail" = "详情";
+"Parking.main" = "主要";
+"Parking.map" = "地图";
+"Parking.photo" = "照片";
+"Parking.voice" = "语音";
+"Parking.note" = "注解";
+"Page.show" = "显示";
+"SettingsMap.show" = "显示";

@@ -232,3 +232,21 @@
 "afcuimediapicker.button.defaulttext" = "アップロードする画像を選択";
 "afcuimediapicker.button.photouploaded" = "写真がアップロードされました";
 
+/**
+ * Push notification actions
+ */
+"Directory.show" = "示す";
+"DirectoryItem.show" = "示す";
+"Events.show" = "示す";
+"EvenntItem.show" = "示す";
+"Map.show" = "示す";
+"Map.route" = "ルート";
+"Offer.listing" = "リスティング";
+"Offer.detail" = "ディテール";
+"Parking.main" = "メイン";
+"Parking.map" = "地図";
+"Parking.photo" = "写真";
+"Parking.voice" = "音声";
+"Parking.note" = "注意";
+"Page.show" = "示す";
+"SettingsMap.show" = "示す";
