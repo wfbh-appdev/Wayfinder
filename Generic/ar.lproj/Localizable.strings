@@ -45,7 +45,6 @@
 "afcuimodalwebbrowser.closeButton.buttontitle" = "أغلق";
 //AFCUIModalWebBrowser Strings
 "afcuimodalwebbrowser.status.text" = "تحميل";
-"afcuimodalwebbrowser.closebutton.buttontitle" = "أغلق";
 //  AFCParkingMapViewController Strings
 "afcparkingmapviewcontroller.droppinbutton.buttontitle" = "إسقاط دبوس";
 "afcparkingmapviewcontroller.droppinbutton.clearenabled.buttontitle" = "واضح";

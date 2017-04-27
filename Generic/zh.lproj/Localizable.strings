@@ -59,7 +59,6 @@
 "afcuimodalwebbrowser.closeButton.buttontitle" = "关闭";
 //AFCUI模态网址浏览器字符串
 "afcuimodalwebbrowser.status.text" = "载入";
-"afcuimodalwebbrowser.closebutton.buttontitle" = "关闭";
 //AFC停车地图视图控制器字符串
 "afcparkingmapviewcontroller.droppinbutton.buttontitle" = "放一个针";
 "afcparkingmapviewcontroller.droppinbutton.clearenabled.buttontitle" = "清除";

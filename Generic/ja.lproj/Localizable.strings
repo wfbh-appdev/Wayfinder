@@ -61,7 +61,7 @@
 "afcuiwebviewcontroller.message.text" = "プリーズ ウェート";
 //アフキモダルウェブローサー ストリングズ
 "afcuimodalwebbrowser.status.text" = "ローディング";
-"afcuimodalwebbrowser.closebutton.buttontitle" = "クローズ";
+"afcuimodalwebbrowser.closeButton.buttontitle" = "クローズ";
 //アフクパーキングマプビウーコントロルアー ストリングズ
 "afcparkingmapviewcontroller.droppinbutton.buttontitle" = "ドロップ エー ピン";
 "afcparkingmapviewcontroller.droppinbutton.clearenabled.buttontitle" = "クリア";
