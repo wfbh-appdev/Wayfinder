@@ -184,6 +184,10 @@
 "afcdirectoryviewcontroller.filtercategory.title" = "All";
 "afcdirectoryviewcontroller.filtercategorybutton.title" = "Filter";
 
+"afddirectorycategoryviewcontroller.title" = "Filters";
+"afddirectorycategoryviewcontroller.allcategories" = "All Categories";
+"afddirectorycategoryviewcontroller.savebutton.title" = "Apply Filters";
+
 /*
  * AFCUIMAnnotationDirectoryViewController Strings
  */
