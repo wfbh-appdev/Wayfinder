@@ -178,3 +178,25 @@
 "afmcofferdetailviewcontroller.alert.cancelbutton.title" = " نعم ";
 /* * AFMCOfferSwipeViewController Strings */
 "afmcofferswipeviewcontroller.titlelabel.text" = " ترويج ";
+
+/*
+ * Smart Form Date/Time Picker Strings
+ */
+"afcuidatepicker.alert.title" = "حدد تاريخ";
+"afcuidatepicker.navbar.today" = "اليوم";
+"afcuitimepicker.alert.title" = "حدد الوقت";
+"afcuipicker.alert.ok" = "حسنا";
+"afcuipicker.alert.cancel" = "إلغاء";
+
+/*
+ * Smart Form Image Upload Strings
+ */
+"afcuimediapicker.navbar.title" = "اختر صورة";
+"afcuimediapicker.toolbar.selectimage" = "اختر صورة";
+"afcuimediapicker.toolbar.clearimage" = "صورة واضحة";
+"afcuimediapicker.alert.cancel" = "إلغاء";
+"afcuimediapicker.imageselect" = "حدد صورة من كاميرا رول";
+"afcuimediapicker.takeimage" = "تصوير";
+"afcuimediapicker.button.defaulttext" = "حدد صورة للتحميل";
+"afcuimediapicker.button.photouploaded" = "تم تحميل الصورة";
+

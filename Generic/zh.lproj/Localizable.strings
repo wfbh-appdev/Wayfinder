@@ -189,10 +189,10 @@
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "分钟";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "分钟";
 "afmuimapviewcontroller.turnbyturn.in" = "在";
-"meter" = "公尺"
-"foot" = "英尺"
-"meters" = "公尺"
-"feet" = "英尺"
+"meter" = "公尺";
+"foot" = "英尺";
+"meters" = "公尺";
+"feet" = "英尺";
 
 /*** AF-LOCATIONMARKETING STRINGS ***/
 
@@ -218,3 +218,25 @@
 
 /* * AFMCOfferSwipeViewController Strings */
 "afmcofferswipeviewcontroller.titlelabel.text" = "促销";
+
+/*
+ * Smart Form Date/Time Picker Strings
+ */
+"afcuidatepicker.alert.title" = "选择日期";
+"afcuidatepicker.navbar.today" = "这天";
+"afcuitimepicker.alert.title" = "选择时间";
+"afcuipicker.alert.ok" = "好";
+"afcuipicker.alert.cancel" = "撤消";
+
+/*
+ * Smart Form Image Upload Strings
+ */
+"afcuimediapicker.navbar.title" = "选择图像";
+"afcuimediapicker.toolbar.selectimage" = "选择图像";
+"afcuimediapicker.toolbar.clearimage" = "清除图";
+"afcuimediapicker.alert.cancel" = "撤消";
+"afcuimediapicker.imageselect" = "从相机胶卷中选择照片";
+"afcuimediapicker.takeimage" = "拍照";
+"afcuimediapicker.button.defaulttext" = "选择要上传的图像";
+"afcuimediapicker.button.photouploaded" = "照片上传";
+
