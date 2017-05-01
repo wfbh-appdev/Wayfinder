@@ -11,12 +11,12 @@
 	<dict/>
 	<key>searchBar</key>
 	<dict/>
-	<key>noResultsFoundLabel</key>
+	<key>noResultsLabel</key>
 	<dict>
 		<key>text</key>
-		<string>No Results Found.</string>
+		<string>#afddirectoryviewcontroller.noresults.title</string>
 		<key>fontName</key>
-		<string>HelveticaNeue</string>
+		<string>.SFUIText-Bold</string>
 		<key>fontSize</key>
 		<integer>18</integer>
 		<key>color</key>
@@ -29,7 +29,7 @@
 		<key>image</key>
 		<string>map.filter.off</string>
 		<key>fontName</key>
-		<string>HelveticaNeue-Light</string>
+		<string>.SFUIText-Light</string>
 		<key>fontSize</key>
 		<integer>14</integer>
 		<key>color</key>
@@ -45,10 +45,9 @@
 		<array>
 			<string>H:|[tableView]|</string>
 			<string>V:|[tableView]|</string>
-			<string>H:|[noResultsFoundLabel]|</string>
-			<string>V:|-&gt;=1-[noResultsFoundLabel(21)]-&gt;=1-|</string>
-			<string>H:|[favoritesBar]|</string>
-			<string>#noResultsFoundLabel.centery=self.centery,1,-60</string>
+			<string>#noResultsLabel.width=self.width,0.75,0</string>
+			<string>#noResultsLabel.centerx=self.centerx,1,0</string>
+			<string>#noResultsLabel.centery=self.centery,0.66,0</string>
 		</array>
 	</dict>
 </dict>

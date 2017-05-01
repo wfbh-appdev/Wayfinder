@@ -439,6 +439,8 @@
 						<string>$action.auxID2</string>
 						<key>title</key>
 						<string>$action.buttonTitle</string>
+						<key>enableFiltering</key>
+						<true/>
 						<key>showIndexTitlesAfter</key>
 						<integer>5</integer>
 						<key>cellClass</key>
@@ -498,7 +500,7 @@
 				<key>parameters</key>
 				<dict>
 					<key>viewController</key>
-					<string>AFCDirectoryCategoryViewController</string>
+					<string>AFDDirectoryCategoryViewController</string>
 					<key>presentationMode</key>
 					<string>modal</string>
 					<key>shouldAnimate</key>
@@ -507,12 +509,12 @@
 					<dict>
 						<key>categories</key>
 						<string>$action.categories</string>
-						<key>selectedCategory</key>
-						<string>$action.selectedCategory</string>
-						<key>onCategorySelected</key>
-						<string>$action.onCategorySelected</string>
-						<key>categoryKey</key>
-						<string>Name</string>
+						<key>selectedCategories</key>
+						<string>$action.selectedCategories</string>
+						<key>onSelectedCategoriesSave</key>
+						<string>$action.onSelectedCategoriesSave</string>
+						<key>cellClass</key>
+						<string>AFDDirectoryCategoryTableViewCell</string>
 					</dict>
 				</dict>
 			</dict>
