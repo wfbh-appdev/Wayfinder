@@ -474,11 +474,11 @@
 				<key>parameters</key>
 				<dict>
 					<key>databaseName</key>
-					<string>engageme_directory</string>
+					<string>directory</string>
 					<key>databaseType</key>
 					<string>14</string>
 					<key>path</key>
-					<string>$MAINBUNDLE</string>
+					<string>$CACHES</string>
 					<key>shouldPrependCme</key>
 					<true/>
 					<key>queryData</key>
