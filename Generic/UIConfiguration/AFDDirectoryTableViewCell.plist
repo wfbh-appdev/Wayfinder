@@ -8,11 +8,30 @@
 		<string>#ffffff</string>
 		<key>contentMode</key>
 		<string>aspectFill</string>
+		<key>clipsToBounds</key>
+		<true/>
 	</dict>
 	<key>itemTitleLabel</key>
-	<dict/>
+	<dict>
+		<key>lines</key>
+		<integer>2</integer>
+		<key>lineBreakMode</key>
+		<string>bywordwrapping</string>
+		<key>fontName</key>
+		<string>$MainFont</string>
+		<key>fontSize</key>
+		<integer>17</integer>
+		<key>color</key>
+		<string>$TitleColor</string>
+	</dict>
 	<key>itemSubtitleLabel</key>
 	<dict>
+		<key>fontName</key>
+		<string>$MainFont</string>
+		<key>fontSize</key>
+		<integer>15</integer>
+		<key>color</key>
+		<string>$SubtitleColor</string>
 		<key>lines</key>
 		<string>0</string>
 	</dict>

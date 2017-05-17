@@ -8,7 +8,16 @@
 		<string>Directory</string>
 	</dict>
 	<key>tableView</key>
-	<dict/>
+	<dict>
+		<key>tintColor</key>
+		<string>$AccentColor</string>
+		<key>sectionIndexColor</key>
+		<string>$AccentColor</string>
+		<key>sectionIndexBackgroundColor</key>
+		<string>#00ffffff</string>
+		<key>sectionIndexTrackingBackgroundColor</key>
+		<string>#00ffffff</string>
+	</dict>
 	<key>searchBar</key>
 	<dict/>
 	<key>noResultsLabel</key>
@@ -16,7 +25,7 @@
 		<key>text</key>
 		<string>#afddirectoryviewcontroller.noresults.title</string>
 		<key>fontName</key>
-		<string>.SFUIText-Bold</string>
+		<string>$MainFontBold</string>
 		<key>fontSize</key>
 		<integer>18</integer>
 		<key>color</key>
@@ -29,7 +38,7 @@
 		<key>image</key>
 		<string>map.filter.off</string>
 		<key>fontName</key>
-		<string>.SFUIText-Light</string>
+		<string>$MainFontLight</string>
 		<key>fontSize</key>
 		<integer>14</integer>
 		<key>color</key>
