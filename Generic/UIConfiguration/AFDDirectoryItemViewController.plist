@@ -101,9 +101,9 @@
 			<string>#buttonsView.top=headerImageView.bottom,1,-4</string>
 			<string>#itemTitleLabel.top=buttonsView.bottom,1,24</string>
 			<string>V:[itemTitleLabel]-[itemSubtitleLabel]-24-[itemDescriptionLabel]-|</string>
-			<string>H:|-50-[itemTitleLabel]-50-|</string>
-			<string>H:|-50-[itemSubtitleLabel]-50-|</string>
-			<string>H:|-50-[itemDescriptionLabel]-50-|</string>
+			<string>H:|-25-[itemTitleLabel]-25-|</string>
+			<string>H:|-25-[itemSubtitleLabel]-25-|</string>
+			<string>H:|-25-[itemDescriptionLabel]-25-|</string>
 		</array>
 	</dict>
 </dict>
