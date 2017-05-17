@@ -2,6 +2,11 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>titleLabel</key>
+	<dict>
+		<key>lines</key>
+		<integer>1</integer>
+	</dict>
 	<key>scrollView</key>
 	<dict/>
 	<key>containerView</key>
@@ -52,9 +57,11 @@
 	<key>itemTitleLabel</key>
 	<dict>
 		<key>lines</key>
-		<integer>2</integer>
+		<integer>0</integer>
+		<key>lineBreakMode</key>
+		<string>bywordwrapping</string>
 		<key>fontName</key>
-		<string>.SFUIText-Bold</string>
+		<string>$MainFontBold</string>
 		<key>fontSize</key>
 		<string>17</string>
 	</dict>
@@ -63,9 +70,11 @@
 		<key>color</key>
 		<string>#b3b3b4</string>
 		<key>lines</key>
-		<integer>2</integer>
+		<integer>0</integer>
+		<key>lineBreakMode</key>
+		<string>bywordwrapping</string>
 		<key>fontName</key>
-		<string>.SFUIText</string>
+		<string>$MainFont</string>
 		<key>fontSize</key>
 		<integer>15</integer>
 	</dict>
@@ -73,8 +82,10 @@
 	<dict>
 		<key>lines</key>
 		<integer>0</integer>
+		<key>lineBreakMode</key>
+		<string>bywordwrapping</string>
 		<key>fontName</key>
-		<string>.SFUIText</string>
+		<string>$MainFont</string>
 		<key>fontSize</key>
 		<integer>15</integer>
 	</dict>

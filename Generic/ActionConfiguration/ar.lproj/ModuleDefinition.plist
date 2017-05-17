@@ -528,40 +528,15 @@
 			<key>show</key>
 			<dict>
 				<key>className</key>
-				<string>AFCLoadViewControllerAction</string>
+				<string>AFCForwardAction</string>
 				<key>parameters</key>
 				<dict>
+					<key>forwardContentType</key>
+					<string>ItemDetail</string>
+					<key>forwardContentAction</key>
+					<string>show</string>
 					<key>viewController</key>
-					<string>AFCUIMallDetailViewController</string>
-					<key>presentationMode</key>
-					<string>push</string>
-					<key>shouldAnimate</key>
-					<true/>
-					<key>properties</key>
-					<dict>
-						<key>itemDetailData</key>
-						<string>$action.directoryItem</string>
-						<key>itemDetailTitleKey</key>
-						<string>Name</string>
-						<key>itemDetailSubtitleKey</key>
-						<string>SubTitle</string>
-						<key>itemDetailBannerURLKey</key>
-						<string>DetailImage</string>
-						<key>itemDetailLocationKey</key>
-						<string>POI</string>
-						<key>itemDetailDescriptionKey</key>
-						<string>Description</string>
-						<key>itemDetailIdentifierKey</key>
-						<string>ItemId</string>
-						<key>itemDetailFavoriteContext</key>
-						<string>$action.favoritesContext</string>
-						<key>itemDetailContext</key>
-						<string>$action.itemDetailContext</string>
-						<key>itemWebsiteKey</key>
-						<string>Website</string>
-						<key>itemPhoneKey</key>
-						<string>Phone</string>
-					</dict>
+					<string>AFDDirectoryItemViewController</string>
 				</dict>
 			</dict>
 		</dict>
@@ -967,6 +942,36 @@
 					<dict>
 						<key>event</key>
 						<string>select * from Events WHERE EventID = </string>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+		<key>ItemDetail</key>
+		<dict>
+			<key>show</key>
+			<dict>
+				<key>className</key>
+				<string>AFCLoadViewControllerAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>viewController</key>
+					<string>AFCItemDetailViewController</string>
+					<key>presentationMode</key>
+					<string>push</string>
+					<key>shouldAnimate</key>
+					<true/>
+					<key>properties</key>
+					<dict>
+						<key>itemTitle</key>
+						<string>$action.itemTitle</string>
+						<key>itemSubtitle</key>
+						<string>$action.itemSubtitle</string>
+						<key>itemDescription</key>
+						<string>$action.itemDescription</string>
+						<key>buttons</key>
+						<string>$action.buttons</string>
+						<key>imageURL</key>
+						<string>$action.imageURL</string>
 					</dict>
 				</dict>
 			</dict>
