@@ -170,7 +170,7 @@
 
 "afddirectorycategoryviewcontroller.title" = "Filters";
 "afddirectorycategoryviewcontroller.allcategories" = "All Categories";
-"afddirectorycategoryviewcontroller.savebutton.title" = "Apply filters";
+"afddirectorycategoryviewcontroller.savebutton.title" = "Apply Filters";
 
 /*
  * AFCUIMAnnotationDirectoryViewController Strings
