@@ -32,6 +32,8 @@
 		<string>#AAAAAA</string>
 		<key>alignment</key>
 		<string>center</string>
+		<key>lines</key>
+		<string>0</string>
 	</dict>
 	<key>filterButtonItem</key>
 	<dict>
@@ -49,7 +51,7 @@
 	<key>view</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#ffffff</string>
+		<string>#363636</string>
 		<key>constraints</key>
 		<array>
 			<string>H:|[tableView]|</string>
