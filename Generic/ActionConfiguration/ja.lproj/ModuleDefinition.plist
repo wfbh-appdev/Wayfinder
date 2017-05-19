@@ -423,6 +423,8 @@
 						<integer>5</integer>
 						<key>cellClass</key>
 						<string>AFDDirectoryTableViewCell</string>
+						<key>imagePlaceholder</key>
+						<string>image_placeholder_detail</string>
 					</dict>
 				</dict>
 				<key>dependencies</key>
@@ -511,6 +513,11 @@
 					<string>show</string>
 					<key>viewController</key>
 					<string>AFDDirectoryItemViewController</string>
+					<key>properties</key>
+					<dict>
+						<key>imagePlaceholder</key>
+						<string>image_placeholder_detail</string>
+					</dict>
 				</dict>
 			</dict>
 		</dict>
@@ -709,6 +716,8 @@
 						<string>events</string>
 						<key>itemDetailContext</key>
 						<string>Event Detail</string>
+						<key>imagePlaceholder</key>
+						<string>image_placeholder_detail</string>
 					</dict>
 				</dict>
 				<key>dependencies</key>
@@ -782,6 +791,8 @@
 						<string>$action.favoritesContext</string>
 						<key>itemDetailContext</key>
 						<string>$action.itemDetailContext</string>
+						<key>imagePlaceholder</key>
+						<string>image_placeholder_detail</string>
 					</dict>
 				</dict>
 			</dict>
@@ -820,6 +831,8 @@
 						<string>$action.favoritesContext</string>
 						<key>itemDetailContext</key>
 						<string>$action.itemDetailContext</string>
+						<key>imagePlaceholder</key>
+						<string>image_placeholder_detail</string>
 					</dict>
 				</dict>
 				<key>dependencies</key>
@@ -890,6 +903,8 @@
 						<string>$action.buttons</string>
 						<key>imageURL</key>
 						<string>$action.imageURL</string>
+						<key>imagePlaceholder</key>
+						<string>image_placeholder_detail</string>
 					</dict>
 				</dict>
 			</dict>
