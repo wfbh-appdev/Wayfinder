@@ -11,6 +11,8 @@
 	</dict>
 	<key>tableView</key>
 	<dict>
+		<key>backgroundColor</key>
+		<string>#FFFFFF</string>
 		<key>tintColor</key>
 		<string>#007aff</string>
 		<key>allowsMultipleSelection</key>
@@ -28,7 +30,7 @@
 		<key>image</key>
 		<string>icon_x</string>
 	</dict>
-	<key>saveButton</key>
+	<key>applyFiltersButton</key>
 	<dict>
 		<key>backgroundColor</key>
 		<string>#007aff</string>
@@ -63,8 +65,8 @@
 			<string>H:|[topBar]|</string>
 			<string>H:|[tableView]|</string>
 			<string>H:|[buttonContainerView]|</string>
-			<string>H:|-24-[saveButton]-24-|</string>
-			<string>V:|-[saveButton(50)]-24-|</string>
+			<string>H:|-22.5-[applyFiltersButton]-22.5-|</string>
+			<string>V:|-[applyFiltersButton(48.5)]-24-|</string>
 			<string>V:|-20-[topBar][tableView][buttonContainerView]|</string>
 		</array>
 	</dict>

@@ -35,18 +35,24 @@
 		<key>lines</key>
 		<string>0</string>
 	</dict>
-	<key>filterButtonItem</key>
+	<key>badgeLabel</key>
 	<dict>
-		<key>image</key>
-		<string>map.filter.off</string>
 		<key>fontName</key>
-		<string>$MainFontLight</string>
+		<string>.SFUIDisplay-Medium</string>
 		<key>fontSize</key>
-		<integer>14</integer>
-		<key>color</key>
-		<string>#ffffff</string>
+		<string>10</string>
+		<key>borderColor</key>
+		<string>#007aff</string>
+		<key>borderWidth</key>
+		<integer>2</integer>
+		<key>cornerRadius</key>
+		<string>8</string>
 		<key>alignment</key>
 		<string>center</string>
+		<key>color</key>
+		<string>$WhiteColor</string>
+		<key>backgroundColor</key>
+		<string>#007aff</string>
 	</dict>
 	<key>view</key>
 	<dict>
