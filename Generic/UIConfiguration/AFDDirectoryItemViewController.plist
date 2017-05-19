@@ -53,6 +53,8 @@
 		<string>center</string>
 		<key>distribution</key>
 		<string>fillEqually</string>
+		<key>spacing</key>
+		<integer>5</integer>
 	</dict>
 	<key>itemTitleLabel</key>
 	<dict>
@@ -106,7 +108,7 @@
 			<string>H:|[contentView]|</string>
 			<string>H:|-[buttonsView]-|</string>
 			<string>V:|-19-[buttonsStackView]-15-|</string>
-			<string>H:|[buttonsStackView]|</string>
+			<string>H:|-5-[buttonsStackView]-5-|</string>
 			<string>#buttonsView.leading=headerImageView.leading,1,0</string>
 			<string>#buttonsView.trailing=headerImageView.trailing,1,0</string>
 			<string>#buttonsView.top=headerImageView.bottom,1,-4</string>
