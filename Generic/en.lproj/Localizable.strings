@@ -162,6 +162,7 @@
  * AFDDirectoryViewController Strings
  */
 
+"afddirectoryviewcontroller.title" = "Directory";
 "afddirectoryviewcontroller.noresults.title" = "No results found.";
 
 /**

@@ -5,7 +5,7 @@
 	<key>titleLabel</key>
 	<dict>
 		<key>text</key>
-		<string>Directory</string>
+		<string>#afddirectoryviewcontroller.title</string>
 	</dict>
 	<key>tableView</key>
 	<dict>
