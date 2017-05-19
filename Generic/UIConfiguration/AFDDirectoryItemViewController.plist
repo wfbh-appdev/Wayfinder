@@ -8,7 +8,10 @@
 		<integer>1</integer>
 	</dict>
 	<key>scrollView</key>
-	<dict/>
+	<dict>
+		<key>bounces</key>
+		<false/>
+	</dict>
 	<key>containerView</key>
 	<dict>
 		<key>backgroundColor</key>
@@ -20,6 +23,10 @@
 	<dict>
 		<key>backgroundColor</key>
 		<string>#ffffff</string>
+		<key>borderColor</key>
+		<string>#efefef</string>
+		<key>borderWidth</key>
+		<integer>1</integer>
 	</dict>
 	<key>headerImageView</key>
 	<dict>
@@ -105,7 +112,7 @@
 			<string>V:|-20-[headerImageView]-20-[contentView]|</string>
 			<string>#headerImageView.height=view.height,0.5,0</string>
 			<string>H:|-20-[headerImageView]-20-|</string>
-			<string>H:|[contentView]|</string>
+			<string>H:|-(-1)-[contentView]-(-1)-|</string>
 			<string>H:|-[buttonsView]-|</string>
 			<string>V:|-19-[buttonsStackView]-15-|</string>
 			<string>H:|-5-[buttonsStackView]-5-|</string>
