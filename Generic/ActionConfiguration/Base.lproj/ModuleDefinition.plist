@@ -538,66 +538,6 @@
 		</dict>
 		<key>DirectoryItem</key>
 		<dict>
-			<key>show</key>
-			<dict>
-				<key>className</key>
-				<string>AFCLoadViewControllerAction</string>
-				<key>parameters</key>
-				<dict>
-					<key>viewController</key>
-					<string>AFCUItemDetailViewController</string>
-					<key>presentationMode</key>
-					<string>push</string>
-					<key>shouldAnimate</key>
-					<true/>
-					<key>properties</key>
-					<dict>
-						<key>itemDetailData</key>
-						<string>$module.directoryItem</string>
-						<key>itemDetailTitleKey</key>
-						<string>Name</string>
-						<key>itemDetailSubtitleKey</key>
-						<string>SubTitle</string>
-						<key>itemDetailBannerURLKey</key>
-						<string>DetailImage</string>
-						<key>itemDetailLocationKey</key>
-						<string>POI</string>
-						<key>itemDetailDescriptionKey</key>
-						<string>Description</string>
-						<key>itemDetailIdentifierKey</key>
-						<string>ItemId</string>
-						<key>itemDetailFavoriteContext</key>
-						<string>$action.favoritesContext</string>
-						<key>itemDetailContext</key>
-						<string>$action.itemDetailContext</string>
-						<key>itemWebsiteKey</key>
-						<string>Website</string>
-						<key>itemPhoneKey</key>
-						<string>Phone</string>
-					</dict>
-				</dict>
-				<key>dependencies</key>
-				<array>
-					<dict>
-						<key>className</key>
-						<string>AFCActionIncluder</string>
-						<key>parameters</key>
-						<dict>
-							<key>includeContentType</key>
-							<string>DirectoryItem</string>
-							<key>includeContentAction</key>
-							<string>load</string>
-							<key>includeParameters</key>
-							<dict>
-								<key>contentId</key>
-								<string>$action.contentId</string>
-								<key>cmeid</key>
-								<string>$action.cmeid</string>
-							</dict>
-						</dict>
-					</dict>
-				</array>
-			</dict>
 			<key>load</key>
 			<dict>
 				<key>className</key>
@@ -612,10 +552,14 @@
 					<string>$CACHES</string>
 					<key>shouldPrependCme</key>
 					<true/>
+					<key>kAFCDirectoryItemId</key>
+					<string>$action.contentId</string>
 					<key>queryData</key>
 					<dict>
-						<key>directoryItem</key>
-						<string>select * from DirectoryItems WHERE ItemId = </string>
+						<key>databaseDirectoryItems</key>
+						<string>select * from DirectoryItems</string>
+						<key>databaseCategories</key>
+						<string>select * from Categories order by Name</string>
 					</dict>
 				</dict>
 			</dict>
