@@ -162,7 +162,7 @@
  * AFDDirectoryViewController Strings
  */
 
-"afddirectoryviewcontroller.noresults.title" = "No results found\n\nThere are no results associated with this search.";
+"afddirectoryviewcontroller.noresults.title" = "No results found.";
 
 /**
  * AFDDirectoryCategoryViewController Strings
