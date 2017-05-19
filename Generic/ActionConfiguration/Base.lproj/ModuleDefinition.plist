@@ -445,6 +445,8 @@
 						<integer>5</integer>
 						<key>cellClass</key>
 						<string>AFDDirectoryTableViewCell</string>
+						<key>accessoryViewType</key>
+						<integer>1</integer>
 						<key>imagePlaceholder</key>
 						<string>image_placeholder_detail</string>
 					</dict>
