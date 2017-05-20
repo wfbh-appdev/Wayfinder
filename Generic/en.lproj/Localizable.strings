@@ -159,19 +159,19 @@
 "afcdirectorycategoryviewcontroller.categories.text" = "Categories";
 
 /**
- * AFCDirectoryViewController Strings
+ * AFDDirectoryViewController Strings
  */
-"afcdirectoryviewcontroller.viewdidload.allString" = "All";
-"afcdirectoryviewcontroller.viewdidload.favoritesString" = "Favorites";
-"afcdirectoryviewcontroller.setSearchBarPlaceHolder.searchText" = "Search";
-"Search...                                                                " = "Search...                                                                ";
-"afcdirectoryviewcontroller.nonetwork.failure.title" = "Directory";
-"afcdirectoryviewcontroller.nonetwork.failure.message" = "This content requires a data connection, please check your mobile or wifi network and try again.";
-"afcdirectoryviewcontroller.nonetwork.failure.cancelbutton.title" = "Ok";
-"afcdirectoryviewcontroller.noresultsfound.title" = "No Results Found.";
-"afcdirectoryviewcontroller.filternotice.title" = "Filtered by";
-"afcdirectoryviewcontroller.filtercategory.title" = "All";
-"afcdirectoryviewcontroller.filtercategorybutton.title" = "Filter";
+
+"afddirectoryviewcontroller.title" = "Directory";
+"afddirectoryviewcontroller.noresults.title" = "No results found.";
+
+/**
+ * AFDDirectoryCategoryViewController Strings
+ */
+
+"afddirectorycategoryviewcontroller.title" = "Filters";
+"afddirectorycategoryviewcontroller.allcategories" = "All Categories";
+"afddirectorycategoryviewcontroller.savebutton.title" = "Apply Filters";
 
 /*
  * AFCUIMAnnotationDirectoryViewController Strings
