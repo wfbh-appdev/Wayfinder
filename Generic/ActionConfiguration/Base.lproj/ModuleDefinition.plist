@@ -537,11 +537,6 @@
 					<string>show</string>
 					<key>viewController</key>
 					<string>AFDDirectoryItemViewController</string>
-					<key>properties</key>
-					<dict>
-						<key>imagePlaceholder</key>
-						<string>image_placeholder_detail</string>
-					</dict>
 				</dict>
 			</dict>
 		</dict>
@@ -919,6 +914,8 @@
 						<string>$action.buttons</string>
 						<key>imageURL</key>
 						<string>$action.imageURL</string>
+						<key>imagePlaceholder</key>
+						<string>image_placeholder_detail</string>
 					</dict>
 				</dict>
 			</dict>
