@@ -525,11 +525,6 @@
 					<string>show</string>
 					<key>viewController</key>
 					<string>AFDDirectoryItemViewController</string>
-					<key>properties</key>
-					<dict>
-						<key>imagePlaceholder</key>
-						<string>image_placeholder_detail</string>
-					</dict>
 				</dict>
 			</dict>
 		</dict>
@@ -778,35 +773,29 @@
 			<key>show</key>
 			<dict>
 				<key>className</key>
-				<string>AFCLoadViewControllerAction</string>
+				<string>AFCForwardAction</string>
 				<key>parameters</key>
 				<dict>
+					<key>forwardContentType</key>
+					<string>ItemDetail</string>
+					<key>forwardContentAction</key>
+					<string>show</string>
 					<key>viewController</key>
-					<string>AFCUIItemDetailViewController</string>
-					<key>presentationMode</key>
-					<string>push</string>
-					<key>shouldAnimate</key>
-					<true/>
+					<string>EventsDetailViewController</string>
 					<key>properties</key>
 					<dict>
-						<key>itemDetailData</key>
-						<string>$action.event</string>
-						<key>itemDetailTitleKey</key>
-						<string>Name</string>
-						<key>itemDetailSubtitleKey</key>
-						<string>EventSubtitle</string>
-						<key>itemDetailBannerURLKey</key>
-						<string>ImageURL</string>
-						<key>itemDetailLocationKey</key>
-						<string></string>
-						<key>itemDetailDescriptionKey</key>
-						<string>Details</string>
-						<key>itemDetailIdentifierKey</key>
-						<string>EventID</string>
-						<key>itemDetailFavoriteContext</key>
-						<string>$action.favoritesContext</string>
-						<key>itemDetailContext</key>
-						<string>$action.itemDetailContext</string>
+						<key>itemTitle</key>
+						<string>$action.itemTitle</string>
+						<key>itemSubtitle</key>
+						<string>$action.itemSubtitle</string>
+						<key>itemDescription</key>
+						<string>$action.itemDescription</string>
+						<key>buttons</key>
+						<string>$action.buttons</string>
+						<key>imageURL</key>
+						<string>$action.imageURL</string>
+						<key>iconShareName</key>
+						<string>icon_share</string>
 						<key>imagePlaceholder</key>
 						<string>image_placeholder_detail</string>
 					</dict>
@@ -822,33 +811,27 @@
 				<key>parameters</key>
 				<dict>
 					<key>viewController</key>
-					<string>AFCUIItemDetailViewController</string>
+					<string>EventsDetailViewController</string>
 					<key>presentationMode</key>
 					<string>push</string>
 					<key>shouldAnimate</key>
 					<true/>
 					<key>properties</key>
 					<dict>
-						<key>itemDetailData</key>
-						<string>$module.event</string>
-						<key>itemDetailTitleKey</key>
-						<string>Name</string>
-						<key>itemDetailSubtitleKey</key>
-						<string>EventSubtitle</string>
-						<key>itemDetailBannerURLKey</key>
-						<string>ImageURL</string>
-						<key>itemDetailLocationKey</key>
-						<string></string>
-						<key>itemDetailDescriptionKey</key>
-						<string>Details</string>
-						<key>itemDetailIdentifierKey</key>
-						<string>EventID</string>
-						<key>itemDetailFavoriteContext</key>
-						<string>$action.favoritesContext</string>
+						<key>itemTitle</key>
+						<string>$action.itemTitle</string>
+						<key>itemSubtitle</key>
+						<string>$action.itemSubtitle</string>
+						<key>itemDescription</key>
+						<string>$action.itemDescription</string>
+						<key>buttons</key>
+						<string>$action.buttons</string>
+						<key>imageURL</key>
+						<string>$action.imageURL</string>
+						<key>iconShareName</key>
+						<string>icon_share</string>
 						<key>imagePlaceholder</key>
 						<string>image_placeholder_detail</string>
-						<key>itemDetailContext</key>
-						<string>$action.itemDetailContext</string>
 					</dict>
 				</dict>
 				<key>dependencies</key>
@@ -919,6 +902,8 @@
 						<string>$action.buttons</string>
 						<key>imageURL</key>
 						<string>$action.imageURL</string>
+						<key>imagePlaceholder</key>
+						<string>image_placeholder_detail</string>
 					</dict>
 				</dict>
 			</dict>
