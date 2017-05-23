@@ -2021,7 +2021,7 @@
 					<key>backgroundColor</key>
 					<string>#0000000</string>
 					<key>buttonClickClass</key>
-					<string>AFCMapRouteButtonClickAction</string>
+					<string>AFDMapRouteButtonClickAction</string>
 					<key>buttonHiddenClass</key>
 					<string></string>
 					<key>buttonSetupClass</key>
@@ -2043,7 +2043,7 @@
 					<key>backgroundColor</key>
 					<string>#0000000</string>
 					<key>buttonClickClass</key>
-					<string>AFCPhoneButtonClickAction</string>
+					<string>AFDPhoneButtonClickAction</string>
 					<key>buttonHiddenClass</key>
 					<string>AFCPhoneButtonHidden</string>
 					<key>buttonSetupClass</key>
@@ -2065,7 +2065,7 @@
 					<key>backgroundColor</key>
 					<string>#0000000</string>
 					<key>buttonClickClass</key>
-					<string>AFCEmailButtonClickAction</string>
+					<string>AFDEmailButtonClickAction</string>
 					<key>buttonHiddenClass</key>
 					<string></string>
 					<key>buttonSetupClass</key>
@@ -2087,7 +2087,7 @@
 					<key>backgroundColor</key>
 					<string>#0000000</string>
 					<key>buttonClickClass</key>
-					<string>AFCWebsiteButtonClickAction</string>
+					<string>AFDWebsiteButtonClickAction</string>
 					<key>buttonHiddenClass</key>
 					<string></string>
 					<key>buttonSetupClass</key>
@@ -2109,7 +2109,7 @@
 					<key>backgroundColor</key>
 					<string>#0000000</string>
 					<key>buttonClickClass</key>
-					<string>AFCMapShowButtonClickAction</string>
+					<string>AFDMapShowButtonClickAction</string>
 					<key>buttonHiddenClass</key>
 					<string></string>
 					<key>buttonSetupClass</key>
