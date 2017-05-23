@@ -442,7 +442,7 @@
 						<key>enableFiltering</key>
 						<true/>
 						<key>showIndexTitlesAfter</key>
-						<integer>5</integer>
+						<integer>20</integer>
 						<key>cellClass</key>
 						<string>AFDDirectoryTableViewCell</string>
 						<key>accessoryViewType</key>
