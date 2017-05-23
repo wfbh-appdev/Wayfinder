@@ -525,6 +525,21 @@
 					<string>show</string>
 					<key>viewController</key>
 					<string>AFDDirectoryItemViewController</string>
+					<key>properties</key>
+					<dict>
+						<key>itemTitle</key>
+						<string>$action.itemTitle</string>
+						<key>itemSubtitle</key>
+						<string>$action.itemSubtitle</string>
+						<key>imageURL</key>
+						<string>$action.imageURL</string>
+						<key>itemDescription</key>
+						<string>$action.itemDescription</string>
+						<key>buttons</key>
+						<string>$action.buttons</string>
+						<key>imagePlaceholder</key>
+						<string>image_placeholder_detail</string>
+					</dict>
 				</dict>
 			</dict>
 		</dict>
@@ -804,56 +819,6 @@
 		</dict>
 		<key>EventItem</key>
 		<dict>
-			<key>show</key>
-			<dict>
-				<key>className</key>
-				<string>AFCLoadViewControllerAction</string>
-				<key>parameters</key>
-				<dict>
-					<key>viewController</key>
-					<string>EventsDetailViewController</string>
-					<key>presentationMode</key>
-					<string>push</string>
-					<key>shouldAnimate</key>
-					<true/>
-					<key>properties</key>
-					<dict>
-						<key>itemTitle</key>
-						<string>$action.itemTitle</string>
-						<key>itemSubtitle</key>
-						<string>$action.itemSubtitle</string>
-						<key>itemDescription</key>
-						<string>$action.itemDescription</string>
-						<key>buttons</key>
-						<string>$action.buttons</string>
-						<key>imageURL</key>
-						<string>$action.imageURL</string>
-						<key>iconShareName</key>
-						<string>icon_share</string>
-						<key>imagePlaceholder</key>
-						<string>image_placeholder_detail</string>
-					</dict>
-				</dict>
-				<key>dependencies</key>
-				<array>
-					<dict>
-						<key>className</key>
-						<string>AFCActionIncluder</string>
-						<key>parameters</key>
-						<dict>
-							<key>includeContentType</key>
-							<string>EventItem</string>
-							<key>includeContentAction</key>
-							<string>load</string>
-							<key>includeParameters</key>
-							<dict>
-								<key>contentId</key>
-								<string>$action.contentId</string>
-							</dict>
-						</dict>
-					</dict>
-				</array>
-			</dict>
 			<key>load</key>
 			<dict>
 				<key>className</key>
@@ -868,10 +833,18 @@
 					<string>$CACHES</string>
 					<key>shouldPrependProperty</key>
 					<true/>
+					<key>startDateKey</key>
+					<string>StartDate</string>
+					<key>endDateKey</key>
+					<string>EndDate</string>
+					<key>DBDateFormatKey</key>
+					<string>MM/dd/yyyy HH:mm:ss</string>
+					<key>clientDateFormatKey</key>
+					<string>MMM d</string>
 					<key>queryData</key>
 					<dict>
-						<key>event</key>
-						<string>select * from Events WHERE EventID = </string>
+						<key>events</key>
+						<string>select * from Events order by StartDate</string>
 					</dict>
 				</dict>
 			</dict>
