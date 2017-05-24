@@ -105,6 +105,13 @@
  */
 "afcuialertsubscriptionviewcontroller.title" = "Profiles";
 
+/**
+ *  AFCForgotPasswordViewController
+ */
+"afcforgotpasswordviewcontroller.alert.error.title" = "Error";
+"afcforgotpasswordviewcontroller.alert.error.description" = "You must enter a valid email address.";
+"afcforgotpasswordviewcontroller.alert.error.okbutton.title" = "OK";
+
 /*** AF-RENDER STRINGS ***/
 
 /*
