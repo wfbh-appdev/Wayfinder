@@ -100,6 +100,17 @@
 "afcphonecallaction.error.alert.title" = "Error";
 "afcphonecallaction.error.alert.message" = "Your device is not capable of placing calls";
 
+/**
+ *  AFCUIAlertSubscriptionsViewController
+ */
+"afcuialertsubscriptionviewcontroller.title" = "Profiles";
+
+/**
+ *  AFCForgotPasswordViewController
+ */
+"afcforgotpasswordviewcontroller.alert.error.title" = "Error";
+"afcforgotpasswordviewcontroller.alert.error.description" = "You must enter a valid email address.";
+"afcforgotpasswordviewcontroller.alert.error.okbutton.title" = "OK";
 
 /*** AF-RENDER STRINGS ***/
 
@@ -172,6 +183,10 @@
 "afcdirectoryviewcontroller.filternotice.title" = "Filtered by";
 "afcdirectoryviewcontroller.filtercategory.title" = "All";
 "afcdirectoryviewcontroller.filtercategorybutton.title" = "Filter";
+
+"afddirectorycategoryviewcontroller.title" = "Filters";
+"afddirectorycategoryviewcontroller.allcategories" = "All Categories";
+"afddirectorycategoryviewcontroller.savebutton.title" = "Apply Filters";
 
 /*
  * AFCUIMAnnotationDirectoryViewController Strings
@@ -288,9 +303,23 @@
 "afcuimmapviewcontroller.buildingloaderroralert.button" = "Ok";
 
 /**
+ *  AFMUIMapViewController
+ */
+"afmuimapviewcontroller.distance.meter" = "%i meter";
+"afmuimapviewcontroller.distance.meters" = "%i meters";
+"afmuimapviewcontroller.distance.foot" = "%i foot";
+"afmuimapviewcontroller.distance.feet" = "%i feet";
+
+/**
  *  AFMUIPOIViewController Strings
  */
 "afmuipoiviewcontroller.search.placeholder" = "Search for poi...";
+
+/**
+ *  AFMOutdoorToIndoor Strings
+ */
+
+"afmoutdoortoindoor.nativemap.title" = "%1$@ at %2$@";
 
 /*
  *  AFCUIMRoutingAnnotationView Strings

@@ -100,6 +100,18 @@
 "afcphonecallaction.error.alert.title" = "Error";
 "afcphonecallaction.error.alert.message" = "Su dispositivo no puede realizar llamadas";
 
+/**
+ *  AFCUIAlertSubscriptionsViewController
+ */
+"afcuialertsubscriptionviewcontroller.title" = "Perfiles";
+
+/**
+ *  AFCForgotPasswordViewController
+ */
+"afcforgotpasswordviewcontroller.alert.error.title" = "Error";
+"afcforgotpasswordviewcontroller.alert.error.description" = "Debe ingresar una dirección de correo válida";
+"afcforgotpasswordviewcontroller.alert.error.okbutton.title" = "OK";
+
 /*** AF-RENDER STRINGS ***/
 
 /*
@@ -284,6 +296,14 @@
 "afcuimmapviewcontroller.buildingloaderroralert.button" = "SÍ";
 
 /**
+ *  AFMUIMapViewController
+ */
+"afmuimapviewcontroller.distance.meter" = "%i metro";
+"afmuimapviewcontroller.distance.meters" = "%i metros";
+"afmuimapviewcontroller.distance.foot" = "%i pie";
+"afmuimapviewcontroller.distance.feet" = "%i pies";
+
+/**
  *  AFMUIPOIViewController Strings
  */
 "afmuipoiviewcontroller.search.placeholder" = "Buscar un punto de interés...";
@@ -304,6 +324,12 @@
 "afcmmappickerviewcontroller.navbar.title" = "Mapas";
 "afcmmappickerviewcontroller.promptlocationalert.title" = "Nos ayudan a guiar";
 "afcmmappickerviewcontroller.promptlocationalert.message" = "Por favor, activa los servicios de localización de manera que le guiará por las instalaciones.";
+
+/**
+ *  AFMOutdoorToIndoor Strings
+ */
+
+"afmoutdoortoindoor.nativemap.title" = "%1$@ en %2$@";
 
 /*** AF-LOCATIONMARKETING STRINGS ***/
 
