@@ -100,6 +100,10 @@
 "afcphonecallaction.error.alert.title" = "Error";
 "afcphonecallaction.error.alert.message" = "Your device is not capable of placing calls";
 
+/**
+ *  AFCUIAlertSubscriptionsViewController
+ */
+"afcuialertsubscriptionviewcontroller.title" = "Profiles";
 
 /*** AF-RENDER STRINGS ***/
 
