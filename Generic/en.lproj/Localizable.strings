@@ -299,6 +299,14 @@
 "afcuimmapviewcontroller.buildingloaderroralert.button" = "Ok";
 
 /**
+ *  AFMUIMapViewController
+ */
+"afmuimapviewcontroller.distance.meter" = "%i meter";
+"afmuimapviewcontroller.distance.meters" = "%i meters";
+"afmuimapviewcontroller.distance.foot" = "%i foot";
+"afmuimapviewcontroller.distance.feet" = "%i feet";
+
+/**
  *  AFMUIPOIViewController Strings
  */
 "afmuipoiviewcontroller.search.placeholder" = "Search for poi...";

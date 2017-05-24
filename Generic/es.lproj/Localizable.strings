@@ -296,6 +296,14 @@
 "afcuimmapviewcontroller.buildingloaderroralert.button" = "SÍ";
 
 /**
+ *  AFMUIMapViewController
+ */
+"afmuimapviewcontroller.distance.meter" = "%i metro";
+"afmuimapviewcontroller.distance.meters" = "%i metros";
+"afmuimapviewcontroller.distance.foot" = "%i pie";
+"afmuimapviewcontroller.distance.feet" = "%i pies";
+
+/**
  *  AFMUIPOIViewController Strings
  */
 "afmuipoiviewcontroller.search.placeholder" = "Buscar un punto de interés...";
