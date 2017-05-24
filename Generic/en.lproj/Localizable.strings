@@ -292,6 +292,12 @@
  */
 "afmuipoiviewcontroller.search.placeholder" = "Search for poi...";
 
+/**
+ *  AFMOutdoorToIndoor Strings
+ */
+
+"afmoutdoortoindoor.nativemap.title" = "%1$@ at %2$@";
+
 /*
  *  AFCUIMRoutingAnnotationView Strings
  */

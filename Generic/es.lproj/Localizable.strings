@@ -305,6 +305,12 @@
 "afcmmappickerviewcontroller.promptlocationalert.title" = "Nos ayudan a guiar";
 "afcmmappickerviewcontroller.promptlocationalert.message" = "Por favor, activa los servicios de localización de manera que le guiará por las instalaciones.";
 
+/**
+ *  AFMOutdoorToIndoor Strings
+ */
+
+"afmoutdoortoindoor.nativemap.title" = "%1$@ en %2$@";
+
 /*** AF-LOCATIONMARKETING STRINGS ***/
 
 /*
