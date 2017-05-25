@@ -13,7 +13,7 @@
 "afcuimroutebuilderviewcontroller.route.error.cantfindpoi" = "ونحن لا يمكن أن تجد أن في و اي، يرجى البحث من جديد.";
 "afcuimroutebuilderviewcontroller.route.error.title" = "آسف";
 "afcuimroutebuilderviewcontroller.currentlocation.text" = "الموقع الحالي";
-"afcuimroutebuilderviewcontroller.endlocationtextfield.placeholder" = " موقع البدء";
+"afcuimroutebuilderviewcontroller.startlocationtextfield.placeholder" = " موقع البدء";
 "afcuimroutebuilderviewcontroller.endlocationtextfield.placeholder" = "نهاية الدولة";
 "afcuimroutebuilderviewcontroller.startlabel.text" = "بداية";
 "afcuimroutebuilderviewcontroller.endlabel.text" = "النهاية";
