@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>itemTitleLabel</key>
+	<dict>
+		<key>lines</key>
+		<integer>2</integer>
+		<key>lineBreakMode</key>
+		<string>bywordwrapping</string>
+		<key>fontName</key>
+		<string>$MainFont</string>
+		<key>fontSize</key>
+		<integer>17</integer>
+		<key>color</key>
+		<string>$TitleColor</string>
+	</dict>
+	<key>itemSubtitleLabel</key>
+	<dict>
+		<key>fontName</key>
+		<string>$MainFont</string>
+		<key>fontSize</key>
+		<integer>15</integer>
+		<key>color</key>
+		<string>$SubtitleColor</string>
+		<key>lines</key>
+		<string>2</string>
+		<key>lineBreakMode</key>
+		<string>bywordwrapping</string>
+	</dict>
+	<key>contentView</key>
+	<dict>
+		<key>constraints</key>
+		<array>
+			<string>H:|-[itemTitleLabel]-&gt;=8-|</string>
+			<string>H:[itemSubtitleLabel]-&gt;=8-|</string>
+			<string>V:|-[itemTitleLabel]-[itemSubtitleLabel]-&gt;=8-|</string>
+			<string>#itemSubtitleLabel.leading=itemTitleLabel.leading,1,0</string>
+		</array>
+	</dict>
+	<key>self</key>
+	<dict>
+		<key>separatorInset</key>
+		<string>0,0,0,0</string>
+	</dict>
+</dict>
+</plist>
