@@ -26,8 +26,9 @@
 "afcuimroutebuilderviewcontroller.startlocationtextfield.placeholder" ="スタート ローケーション";
 "afcuimroutebuilderviewcontroller.endlocationtextfield.placeholder" = "エンド ローケーション";
 "afcuimroutebuilderviewcontroller.startlabel.text" = "スタート";
-"afcuimroutebuilderviewcontroller.endlabel.text" = "END";
-"afcuimroutebuilderviewcontroller.titlelabel.text" = "Routing";
+"afcuimroutebuilderviewcontroller.endlabel.text" = "エンド";
+"afcuimroutebuilderviewcontroller.titlelabel.text" = "ルーティング";
+"afcuimroutebuilderviewcontroller.cancelbutton.buttontitle" = "キャンセル";
 
 
 "afcuimroutebuilderviewcontroller.routebutton.buttontitle" = "ルート";
@@ -35,10 +36,10 @@
 "afcuimroutebuilderviewcontroller.outdoortoindoornotificationtitle.text" = "Welcome to";
 "afcuimroutebuilderviewcontroller.outdoortoindoornotificationtitle.message" = "Please launch the app for indoor directions to your final destination.";
 
-
+"afcuimroutebuilderviewcontroller.outdoortoindooralerttitle.text" = "ニード ディレクションズ　トゥー　ザー　ベニュー?";
 "afcuimroutebuilderviewcontroller.outdoortoindooralerttitle.message" = "ウィー ノーティスト ユー アー カレントリー ノット アット ザー ファシリッティー ンウァウルド.|ユー ライク トゥー ルート トゥー ザー ベニュー インステッド?";
 "afcuimroutebuilderviewcontroller.dismissoutdoortoindoor.buttontitle" = "ディズミス";
-"afcuimroutebuilderviewcontroller.openinmapsbutton.buttontitle" = "OPEN IN MAPS";
+"afcuimroutebuilderviewcontroller.openinmapsbutton.buttontitle" = "オーペン イン マップス";
 "afcuimroutebuilderviewcontroller.welcomebacktitle.text" = "Welcome Back!";
 
 
