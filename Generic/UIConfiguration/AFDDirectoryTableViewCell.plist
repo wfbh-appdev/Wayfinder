@@ -33,7 +33,9 @@
 		<key>color</key>
 		<string>$SubtitleColor</string>
 		<key>lines</key>
-		<string>0</string>
+		<string>2</string>
+		<key>lineBreakMode</key>
+		<string>bywordwrapping</string>
 	</dict>
 	<key>contentView</key>
 	<dict>
@@ -41,7 +43,7 @@
 		<array>
 			<string>H:|[itemImageView]-[itemTitleLabel]-&gt;=8-|</string>
 			<string>H:[itemSubtitleLabel]-&gt;=8-|</string>
-			<string>V:|[itemImageView(100)]|</string>
+			<string>V:|[itemImageView(100)]-&gt;=0-|</string>
 			<string>V:|-[itemTitleLabel]-[itemSubtitleLabel]-&gt;=8-|</string>
 			<string>#itemSubtitleLabel.leading=itemTitleLabel.leading,1,0</string>
 			<string>#itemImageView.width=itemImageView.height,1,0</string>
