@@ -8,7 +8,7 @@
 	<dict>
 		<key>constraints</key>
 		<array>
-			<string>H:|-18-[directionImageView(24)]-12-[directionLabel]-12-[caretImageView(14)]-18-|</string>
+			<string>H:|-18-[directionImageView(24)]-12-[directionLabel]-12-[caretImageView(15)]-18-|</string>
 			<string>V:|-18-[directionImageView(24)]|</string>
 			<string>V:[caretImageView(8)]-9-|</string>
 			<string>#directionLabel.centery=self.centery,1,0</string>
