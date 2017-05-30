@@ -7,7 +7,7 @@
 		<key>lines</key>
 		<integer>2</integer>
 		<key>lineBreakMode</key>
-		<string>bywordwrapping</string>
+		<string>bytruncatingtail</string>
 		<key>fontName</key>
 		<string>$MainFont</string>
 		<key>fontSize</key>
@@ -26,7 +26,7 @@
 		<key>lines</key>
 		<string>2</string>
 		<key>lineBreakMode</key>
-		<string>bywordwrapping</string>
+		<string>bytruncatingtail</string>
 	</dict>
 	<key>contentView</key>
 	<dict>
@@ -34,7 +34,7 @@
 		<array>
 			<string>H:|-[itemTitleLabel]-&gt;=8-|</string>
 			<string>H:[itemSubtitleLabel]-&gt;=8-|</string>
-			<string>V:|-[itemTitleLabel]-[itemSubtitleLabel]-&gt;=8-|</string>
+			<string>V:|-[itemTitleLabel][itemSubtitleLabel]-&gt;=8-|</string>
 			<string>#itemSubtitleLabel.leading=itemTitleLabel.leading,1,0</string>
 		</array>
 	</dict>

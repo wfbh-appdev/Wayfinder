@@ -110,6 +110,10 @@
 		<string>#aaaaaa</string>
 		<key>AccentColor</key>
 		<string>#0080ff</string>
+		<key>TitleColor</key>
+		<string>#000000</string>
+		<key>SubtitleColor</key>
+		<string>#b3b3b3</string>
 	</dict>
 </dict>
 </plist>
