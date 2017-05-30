@@ -8,6 +8,8 @@
 		<string>#ffffff</string>
 		<key>contentMode</key>
 		<string>aspectFill</string>
+		<key>clipsToBounds</key>
+		<true/>
 	</dict>
 	<key>itemTitleLabel</key>
 	<dict>
