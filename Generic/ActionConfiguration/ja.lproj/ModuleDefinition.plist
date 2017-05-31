@@ -1984,7 +1984,7 @@
 				</dict>
 				<dict>
 					<key>dataKey</key>
-					<string>Name</string>
+					<string>Phone</string>
 					<key>title</key>
 					<string>フォン</string>
 					<key>titleColor</key>

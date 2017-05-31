@@ -1970,7 +1970,7 @@
 				</dict>
 				<dict>
 					<key>dataKey</key>
-					<string>Name</string>
+					<string>Phone</string>
 					<key>title</key>
 					<string>电话</string>
 					<key>titleColor</key>

@@ -2031,7 +2031,7 @@
 				</dict>
 				<dict>
 					<key>dataKey</key>
-					<string>Name</string>
+					<string>Phone</string>
 					<key>title</key>
 					<string>Llamar</string>
 					<key>titleColor</key>
