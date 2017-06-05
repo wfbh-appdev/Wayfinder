@@ -18,8 +18,8 @@
 	<dict>
 		<key>constraints</key>
 		<array>
-			<string>H:|-13-[titleLabel]-5-|</string>
-			<string>H:|-13-[dateLabel]-5-|</string>
+			<string>H:|-14-[titleLabel]-14-|</string>
+			<string>H:|-14-[dateLabel]-14-|</string>
 			<string>H:|[eventImageView]|</string>
 			<string>V:|[eventImageView]-22-[titleLabel]-5-[dateLabel]-22-|</string>
 			<string>#eventImageView.height=eventImageView.width,0.5,0</string>
