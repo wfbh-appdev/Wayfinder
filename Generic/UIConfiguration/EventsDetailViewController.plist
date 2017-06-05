@@ -115,8 +115,8 @@
 			<string>#containerView.width=self.width,1,0</string>
 			<string>V:|[containerView]|</string>
 			<string>H:|[containerView]|</string>
-			<string>V:|-20-[headerImageView(196)]-20-[contentView]|</string>
-			<string>H:|-24-[headerImageView]-24-|</string>
+			<string>V:|-20-[headerImageView(210)]-20-[contentView]|</string>
+			<string>H:|-20-[headerImageView]-20-|</string>
 			<string>H:|[contentView]|</string>
 			<string>H:|-[buttonsView]-|</string>
 			<string>V:|-19-[buttonsStackView]-15-|</string>
