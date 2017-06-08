@@ -214,6 +214,10 @@
 "afmcofferdetailviewcontroller.alert.message" = "要删除此消息吗？";
 "afmcofferdetailviewcontroller.alert.deletebutton.title" = "没有";
 "afmcofferdetailviewcontroller.alert.cancelbutton.title" = "是";
+"afmcofferdetailviewcontroller.onetimepromoalert.cancelbutton.title" = "Cancel";
+"afmcofferdetailviewcontroller.onetimepromoalert.redeembutton.title" = "Redeem";
+"afmcofferdetailviewcontroller.onetimepromoalert.title" = "One Time Use Promotion";
+"afmcofferdetailviewcontroller.onetimepromoalert.message" = "Redeeming this offer will remove it from the Message Center.";
 
 /* * AFMCOfferSwipeViewController Strings */
 "afmcofferswipeviewcontroller.titlelabel.text" = "促销";

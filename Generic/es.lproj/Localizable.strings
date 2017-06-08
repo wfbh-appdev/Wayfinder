@@ -356,6 +356,10 @@
 "afmcofferdetailviewcontroller.alert.message" = "¿Desea eliminar el mensaje?";
 "afmcofferdetailviewcontroller.alert.deletebutton.title" = "SI";
 "afmcofferdetailviewcontroller.alert.cancelbutton.title" = "NO";
+"afmcofferdetailviewcontroller.onetimepromoalert.cancelbutton.title" = "Cancel";
+"afmcofferdetailviewcontroller.onetimepromoalert.redeembutton.title" = "Redeem";
+"afmcofferdetailviewcontroller.onetimepromoalert.title" = "One Time Use Promotion";
+"afmcofferdetailviewcontroller.onetimepromoalert.message" = "Redeeming this offer will remove it from the Message Center.";
 
 /*
  *  AFMCOfferSwipeViewController Strings
