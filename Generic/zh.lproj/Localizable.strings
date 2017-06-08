@@ -214,3 +214,55 @@
 
 /* * AFMCOfferSwipeViewController Strings */
 "afmcofferswipeviewcontroller.titlelabel.text" = "促销";
+
+/* (No Commment) */
+"afcaddeventtocalendar.addtocalendar.cancelbutton.title" = "好";
+
+/* (No Commment) */
+"afcaddeventtocalendar.addtocalendar.failure.message" = "发生错误，请重试";
+
+/* (No Commment) */
+"afcaddeventtocalendar.addtocalendar.failure.title" = "日历活动";
+
+/* (No Commment) */
+"afcaddeventtocalendar.addtocalendar.success.message" = "%@ 添加到您的日历中";
+
+/* (No Commment) */
+"afcaddeventtocalendar.addtocalendar.success.title" = "日历活动";
+
+/* (No Commment) */
+"afcaddeventtocalendar.calendarrestrictedaccess.cancelbutton.title" = "取消";
+
+/* (No Commment) */
+"afcaddeventtocalendar.calendarrestrictedaccess.message" = "要重新启用，请转到设置，并授予对您的日历的访问权限";
+
+/* (No Commment) */
+"afcaddeventtocalendar.calendarrestrictedaccess.settingsbutton.title" = "设置";
+
+/* (No Commment) */
+"afcaddeventtocalendar.calendarrestrictedaccess.title" = "访问日历受到限制";
+
+/* (No Commment) */
+"eventsdetail.share.text.body" = "查看活动 %@: %@";
+
+/* (No Commment) */
+"eventsdetail.share.text.subject" = "%@ 正在举办活动！ %@";
+
+/* (No Commment) */
+"afddirectorycategoryviewcontroller.allcategories" = "所有类别";
+
+/* (No Commment) */
+"afddirectorycategoryviewcontroller.savebutton.title" = "进行筛选";
+
+/* (No Commment) */
+"afddirectorycategoryviewcontroller.title" = "筛选";
+
+/* (No Commment) */
+"afddirectoryviewcontroller.noresults.title" = "未找到结果";
+
+/* (No Commment) */
+"afcuidynamicweather.rain.text" = "雨";
+
+/* (No Commment) */
+"afcuidynamicweather.title.text" = "今天在";
+

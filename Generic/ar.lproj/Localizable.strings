@@ -174,3 +174,55 @@
 "afmcofferdetailviewcontroller.alert.cancelbutton.title" = " نعم ";
 /* * AFMCOfferSwipeViewController Strings */
 "afmcofferswipeviewcontroller.titlelabel.text" = " ترويج ";
+
+/* (No Commment) */
+"afcaddeventtocalendar.addtocalendar.cancelbutton.title" = "موافق";
+
+/* (No Commment) */
+"afcaddeventtocalendar.addtocalendar.failure.message" = "حدث خطأ، يرجى إعادة المحاولة";
+
+/* (No Commment) */
+"afcaddeventtocalendar.addtocalendar.failure.title" = "حدث التقويم";
+
+/* (No Commment) */
+"afcaddeventtocalendar.addtocalendar.success.message" = " %@ تمت إضافته إلى التقويم";
+
+/* (No Commment) */
+"afcaddeventtocalendar.addtocalendar.success.title" = "حدث التقويم";
+
+/* (No Commment) */
+"afcaddeventtocalendar.calendarrestrictedaccess.cancelbutton.title" = "إلغاء";
+
+/* (No Commment) */
+"afcaddeventtocalendar.calendarrestrictedaccess.message" = "لإعادة تمكين، الرجاء الانتقال إلى الإعدادات ومنح حق الدخول إلى التقويم";
+
+/* (No Commment) */
+"afcaddeventtocalendar.calendarrestrictedaccess.settingsbutton.title" = "الإعدادات";
+
+/* (No Commment) */
+"afcaddeventtocalendar.calendarrestrictedaccess.title" = "الوصول إلى التقويم مقيد";
+
+/* (No Commment) */
+"eventsdetail.share.text.body" = "%@: %@ تحقق من الحدث في";
+
+/* (No Commment) */
+"eventsdetail.share.text.subject" = "%@ هو وجود حدث! %@";
+
+/* (No Commment) */
+"afddirectorycategoryviewcontroller.allcategories" = "جميع التصنيفات";
+
+/* (No Commment) */
+"afddirectorycategoryviewcontroller.savebutton.title" = "تطبيق التصفيات";
+
+/* (No Commment) */
+"afddirectorycategoryviewcontroller.title" = "مرشحات";
+
+/* (No Commment) */
+"afddirectoryviewcontroller.noresults.title" = "لم يتم العثور على نتائج";
+
+/* (No Commment) */
+"afcuidynamicweather.rain.text" = "تمطر";
+
+/* (No Commment) */
+"afcuidynamicweather.title.text" = "اليوم في";
+
