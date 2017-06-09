@@ -436,7 +436,7 @@
 						<key>cellClass</key>
 						<string>AFDDirectoryTableViewCell</string>
 						<key>imagePlaceholder</key>
-						<string>image_placeholder_detail</string>
+						<string>directory_image_placeholder_thumbnail</string>
 					</dict>
 				</dict>
 				<key>dependencies</key>
@@ -538,7 +538,7 @@
 						<key>buttons</key>
 						<string>$action.buttons</string>
 						<key>imagePlaceholder</key>
-						<string>image_placeholder_detail</string>
+						<string>directory_image_placeholder_detail</string>
 					</dict>
 				</dict>
 			</dict>
