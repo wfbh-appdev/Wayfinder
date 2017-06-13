@@ -1794,7 +1794,7 @@
 						<array>
 							<dict>
 								<key>title</key>
-								<string>NOTIFICATIONS</string>
+								<string>afcuisettingsviewcontroller.sectionname.notifications</string>
 								<key>type</key>
 								<string>action</string>
 								<key>forwardContentType</key>
@@ -1805,13 +1805,13 @@
 								<array>
 									<dict>
 										<key>name</key>
-										<string>Preferences</string>
+										<string>afcuisettingsviewcontroller.value.preferences</string>
 									</dict>
 								</array>
 							</dict>
 							<dict>
 								<key>title</key>
-								<string>Managed Provider Debug</string>
+								<string>afcuisettingsviewcontroller.sectionname.managedprovider</string>
 								<key>type</key>
 								<string>choice</string>
 								<key>cellViewClass</key>
@@ -1824,13 +1824,13 @@
 								<array>
 									<dict>
 										<key>name</key>
-										<string>On</string>
+										<string>afcuisettingsviewcontroller.value.on</string>
 										<key>identifier</key>
 										<string>On</string>
 									</dict>
 									<dict>
 										<key>name</key>
-										<string>Off</string>
+										<string>afcuisettingsviewcontroller.value.off</string>
 										<key>identifier</key>
 										<string>Off</string>
 										<key>default</key>
@@ -1840,7 +1840,7 @@
 							</dict>
 							<dict>
 								<key>title</key>
-								<string>LOCATION PROVIDER</string>
+								<string>afcuisettingsviewcontroller.sectionname.locationprovider</string>
 								<key>type</key>
 								<string>choice</string>
 								<key>cellViewClass</key>
@@ -1853,7 +1853,7 @@
 								<array>
 									<dict>
 										<key>name</key>
-										<string>Auto</string>
+										<string>afcuisettingsviewcontroller.value.auto</string>
 										<key>identifier</key>
 										<string>PWMapViewLocationTypeManagedProvider</string>
 										<key>default</key>
@@ -1879,7 +1879,7 @@
 									</dict>
 									<dict>
 										<key>name</key>
-										<string>None</string>
+										<string>afcuisettingsviewcontroller.value.none</string>
 										<key>identifier</key>
 										<string>PWMapViewLocationTypeNone</string>
 									</dict>
@@ -1887,7 +1887,7 @@
 							</dict>
 							<dict>
 								<key>title</key>
-								<string>Maas SDKs</string>
+								<string>afcuisettingsviewcontroller.sectionname.maassdk</string>
 								<key>type</key>
 								<string>listing</string>
 								<key>cellViewClass</key>
@@ -1926,14 +1926,14 @@
 							</dict>
 							<dict>
 								<key>title</key>
-								<string>ABOUT</string>
+								<string>afcuisettingsviewcontroller.sectionname.about</string>
 								<key>type</key>
 								<string>listing</string>
 								<key>items</key>
 								<array>
 									<dict>
 										<key>name</key>
-										<string>Version</string>
+										<string>afcuisettingsviewcontroller.value.version</string>
 										<key>identifier</key>
 										<string>$app.appVersion</string>
 									</dict>
@@ -1945,7 +1945,7 @@
 									</dict>
 									<dict>
 										<key>name</key>
-										<string>Device ID</string>
+										<string>afcuisettingsviewcontroller.value.deviceid</string>
 										<key>identifier</key>
 										<string>$app.kDeviceIdString</string>
 									</dict>

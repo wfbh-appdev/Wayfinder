@@ -106,6 +106,23 @@
 "afcphonecallaction.error.alert.title" = "Error";
 "afcphonecallaction.error.alert.message" = "Su dispositivo no puede realizar llamadas";
 
+/*
+ * AFCUISettingsViewController
+ */
+"afcuisettingsviewcontroller.sectionname.notifications" = "NOTIFICACIONES";
+"afcuisettingsviewcontroller.sectionname.managedprovider" = "Depurar Managed Provider";
+"afcuisettingsviewcontroller.sectionname.locationprovider" = "PROVEEDOR DE UBICACIÓN";
+"afcuisettingsviewcontroller.sectionname.maassdk" = "MaaS SDKs";
+"afcuisettingsviewcontroller.sectionname.about" = "ACERCA";
+
+"afcuisettingsviewcontroller.value.auto" = "Auto";
+"afcuisettingsviewcontroller.value.none" = "Ninguno";
+"afcuisettingsviewcontroller.value.on" = "Encendido";
+"afcuisettingsviewcontroller.value.off" = "Apagado";
+"afcuisettingsviewcontroller.value.preferences" = "Preferencias";
+"afcuisettingsviewcontroller.value.Version" = "Versión";
+"afcuisettingsviewcontroller.value.deviceid" = "ID Dispositivo";
+
 /*** AF-RENDER STRINGS ***/
 
 /*

@@ -106,6 +106,22 @@
 "afcphonecallaction.error.alert.title" = "Error";
 "afcphonecallaction.error.alert.message" = "Your device is not capable of placing calls";
 
+/*
+ * AFCUISettingsViewController
+ */
+"afcuisettingsviewcontroller.sectionname.notifications" = "NOTIFICATIONS";
+"afcuisettingsviewcontroller.sectionname.managedprovider" = "Managed Provider Debug";
+"afcuisettingsviewcontroller.sectionname.locationprovider" = "LOCATION PROVIDER";
+"afcuisettingsviewcontroller.sectionname.maassdk" = "MaaS SDKs";
+"afcuisettingsviewcontroller.sectionname.about" = "ABOUT";
+
+"afcuisettingsviewcontroller.value.auto" = "Auto";
+"afcuisettingsviewcontroller.value.none" = "None";
+"afcuisettingsviewcontroller.value.on" = "On";
+"afcuisettingsviewcontroller.value.off" = "Off";
+"afcuisettingsviewcontroller.value.preferences" = "Preferences";
+"afcuisettingsviewcontroller.value.version" = "Version";
+"afcuisettingsviewcontroller.value.deviceid" = "Device ID";
 
 /*** AF-RENDER STRINGS ***/
 
