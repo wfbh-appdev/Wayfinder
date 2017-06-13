@@ -113,6 +113,10 @@
 "afinitialdatabase.displayforceupdate.alert.title" = "错误";
 "afinitialdatabase.displayforceupdate.alert.message" = "无法启动应用程序，请验证您的设备是否已连接到网络.";
 "afinitialdatabase.displayforceupdate.alert.button" = "关闭应用程式";
+
+"afnointernetconnection.banner.message" = "没有互联网连接。体验可能会变差。";
+"afnointernetconnection.banner.button" = "可以";
+
 //无层数据库字符串
 "aflayerdatabase.displayforceupdate.alert.title" = "错误";
 "aflayerdatabase.displayforceupdate.alert.message" = "此内容需要数据连接，请检查您的手机或WiFi网络，然后重试.";
