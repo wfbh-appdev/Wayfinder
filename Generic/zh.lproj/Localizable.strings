@@ -190,6 +190,11 @@
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "分钟";
 "afmuimapviewcontroller.turnbyturn.in" = "在";
 
+/**
+ *  AFMUIPOIViewController Strings
+ */
+"afmuipoiviewcontroller.search.placeholder" = "搜索poi ...";
+
 /*** AF-LOCATIONMARKETING STRINGS ***/
 
 /* * AFCOfferWalletViewController Strings * */

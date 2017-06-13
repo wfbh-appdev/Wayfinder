@@ -151,6 +151,11 @@
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minute" = "دقيقة";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "دقائق";
 
+/**
+ *  AFMUIPOIViewController Strings
+ */
+"afmuipoiviewcontroller.search.placeholder" = "... جار البحث عن البوي";
+
 /*** AF-LOCATIONMARKETING STRINGS ***/
 
 /* * AFCOfferWalletViewController Strings * */

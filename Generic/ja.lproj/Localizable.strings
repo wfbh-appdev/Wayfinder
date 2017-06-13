@@ -73,6 +73,12 @@
 "afcparkingmapviewcontroller.locationauthorization.erroralert.message" = "ヘルプ アズ キープ トラック オブ ヨー パーキング スポット バイ イネーブリング ローケーション";
 "afcparkingmapviewcontroller.locationauthorization.erroralert.okbutton.title" = "オーケー";
 "afcparkingmapviewcontroller.locationauthorization.erroralert.cancelbutton.title" = "ノー サンクス";
+
+/**
+ *  AFMUIPOIViewController Strings
+ */
+"afmuipoiviewcontroller.search.placeholder" = "検索poi ...";
+
 //アフクパーキングノーテビウーコントロルアー・ストリングズ
 "afcparkingnoteviewcontroller.noteslabel.text" = "ライト エー ノート トゥー ヘルプ ユー リメンバー ウェア ユーブ パークト";
 "afcparkingnoteviewcontroller.titlelabel.text" = "パーキング ノート";
