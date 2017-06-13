@@ -755,7 +755,7 @@
 						<key>itemDetailContext</key>
 						<string>Event Detail</string>
 						<key>imagePlaceholder</key>
-						<string>image_placeholder_detail</string>
+						<string>events_image_placeholder_detail</string>
 					</dict>
 				</dict>
 				<key>dependencies</key>
@@ -824,7 +824,7 @@
 						<key>iconShareName</key>
 						<string>icon_share</string>
 						<key>imagePlaceholder</key>
-						<string>image_placeholder_detail</string>
+						<string>events_image_placeholder_detail</string>
 					</dict>
 				</dict>
 			</dict>
