@@ -643,8 +643,6 @@
 					<dict>
 						<key>eulaText</key>
 						<string>$module.eulaText</string>
-						<key>title</key>
-						<string>License Agreement</string>
 					</dict>
 				</dict>
 				<key>dependencies</key>
