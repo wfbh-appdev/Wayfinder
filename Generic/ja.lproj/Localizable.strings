@@ -207,10 +207,10 @@
 "afmcofferdetailviewcontroller.alert.message" = "ウッド ユー ライク トゥー ディリート ジス メシッジ?";
 "afmcofferdetailviewcontroller.alert.deletebutton.title" = "ノー";
 "afmcofferdetailviewcontroller.alert.cancelbutton.title" = "イェス";
-"afmcofferdetailviewcontroller.onetimepromoalert.cancelbutton.title" = "Cancel";
-"afmcofferdetailviewcontroller.onetimepromoalert.redeembutton.title" = "Redeem";
-"afmcofferdetailviewcontroller.onetimepromoalert.title" = "One Time Use Promotion";
-"afmcofferdetailviewcontroller.onetimepromoalert.message" = "Redeeming this offer will remove it from the Message Center.";
+"afmcofferdetailviewcontroller.onetimepromoalert.cancelbutton.title" = "キャンセル";
+"afmcofferdetailviewcontroller.onetimepromoalert.redeembutton.title" = "償還";
+"afmcofferdetailviewcontroller.onetimepromoalert.title" = "1回使用プロモーション";
+"afmcofferdetailviewcontroller.onetimepromoalert.message" = "このオファーを利用すると、メッセージセンターから削除されます。";
 
 /* * AFMCOfferSwipeViewController Strings */
 "afmcofferswipeviewcontroller.titlelabel.text" = "プロモーション";
