@@ -359,7 +359,7 @@
 "afmcofferdetailviewcontroller.onetimepromoalert.cancelbutton.title" = "Cancelar";
 "afmcofferdetailviewcontroller.onetimepromoalert.redeembutton.title" = "Redimir";
 "afmcofferdetailviewcontroller.onetimepromoalert.title" = "Promoción de uso único";
-"afmcofferdetailviewcontroller.onetimepromoalert.message" = "El canje de esta oferta lo eliminará del Centro de mensajes.";
+"afmcofferdetailviewcontroller.onetimepromoalert.message" = "Canjear esta oferta la eliminará del Centro de Mensajes.";
 
 /*
  *  AFMCOfferSwipeViewController Strings
