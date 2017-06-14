@@ -186,7 +186,7 @@
 "PWRouteInstructionDirectionStairsDown" = "走下楼梯";
 "PWRouteInstructionLast" = "你到了";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime" = "总行程时间";
-"afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "分钟";
+"afmuimapviewcontroller.turnbyturn.totaltraveltime.minute" = "分钟";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "分钟";
 "afmuimapviewcontroller.turnbyturn.in" = "在";
 
