@@ -26,6 +26,7 @@
  *   AFCUIWebViewController Strings
  */
 "afcuiwebviewcontroller.message.text" = "Por favor espere...";
+ "afcuiwebviewcontroller.title.text" = "Web View Controller";
 
 /*
  *  AFCUIModalWebBrowser Strings
@@ -120,7 +121,7 @@
 "afcuisettingsviewcontroller.value.on" = "Encendido";
 "afcuisettingsviewcontroller.value.off" = "Apagado";
 "afcuisettingsviewcontroller.value.preferences" = "Preferencias";
-"afcuisettingsviewcontroller.value.Version" = "Versión";
+"afcuisettingsviewcontroller.value.version" = "Versión";
 "afcuisettingsviewcontroller.value.deviceid" = "ID Dispositivo";
 
 /*** AF-RENDER STRINGS ***/

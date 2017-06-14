@@ -26,6 +26,7 @@
  *   AFCUIWebViewController Strings
  */
  "afcuiwebviewcontroller.message.text" = "Please wait...";
+ "afcuiwebviewcontroller.title.text" = "Web View Controller";
 
 /*
  *   AFCUIModalWebBrowser Strings
