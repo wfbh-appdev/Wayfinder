@@ -350,6 +350,12 @@
 "PWRouteInstructionDirectionRight" = "Gire a la derecha en";
 "PWRouteInstructionDirectionBearLeft" = "Oso a la izquierda en";
 "PWRouteInstructionDirectionBearRight" = "Lleve a la derecha en";
+"afmuimapviewcontroller.turnbyturn.distance.meter" = "metro";
+"afmuimapviewcontroller.turnbyturn.distance.meters" = "metros";
+"afmuimapviewcontroller.turnbyturn.distance.foot" = "pie";
+"afmuimapviewcontroller.turnbyturn.distance.feet" = "pies";
+"afmuimappickerviewcontroller.distance.km" = "km";
+"afmuimappickerviewcontroller.distance.mi" = "mi";
 //Not used
 "PWRouteInstructionDirectionFloorChange" = "";
 "PWRouteInstructionDirectionElevatorUp" = "Toma el ascensor hasta";
