@@ -368,3 +368,54 @@
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minute" = "min";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "mins";
 "afmuimapviewcontroller.turnbyturn.in" = "en";
+
+/* (No Commment) */
+"afcaddeventtocalendar.addtocalendar.cancelbutton.title" = "De Acuerdo";
+
+/* (No Commment) */
+"afcaddeventtocalendar.addtocalendar.failure.message" = "Ha ocurrido un error. Por favor intente de nuevo";
+
+/* (No Commment) */
+"afcaddeventtocalendar.addtocalendar.failure.title" = "Calendario de Eventos";
+
+/* (No Commment) */
+"afcaddeventtocalendar.addtocalendar.success.message" = "%@ se agregó a tu calendario";
+
+/* (No Commment) */
+"afcaddeventtocalendar.addtocalendar.success.title" = "Calendario de Eventos";
+
+/* (No Commment) */
+"afcaddeventtocalendar.calendarrestrictedaccess.cancelbutton.title" = "Cancelar";
+
+/* (No Commment) */
+"afcaddeventtocalendar.calendarrestrictedaccess.message" = "Para volver a activarlo, accede a Configuración y concede acceso a tu Calendario";
+
+/* (No Commment) */
+"afcaddeventtocalendar.calendarrestrictedaccess.settingsbutton.title" = "Configuración";
+
+/* (No Commment) */
+"afcaddeventtocalendar.calendarrestrictedaccess.title" = "El acceso al Calendario está Restringido\n";
+
+/* (No Commment) */
+"eventsdetail.share.text.body" = "Echa un vistazo al evento en %@:\n\n%@";
+
+/* (No Commment) */
+"eventsdetail.share.text.subject" = "%@ está teniendo un evento! %@";
+
+/* (No Commment) */
+"afddirectorycategoryviewcontroller.allcategories" = "Todos las Categorías";
+
+/* (No Commment) */
+"afddirectorycategoryviewcontroller.savebutton.title" = "Aplicar Filtros";
+
+/* (No Commment) */
+"afddirectorycategoryviewcontroller.title" = "Filtros";
+
+/* (No Commment) */
+"afddirectoryviewcontroller.noresults.title" = "No se encontraron resultados.";
+
+/* (No Commment) */
+"afcuidynamicweather.rain.text" = "lluvia";
+
+/* (No Commment) */
+"afcuidynamicweather.title.text" = "Hoy en";

@@ -219,3 +219,54 @@
 
 /* * AFMCOfferSwipeViewController Strings */
 "afmcofferswipeviewcontroller.titlelabel.text" = "プロモーション";
+
+/* (No Commment) */
+"afcaddeventtocalendar.addtocalendar.cancelbutton.title" = "了解";
+
+/* (No Commment) */
+"afcaddeventtocalendar.addtocalendar.failure.message" = "エラーが発生しました。もう一度やり直してください";
+
+/* (No Commment) */
+"afcaddeventtocalendar.addtocalendar.failure.title" = "カレンダーイベント";
+
+/* (No Commment) */
+"afcaddeventtocalendar.addtocalendar.success.message" = "%@ あなたのカレンダーに追加されました";
+
+/* (No Commment) */
+"afcaddeventtocalendar.addtocalendar.success.title" = "カレンダーイベント";
+
+/* (No Commment) */
+"afcaddeventtocalendar.calendarrestrictedaccess.cancelbutton.title" = "キャンセル";
+
+/* (No Commment) */
+"afcaddeventtocalendar.calendarrestrictedaccess.message" = "再度有効にするには、[設定]にアクセスしてカレンダーへのアクセスを許可してください";
+
+/* (No Commment) */
+"afcaddeventtocalendar.calendarrestrictedaccess.settingsbutton.title" = "設定";
+
+/* (No Commment) */
+"afcaddeventtocalendar.calendarrestrictedaccess.title" = "カレンダーへのアクセスが制限されています";
+
+/* (No Commment) */
+"eventsdetail.share.text.body" = "でのイベントをチェック %@: %@";
+
+/* (No Commment) */
+"eventsdetail.share.text.subject" = "%@ にはイベントがあります！ %@";
+
+/* (No Commment) */
+"afddirectorycategoryviewcontroller.allcategories" = "すべてのカテゴリー";
+
+/* (No Commment) */
+"afddirectorycategoryviewcontroller.savebutton.title" = "フィルターを適用";
+
+/* (No Commment) */
+"afddirectorycategoryviewcontroller.title" = "フィルター";
+
+/* (No Commment) */
+"afddirectoryviewcontroller.noresults.title" = "プロモーションは見つかりませんでした";
+
+/* (No Commment) */
+"afcuidynamicweather.rain.text" = "雨";
+
+/* (No Commment) */
+"afcuidynamicweather.title.text" = "今日の";
