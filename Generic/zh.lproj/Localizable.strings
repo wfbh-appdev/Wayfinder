@@ -192,7 +192,7 @@
 "afmuimappickerviewcontroller.distance.km" = "公里";
 "afmuimappickerviewcontroller.distance.mi" = "英里";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime" = "总行程时间";
-"afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "分钟";
+"afmuimapviewcontroller.turnbyturn.totaltraveltime.minute" = "分钟";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "分钟";
 "afmuimapviewcontroller.turnbyturn.in" = "在";
 
