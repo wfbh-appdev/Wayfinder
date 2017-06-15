@@ -133,8 +133,8 @@
 "afcuiuserloginview.loginbutton.failedtext" = "Login Failed";
 "afcuiuserloginview.loginmessage.invalidusernamepassword" = "Invalid username or password entered.\nPlease, try again.";
 
-"forms.success.title" = "Success";
-"forms.success.message" = "Your request has been sent successfully";
+"forms.success.title" = "Thank You For Contacting Us";
+"forms.success.message" = "Your message has been sent. We will reach out to you soon!";
 "forms.success.button.title" = "OK";
 "forms.error.title" = "Error";
 "forms.error.message" = "There was an error with your request";

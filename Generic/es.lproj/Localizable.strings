@@ -132,8 +132,8 @@
 "afcuiuserloginview.loginbutton.failedtext" = "Inicio de Sesión Fallido";
 "afcuiuserloginview.loginmessage.invalidusernamepassword" = "Nombre de Usuario o Contraseña\ninválidos. Por favor, intente de nuevo.";
 
-"forms.success.title" = "Enviado";
-"forms.success.message" = "Su solicitud ha sido enviada con éxito";
+"forms.success.title" = "Gracias por contactarnos";
+"forms.success.message" = "Tu mensaje ha sido enviado. Nos pondremos en contacto con usted pronto!";
 "forms.success.button.title" = "OK";
 "forms.error.title" = "Error";
 "forms.error.message" = "Ha habido un error con su solicitud";
