@@ -89,6 +89,10 @@
 		49FCFC7DF95FB8AE2E10158A /* Pods-GenericAF4.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericAF4.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4.adhoc.xcconfig"; sourceTree = "<group>"; };
 		4FBB0FA85ED06251D65C4E04 /* Pods-GenericAF4.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericAF4.distribution.xcconfig"; path = "Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4.distribution.xcconfig"; sourceTree = "<group>"; };
 		52A0D6B91ED35DD30075F424 /* EventsDetailViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EventsDetailViewController.plist; sourceTree = "<group>"; };
+		52AB9C451EF1E89C00A06AB3 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = pt; path = pt.lproj/ModuleDefinition.plist; sourceTree = "<group>"; };
+		52AB9C461EF1E89C00A06AB3 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
+		52AB9C471EF1E89C00A06AB3 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52AB9C481EF1E89D00A06AB3 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = pt; path = pt.lproj/PhunwareIntegration.plist; sourceTree = "<group>"; };
 		55173FDD1D62790500EE540B /* UIConfigurationDefault.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UIConfigurationDefault.plist; sourceTree = "<group>"; };
 		5555DB041C4460C900E37207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5555DB061C4460CC00E37207 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -429,6 +433,7 @@
 				ja,
 				ar,
 				zh,
+				pt,
 			);
 			mainGroup = 8F0613011BC8569800A55F16;
 			productRefGroup = 8F06130B1BC8569800A55F16 /* Products */;
@@ -599,6 +604,7 @@
 				C33EA5BE1E48D78B00D48C28 /* ja */,
 				C33EA5BF1E48D78D00D48C28 /* ar */,
 				C33EA5C01E48D78E00D48C28 /* zh */,
+				52AB9C471EF1E89C00A06AB3 /* pt */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -611,6 +617,7 @@
 				C33EA5B51E4543D000D48C28 /* ja */,
 				C33EA5B81E454AB300D48C28 /* ar */,
 				C33EA5BB1E48D77D00D48C28 /* zh */,
+				52AB9C451EF1E89C00A06AB3 /* pt */,
 			);
 			name = ModuleDefinition.plist;
 			sourceTree = "<group>";
@@ -631,6 +638,7 @@
 				C33EA5B71E4543D100D48C28 /* ja */,
 				C33EA5BA1E454AB300D48C28 /* ar */,
 				C33EA5BD1E48D77D00D48C28 /* zh */,
+				52AB9C481EF1E89D00A06AB3 /* pt */,
 			);
 			name = PhunwareIntegration.plist;
 			sourceTree = "<group>";
@@ -643,6 +651,7 @@
 				C33EA5B61E4543D000D48C28 /* ja */,
 				C33EA5B91E454AB300D48C28 /* ar */,
 				C33EA5BC1E48D77D00D48C28 /* zh */,
+				52AB9C461EF1E89C00A06AB3 /* pt */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
