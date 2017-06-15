@@ -354,6 +354,12 @@
 "PWRouteInstructionDirectionRight" = "Turn right in";
 "PWRouteInstructionDirectionBearLeft" = "Bear left in";
 "PWRouteInstructionDirectionBearRight" = "Bear right in";
+"afmuimapviewcontroller.turnbyturn.distance.meter" = "meter";
+"afmuimapviewcontroller.turnbyturn.distance.meters" = "meters";
+"afmuimapviewcontroller.turnbyturn.distance.foot" = "foot";
+"afmuimapviewcontroller.turnbyturn.distance.feet" = "feet";
+"afmuimappickerviewcontroller.distance.km" = "km";
+"afmuimappickerviewcontroller.distance.mi" = "mi";
 //Not used
 "PWRouteInstructionDirectionFloorChange" = "";
 "PWRouteInstructionDirectionElevatorUp" = "Take the elevator up to";

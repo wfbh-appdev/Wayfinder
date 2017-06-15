@@ -146,6 +146,12 @@
 "PWRouteInstructionDirectionStairsUp" = "خذ على الدرج الى";
 "PWRouteInstructionDirectionStairsDown" = "اصعد السلالم وصولا الى";
 "PWRouteInstructionLast" = "كنت قد وصلت في";
+"afmuimapviewcontroller.turnbyturn.distance.meter" = "متر";
+"afmuimapviewcontroller.turnbyturn.distance.meters" = "امتار";
+"afmuimapviewcontroller.turnbyturn.distance.foot" = "قدم";
+"afmuimapviewcontroller.turnbyturn.distance.feet" = "أقدام";
+"afmuimappickerviewcontroller.distance.km" = "كيلومترات";
+"afmuimappickerviewcontroller.distance.mi" = "اميال";
 "afmuimapviewcontroller.turnbyturn.in" = "في";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime" = "إجمالي مدة السفر";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minute" = "دقيقة";

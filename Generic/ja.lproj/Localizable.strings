@@ -184,6 +184,12 @@
 "PWRouteInstructionDirectionStairsUp" = "テーク ザー ステアズ アップ トゥー";
 "PWRouteInstructionDirectionStairsDown" = "テーク ザー ステアズ ダウン トゥー";
 "PWRouteInstructionLast" = "ユーブ アライブド アット";
+"afmuimapviewcontroller.turnbyturn.distance.meter" = "メートル";
+"afmuimapviewcontroller.turnbyturn.distance.meters" = "メートル";
+"afmuimapviewcontroller.turnbyturn.distance.foot" = "フィート";
+"afmuimapviewcontroller.turnbyturn.distance.feet" = "フィート";
+"afmuimappickerviewcontroller.distance.km" = "キロ";
+"afmuimappickerviewcontroller.distance.mi" = "マイル";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime" = "トータル トラベル タイム";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minute" = "ミーンズ";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "ミーンズ";
