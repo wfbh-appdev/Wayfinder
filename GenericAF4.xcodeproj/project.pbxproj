@@ -10,6 +10,7 @@
 		3C1DE4301C3F306B0074369D /* AFGoogleAnalyticsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1DE42F1C3F306B0074369D /* AFGoogleAnalyticsController.m */; };
 		4AD72CD87B22250320E754C5 /* libPods-GenericAF4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5A55BB941F06A8E81EA3DF /* libPods-GenericAF4.a */; };
 		52A0D6BA1ED35DD30075F424 /* EventsDetailViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52A0D6B91ED35DD30075F424 /* EventsDetailViewController.plist */; };
+		52AB9C421EF04EA700A06AB3 /* AFCBannerNotificationView.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52AB9C411EF04EA700A06AB3 /* AFCBannerNotificationView.plist */; };
 		55173FDE1D62790500EE540B /* UIConfigurationDefault.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55173FDD1D62790500EE540B /* UIConfigurationDefault.plist */; };
 		551BF9251C1B51E9004D7ECD /* (null) in Resources */ = {isa = PBXBuildFile; };
 		551BF9261C1B51E9004D7ECD /* (null) in Resources */ = {isa = PBXBuildFile; };
@@ -93,6 +94,7 @@
 		52AB9C461EF1E89C00A06AB3 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
 		52AB9C471EF1E89C00A06AB3 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		52AB9C481EF1E89D00A06AB3 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = pt; path = pt.lproj/PhunwareIntegration.plist; sourceTree = "<group>"; };
+		52AB9C411EF04EA700A06AB3 /* AFCBannerNotificationView.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCBannerNotificationView.plist; sourceTree = "<group>"; };
 		55173FDD1D62790500EE540B /* UIConfigurationDefault.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UIConfigurationDefault.plist; sourceTree = "<group>"; };
 		5555DB041C4460C900E37207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5555DB061C4460CC00E37207 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -312,6 +314,7 @@
 				8F43559A1BC85B8F00FFD46C /* EventsListViewController.plist */,
 				8F43559B1BC85B8F00FFD46C /* EventTableViewCell.plist */,
 				55173FDD1D62790500EE540B /* UIConfigurationDefault.plist */,
+				52AB9C411EF04EA700A06AB3 /* AFCBannerNotificationView.plist */,
 			);
 			path = UIConfiguration;
 			sourceTree = "<group>";
@@ -477,6 +480,7 @@
 				7E13033A1CDA453100AF350E /* AFMUIMapPickerTableViewCell.plist in Resources */,
 				7E75FD9C1E3A77170025A831 /* AFMUITurnByTurnTableViewCell.plist in Resources */,
 				8F43558A1BC858B700FFD46C /* AFCParkingVoiceMemoViewController.plist in Resources */,
+				52AB9C421EF04EA700A06AB3 /* AFCBannerNotificationView.plist in Resources */,
 				8F5FFFBD1BCC2F58000B027C /* AFMUIPOIViewController.plist in Resources */,
 				8F5FFFC11BCC2F58000B027C /* AFMUIPOIDetailViewController.plist in Resources */,
 				7E699E761C97708B00000BA9 /* AFCLayerPickerTableViewCell.plist in Resources */,

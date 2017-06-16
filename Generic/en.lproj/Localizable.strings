@@ -83,6 +83,12 @@
  "afinitialdatabase.displayforceupdate.alert.button" = "Close app";
 
 /*
+ *  No Connection Available
+ */
+"afnointernetconnection.banner.message" = "No internet connection. Experience may be degraded.";
+"afnointernetconnection.banner.button" = "Ok";
+
+/*
  *  No Layer Database Strings
  */
  "aflayerdatabase.displayforceupdate.alert.title" = "Error";

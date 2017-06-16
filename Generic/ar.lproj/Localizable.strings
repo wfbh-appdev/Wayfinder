@@ -91,6 +91,8 @@
 "afinitialdatabase.displayforceupdate.alert.title" = "خطأ";
 "afinitialdatabase.displayforceupdate.alert.message" = "غير قادر على بدء التطبيق. الرجاء التحقق من أن جهازك متصلا بشبكة.";
 "afinitialdatabase.displayforceupdate.alert.button" = "انهيار التطبيق";
+"afnointernetconnection.banner.message" = "لا يوجد اتصال بالإنترنت، وقد تتأثر التجربة سلباً.";
+"afnointernetconnection.banner.button" = "حسنا";
 "aflayerdatabase.displayforceupdate.alert.title" = "خطأ";
 "aflayerdatabase.displayforceupdate.alert.message" = "هذا المحتوى يتطلب اتصال البيانات، الرجاء التحقق من شبكة الهاتف النقال أو واي فاي وحاول مرة أخرى.";
 "aflayerdatabase.displayforceupdate.alert.button" = "حسنا";

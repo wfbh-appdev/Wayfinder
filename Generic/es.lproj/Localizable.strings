@@ -83,6 +83,12 @@
 "afinitialdatabase.displayforceupdate.alert.button" = "Cerca de aplicación";
 
 /*
+ *  No Connection Available
+ */
+"afnointernetconnection.banner.message" = "Sin conexión a internet. La experiencia puede verse mermada.";
+"afnointernetconnection.banner.button" = "Ok";
+
+/*
  *  No Layer Database Strings
  */
 "aflayerdatabase.displayforceupdate.alert.title" = "Error";

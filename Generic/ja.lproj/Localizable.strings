@@ -122,6 +122,10 @@
 "afinitialdatabase.displayforceupdate.alert.title" = "エラー";
 "afinitialdatabase.displayforceupdate.alert.message" = "アネーブル トゥー スタート ザー アプリケーション プリーズ・ベリファイ ザット ヨー ディバイス イズ コネクティッド トゥー エー ネトワーク";
 "afinitialdatabase.displayforceupdate.alert.button" = "クローズ アップ";
+
+"afnointernetconnection.banner.message" = "インターネット接続がありまあせん。使用に不都合が発生する可能性があります。";
+"afnointernetconnection.banner.button" = "オーケー";
+
 //ノー・レーアー・データベース・ストリングズ
 "aflayerdatabase.displayforceupdate.alert.title" = "エラー";
 "aflayerdatabase.displayforceupdate.alert.message" = "ジス コンテント リクァイーアーズ エー データー コネクション プリーズ チェック ヨー モーバイル オー ウィフィー ネトワーク アンド トライ アゲン";
