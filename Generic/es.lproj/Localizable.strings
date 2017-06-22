@@ -124,6 +124,16 @@
 "afcuisettingsviewcontroller.value.version" = "Versión";
 "afcuisettingsviewcontroller.value.deviceid" = "ID Dispositivo";
 
+/*
+ * AFCDetailViewConfigurator
+ */
+
+"detailconfig.directory.route" = "Ruta";
+"detailconfig.directory.call" = "Llamar";
+"detailconfig.directory.email" = "Email";
+"detailconfig.directory.website" = "Sitio Web";
+"detailconfig.directory.map" = "Mapa";
+
 /*** AF-RENDER STRINGS ***/
 
 /*

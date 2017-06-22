@@ -2034,7 +2034,7 @@
 					<key>dataKey</key>
 					<string>POI</string>
 					<key>title</key>
-					<string>Route</string>
+					<string>detailconfig.directory.route</string>
 					<key>titleColor</key>
 					<string>#000000</string>
 					<key>titleFontName</key>
@@ -2056,7 +2056,7 @@
 					<key>dataKey</key>
 					<string>Name</string>
 					<key>title</key>
-					<string>Call</string>
+					<string>detailconfig.directory.call</string>
 					<key>titleColor</key>
 					<string>#000000</string>
 					<key>titleFontName</key>
@@ -2078,7 +2078,7 @@
 					<key>dataKey</key>
 					<string>Email</string>
 					<key>title</key>
-					<string>Email</string>
+					<string>detailconfig.directory.email</string>
 					<key>titleColor</key>
 					<string>#000000</string>
 					<key>titleFontName</key>
@@ -2100,7 +2100,7 @@
 					<key>dataKey</key>
 					<string>Website</string>
 					<key>title</key>
-					<string>Website</string>
+					<string>detailconfig.directory.website</string>
 					<key>titleColor</key>
 					<string>#000000</string>
 					<key>titleFontName</key>
@@ -2122,7 +2122,7 @@
 					<key>dataKey</key>
 					<string>POI</string>
 					<key>title</key>
-					<string>Map</string>
+					<string>detailconfig.directory.map</string>
 					<key>titleColor</key>
 					<string>#000000</string>
 					<key>titleFontName</key>
