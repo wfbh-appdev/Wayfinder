@@ -108,6 +108,8 @@
 		<string>#333333</string>
 		<key>LightGrayColor</key>
 		<string>#aaaaaa</string>
+		<key>AccentColor</key>
+		<string>#0080ff</string>
 	</dict>
 </dict>
 </plist>

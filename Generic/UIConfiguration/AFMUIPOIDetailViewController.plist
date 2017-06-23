@@ -31,15 +31,14 @@
 	<dict>
 		<key>constraints</key>
 		<array>
-			<string>V:|-10-[favoritesButton(40)]-&gt;=0-|</string>
-			<string>V:|-&gt;=0-[poiName]-2-[poiLevel]-10-|</string>
+			<string>V:|-&gt;=0-[poiName]-2-[poiLevel]-&gt;=0-|</string>
 			<string>H:|[bottomMargin]|</string>
 			<string>V:|-10-[bottomMargin]|</string>
 			<string>H:|[maskView]|</string>
 			<string>V:|[maskView]-&gt;=0-|</string>
 			<string>#poiLevel.left=poiName.left,1,0</string>
 			<string>#poiLevel.width=poiName.width,1,0</string>
-			<string>#poiName.centery=favoritesButton.centery,1,0</string>
+			<string>#poiName.centery=shareButton.centery,1,0</string>
 			<string>#maskView.height=headerView.height,1,-35</string>
 		</array>
 	</dict>
@@ -47,11 +46,11 @@
 	<dict>
 		<key>constraints</key>
 		<array>
-			<string>H:|-20-[poiName]-5-[favoritesButton(40)][shareButton(40)][routeButton(40)]-10-|</string>
-			<string>#shareButton.top=favoritesButton.top,1,0</string>
-			<string>#routeButton.top=favoritesButton.top,1,0</string>
-			<string>#shareButton.height=favoritesButton.height,1,0</string>
-			<string>#routeButton.height=favoritesButton.height,1,0</string>
+			<string>H:|-20-[poiName]-5-[shareButton(40)][routeButton(40)]-10-|</string>
+			<string>V:|-10-[shareButton(40)]-&gt;=0-|</string>
+			<string>#routeButton.top=shareButton.top,1,0</string>
+			<string>#shareButton.height=shareButton.height,1,0</string>
+			<string>#routeButton.height=shareButton.height,1,0</string>
 		</array>
 	</dict>
 	<key>headerView#forCampusSelector</key>
@@ -102,7 +101,7 @@
 		<key>color</key>
 		<string>$BlackColor</string>
 		<key>lines</key>
-		<integer>1</integer>
+		<integer>0</integer>
 	</dict>
 	<key>poiLevel</key>
 	<dict>

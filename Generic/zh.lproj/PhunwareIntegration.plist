@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Crashlytics API Key</key>
+	<string>#ENTER A VALID VALUE#</string>
+	<key>Analytics</key>
+	<dict>
+		<key>TOKEN_MIXPANEL</key>
+		<string>YOUR_MIXPANEL_TOKEN</string>
+		<key>TOKEN_GOOGLE</key>
+		<string>YOUR_GOOGLE_TOKEN</string>
+		<key>TOKEN_MAAS</key>
+		<string>YOUR_MAAS_TOKEN</string>
+		<key>TOKEN_LOCALYTICS</key>
+		<string>YOUR_LOCALYTICS_TOKEN</string>
+		<key>TOKEN_FLURRY</key>
+		<string>YOUR_FLURRY_TOKEN</string>
+	</dict>
+	<key>LogSettings</key>
+	<dict>
+		<key>logToStdout</key>
+		<true/>
+		<key>verbosity</key>
+		<string>Debug</string>
+	</dict>
+	<key>Core WS Integration</key>
+	<dict>
+		<key>topLevelContentName</key>
+		<string>Phunware Corporate</string>
+		<key>applicationUUID</key>
+		<string>8bb1ca9a-6799-468c-a286-cfc70dd553d0</string>
+		<key>webservicesID</key>
+		<string>e7ee6efb-c66e-11df-bbda-ab061b74f77a</string>
+		<key>webservicesKey</key>
+		<string>15be1351-c66f-11df-bbda-ab061b74f77a</string>
+	</dict>
+	<key>MaaS Integration</key>
+	<dict>
+		<key>MaaSAppID</key>
+		<string>1551</string>
+		<key>MaaSAccessKey</key>
+		<string>34e67d95eff09043966fb005249da67227004633</string>
+		<key>MaaSSignatureKey</key>
+		<string>d7c3a0a01df10914a284514e5de562d0d97e3e07</string>
+		<key>S3URL</key>
+		<string>https://solutions-db.phunware.com</string>
+	</dict>
+	<key>StartupSettings</key>
+	<dict>
+		<key>ShowSettings</key>
+		<true/>
+		<key>ShowSubscriptions</key>
+		<true/>
+		<key>TourEnabled</key>
+		<true/>
+	</dict>
+	<key>PowerUser</key>
+	<dict>
+		<key>Days</key>
+		<string>7</string>
+		<key>TriggerValue</key>
+		<string>3</string>
+		<key>Attribute</key>
+		<string>poweruser</string>
+	</dict>
+</dict>
+</plist>

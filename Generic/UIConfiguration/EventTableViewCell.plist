@@ -2,23 +2,53 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>detailTextLabel</key>
+    <key>self</key>
+    <dict>
+        <key>selectionStyle</key>
+        <string>none</string>
+    </dict>
+	<key>eventImageView</key>
+	<dict/>
+	<key>contentView</key>
 	<dict>
-		<key>fontName</key>
-		<string>$MainFontLight</string>
-		<key>color</key>
-		<string>$BlueColor</string>
-		<key>fontSize</key>
-		<string>13</string>
+		<key>backgroundColor</key>
+		<string>#ECECEC</string>
+		<key>constraints</key>
+		<array>
+			<string>H:|-14-[cardContainerView]-14-|</string>
+			<string>V:|-14-[cardContainerView]|</string>
+		</array>
 	</dict>
-	<key>textLabel</key>
+	<key>cardContainerView</key>
+	<dict>
+		<key>constraints</key>
+		<array>
+			<string>H:|-14-[titleLabel]-14-|</string>
+			<string>H:|-14-[dateLabel]-14-|</string>
+			<string>H:|[eventImageView]|</string>
+			<string>V:|[eventImageView]-22-[titleLabel]-5-[dateLabel]-22-|</string>
+			<string>#eventImageView.height=eventImageView.width,0.5,0</string>
+		</array>
+		<key>backgroundColor</key>
+		<string>$WhiteColor</string>
+	</dict>
+	<key>dateLabel</key>
 	<dict>
 		<key>fontName</key>
-		<string>$MainFontLight</string>
+		<string>$MainFontMedium</string>
 		<key>color</key>
-		<string>$BlackColor</string>
+		<string>#323232</string>
 		<key>fontSize</key>
-		<string>17</string>
+		<string>15</string>
+	</dict>
+	<key>titleLabel</key>
+	<dict>
+		<key>fontName</key>
+		<string>$MainFontMedium</string>
+		<key>color</key>
+		<string>#323232</string>
+		<key>fontSize</key>
+		<string>20</string>
 	</dict>
 </dict>
 </plist>

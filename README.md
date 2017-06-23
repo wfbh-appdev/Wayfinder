@@ -1,5 +1,5 @@
 # solutions-app-generic
-AppFramework for iOS *(4.1.0)*
+AppFramework for iOS *(4.2.0)*
 ===================
 
 

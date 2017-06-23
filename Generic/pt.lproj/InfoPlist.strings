@@ -1,0 +1,13 @@
+/* 
+  InfoPlist.strings
+  GenericAF4
+
+  Created by Hugo Oscar on 1/11/16.
+  Copyright © 2016 Phunware. All rights reserved.
+*/
+/**
+ * info.plist
+ */
+
+"NSLocationWhenInUseUsageDescription" = "Help us determine directions to and around your destination";
+"NSLocationAlwaysUsageDescription" = "Help us determine directions to and around your destination";

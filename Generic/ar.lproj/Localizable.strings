@@ -1,0 +1,241 @@
+"mall.detail.error.phone.message" = "فإنه لا يبدو أن لديها رقم هاتف.";
+"mall.detail.error.phone.title" = "";
+"mall.detail.error.website.message" = "فإنه لا يبدو أن لديها موقع على شبكة الانترنت. ";
+"mall.detail.error.website.title" = "";
+"afcclearcacheaction.prompt.message" = "سيؤدي هذا إلى مسح جميع البيانات المحفوظة وإعادة إطلاق التطبيق. هل أنت متأكد من أنك تريد المتابعة؟ ";
+"afcclearcacheaction.cancel.title" = "إلغاء";
+"afcclearcacheaction.ok.title" = "واضح  مخبأ";
+//  AFCUIMAnnotationDirectoryViewController Strings
+"afcuimannotationdirectoryviewcontroller.titlelabel.text" = " في وأي دليل";
+"afcuimannotationdirectoryviewcontroller.noresultsfound.text" = "لا نتائج وجدت";
+//  AFCUIMRouteBuilderViewController Strings
+"afcuimroutebuilderviewcontroller.route.error.endstart.same" = "يجب أن يكون نقطة بداية ونهاية مختلفة.";
+"afcuimroutebuilderviewcontroller.route.error.cantfindpoi" = "ونحن لا يمكن أن تجد أن في و اي، يرجى البحث من جديد.";
+"afcuimroutebuilderviewcontroller.route.error.title" = "آسف";
+"afcuimroutebuilderviewcontroller.currentlocation.text" = "الموقع الحالي";
+"afcuimroutebuilderviewcontroller.startlocationtextfield.placeholder" = " موقع البدء";
+"afcuimroutebuilderviewcontroller.endlocationtextfield.placeholder" = "نهاية الدولة";
+"afcuimroutebuilderviewcontroller.startlabel.text" = "بداية";
+"afcuimroutebuilderviewcontroller.endlabel.text" = "النهاية";
+"afcuimroutebuilderviewcontroller.titlelabel.text" = "التوجيه";
+"afcuimroutebuilderviewcontroller.cancelbutton.buttontitle" = "إلغاء";
+"afcuimroutebuilderviewcontroller.routebutton.buttontitle" = "الطريق";
+"afcuimroutebuilderviewcontroller.handicapaccessibilitylabel.text" = "هانديكاب الوصول";
+"afcuimroutebuilderviewcontroller.outdoortoindoornotificationtitle.text" = "مرحبا بكم في";
+"afcuimroutebuilderviewcontroller.outdoortoindoornotificationtitle.message" = "يرجى إطلاق التطبيق عن الاتجاهات الداخلية إلى وجهتك النهائية.";
+"afcuimroutebuilderviewcontroller.outdoortoindooralerttitle.text" = "تحتاج الاتجاهات إلى المكان?";
+"afcuimroutebuilderviewcontroller.outdoortoindooralerttitle.message" = "لاحظنا أنك حاليا لا في المرفق. \ هل ترغب في الطريق إلى مكان بدلا من ذلك?";
+"afcuimroutebuilderviewcontroller.dismissoutdoortoindoor.buttontitle" = "استبعاد";
+"afcuimroutebuilderviewcontroller.openinmapsbutton.buttontitle" = "فتح الخريطة";
+"afcuimroutebuilderviewcontroller.welcomebacktitle.text" = "أهلا بكم من جديد!";
+"afcuimroutebuilderviewcontroller.welcomebackmessage.text" = "سنقوم الآن تستمر عملية التوجيه من موقف للسيارات \ إلى وجهتك التي تم اختيارها مسبقا.";
+"afcuimroutebuilderviewcontroller.welcomebackdismiss.buttontitle" = "استبعاد";
+"afcuimroutebuilderviewcontroller.welcomebackrouteme.buttontitle" = "طريق أنا؛";
+//  AFCUIMPOIFilterEditorViewController Strings
+"afcuimpoifiltereditorviewcontroller.savefiltersbutton.buttontitle" = "حفظ مرشحات";
+"afcuimpoifiltereditorviewcontroller.cancelbutton.buttontitle" = "إلغاء";
+"afcuimpoifiltereditorviewcontroller.titlelabel.text" = "اختار في و اي فلتر";
+//  AFCUIAnnotationDetailViewController Strings
+"afcuiannotationdetailviewcontroller.selectCampusButton.buttontitle" = "اختر هذا الحرم الجامعي";
+//   AFCUIEULAViewController Strings
+"afcuieulaviewcontroller.agreebutton.buttontitle" = "أنا أتفق";
+"afcuieulaviewcontroller.navbar.title" = "اتفاقية الترخيص";
+//   AFCUIWebViewController Strings
+"afcuiwebviewcontroller.message.text" = " الرجاء الانتظار...";
+"afcuimodalwebbrowser.closeButton.buttontitle" = "أغلق";
+//AFCUIModalWebBrowser Strings
+"afcuimodalwebbrowser.status.text" = "تحميل";
+"afcuimodalwebbrowser.closebutton.buttontitle" = "أغلق";
+//  AFCParkingMapViewController Strings
+"afcparkingmapviewcontroller.droppinbutton.buttontitle" = "إسقاط دبوس";
+"afcparkingmapviewcontroller.droppinbutton.clearenabled.buttontitle" = "واضح";
+"afcparkingmapviewcontroller.droppinbutton.droppinenabled.buttontitle" = "إسقاط دبوس";
+"afcparkingmapviewcontroller.droppinbutton.droppindisabled.buttontitle" = "إسقاط دبوس";
+"afcparkingmapviewcontroller.titlelabel.text" = "دبوس مكاني";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.title" = "يرجى تمكين الموقع";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.message" = "ساعدونا في تتبع مكان وقوف السيارات الخاصة بك من خلال تمكين الموقع";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.okbutton.title" = "حسنا";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.cancelbutton.title" = "لا شكرا";
+"afcparkingnoteviewcontroller.noteslabel.text" = "كتابة مذكرة لمساعدتك على تذكر أين كنت واقفة...";
+"afcparkingnoteviewcontroller.titlelabel.text" = "مواقف ملاحظة";
+"afcparkingphotoviewcontroller.message.text" = "يرجى النقر على زر الكاميرا \ أدناه لالتقاط صورة";
+"afcparkingphotoviewcontroller.deniedcamera.message.text" = "لالتقاط صورة من مكان وقوف السيارات الخاصة بك، أرجو أن تسمحوا للتطبيق بالوصول إلى كاميرا الهاتف الخاص بك.";
+"afcparkingphotoviewcontroller.restrictedcamera.message.text" = "لا يمكن الوصول إلى الكاميرا بسبب القيود المفروضة على جهازك.";
+"afcparkingviewcontroller.parkingremindertitle.text" = "تذكير للسيارات";
+"afcparkingviewcontroller.parkingchoosemethod.text" = "اختيار الأسلوب أدناه:";
+"afcparkingviewcontroller.gpslocationbuttonlabel.text" = "دبوس جي في يس الموقع";
+"afcparkingviewcontroller.takepicturebuttonlabel.text" = "التقط صوره";
+"afcparkingviewcontroller.recordvoicememobuttonlabel.text" = "تسجيل مذكرة";
+"afcparkingviewcontroller.writenotebuttonlabel.text" = "اكتب ملاحظة";
+"afcparkingviewcontroller.locationsavedmessage.text" = "موقع محفوظ";
+"afcparkingviewcontroller.imagesavedmessage.text" = "الصورة المحفوظة";
+"afcparkingviewcontroller.voicememosavedmessage.text" = "مذكرة صوت تم حفظها";
+"afcparkingviewcontroller.notesavedmessage.text" = "ملاحظة محفوظ";
+"afcparkingviewcontroller.titlelabel.text" = "موقف سيارات";
+"afcparkingvoicememoviewcontroller.recordvoicememotitle.text" = "تسجيل مذكرة لمساعدتك على تذكر";
+"afcparkingvoicememoviewcontroller.titlelabel.text" = "مذكرة للسيارات ";
+"afcuiwebviewcontroller.message.text" = "أرجو الإنتظار...";
+"afcofferwalletviewcontroller.titlelabel.text" = "عروض";
+"afcofferwalletviewcontroller.cell.expirationdate.detailtextlabel.text" = "تنتهي";
+"afcofferwalletviewcontroller.cell.nooffers.text" = "لا عروض";
+"afcofferwalletviewcontroller.header.validoffers.text" = "عروض صالحة";
+"afcofferwalletviewcontroller.header.expiredoffers.text" = "عروض منتهية الصلاحية";
+"afccheckforceupdate.prompt.message.displayforceupdate.alert.title" = "مطلوب التحديث";
+"afccheckforceupdate.displayforceupdate.alert.title" = "التطبيق تحديث متاح";
+"afccheckforceupdate.displayforceupdate.alert.message" = "لقد تم الافراج عن نسخة جديدة. يجب تحديث إلى الإصدار الأحدث.";
+"afccheckforceupdate.displayforceupdate.alert.button.title" = "تحديث";
+"afccheckforceupdate.displayupdateavailable.alert.title" = "التحديث متاح";
+"afccheckforceupdate.displayupdateavailable.alert.message" = "لقد تم الافراج عن نسخة جديدة. يرجى تحديث إلى الإصدار الأحدث.";
+"afccheckforceupdate.displayupdateavailable.alert.button.title" = "تحديث";
+"afccheckforceupdate.displayupdateavailable.alert.cancel.title" = "ليس الان";
+"afinitialdatabase.displayforceupdate.alert.title" = "خطأ";
+"afinitialdatabase.displayforceupdate.alert.message" = "غير قادر على بدء التطبيق. الرجاء التحقق من أن جهازك متصلا بشبكة.";
+"afinitialdatabase.displayforceupdate.alert.button" = "انهيار التطبيق";
+"afnointernetconnection.banner.message" = "لا يوجد اتصال بالإنترنت، وقد تتأثر التجربة سلباً.";
+"afnointernetconnection.banner.button" = "حسنا";
+"aflayerdatabase.displayforceupdate.alert.title" = "خطأ";
+"aflayerdatabase.displayforceupdate.alert.message" = "هذا المحتوى يتطلب اتصال البيانات، الرجاء التحقق من شبكة الهاتف النقال أو واي فاي وحاول مرة أخرى.";
+"aflayerdatabase.displayforceupdate.alert.button" = "حسنا";
+"afceulapromoptaction.prompt.message" = "هل توافق على اتفاقية الترخيص وشروط والشروط?";
+"afceulapromoptaction.prompt.message.title" = "اتفاقية الترخيص";
+"afceulapromoptaction.prompt.message.agreebutton.title" = "توافق";
+"afceulapromoptaction.prompt.message.viewbutton.title" = "رأي";
+"afcdirectoryviewcontroller.viewdidload.allString" = "جميع";
+"afcdirectoryviewcontroller.viewdidload.favoritesString" = "المفضلة";
+"afcdirectoryviewcontroller.setSearchBarPlaceHolder.searchText" = "بحث";
+"afcuimmapviewcontroller.searchbar.text" = "بحث...";
+"afcuimroutingannotationview.starthereannotation.title" = "بداية";
+"afcuimroutingannotationview.destinationannotation.title" = "النهاية";
+"afcuimroutingannotationview.taptogoback.title" = "  حنفية إلى اذهب الى الخلف";
+"afcuimroutingannotationview.taptoviewnext.title" = " حنفية إلى رأي التالى";
+"afcuimroutingannotationview.tome.title" = "أخذ";
+"afcuimroutingannotationview.hacia.title" = "إلى";
+"afcdirectoryviewcontroller.nonetwork.failure.title" = "دليل";
+"afcdirectoryviewcontroller.nonetwork.failure.message" = "هذا المحتوى يتطلب اتصال البيانات، الرجاء التحقق من شبكة الهاتف النقال أو واي فاي وحاول مرة أخرى.";
+"afcdirectoryviewcontroller.nonetwork.failure.cancelbutton.title" = "حسنا";
+"afcdirectoryviewcontroller.noresultsfound.title" = "لا توجد نتائج.";
+"afcdirectoryviewcontroller.filternotice.title" = "مصفى من";
+"afcdirectoryviewcontroller.filtercategory.title" = "جميع";
+"afcdirectoryviewcontroller.filtercategorybutton.title" = "فلتر";
+"afclayerpickerviewcontroller.navbar.default.title" = "مستويات";
+"afclayerpickerviewcontroller.searchbar.default.text" = "بحث";
+"afcmmappickerviewcontroller.navbar.title" = "خرائط";
+"afcmmappickerviewcontroller.promptlocationalert.title" = "ساعدونا في إرشادك";
+"afcmmappickerviewcontroller.promptlocationalert.message" = "يرجى تمكين خدمات الموقع ولذا فإننا يمكن أن تظهر لك أقرب موقع.";
+"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.title" = "إعدادات التنبيه";
+"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.message" = "يرجى شرائح تنبيه الإعداد لهذا التطبيق على البوابة.";
+"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.cancelbutton.title" = "حسنا";
+"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.title" = "إعدادات التنبيه";
+"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.message" = "هذا المحتوى يتطلب اتصال البيانات، الرجاء التحقق من شبكة الهاتف النقال أو واي فاي وحاول مرة أخرى.";
+"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.cancelbutton.title" = "حسنا";
+"afcuimmapviewcontroller.promptlocationalert.title" = "ساعدونا في إرشادك";
+"afcuimmapviewcontroller.promptlocationalert.message" = "يرجى تمكين خدمات الموقع حتى نتمكن من إرشادك حول منشأة.";
+"afcuimmapviewcontroller.promptlocationalert.takemetherebutton" = "خذني هناك";
+"afcuimmapviewcontroller.promptlocationalert.cancelbutton" = "لا شكرا";
+"afcuimmapviewcontroller.buildingloaderroralert.title" = "خطأ خريطة";
+"afcuimmapviewcontroller.buildingloaderroralert.message" = "ونحن لا يمكن تحميل خريطة في هذا الوقت. تحقق من اتصال الشبكة.";
+"afcuimmapviewcontroller.buildingloaderroralert.button" = "حسنا";
+"afcuimmapviewcontroller.endPointOfInterest.message" = "كنت قد وصلت.";
+"afcuimapviewcontroller.nopoifound.alert.title" = "وفي و أي لم يتم العثور على";
+"afcuimapviewcontroller.nopoifound.alert.message" = "وفي و أي لم يتم العثور في المبنى في و أي أيس.";
+
+"PWRouteInstructionDirectionLeft" = "يستدير لليسار في";
+"PWRouteInstructionDirectionRight" = "يمينا في";
+"PWRouteInstructionDirectionBearLeft" = "الدب اليسار في";
+"PWRouteInstructionDirectionBearRight" = "الدب اليمين في";
+"PWRouteInstructionDirectionElevatorUp" = "اتخاذ المصعد يصل إلى";
+"PWRouteInstructionDirectionElevatorDown" = "استقل المصعد الى";
+"PWRouteInstructionDirectionStairsUp" = "خذ على الدرج الى";
+"PWRouteInstructionDirectionStairsDown" = "اصعد السلالم وصولا الى";
+"PWRouteInstructionLast" = "كنت قد وصلت في";
+"afmuimapviewcontroller.turnbyturn.distance.meter" = "متر";
+"afmuimapviewcontroller.turnbyturn.distance.meters" = "امتار";
+"afmuimapviewcontroller.turnbyturn.distance.foot" = "قدم";
+"afmuimapviewcontroller.turnbyturn.distance.feet" = "أقدام";
+"afmuimappickerviewcontroller.distance.km" = "كيلومترات";
+"afmuimappickerviewcontroller.distance.mi" = "اميال";
+"afmuimapviewcontroller.turnbyturn.in" = "في";
+"afmuimapviewcontroller.turnbyturn.totaltraveltime" = "إجمالي مدة السفر";
+"afmuimapviewcontroller.turnbyturn.totaltraveltime.minute" = "دقيقة";
+"afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "دقائق";
+
+/**
+ *  AFMUIPOIViewController Strings
+ */
+"afmuipoiviewcontroller.search.placeholder" = "... جار البحث عن البوي";
+
+/*** AF-LOCATIONMARKETING STRINGS ***/
+
+/* * AFCOfferWalletViewController Strings * */
+"afmcofferwalletviewcontroller.titlelabel.text" = "مركز الرسائل ";
+"afmcofferwalletviewcontroller.titlelabel.text.editing" = "تصحيح";
+"afmcofferwalletviewcontroller.emptymessagelabel.text" = " ليس لديك أية رسائل في هذا وقت.";
+"afmcofferwalletviewcontroller.deletebutton.title" = "حذف ";
+"afmcofferwalletviewcontroller.alert.title" = "حذف الرسائل ";
+"afmcofferwalletviewcontroller.alert.description" = "هل أنت متأكد أنك ترغب في حذف هذه د٪ الرسائل?";
+"afmcofferwalletviewcontroller.alert.cancelbutton.title" = "لا ";
+"afmcofferwalletviewcontroller.alert.deletebutton.title" = " نعم ";
+"afmcofferwalletviewcontroller.expirationdate.text" = "@% تنقضي";
+
+/* * AFCOfferDetailViewController Strings * */
+"afmcofferdetailviewcontroller.titlelabel.text" = "ترويج ";
+"afmcofferdetailviewcontroller.expirationdatelabel.text" = "@% تنقضي ";
+"afmcofferdetailviewcontroller.offerbutton.title" = " تلقي عرض مجاني!";
+"afmcofferdetailviewcontroller.alert.title" = " حذف رسالة ";
+"afmcofferdetailviewcontroller.alert.message" = " هل ترغب في حذف هذه الرسالة?";
+"afmcofferdetailviewcontroller.alert.deletebutton.title" = " لا";
+"afmcofferdetailviewcontroller.alert.cancelbutton.title" = " نعم ";
+/* * AFMCOfferSwipeViewController Strings */
+"afmcofferswipeviewcontroller.titlelabel.text" = " ترويج ";
+
+/* (No Commment) */
+"afcaddeventtocalendar.addtocalendar.cancelbutton.title" = "موافق";
+
+/* (No Commment) */
+"afcaddeventtocalendar.addtocalendar.failure.message" = "حدث خطأ، يرجى إعادة المحاولة";
+
+/* (No Commment) */
+"afcaddeventtocalendar.addtocalendar.failure.title" = "حدث التقويم";
+
+/* (No Commment) */
+"afcaddeventtocalendar.addtocalendar.success.message" = " %@ تمت إضافته إلى التقويم";
+
+/* (No Commment) */
+"afcaddeventtocalendar.addtocalendar.success.title" = "حدث التقويم";
+
+/* (No Commment) */
+"afcaddeventtocalendar.calendarrestrictedaccess.cancelbutton.title" = "إلغاء";
+
+/* (No Commment) */
+"afcaddeventtocalendar.calendarrestrictedaccess.message" = "لإعادة تمكين، الرجاء الانتقال إلى الإعدادات ومنح حق الدخول إلى التقويم";
+
+/* (No Commment) */
+"afcaddeventtocalendar.calendarrestrictedaccess.settingsbutton.title" = "الإعدادات";
+
+/* (No Commment) */
+"afcaddeventtocalendar.calendarrestrictedaccess.title" = "الوصول إلى التقويم مقيد";
+
+/* (No Commment) */
+"eventsdetail.share.text.body" = "%@: %@ تحقق من الحدث في";
+
+/* (No Commment) */
+"eventsdetail.share.text.subject" = "%@ هو وجود حدث! %@";
+
+/* (No Commment) */
+"afddirectorycategoryviewcontroller.allcategories" = "جميع التصنيفات";
+
+/* (No Commment) */
+"afddirectorycategoryviewcontroller.savebutton.title" = "تطبيق التصفيات";
+
+/* (No Commment) */
+"afddirectorycategoryviewcontroller.title" = "مرشحات";
+
+/* (No Commment) */
+"afddirectoryviewcontroller.noresults.title" = "لم يتم العثور على نتائج";
+
+/* (No Commment) */
+"afcuidynamicweather.rain.text" = "تمطر";
+
+/* (No Commment) */
+"afcuidynamicweather.title.text" = "اليوم في";
+

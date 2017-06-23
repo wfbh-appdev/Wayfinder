@@ -83,6 +83,12 @@
 "afinitialdatabase.displayforceupdate.alert.button" = "Cerca de aplicación";
 
 /*
+ *  No Connection Available
+ */
+"afnointernetconnection.banner.message" = "Sin conexión a internet. La experiencia puede verse mermada.";
+"afnointernetconnection.banner.button" = "Ok";
+
+/*
  *  No Layer Database Strings
  */
 "aflayerdatabase.displayforceupdate.alert.title" = "Error";
@@ -96,6 +102,9 @@
 "afcphonecallaction.alert.message" = "Está seguro de llamar a:\n%@";
 "afcphonecallaction.alert.accept" = "Si";
 "afcphonecallaction.alert.cancel" = "No";
+"afcphonecallaction.alert.ok" = "OK";
+"afcphonecallaction.error.alert.title" = "Error";
+"afcphonecallaction.error.alert.message" = "Su dispositivo no puede realizar llamadas";
 
 /*** AF-RENDER STRINGS ***/
 
@@ -249,6 +258,8 @@
 "afcuimroutebuilderviewcontroller.welcomebackmessage.text" = "Ahora mostraremos la ruta del estacionamiento\na su destino previamente seleccionado.";
 "afcuimroutebuilderviewcontroller.welcomebackdismiss.buttontitle" = "CERRAR";
 "afcuimroutebuilderviewcontroller.welcomebackrouteme.buttontitle" = "RUTA";
+"afcuimroutebuilderviewcontroller.routeme.error.title" = "Error en la ruta";
+"afcuimroutebuilderviewcontroller.routeme.error.message" = "No se puede encontrar ninguna ruta";
 
 /*
  *  AFCUIMPOIFilterEditorViewController Strings
@@ -345,6 +356,12 @@
 "PWRouteInstructionDirectionRight" = "Gire a la derecha en";
 "PWRouteInstructionDirectionBearLeft" = "Oso a la izquierda en";
 "PWRouteInstructionDirectionBearRight" = "Lleve a la derecha en";
+"afmuimapviewcontroller.turnbyturn.distance.meter" = "metro";
+"afmuimapviewcontroller.turnbyturn.distance.meters" = "metros";
+"afmuimapviewcontroller.turnbyturn.distance.foot" = "pie";
+"afmuimapviewcontroller.turnbyturn.distance.feet" = "pies";
+"afmuimappickerviewcontroller.distance.km" = "km";
+"afmuimappickerviewcontroller.distance.mi" = "mi";
 //Not used
 "PWRouteInstructionDirectionFloorChange" = "";
 "PWRouteInstructionDirectionElevatorUp" = "Toma el ascensor hasta";
@@ -357,3 +374,54 @@
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minute" = "min";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "mins";
 "afmuimapviewcontroller.turnbyturn.in" = "en";
+
+/* (No Commment) */
+"afcaddeventtocalendar.addtocalendar.cancelbutton.title" = "De Acuerdo";
+
+/* (No Commment) */
+"afcaddeventtocalendar.addtocalendar.failure.message" = "Ha ocurrido un error. Por favor intente de nuevo";
+
+/* (No Commment) */
+"afcaddeventtocalendar.addtocalendar.failure.title" = "Calendario de Eventos";
+
+/* (No Commment) */
+"afcaddeventtocalendar.addtocalendar.success.message" = "%@ se agregó a tu calendario";
+
+/* (No Commment) */
+"afcaddeventtocalendar.addtocalendar.success.title" = "Calendario de Eventos";
+
+/* (No Commment) */
+"afcaddeventtocalendar.calendarrestrictedaccess.cancelbutton.title" = "Cancelar";
+
+/* (No Commment) */
+"afcaddeventtocalendar.calendarrestrictedaccess.message" = "Para volver a activarlo, accede a Configuración y concede acceso a tu Calendario";
+
+/* (No Commment) */
+"afcaddeventtocalendar.calendarrestrictedaccess.settingsbutton.title" = "Configuración";
+
+/* (No Commment) */
+"afcaddeventtocalendar.calendarrestrictedaccess.title" = "El acceso al Calendario está Restringido\n";
+
+/* (No Commment) */
+"eventsdetail.share.text.body" = "Echa un vistazo al evento en %@:\n\n%@";
+
+/* (No Commment) */
+"eventsdetail.share.text.subject" = "%@ está teniendo un evento! %@";
+
+/* (No Commment) */
+"afddirectorycategoryviewcontroller.allcategories" = "Todos las Categorías";
+
+/* (No Commment) */
+"afddirectorycategoryviewcontroller.savebutton.title" = "Aplicar Filtros";
+
+/* (No Commment) */
+"afddirectorycategoryviewcontroller.title" = "Filtros";
+
+/* (No Commment) */
+"afddirectoryviewcontroller.noresults.title" = "No se encontraron resultados.";
+
+/* (No Commment) */
+"afcuidynamicweather.rain.text" = "lluvia";
+
+/* (No Commment) */
+"afcuidynamicweather.title.text" = "Hoy en";

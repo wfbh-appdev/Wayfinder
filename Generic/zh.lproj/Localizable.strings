@@ -1,0 +1,283 @@
+//"可本地化"
+// AFP演示
+//由Victor Soto于9/28/15创建
+//版权所有©2015 Phunware。版权所有.
+
+
+"mall.detail.error.phone.message" = "它似乎没有电话号码.";
+"mall.detail.error.phone.title" = "";
+"mall.detail.error.website.message" = "它似乎没有网站.";
+"mall.detail.error.website.title" = "";
+
+"afcclearcacheaction.prompt.message" = "这将清除所有已保存的数据并重新启动应用程序。 您确定要继续吗？";
+"afcclearcacheaction.prompt.title" = "确认";
+"afcclearcacheaction.cancel.title" ="取消";
+"afcclearcacheaction.ok.title" = "清除缓存";
+
+/*
+*  AFCUIM注解目录视图控制器字符串
+*/
+
+"afcuimannotationdirectoryviewcontroller.titlelabel.text" = "POI 目录";
+"afcuimannotationdirectoryviewcontroller.noresultsfound.text" = "未找到结果";
+
+//AFCUIM路线生成器视图控制器字符串
+
+"afcuimroutebuilderviewcontroller.route.error.endstart.same" = "起点和终点必须不同.";
+"afcuimroutebuilderviewcontroller.route.error.cantfindpoi" = "我们找不到该POI，请重新搜索.";
+"afcuimroutebuilderviewcontroller.route.error.title" = "抱歉";
+"afcuimroutebuilderviewcontroller.currentlocation.text" = "错误.标题";
+"afcuimroutebuilderviewcontroller.startlocationtextfield.placeholder" = "开始位置";
+"afcuimroutebuilderviewcontroller.endlocationtextfield.placeholder" = "结束位置";
+"afcuimroutebuilderviewcontroller.startlabel.text" = "开始";
+"afcuimroutebuilderviewcontroller.endlabel.text" = "结束";
+"afcuimroutebuilderviewcontroller.titlelabel.text" = "路由";
+"afcuimroutebuilderviewcontroller.cancelbutton.buttontitle" = "取消";
+"afcuimroutebuilderviewcontroller.routebutton.buttontitle" = "路由";
+"afcuimroutebuilderviewcontroller.handicapaccessibilitylabel.text" = "智障辅助功能";
+"afcuimroutebuilderviewcontroller.outdoortoindoornotificationtitle.text" ="欢迎来到";
+"afcuimroutebuilderviewcontroller.outdoortoindoornotificationtitle.message" ="请启动应用程序，到室内路线到你的最终目的地.";
+"afcuimroutebuilderviewcontroller.outdoortoindooralerttitle.text" ="需要到场地的指示?";
+"afcuimroutebuilderviewcontroller.outdoortoindooralerttitle.message" = "我们注意到您目前不在该设施.\ n您想要前往该地点吗？";
+"afcuimroutebuilderviewcontroller.dismissoutdoortoindoor.buttontitle" = "解雇";
+"afcuimroutebuilderviewcontroller.openinmapsbutton.buttontitle" = "在地图上打开";
+"afcuimroutebuilderviewcontroller.welcomebacktitle.text" = "欢迎回来!";
+"afcuimroutebuilderviewcontroller.welcomebackmessage.text" = "我们现在将继续从停车场路线到您之前选择的目的地.";
+"afcuimroutebuilderviewcontroller.welcomebackdismiss.buttontitle" = "解雇";
+"afcuimroutebuilderviewcontroller.welcomebackrouteme.buttontitle" = "路由我";
+//AFCUIMPOI过滤编辑视图控制器字符串
+"afcuimpoifiltereditorviewcontroller.savefiltersbutton.buttontitle" = "保存过滤器";
+"afcuimpoifiltereditorviewcontroller.cancelbutton.buttontitle" = "取消";
+"afcuimpoifiltereditorviewcontroller.titlelabel.text" = "选择POI过滤器";
+//AFCUI注解详情视图控制器字符串
+"afcuiannotationdetailviewcontroller.selectCampusButton.buttontitle" = "选择这个幅员";
+//AFCUIEULA视图控制器字符串
+"afcuieulaviewcontroller.agreebutton.buttontitle" = "我同意";
+"afcuieulaviewcontroller.navbar.title" = "许可协议";
+//AFCUI网址视图控制器字符串
+"afcuiwebviewcontroller.message.text" = "请稍候...";
+"afcuimodalwebbrowser.closeButton.buttontitle" = "关闭";
+//AFCUI模态网址浏览器字符串
+"afcuimodalwebbrowser.status.text" = "载入";
+"afcuimodalwebbrowser.closebutton.buttontitle" = "关闭";
+//AFC停车地图视图控制器字符串
+"afcparkingmapviewcontroller.droppinbutton.buttontitle" = "放一个针";
+"afcparkingmapviewcontroller.droppinbutton.clearenabled.buttontitle" = "清除";
+"afcparkingmapviewcontroller.droppinbutton.droppinenabled.buttontitle" = "放一个针";
+"afcparkingmapviewcontroller.droppinbutton.droppindisabled.buttontitle" = "放一个针";
+"afcparkingmapviewcontroller.titlelabel.text" = "固定我的位置";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.title" = "请启用位置";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.message" = "帮助我们通过启用位置跟踪您的停车位";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.okbutton.title" = " 可以 ";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.cancelbutton.title" = "不，谢谢";
+//AFC停车注意查看控制器字符串
+"afcparkingnoteviewcontroller.noteslabel.text" = "写一个便条，以帮助你记住你停在哪里...";
+"afcparkingnoteviewcontroller.titlelabel.text" = "停车注意";
+//AFC停车场照片视图控制器字符串
+"afcparkingphotoviewcontroller.message.text" = "请点按相机按钮\ n下面拍照";
+"afcparkingphotoviewcontroller.deniedcamera.message.text" = "要拍摄您的停车位的照片，请允许该应用程序访问您的手机的相机.";
+"afcparkingphotoviewcontroller.restrictedcamera.message.text" = "相机无法访问，因为您的设备上的限制.";
+//AFC停车场控制器字符串
+"afcparkingviewcontroller.parkingremindertitle.text" = "停车提醒";
+"afcparkingviewcontroller.parkingchoosemethod.text" = "选择以下方法：";
+"afcparkingviewcontroller.gpslocationbuttonlabel.text" = "固定GPS位置";
+"afcparkingviewcontroller.takepicturebuttonlabel.text" = "拍照";
+"afcparkingviewcontroller.recordvoicememobuttonlabel.text" = "记录备忘录";
+"afcparkingviewcontroller.writenotebuttonlabel.text" = "写笔记";
+"afcparkingviewcontroller.locationsavedmessage.text" = "位置已保存";
+"afcparkingviewcontroller.imagesavedmessage.text" = "图片已保存";
+"afcparkingviewcontroller.voicememosavedmessage.text" ="声音备忘已保存";
+"afcparkingviewcontroller.notesavedmessage.text" = "备注已保存";
+"afcparkingviewcontroller.titlelabel.text" = " 停车场 ";
+//AFC停车场语音备忘录查看控制器字符串
+"afcparkingvoicememoviewcontroller.recordvoicememotitle.text" = "记录备忘录以帮助您记住";
+"afcparkingvoicememoviewcontroller.titlelabel.text" = "停车备忘录";
+//AFCUI网页视图控制器字符串
+"afcuiwebviewcontroller.message.text" = "请稍候...";
+//AFC提供电子钱包视图控制器字符串
+"afcofferwalletviewcontroller.titlelabel.text" = "优惠";
+"afcofferwalletviewcontroller.cell.expirationdate.detailtextlabel.text" = "到期";
+"afcofferwalletviewcontroller.cell.nooffers.text" = "没有优惠";
+"afcofferwalletviewcontroller.header.validoffers.text" = "有效优惠";
+"afcofferwalletviewcontroller.header.expiredoffers.text" = "过期优惠";
+//AFC检查力更新字符串
+"afccheckforceupdate.prompt.message.displayforceupdate.alert.title" = "需要更新";
+"afccheckforceupdate.displayforceupdate.alert.title" = "应用程式更新可用";
+"afccheckforceupdate.displayforceupdate.alert.message" ="新版本已发布，您必须更新到最新版本.";
+"afccheckforceupdate.displayforceupdate.alert.button.title" = "更新";
+"afccheckforceupdate.displayupdateavailable.alert.title" = "更新可用";
+"afccheckforceupdate.displayupdateavailable.alert.message" ="新版本已发布，请更新到最新版本.";
+"afccheckforceupdate.displayupdateavailable.alert.button.title" = "更新";
+"afccheckforceupdate.displayupdateavailable.alert.cancel.title" = "不现在";
+//无初始数据库字符串
+"afinitialdatabase.displayforceupdate.alert.title" = "错误";
+"afinitialdatabase.displayforceupdate.alert.message" = "无法启动应用程序，请验证您的设备是否已连接到网络.";
+"afinitialdatabase.displayforceupdate.alert.button" = "关闭应用程式";
+
+"afnointernetconnection.banner.message" = "没有互联网连接。体验可能会变差。";
+"afnointernetconnection.banner.button" = "可以";
+
+//无层数据库字符串
+"aflayerdatabase.displayforceupdate.alert.title" = "错误";
+"aflayerdatabase.displayforceupdate.alert.message" = "此内容需要数据连接，请检查您的手机或WiFi网络，然后重试.";
+"aflayerdatabase.displayforceupdate.alert.button" = " 可以";
+//EULA协议
+"afceulapromoptaction.prompt.message" ="您同意许可协议和条款和条件吗?";
+"afceulapromoptaction.prompt.message.title" = "许可协议";
+"afceulapromoptaction.prompt.message.agreebutton.title" = "同意";
+"afceulapromoptaction.prompt.message.viewbutton.title" = "视图";
+"afcdirectoryviewcontroller.viewdidload.allString" = "大家";
+"afcdirectoryviewcontroller.viewdidload.favoritesString" = "我的最爱";
+"afcdirectoryviewcontroller.setSearchBarPlaceHolder.searchText" = "搜索";
+"afcuimmapviewcontroller.searchbar.text" = "搜索...";
+"afcuimroutingannotationview.starthereannotation.title" = "开始";
+"afcuimroutingannotationview.destinationannotation.title" = "结束";
+"afcuimroutingannotationview.taptogoback.title" = "点击返回";
+"afcuimroutingannotationview.taptoviewnext.title" = "点击下一步";
+"afcuimroutingannotationview.tome.title" = "采取";
+"afcuimroutingannotationview.hacia.title" = "至";
+"afcdirectoryviewcontroller.nonetwork.failure.title" = "目录";
+"afcdirectoryviewcontroller.nonetwork.failure.message" = "此内容需要数据连接，请检查您的手机或WiFi网络，然后重试.";
+"afcdirectoryviewcontroller.nonetwork.failure.cancelbutton.title" = " 可以";
+"afcdirectoryviewcontroller.noresultsfound.title" = "找不到结果.";
+"afcdirectoryviewcontroller.filternotice.title" = "过滤";
+"afcdirectoryviewcontroller.filtercategory.title" = " 大家";
+"afcdirectoryviewcontroller.filtercategorybutton.title" = "过滤器";
+//图层选择器
+"afclayerpickerviewcontroller.navbar.default.title" = "级别";
+"afclayerpickerviewcontroller.searchbar.default.text" = "搜索";
+//地图选择器
+"afcmmappickerviewcontroller.navbar.title" = "地图";
+"afcmmappickerviewcontroller.promptlocationalert.title" = "帮助我们引导你";
+"afcmmappickerviewcontroller.promptlocationalert.message" = "请启用位置服务，以便我们能向您显示最近的位置.";
+//细分错误
+
+
+/**
+ * Segments Error
+ */
+
+"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.title" = "Alert Settings";
+"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.message" = "Please setup alert segments for this app on the portal.";
+"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.cancelbutton.title" = "Ok";
+
+"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.title" = "Alert Settings";
+"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.message" = "This content requires a data connection, please check your mobile or wifi network and try again.";
+"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.cancelbutton.title" = "Ok";
+
+/*
+ *  AFCUIMMapViewController Strings
+ */
+
+"afcuimmapviewcontroller.promptlocationalert.title" = "Help us guide you";
+"afcuimmapviewcontroller.promptlocationalert.message" = "Please enable location services so we can guide you around the facility.";
+"afcuimmapviewcontroller.promptlocationalert.takemetherebutton" = "Take me there";
+"afcuimmapviewcontroller.promptlocationalert.cancelbutton" = "No Thanks";
+"afcuimmapviewcontroller.buildingloaderroralert.title" = "Map Error";
+"afcuimmapviewcontroller.buildingloaderroralert.message" = "We cannot load the map at this time. Check your network connection.";
+"afcuimmapviewcontroller.buildingloaderroralert.button" = "Ok";
+"afcuimmapviewcontroller.endPointOfInterest.message" = "You have arrived.";
+"afcuimapviewcontroller.nopoifound.alert.title" = "POI Not Found";
+"afcuimapviewcontroller.nopoifound.alert.message" = "The POI was not found in the building POIs.";
+
+"PWRouteInstructionDirectionLeft" = "向左转";
+"PWRouteInstructionDirectionRight" = "向右转";
+"PWRouteInstructionDirectionBearLeft" = "向左转";
+"PWRouteInstructionDirectionBearRight" = "向右拐";
+"PWRouteInstructionDirectionElevatorUp" = "乘电梯到";
+"PWRouteInstructionDirectionElevatorDown" = "乘电梯到";
+"PWRouteInstructionDirectionStairsUp" = "走上楼梯";
+"PWRouteInstructionDirectionStairsDown" = "走下楼梯";
+"PWRouteInstructionLast" = "你到了";
+"afmuimapviewcontroller.turnbyturn.distance.meter" = "公尺";
+"afmuimapviewcontroller.turnbyturn.distance.meters" = "公尺";
+"afmuimapviewcontroller.turnbyturn.distance.foot" = "英尺";
+"afmuimapviewcontroller.turnbyturn.distance.feet" = "英尺";
+"afmuimappickerviewcontroller.distance.km" = "公里";
+"afmuimappickerviewcontroller.distance.mi" = "英里";
+"afmuimapviewcontroller.turnbyturn.totaltraveltime" = "总行程时间";
+"afmuimapviewcontroller.turnbyturn.totaltraveltime.minute" = "分钟";
+"afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "分钟";
+"afmuimapviewcontroller.turnbyturn.in" = "在";
+
+/**
+ *  AFMUIPOIViewController Strings
+ */
+"afmuipoiviewcontroller.search.placeholder" = "搜索poi ...";
+
+/*** AF-LOCATIONMARKETING STRINGS ***/
+
+/* * AFCOfferWalletViewController Strings * */
+"afmcofferwalletviewcontroller.titlelabel.text" = "消息中心";
+"afmcofferwalletviewcontroller.titlelabel.text.editing" = "编辑";
+"afmcofferwalletviewcontroller.emptymessagelabel.text" = "此时你没有任何信息.";
+"afmcofferwalletviewcontroller.deletebutton.title" = "删除";
+"afmcofferwalletviewcontroller.alert.title" = "删除邮件";
+"afmcofferwalletviewcontroller.alert.description" = "确实要删除这些%d消息吗？";
+"afmcofferwalletviewcontroller.alert.cancelbutton.title" = "没有";
+"afmcofferwalletviewcontroller.alert.deletebutton.title" = "是";
+"afmcofferwalletviewcontroller.expirationdate.text" = " 过期%@";
+
+/* * AFCOfferDetailViewController Strings * */
+"afmcofferdetailviewcontroller.titlelabel.text" = "促销";
+"afmcofferdetailviewcontroller.expirationdatelabel.text" = "过期 %@";
+"afmcofferdetailviewcontroller.offerbutton.title" = "免费提供!";
+"afmcofferdetailviewcontroller.alert.title" = "删除邮件";
+"afmcofferdetailviewcontroller.alert.message" = "要删除此消息吗？";
+"afmcofferdetailviewcontroller.alert.deletebutton.title" = "没有";
+"afmcofferdetailviewcontroller.alert.cancelbutton.title" = "是";
+
+/* * AFMCOfferSwipeViewController Strings */
+"afmcofferswipeviewcontroller.titlelabel.text" = "促销";
+
+/* (No Commment) */
+"afcaddeventtocalendar.addtocalendar.cancelbutton.title" = "好";
+
+/* (No Commment) */
+"afcaddeventtocalendar.addtocalendar.failure.message" = "发生错误，请重试";
+
+/* (No Commment) */
+"afcaddeventtocalendar.addtocalendar.failure.title" = "日历活动";
+
+/* (No Commment) */
+"afcaddeventtocalendar.addtocalendar.success.message" = "%@ 添加到您的日历中";
+
+/* (No Commment) */
+"afcaddeventtocalendar.addtocalendar.success.title" = "日历活动";
+
+/* (No Commment) */
+"afcaddeventtocalendar.calendarrestrictedaccess.cancelbutton.title" = "取消";
+
+/* (No Commment) */
+"afcaddeventtocalendar.calendarrestrictedaccess.message" = "要重新启用，请转到设置，并授予对您的日历的访问权限";
+
+/* (No Commment) */
+"afcaddeventtocalendar.calendarrestrictedaccess.settingsbutton.title" = "设置";
+
+/* (No Commment) */
+"afcaddeventtocalendar.calendarrestrictedaccess.title" = "访问日历受到限制";
+
+/* (No Commment) */
+"eventsdetail.share.text.body" = "查看活动 %@: %@";
+
+/* (No Commment) */
+"eventsdetail.share.text.subject" = "%@ 正在举办活动！ %@";
+
+/* (No Commment) */
+"afddirectorycategoryviewcontroller.allcategories" = "所有类别";
+
+/* (No Commment) */
+"afddirectorycategoryviewcontroller.savebutton.title" = "进行筛选";
+
+/* (No Commment) */
+"afddirectorycategoryviewcontroller.title" = "筛选";
+
+/* (No Commment) */
+"afddirectoryviewcontroller.noresults.title" = "未找到结果";
+
+/* (No Commment) */
+"afcuidynamicweather.rain.text" = "雨";
+
+/* (No Commment) */
+"afcuidynamicweather.title.text" = "今天在";
+

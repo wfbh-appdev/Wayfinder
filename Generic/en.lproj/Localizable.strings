@@ -83,6 +83,12 @@
  "afinitialdatabase.displayforceupdate.alert.button" = "Close app";
 
 /*
+ *  No Connection Available
+ */
+"afnointernetconnection.banner.message" = "No internet connection. Experience may be degraded.";
+"afnointernetconnection.banner.button" = "Ok";
+
+/*
  *  No Layer Database Strings
  */
  "aflayerdatabase.displayforceupdate.alert.title" = "Error";
@@ -96,6 +102,10 @@
 "afcphonecallaction.alert.message" = "Are you sure you want to call:\n%@";
 "afcphonecallaction.alert.accept" = "Yes";
 "afcphonecallaction.alert.cancel" = "No";
+"afcphonecallaction.alert.ok" = "OK";
+"afcphonecallaction.error.alert.title" = "Error";
+"afcphonecallaction.error.alert.message" = "Your device is not capable of placing calls";
+
 
 /*** AF-RENDER STRINGS ***/
 
@@ -155,19 +165,19 @@
 "afcdirectorycategoryviewcontroller.categories.text" = "Categories";
 
 /**
- * AFCDirectoryViewController Strings
+ * AFDDirectoryViewController Strings
  */
-"afcdirectoryviewcontroller.viewdidload.allString" = "All";
-"afcdirectoryviewcontroller.viewdidload.favoritesString" = "Favorites";
-"afcdirectoryviewcontroller.setSearchBarPlaceHolder.searchText" = "Search";
-"Search...                                                                " = "Search...                                                                ";
-"afcdirectoryviewcontroller.nonetwork.failure.title" = "Directory";
-"afcdirectoryviewcontroller.nonetwork.failure.message" = "This content requires a data connection, please check your mobile or wifi network and try again.";
-"afcdirectoryviewcontroller.nonetwork.failure.cancelbutton.title" = "Ok";
-"afcdirectoryviewcontroller.noresultsfound.title" = "No Results Found.";
-"afcdirectoryviewcontroller.filternotice.title" = "Filtered by";
-"afcdirectoryviewcontroller.filtercategory.title" = "All";
-"afcdirectoryviewcontroller.filtercategorybutton.title" = "Filter";
+
+"afddirectoryviewcontroller.title" = "Directory";
+"afddirectoryviewcontroller.noresults.title" = "No results found.";
+
+/**
+ * AFDDirectoryCategoryViewController Strings
+ */
+
+"afddirectorycategoryviewcontroller.title" = "Filters";
+"afddirectorycategoryviewcontroller.allcategories" = "All Categories";
+"afddirectorycategoryviewcontroller.savebutton.title" = "Apply Filters";
 
 /*
  * AFCUIMAnnotationDirectoryViewController Strings
@@ -252,6 +262,8 @@
 "afcuimroutebuilderviewcontroller.welcomebackmessage.text" = "We will now continue routing from the parking lot\nto your previously selected destination.";
 "afcuimroutebuilderviewcontroller.welcomebackdismiss.buttontitle" = "DISMISS";
 "afcuimroutebuilderviewcontroller.welcomebackrouteme.buttontitle" = "ROUTE ME";
+"afcuimroutebuilderviewcontroller.routeme.error.title" = "Route Error";
+"afcuimroutebuilderviewcontroller.routeme.error.message" = "No route can be found.";
 
 /*
  *  AFCUIMPOIFilterEditorViewController Strings
@@ -348,6 +360,12 @@
 "PWRouteInstructionDirectionRight" = "Turn right in";
 "PWRouteInstructionDirectionBearLeft" = "Bear left in";
 "PWRouteInstructionDirectionBearRight" = "Bear right in";
+"afmuimapviewcontroller.turnbyturn.distance.meter" = "meter";
+"afmuimapviewcontroller.turnbyturn.distance.meters" = "meters";
+"afmuimapviewcontroller.turnbyturn.distance.foot" = "foot";
+"afmuimapviewcontroller.turnbyturn.distance.feet" = "feet";
+"afmuimappickerviewcontroller.distance.km" = "km";
+"afmuimappickerviewcontroller.distance.mi" = "mi";
 //Not used
 "PWRouteInstructionDirectionFloorChange" = "";
 "PWRouteInstructionDirectionElevatorUp" = "Take the elevator up to";
@@ -360,3 +378,38 @@
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minute" = "min";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "mins";
 "afmuimapviewcontroller.turnbyturn.in" = "in";
+
+/*
+ * Events Module String
+ */
+"afcaddeventtocalendar.addtocalendar.success.title" = "Calendar Event";
+"afcaddeventtocalendar.addtocalendar.success.message" = "%@ was added to your calendar";
+"afcaddeventtocalendar.addtocalendar.failure.title" = "Calendar Event";
+"afcaddeventtocalendar.addtocalendar.failure.message" = "An error occurred, please try again";
+"afcaddeventtocalendar.addtocalendar.cancelbutton.title" = "OK";
+"afcaddeventtocalendar.calendarrestrictedaccess.title" = "Access to Calendar is Restricted";
+"afcaddeventtocalendar.calendarrestrictedaccess.message" = "To re-enable, please go to Settings and grant access to your Calendar";
+"afcaddeventtocalendar.calendarrestrictedaccess.cancelbutton.title" = "Cancel";
+"afcaddeventtocalendar.calendarrestrictedaccess.settingsbutton.title" = "Settings";
+"eventsdetail.share.text.subject" = "%@ is having an event! %@";
+"eventsdetail.share.text.body" = "Check out the event at %@:\n\n%@";
+
+/**
+ * Weather Content Type
+ */
+"afcuidynamicweather.title.text" = "Today at";
+"afcuidynamicweather.rain.text" = "rain";
+
+/**
+ * AFDDirectoryViewController Strings
+ */
+
+"afddirectoryviewcontroller.noresults.title" = "No results were found";
+
+/**
+ * AFDDirectoryCategoryViewController Strings
+ */
+
+"afddirectorycategoryviewcontroller.title" = "Filters";
+"afddirectorycategoryviewcontroller.allcategories" = "All Categories";
+"afddirectorycategoryviewcontroller.savebutton.title" = "Apply filters";
