@@ -11,7 +11,7 @@
 "PWRouteInstructionDirectionElevatorUp" = "テーク ザー エリベーター アップ トゥー";
 
 /* (No Commment) */
-"PWRouteInstructionDirectionLeft" = "ターン レフト イン ";
+"PWRouteInstructionDirectionLeft" = "ターン レフト イン";
 
 /* (No Commment) */
 "PWRouteInstructionDirectionRight" = "ターン ライト イン";
@@ -23,7 +23,13 @@
 "PWRouteInstructionDirectionStairsUp" = "テーク ザー ステアズ アップ トゥー";
 
 /* (No Commment) */
+"PWRouteInstructionDirectionStraight" = "まっすぐ進む";
+
+/* (No Commment) */
 "PWRouteInstructionLast" = "ユーブ アライブド アット";
+
+/* (No Commment) */
+"PWRouteInstructionLastEmpty" = "あなたは到着しました。";
 
 /* (No Commment) */
 "afccheckforceupdate.displayforceupdate.alert.button.title" = "アプデート";
@@ -50,6 +56,12 @@
 "afccheckforceupdate.prompt.message.displayforceupdate.alert.title" = "アプデート リクァイウド";
 
 /* (No Commment) */
+"afcdirectorycategoryviewcontroller.cancel.text" = "キャンセル";
+
+/* (No Commment) */
+"afcdirectorycategoryviewcontroller.categories.text" = "カテゴリー";
+
+/* (No Commment) */
 "afceulapromoptaction.prompt.message" = "ドゥー ユー アグリー ウィズ ザー ライセンス アグリーメント アンド ザー タームズ アンド コンディッションズ";
 
 /* (No Commment) */
@@ -66,6 +78,15 @@
 
 /* (No Commment) */
 "afclayerpickerviewcontroller.searchbar.default.text" = "サーチ";
+
+/* (No Commment) */
+"afclogoutaction.alert.button.title" = "OK";
+
+/* (No Commment) */
+"afclogoutaction.alert.message" = "現在のセッションから正常にログアウトしました。";
+
+/* (No Commment) */
+"afclogoutaction.alert.title" = "ログアウトに成功";
 
 /* (No Commment) */
 "afcmmappickerviewcontroller.navbar.title" = "マップス";
@@ -113,9 +134,6 @@
 "afcparkingphotoviewcontroller.deniedcamera.message.text" = "トゥー テーク エー フォートー オブ ヨー パーキング スポット プリーズ アラウ ザー アップ トゥー アクセス ヨー フォーンズ キャマラー";
 
 /* (No Commment) */
-"afcparkingphotoviewcontroller.message.text" = "プリーズ タップ ザー キャマラー バットン ンベロー トゥー テーク エー フォートー";
-
-/* (No Commment) */
 "afcparkingphotoviewcontroller.restrictedcamera.message.text" = "キャマラー・カーント・ビー・アクセスト・ジュー・リストリクションズ・オン・ヨー・ディバイス";
 
 /* (No Commment) */
@@ -158,6 +176,24 @@
 "afcparkingvoicememoviewcontroller.titlelabel.text" = "パーキング メモー";
 
 /* (No Commment) */
+"afcphonecallaction.alert.accept" = "はい";
+
+/* (No Commment) */
+"afcphonecallaction.alert.cancel" = "いいえ";
+
+/* (No Commment) */
+"afcphonecallaction.alert.ok" = "[OK]";
+
+/* (No Commment) */
+"afcphonecallaction.alert.title" = "電話をかける";
+
+/* (No Commment) */
+"afcphonecallaction.error.alert.message" = "お使いのデバイスは通話ができません";
+
+/* (No Commment) */
+"afcphonecallaction.error.alert.title" = "エラー";
+
+/* (No Commment) */
 "afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.cancelbutton.title" = "オーケー";
 
 /* (No Commment) */
@@ -179,6 +215,12 @@
 "afcuiannotationdetailviewcontroller.selectCampusButton.buttontitle" = "シレクト ジス キャンパス";
 
 /* (No Commment) */
+"afcuidatepicker.alert.title" = "日付を選択";
+
+/* (No Commment) */
+"afcuidatepicker.navbar.today" = "今日";
+
+/* (No Commment) */
 "afcuieulaviewcontroller.agreebutton.buttontitle" = "アイ アグリー";
 
 /* (No Commment) */
@@ -197,6 +239,30 @@
 "afcuimapviewcontroller.nopoifound.alert.title" = "ポーイー ノット ファウンド";
 
 /* (No Commment) */
+"afcuimediapicker.alert.cancel" = "キャンセル";
+
+/* (No Commment) */
+"afcuimediapicker.button.defaulttext" = "アップロードする画像を選択";
+
+/* (No Commment) */
+"afcuimediapicker.button.photouploaded" = "写真がアップロードされました";
+
+/* (No Commment) */
+"afcuimediapicker.imageselect" = "カメラロールから写真を選択";
+
+/* (No Commment) */
+"afcuimediapicker.navbar.title" = "画像を選択";
+
+/* (No Commment) */
+"afcuimediapicker.takeimage" = "写真を撮る";
+
+/* (No Commment) */
+"afcuimediapicker.toolbar.clearimage" = "クリア画像";
+
+/* (No Commment) */
+"afcuimediapicker.toolbar.selectimage" = "画像を選択";
+
+/* (No Commment) */
 "afcuimmapviewcontroller.buildingloaderroralert.button" = "オーケー";
 
 /* (No Commment) */
@@ -209,13 +275,16 @@
 "afcuimmapviewcontroller.endPointOfInterest.message" = "ユー ハブ アライブド";
 
 /* (No Commment) */
+"afcuimmapviewcontroller.promptlocationalert.backtofacilitymapbutton" = "施設マップに戻る";
+
+/* (No Commment) */
 "afcuimmapviewcontroller.promptlocationalert.cancelbutton" = "ノー サンクス";
 
 /* (No Commment) */
 "afcuimmapviewcontroller.promptlocationalert.message" = "プリーズ イネーブル ローケーション サービシズ ソー ウィー キャン ガイド ユー アラウンド ザー ファシリッティー";
 
 /* (No Commment) */
-"afcuimmapviewcontroller.promptlocationalert.takemetherebutton" = " テーク ミー ゼア";
+"afcuimmapviewcontroller.promptlocationalert.takemetherebutton" = "テーク ミー ゼア";
 
 /* (No Commment) */
 "afcuimmapviewcontroller.promptlocationalert.title" = "ヘルプ アズ ガイ ユー";
@@ -224,10 +293,22 @@
 "afcuimmapviewcontroller.searchbar.text" = "サーチ";
 
 /* (No Commment) */
+"afcuimodalwebbrowser.alert.message" = "このページを表示するには、ログインする必要があります。";
+
+/* (No Commment) */
+"afcuimodalwebbrowser.alert.ok" = "[OK]";
+
+/* (No Commment) */
+"afcuimodalwebbrowser.alert.title" = "エラー";
+
+/* (No Commment) */
 "afcuimodalwebbrowser.closebutton.buttontitle" = "クローズ";
 
 /* (No Commment) */
 "afcuimodalwebbrowser.status.text" = "ローディング";
+
+/* (No Commment) */
+"afcuimpoifiltereditorviewcontroller.cancelbutton.buttontitle" = "キャンセル";
 
 /* (No Commment) */
 "afcuimpoifiltereditorviewcontroller.savefiltersbutton.buttontitle" = "キャンセル";
@@ -236,25 +317,25 @@
 "afcuimpoifiltereditorviewcontroller.titlelabel.text" = "チューズ ポーイー フィルター";
 
 /* (No Commment) */
+"afcuimroutebuilderviewcontroller.cancelbutton.buttontitle" = "キャンセル";
+
+/* (No Commment) */
 "afcuimroutebuilderviewcontroller.currentlocation.text" = "カレント ローケーション";
 
 /* (No Commment) */
 "afcuimroutebuilderviewcontroller.dismissoutdoortoindoor.buttontitle" = "ディズミス";
 
 /* (No Commment) */
-"afcuimroutebuilderviewcontroller.endlabel.text" = "END";
+"afcuimroutebuilderviewcontroller.endlabel.text" = "エンド";
 
 /* (No Commment) */
 "afcuimroutebuilderviewcontroller.endlocationtextfield.placeholder" = "エンド ローケーション";
 
 /* (No Commment) */
-"afcuimroutebuilderviewcontroller.handicapaccessibilitylabel.text" = "ハンディキャップ アクセシビリッティー";
+"afcuimroutebuilderviewcontroller.openinmapsbutton.buttontitle" = "オーペン イン マップス";
 
 /* (No Commment) */
-"afcuimroutebuilderviewcontroller.openinmapsbutton.buttontitle" = "OPEN IN MAPS";
-
-/* (No Commment) */
-"afcuimroutebuilderviewcontroller.outdoortoindooralerttitle.message" = "ウィー ノーティスト ユー アー カレントリー ノット アット ザー ファシリッティー ンウァウルド.|ユー ライク トゥー ルート トゥー ザー ベニュー インステッド?";
+"afcuimroutebuilderviewcontroller.outdoortoindooralerttitle.text" = "ニード ディレクションズ　トゥー　ザー　ベニュー?";
 
 /* (No Commment) */
 "afcuimroutebuilderviewcontroller.outdoortoindoornotificationtitle.message" = "Please launch the app for indoor directions to your final destination.";
@@ -266,7 +347,10 @@
 "afcuimroutebuilderviewcontroller.route.error.cantfindpoi" = "ウィー クッド ノット ファインド ザット ポーイー プリーズ サーチ アゲン";
 
 /* (No Commment) */
-"afcuimroutebuilderviewcontroller.route.error.endstart.same" = " ザー スタート アンド エンド ポイント マスト ビー ディフラント";
+"afcuimroutebuilderviewcontroller.route.error.endstart.same" = "ザー スタート アンド エンド ポイント マスト ビー ディフラント";
+
+/* (No Commment) */
+"afcuimroutebuilderviewcontroller.route.error.nostartend" = "ルートを見つけるには、開始位置と終了位置の両方を指定する必要があります。";
 
 /* (No Commment) */
 "afcuimroutebuilderviewcontroller.route.error.title" = "ソリー";
@@ -275,13 +359,19 @@
 "afcuimroutebuilderviewcontroller.routebutton.buttontitle" = "ルート";
 
 /* (No Commment) */
+"afcuimroutebuilderviewcontroller.routeme.error.message" = "ルートは見つかりません。";
+
+/* (No Commment) */
+"afcuimroutebuilderviewcontroller.routeme.error.title" = "ルートエラー";
+
+/* (No Commment) */
 "afcuimroutebuilderviewcontroller.startlabel.text" = "スタート";
 
 /* (No Commment) */
 "afcuimroutebuilderviewcontroller.startlocationtextfield.placeholder" = "スタート ローケーション";
 
 /* (No Commment) */
-"afcuimroutebuilderviewcontroller.titlelabel.text" = "Routing";
+"afcuimroutebuilderviewcontroller.titlelabel.text" = "ルーティング";
 
 /* (No Commment) */
 "afcuimroutebuilderviewcontroller.welcomebackdismiss.buttontitle" = "ディズミス";
@@ -311,13 +401,25 @@
 "afcuimroutingannotationview.tome.title" = "テーク";
 
 /* (No Commment) */
+"afcuipicker.alert.cancel" = "キャンセル";
+
+/* (No Commment) */
+"afcuipicker.alert.ok" = "[OK]";
+
+/* (No Commment) */
+"afcuisettingsviewcontroller.deviceidcopy.alert.message" = "デバイスIDがクリップボードにコピーされました";
+
+/* (No Commment) */
+"afcuisettingsviewcontroller.deviceidcopy.alert.title" = "通知";
+
+/* (No Commment) */
 "afcuisettingsviewcontroller.sectionname.about" = "約";
 
 /* (No Commment) */
 "afcuisettingsviewcontroller.sectionname.locationprovider" = "ロケーション提供者";
 
 /* (No Commment) */
-"afcuisettingsviewcontroller.sectionname.maassdk" = "Maas SDKs";
+"afcuisettingsviewcontroller.sectionname.maassdk" = "MaaS SDK";
 
 /* (No Commment) */
 "afcuisettingsviewcontroller.sectionname.managedprovider" = "マネージドプロバイダデバッグ";
@@ -347,13 +449,43 @@
 "afcuisettingsviewcontroller.value.version" = "バージョン";
 
 /* (No Commment) */
+"afcuitimepicker.alert.title" = "時間を選択";
+
+/* (No Commment) */
+"afcuiuserloginview.loginbutton.failedtext" = "ログインに失敗しました";
+
+/* (No Commment) */
+"afcuiuserloginview.loginbutton.text" = "ログイン";
+
+/* (No Commment) */
+"afcuiuserloginview.textfieldplaceholder.password" = "パスワード";
+
+/* (No Commment) */
+"afcuiuserloginview.textfieldplaceholder.username" = "ユーザー名";
+
+/* (No Commment) */
 "afcuiwebviewcontroller.message.text" = "プリーズ ウェート";
 
 /* (No Commment) */
-"afinitialdatabase.displayforceupdate.alert.button" = "クローズ アップ";
+"afcuiwebviewcontroller.title.text" = "Web View Controller";
 
 /* (No Commment) */
-"afinitialdatabase.displayforceupdate.alert.message" = "アネーブル トゥー スタート ザー アプリケーション プリーズ・ベリファイ ザット ヨー ディバイス イズ コネクティッド トゥー エー ネトワーク";
+"afddirectorycategoryviewcontroller.allcategories" = "すべてのカテゴリー";
+
+/* (No Commment) */
+"afddirectorycategoryviewcontroller.savebutton.title" = "フィルターを適用";
+
+/* (No Commment) */
+"afddirectorycategoryviewcontroller.title" = "フィルター";
+
+/* (No Commment) */
+"afddirectoryviewcontroller.noresults.title" = "プロモーションは見つかりませんでした";
+
+/* (No Commment) */
+"afddirectoryviewcontroller.title" = "ディレクトリ";
+
+/* (No Commment) */
+"afinitialdatabase.displayforceupdate.alert.button" = "クローズ アップ";
 
 /* (No Commment) */
 "afinitialdatabase.displayforceupdate.alert.title" = "エラー";
@@ -401,6 +533,9 @@
 "afmcofferwalletviewcontroller.alert.description" = "アー ユー シュア ユー ウッド ライク トゥー ディリート ジーズ ディー メシジズ";
 
 /* (No Commment) */
+"afmcofferwalletviewcontroller.alert.title" = "メッセージの削除";
+
+/* (No Commment) */
 "afmcofferwalletviewcontroller.deletebutton.title" = "ディリート";
 
 /* (No Commment) */
@@ -410,7 +545,7 @@
 "afmcofferwalletviewcontroller.expirationdate.text" = "イクスパイウズ%@";
 
 /* (No Commment) */
-"afmcofferwalletviewcontroller.titlelabel.text" = " メシッジ・センター";
+"afmcofferwalletviewcontroller.titlelabel.text" = "メシッジ・センター";
 
 /* (No Commment) */
 "afmcofferwalletviewcontroller.titlelabel.text.editing" = "エディット";
@@ -428,6 +563,9 @@
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "ミーンズ";
 
 /* (No Commment) */
+"afmuipoiviewcontroller.search.placeholder" = "検索poi ...";
+
+/* (No Commment) */
 "detailconfig.directory.call" = "コール";
 
 /* (No Commment) */
@@ -443,16 +581,31 @@
 "detailconfig.directory.website" = "ウェブサイト";
 
 /* (No Commment) */
+"forms.error.button.title" = "[OK]";
+
+/* (No Commment) */
+"forms.error.message" = "あなたのリクエストに誤りがありました";
+
+/* (No Commment) */
+"forms.error.title" = "エラー";
+
+/* (No Commment) */
+"forms.success.button.title" = "[OK]";
+
+/* (No Commment) */
+"forms.success.message" = "あなたのリクエストは正常に送信されました";
+
+/* (No Commment) */
+"forms.success.title" = "成功";
+
+/* (No Commment) */
+"mall.detail.error.email.message" = "それは電子メールを持っていないようです。";
+
+/* (No Commment) */
 "mall.detail.error.phone.message" = "イット ダズント シーム トゥー ハブ エー フォーン ナンバー.";
 
 /* (No Commment) */
-"mall.detail.error.phone.title" = "";
-
-/* (No Commment) */
 "mall.detail.error.website.message" = "イット ダズント シーム トゥー ハブ エー ウェブサイト";
-
-/* (No Commment) */
-"mall.detail.error.website.title" = "";
 
 
 /* (No Commment) */

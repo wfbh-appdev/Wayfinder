@@ -23,7 +23,13 @@
 "PWRouteInstructionDirectionStairsUp" = "走上楼梯";
 
 /* (No Commment) */
+"PWRouteInstructionDirectionStraight" = "直走";
+
+/* (No Commment) */
 "PWRouteInstructionLast" = "你到了";
+
+/* (No Commment) */
+"PWRouteInstructionLastEmpty" = "你已到达。";
 
 /* (No Commment) */
 "afccheckforceupdate.displayforceupdate.alert.button.title" = "更新";
@@ -50,6 +56,12 @@
 "afccheckforceupdate.prompt.message.displayforceupdate.alert.title" = "需要更新";
 
 /* (No Commment) */
+"afcdirectorycategoryviewcontroller.cancel.text" = "取消";
+
+/* (No Commment) */
+"afcdirectorycategoryviewcontroller.categories.text" = "分类";
+
+/* (No Commment) */
 "afceulapromoptaction.prompt.message" = "您同意许可协议和条款和条件吗?";
 
 /* (No Commment) */
@@ -66,6 +78,15 @@
 
 /* (No Commment) */
 "afclayerpickerviewcontroller.searchbar.default.text" = "搜索";
+
+/* (No Commment) */
+"afclogoutaction.alert.button.title" = "好";
+
+/* (No Commment) */
+"afclogoutaction.alert.message" = "您已成功注销当前会话。";
+
+/* (No Commment) */
+"afclogoutaction.alert.title" = "注销成功";
 
 /* (No Commment) */
 "afcmmappickerviewcontroller.navbar.title" = "地图";
@@ -95,7 +116,7 @@
 "afcparkingmapviewcontroller.locationauthorization.erroralert.message" = "帮助我们通过启用位置跟踪您的停车位";
 
 /* (No Commment) */
-"afcparkingmapviewcontroller.locationauthorization.erroralert.okbutton.title" = " 可以 ";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.okbutton.title" = "可以";
 
 /* (No Commment) */
 "afcparkingmapviewcontroller.locationauthorization.erroralert.title" = "请启用位置";
@@ -111,9 +132,6 @@
 
 /* (No Commment) */
 "afcparkingphotoviewcontroller.deniedcamera.message.text" = "要拍摄您的停车位的照片，请允许该应用程序访问您的手机的相机.";
-
-/* (No Commment) */
-"afcparkingphotoviewcontroller.message.text" = "请点按相机按钮 n下面拍照";
 
 /* (No Commment) */
 "afcparkingphotoviewcontroller.restrictedcamera.message.text" = "相机无法访问，因为您的设备上的限制.";
@@ -143,7 +161,7 @@
 "afcparkingviewcontroller.takepicturebuttonlabel.text" = "拍照";
 
 /* (No Commment) */
-"afcparkingviewcontroller.titlelabel.text" = " 停车场 ";
+"afcparkingviewcontroller.titlelabel.text" = "停车场";
 
 /* (No Commment) */
 "afcparkingviewcontroller.voicememosavedmessage.text" = "声音备忘已保存";
@@ -156,6 +174,24 @@
 
 /* (No Commment) */
 "afcparkingvoicememoviewcontroller.titlelabel.text" = "停车备忘录";
+
+/* (No Commment) */
+"afcphonecallaction.alert.accept" = "是";
+
+/* (No Commment) */
+"afcphonecallaction.alert.cancel" = "没有";
+
+/* (No Commment) */
+"afcphonecallaction.alert.ok" = "好";
+
+/* (No Commment) */
+"afcphonecallaction.alert.title" = "拨打电话";
+
+/* (No Commment) */
+"afcphonecallaction.error.alert.message" = "您的设备无法拨打电话";
+
+/* (No Commment) */
+"afcphonecallaction.error.alert.title" = "错误";
 
 /* (No Commment) */
 "afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.cancelbutton.title" = "Ok";
@@ -179,6 +215,12 @@
 "afcuiannotationdetailviewcontroller.selectCampusButton.buttontitle" = "选择这个幅员";
 
 /* (No Commment) */
+"afcuidatepicker.alert.title" = "选择日期";
+
+/* (No Commment) */
+"afcuidatepicker.navbar.today" = "今天";
+
+/* (No Commment) */
 "afcuieulaviewcontroller.agreebutton.buttontitle" = "我同意";
 
 /* (No Commment) */
@@ -197,6 +239,30 @@
 "afcuimapviewcontroller.nopoifound.alert.title" = "POI Not Found";
 
 /* (No Commment) */
+"afcuimediapicker.alert.cancel" = "取消";
+
+/* (No Commment) */
+"afcuimediapicker.button.defaulttext" = "选择要上传的图像";
+
+/* (No Commment) */
+"afcuimediapicker.button.photouploaded" = "照片上传";
+
+/* (No Commment) */
+"afcuimediapicker.imageselect" = "从相机卷选择照片";
+
+/* (No Commment) */
+"afcuimediapicker.navbar.title" = "选择图像";
+
+/* (No Commment) */
+"afcuimediapicker.takeimage" = "拍照";
+
+/* (No Commment) */
+"afcuimediapicker.toolbar.clearimage" = "清除图像";
+
+/* (No Commment) */
+"afcuimediapicker.toolbar.selectimage" = "选择图像";
+
+/* (No Commment) */
 "afcuimmapviewcontroller.buildingloaderroralert.button" = "Ok";
 
 /* (No Commment) */
@@ -207,6 +273,9 @@
 
 /* (No Commment) */
 "afcuimmapviewcontroller.endPointOfInterest.message" = "You have arrived.";
+
+/* (No Commment) */
+"afcuimmapviewcontroller.promptlocationalert.backtofacilitymapbutton" = "返回设施地图";
 
 /* (No Commment) */
 "afcuimmapviewcontroller.promptlocationalert.cancelbutton" = "No Thanks";
@@ -222,6 +291,15 @@
 
 /* (No Commment) */
 "afcuimmapviewcontroller.searchbar.text" = "搜索...";
+
+/* (No Commment) */
+"afcuimodalwebbrowser.alert.message" = "您必须登录才能查看此页面。";
+
+/* (No Commment) */
+"afcuimodalwebbrowser.alert.ok" = "好";
+
+/* (No Commment) */
+"afcuimodalwebbrowser.alert.title" = "错误";
 
 /* (No Commment) */
 "afcuimodalwebbrowser.closebutton.buttontitle" = "关闭";
@@ -254,13 +332,7 @@
 "afcuimroutebuilderviewcontroller.endlocationtextfield.placeholder" = "结束位置";
 
 /* (No Commment) */
-"afcuimroutebuilderviewcontroller.handicapaccessibilitylabel.text" = "智障辅助功能";
-
-/* (No Commment) */
 "afcuimroutebuilderviewcontroller.openinmapsbutton.buttontitle" = "在地图上打开";
-
-/* (No Commment) */
-"afcuimroutebuilderviewcontroller.outdoortoindooralerttitle.message" = "我们注意到您目前不在该设施. n您想要前往该地点吗？";
 
 /* (No Commment) */
 "afcuimroutebuilderviewcontroller.outdoortoindooralerttitle.text" = "需要到场地的指示?";
@@ -278,10 +350,19 @@
 "afcuimroutebuilderviewcontroller.route.error.endstart.same" = "起点和终点必须不同.";
 
 /* (No Commment) */
+"afcuimroutebuilderviewcontroller.route.error.nostartend" = "必须指定开始和结束位置才能查找路线。";
+
+/* (No Commment) */
 "afcuimroutebuilderviewcontroller.route.error.title" = "抱歉";
 
 /* (No Commment) */
 "afcuimroutebuilderviewcontroller.routebutton.buttontitle" = "路由";
+
+/* (No Commment) */
+"afcuimroutebuilderviewcontroller.routeme.error.message" = "没有找到路线。";
+
+/* (No Commment) */
+"afcuimroutebuilderviewcontroller.routeme.error.title" = "路由错误";
 
 /* (No Commment) */
 "afcuimroutebuilderviewcontroller.startlabel.text" = "开始";
@@ -294,9 +375,6 @@
 
 /* (No Commment) */
 "afcuimroutebuilderviewcontroller.welcomebackdismiss.buttontitle" = "解雇";
-
-/* (No Commment) */
-"afcuimroutebuilderviewcontroller.welcomebackmessage.text" = "我们现在将继续从停车场路线到您之前选择的目的地.";
 
 /* (No Commment) */
 "afcuimroutebuilderviewcontroller.welcomebackrouteme.buttontitle" = "路由我";
@@ -323,19 +401,31 @@
 "afcuimroutingannotationview.tome.title" = "采取";
 
 /* (No Commment) */
+"afcuipicker.alert.cancel" = "取消";
+
+/* (No Commment) */
+"afcuipicker.alert.ok" = "好";
+
+/* (No Commment) */
+"afcuisettingsviewcontroller.deviceidcopy.alert.message" = "设备ID已被复制到剪贴板";
+
+/* (No Commment) */
+"afcuisettingsviewcontroller.deviceidcopy.alert.title" = "注意";
+
+/* (No Commment) */
 "afcuisettingsviewcontroller.sectionname.about" = "关于";
 
 /* (No Commment) */
 "afcuisettingsviewcontroller.sectionname.locationprovider" = "位置提供者";
 
 /* (No Commment) */
-"afcuisettingsviewcontroller.sectionname.maassdk" = "Maas SDK";
+"afcuisettingsviewcontroller.sectionname.maassdk" = "MaaS SDK";
 
 /* (No Commment) */
 "afcuisettingsviewcontroller.sectionname.managedprovider" = "管理提供程序调试";
 
 /* (No Commment) */
-"afcuisettingsviewcontroller.sectionname.notifications" = "通知";
+"afcuisettingsviewcontroller.sectionname.notifications" = "NOTIFICATIONS";
 
 /* (No Commment) */
 "afcuisettingsviewcontroller.value.auto" = "汽车";
@@ -361,19 +451,49 @@
 "afcuisettingsviewcontroller.value.version" = "版";
 
 /* (No Commment) */
+"afcuitimepicker.alert.title" = "选择时间";
+
+/* (No Commment) */
+"afcuiuserloginview.loginbutton.failedtext" = "登录失败";
+
+/* (No Commment) */
+"afcuiuserloginview.loginbutton.text" = "登录";
+
+/* (No Commment) */
+"afcuiuserloginview.textfieldplaceholder.password" = "密码";
+
+/* (No Commment) */
+"afcuiuserloginview.textfieldplaceholder.username" = "用户名";
+
+/* (No Commment) */
 "afcuiwebviewcontroller.message.text" = "请稍候...";
+
+/* (No Commment) */
+"afcuiwebviewcontroller.title.text" = "Web视图控制器";
+
+/* (No Commment) */
+"afddirectorycategoryviewcontroller.allcategories" = "所有类别";
+
+/* (No Commment) */
+"afddirectorycategoryviewcontroller.savebutton.title" = "进行筛选";
+
+/* (No Commment) */
+"afddirectorycategoryviewcontroller.title" = "筛选";
+
+/* (No Commment) */
+"afddirectoryviewcontroller.noresults.title" = "未找到结果";
+
+/* (No Commment) */
+"afddirectoryviewcontroller.title" = "目录";
 
 /* (No Commment) */
 "afinitialdatabase.displayforceupdate.alert.button" = "关闭应用程式";
 
 /* (No Commment) */
-"afinitialdatabase.displayforceupdate.alert.message" = "无法启动应用程序，请验证您的设备是否已连接到网络.";
-
-/* (No Commment) */
 "afinitialdatabase.displayforceupdate.alert.title" = "错误";
 
 /* (No Commment) */
-"aflayerdatabase.displayforceupdate.alert.button" = " 可以";
+"aflayerdatabase.displayforceupdate.alert.button" = "可以";
 
 /* (No Commment) */
 "aflayerdatabase.displayforceupdate.alert.message" = "此内容需要数据连接，请检查您的手机或WiFi网络，然后重试.";
@@ -424,7 +544,7 @@
 "afmcofferwalletviewcontroller.emptymessagelabel.text" = "此时你没有任何信息.";
 
 /* (No Commment) */
-"afmcofferwalletviewcontroller.expirationdate.text" = " 过期%@";
+"afmcofferwalletviewcontroller.expirationdate.text" = "过期%@";
 
 /* (No Commment) */
 "afmcofferwalletviewcontroller.titlelabel.text" = "消息中心";
@@ -439,7 +559,13 @@
 "afmuimapviewcontroller.turnbyturn.totaltraveltime" = "总行程时间";
 
 /* (No Commment) */
+"afmuimapviewcontroller.turnbyturn.totaltraveltime.minute" = "分钟";
+
+/* (No Commment) */
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "分钟";
+
+/* (No Commment) */
+"afmuipoiviewcontroller.search.placeholder" = "搜索poi ...";
 
 /* (No Commment) */
 "detailconfig.directory.call" = "呼叫";
@@ -457,16 +583,31 @@
 "detailconfig.directory.website" = "网站";
 
 /* (No Commment) */
+"forms.error.button.title" = "好";
+
+/* (No Commment) */
+"forms.error.message" = "您的请求出现错误";
+
+/* (No Commment) */
+"forms.error.title" = "错误";
+
+/* (No Commment) */
+"forms.success.button.title" = "好";
+
+/* (No Commment) */
+"forms.success.message" = "您的请求已成功发送";
+
+/* (No Commment) */
+"forms.success.title" = "成功";
+
+/* (No Commment) */
+"mall.detail.error.email.message" = "它似乎没有电子邮件。";
+
+/* (No Commment) */
 "mall.detail.error.phone.message" = "它似乎没有电话号码.";
 
 /* (No Commment) */
-"mall.detail.error.phone.title" = "";
-
-/* (No Commment) */
 "mall.detail.error.website.message" = "它似乎没有网站.";
-
-/* (No Commment) */
-"mall.detail.error.website.title" = "";
 
 
 /* (No Commment) */

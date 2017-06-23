@@ -23,7 +23,13 @@
 "PWRouteInstructionDirectionStairsUp" = "خذ على الدرج الى";
 
 /* (No Commment) */
+"PWRouteInstructionDirectionStraight" = "الذهاب مباشرة ل";
+
+/* (No Commment) */
 "PWRouteInstructionLast" = "كنت قد وصلت في";
+
+/* (No Commment) */
+"PWRouteInstructionLastEmpty" = "لقد وصلت.";
 
 /* (No Commment) */
 "afccheckforceupdate.displayforceupdate.alert.button.title" = "تحديث";
@@ -50,6 +56,12 @@
 "afccheckforceupdate.prompt.message.displayforceupdate.alert.title" = "مطلوب التحديث";
 
 /* (No Commment) */
+"afcdirectorycategoryviewcontroller.cancel.text" = "إلغاء";
+
+/* (No Commment) */
+"afcdirectorycategoryviewcontroller.categories.text" = "الاقسام";
+
+/* (No Commment) */
 "afceulapromoptaction.prompt.message" = "هل توافق على اتفاقية الترخيص وشروط والشروط?";
 
 /* (No Commment) */
@@ -66,6 +78,15 @@
 
 /* (No Commment) */
 "afclayerpickerviewcontroller.searchbar.default.text" = "بحث";
+
+/* (No Commment) */
+"afclogoutaction.alert.button.title" = "حسنا";
+
+/* (No Commment) */
+"afclogoutaction.alert.message" = "لقد خرجت بنجاح من الجلسة الحالية.";
+
+/* (No Commment) */
+"afclogoutaction.alert.title" = "تم الخروج بنجاح";
 
 /* (No Commment) */
 "afcmmappickerviewcontroller.navbar.title" = "خرائط";
@@ -113,9 +134,6 @@
 "afcparkingphotoviewcontroller.deniedcamera.message.text" = "لالتقاط صورة من مكان وقوف السيارات الخاصة بك، أرجو أن تسمحوا للتطبيق بالوصول إلى كاميرا الهاتف الخاص بك.";
 
 /* (No Commment) */
-"afcparkingphotoviewcontroller.message.text" = "يرجى النقر على زر الكاميرا  أدناه لالتقاط صورة";
-
-/* (No Commment) */
 "afcparkingphotoviewcontroller.restrictedcamera.message.text" = "لا يمكن الوصول إلى الكاميرا بسبب القيود المفروضة على جهازك.";
 
 /* (No Commment) */
@@ -155,7 +173,25 @@
 "afcparkingvoicememoviewcontroller.recordvoicememotitle.text" = "تسجيل مذكرة لمساعدتك على تذكر";
 
 /* (No Commment) */
-"afcparkingvoicememoviewcontroller.titlelabel.text" = "مذكرة للسيارات ";
+"afcparkingvoicememoviewcontroller.titlelabel.text" = "مذكرة للسيارات";
+
+/* (No Commment) */
+"afcphonecallaction.alert.accept" = "نعم فعلا";
+
+/* (No Commment) */
+"afcphonecallaction.alert.cancel" = "لا";
+
+/* (No Commment) */
+"afcphonecallaction.alert.ok" = "حسنا";
+
+/* (No Commment) */
+"afcphonecallaction.alert.title" = "إجراء مكالمة";
+
+/* (No Commment) */
+"afcphonecallaction.error.alert.message" = "جهازك غير قادر على إجراء المكالمات";
+
+/* (No Commment) */
+"afcphonecallaction.error.alert.title" = "خطأ";
 
 /* (No Commment) */
 "afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.cancelbutton.title" = "حسنا";
@@ -179,6 +215,12 @@
 "afcuiannotationdetailviewcontroller.selectCampusButton.buttontitle" = "اختر هذا الحرم الجامعي";
 
 /* (No Commment) */
+"afcuidatepicker.alert.title" = "حدد تاريخ";
+
+/* (No Commment) */
+"afcuidatepicker.navbar.today" = "اليوم";
+
+/* (No Commment) */
 "afcuieulaviewcontroller.agreebutton.buttontitle" = "أنا أتفق";
 
 /* (No Commment) */
@@ -188,13 +230,37 @@
 "afcuimannotationdirectoryviewcontroller.noresultsfound.text" = "لا نتائج وجدت";
 
 /* (No Commment) */
-"afcuimannotationdirectoryviewcontroller.titlelabel.text" = " في وأي دليل";
+"afcuimannotationdirectoryviewcontroller.titlelabel.text" = "في وأي دليل";
 
 /* (No Commment) */
 "afcuimapviewcontroller.nopoifound.alert.message" = "وفي و أي لم يتم العثور في المبنى في و أي أيس.";
 
 /* (No Commment) */
 "afcuimapviewcontroller.nopoifound.alert.title" = "وفي و أي لم يتم العثور على";
+
+/* (No Commment) */
+"afcuimediapicker.alert.cancel" = "إلغاء";
+
+/* (No Commment) */
+"afcuimediapicker.button.defaulttext" = "حدد صورة للتحميل";
+
+/* (No Commment) */
+"afcuimediapicker.button.photouploaded" = "تم تحميل الصورة";
+
+/* (No Commment) */
+"afcuimediapicker.imageselect" = "حدد صورة من لفة الكاميرا";
+
+/* (No Commment) */
+"afcuimediapicker.navbar.title" = "اختر صورة";
+
+/* (No Commment) */
+"afcuimediapicker.takeimage" = "تصوير";
+
+/* (No Commment) */
+"afcuimediapicker.toolbar.clearimage" = "صورة واضحة";
+
+/* (No Commment) */
+"afcuimediapicker.toolbar.selectimage" = "اختر صورة";
 
 /* (No Commment) */
 "afcuimmapviewcontroller.buildingloaderroralert.button" = "حسنا";
@@ -207,6 +273,9 @@
 
 /* (No Commment) */
 "afcuimmapviewcontroller.endPointOfInterest.message" = "كنت قد وصلت.";
+
+/* (No Commment) */
+"afcuimmapviewcontroller.promptlocationalert.backtofacilitymapbutton" = "العودة إلى خريطة المرفق";
 
 /* (No Commment) */
 "afcuimmapviewcontroller.promptlocationalert.cancelbutton" = "لا شكرا";
@@ -222,6 +291,15 @@
 
 /* (No Commment) */
 "afcuimmapviewcontroller.searchbar.text" = "بحث...";
+
+/* (No Commment) */
+"afcuimodalwebbrowser.alert.message" = "عليك تسجيل الدخول لعرض هذه الصفحة.";
+
+/* (No Commment) */
+"afcuimodalwebbrowser.alert.ok" = "حسنا";
+
+/* (No Commment) */
+"afcuimodalwebbrowser.alert.title" = "خطأ";
 
 /* (No Commment) */
 "afcuimodalwebbrowser.closebutton.buttontitle" = "أغلق";
@@ -254,13 +332,7 @@
 "afcuimroutebuilderviewcontroller.endlocationtextfield.placeholder" = "نهاية الدولة";
 
 /* (No Commment) */
-"afcuimroutebuilderviewcontroller.handicapaccessibilitylabel.text" = "هانديكاب الوصول";
-
-/* (No Commment) */
 "afcuimroutebuilderviewcontroller.openinmapsbutton.buttontitle" = "فتح الخريطة";
-
-/* (No Commment) */
-"afcuimroutebuilderviewcontroller.outdoortoindooralerttitle.message" = "لاحظنا أنك حاليا لا في المرفق.  هل ترغب في الطريق إلى مكان بدلا من ذلك?";
 
 /* (No Commment) */
 "afcuimroutebuilderviewcontroller.outdoortoindooralerttitle.text" = "تحتاج الاتجاهات إلى المكان?";
@@ -278,25 +350,31 @@
 "afcuimroutebuilderviewcontroller.route.error.endstart.same" = "يجب أن يكون نقطة بداية ونهاية مختلفة.";
 
 /* (No Commment) */
+"afcuimroutebuilderviewcontroller.route.error.nostartend" = "يجب تحديد كل من موقعي البدء والانتهاء للعثور على مسار.";
+
+/* (No Commment) */
 "afcuimroutebuilderviewcontroller.route.error.title" = "آسف";
 
 /* (No Commment) */
 "afcuimroutebuilderviewcontroller.routebutton.buttontitle" = "الطريق";
 
 /* (No Commment) */
+"afcuimroutebuilderviewcontroller.routeme.error.message" = "لا يمكن العثور على أي مسار.";
+
+/* (No Commment) */
+"afcuimroutebuilderviewcontroller.routeme.error.title" = "خطأ في المسار";
+
+/* (No Commment) */
 "afcuimroutebuilderviewcontroller.startlabel.text" = "بداية";
 
 /* (No Commment) */
-"afcuimroutebuilderviewcontroller.startlocationtextfield.placeholder" = " موقع البدء";
+"afcuimroutebuilderviewcontroller.startlocationtextfield.placeholder" = "موقع البدء";
 
 /* (No Commment) */
 "afcuimroutebuilderviewcontroller.titlelabel.text" = "التوجيه";
 
 /* (No Commment) */
 "afcuimroutebuilderviewcontroller.welcomebackdismiss.buttontitle" = "استبعاد";
-
-/* (No Commment) */
-"afcuimroutebuilderviewcontroller.welcomebackmessage.text" = "سنقوم الآن تستمر عملية التوجيه من موقف للسيارات  إلى وجهتك التي تم اختيارها مسبقا.";
 
 /* (No Commment) */
 "afcuimroutebuilderviewcontroller.welcomebackrouteme.buttontitle" = "طريق أنا؛";
@@ -314,13 +392,25 @@
 "afcuimroutingannotationview.starthereannotation.title" = "بداية";
 
 /* (No Commment) */
-"afcuimroutingannotationview.taptogoback.title" = "  حنفية إلى اذهب الى الخلف";
+"afcuimroutingannotationview.taptogoback.title" = "حنفية إلى اذهب الى الخلف";
 
 /* (No Commment) */
-"afcuimroutingannotationview.taptoviewnext.title" = " حنفية إلى رأي التالى";
+"afcuimroutingannotationview.taptoviewnext.title" = "حنفية إلى رأي التالى";
 
 /* (No Commment) */
 "afcuimroutingannotationview.tome.title" = "أخذ";
+
+/* (No Commment) */
+"afcuipicker.alert.cancel" = "إلغاء";
+
+/* (No Commment) */
+"afcuipicker.alert.ok" = "حسنا";
+
+/* (No Commment) */
+"afcuisettingsviewcontroller.deviceidcopy.alert.message" = "تم نسخ معرف الجهاز إلى الحافظة";
+
+/* (No Commment) */
+"afcuisettingsviewcontroller.deviceidcopy.alert.title" = "تنويه";
 
 /* (No Commment) */
 "afcuisettingsviewcontroller.sectionname.about" = "حول";
@@ -329,13 +419,13 @@
 "afcuisettingsviewcontroller.sectionname.locationprovider" = "لوكاتيون بروفيدر";
 
 /* (No Commment) */
-"afcuisettingsviewcontroller.sectionname.maassdk" = "ماس سك";
+"afcuisettingsviewcontroller.sectionname.maassdk" = "ماس سكس";
 
 /* (No Commment) */
 "afcuisettingsviewcontroller.sectionname.managedprovider" = "تصحيح موفر الخدمة";
 
 /* (No Commment) */
-"afcuisettingsviewcontroller.sectionname.notifications" = "إخطارات";
+"afcuisettingsviewcontroller.sectionname.notifications" = "NOTIFICATIONS";
 
 /* (No Commment) */
 "afcuisettingsviewcontroller.value.auto" = "تلقاءي";
@@ -359,13 +449,43 @@
 "afcuisettingsviewcontroller.value.version" = "الإصدار";
 
 /* (No Commment) */
+"afcuitimepicker.alert.title" = "حدد الوقت";
+
+/* (No Commment) */
+"afcuiuserloginview.loginbutton.failedtext" = "فشل تسجيل الدخول";
+
+/* (No Commment) */
+"afcuiuserloginview.loginbutton.text" = "تسجيل الدخول";
+
+/* (No Commment) */
+"afcuiuserloginview.textfieldplaceholder.password" = "كلمه السر";
+
+/* (No Commment) */
+"afcuiuserloginview.textfieldplaceholder.username" = "اسم المستخدم";
+
+/* (No Commment) */
 "afcuiwebviewcontroller.message.text" = "أرجو الإنتظار...";
 
 /* (No Commment) */
-"afinitialdatabase.displayforceupdate.alert.button" = "انهيار التطبيق";
+"afcuiwebviewcontroller.title.text" = "وحدة تحكم عرض الويب";
 
 /* (No Commment) */
-"afinitialdatabase.displayforceupdate.alert.message" = "غير قادر على بدء التطبيق. الرجاء التحقق من أن جهازك متصلا بشبكة.";
+"afddirectorycategoryviewcontroller.allcategories" = "جميع التصنيفات";
+
+/* (No Commment) */
+"afddirectorycategoryviewcontroller.savebutton.title" = "تطبيق التصفيات";
+
+/* (No Commment) */
+"afddirectorycategoryviewcontroller.title" = "مرشحات";
+
+/* (No Commment) */
+"afddirectoryviewcontroller.noresults.title" = "لم يتم العثور على نتائج";
+
+/* (No Commment) */
+"afddirectoryviewcontroller.title" = "دليل";
+
+/* (No Commment) */
+"afinitialdatabase.displayforceupdate.alert.button" = "انهيار التطبيق";
 
 /* (No Commment) */
 "afinitialdatabase.displayforceupdate.alert.title" = "خطأ";
@@ -380,52 +500,52 @@
 "aflayerdatabase.displayforceupdate.alert.title" = "خطأ";
 
 /* (No Commment) */
-"afmcofferdetailviewcontroller.alert.cancelbutton.title" = " نعم ";
+"afmcofferdetailviewcontroller.alert.cancelbutton.title" = "نعم";
 
 /* (No Commment) */
-"afmcofferdetailviewcontroller.alert.deletebutton.title" = " لا";
+"afmcofferdetailviewcontroller.alert.deletebutton.title" = "لا";
 
 /* (No Commment) */
-"afmcofferdetailviewcontroller.alert.message" = " هل ترغب في حذف هذه الرسالة?";
+"afmcofferdetailviewcontroller.alert.message" = "هل ترغب في حذف هذه الرسالة?";
 
 /* (No Commment) */
-"afmcofferdetailviewcontroller.alert.title" = " حذف رسالة ";
+"afmcofferdetailviewcontroller.alert.title" = "حذف رسالة";
 
 /* (No Commment) */
-"afmcofferdetailviewcontroller.expirationdatelabel.text" = "@% تنقضي ";
+"afmcofferdetailviewcontroller.expirationdatelabel.text" = "@% تنقضي";
 
 /* (No Commment) */
-"afmcofferdetailviewcontroller.offerbutton.title" = " تلقي عرض مجاني!";
+"afmcofferdetailviewcontroller.offerbutton.title" = "تلقي عرض مجاني!";
 
 /* (No Commment) */
-"afmcofferdetailviewcontroller.titlelabel.text" = "ترويج ";
+"afmcofferdetailviewcontroller.titlelabel.text" = "ترويج";
 
 /* (No Commment) */
-"afmcofferswipeviewcontroller.titlelabel.text" = " ترويج ";
+"afmcofferswipeviewcontroller.titlelabel.text" = "ترويج";
 
 /* (No Commment) */
-"afmcofferwalletviewcontroller.alert.cancelbutton.title" = "لا ";
+"afmcofferwalletviewcontroller.alert.cancelbutton.title" = "لا";
 
 /* (No Commment) */
-"afmcofferwalletviewcontroller.alert.deletebutton.title" = " نعم ";
+"afmcofferwalletviewcontroller.alert.deletebutton.title" = "نعم";
 
 /* (No Commment) */
 "afmcofferwalletviewcontroller.alert.description" = "هل أنت متأكد أنك ترغب في حذف هذه د٪ الرسائل?";
 
 /* (No Commment) */
-"afmcofferwalletviewcontroller.alert.title" = "حذف الرسائل ";
+"afmcofferwalletviewcontroller.alert.title" = "حذف الرسائل";
 
 /* (No Commment) */
-"afmcofferwalletviewcontroller.deletebutton.title" = "حذف ";
+"afmcofferwalletviewcontroller.deletebutton.title" = "حذف";
 
 /* (No Commment) */
-"afmcofferwalletviewcontroller.emptymessagelabel.text" = " ليس لديك أية رسائل في هذا وقت.";
+"afmcofferwalletviewcontroller.emptymessagelabel.text" = "ليس لديك أية رسائل في هذا وقت.";
 
 /* (No Commment) */
 "afmcofferwalletviewcontroller.expirationdate.text" = "@% تنقضي";
 
 /* (No Commment) */
-"afmcofferwalletviewcontroller.titlelabel.text" = "مركز الرسائل ";
+"afmcofferwalletviewcontroller.titlelabel.text" = "مركز الرسائل";
 
 /* (No Commment) */
 "afmcofferwalletviewcontroller.titlelabel.text.editing" = "تصحيح";
@@ -448,6 +568,9 @@
 "afmuipoiviewcontroller.search.placeholder" = "... جار البحث عن البوي";
 
 /* (No Commment) */
+"afmuipoiviewcontroller.search.placeholder" = "... جار البحث عن البوي";
+
+/* (No Commment) */
 "detailconfig.directory.call" = "مكالمة";
 
 /* (No Commment) */
@@ -457,22 +580,37 @@
 "detailconfig.directory.map" = "خريطة";
 
 /* (No Commment) */
-"detailconfig.directory.route" = "الطريق";
+"detailconfig.directory.route" = "طريق";
 
 /* (No Commment) */
 "detailconfig.directory.website" = "موقع الكتروني";
 
 /* (No Commment) */
+"forms.error.button.title" = "حسنا";
+
+/* (No Commment) */
+"forms.error.message" = "حدث خطأ في طلبك";
+
+/* (No Commment) */
+"forms.error.title" = "خطأ";
+
+/* (No Commment) */
+"forms.success.button.title" = "حسنا";
+
+/* (No Commment) */
+"forms.success.message" = "تم ارسال طلبك بنجاح";
+
+/* (No Commment) */
+"forms.success.title" = "نجاح";
+
+/* (No Commment) */
+"mall.detail.error.email.message" = "لا يبدو أن لديها بريد إلكتروني.";
+
+/* (No Commment) */
 "mall.detail.error.phone.message" = "فإنه لا يبدو أن لديها رقم هاتف.";
 
 /* (No Commment) */
-"mall.detail.error.phone.title" = "";
-
-/* (No Commment) */
-"mall.detail.error.website.message" = "فإنه لا يبدو أن لديها موقع على شبكة الانترنت. ";
-
-/* (No Commment) */
-"mall.detail.error.website.title" = "";
+"mall.detail.error.website.message" = "فإنه لا يبدو أن لديها موقع على شبكة الانترنت.";
 
 
 /* (No Commment) */
