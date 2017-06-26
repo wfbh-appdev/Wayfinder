@@ -266,6 +266,7 @@
 "afcuimroutebuilderviewcontroller.welcomebackrouteme.buttontitle" = "RUTA";
 "afcuimroutebuilderviewcontroller.routeme.error.title" = "Error en la ruta";
 "afcuimroutebuilderviewcontroller.routeme.error.message" = "No se puede encontrar ninguna ruta";
+"afcuimroutebuilderviewcontroller.table.header.title" = "%1$@ en %2$@";
 
 /*
  *  AFCUIMPOIFilterEditorViewController Strings
