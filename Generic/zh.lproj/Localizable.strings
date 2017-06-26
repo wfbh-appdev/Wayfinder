@@ -183,6 +183,8 @@
 "PWRouteInstructionDirectionElevatorDown" = "乘电梯到";
 "PWRouteInstructionDirectionStairsUp" = "走上楼梯";
 "PWRouteInstructionDirectionStairsDown" = "走下楼梯";
+"PWRouteInstructionDirectionEscalatorUp" = "自动楼梯";
+"PWRouteInstructionDirectionEscalatorDown" = "自动楼梯";
 "PWRouteInstructionLast" = "你到了";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime" = "总行程时间";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "分钟";
