@@ -144,6 +144,8 @@
 "PWRouteInstructionDirectionElevatorDown" = "استقل المصعد الى";
 "PWRouteInstructionDirectionStairsUp" = "خذ على الدرج الى";
 "PWRouteInstructionDirectionStairsDown" = "اصعد السلالم وصولا الى";
+"PWRouteInstructionDirectionEscalatorUp" = "سلم كهربائى";
+"PWRouteInstructionDirectionEscalatorDown" = "سلم كهربائى";
 "PWRouteInstructionLast" = "كنت قد وصلت في";
 "afmuimapviewcontroller.turnbyturn.in" = "في";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime" = "إجمالي مدة السفر";

@@ -176,6 +176,8 @@
 "PWRouteInstructionDirectionElevatorDown" = "テーク ザー エリベーター ダウン トゥー";
 "PWRouteInstructionDirectionStairsUp" = "テーク ザー ステアズ アップ トゥー";
 "PWRouteInstructionDirectionStairsDown" = "テーク ザー ステアズ ダウン トゥー";
+"PWRouteInstructionDirectionEscalatorUp" = "エスカレーター";
+"PWRouteInstructionDirectionEscalatorDown" = "エスカレーター";
 "PWRouteInstructionLast" = "ユーブ アライブド アット";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime" = "トータル トラベル タイム";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minute" = "ミーンズ";
