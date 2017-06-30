@@ -45,7 +45,6 @@
 "afcuimodalwebbrowser.closeButton.buttontitle" = "أغلق";
 //AFCUIModalWebBrowser Strings
 "afcuimodalwebbrowser.status.text" = "تحميل";
-"afcuimodalwebbrowser.closebutton.buttontitle" = "أغلق";
 //  AFCParkingMapViewController Strings
 "afcparkingmapviewcontroller.droppinbutton.buttontitle" = "إسقاط دبوس";
 "afcparkingmapviewcontroller.droppinbutton.clearenabled.buttontitle" = "واضح";
@@ -145,11 +144,17 @@
 "PWRouteInstructionDirectionElevatorDown" = "استقل المصعد الى";
 "PWRouteInstructionDirectionStairsUp" = "خذ على الدرج الى";
 "PWRouteInstructionDirectionStairsDown" = "اصعد السلالم وصولا الى";
+"PWRouteInstructionDirectionEscalatorUp" = "سلم كهربائى";
+"PWRouteInstructionDirectionEscalatorDown" = "سلم كهربائى";
 "PWRouteInstructionLast" = "كنت قد وصلت في";
 "afmuimapviewcontroller.turnbyturn.in" = "في";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime" = "إجمالي مدة السفر";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minute" = "دقيقة";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "دقائق";
+"meter" = "متر";
+"meters" = "متر";
+"foot" = "قدم";
+"feet" = "قدم";
 
 /*** AF-LOCATIONMARKETING STRINGS ***/
 
@@ -172,10 +177,50 @@
 "afmcofferdetailviewcontroller.alert.message" = " هل ترغب في حذف هذه الرسالة?";
 "afmcofferdetailviewcontroller.alert.deletebutton.title" = " لا";
 "afmcofferdetailviewcontroller.alert.cancelbutton.title" = " نعم ";
-"afmcofferdetailviewcontroller.onetimepromoalert.cancelbutton.title" = "Cancel";
-"afmcofferdetailviewcontroller.onetimepromoalert.redeembutton.title" = "Redeem";
-"afmcofferdetailviewcontroller.onetimepromoalert.title" = "One Time Use Promotion";
-"afmcofferdetailviewcontroller.onetimepromoalert.message" = "Redeeming this offer will remove it from the Message Center.";
+"afmcofferdetailviewcontroller.onetimepromoalert.cancelbutton.title" = "افتدى";
+"afmcofferdetailviewcontroller.onetimepromoalert.redeembutton.title" = "إلغاء";
+"afmcofferdetailviewcontroller.onetimepromoalert.title" = "استخدام مرة واحدة الاستخدام";
+"afmcofferdetailviewcontroller.onetimepromoalert.message" = "سيؤدي استرداد قيمة هذا العرض إلى إزالته من مركز الرسائل.";
 
 /* * AFMCOfferSwipeViewController Strings */
 "afmcofferswipeviewcontroller.titlelabel.text" = " ترويج ";
+
+/*
+ * Smart Form Date/Time Picker Strings
+ */
+"afcuidatepicker.alert.title" = "حدد تاريخ";
+"afcuidatepicker.navbar.today" = "اليوم";
+"afcuitimepicker.alert.title" = "حدد الوقت";
+"afcuipicker.alert.ok" = "حسنا";
+"afcuipicker.alert.cancel" = "إلغاء";
+
+/*
+ * Smart Form Image Upload Strings
+ */
+"afcuimediapicker.navbar.title" = "اختر صورة";
+"afcuimediapicker.toolbar.selectimage" = "اختر صورة";
+"afcuimediapicker.toolbar.clearimage" = "صورة واضحة";
+"afcuimediapicker.alert.cancel" = "إلغاء";
+"afcuimediapicker.imageselect" = "حدد صورة من كاميرا رول";
+"afcuimediapicker.takeimage" = "تصوير";
+"afcuimediapicker.button.defaulttext" = "حدد صورة للتحميل";
+"afcuimediapicker.button.photouploaded" = "تم تحميل الصورة";
+
+/**
+ * Push notification actions
+ */
+"Directory.show" = "عرض";
+"DirectoryItem.show" = "عرض";
+"Events.show" = "عرض";
+"EvenntItem.show" = "عرض";
+"Map.show" = "عرض";
+"Map.route" = "مسار";
+"Offer.listing" = "قائمة";
+"Offer.detail" = "المفرزة المختارة";
+"Parking.main" = "الأساسية";
+"Parking.map" = "خريطة";
+"Parking.photo" = "صورة فوتوغرافية";
+"Parking.voice" = "صوت";
+"Parking.note" = "حاشية";
+"Page.show" = "عرض";
+"SettingsMap.show" = "عرض";

@@ -59,7 +59,6 @@
 "afcuimodalwebbrowser.closeButton.buttontitle" = "关闭";
 //AFCUI模态网址浏览器字符串
 "afcuimodalwebbrowser.status.text" = "载入";
-"afcuimodalwebbrowser.closebutton.buttontitle" = "关闭";
 //AFC停车地图视图控制器字符串
 "afcparkingmapviewcontroller.droppinbutton.buttontitle" = "放一个针";
 "afcparkingmapviewcontroller.droppinbutton.clearenabled.buttontitle" = "清除";
@@ -184,11 +183,17 @@
 "PWRouteInstructionDirectionElevatorDown" = "乘电梯到";
 "PWRouteInstructionDirectionStairsUp" = "走上楼梯";
 "PWRouteInstructionDirectionStairsDown" = "走下楼梯";
+"PWRouteInstructionDirectionEscalatorUp" = "自动楼梯";
+"PWRouteInstructionDirectionEscalatorDown" = "自动楼梯";
 "PWRouteInstructionLast" = "你到了";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime" = "总行程时间";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "分钟";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "分钟";
 "afmuimapviewcontroller.turnbyturn.in" = "在";
+"meter" = "公尺";
+"foot" = "英尺";
+"meters" = "公尺";
+"feet" = "英尺";
 
 /*** AF-LOCATIONMARKETING STRINGS ***/
 
@@ -211,10 +216,50 @@
 "afmcofferdetailviewcontroller.alert.message" = "要删除此消息吗？";
 "afmcofferdetailviewcontroller.alert.deletebutton.title" = "没有";
 "afmcofferdetailviewcontroller.alert.cancelbutton.title" = "是";
-"afmcofferdetailviewcontroller.onetimepromoalert.cancelbutton.title" = "Cancel";
-"afmcofferdetailviewcontroller.onetimepromoalert.redeembutton.title" = "Redeem";
-"afmcofferdetailviewcontroller.onetimepromoalert.title" = "One Time Use Promotion";
-"afmcofferdetailviewcontroller.onetimepromoalert.message" = "Redeeming this offer will remove it from the Message Center.";
+"afmcofferdetailviewcontroller.onetimepromoalert.cancelbutton.title" = "取消";
+"afmcofferdetailviewcontroller.onetimepromoalert.redeembutton.title" = "赎买";
+"afmcofferdetailviewcontroller.onetimepromoalert.title" = "一次性使用促销";
+"afmcofferdetailviewcontroller.onetimepromoalert.message" = "兑换此优惠将从消息中心中删除。";
 
 /* * AFMCOfferSwipeViewController Strings */
 "afmcofferswipeviewcontroller.titlelabel.text" = "促销";
+
+/*
+ * Smart Form Date/Time Picker Strings
+ */
+"afcuidatepicker.alert.title" = "选择日期";
+"afcuidatepicker.navbar.today" = "这天";
+"afcuitimepicker.alert.title" = "选择时间";
+"afcuipicker.alert.ok" = "好";
+"afcuipicker.alert.cancel" = "撤消";
+
+/*
+ * Smart Form Image Upload Strings
+ */
+"afcuimediapicker.navbar.title" = "选择图像";
+"afcuimediapicker.toolbar.selectimage" = "选择图像";
+"afcuimediapicker.toolbar.clearimage" = "清除图";
+"afcuimediapicker.alert.cancel" = "撤消";
+"afcuimediapicker.imageselect" = "从相机胶卷中选择照片";
+"afcuimediapicker.takeimage" = "拍照";
+"afcuimediapicker.button.defaulttext" = "选择要上传的图像";
+"afcuimediapicker.button.photouploaded" = "照片上传";
+
+/**
+ * Push notification actions
+ */
+"Directory.show" = "显示";
+"DirectoryItem.show" = "显示";
+"Events.show" = "显示";
+"EvenntItem.show" = "显示";
+"Map.show" = "显示";
+"Map.route" = "路线";
+"Offer.listing" = "目录";
+"Offer.detail" = "详情";
+"Parking.main" = "主要";
+"Parking.map" = "地图";
+"Parking.photo" = "照片";
+"Parking.voice" = "语音";
+"Parking.note" = "注解";
+"Page.show" = "显示";
+"SettingsMap.show" = "显示";

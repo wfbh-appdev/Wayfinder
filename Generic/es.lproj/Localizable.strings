@@ -100,6 +100,18 @@
 "afcphonecallaction.error.alert.title" = "Error";
 "afcphonecallaction.error.alert.message" = "Su dispositivo no puede realizar llamadas";
 
+/**
+ *  AFCUIAlertSubscriptionsViewController
+ */
+"afcuialertsubscriptionviewcontroller.title" = "Perfiles";
+
+/**
+ *  AFCForgotPasswordViewController
+ */
+"afcforgotpasswordviewcontroller.alert.error.title" = "Error";
+"afcforgotpasswordviewcontroller.alert.error.description" = "Debe ingresar una dirección de correo válida";
+"afcforgotpasswordviewcontroller.alert.error.okbutton.title" = "OK";
+
 /*** AF-RENDER STRINGS ***/
 
 /*
@@ -254,6 +266,7 @@
 "afcuimroutebuilderviewcontroller.welcomebackrouteme.buttontitle" = "RUTA";
 "afcuimroutebuilderviewcontroller.routeme.error.title" = "Error en la ruta";
 "afcuimroutebuilderviewcontroller.routeme.error.message" = "No se puede encontrar ninguna ruta";
+"afcuimroutebuilderviewcontroller.table.header.title" = "%1$@ en %2$@";
 
 /*
  *  AFCUIMPOIFilterEditorViewController Strings
@@ -284,6 +297,14 @@
 "afcuimmapviewcontroller.buildingloaderroralert.button" = "SÍ";
 
 /**
+ *  AFMUIMapViewController
+ */
+"afmuimapviewcontroller.distance.meter" = "%i metro";
+"afmuimapviewcontroller.distance.meters" = "%i metros";
+"afmuimapviewcontroller.distance.foot" = "%i pie";
+"afmuimapviewcontroller.distance.feet" = "%i pies";
+
+/**
  *  AFMUIPOIViewController Strings
  */
 "afmuipoiviewcontroller.search.placeholder" = "Buscar un punto de interés...";
@@ -304,6 +325,12 @@
 "afcmmappickerviewcontroller.navbar.title" = "Mapas";
 "afcmmappickerviewcontroller.promptlocationalert.title" = "Nos ayudan a guiar";
 "afcmmappickerviewcontroller.promptlocationalert.message" = "Por favor, activa los servicios de localización de manera que le guiará por las instalaciones.";
+
+/**
+ *  AFMOutdoorToIndoor Strings
+ */
+
+"afmoutdoortoindoor.nativemap.title" = "%1$@ en %2$@";
 
 /*** AF-LOCATIONMARKETING STRINGS ***/
 
@@ -330,10 +357,10 @@
 "afmcofferdetailviewcontroller.alert.message" = "¿Desea eliminar el mensaje?";
 "afmcofferdetailviewcontroller.alert.deletebutton.title" = "SI";
 "afmcofferdetailviewcontroller.alert.cancelbutton.title" = "NO";
-"afmcofferdetailviewcontroller.onetimepromoalert.cancelbutton.title" = "Cancel";
-"afmcofferdetailviewcontroller.onetimepromoalert.redeembutton.title" = "Redeem";
-"afmcofferdetailviewcontroller.onetimepromoalert.title" = "One Time Use Promotion";
-"afmcofferdetailviewcontroller.onetimepromoalert.message" = "Redeeming this offer will remove it from the Message Center.";
+"afmcofferdetailviewcontroller.onetimepromoalert.cancelbutton.title" = "Cancelar";
+"afmcofferdetailviewcontroller.onetimepromoalert.redeembutton.title" = "Redimir";
+"afmcofferdetailviewcontroller.onetimepromoalert.title" = "Promoción de uso único";
+"afmcofferdetailviewcontroller.onetimepromoalert.message" = "Canjear esta oferta la eliminará del Centro de Mensajes.";
 
 /*
  *  AFMCOfferSwipeViewController Strings
@@ -360,9 +387,34 @@
 "PWRouteInstructionDirectionElevatorDown" = "Toma el ascensor hasta";
 "PWRouteInstructionDirectionStairsUp" = "Sube las escaleras hasta";
 "PWRouteInstructionDirectionStairsDown" = "Sube las escaleras hasta";
+"PWRouteInstructionDirectionEscalatorUp" = "Escalera mecánica";
+"PWRouteInstructionDirectionEscalatorDown" = "Escalera mecánica";
 "PWRouteInstructionLast" = "Has llegado a";
 "PWRouteInstructionLastEmpty" = "Has llegado.";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime" = "Tiempo total de viaje";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minute" = "min";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "mins";
 "afmuimapviewcontroller.turnbyturn.in" = "en";
+"meter" = "metro";
+"meters" = "metros";
+"foot" = "pie";
+"feet" = "pies";
+
+/**
+ * Push notification actions
+ */
+"Directory.show" = "Mostrar";
+"DirectoryItem.show" = "Mostrar";
+"Events.show" = "Mostrar";
+"EvenntItem.show" = "Mostrar";
+"Map.show" = "Mostrar";
+"Map.route" = "Ruta";
+"Offer.listing" = "Listado";
+"Offer.detail" = "Detalle";
+"Parking.main" = "Principal";
+"Parking.map" = "Mapa";
+"Parking.photo" = "Foto";
+"Parking.voice" = "Voz";
+"Parking.note" = "Apunte";
+"Page.show" = "Mostrar";
+"SettingsMap.show" = "Mostrar";

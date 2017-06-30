@@ -31,7 +31,7 @@
  *   AFCUIModalWebBrowser Strings
  */
  "afcuimodalwebbrowser.status.text" = "Loading";
- "afcuimodalwebbrowser.closebutton.buttontitle" = "Close";
+ "afcuimodalwebbrowser.closeButton.buttontitle" = "Close";
 
 /*
  *  AFCCheckForceUpdate Strings
@@ -100,6 +100,17 @@
 "afcphonecallaction.error.alert.title" = "Error";
 "afcphonecallaction.error.alert.message" = "Your device is not capable of placing calls";
 
+/**
+ *  AFCUIAlertSubscriptionsViewController
+ */
+"afcuialertsubscriptionviewcontroller.title" = "Profiles";
+
+/**
+ *  AFCForgotPasswordViewController
+ */
+"afcforgotpasswordviewcontroller.alert.error.title" = "Error";
+"afcforgotpasswordviewcontroller.alert.error.description" = "You must enter a valid email address.";
+"afcforgotpasswordviewcontroller.alert.error.okbutton.title" = "OK";
 
 /*** AF-RENDER STRINGS ***/
 
@@ -168,6 +179,10 @@
 /**
  * AFDDirectoryCategoryViewController Strings
  */
+
+"afddirectorycategoryviewcontroller.title" = "Filters";
+"afddirectorycategoryviewcontroller.allcategories" = "All Categories";
+"afddirectorycategoryviewcontroller.savebutton.title" = "Apply Filters";
 
 "afddirectorycategoryviewcontroller.title" = "Filters";
 "afddirectorycategoryviewcontroller.allcategories" = "All Categories";
@@ -258,6 +273,7 @@
 "afcuimroutebuilderviewcontroller.welcomebackrouteme.buttontitle" = "ROUTE ME";
 "afcuimroutebuilderviewcontroller.routeme.error.title" = "Route Error";
 "afcuimroutebuilderviewcontroller.routeme.error.message" = "No route can be found.";
+"afcuimroutebuilderviewcontroller.table.header.title" = "%1$@ at %2$@";
 
 /*
  *  AFCUIMPOIFilterEditorViewController Strings
@@ -288,9 +304,23 @@
 "afcuimmapviewcontroller.buildingloaderroralert.button" = "Ok";
 
 /**
+ *  AFMUIMapViewController
+ */
+"afmuimapviewcontroller.distance.meter" = "%i meter";
+"afmuimapviewcontroller.distance.meters" = "%i meters";
+"afmuimapviewcontroller.distance.foot" = "%i foot";
+"afmuimapviewcontroller.distance.feet" = "%i feet";
+
+/**
  *  AFMUIPOIViewController Strings
  */
 "afmuipoiviewcontroller.search.placeholder" = "Search for poi...";
+
+/**
+ *  AFMOutdoorToIndoor Strings
+ */
+
+"afmoutdoortoindoor.nativemap.title" = "%1$@ at %2$@";
 
 /*
  *  AFCUIMRoutingAnnotationView Strings
@@ -364,9 +394,34 @@
 "PWRouteInstructionDirectionElevatorDown" = "Take the elevator down to";
 "PWRouteInstructionDirectionStairsUp" = "Take the stairs up to";
 "PWRouteInstructionDirectionStairsDown" = "Take the stairs down to";
+"PWRouteInstructionDirectionEscalatorUp" = "Take the escalator up to";
+"PWRouteInstructionDirectionEscalatorDown" = "Take the escalator down to";
 "PWRouteInstructionLast" = "You've arrived at";
 "PWRouteInstructionLastEmpty" = "You have arrived.";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime" = "Total Travel Time";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minute" = "min";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "mins";
 "afmuimapviewcontroller.turnbyturn.in" = "in";
+"meter" = "meter";
+"meters" = "meters";
+"foot" = "foot";
+"feet" = "feet";
+
+/**
+ * Push notification actions
+ */
+"Directory.show" = "Show";
+"DirectoryItem.show" = "Show";
+"Events.show" = "Show";
+"EvenntItem.show" = "Show";
+"Map.show" = "Show";
+"Map.route" = "Route";
+"Offer.listing" = "Listing";
+"Offer.detail" = "Detail";
+"Parking.main" = "Main";
+"Parking.map" = "Map";
+"Parking.photo" = "Photo";
+"Parking.voice" = "Voice";
+"Parking.note" = "Note";
+"Page.show" = "Show";
+"SettingsMap.show" = "Show";
