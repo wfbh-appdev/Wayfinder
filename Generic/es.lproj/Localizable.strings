@@ -26,6 +26,7 @@
  *   AFCUIWebViewController Strings
  */
 "afcuiwebviewcontroller.message.text" = "Por favor espere...";
+ "afcuiwebviewcontroller.title.text" = "Web View Controller";
 
 /*
  *  AFCUIModalWebBrowser Strings
@@ -105,6 +106,33 @@
 "afcphonecallaction.alert.ok" = "OK";
 "afcphonecallaction.error.alert.title" = "Error";
 "afcphonecallaction.error.alert.message" = "Su dispositivo no puede realizar llamadas";
+
+/*
+ * AFCUISettingsViewController
+ */
+"afcuisettingsviewcontroller.sectionname.notifications" = "NOTIFICACIONES";
+"afcuisettingsviewcontroller.sectionname.managedprovider" = "Depurar Managed Provider";
+"afcuisettingsviewcontroller.sectionname.locationprovider" = "PROVEEDOR DE UBICACIÓN";
+"afcuisettingsviewcontroller.sectionname.maassdk" = "MaaS SDKs";
+"afcuisettingsviewcontroller.sectionname.about" = "ACERCA";
+
+"afcuisettingsviewcontroller.value.auto" = "Auto";
+"afcuisettingsviewcontroller.value.none" = "Ninguno";
+"afcuisettingsviewcontroller.value.on" = "Encendido";
+"afcuisettingsviewcontroller.value.off" = "Apagado";
+"afcuisettingsviewcontroller.value.preferences" = "Preferencias";
+"afcuisettingsviewcontroller.value.version" = "Versión";
+"afcuisettingsviewcontroller.value.deviceid" = "ID Dispositivo";
+
+/*
+ * AFCDetailViewConfigurator
+ */
+
+"detailconfig.directory.route" = "Ruta";
+"detailconfig.directory.call" = "Llamar";
+"detailconfig.directory.email" = "Email";
+"detailconfig.directory.website" = "Sitio Web";
+"detailconfig.directory.map" = "Mapa";
 
 /*** AF-RENDER STRINGS ***/
 
