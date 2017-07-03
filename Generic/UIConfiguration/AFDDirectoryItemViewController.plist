@@ -4,6 +4,8 @@
 <dict>
 	<key>titleLabel</key>
 	<dict>
+		<key>lineBreakMode</key>
+		<string>bytruncatingtail</string>
 		<key>lines</key>
 		<integer>1</integer>
 	</dict>

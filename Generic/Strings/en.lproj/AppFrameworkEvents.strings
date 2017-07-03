@@ -7,3 +7,15 @@
 "eventlistviewcontroller.favorites.all" = "All";
 "eventslistviewcontroller.favorites.only" = "Favorites";
 "eventslistviewcontroller.event.subtitle.fromto" = "From %@ to %@";
+
+"afcaddeventtocalendar.addtocalendar.success.title" = "Calendar Event";
+"afcaddeventtocalendar.addtocalendar.success.message" = "%@ was added to your calendar";
+"afcaddeventtocalendar.addtocalendar.failure.title" = "Calendar Event";
+"afcaddeventtocalendar.addtocalendar.failure.message" = "An error occurred, please try again";
+"afcaddeventtocalendar.addtocalendar.cancelbutton.title" = "OK";
+"afcaddeventtocalendar.calendarrestrictedaccess.title" = "Access to Calendar is Restricted";
+"afcaddeventtocalendar.calendarrestrictedaccess.message" = "To re-enable, please go to Settings and grant access to your Calendar";
+"afcaddeventtocalendar.calendarrestrictedaccess.cancelbutton.title" = "Cancel";
+"afcaddeventtocalendar.calendarrestrictedaccess.settingsbutton.title" = "Settings";
+"eventsdetail.share.text.subject" = "%@ is having an event! %@";
+"eventsdetail.share.text.body" = "Check out the event at %@:\n\n%@";

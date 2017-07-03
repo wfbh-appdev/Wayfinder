@@ -87,3 +87,20 @@
 "afccomposeemailaction.alert.error.title" = "Email";
 "afccomposeemailaction.alert.error.message" = "Sorry. Your device is not currently setup for email.";
 "afccomposeemailaction.alert.button.title" = "OK";
+
+/*
+ * AFCPhoneCallAction
+ */
+"afcphonecallaction.alert.title" = "Place a Call";
+"afcphonecallaction.alert.message" = "Are you sure you want to call:\n%@";
+"afcphonecallaction.alert.accept" = "Yes";
+"afcphonecallaction.alert.cancel" = "No";
+"afcphonecallaction.alert.ok" = "OK";
+"afcphonecallaction.error.alert.title" = "Error";
+"afcphonecallaction.error.alert.message" = "Your device is not capable of placing calls";
+
+/*
+ *  No Connection Available
+ */
+"afnointernetconnection.banner.message" = "No internet connection. Experience may be degraded.";
+"afnointernetconnection.banner.button" = "Ok";
