@@ -21,7 +21,7 @@
 	<key>noResultsFoundLabel</key>
 	<dict>
 		<key>text</key>
-		<string>#afcdirectoryviewcontroller.noresultsfound.title</string>
+		<string>#afcdirectoryviewcontroller.noresultsfound.title,AppFrameworkDirectory</string>
 		<key>fontName</key>
 		<string>$MainFont</string>
 		<key>fontSize</key>
