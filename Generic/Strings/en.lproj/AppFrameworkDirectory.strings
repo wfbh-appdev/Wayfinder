@@ -6,41 +6,16 @@
 */
 
 /*** AF-DIRECTORY STRINGS ***/
-/*
- * Mall Detail Strings
+/**
+ * AFDDirectoryViewController Strings
  */
-"mall.detail.error.email.message" = "It doesn't seem to have an email.";
-"mall.detail.error.email.title" = "";
-"mall.detail.error.phone.message" = "It doesn't seem to have a phone number.";
-"mall.detail.error.phone.title" = "";
-"mall.detail.error.website.message" = "It doesn't seem to have a website.";
-"mall.detail.error.website.title" = "";
 
-/*
- * AFCClearCacheAction Strings
- */
-"afcclearcacheaction.prompt.message" = "This will clear all the saved data and relaunch the app. Are you sure you want to continue?";
-"afcclearcacheaction.prompt.title" = "Confirm";
-"afcclearcacheaction.cancel.title" = "Cancel";
-"afcclearcacheaction.ok.title" = "Clear Cache";
-
-/*
- * AFCUIMAnnotationDirectoryViewController Strings
- */
-"afcdirectorycategoryviewcontroller.cancel.text" = "Cancel";
-"afcdirectorycategoryviewcontroller.categories.text" = "Categories";
+"afddirectoryviewcontroller.noresults.title" = "No results were found";
 
 /**
- * AFCDirectoryViewController Strings
+ * AFDDirectoryCategoryViewController Strings
  */
-"afcdirectoryviewcontroller.viewdidload.allString" = "All";
-"afcdirectoryviewcontroller.viewdidload.favoritesString" = "Favorites";
-"afcdirectoryviewcontroller.setSearchBarPlaceHolder.searchText" = "Search";
-"Search...                                                                " = "Search...                                                                ";
-"afcdirectoryviewcontroller.nonetwork.failure.title" = "Directory";
-"afcdirectoryviewcontroller.nonetwork.failure.message" = "This content requires a data connection, please check your mobile or wifi network and try again.";
-"afcdirectoryviewcontroller.nonetwork.failure.cancelbutton.title" = "Ok";
-"afcdirectoryviewcontroller.noresultsfound.title"="No Results Found.";
-"afcdirectoryviewcontroller.filternotice.title"="Filtered by";
-"afcdirectoryviewcontroller.filtercategory.title"="All";
-"afcdirectoryviewcontroller.filtercategorybutton.title"="Filter";
+
+"afddirectorycategoryviewcontroller.title" = "Filters";
+"afddirectorycategoryviewcontroller.allcategories" = "All Categories";
+"afddirectorycategoryviewcontroller.savebutton.title" = "Apply Filters";

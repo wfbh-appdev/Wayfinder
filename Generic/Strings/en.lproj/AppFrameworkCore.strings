@@ -104,3 +104,25 @@
  */
 "afnointernetconnection.banner.message" = "No internet connection. Experience may be degraded.";
 "afnointernetconnection.banner.button" = "Ok";
+
+/*
+ * AFCUISettingsViewController
+ */
+"afcuisettingsviewcontroller.sectionname.notifications" = "NOTIFICATIONS";
+"afcuisettingsviewcontroller.sectionname.managedprovider" = "Managed Provider Debug";
+"afcuisettingsviewcontroller.sectionname.locationprovider" = "LOCATION PROVIDER";
+"afcuisettingsviewcontroller.sectionname.maassdk" = "MaaS SDKs";
+"afcuisettingsviewcontroller.sectionname.about" = "ABOUT";
+
+"afcuisettingsviewcontroller.value.auto" = "Auto";
+"afcuisettingsviewcontroller.value.none" = "None";
+"afcuisettingsviewcontroller.value.on" = "On";
+"afcuisettingsviewcontroller.value.off" = "Off";
+"afcuisettingsviewcontroller.value.preferences" = "Preferences";
+"afcuisettingsviewcontroller.value.version" = "Version";
+"afcuisettingsviewcontroller.value.deviceid" = "Device ID";
+
+/*
+ * AFCUIModalWebBrowser
+ */
+"afcuimodalwebbrowser.webview.status.loading" = "Loading";

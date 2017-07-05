@@ -6,38 +6,17 @@
  */
 
 /*** AF-DIRECTORY STRINGS ***/
-/*
- * Mall Detail Strings
+/**
+ * AFDDirectoryViewController Strings
  */
-"mall.detail.error.email.message" = "No parece existir un correo electrónico.";
-"mall.detail.error.email.title" = "";
-"mall.detail.error.phone.message" = "No parece existir un número de teléfono.";
-"mall.detail.error.phone.title" = "";
-"mall.detail.error.website.message" = "No parece existir el sitio web.";
-"mall.detail.error.website.title" = "";
-/*
- * AFCUIMAnnotationDirectoryViewController Strings
- */
-"afcdirectorycategoryviewcontroller.cancel.text" = "Cancelar";
-"afcdirectorycategoryviewcontroller.categories.text" = "Categorias";
+
+"afddirectoryviewcontroller.noresults.title" = "No se encontraron resultados";
 
 /**
- * AFCDirectoryViewController Strings
+ * AFDDirectoryCategoryViewController Strings
  */
-"afcdirectoryviewcontroller.viewdidload.allString" = "Todos";
-"afcdirectoryviewcontroller.viewdidload.favoritesString" = "Favoritos";
-"afcdirectoryviewcontroller.setSearchBarPlaceHolder.searchText" = "Buscar";
-"Search...                                                                " = "Buscar...                                                                ";
-"afcdirectoryviewcontroller.nonetwork.failure.title" = "Directorio";
-"afcdirectoryviewcontroller.nonetwork.failure.message" = "Por favor configura los segmentos para esta application en App Builder portal.";
-"afcdirectoryviewcontroller.nonetwork.failure.cancelbutton.title" = "SÍ";
-"afcdirectoryviewcontroller.noresultsfound.title"="No se han encontrado resultados.";
-"afcdirectoryviewcontroller.filternotice.title"="Filtrado por";
-"afcdirectoryviewcontroller.filtercategory.title"="Todos";
-"afcdirectoryviewcontroller.filtercategorybutton.title"="Filtrar";
 
-/*
- * AFCUIMAnnotationDirectoryViewController Strings
- */
-"afcuimannotationdirectoryviewcontroller.titlelabel.text" = "Directorio de POI";
-"afcuimannotationdirectoryviewcontroller.noresultsfound.text" = "No se han encontrado resultados.";
+"afddirectorycategoryviewcontroller.title" = "Filters";
+"afddirectorycategoryviewcontroller.allcategories" = "All Categories";
+"afddirectorycategoryviewcontroller.savebutton.title" = "Apply Filters";
+
