@@ -1,4 +1,5 @@
 ﻿/*** AF-CORE STRINGS ***/
+
 /**
  * EULA Agreement
  */
@@ -126,3 +127,11 @@
  * AFCUIModalWebBrowser
  */
 "afcuimodalwebbrowser.webview.status.loading" = "Loading";
+
+/*
+ * OS Privacy Settings
+ */
+"osprivacysettings.camera.denied.alert.title" = "Dismiss";
+"osprivacysettings.camera.denied.alert.button.settings" = "Settings";
+"osprivacysettings.camera.settings.alert.title" = "";
+"osprivacysettings.camera.settings.alert.message" = "Please go to the Privacy Settings on your device and enable camera access to use this feature.";

@@ -1,8 +1,8 @@
 /*** AF-CORE STRINGS ***/
+
 /*
  * EULA Agreement
  */
-
 "afceulapromoptaction.prompt.message" = "¿Está de acuerdo con el contenido de la licencia de uso y los términos y condiciones de uso?";
 "afceulapromoptaction.prompt.message.title" = "Acuerdo de Licencia";
 "afceulapromoptaction.prompt.message.agreebutton.title"="DE ACUERDO";
@@ -11,20 +11,17 @@
 /*
  *   AFCUIEULAViewController Strings
  */
-
 "afcuieulaviewcontroller.agreebutton.buttontitle" = "Acepto";
 "afcuieulaviewcontroller.navbar.title" = "Acuerdo de Licencia";
 
 /*
  *   AFCUIWebViewController Strings
  */
-
 "afcuiwebviewcontroller.message.text" = "Por favor espere...";
 
 /*
  *  AFCUIModalWebBrowser Strings
  */
-
 "afcuimodalwebbrowser.status.text" = "Cargando";
 "afcuimodalwebbrowser.closeButton.buttontitle" = "Cerrar";
 
@@ -92,3 +89,48 @@
 "afccomposeemailaction.alert.error.message" = "Lo sentimos. Su dispositivo no tiene configurado una cuenta de correo.";
 "afccomposeemailaction.alert.button.title" = "OK";
 
+
+/*
+ * AFCPhoneCallAction
+ */
+"afcphonecallaction.alert.title" = "Realizar una llamada";
+"afcphonecallaction.alert.message" = "Está seguro de llamar a:\n%@";
+"afcphonecallaction.alert.accept" = "Si";
+"afcphonecallaction.alert.cancel" = "No";
+
+/*
+ *  No Connection Available
+ */
+"afnointernetconnection.banner.message" = "Sin conexión a internet. La experiencia puede verse mermada.";
+"afnointernetconnection.banner.button" = "Ok";
+
+
+/*
+ * AFCUISettingsViewController
+ */
+"afcuisettingsviewcontroller.sectionname.notifications" = "NOTIFICACIONES";
+"afcuisettingsviewcontroller.sectionname.managedprovider" = "Depurar Managed Provider";
+"afcuisettingsviewcontroller.sectionname.locationprovider" = "PROVEEDOR DE UBICACIÓN";
+"afcuisettingsviewcontroller.sectionname.maassdk" = "MaaS SDKs";
+"afcuisettingsviewcontroller.sectionname.about" = "ACERCA";
+
+"afcuisettingsviewcontroller.value.auto" = "Auto";
+"afcuisettingsviewcontroller.value.none" = "Ninguno";
+"afcuisettingsviewcontroller.value.on" = "Encendido";
+"afcuisettingsviewcontroller.value.off" = "Apagado";
+"afcuisettingsviewcontroller.value.preferences" = "Preferencias";
+"afcuisettingsviewcontroller.value.version" = "Versión";
+"afcuisettingsviewcontroller.value.deviceid" = "ID Dispositivo";
+
+/*
+ * AFCUIModalWebBrowser
+ */
+"afcuimodalwebbrowser.webview.status.loading" = "Cargando";
+
+/*
+ * OS Privacy Settings
+ */
+"osprivacysettings.camera.denied.alert.title" = "Descartar";
+"osprivacysettings.camera.denied.alert.button.settings" = "Configuraciones";
+"osprivacysettings.camera.settings.alert.title" = "";
+"osprivacysettings.camera.settings.alert.message" = "Por favor vaya a las Opciones de Seguridad en su dispositivo y habilite el acceso a la cámara para utilizar esta función.";
