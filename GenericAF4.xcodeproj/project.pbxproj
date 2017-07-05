@@ -81,6 +81,13 @@
 		C3610AF61E08A4A2000FF63E /* AFMCOfferSwipeViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3610AF51E08A4A2000FF63E /* AFMCOfferSwipeViewController.plist */; };
 		C378836F1EC27146002E7F8F /* AFDDirectoryItemViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = C378836E1EC27146002E7F8F /* AFDDirectoryItemViewController.plist */; };
 		C398FC971D75E9C700FD48DE /* AFCUIDynamicViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = C398FC961D75E9C700FD48DE /* AFCUIDynamicViewController.plist */; };
+		C3F32B611F0ADA0000495919 /* AppFrameworkCore.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3F32B4C1F0ADA0000495919 /* AppFrameworkCore.strings */; };
+		C3F32B621F0ADA0000495919 /* AppFrameworkDirectory.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3F32B4E1F0ADA0000495919 /* AppFrameworkDirectory.strings */; };
+		C3F32B631F0ADA0000495919 /* AppFrameworkEvents.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3F32B501F0ADA0000495919 /* AppFrameworkEvents.strings */; };
+		C3F32B641F0ADA0000495919 /* AppFrameworkMapping.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3F32B521F0ADA0000495919 /* AppFrameworkMapping.strings */; };
+		C3F32B651F0ADA0000495919 /* AppFrameworkMessageCenter.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3F32B541F0ADA0000495919 /* AppFrameworkMessageCenter.strings */; };
+		C3F32B661F0ADA0000495919 /* AppFrameworkParking.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3F32B561F0ADA0000495919 /* AppFrameworkParking.strings */; };
+		C3F32B671F0ADA0000495919 /* AppFrameworkRender.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3F32B581F0ADA0000495919 /* AppFrameworkRender.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,10 +97,10 @@
 		49FCFC7DF95FB8AE2E10158A /* Pods-GenericAF4.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericAF4.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4.adhoc.xcconfig"; sourceTree = "<group>"; };
 		4FBB0FA85ED06251D65C4E04 /* Pods-GenericAF4.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericAF4.distribution.xcconfig"; path = "Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4.distribution.xcconfig"; sourceTree = "<group>"; };
 		52A0D6B91ED35DD30075F424 /* EventsDetailViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EventsDetailViewController.plist; sourceTree = "<group>"; };
+		52AB9C411EF04EA700A06AB3 /* AFCBannerNotificationView.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCBannerNotificationView.plist; sourceTree = "<group>"; };
 		52AB9C461EF1E89C00A06AB3 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
 		52AB9C471EF1E89C00A06AB3 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		52AB9C481EF1E89D00A06AB3 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = pt; path = pt.lproj/PhunwareIntegration.plist; sourceTree = "<group>"; };
-		52AB9C411EF04EA700A06AB3 /* AFCBannerNotificationView.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCBannerNotificationView.plist; sourceTree = "<group>"; };
 		55173FDD1D62790500EE540B /* UIConfigurationDefault.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UIConfigurationDefault.plist; sourceTree = "<group>"; };
 		5555DB041C4460C900E37207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5555DB061C4460CC00E37207 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -183,6 +190,20 @@
 		C378836E1EC27146002E7F8F /* AFDDirectoryItemViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFDDirectoryItemViewController.plist; sourceTree = "<group>"; };
 		C398FC961D75E9C700FD48DE /* AFCUIDynamicViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCUIDynamicViewController.plist; sourceTree = "<group>"; };
 		C3E9F4A61EFD871C006C7445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3F32B4D1F0ADA0000495919 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AppFrameworkCore.strings; sourceTree = "<group>"; };
+		C3F32B4F1F0ADA0000495919 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AppFrameworkDirectory.strings; sourceTree = "<group>"; };
+		C3F32B511F0ADA0000495919 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AppFrameworkEvents.strings; sourceTree = "<group>"; };
+		C3F32B531F0ADA0000495919 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AppFrameworkMapping.strings; sourceTree = "<group>"; };
+		C3F32B551F0ADA0000495919 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AppFrameworkMessageCenter.strings; sourceTree = "<group>"; };
+		C3F32B571F0ADA0000495919 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AppFrameworkParking.strings; sourceTree = "<group>"; };
+		C3F32B591F0ADA0000495919 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AppFrameworkRender.strings; sourceTree = "<group>"; };
+		C3F32B5A1F0ADA0000495919 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/AppFrameworkCore.strings; sourceTree = "<group>"; };
+		C3F32B5B1F0ADA0000495919 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/AppFrameworkDirectory.strings; sourceTree = "<group>"; };
+		C3F32B5C1F0ADA0000495919 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/AppFrameworkEvents.strings; sourceTree = "<group>"; };
+		C3F32B5D1F0ADA0000495919 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/AppFrameworkMapping.strings; sourceTree = "<group>"; };
+		C3F32B5E1F0ADA0000495919 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/AppFrameworkMessageCenter.strings; sourceTree = "<group>"; };
+		C3F32B5F1F0ADA0000495919 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/AppFrameworkParking.strings; sourceTree = "<group>"; };
+		C3F32B601F0ADA0000495919 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/AppFrameworkRender.strings; sourceTree = "<group>"; };
 		CD63D1DBC98CA341DD182074 /* Pods-GenericAF4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericAF4.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -242,6 +263,7 @@
 		8F06130C1BC8569800A55F16 /* Generic */ = {
 			isa = PBXGroup;
 			children = (
+				C3F32B4B1F0ADA0000495919 /* Strings */,
 				8F43556C1BC858B700FFD46C /* UIConfiguration */,
 				8F4355771BC858B700FFD46C /* Source */,
 				8F43557C1BC858B700FFD46C /* Assets */,
@@ -361,6 +383,20 @@
 			path = ActionConfiguration;
 			sourceTree = "<group>";
 		};
+		C3F32B4B1F0ADA0000495919 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				C3F32B4C1F0ADA0000495919 /* AppFrameworkCore.strings */,
+				C3F32B4E1F0ADA0000495919 /* AppFrameworkDirectory.strings */,
+				C3F32B501F0ADA0000495919 /* AppFrameworkEvents.strings */,
+				C3F32B521F0ADA0000495919 /* AppFrameworkMapping.strings */,
+				C3F32B541F0ADA0000495919 /* AppFrameworkMessageCenter.strings */,
+				C3F32B561F0ADA0000495919 /* AppFrameworkParking.strings */,
+				C3F32B581F0ADA0000495919 /* AppFrameworkRender.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
 		CF99A4EC9477B8A8D7AEE9C6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -455,12 +491,15 @@
 				7E699E741C973AE500000BA9 /* AFCLayerPickerViewController.plist in Resources */,
 				8F43559D1BC85B8F00FFD46C /* EventTableViewCell.plist in Resources */,
 				551BF9281C1B51E9004D7ECD /* (null) in Resources */,
+				C3F32B651F0ADA0000495919 /* AppFrameworkMessageCenter.strings in Resources */,
 				8C6B9A4F1DF630F10067DABC /* AFMCOfferDetailViewController.plist in Resources */,
+				C3F32B671F0ADA0000495919 /* AppFrameworkRender.strings in Resources */,
 				A2B61E5C1EAFF5BB0023BC53 /* AFDDirectoryCategoryTableViewCell.plist in Resources */,
 				8F885A611BCC2352004E2474 /* AFCParkingViewController.plist in Resources */,
 				8C6B9A4C1DF62F400067DABC /* AFMCOfferWalletViewController.plist in Resources */,
 				8CFB59F01CCFECB300ADACEE /* AFMUIMapViewController.plist in Resources */,
 				8F8C542F1BD8191F0018A2ED /* AFCUIMallDetailViewController.plist in Resources */,
+				C3F32B661F0ADA0000495919 /* AppFrameworkParking.strings in Resources */,
 				8F43558B1BC858B700FFD46C /* AFCUIItemDetailViewController.plist in Resources */,
 				8F43558C1BC858B700FFD46C /* AFCUIModalWebBrowser.plist in Resources */,
 				551BF9251C1B51E9004D7ECD /* (null) in Resources */,
@@ -473,6 +512,7 @@
 				55173FDE1D62790500EE540B /* UIConfigurationDefault.plist in Resources */,
 				8F43558D1BC858B700FFD46C /* AFCUITrayMenuViewController.plist in Resources */,
 				7E13033A1CDA453100AF350E /* AFMUIMapPickerTableViewCell.plist in Resources */,
+				C3F32B621F0ADA0000495919 /* AppFrameworkDirectory.strings in Resources */,
 				7E75FD9C1E3A77170025A831 /* AFMUITurnByTurnTableViewCell.plist in Resources */,
 				8F43558A1BC858B700FFD46C /* AFCParkingVoiceMemoViewController.plist in Resources */,
 				52AB9C421EF04EA700A06AB3 /* AFCBannerNotificationView.plist in Resources */,
@@ -488,6 +528,7 @@
 				C378836F1EC27146002E7F8F /* AFDDirectoryItemViewController.plist in Resources */,
 				551BF9261C1B51E9004D7ECD /* (null) in Resources */,
 				8FDD0F3B1BD1775500A0C512 /* GenericAppNavigationController.xib in Resources */,
+				C3F32B631F0ADA0000495919 /* AppFrameworkEvents.strings in Resources */,
 				8F4355861BC858B700FFD46C /* AFCParkingMapViewController.plist in Resources */,
 				8F5FFFBE1BCC2F58000B027C /* AFMUILocationCell.plist in Resources */,
 				8F4355901BC858B700FFD46C /* Customization.xcassets in Resources */,
@@ -498,11 +539,13 @@
 				A2B61E5B1EAFF5BB0023BC53 /* AFDDirectoryCategoryViewController.plist in Resources */,
 				8F5FFFBF1BCC2F58000B027C /* AFMUIRouteViewController.plist in Resources */,
 				8CCAD9611C2B13890069AEB1 /* Localizable.strings in Resources */,
+				C3F32B611F0ADA0000495919 /* AppFrameworkCore.strings in Resources */,
 				8F5FFFC01BCC2F58000B027C /* AFMUIPOIFilterViewController.plist in Resources */,
 				8FB674781BD6D73000E7BFE4 /* LaunchScreen.xib in Resources */,
 				A2B61E5D1EAFF5BB0023BC53 /* AFDDirectoryViewController.plist in Resources */,
 				8F106FA31BC9D44000CCDD86 /* InteractivePushNotificationCategories.plist in Resources */,
 				5555DB031C4460C900E37207 /* InfoPlist.strings in Resources */,
+				C3F32B641F0ADA0000495919 /* AppFrameworkMapping.strings in Resources */,
 				8C19EFA71E9ABF360093F18D /* AFCItemDetailViewController.plist in Resources */,
 				C398FC971D75E9C700FD48DE /* AFCUIDynamicViewController.plist in Resources */,
 				8F0613181BC8569800A55F16 /* Main.storyboard in Resources */,
@@ -656,6 +699,69 @@
 				C3E9F4A61EFD871C006C7445 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3F32B4C1F0ADA0000495919 /* AppFrameworkCore.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3F32B4D1F0ADA0000495919 /* en */,
+				C3F32B5A1F0ADA0000495919 /* es */,
+			);
+			name = AppFrameworkCore.strings;
+			sourceTree = "<group>";
+		};
+		C3F32B4E1F0ADA0000495919 /* AppFrameworkDirectory.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3F32B4F1F0ADA0000495919 /* en */,
+				C3F32B5B1F0ADA0000495919 /* es */,
+			);
+			name = AppFrameworkDirectory.strings;
+			sourceTree = "<group>";
+		};
+		C3F32B501F0ADA0000495919 /* AppFrameworkEvents.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3F32B511F0ADA0000495919 /* en */,
+				C3F32B5C1F0ADA0000495919 /* es */,
+			);
+			name = AppFrameworkEvents.strings;
+			sourceTree = "<group>";
+		};
+		C3F32B521F0ADA0000495919 /* AppFrameworkMapping.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3F32B531F0ADA0000495919 /* en */,
+				C3F32B5D1F0ADA0000495919 /* es */,
+			);
+			name = AppFrameworkMapping.strings;
+			sourceTree = "<group>";
+		};
+		C3F32B541F0ADA0000495919 /* AppFrameworkMessageCenter.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3F32B551F0ADA0000495919 /* en */,
+				C3F32B5E1F0ADA0000495919 /* es */,
+			);
+			name = AppFrameworkMessageCenter.strings;
+			sourceTree = "<group>";
+		};
+		C3F32B561F0ADA0000495919 /* AppFrameworkParking.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3F32B571F0ADA0000495919 /* en */,
+				C3F32B5F1F0ADA0000495919 /* es */,
+			);
+			name = AppFrameworkParking.strings;
+			sourceTree = "<group>";
+		};
+		C3F32B581F0ADA0000495919 /* AppFrameworkRender.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3F32B591F0ADA0000495919 /* en */,
+				C3F32B601F0ADA0000495919 /* es */,
+			);
+			name = AppFrameworkRender.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
