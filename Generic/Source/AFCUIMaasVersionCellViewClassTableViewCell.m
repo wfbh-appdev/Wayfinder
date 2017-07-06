@@ -11,14 +11,12 @@
 #import <PWMapKit/PWMapKit.h>
 #import <PWLocation/PWLocation.h>
 #import <PWCore/PWCore.h>
-#import <PWAnalytics/PWAnalytics.h>
 #import <PWAdvertising/PWAds.h>
-#import <PWCME/PWCME.h>
-#import <PWMessaging/PWMessaging.h>
+#import <PWEngagement/PWEngagement.h>
 
 NSString *kPwMapKitVersion = @"3.1.4";
 NSString *kPwLocationVersion = @"3.1.3";
-NSString *kPwMessagingVersion = @"3.0.2";
+NSString *kPwMessagingVersion = @"3.1.0";
 
 
 @implementation AFCUIMaasVersionCellViewClassTableViewCell
@@ -35,14 +33,10 @@ NSString *kPwMessagingVersion = @"3.0.2";
         versionString = kPwLocationVersion;
     if ([super.textLabel.text isEqualToString:@"PwCore"])
         versionString = PWCore_Version;
-    if ([super.textLabel.text isEqualToString:@"PwAnalytics"])
-        versionString = PWAnalytics_VERSION;
     if ([super.textLabel.text isEqualToString:@"PwAds"])
         versionString = PWADS_VERSION;
-    if ([super.textLabel.text isEqualToString:@"PwCME"])
-        versionString = MaaSCMS_VERSION;
     if ([super.textLabel.text isEqualToString:@"PwMessaging"]) {
-        versionString = kPwMessagingVersion;
+        versionString = [PWEngagement version];
     }
 
 
