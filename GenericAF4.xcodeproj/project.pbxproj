@@ -79,6 +79,8 @@
 		A2B61E5D1EAFF5BB0023BC53 /* AFDDirectoryViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2B61E591EAFF5BB0023BC53 /* AFDDirectoryViewController.plist */; };
 		A2B61E5E1EAFF5BB0023BC53 /* AFDDirectoryTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2B61E5A1EAFF5BB0023BC53 /* AFDDirectoryTableViewCell.plist */; };
 		C3610AF61E08A4A2000FF63E /* AFMCOfferSwipeViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3610AF51E08A4A2000FF63E /* AFMCOfferSwipeViewController.plist */; };
+		C369CF421ED7A02E002698D3 /* AFDDirectoryTrailingImageTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = C369CF401ED7A02E002698D3 /* AFDDirectoryTrailingImageTableViewCell.plist */; };
+		C369CF431ED7A02E002698D3 /* AFDDirectoryNoImageTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = C369CF411ED7A02E002698D3 /* AFDDirectoryNoImageTableViewCell.plist */; };
 		C378836F1EC27146002E7F8F /* AFDDirectoryItemViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = C378836E1EC27146002E7F8F /* AFDDirectoryItemViewController.plist */; };
 		C398FC971D75E9C700FD48DE /* AFCUIDynamicViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = C398FC961D75E9C700FD48DE /* AFCUIDynamicViewController.plist */; };
 /* End PBXBuildFile section */
@@ -180,6 +182,8 @@
 		C33EA5BF1E48D78D00D48C28 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C33EA5C01E48D78E00D48C28 /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = zh.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C3610AF51E08A4A2000FF63E /* AFMCOfferSwipeViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFMCOfferSwipeViewController.plist; sourceTree = "<group>"; };
+		C369CF401ED7A02E002698D3 /* AFDDirectoryTrailingImageTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFDDirectoryTrailingImageTableViewCell.plist; sourceTree = "<group>"; };
+		C369CF411ED7A02E002698D3 /* AFDDirectoryNoImageTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFDDirectoryNoImageTableViewCell.plist; sourceTree = "<group>"; };
 		C378836E1EC27146002E7F8F /* AFDDirectoryItemViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFDDirectoryItemViewController.plist; sourceTree = "<group>"; };
 		C398FC961D75E9C700FD48DE /* AFCUIDynamicViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCUIDynamicViewController.plist; sourceTree = "<group>"; };
 		C3E9F4A61EFD871C006C7445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -274,6 +278,8 @@
 				A2B61E581EAFF5BB0023BC53 /* AFDDirectoryCategoryTableViewCell.plist */,
 				A2B61E591EAFF5BB0023BC53 /* AFDDirectoryViewController.plist */,
 				A2B61E5A1EAFF5BB0023BC53 /* AFDDirectoryTableViewCell.plist */,
+				C369CF401ED7A02E002698D3 /* AFDDirectoryTrailingImageTableViewCell.plist */,
+				C369CF411ED7A02E002698D3 /* AFDDirectoryNoImageTableViewCell.plist */,
 				C378836E1EC27146002E7F8F /* AFDDirectoryItemViewController.plist */,
 				8F5FFFD61BCDB00C000B027C /* AFCASubscriptionsSetupViewController.plist */,
 				8C19EFA61E9ABF360093F18D /* AFCItemDetailViewController.plist */,
@@ -489,6 +495,7 @@
 				551BF9261C1B51E9004D7ECD /* (null) in Resources */,
 				8FDD0F3B1BD1775500A0C512 /* GenericAppNavigationController.xib in Resources */,
 				8F4355861BC858B700FFD46C /* AFCParkingMapViewController.plist in Resources */,
+				C369CF421ED7A02E002698D3 /* AFDDirectoryTrailingImageTableViewCell.plist in Resources */,
 				8F5FFFBE1BCC2F58000B027C /* AFMUILocationCell.plist in Resources */,
 				8F4355901BC858B700FFD46C /* Customization.xcassets in Resources */,
 				8F4355991BC85B7800FFD46C /* AFCUIWebViewController.plist in Resources */,
@@ -498,6 +505,7 @@
 				A2B61E5B1EAFF5BB0023BC53 /* AFDDirectoryCategoryViewController.plist in Resources */,
 				8F5FFFBF1BCC2F58000B027C /* AFMUIRouteViewController.plist in Resources */,
 				8CCAD9611C2B13890069AEB1 /* Localizable.strings in Resources */,
+				C369CF431ED7A02E002698D3 /* AFDDirectoryNoImageTableViewCell.plist in Resources */,
 				8F5FFFC01BCC2F58000B027C /* AFMUIPOIFilterViewController.plist in Resources */,
 				8FB674781BD6D73000E7BFE4 /* LaunchScreen.xib in Resources */,
 				A2B61E5D1EAFF5BB0023BC53 /* AFDDirectoryViewController.plist in Resources */,
@@ -761,6 +769,7 @@
 				CODE_SIGN_ENTITLEMENTS = GenericAF4/GenericAF4.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
@@ -776,6 +785,7 @@
 				PRODUCT_NAME = GenericAF4;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
@@ -789,6 +799,7 @@
 				CODE_SIGN_ENTITLEMENTS = GenericAF4/GenericAF4.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
@@ -804,6 +815,7 @@
 				PRODUCT_NAME = GenericAF4;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
@@ -859,6 +871,7 @@
 				CODE_SIGN_ENTITLEMENTS = GenericAF4/GenericAF4.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
@@ -875,6 +888,7 @@
 				PRODUCT_NAME = GenericAF4;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Distribution;
 		};
@@ -930,6 +944,7 @@
 				CODE_SIGN_ENTITLEMENTS = GenericAF4/GenericAF4.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
@@ -950,6 +965,7 @@
 				PRODUCT_NAME = GenericAF4;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = AdHoc;
 		};

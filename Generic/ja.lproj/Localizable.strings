@@ -98,6 +98,16 @@
 "afcmmappickerviewcontroller.promptlocationalert.title" = "ヘルプ アズ ガイド・ユー";
 
 /* (No Commment) */
+"afcuiannotationdetailviewcontroller.selectCampusButton.buttontitle" = "シレクト ジス キャンパス";
+//アフキエアラビウーコントロラー ストリングズ
+"afcuieulaviewcontroller.agreebutton.buttontitle" = "アイ アグリー";
+"afcuieulaviewcontroller.navbar.title" = "ライセンス アグリーメント";
+//アフキウェブビウーコントロラー ストリングズ
+"afcuiwebviewcontroller.message.text" = "プリーズ ウェート";
+//アフキモダルウェブローサー ストリングズ
+"afcuimodalwebbrowser.status.text" = "ローディング";
+"afcuimodalwebbrowser.closeButton.buttontitle" = "クローズ";
+//アフクパーキングマプビウーコントロルアー ストリングズ
 "afcparkingmapviewcontroller.droppinbutton.buttontitle" = "ドロップ エー ピン";
 
 /* (No Commment) */
@@ -406,6 +416,26 @@
 /* (No Commment) */
 "afcuipicker.alert.ok" = "[OK]";
 
+"PWRouteInstructionDirectionLeft" = "ターン レフト イン ";
+"PWRouteInstructionDirectionRight" = "ターン ライト イン";
+"PWRouteInstructionDirectionBearLeft" = "ベア レフト イン";
+"PWRouteInstructionDirectionBearRight" = "ベア ライト イン";
+"PWRouteInstructionDirectionElevatorUp" = "テーク ザー エリベーター アップ トゥー";
+"PWRouteInstructionDirectionElevatorDown" = "テーク ザー エリベーター ダウン トゥー";
+"PWRouteInstructionDirectionStairsUp" = "テーク ザー ステアズ アップ トゥー";
+"PWRouteInstructionDirectionStairsDown" = "テーク ザー ステアズ ダウン トゥー";
+"PWRouteInstructionDirectionEscalatorUp" = "エスカレーター";
+"PWRouteInstructionDirectionEscalatorDown" = "エスカレーター";
+"PWRouteInstructionLast" = "ユーブ アライブド アット";
+"afmuimapviewcontroller.turnbyturn.totaltraveltime" = "トータル トラベル タイム";
+"afmuimapviewcontroller.turnbyturn.totaltraveltime.minute" = "ミーンズ";
+"afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "ミーンズ";
+"afmuimapviewcontroller.turnbyturn.in" = "in";
+"meter" = "ミーターズ";
+"foot" = "フィート";
+"meters" = "ミーターズ";
+"feet" = "フィート";
+
 /* (No Commment) */
 "afcuisettingsviewcontroller.deviceidcopy.alert.message" = "デバイスIDがクリップボードにコピーされました";
 
@@ -516,6 +546,14 @@
 
 /* (No Commment) */
 "afmcofferdetailviewcontroller.offerbutton.title" = "リシーブ フリー オファー!";
+"afmcofferdetailviewcontroller.alert.title" = "ディリート メシッジ";
+"afmcofferdetailviewcontroller.alert.message" = "ウッド ユー ライク トゥー ディリート ジス メシッジ?";
+"afmcofferdetailviewcontroller.alert.deletebutton.title" = "ノー";
+"afmcofferdetailviewcontroller.alert.cancelbutton.title" = "イェス";
+"afmcofferdetailviewcontroller.onetimepromoalert.cancelbutton.title" = "キャンセル";
+"afmcofferdetailviewcontroller.onetimepromoalert.redeembutton.title" = "償還";
+"afmcofferdetailviewcontroller.onetimepromoalert.title" = "1回使用プロモーション";
+"afmcofferdetailviewcontroller.onetimepromoalert.message" = "このオファーを利用すると、メッセージセンターから削除されます。";
 
 /* (No Commment) */
 "afmcofferdetailviewcontroller.titlelabel.text" = "プロモーション";
@@ -658,3 +696,43 @@
 
 /* (No Commment) */
 "afcuidynamicweather.title.text" = "今日の";
+
+/*
+ * Smart Form Date/Time Picker Strings
+ */
+"afcuidatepicker.alert.title" = "日付を選択";
+"afcuidatepicker.navbar.today" = "本日";
+"afcuitimepicker.alert.title" = "時間を選択";
+"afcuipicker.alert.ok" = "オーケー";
+"afcuipicker.alert.cancel" = "キャンセル";
+
+/*
+ * Smart Form Image Upload Strings
+ */
+"afcuimediapicker.navbar.title" = "画像を選択";
+"afcuimediapicker.toolbar.selectimage" = "画像を選択";
+"afcuimediapicker.toolbar.clearimage" = "クリア画像";
+"afcuimediapicker.alert.cancel" = "キャンセル";
+"afcuimediapicker.imageselect" = "カメラロールから写真を選択";
+"afcuimediapicker.takeimage" = "写真を撮る";
+"afcuimediapicker.button.defaulttext" = "アップロードする画像を選択";
+"afcuimediapicker.button.photouploaded" = "写真がアップロードされました";
+
+/**
+ * Push notification actions
+ */
+"Directory.show" = "示す";
+"DirectoryItem.show" = "示す";
+"Events.show" = "示す";
+"EvenntItem.show" = "示す";
+"Map.show" = "示す";
+"Map.route" = "ルート";
+"Offer.listing" = "リスティング";
+"Offer.detail" = "ディテール";
+"Parking.main" = "メイン";
+"Parking.map" = "地図";
+"Parking.photo" = "写真";
+"Parking.voice" = "音声";
+"Parking.note" = "注意";
+"Page.show" = "示す";
+"SettingsMap.show" = "示す";

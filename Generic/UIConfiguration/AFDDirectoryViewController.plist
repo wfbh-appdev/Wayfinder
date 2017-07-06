@@ -18,8 +18,25 @@
 		<key>sectionIndexTrackingBackgroundColor</key>
 		<string>#00ffffff</string>
 	</dict>
-	<key>searchBar</key>
-	<dict/>
+	<key>searchController</key>
+	<dict>
+		<key>searchBarBackgroundColor</key>
+		<string>#363636</string>
+		<key>searchBarTintColor</key>
+		<string>$WhiteColor</string>
+		<key>searchBarBarTintColor</key>
+		<string>#363636</string>
+		<key>searchBarPlaceholder</key>
+		<string>Search</string>
+		<key>searchBarTextFieldBackgroundColor</key>
+		<string>$BlackColor</string>
+		<key>searchBarTextFieldTextColor</key>
+		<string>$WhiteColor</string>
+		<key>searchBarTextFieldTextFont</key>
+		<string>$MainFontLight</string>
+		<key>searchBarTextFieldTextSize</key>
+		<string>14</string>
+	</dict>
 	<key>noResultsLabel</key>
 	<dict>
 		<key>text</key>

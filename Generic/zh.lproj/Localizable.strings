@@ -98,6 +98,43 @@
 "afcmmappickerviewcontroller.promptlocationalert.title" = "帮助我们引导你";
 
 /* (No Commment) */
+"afcuimroutebuilderviewcontroller.route.error.endstart.same" = "起点和终点必须不同.";
+"afcuimroutebuilderviewcontroller.route.error.cantfindpoi" = "我们找不到该POI，请重新搜索.";
+"afcuimroutebuilderviewcontroller.route.error.title" = "抱歉";
+"afcuimroutebuilderviewcontroller.currentlocation.text" = "错误.标题";
+"afcuimroutebuilderviewcontroller.startlocationtextfield.placeholder" = "开始位置";
+"afcuimroutebuilderviewcontroller.endlocationtextfield.placeholder" = "结束位置";
+"afcuimroutebuilderviewcontroller.startlabel.text" = "开始";
+"afcuimroutebuilderviewcontroller.endlabel.text" = "结束";
+"afcuimroutebuilderviewcontroller.titlelabel.text" = "路由";
+"afcuimroutebuilderviewcontroller.cancelbutton.buttontitle" = "取消";
+"afcuimroutebuilderviewcontroller.routebutton.buttontitle" = "路由";
+"afcuimroutebuilderviewcontroller.handicapaccessibilitylabel.text" = "智障辅助功能";
+"afcuimroutebuilderviewcontroller.outdoortoindoornotificationtitle.text" ="欢迎来到";
+"afcuimroutebuilderviewcontroller.outdoortoindoornotificationtitle.message" ="请启动应用程序，到室内路线到你的最终目的地.";
+"afcuimroutebuilderviewcontroller.outdoortoindooralerttitle.text" ="需要到场地的指示?";
+"afcuimroutebuilderviewcontroller.outdoortoindooralerttitle.message" = "我们注意到您目前不在该设施.\ n您想要前往该地点吗？";
+"afcuimroutebuilderviewcontroller.dismissoutdoortoindoor.buttontitle" = "解雇";
+"afcuimroutebuilderviewcontroller.openinmapsbutton.buttontitle" = "在地图上打开";
+"afcuimroutebuilderviewcontroller.welcomebacktitle.text" = "欢迎回来!";
+"afcuimroutebuilderviewcontroller.welcomebackmessage.text" = "我们现在将继续从停车场路线到您之前选择的目的地.";
+"afcuimroutebuilderviewcontroller.welcomebackdismiss.buttontitle" = "解雇";
+"afcuimroutebuilderviewcontroller.welcomebackrouteme.buttontitle" = "路由我";
+//AFCUIMPOI过滤编辑视图控制器字符串
+"afcuimpoifiltereditorviewcontroller.savefiltersbutton.buttontitle" = "保存过滤器";
+"afcuimpoifiltereditorviewcontroller.cancelbutton.buttontitle" = "取消";
+"afcuimpoifiltereditorviewcontroller.titlelabel.text" = "选择POI过滤器";
+//AFCUI注解详情视图控制器字符串
+"afcuiannotationdetailviewcontroller.selectCampusButton.buttontitle" = "选择这个幅员";
+//AFCUIEULA视图控制器字符串
+"afcuieulaviewcontroller.agreebutton.buttontitle" = "我同意";
+"afcuieulaviewcontroller.navbar.title" = "许可协议";
+//AFCUI网址视图控制器字符串
+"afcuiwebviewcontroller.message.text" = "请稍候...";
+"afcuimodalwebbrowser.closeButton.buttontitle" = "关闭";
+//AFCUI模态网址浏览器字符串
+"afcuimodalwebbrowser.status.text" = "载入";
+//AFC停车地图视图控制器字符串
 "afcparkingmapviewcontroller.droppinbutton.buttontitle" = "放一个针";
 
 /* (No Commment) */
@@ -435,6 +472,26 @@
 "afmuimapviewcontroller.turnbyturn.totaltraveltime" = "总行程时间";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minute" = "分钟";
 
+"PWRouteInstructionDirectionLeft" = "向左转";
+"PWRouteInstructionDirectionRight" = "向右转";
+"PWRouteInstructionDirectionBearLeft" = "向左转";
+"PWRouteInstructionDirectionBearRight" = "向右拐";
+"PWRouteInstructionDirectionElevatorUp" = "乘电梯到";
+"PWRouteInstructionDirectionElevatorDown" = "乘电梯到";
+"PWRouteInstructionDirectionStairsUp" = "走上楼梯";
+"PWRouteInstructionDirectionStairsDown" = "走下楼梯";
+"PWRouteInstructionDirectionEscalatorUp" = "自动楼梯";
+"PWRouteInstructionDirectionEscalatorDown" = "自动楼梯";
+"PWRouteInstructionLast" = "你到了";
+"afmuimapviewcontroller.turnbyturn.totaltraveltime" = "总行程时间";
+"afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "分钟";
+"afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "分钟";
+"afmuimapviewcontroller.turnbyturn.in" = "在";
+"meter" = "公尺";
+"foot" = "英尺";
+"meters" = "公尺";
+"feet" = "英尺";
+
 /* (No Commment) */
 "afcuisettingsviewcontroller.value.none" = "没有";
 
@@ -518,6 +575,14 @@
 
 /* (No Commment) */
 "afmcofferdetailviewcontroller.offerbutton.title" = "免费提供!";
+"afmcofferdetailviewcontroller.alert.title" = "删除邮件";
+"afmcofferdetailviewcontroller.alert.message" = "要删除此消息吗？";
+"afmcofferdetailviewcontroller.alert.deletebutton.title" = "没有";
+"afmcofferdetailviewcontroller.alert.cancelbutton.title" = "是";
+"afmcofferdetailviewcontroller.onetimepromoalert.cancelbutton.title" = "取消";
+"afmcofferdetailviewcontroller.onetimepromoalert.redeembutton.title" = "赎买";
+"afmcofferdetailviewcontroller.onetimepromoalert.title" = "一次性使用促销";
+"afmcofferdetailviewcontroller.onetimepromoalert.message" = "兑换此优惠将从消息中心中删除。";
 
 /* (No Commment) */
 "afmcofferdetailviewcontroller.titlelabel.text" = "促销";
@@ -661,3 +726,42 @@
 /* (No Commment) */
 "afcuidynamicweather.title.text" = "今天在";
 
+/*
+ * Smart Form Date/Time Picker Strings
+ */
+"afcuidatepicker.alert.title" = "选择日期";
+"afcuidatepicker.navbar.today" = "这天";
+"afcuitimepicker.alert.title" = "选择时间";
+"afcuipicker.alert.ok" = "好";
+"afcuipicker.alert.cancel" = "撤消";
+
+/*
+ * Smart Form Image Upload Strings
+ */
+"afcuimediapicker.navbar.title" = "选择图像";
+"afcuimediapicker.toolbar.selectimage" = "选择图像";
+"afcuimediapicker.toolbar.clearimage" = "清除图";
+"afcuimediapicker.alert.cancel" = "撤消";
+"afcuimediapicker.imageselect" = "从相机胶卷中选择照片";
+"afcuimediapicker.takeimage" = "拍照";
+"afcuimediapicker.button.defaulttext" = "选择要上传的图像";
+"afcuimediapicker.button.photouploaded" = "照片上传";
+
+/**
+ * Push notification actions
+ */
+"Directory.show" = "显示";
+"DirectoryItem.show" = "显示";
+"Events.show" = "显示";
+"EvenntItem.show" = "显示";
+"Map.show" = "显示";
+"Map.route" = "路线";
+"Offer.listing" = "目录";
+"Offer.detail" = "详情";
+"Parking.main" = "主要";
+"Parking.map" = "地图";
+"Parking.photo" = "照片";
+"Parking.voice" = "语音";
+"Parking.note" = "注解";
+"Page.show" = "显示";
+"SettingsMap.show" = "显示";

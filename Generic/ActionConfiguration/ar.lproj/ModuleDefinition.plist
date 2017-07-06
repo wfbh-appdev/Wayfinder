@@ -47,7 +47,7 @@
 							<key>parameters</key>
 							<dict>
 								<key>contentId</key>
-								<string>PWMapViewLocationTypeManagedProvider</string>
+								<string>PWMapViewLocationTypeBLE</string>
 							</dict>
 						</dict>
 					</array>
@@ -265,16 +265,6 @@
 					<string>$action.auxID1</string>
 				</dict>
 			</dict>
-			<key>61</key>
-			<dict>
-				<key>className</key>
-				<string>AFCComposeEmailAction</string>
-				<key>parameters</key>
-				<dict>
-					<key>mailRecipient</key>
-					<string>$action.auxID1</string>
-				</dict>
-			</dict>
 			<key>62</key>
 			<dict>
 				<key>className</key>
@@ -340,18 +330,6 @@
 					<string>Map</string>
 					<key>forwardContentAction</key>
 					<string>switch</string>
-				</dict>
-			</dict>
-			<key>87</key>
-			<dict>
-				<key>className</key>
-				<string>AFCDeepLinkLoadAction</string>
-				<key>parameters</key>
-				<dict>
-					<key>deepLinkURL</key>
-					<string>$action.auxID1</string>
-					<key>appstoreURL</key>
-					<string>$action.auxID2</string>
 				</dict>
 			</dict>
 		</dict>
@@ -442,11 +420,9 @@
 						<key>enableFiltering</key>
 						<true/>
 						<key>showIndexTitlesAfter</key>
-						<integer>20</integer>
+						<integer>5</integer>
 						<key>cellClass</key>
 						<string>AFDDirectoryTableViewCell</string>
-						<key>accessoryViewType</key>
-						<integer>1</integer>
 						<key>imagePlaceholder</key>
 						<string>directory_image_placeholder_thumbnail</string>
 					</dict>
@@ -736,12 +712,8 @@
 						<string>StartDate</string>
 						<key>endDateKey</key>
 						<string>EndDate</string>
-						<key>DBDateFormatKey</key>
-						<string>MM/dd/yyyy HH:mm:ss</string>
-						<key>clientDateFormatKey</key>
-						<string>MMM d</string>
 						<key>iconKey</key>
-						<string>ImageURL</string>
+						<string>ThumbnailURL</string>
 						<key>bannerKey</key>
 						<string>ImageURL</string>
 						<key>identifierKey</key>
@@ -1092,26 +1064,8 @@
 								<string>Description</string>
 								<key>associatedDataBannerKey</key>
 								<string>DetailImage</string>
-								<key>tbtEnabled</key>
-								<true/>
-								<key>tbtPrefixTextColor</key>
-								<string>#a1c45e</string>
-								<key>tbtDistanceTextColor</key>
-								<string>#a1a09d</string>
-								<key>tbtDistanceUpdatedByInterval</key>
-								<true/>
-								<key>tbtAnimationClass</key>
-								<string>AFMCustomTurnByTurnAnimation</string>
-								<key>tbtUpdateInterval</key>
-								<integer>7</integer>
-								<key>tbtUpdateMinimumDistance</key>
-								<integer>50</integer>
-								<key>tbtCellClass</key>
-								<string>AFMUITurnByTurnTableViewCell</string>
 								<key>minZoomLevel</key>
 								<integer>18</integer>
-								<key>routeSnappingTolerance</key>
-								<string>PWRouteSnapToleranceHigh</string>
 							</dict>
 						</dict>
 						<key>dependencies</key>
@@ -1169,26 +1123,8 @@
 								<string>Description</string>
 								<key>associatedDataBannerKey</key>
 								<string>DetailImage</string>
-								<key>tbtEnabled</key>
-								<true/>
-								<key>tbtPrefixTextColor</key>
-								<string>#a1c45e</string>
-								<key>tbtDistanceTextColor</key>
-								<string>#a1a09d</string>
-								<key>tbtDistanceUpdatedByInterval</key>
-								<true/>
-								<key>tbtAnimationClass</key>
-								<string>AFMCustomTurnByTurnAnimation</string>
-								<key>tbtUpdateInterval</key>
-								<integer>7</integer>
-								<key>tbtUpdateMinimumDistance</key>
-								<integer>50</integer>
-								<key>tbtCellClass</key>
-								<string>AFMUITurnByTurnTableViewCell</string>
 								<key>minZoomLevel</key>
 								<integer>18</integer>
-								<key>routeSnappingTolerance</key>
-								<string>PWRouteSnapToleranceHigh</string>
 							</dict>
 						</dict>
 						<key>dependencies</key>
@@ -1284,6 +1220,11 @@
 			<dict>
 				<key>className</key>
 				<string>AFMSetLocationProviderAction</string>
+			</dict>
+			<key>clearCache</key>
+			<dict>
+				<key>className</key>
+				<string>AFMClearMapCacheAction</string>
 			</dict>
 		</dict>
 		<key>MapDirectory</key>
@@ -1999,175 +1940,6 @@
 			</dict>
 		</dict>
 	</dict>
-	<key>detailConfig</key>
-	<dict>
-		<key>directory</key>
-		<dict>
-			<key>buttons</key>
-			<array>
-				<dict>
-					<key>dataKey</key>
-					<string>POI</string>
-					<key>title</key>
-					<string>Route</string>
-					<key>titleColor</key>
-					<string>#000000</string>
-					<key>titleFontName</key>
-					<string>.SFUIText</string>
-					<key>titleFontSize</key>
-					<integer>15</integer>
-					<key>image</key>
-					<string></string>
-					<key>backgroundColor</key>
-					<string>#0000000</string>
-					<key>buttonClickClass</key>
-					<string>AFDMapRouteButtonClickAction</string>
-					<key>buttonHiddenClass</key>
-					<string></string>
-					<key>buttonSetupClass</key>
-					<string></string>
-				</dict>
-				<dict>
-					<key>dataKey</key>
-					<string>Name</string>
-					<key>title</key>
-					<string>Call</string>
-					<key>titleColor</key>
-					<string>#000000</string>
-					<key>titleFontName</key>
-					<string>.SFUIText</string>
-					<key>titleFontSize</key>
-					<integer>15</integer>
-					<key>image</key>
-					<string></string>
-					<key>backgroundColor</key>
-					<string>#0000000</string>
-					<key>buttonClickClass</key>
-					<string>AFDPhoneButtonClickAction</string>
-					<key>buttonHiddenClass</key>
-					<string>AFCPhoneButtonHidden</string>
-					<key>buttonSetupClass</key>
-					<string></string>
-				</dict>
-				<dict>
-					<key>dataKey</key>
-					<string>Email</string>
-					<key>title</key>
-					<string>Email</string>
-					<key>titleColor</key>
-					<string>#000000</string>
-					<key>titleFontName</key>
-					<string>.SFUIText</string>
-					<key>titleFontSize</key>
-					<integer>15</integer>
-					<key>image</key>
-					<string></string>
-					<key>backgroundColor</key>
-					<string>#0000000</string>
-					<key>buttonClickClass</key>
-					<string>AFDEmailButtonClickAction</string>
-					<key>buttonHiddenClass</key>
-					<string></string>
-					<key>buttonSetupClass</key>
-					<string></string>
-				</dict>
-				<dict>
-					<key>dataKey</key>
-					<string>Website</string>
-					<key>title</key>
-					<string>Website</string>
-					<key>titleColor</key>
-					<string>#000000</string>
-					<key>titleFontName</key>
-					<string>.SFUIText</string>
-					<key>titleFontSize</key>
-					<integer>15</integer>
-					<key>image</key>
-					<string></string>
-					<key>backgroundColor</key>
-					<string>#0000000</string>
-					<key>buttonClickClass</key>
-					<string>AFDWebsiteButtonClickAction</string>
-					<key>buttonHiddenClass</key>
-					<string></string>
-					<key>buttonSetupClass</key>
-					<string></string>
-				</dict>
-				<dict>
-					<key>dataKey</key>
-					<string>POI</string>
-					<key>title</key>
-					<string>Map</string>
-					<key>titleColor</key>
-					<string>#000000</string>
-					<key>titleFontName</key>
-					<string>.SFUIText</string>
-					<key>titleFontSize</key>
-					<integer>15</integer>
-					<key>image</key>
-					<string></string>
-					<key>backgroundColor</key>
-					<string>#0000000</string>
-					<key>buttonClickClass</key>
-					<string>AFDMapShowButtonClickAction</string>
-					<key>buttonHiddenClass</key>
-					<string></string>
-					<key>buttonSetupClass</key>
-					<string></string>
-				</dict>
-			</array>
-			<key>data</key>
-			<dict>
-				<key>itemTitle</key>
-				<string>Name</string>
-				<key>itemSubtitle</key>
-				<string>SubTitle</string>
-				<key>itemDescription</key>
-				<string>Description</string>
-				<key>imageURL</key>
-				<string>DetailImage</string>
-			</dict>
-		</dict>
-		<key>events</key>
-		<dict>
-			<key>buttons</key>
-			<array>
-				<dict>
-					<key>dataKey</key>
-					<string>ImageURL</string>
-					<key>title</key>
-					<string>Website</string>
-					<key>titleColor</key>
-					<string>#000000</string>
-					<key>titleFontName</key>
-					<string>.SFUIText</string>
-					<key>titleFontSize</key>
-					<integer>15</integer>
-					<key>image</key>
-					<string></string>
-					<key>backgroundColor</key>
-					<string>#0000000</string>
-					<key>buttonClickClass</key>
-					<string>AFCWebsiteButtonClickAction</string>
-					<key>buttonHiddenClass</key>
-					<string></string>
-					<key>buttonSetupClass</key>
-					<string></string>
-				</dict>
-			</array>
-			<key>data</key>
-			<dict>
-				<key>itemTitle</key>
-				<string>Name</string>
-				<key>itemSubtitle</key>
-				<string>eventSubtitle</string>
-				<key>itemDescription</key>
-				<string>Details</string>
-				<key>imageURL</key>
-				<string>ImageURL</string>
-			</dict>
-		</dict>
-	</dict>
 	<key>acquireContentAction</key>
 	<dict/>
 	<key>bootAction</key>
@@ -2192,7 +1964,7 @@
 					<key>dataKey</key>
 					<string>POI</string>
 					<key>title</key>
-					<string>Ruta</string>
+					<string>الطريق</string>
 					<key>titleColor</key>
 					<string>#000000</string>
 					<key>titleFontName</key>
@@ -2214,7 +1986,7 @@
 					<key>dataKey</key>
 					<string>Phone</string>
 					<key>title</key>
-					<string>Llamar</string>
+					<string>إتّصل</string>
 					<key>titleColor</key>
 					<string>#000000</string>
 					<key>titleFontName</key>
@@ -2236,7 +2008,7 @@
 					<key>dataKey</key>
 					<string>Email</string>
 					<key>title</key>
-					<string>Correo</string>
+					<string>البريد الإلكتروني</string>
 					<key>titleColor</key>
 					<string>#000000</string>
 					<key>titleFontName</key>
@@ -2258,7 +2030,7 @@
 					<key>dataKey</key>
 					<string>Website</string>
 					<key>title</key>
-					<string>Web</string>
+					<string>الموقع الكتروني</string>
 					<key>titleColor</key>
 					<string>#000000</string>
 					<key>titleFontName</key>
@@ -2280,7 +2052,7 @@
 					<key>dataKey</key>
 					<string>POI</string>
 					<key>title</key>
-					<string>Mapa</string>
+					<string>الخريطة</string>
 					<key>titleColor</key>
 					<string>#000000</string>
 					<key>titleFontName</key>
@@ -2319,7 +2091,7 @@
 					<key>dataKey</key>
 					<string>ImageURL</string>
 					<key>title</key>
-					<string>Web</string>
+					<string>الموقع الكتروني</string>
 					<key>titleColor</key>
 					<string>#000000</string>
 					<key>titleFontName</key>

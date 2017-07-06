@@ -134,6 +134,18 @@
 "detailconfig.directory.website" = "Sitio Web";
 "detailconfig.directory.map" = "Mapa";
 
+/**
+ *  AFCUIAlertSubscriptionsViewController
+ */
+"afcuialertsubscriptionviewcontroller.title" = "Perfiles";
+
+/**
+ *  AFCForgotPasswordViewController
+ */
+"afcforgotpasswordviewcontroller.alert.error.title" = "Error";
+"afcforgotpasswordviewcontroller.alert.error.description" = "Debe ingresar una dirección de correo válida";
+"afcforgotpasswordviewcontroller.alert.error.okbutton.title" = "OK";
+
 /*** AF-RENDER STRINGS ***/
 
 /*
@@ -166,8 +178,8 @@
 "afcuiuserloginview.loginbutton.failedtext" = "Inicio de Sesión Fallido";
 "afcuiuserloginview.loginmessage.invalidusernamepassword" = "Nombre de Usuario o Contraseña\ninválidos. Por favor, intente de nuevo.";
 
-"forms.success.title" = "Enviado";
-"forms.success.message" = "Su solicitud ha sido enviada con éxito";
+"forms.success.title" = "Gracias por contactarnos";
+"forms.success.message" = "Tu mensaje ha sido enviado. Nos pondremos en contacto con usted pronto!";
 "forms.success.button.title" = "OK";
 "forms.error.title" = "Error";
 "forms.error.message" = "Ha habido un error con su solicitud";
@@ -288,6 +300,7 @@
 "afcuimroutebuilderviewcontroller.welcomebackrouteme.buttontitle" = "RUTA";
 "afcuimroutebuilderviewcontroller.routeme.error.title" = "Error en la ruta";
 "afcuimroutebuilderviewcontroller.routeme.error.message" = "No se puede encontrar ninguna ruta";
+"afcuimroutebuilderviewcontroller.table.header.title" = "%1$@ en %2$@";
 
 /*
  *  AFCUIMPOIFilterEditorViewController Strings
@@ -318,6 +331,14 @@
 "afcuimmapviewcontroller.buildingloaderroralert.button" = "SÍ";
 
 /**
+ *  AFMUIMapViewController
+ */
+"afmuimapviewcontroller.distance.meter" = "%i metro";
+"afmuimapviewcontroller.distance.meters" = "%i metros";
+"afmuimapviewcontroller.distance.foot" = "%i pie";
+"afmuimapviewcontroller.distance.feet" = "%i pies";
+
+/**
  *  AFMUIPOIViewController Strings
  */
 "afmuipoiviewcontroller.search.placeholder" = "Buscar un punto de interés...";
@@ -338,6 +359,12 @@
 "afcmmappickerviewcontroller.navbar.title" = "Mapas";
 "afcmmappickerviewcontroller.promptlocationalert.title" = "Nos ayudan a guiar";
 "afcmmappickerviewcontroller.promptlocationalert.message" = "Por favor, activa los servicios de localización de manera que le guiará por las instalaciones.";
+
+/**
+ *  AFMOutdoorToIndoor Strings
+ */
+
+"afmoutdoortoindoor.nativemap.title" = "%1$@ en %2$@";
 
 /*** AF-LOCATIONMARKETING STRINGS ***/
 
@@ -364,6 +391,10 @@
 "afmcofferdetailviewcontroller.alert.message" = "¿Desea eliminar el mensaje?";
 "afmcofferdetailviewcontroller.alert.deletebutton.title" = "SI";
 "afmcofferdetailviewcontroller.alert.cancelbutton.title" = "NO";
+"afmcofferdetailviewcontroller.onetimepromoalert.cancelbutton.title" = "Cancelar";
+"afmcofferdetailviewcontroller.onetimepromoalert.redeembutton.title" = "Redimir";
+"afmcofferdetailviewcontroller.onetimepromoalert.title" = "Promoción de uso único";
+"afmcofferdetailviewcontroller.onetimepromoalert.message" = "Canjear esta oferta la eliminará del Centro de Mensajes.";
 
 /*
  *  AFMCOfferSwipeViewController Strings
@@ -396,60 +427,69 @@
 "PWRouteInstructionDirectionElevatorDown" = "Toma el ascensor hasta";
 "PWRouteInstructionDirectionStairsUp" = "Sube las escaleras hasta";
 "PWRouteInstructionDirectionStairsDown" = "Sube las escaleras hasta";
+"PWRouteInstructionDirectionEscalatorUp" = "Escalera mecánica";
+"PWRouteInstructionDirectionEscalatorDown" = "Escalera mecánica";
 "PWRouteInstructionLast" = "Has llegado a";
 "PWRouteInstructionLastEmpty" = "Has llegado.";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime" = "Tiempo total de viaje";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minute" = "min";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "mins";
 "afmuimapviewcontroller.turnbyturn.in" = "en";
+"meter" = "metro";
+"meters" = "metros";
+"foot" = "pie";
+"feet" = "pies";
 
-/* (No Commment) */
-"afcaddeventtocalendar.addtocalendar.cancelbutton.title" = "De Acuerdo";
-
-/* (No Commment) */
-"afcaddeventtocalendar.addtocalendar.failure.message" = "Ha ocurrido un error. Por favor intente de nuevo";
-
-/* (No Commment) */
-"afcaddeventtocalendar.addtocalendar.failure.title" = "Calendario de Eventos";
-
-/* (No Commment) */
-"afcaddeventtocalendar.addtocalendar.success.message" = "%@ se agregó a tu calendario";
-
-/* (No Commment) */
+/*
+ * Events Module String
+ */
 "afcaddeventtocalendar.addtocalendar.success.title" = "Calendario de Eventos";
-
-/* (No Commment) */
-"afcaddeventtocalendar.calendarrestrictedaccess.cancelbutton.title" = "Cancelar";
-
-/* (No Commment) */
-"afcaddeventtocalendar.calendarrestrictedaccess.message" = "Para volver a activarlo, accede a Configuración y concede acceso a tu Calendario";
-
-/* (No Commment) */
-"afcaddeventtocalendar.calendarrestrictedaccess.settingsbutton.title" = "Configuración";
-
-/* (No Commment) */
+"afcaddeventtocalendar.addtocalendar.success.message" = "%@ se agregó a tu calendario";
+"afcaddeventtocalendar.addtocalendar.failure.title" = "Calendario de Eventos";
+"afcaddeventtocalendar.addtocalendar.failure.message" = "Ha ocurrido un error. Por favor intente de nuevo";
+"afcaddeventtocalendar.addtocalendar.cancelbutton.title" = "De Acuerdo";
 "afcaddeventtocalendar.calendarrestrictedaccess.title" = "El acceso al Calendario está Restringido\n";
-
-/* (No Commment) */
+"afcaddeventtocalendar.calendarrestrictedaccess.message" = "Para volver a activarlo, accede a Configuración y concede acceso a tu Calendario";
+"afcaddeventtocalendar.calendarrestrictedaccess.cancelbutton.title" = "Cancelar";
+"afcaddeventtocalendar.calendarrestrictedaccess.settingsbutton.title" = "Configuración";
 "eventsdetail.share.text.body" = "Echa un vistazo al evento en %@:\n\n%@";
-
-/* (No Commment) */
 "eventsdetail.share.text.subject" = "%@ está teniendo un evento! %@";
 
-/* (No Commment) */
-"afddirectorycategoryviewcontroller.allcategories" = "Todos las Categorías";
+/**
+ * Weather Content Type
+ */
+"afcuidynamicweather.rain.text" = "lluvia";
+"afcuidynamicweather.title.text" = "Hoy en";
 
-/* (No Commment) */
-"afddirectorycategoryviewcontroller.savebutton.title" = "Aplicar Filtros";
+/**
+ * AFDDirectoryViewController Strings
+ */
 
-/* (No Commment) */
-"afddirectorycategoryviewcontroller.title" = "Filtros";
-
-/* (No Commment) */
 "afddirectoryviewcontroller.noresults.title" = "No se encontraron resultados.";
 
-/* (No Commment) */
-"afcuidynamicweather.rain.text" = "lluvia";
+/**
+ * AFDDirectoryCategoryViewController Strings
+ */
 
-/* (No Commment) */
-"afcuidynamicweather.title.text" = "Hoy en";
+"afddirectorycategoryviewcontroller.allcategories" = "Todos las Categorías";
+"afddirectorycategoryviewcontroller.savebutton.title" = "Aplicar Filtros";
+"afddirectorycategoryviewcontroller.title" = "Filtros";
+
+/**
+ * Push notification actions
+ */
+"Directory.show" = "Mostrar";
+"DirectoryItem.show" = "Mostrar";
+"Events.show" = "Mostrar";
+"EvenntItem.show" = "Mostrar";
+"Map.show" = "Mostrar";
+"Map.route" = "Ruta";
+"Offer.listing" = "Listado";
+"Offer.detail" = "Detalle";
+"Parking.main" = "Principal";
+"Parking.map" = "Mapa";
+"Parking.photo" = "Foto";
+"Parking.voice" = "Voz";
+"Parking.note" = "Apunte";
+"Page.show" = "Mostrar";
+"SettingsMap.show" = "Mostrar";
