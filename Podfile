@@ -12,7 +12,7 @@ target :'GenericAF4' do
     pod 'AppFrameworkDirectoryModule',         :git => 'ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git', :branch => 'release/v4.6.0'
     pod 'AppFrameworkEventsModule',            :git => 'ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git', :branch => 'release/v4.6.0'
     pod 'AppFrameworkMessageCenterModule',     :git => 'ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git', :branch => 'release/v4.6.0'
-    pod 'AppFrameworkMappingModule',           :git => 'ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git', :branch => 'release/v4.6.0'
+#    pod 'AppFrameworkMappingModule',           :git => 'ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git', :branch => 'release/v4.6.0'
     pod 'AppFrameworkParkingModule',           :git => 'ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git', :branch => 'release/v4.6.0'
     pod 'AppFrameworkRenderModule',            :git => 'ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git', :branch => 'release/v4.6.0'
 
@@ -28,7 +28,7 @@ target :'GenericAF4' do
 #    pod 'AppFrameworkDirectoryModule',         :path => '../af-sdk-ios/af-modules/af-directory'
 #    pod 'AppFrameworkEventsModule',            :path => '../af-sdk-ios/af-modules/af-events'
 #    pod 'AppFrameworkMessageCenterModule',     :path => '../af-sdk-ios/af-modules/af-msgcenter'
-#    pod 'AppFrameworkMappingModule',           :path => '../af-sdk-ios/af-modules/af-mapping'
+    pod 'AppFrameworkMappingModule',           :path => '../af-sdk-ios/af-modules/af-mapping'
 #    pod 'AppFrameworkParkingModule',           :path => '../af-sdk-ios/af-modules/af-parking'
 #    pod 'AppFrameworkRenderModule',            :path => '../af-sdk-ios/af-modules/af-render'
 
