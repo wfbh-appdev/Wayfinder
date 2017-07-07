@@ -86,9 +86,9 @@
 		<key>fontName</key>
 		<string>$MainFontLight</string>
 		<key>fontSize</key>
-		<string>$MainFontSize</string>
+		<integer>16</integer>
 		<key>color</key>
-		<string>$GrayColor</string>
+		<string>#333333</string>
 	</dict>
 	<key>poiName</key>
 	<dict>
@@ -110,7 +110,7 @@
 		<key>fontSize</key>
 		<integer>12</integer>
 		<key>color</key>
-		<string>$BlueColor</string>
+		<string>#0080FF</string>
 		<key>alignment</key>
 		<string>left</string>
 		<key>lines</key>
@@ -127,22 +127,22 @@
 		<key>lines</key>
 		<integer>1</integer>
 		<key>color</key>
-		<string>$BlueColor</string>
+		<string>#0080FF</string>
 	</dict>
 	<key>maskView</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>$WhiteColor</string>
+		<string>#ffffff</string>
 	</dict>
 	<key>bottomMargin</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>$WhiteColor</string>
+		<string>#ffffff</string>
 	</dict>
 	<key>selectCampusButtonContainer</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>$WhiteColor</string>
+		<string>#ffffff</string>
 		<key>constraints</key>
 		<array>
 			<string>H:|-20-[selectCampusButton]-20-|</string>
@@ -160,9 +160,9 @@
 		<key>fontSize</key>
 		<integer>12</integer>
 		<key>color</key>
-		<string>$WhiteColor</string>
+		<string>#ffffff</string>
 		<key>buttonTitle</key>
-		<string>#afcuiannotationdetailviewcontroller.selectCampusButton.buttontitle</string>
+		<string>#afcuiannotationdetailviewcontroller.selectCampusButton.buttontitle,AppFrameworkMapping</string>
 	</dict>
 	<key>defaultCampusIcon</key>
 	<dict>

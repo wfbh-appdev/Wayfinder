@@ -1,0 +1,137 @@
+﻿/*** AF-CORE STRINGS ***/
+
+/**
+ * EULA Agreement
+ */
+"afceulapromoptaction.prompt.message" = "Do you agree with the License Agreement and the terms and conditions?";
+"afceulapromoptaction.prompt.message.title" = "License Agreement";
+"afceulapromoptaction.prompt.message.agreebutton.title" = "AGREE";
+"afceulapromoptaction.prompt.message.viewbutton.title" = "VIEW";
+
+/*
+ *   AFCUIEULAViewController Strings
+ */
+"afcuieulaviewcontroller.agreebutton.buttontitle" = "I Agree";
+"afcuieulaviewcontroller.navbar.title" = "License Agreement";
+
+/*
+ *   AFCUIWebViewController Strings
+ */
+"afcuiwebviewcontroller.message.text" = "Please wait...";
+
+/*
+ *   AFCUIModalWebBrowser Strings
+ */
+"afcuimodalwebbrowser.status.text" = "Loading";
+"afcuimodalwebbrowser.closebutton.buttontitle" = "Close";
+
+/*
+ *  AFCCheckForceUpdate Strings
+ */
+"afccheckforceupdate.prompt.message.displayforceupdate.alert.title" = "Update Required";
+"afccheckforceupdate.displayforceupdate.alert.title" = "App Update Available";
+"afccheckforceupdate.displayforceupdate.alert.message" = "A new version has been released. You must update to the latest version.";
+"afccheckforceupdate.displayforceupdate.alert.button.title" = "Update";
+"afccheckforceupdate.displayupdateavailable.alert.title" = "Update Available";
+"afccheckforceupdate.displayupdateavailable.alert.message" = "A new version has been released. Please update to the latest version.";
+"afccheckforceupdate.displayupdateavailable.alert.button.title" = "Update";
+"afccheckforceupdate.displayupdateavailable.alert.cancel.title" = "Not Now";
+
+/*
+ *  AFCLogout Strings
+ */
+"afclogoutaction.alert.title" = "Logout Successful";
+"afclogoutaction.alert.message" = "You have successfully logged out of the current session.";
+"afclogoutaction.alert.button.title" = "Ok";
+
+/*
+ * SSO WebView Alert Strings
+ */
+"afcuimodalwebbrowser.alert.title" = "Error";
+"afcuimodalwebbrowser.alert.message" = "You must be logged in to view this page.";
+"afcuimodalwebbrowser.alert.ok" = "OK";
+
+/*
+ * Layer Picker
+ */
+"afclayerpickerviewcontroller.navbar.default.title" = "Levels";
+"afclayerpickerviewcontroller.searchbar.default.text" = "Search";
+
+/*
+ * Segments Error
+ */
+"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.title" = "Alert Settings";
+"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.message" = "Please setup alert segments for this app on the portal.";
+"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.cancelbutton.title" = "Ok";
+"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.title" = "Alert Settings";
+"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.message" = "This content requires a data connection, please check your mobile or wifi network and try again.";
+"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.cancelbutton.title" = "Ok";
+
+/*
+ *  No Initial Database Strings
+ */
+"afinitialdatabase.displayforceupdate.alert.title" = "Error";
+"afinitialdatabase.displayforceupdate.alert.message" = "Unable to start the application.  Please verify that your device is connected to a network.";
+"afinitialdatabase.displayforceupdate.alert.button" = "Close app";
+
+/*
+ *  No Layer Database Strings
+ */
+"aflayerdatabase.displayforceupdate.alert.title" = "Error";
+"aflayerdatabase.displayforceupdate.alert.message" = "This content requires a data connection, please check your mobile or WiFi network and try again.";
+"aflayerdatabase.displayforceupdate.alert.button" = "Ok";
+
+"afcforgotpasswordviewcontroller.alert.error.title" = "Error";
+"afcforgotpasswordviewcontroller.alert.error.message" = "You must enter a valid email address.";
+"afcforgotpasswordviewcontroller.alert.error.button.title" = "OK";
+
+"afccomposeemailaction.alert.error.title" = "Email";
+"afccomposeemailaction.alert.error.message" = "Sorry. Your device is not currently setup for email.";
+"afccomposeemailaction.alert.button.title" = "OK";
+
+/*
+ * AFCPhoneCallAction
+ */
+"afcphonecallaction.alert.title" = "Place a Call";
+"afcphonecallaction.alert.message" = "Are you sure you want to call:\n%@";
+"afcphonecallaction.alert.accept" = "Yes";
+"afcphonecallaction.alert.cancel" = "No";
+"afcphonecallaction.alert.ok" = "OK";
+"afcphonecallaction.error.alert.title" = "Error";
+"afcphonecallaction.error.alert.message" = "Your device is not capable of placing calls";
+
+/*
+ *  No Connection Available
+ */
+"afnointernetconnection.banner.message" = "No internet connection. Experience may be degraded.";
+"afnointernetconnection.banner.button" = "Ok";
+
+/*
+ * AFCUISettingsViewController
+ */
+"afcuisettingsviewcontroller.sectionname.notifications" = "NOTIFICATIONS";
+"afcuisettingsviewcontroller.sectionname.managedprovider" = "Managed Provider Debug";
+"afcuisettingsviewcontroller.sectionname.locationprovider" = "LOCATION PROVIDER";
+"afcuisettingsviewcontroller.sectionname.maassdk" = "MaaS SDKs";
+"afcuisettingsviewcontroller.sectionname.about" = "ABOUT";
+
+"afcuisettingsviewcontroller.value.auto" = "Auto";
+"afcuisettingsviewcontroller.value.none" = "None";
+"afcuisettingsviewcontroller.value.on" = "On";
+"afcuisettingsviewcontroller.value.off" = "Off";
+"afcuisettingsviewcontroller.value.preferences" = "Preferences";
+"afcuisettingsviewcontroller.value.version" = "Version";
+"afcuisettingsviewcontroller.value.deviceid" = "Device ID";
+
+/*
+ * AFCUIModalWebBrowser
+ */
+"afcuimodalwebbrowser.webview.status.loading" = "Loading";
+
+/*
+ * OS Privacy Settings
+ */
+"osprivacysettings.camera.denied.alert.title" = "Dismiss";
+"osprivacysettings.camera.denied.alert.button.settings" = "Settings";
+"osprivacysettings.camera.settings.alert.title" = "";
+"osprivacysettings.camera.settings.alert.message" = "Please go to the Privacy Settings on your device and enable camera access to use this feature.";

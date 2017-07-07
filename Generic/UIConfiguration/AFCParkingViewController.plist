@@ -69,7 +69,7 @@
 		<key>alignment</key>
 		<string>left</string>
 		<key>text</key>
-		<string>#afcparkingviewcontroller.parkingremindertitle.text</string>
+		<string>#afcparkingviewcontroller.parkingremindertitle.text,AppFrameworkParking</string>
 		<key>color</key>
 		<string>$BlueColor</string>
 	</dict>
@@ -82,7 +82,7 @@
 		<key>color</key>
 		<string>#686868</string>
 		<key>text</key>
-		<string>#afcparkingviewcontroller.parkingchoosemethod.text</string>
+		<string>#afcparkingviewcontroller.parkingchoosemethod.text,AppFrameworkParking</string>
 		<key>alignment</key>
 		<string>left</string>
 	</dict>
@@ -118,28 +118,28 @@
 		<key>type</key>
 		<string>AFCUIParkingButton</string>
 		<key>text</key>
-		<string>#afcparkingviewcontroller.gpslocationbuttonlabel.text</string>
+		<string>#afcparkingviewcontroller.gpslocationbuttonlabel.text,AppFrameworkParking</string>
 	</dict>
 	<key>takePictureButtonLabel</key>
 	<dict>
 		<key>type</key>
 		<string>AFCUIParkingButton</string>
 		<key>text</key>
-		<string>#afcparkingviewcontroller.takepicturebuttonlabel.text</string>
+		<string>#afcparkingviewcontroller.takepicturebuttonlabel.text,AppFrameworkParking</string>
 	</dict>
 	<key>recordVoiceMemoButtonLabel</key>
 	<dict>
 		<key>type</key>
 		<string>AFCUIParkingButton</string>
 		<key>text</key>
-		<string>#afcparkingviewcontroller.recordvoicememobuttonlabel.text</string>
+		<string>#afcparkingviewcontroller.recordvoicememobuttonlabel.text,AppFrameworkParking</string>
 	</dict>
 	<key>writeNoteButtonLabel</key>
 	<dict>
 		<key>type</key>
 		<string>AFCUIParkingButton</string>
 		<key>text</key>
-		<string>#afcparkingviewcontroller.writenotebuttonlabel.text</string>
+		<string>#afcparkingviewcontroller.writenotebuttonlabel.text,AppFrameworkParking</string>
 	</dict>
 	<key>locationSavedMessage</key>
 	<dict>
@@ -150,7 +150,7 @@
 		<key>color</key>
 		<string>$BlueColor</string>
 		<key>text</key>
-		<string>#afcparkingviewcontroller.locationsavedmessage.text</string>
+		<string>#afcparkingviewcontroller.locationsavedmessage.text,AppFrameworkParking</string>
 		<key>alignment</key>
 		<string>center</string>
 	</dict>
@@ -163,7 +163,7 @@
 		<key>color</key>
 		<string>$BlueColor</string>
 		<key>text</key>
-		<string>#afcparkingviewcontroller.imagesavedmessage.text</string>
+		<string>#afcparkingviewcontroller.imagesavedmessage.text,AppFrameworkParking</string>
 		<key>alignment</key>
 		<string>center</string>
 	</dict>
@@ -176,7 +176,7 @@
 		<key>color</key>
 		<string>$BlueColor</string>
 		<key>text</key>
-		<string>#afcparkingviewcontroller.voicememosavedmessage.text</string>
+		<string>#afcparkingviewcontroller.voicememosavedmessage.text,AppFrameworkParking</string>
 		<key>alignment</key>
 		<string>center</string>
 	</dict>
@@ -198,7 +198,7 @@
 		<key>type</key>
 		<string>DefaultTitleLabel</string>
 		<key>text</key>
-		<string>#afcparkingviewcontroller.titlelabel.text</string>
+		<string>#afcparkingviewcontroller.titlelabel.text,AppFrameworkParking</string>
 		<key>color</key>
 		<string>$WhiteColor</string>
 		<key>fontSize</key>

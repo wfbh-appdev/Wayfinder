@@ -4,19 +4,17 @@
 <dict>
 	<key>titleLabel</key>
 	<dict>
-		<key>type</key>
-		<string>DefaultTitleLabel</string>
 		<key>text</key>
-		<string>#afcuimannotationdirectoryviewcontroller.titlelabel.text</string>
+		<string>#afmuipoiviewcontroller.titlelabel.text,AppFrameworkMapping</string>
 	</dict>
 	<key>view</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>$WhiteColor</string>
+		<string>#ffffff</string>
 		<key>constraints</key>
 		<array>
-			<string>V:|[table]|</string>
 			<string>H:|[table]|</string>
+			<string>V:|[table]|</string>
 			<string>H:|-(&gt;=50)-[noResultsFoundLabel]-(&gt;=50)-|</string>
 			<string>V:|-(&lt;=100)-[noResultsFoundLabel(21)]-(&gt;=100)-|</string>
 			<string>#noResultsFoundLabel.centerx=self.centerx,1,0</string>
@@ -26,23 +24,23 @@
 	<dict/>
 	<key>noResultsFoundLabel</key>
 	<dict>
-		<key>type</key>
-		<real>0</real>
 		<key>fontName</key>
 		<string>$MainFont</string>
-		<key>text</key>
-		<string>#afcuimannotationdirectoryviewcontroller.noresultsfound.text</string>
 		<key>fontSize</key>
-		<string>18</string>
-		<key>color</key>
-		<string>$LightGrayColor</string>
+		<integer>18</integer>
+		<key>text</key>
+		<string>#afmuipoiviewcontroller.noresultsfound.text,AppFrameworkMapping</string>
 		<key>alignment</key>
 		<string>center</string>
+		<key>color</key>
+		<string>#AAAAAA</string>
+		<key>lines</key>
+		<integer>1</integer>
 	</dict>
 	<key>favoritesBar</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>$WhiteColor</string>
+		<string>#ffffff</string>
 		<key>width</key>
 		<integer>320</integer>
 		<key>height</key>
@@ -56,7 +54,7 @@
 	<key>favoritesToggle</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>$WhiteColor</string>
+		<string>#ffffff</string>
 	</dict>
 </dict>
 </plist>

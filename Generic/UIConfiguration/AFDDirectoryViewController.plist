@@ -5,7 +5,7 @@
 	<key>titleLabel</key>
 	<dict>
 		<key>text</key>
-		<string>#afddirectoryviewcontroller.title</string>
+		<string>#afddirectoryviewcontroller.title,AppFrameworkDirectory</string>
 	</dict>
 	<key>tableView</key>
 	<dict>
@@ -40,7 +40,7 @@
 	<key>noResultsLabel</key>
 	<dict>
 		<key>text</key>
-		<string>#afddirectoryviewcontroller.noresults.title</string>
+		<string>#afddirectoryviewcontroller.noresults.title,AppFrameworkDirectory</string>
 		<key>fontName</key>
 		<string>$MainFontBold</string>
 		<key>fontSize</key>

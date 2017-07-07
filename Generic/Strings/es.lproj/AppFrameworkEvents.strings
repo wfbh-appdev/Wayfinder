@@ -1,0 +1,20 @@
+/* 
+  AppFrameworkEvents.strings
+
+  Copyright © 2017 Phunware. All rights reserved.
+*/
+"eventlistviewcontroller.favorites.all" = "Todos";
+"eventslistviewcontroller.favorites.only" = "Favoritos";
+"eventslistviewcontroller.event.subtitle.fromto" = "Desde %@ hasta %@";
+
+"afcaddeventtocalendar.addtocalendar.success.title" = "Calendario de Eventos";
+"afcaddeventtocalendar.addtocalendar.success.message" = "%@ se agregó a tu calendario";
+"afcaddeventtocalendar.addtocalendar.failure.title" = "Calendario de Eventos";
+"afcaddeventtocalendar.addtocalendar.failure.message" = "Ha ocurrido un error. Por favor intente de nuevo";
+"afcaddeventtocalendar.addtocalendar.cancelbutton.title" = "De Acuerdo";
+"afcaddeventtocalendar.calendarrestrictedaccess.title" = "El acceso al Calendario está Restringido\n";
+"afcaddeventtocalendar.calendarrestrictedaccess.message" = "Para volver a activarlo, accede a Configuración y concede acceso a tu Calendario";
+"afcaddeventtocalendar.calendarrestrictedaccess.cancelbutton.title" = "Cancelar";
+"afcaddeventtocalendar.calendarrestrictedaccess.settingsbutton.title" = "Configuración";
+"eventsdetail.share.text.subject" = "%@ está teniendo un evento! %@";
+"eventsdetail.share.text.body" = "Echa un vistazo al evento en %@:\n\n%@";

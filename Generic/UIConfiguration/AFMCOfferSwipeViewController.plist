@@ -15,7 +15,7 @@
 	<key>titleLabel</key>
 	<dict>
 		<key>text</key>
-		<string>#afmcofferswipeviewcontroller.titlelabel.text</string>
+		<string>#afmcofferswipeviewcontroller.titlelabel.text,AppFrameworkMessageCenter</string>
 	</dict>
 </dict>
 </plist>

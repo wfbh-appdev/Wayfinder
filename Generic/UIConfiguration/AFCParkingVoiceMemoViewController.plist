@@ -25,7 +25,7 @@
 	<key>recordVoiceMemoTitle</key>
 	<dict>
 		<key>text</key>
-		<string>#afcparkingvoicememoviewcontroller.recordvoicememotitle.text</string>
+		<string>#afcparkingvoicememoviewcontroller.recordvoicememotitle.text,AppFrameworkParking</string>
 		<key>fontName</key>
 		<string>$MainFontLight</string>
 		<key>fontSize</key>

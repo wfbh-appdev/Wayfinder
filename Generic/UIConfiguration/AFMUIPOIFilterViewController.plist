@@ -5,7 +5,7 @@
 	<key>view</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>$WhiteColor</string>
+		<string>#ffffff</string>
 		<key>constraints</key>
 		<array>
 			<string>V:|-0-[poiTable][backgroundSaveFiltersButton]|</string>
@@ -23,33 +23,33 @@
 			<string>H:|-25-[saveFiltersButton]-25-|</string>
 		</array>
 		<key>backgroundColor</key>
-		<string>$WhiteColor</string>
+		<string>#ffffff</string>
 	</dict>
 	<key>saveFiltersButton</key>
 	<dict>
 		<key>borderColor</key>
-		<string>$GrayColor</string>
+		<string>#363636</string>
 		<key>color</key>
-		<string>$GrayColor</string>
+		<string>#363636</string>
 		<key>borderWidth</key>
-		<real>1</real>
+		<integer>1</integer>
 		<key>buttonTitle</key>
-		<string>#afcuimpoifiltereditorviewcontroller.savefiltersbutton.buttontitle</string>
+		<string>#afcuimpoifiltereditorviewcontroller.savefiltersbutton.buttontitle,AppFrameworkMapping</string>
 		<key>fontName</key>
 		<string>$MainFontLight</string>
 		<key>fontSize</key>
 		<integer>18</integer>
 	</dict>
-	<key>closeButton</key>
+	<key>cancelButton</key>
 	<dict>
 		<key>height</key>
 		<string>30</string>
 		<key>width</key>
 		<string>64</string>
 		<key>buttonTitle</key>
-		<string>#afcuimpoifiltereditorviewcontroller.cancelbutton.buttontitle</string>
+		<string>#afcuimpoifiltereditorviewcontroller.cancelbutton.buttontitle,AppFrameworkMapping</string>
 		<key>color</key>
-		<string>$WhiteColor</string>
+		<string>#ffffff</string>
 		<key>fontName</key>
 		<string>$MainFont</string>
 		<key>fontSize</key>
@@ -57,10 +57,10 @@
 	</dict>
 	<key>titleLabel</key>
 	<dict>
-		<key>type</key>
-		<string>DefaultTitleLabel</string>
 		<key>text</key>
-		<string>#afcuimpoifiltereditorviewcontroller.titlelabel.text</string>
+		<string>#afcuimpoifiltereditorviewcontroller.titlelabel.text,AppFrameworkMapping</string>
+		<key>color</key>
+		<string>#ffffff</string>
 		<key>alignment</key>
 		<string>center</string>
 		<key>lines</key>

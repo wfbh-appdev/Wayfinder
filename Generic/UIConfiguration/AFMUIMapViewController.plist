@@ -10,22 +10,22 @@
 	<key>promptLocationAlertTitle</key>
 	<dict>
 		<key>text</key>
-		<string>#afcuimmapviewcontroller.promptlocationalert.title</string>
+		<string>#afcuimmapviewcontroller.promptlocationalert.title,AppFrameworkMapping</string>
 		<key>backgroundColor</key>
-		<string>$GrayColor</string>
+		<string>#333333</string>
 		<key>fontName</key>
 		<string>$MainFontMedium</string>
 		<key>fontSize</key>
 		<string>16</string>
 		<key>color</key>
-		<string>$WhiteColor</string>
+		<string>#ffffff</string>
 		<key>alignment</key>
 		<string>center</string>
 	</dict>
 	<key>promptLocationAlertMessage</key>
 	<dict>
 		<key>text</key>
-		<string>#afcuimmapviewcontroller.promptlocationalert.message</string>
+		<string>#afcuimmapviewcontroller.promptlocationalert.message,AppFrameworkMapping</string>
 		<key>lines</key>
 		<string>2</string>
 		<key>fontName</key>
@@ -35,12 +35,12 @@
 		<key>alignment</key>
 		<string>center</string>
 		<key>color</key>
-		<string>$GrayColor</string>
+		<string>#333333</string>
 	</dict>
 	<key>promptLocationAlertTakeMeThereButton</key>
 	<dict>
 		<key>buttonTitle</key>
-		<string>#afcuimmapviewcontroller.promptlocationalert.takemetherebutton</string>
+		<string>#afcuimmapviewcontroller.promptlocationalert.takemetherebutton,AppFrameworkMapping</string>
 		<key>fontName</key>
 		<string>$MainFont</string>
 		<key>fontSize</key>
@@ -48,9 +48,28 @@
 		<key>alignment</key>
 		<string>center</string>
 		<key>color</key>
-		<string>$GrayColor</string>
+		<string>#333333</string>
 		<key>borderColor</key>
-		<string>$WhiteColor</string>
+		<string>#ffffff</string>
+		<key>borderWidth</key>
+		<string>1</string>
+		<key>cornerRadius</key>
+		<string>5</string>
+	</dict>
+	<key>promptLocationAlertBackToFacilityMapButton</key>
+	<dict>
+		<key>buttonTitle</key>
+		<string>#afcuimmapviewcontroller.promptlocationalert.backtofacilitymapbutton,AppFrameworkMapping</string>
+		<key>fontName</key>
+		<string>$MainFont</string>
+		<key>fontSize</key>
+		<string>14</string>
+		<key>alignment</key>
+		<string>center</string>
+		<key>color</key>
+		<string>#333333</string>
+		<key>borderColor</key>
+		<string>#ffffff</string>
 		<key>borderWidth</key>
 		<string>1</string>
 		<key>cornerRadius</key>
@@ -59,7 +78,7 @@
 	<key>promptLocationAlertCancelButton</key>
 	<dict>
 		<key>buttonTitle</key>
-		<string>#afcuimmapviewcontroller.promptlocationalert.cancelbutton</string>
+		<string>#afcuimmapviewcontroller.promptlocationalert.cancelbutton,AppFrameworkMapping</string>
 		<key>fontName</key>
 		<string>$MainFont</string>
 		<key>fontSize</key>
@@ -67,9 +86,9 @@
 		<key>alignment</key>
 		<string>center</string>
 		<key>color</key>
-		<string>$GrayColor</string>
+		<string>#333333</string>
 		<key>borderColor</key>
-		<string>$WhiteColor</string>
+		<string>#ffffff</string>
 		<key>borderWidth</key>
 		<string>1</string>
 		<key>cornerRadius</key>

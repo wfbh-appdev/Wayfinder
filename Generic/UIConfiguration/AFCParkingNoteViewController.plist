@@ -34,7 +34,7 @@
 		<key>fontSize</key>
 		<integer>14</integer>
 		<key>text</key>
-		<string>#afcparkingnoteviewcontroller.noteslabel.text</string>
+		<string>#afcparkingnoteviewcontroller.noteslabel.text,AppFrameworkParking</string>
 		<key>alignment</key>
 		<string>left</string>
 		<key>lines</key>
@@ -45,7 +45,7 @@
 		<key>type</key>
 		<string>DefaultTitleLabel</string>
 		<key>text</key>
-		<string>#afcparkingnoteviewcontroller.titlelabel.text</string>
+		<string>#afcparkingnoteviewcontroller.titlelabel.text,AppFrameworkParking</string>
 		<key>fontName</key>
 		<string>$MainFontLight</string>
 		<key>fontSize</key>

@@ -5,7 +5,7 @@
 	<key>view</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>$WhiteColor</string>
+		<string>#ffffff</string>
 		<key>constraints</key>
 		<array>
 			<string>V:|[navBarView(64)]-9-[startLocationTextField(30)]-8-[separator1(1)]-7-[endLocationTextField(30)]-5-[separator2(1)]-16-[handicapAccessibilityLabel(21)]-16-[separator3(1)][poiTableView]|</string>
@@ -39,7 +39,7 @@
 		<key>alignment</key>
 		<string>left</string>
 		<key>placeholder</key>
-		<string>#afcuimroutebuilderviewcontroller.startlocationtextfield.placeholder</string>
+		<string>#afcuimroutebuilderviewcontroller.startlocationtextfield.placeholder,AppFrameworkMapping</string>
 	</dict>
 	<key>endLocationTextField</key>
 	<dict>
@@ -52,7 +52,7 @@
 		<key>alignment</key>
 		<string>left</string>
 		<key>placeholder</key>
-		<string>#afcuimroutebuilderviewcontroller.endlocationtextfield.placeholder</string>
+		<string>#afcuimroutebuilderviewcontroller.endlocationtextfield.placeholder,AppFrameworkMapping</string>
 	</dict>
 	<key>startLabel</key>
 	<dict>
@@ -61,7 +61,7 @@
 		<key>fontSize</key>
 		<integer>12</integer>
 		<key>text</key>
-		<string>#afcuimroutebuilderviewcontroller.startlabel.text</string>
+		<string>#afcuimroutebuilderviewcontroller.startlabel.text,AppFrameworkMapping</string>
 		<key>alignment</key>
 		<string>left</string>
 		<key>color</key>
@@ -78,11 +78,11 @@
 		<key>fontSize</key>
 		<integer>12</integer>
 		<key>text</key>
-		<string>#afcuimroutebuilderviewcontroller.endlabel.text</string>
+		<string>#afcuimroutebuilderviewcontroller.endlabel.text,AppFrameworkMapping</string>
 		<key>alignment</key>
-		<string>left</string>
+		<string>LEFT</string>
 		<key>color</key>
-		<string>$BlueColor</string>
+		<string>#0080FF</string>
 		<key>width</key>
 		<string>60</string>
 		<key>height</key>
@@ -118,16 +118,16 @@
 		<key>fontSize</key>
 		<integer>16</integer>
 		<key>color</key>
-		<string>$WhiteColor</string>
+		<string>#ffffff</string>
 		<key>text</key>
-		<string>#afcuimroutebuilderviewcontroller.titlelabel.text</string>
+		<string>#afcuimroutebuilderviewcontroller.titlelabel.text,AppFrameworkMapping</string>
 		<key>alignment</key>
 		<string>center</string>
 	</dict>
 	<key>cancelButton</key>
 	<dict>
 		<key>buttonTitle</key>
-		<string>#afcuimroutebuilderviewcontroller.cancelbutton.buttontitle</string>
+		<string>#afcuimroutebuilderviewcontroller.cancelbutton.buttontitle,AppFrameworkMapping</string>
 		<key>fontName</key>
 		<string>$MainFont</string>
 		<key>fontSize</key>
@@ -135,35 +135,35 @@
 		<key>alignment</key>
 		<string>center</string>
 		<key>color</key>
-		<string>$WhiteColor</string>
+		<string>#ffffff</string>
 	</dict>
 	<key>routeButton</key>
 	<dict>
 		<key>buttonTitle</key>
-		<string>#afcuimroutebuilderviewcontroller.routebutton.buttontitle</string>
+		<string>#afcuimroutebuilderviewcontroller.routebutton.buttontitle,AppFrameworkMapping</string>
 		<key>fontName</key>
 		<string>$MainFontBold</string>
 		<key>fontSize</key>
 		<integer>16</integer>
 		<key>color</key>
-		<string>$WhiteColor</string>
+		<string>#ffffff</string>
 		<key>alignment</key>
 		<string>center</string>
 	</dict>
 	<key>separator1</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>$LightGrayColor</string>
+		<string>#aaaaaa</string>
 	</dict>
 	<key>separator2</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>$LightGrayColor</string>
+		<string>#aaaaaa</string>
 	</dict>
 	<key>separator3</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>$LightGrayColor</string>
+		<string>#aaaaaa</string>
 	</dict>
 	<key>handicapAccessibilityLabel</key>
 	<dict>
@@ -176,7 +176,7 @@
 		<key>alignment</key>
 		<string>left</string>
 		<key>text</key>
-		<string>#afcuimroutebuilderviewcontroller.handicapaccessibilitylabel.text</string>
+		<string>#afcuimroutebuilderviewcontroller.handicapaccessibilitylabel.text,AppFrameworkMapping</string>
 	</dict>
 	<key>accessibleRouteSwitch</key>
 	<dict/>
@@ -209,20 +209,20 @@
 	<key>outdoorToIndoorAlertTitle</key>
 	<dict>
 		<key>text</key>
-		<string>#afcuimroutebuilderviewcontroller.outdoortoindooralerttitle.text</string>
+		<string>#afcuimroutebuilderviewcontroller.outdoortoindooralerttitle.text,AppFrameworkMapping</string>
 		<key>fontName</key>
 		<string>$MainFontMedium</string>
 		<key>fontSize</key>
 		<integer>16</integer>
 		<key>color</key>
-		<string>$WhiteColor</string>
+		<string>#ffffff</string>
 		<key>alignment</key>
 		<string>center</string>
 	</dict>
 	<key>outdoorToIndoorAlertMessage</key>
 	<dict>
 		<key>text</key>
-		<string>#afcuimroutebuilderviewcontroller.outdoortoindooralerttitle.message</string>
+		<string>#afcuimroutebuilderviewcontroller.outdoortoindooralerttitle.message,AppFrameworkMapping</string>
 		<key>lines</key>
 		<integer>2</integer>
 		<key>fontName</key>
@@ -232,12 +232,12 @@
 		<key>alignment</key>
 		<string>center</string>
 		<key>color</key>
-		<string>$WhiteColor</string>
+		<string>#ffffff</string>
 	</dict>
 	<key>dismissOutdoorToIndoor</key>
 	<dict>
 		<key>buttonTitle</key>
-		<string>#afcuimroutebuilderviewcontroller.dismissoutdoortoindoor.buttontitle</string>
+		<string>#afcuimroutebuilderviewcontroller.dismissoutdoortoindoor.buttontitle,AppFrameworkMapping</string>
 		<key>fontName</key>
 		<string>$MainFont</string>
 		<key>fontSize</key>
@@ -245,18 +245,18 @@
 		<key>alignment</key>
 		<string>center</string>
 		<key>color</key>
-		<string>$WhiteColor</string>
+		<string>#ffffff</string>
 		<key>cornerRadius</key>
 		<integer>5</integer>
 		<key>borderColor</key>
-		<string>$WhiteColor</string>
+		<string>#ffffff</string>
 		<key>borderWidth</key>
 		<integer>1</integer>
 	</dict>
 	<key>openInMapsButton</key>
 	<dict>
 		<key>buttonTitle</key>
-		<string>#afcuimroutebuilderviewcontroller.openinmapsbutton.buttontitle</string>
+		<string>#afcuimroutebuilderviewcontroller.openinmapsbutton.buttontitle,AppFrameworkMapping</string>
 		<key>fontName</key>
 		<string>$MainFont</string>
 		<key>fontSize</key>
@@ -264,9 +264,9 @@
 		<key>alignment</key>
 		<string>center</string>
 		<key>color</key>
-		<string>$WhiteColor</string>
+		<string>#ffffff</string>
 		<key>borderColor</key>
-		<string>$WhiteColor</string>
+		<string>#ffffff</string>
 		<key>borderWidth</key>
 		<real>1</real>
 		<key>cornerRadius</key>
@@ -296,7 +296,7 @@
 	<key>welcomeBackTitle</key>
 	<dict>
 		<key>text</key>
-		<string>#afcuimroutebuilderviewcontroller.welcomebacktitle.text</string>
+		<string>#afcuimroutebuilderviewcontroller.welcomebacktitle.text,AppFrameworkMapping</string>
 		<key>alignment</key>
 		<string>center</string>
 		<key>fontName</key>
@@ -304,12 +304,12 @@
 		<key>fontSize</key>
 		<integer>16</integer>
 		<key>color</key>
-		<string>$WhiteColor</string>
+		<string>#ffffff</string>
 	</dict>
 	<key>welcomeBackMessage</key>
 	<dict>
 		<key>text</key>
-		<string>#afcuimroutebuilderviewcontroller.welcomebackmessage.text</string>
+		<string>#afcuimroutebuilderviewcontroller.welcomebackmessage.text,AppFrameworkMapping</string>
 		<key>fontName</key>
 		<string>$MainFont</string>
 		<key>fontSize</key>
@@ -317,24 +317,24 @@
 		<key>alignment</key>
 		<string>center</string>
 		<key>color</key>
-		<string>$WhiteColor</string>
+		<string>#ffffff</string>
 		<key>lines</key>
 		<string>2</string>
 	</dict>
 	<key>welcomeBackDismiss</key>
 	<dict>
 		<key>buttonTitle</key>
-		<string>#afcuimroutebuilderviewcontroller.welcomebackdismiss.buttontitle</string>
+		<string>#afcuimroutebuilderviewcontroller.welcomebackdismiss.buttontitle,AppFrameworkMapping</string>
 		<key>fontName</key>
 		<string>$MainFont</string>
 		<key>fontSize</key>
 		<integer>14</integer>
 		<key>color</key>
-		<string>$WhiteColor</string>
+		<string>#ffffff</string>
 		<key>aligment</key>
 		<string>center</string>
 		<key>borderColor</key>
-		<string>$WhiteColor</string>
+		<string>#ffffff</string>
 		<key>borderWidth</key>
 		<integer>1</integer>
 		<key>cornerRadius</key>
@@ -343,9 +343,9 @@
 	<key>welcomeBackRouteMe</key>
 	<dict>
 		<key>buttonTitle</key>
-		<string>#afcuimroutebuilderviewcontroller.welcomebackrouteme.buttontitle</string>
+		<string>#afcuimroutebuilderviewcontroller.welcomebackrouteme.buttontitle,AppFrameworkMapping</string>
 		<key>color</key>
-		<string>$WhiteColor</string>
+		<string>#ffffff</string>
 		<key>fontName</key>
 		<string>$MainFont</string>
 		<key>fontsize</key>
@@ -353,7 +353,7 @@
 		<key>aligment</key>
 		<string>center</string>
 		<key>borderColor</key>
-		<string>$WhiteColor</string>
+		<string>#ffffff</string>
 		<key>borderWidth</key>
 		<integer>1</integer>
 		<key>cornerRadius</key>
