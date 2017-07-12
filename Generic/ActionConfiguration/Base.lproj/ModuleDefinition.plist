@@ -1076,8 +1076,6 @@
 							<true/>
 							<key>properties</key>
 							<dict>
-								<key>campus</key>
-								<string>$app.kAFCApplicationStateCurrentCampus</string>
 								<key>favoritesContext</key>
 								<string>$module.mapFavoritesContext</string>
 								<key>altitudeToApplyWorkaroundiOS9</key>
@@ -1153,8 +1151,6 @@
 							<true/>
 							<key>properties</key>
 							<dict>
-								<key>campus</key>
-								<string>$app.kAFCApplicationStateCurrentCampus</string>
 								<key>favoritesContext</key>
 								<string>$module.mapFavoritesContext</string>
 								<key>altitudeToApplyWorkaroundiOS9</key>
