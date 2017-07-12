@@ -1875,14 +1875,6 @@
 									</dict>
 									<dict>
 										<key>name</key>
-										<string>PwAnalytics</string>
-									</dict>
-									<dict>
-										<key>name</key>
-										<string>PwCME</string>
-									</dict>
-									<dict>
-										<key>name</key>
 										<string>PwMessaging</string>
 									</dict>
 									<dict>
