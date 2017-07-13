@@ -1327,6 +1327,8 @@
 					<true/>
 					<key>properties</key>
 					<dict>
+						<key>currentBuilding</key>
+						<string>$action.currentBuilding</string>
 						<key>favoritesContext</key>
 						<string>$module.mapFavoritesContext</string>
 						<key>annotations</key>
@@ -1337,6 +1339,10 @@
 						<string>$action.focusSearchBarOnDidAppear</string>
 						<key>alphaSorted</key>
 						<true/>
+						<key>orderBy</key>
+						<string>floor.level</string>
+						<key>groupBy</key>
+						<string>1</string>
 					</dict>
 				</dict>
 			</dict>
