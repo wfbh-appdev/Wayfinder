@@ -734,10 +734,10 @@
 						<string>StartDate</string>
 						<key>endDateKey</key>
 						<string>EndDate</string>
-						<key>DBDateFormatKey</key>
+						<key>DBDateFormat</key>
 						<string>MM/dd/yyyy HH:mm:ss</string>
-						<key>clientDateFormatKey</key>
-						<string>MMM d</string>
+						<key>clientDateFormat</key>
+						<string>hh:mm a MMM d</string>
 						<key>iconKey</key>
 						<string>ImageURL</string>
 						<key>bannerKey</key>
@@ -824,6 +824,18 @@
 						<key>imagePlaceholder</key>
 						<string>events_image_placeholder_detail</string>
 					</dict>
+				</dict>
+			</dict>
+			<key>addToCalendar</key>
+			<dict>
+				<key>className</key>
+				<string>AFCAddEventToCalendar</string>
+				<key>parameters</key>
+				<dict>
+					<key>event</key>
+					<string>$action.eventItem</string>
+					<key>dbDateFormat</key>
+					<string>MM/dd/yyyy HH:mm:ss</string>
 				</dict>
 			</dict>
 		</dict>
@@ -2118,7 +2130,7 @@
 			<array>
 				<dict>
 					<key>dataKey</key>
-					<string>ImageURL</string>
+					<string>Website</string>
 					<key>title</key>
 					<string>Website</string>
 					<key>titleColor</key>
@@ -2128,11 +2140,55 @@
 					<key>titleFontSize</key>
 					<integer>15</integer>
 					<key>image</key>
-					<string></string>
+					<string>icon_website</string>
 					<key>backgroundColor</key>
 					<string>#0000000</string>
 					<key>buttonClickClass</key>
-					<string>AFCWebsiteButtonClickAction</string>
+					<string>AFEWebsiteButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string></string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>dataKey</key>
+					<string>StartDate</string>
+					<key>title</key>
+					<string>Calendar</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>15</integer>
+					<key>image</key>
+					<string>icon_calendar</string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFCAddToCalendarButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string></string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>dataKey</key>
+					<string>AdditionalURL</string>
+					<key>title</key>
+					<string>Buy Tickets</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>15</integer>
+					<key>image</key>
+					<string>icon_buy_tickets</string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFEBuyTicketsButtonClickAction</string>
 					<key>buttonHiddenClass</key>
 					<string></string>
 					<key>buttonSetupClass</key>
@@ -2146,7 +2202,7 @@
 				<key>itemSubtitle</key>
 				<string>eventSubtitle</string>
 				<key>itemDescription</key>
-				<string>Details</string>
+				<string>Description</string>
 				<key>imageURL</key>
 				<string>ImageURL</string>
 			</dict>

@@ -10,6 +10,10 @@
 		<string>16</string>
 		<key>color</key>
 		<string>#FEFEFE</string>
+		<key>lines</key>
+		<string>1</string>
+		<key>lineBreakMode</key>
+		<string>byTruncatingTail</string>
 	</dict>
 	<key>navigationBar</key>
 	<dict/>
