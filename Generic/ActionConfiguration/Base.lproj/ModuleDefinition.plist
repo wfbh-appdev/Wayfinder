@@ -739,7 +739,7 @@
 						<key>clientDateFormat</key>
 						<string>hh:mm a MMM d</string>
 						<key>iconKey</key>
-						<string>ImageURL</string>
+						<string>ThumbnailURL</string>
 						<key>bannerKey</key>
 						<string>ImageURL</string>
 						<key>identifierKey</key>
