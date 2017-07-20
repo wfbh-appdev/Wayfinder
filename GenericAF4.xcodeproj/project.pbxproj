@@ -82,6 +82,7 @@
 		C369CF421ED7A02E002698D3 /* AFDDirectoryTrailingImageTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = C369CF401ED7A02E002698D3 /* AFDDirectoryTrailingImageTableViewCell.plist */; };
 		C369CF431ED7A02E002698D3 /* AFDDirectoryNoImageTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = C369CF411ED7A02E002698D3 /* AFDDirectoryNoImageTableViewCell.plist */; };
 		C378836F1EC27146002E7F8F /* AFDDirectoryItemViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = C378836E1EC27146002E7F8F /* AFDDirectoryItemViewController.plist */; };
+		C38D68B51F16E1A200C92372 /* AFCPermissionRequestViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = C38D68B41F16E1A200C92372 /* AFCPermissionRequestViewController.plist */; };
 		C398FC971D75E9C700FD48DE /* AFCUIDynamicViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = C398FC961D75E9C700FD48DE /* AFCUIDynamicViewController.plist */; };
 		C3F32B611F0ADA0000495919 /* AppFrameworkCore.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3F32B4C1F0ADA0000495919 /* AppFrameworkCore.strings */; };
 		C3F32B621F0ADA0000495919 /* AppFrameworkDirectory.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3F32B4E1F0ADA0000495919 /* AppFrameworkDirectory.strings */; };
@@ -192,6 +193,7 @@
 		C369CF401ED7A02E002698D3 /* AFDDirectoryTrailingImageTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFDDirectoryTrailingImageTableViewCell.plist; sourceTree = "<group>"; };
 		C369CF411ED7A02E002698D3 /* AFDDirectoryNoImageTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFDDirectoryNoImageTableViewCell.plist; sourceTree = "<group>"; };
 		C378836E1EC27146002E7F8F /* AFDDirectoryItemViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFDDirectoryItemViewController.plist; sourceTree = "<group>"; };
+		C38D68B41F16E1A200C92372 /* AFCPermissionRequestViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCPermissionRequestViewController.plist; sourceTree = "<group>"; };
 		C398FC961D75E9C700FD48DE /* AFCUIDynamicViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCUIDynamicViewController.plist; sourceTree = "<group>"; };
 		C3E9F4A61EFD871C006C7445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3F32B4D1F0ADA0000495919 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AppFrameworkCore.strings; sourceTree = "<group>"; };
@@ -317,6 +319,7 @@
 				8F8C54211BD798060018A2ED /* AFCUIHoneyBadgerTableViewCell.plist */,
 				8F8C54291BD7ED9A0018A2ED /* AFCUIImageSplashViewController.plist */,
 				8F4355741BC858B700FFD46C /* AFCUIItemDetailViewController.plist */,
+				C38D68B41F16E1A200C92372 /* AFCPermissionRequestViewController.plist */,
 				8F8C542E1BD8191F0018A2ED /* AFCUIMallDetailViewController.plist */,
 				8F4355751BC858B700FFD46C /* AFCUIModalWebBrowser.plist */,
 				8F4355761BC858B700FFD46C /* AFCUITrayMenuViewController.plist */,
@@ -545,6 +548,7 @@
 				8FDD0F491BD190B900A0C512 /* ApplicationShortcuts.plist in Resources */,
 				A2B61E5B1EAFF5BB0023BC53 /* AFDDirectoryCategoryViewController.plist in Resources */,
 				8F5FFFBF1BCC2F58000B027C /* AFMUIRouteViewController.plist in Resources */,
+				C38D68B51F16E1A200C92372 /* AFCPermissionRequestViewController.plist in Resources */,
 				8CCAD9611C2B13890069AEB1 /* Localizable.strings in Resources */,
 				C3F32B611F0ADA0000495919 /* AppFrameworkCore.strings in Resources */,
 				8F5FFFC01BCC2F58000B027C /* AFMUIPOIFilterViewController.plist in Resources */,

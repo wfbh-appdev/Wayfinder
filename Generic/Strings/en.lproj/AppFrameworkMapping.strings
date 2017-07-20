@@ -112,3 +112,9 @@
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minute" = "min";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "mins";
 "afmuimapviewcontroller.turnbyturn.in" = "in";
+
+// Permission
+"afmlocationpermissionrequestviewcontroller.permission.title" = "Use Current Location";
+"afmlocationpermissionrequestviewcontroller.permission.description" = "Please enable location services to help us guide you.";
+"afmlocationpermissionrequestviewcontroller.allowbutton.title" = "Yes";
+"afmlocationpermissionrequestviewcontroller.rejectbutton.title" = "Not Now";
