@@ -11,11 +11,17 @@
 	<dict>
 		<key>text</key>
 		<string>#afmcofferdetailviewcontroller.titlelabel.text,AppFrameworkMessageCenter</string>
+		<key>lines</key>
+		<string>1</string>
+		<key>lineBreakMode</key>
+		<string>byTruncatingTail</string>
 	</dict>
 	<key>offerTitleLabel</key>
 	<dict>
-		<key>font</key>
+		<key>fontName</key>
 		<string>$MainFontBold</string>
+		<key>fontSize</key>
+		<string>15</string>
 		<key>lines</key>
 		<integer>0</integer>
 	</dict>

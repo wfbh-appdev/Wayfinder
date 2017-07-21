@@ -16,6 +16,10 @@
 	<dict>
 		<key>text</key>
 		<string>#afmcofferswipeviewcontroller.titlelabel.text,AppFrameworkMessageCenter</string>
+        <key>lines</key>
+        <string>1</string>
+        <key>lineBreakMode</key>
+        <string>byTruncatingTail</string>
 	</dict>
 </dict>
 </plist>

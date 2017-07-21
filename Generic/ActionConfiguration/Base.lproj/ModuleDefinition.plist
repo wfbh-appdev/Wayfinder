@@ -2011,7 +2011,7 @@
 					<key>titleFontName</key>
 					<string>.SFUIText</string>
 					<key>titleFontSize</key>
-					<integer>15</integer>
+					<integer>11</integer>
 					<key>image</key>
 					<string></string>
 					<key>backgroundColor</key>
@@ -2033,7 +2033,7 @@
 					<key>titleFontName</key>
 					<string>.SFUIText</string>
 					<key>titleFontSize</key>
-					<integer>15</integer>
+					<integer>11</integer>
 					<key>image</key>
 					<string></string>
 					<key>backgroundColor</key>
@@ -2055,7 +2055,7 @@
 					<key>titleFontName</key>
 					<string>.SFUIText</string>
 					<key>titleFontSize</key>
-					<integer>15</integer>
+					<integer>11</integer>
 					<key>image</key>
 					<string></string>
 					<key>backgroundColor</key>
@@ -2077,7 +2077,7 @@
 					<key>titleFontName</key>
 					<string>.SFUIText</string>
 					<key>titleFontSize</key>
-					<integer>15</integer>
+					<integer>11</integer>
 					<key>image</key>
 					<string></string>
 					<key>backgroundColor</key>
@@ -2099,7 +2099,7 @@
 					<key>titleFontName</key>
 					<string>.SFUIText</string>
 					<key>titleFontSize</key>
-					<integer>15</integer>
+					<integer>11</integer>
 					<key>image</key>
 					<string></string>
 					<key>backgroundColor</key>

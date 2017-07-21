@@ -29,3 +29,12 @@
 "afmcofferdetailviewcontroller.alert.message" = "¿Desea eliminar el mensaje?";
 "afmcofferdetailviewcontroller.alert.deletebutton.title" = "SI";
 "afmcofferdetailviewcontroller.alert.cancelbutton.title" = "NO";
+"afmcofferdetailviewcontroller.onetimepromoalert.cancelbutton.title" = "Cancelar";
+"afmcofferdetailviewcontroller.onetimepromoalert.redeembutton.title" = "Redimir";
+"afmcofferdetailviewcontroller.onetimepromoalert.title" = "Promoción de uso único";
+"afmcofferdetailviewcontroller.onetimepromoalert.message" = "Canjear esta oferta la eliminará del Centro de Mensajes.";
+
+/*
+ *  AFMCOfferSwipeViewController Strings
+ */
+"afmcofferswipeviewcontroller.titlelabel.text" = "Promoción";
