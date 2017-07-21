@@ -2130,21 +2130,65 @@
 			<array>
 				<dict>
 					<key>dataKey</key>
-					<string>Website</string>
+					<string>PhoneNumber</string>
 					<key>title</key>
-					<string>Website</string>
+					<string>detailconfig.directory.call</string>
 					<key>titleColor</key>
 					<string>#000000</string>
 					<key>titleFontName</key>
 					<string>.SFUIText</string>
 					<key>titleFontSize</key>
-					<integer>15</integer>
+					<integer>11</integer>
+					<key>image</key>
+					<string>icon_call_event</string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFEPhoneButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string>AFCPhoneButtonHidden</string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>dataKey</key>
+					<string>Website</string>
+					<key>title</key>
+					<string>detailconfig.directory.website</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>11</integer>
 					<key>image</key>
 					<string>icon_website</string>
 					<key>backgroundColor</key>
 					<string>#0000000</string>
 					<key>buttonClickClass</key>
 					<string>AFEWebsiteButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string></string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>dataKey</key>
+					<string>POI</string>
+					<key>title</key>
+					<string>detailconfig.directory.route</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>11</integer>
+					<key>image</key>
+					<string>icon_route_event</string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFEMapRouteButtonClickAction</string>
 					<key>buttonHiddenClass</key>
 					<string></string>
 					<key>buttonSetupClass</key>
@@ -2160,13 +2204,35 @@
 					<key>titleFontName</key>
 					<string>.SFUIText</string>
 					<key>titleFontSize</key>
-					<integer>15</integer>
+					<integer>11</integer>
 					<key>image</key>
 					<string>icon_calendar</string>
 					<key>backgroundColor</key>
 					<string>#0000000</string>
 					<key>buttonClickClass</key>
 					<string>AFCAddToCalendarButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string></string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>dataKey</key>
+					<string>POI</string>
+					<key>title</key>
+					<string>detailconfig.directory.map</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>11</integer>
+					<key>image</key>
+					<string>icon_map_event</string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFEMapShowButtonClickAction</string>
 					<key>buttonHiddenClass</key>
 					<string></string>
 					<key>buttonSetupClass</key>
@@ -2182,7 +2248,7 @@
 					<key>titleFontName</key>
 					<string>.SFUIText</string>
 					<key>titleFontSize</key>
-					<integer>15</integer>
+					<integer>11</integer>
 					<key>image</key>
 					<string>icon_buy_tickets</string>
 					<key>backgroundColor</key>
