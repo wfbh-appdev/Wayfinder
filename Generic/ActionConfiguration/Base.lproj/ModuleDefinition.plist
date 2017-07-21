@@ -1291,7 +1291,7 @@
 				<key>className</key>
 				<string>AFMSetLocationProviderAction</string>
 			</dict>
-			<key>requestPermission</key>
+			<key>permissionRequest</key>
 			<dict>
 				<key>className</key>
 				<string>AFCForwardAction</string>
