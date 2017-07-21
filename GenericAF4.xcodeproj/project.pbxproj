@@ -79,6 +79,7 @@
 		A2B61E5D1EAFF5BB0023BC53 /* AFDDirectoryViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2B61E591EAFF5BB0023BC53 /* AFDDirectoryViewController.plist */; };
 		A2B61E5E1EAFF5BB0023BC53 /* AFDDirectoryTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2B61E5A1EAFF5BB0023BC53 /* AFDDirectoryTableViewCell.plist */; };
 		C3610AF61E08A4A2000FF63E /* AFMCOfferSwipeViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3610AF51E08A4A2000FF63E /* AFMCOfferSwipeViewController.plist */; };
+		C366B68C1F2274E30071F4F3 /* AFMLocationPermissionRequestViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = C366B68B1F2274E30071F4F3 /* AFMLocationPermissionRequestViewController.plist */; };
 		C369CF421ED7A02E002698D3 /* AFDDirectoryTrailingImageTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = C369CF401ED7A02E002698D3 /* AFDDirectoryTrailingImageTableViewCell.plist */; };
 		C369CF431ED7A02E002698D3 /* AFDDirectoryNoImageTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = C369CF411ED7A02E002698D3 /* AFDDirectoryNoImageTableViewCell.plist */; };
 		C378836F1EC27146002E7F8F /* AFDDirectoryItemViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = C378836E1EC27146002E7F8F /* AFDDirectoryItemViewController.plist */; };
@@ -190,6 +191,7 @@
 		C33EA5BF1E48D78D00D48C28 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C33EA5C01E48D78E00D48C28 /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = zh.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C3610AF51E08A4A2000FF63E /* AFMCOfferSwipeViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFMCOfferSwipeViewController.plist; sourceTree = "<group>"; };
+		C366B68B1F2274E30071F4F3 /* AFMLocationPermissionRequestViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFMLocationPermissionRequestViewController.plist; sourceTree = "<group>"; };
 		C369CF401ED7A02E002698D3 /* AFDDirectoryTrailingImageTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFDDirectoryTrailingImageTableViewCell.plist; sourceTree = "<group>"; };
 		C369CF411ED7A02E002698D3 /* AFDDirectoryNoImageTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFDDirectoryNoImageTableViewCell.plist; sourceTree = "<group>"; };
 		C378836E1EC27146002E7F8F /* AFDDirectoryItemViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFDDirectoryItemViewController.plist; sourceTree = "<group>"; };
@@ -337,6 +339,7 @@
 				8F5FFFB81BCC2F58000B027C /* AFMUIPOIViewController.plist */,
 				8F5FFFBA1BCC2F58000B027C /* AFMUIRouteViewController.plist */,
 				7E75FD9A1E3A77170025A831 /* AFMUITurnByTurnTableViewCell.plist */,
+				C366B68B1F2274E30071F4F3 /* AFMLocationPermissionRequestViewController.plist */,
 				8F43559A1BC85B8F00FFD46C /* EventsListViewController.plist */,
 				8F43559B1BC85B8F00FFD46C /* EventTableViewCell.plist */,
 				55173FDD1D62790500EE540B /* UIConfigurationDefault.plist */,
@@ -517,6 +520,7 @@
 				8F4355941BC858B700FFD46C /* StandardIcons.xcassets in Resources */,
 				8F8C542A1BD7ED9A0018A2ED /* AFCUIImageSplashViewController.plist in Resources */,
 				A2B61E5E1EAFF5BB0023BC53 /* AFDDirectoryTableViewCell.plist in Resources */,
+				C366B68C1F2274E30071F4F3 /* AFMLocationPermissionRequestViewController.plist in Resources */,
 				8F4355921BC858B700FFD46C /* Splash.mov in Resources */,
 				55173FDE1D62790500EE540B /* UIConfigurationDefault.plist in Resources */,
 				8F43558D1BC858B700FFD46C /* AFCUITrayMenuViewController.plist in Resources */,
