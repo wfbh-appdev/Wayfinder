@@ -18,6 +18,7 @@
  *   AFCUIWebViewController Strings
  */
 "afcuiwebviewcontroller.message.text" = "Por favor espere...";
+"afcuiwebviewcontroller.title.text" = "Controlador de vista Web";
 
 /*
  *  AFCUIModalWebBrowser Strings
@@ -56,6 +57,7 @@
  */
 "afclayerpickerviewcontroller.navbar.default.title" = "Capas";
 "afclayerpickerviewcontroller.searchbar.default.text" = "Buscar";
+"afclayerpickerviewcontroller.searchbar.noresults" = "No se han encontrado resultados.";
 
 /**
  * Segments Error
@@ -89,7 +91,6 @@
 "afccomposeemailaction.alert.error.message" = "Lo sentimos. Su dispositivo no tiene configurado una cuenta de correo.";
 "afccomposeemailaction.alert.button.title" = "OK";
 
-
 /*
  * AFCPhoneCallAction
  */
@@ -97,13 +98,15 @@
 "afcphonecallaction.alert.message" = "Está seguro de llamar a:\n%@";
 "afcphonecallaction.alert.accept" = "Si";
 "afcphonecallaction.alert.cancel" = "No";
+"afcphonecallaction.alert.ok" = "OK";
+"afcphonecallaction.error.alert.title" = "Error";
+"afcphonecallaction.error.alert.message" = "Su dispositivo no puede realizar llamadas";
 
 /*
  *  No Connection Available
  */
 "afnointernetconnection.banner.message" = "Sin conexión a internet. La experiencia puede verse mermada.";
 "afnointernetconnection.banner.button" = "Ok";
-
 
 /*
  * AFCUISettingsViewController

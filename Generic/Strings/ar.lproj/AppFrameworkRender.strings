@@ -1,0 +1,44 @@
+/* 
+  AppFrameworkRender.strings
+
+  Copyright © 2017 Phunware. All rights reserved.
+*/
+
+/*** AF-RENDER STRINGS ***/
+
+/*
+ * Smart Form Date/Time Picker Strings
+ */
+"afcuidatepicker.alert.title" = "حدد تاريخ";
+"afcuidatepicker.navbar.today" = "اليوم";
+"afcuitimepicker.alert.title" = "حدد الوقت";
+"afcuipicker.alert.ok" = "حسنا";
+"afcuipicker.alert.cancel" = "إلغاء";
+
+/*
+ * Smart Form Image Upload Strings
+ */
+"afcuimediapicker.navbar.title" = "اختر صورة";
+"afcuimediapicker.toolbar.selectimage" = "اختر صورة";
+"afcuimediapicker.toolbar.clearimage" = "صورة واضحة";
+"afcuimediapicker.alert.cancel" = "إلغاء";
+"afcuimediapicker.imageselect" = "حدد صورة من كاميرا رول";
+"afcuimediapicker.takeimage" = "تصوير";
+"afcuimediapicker.button.defaulttext" = "حدد صورة للتحميل";
+"afcuimediapicker.button.photouploaded" = "تم تحميل الصورة";
+
+/*
+ * User Login Content Type Strings
+ */
+"afcuiuserloginview.textfieldplaceholder.username" = "اسم المستخدم";
+"afcuiuserloginview.textfieldplaceholder.password" = "كلمه السر";
+"afcuiuserloginview.loginbutton.text" = "تسجيل الدخول";
+"afcuiuserloginview.loginbutton.failedtext" = "فشل تسجيل الدخول";
+"afcuiuserloginview.loginmessage.invalidusernamepassword" = "تم إدخال اسم مستخدم أو كلمة مرور غير صالحة. حاول مرة اخرى.";
+
+"forms.success.title" = "نجاح";
+"forms.success.message" = "تم ارسال طلبك بنجاح";
+"forms.success.button.title" = "حسنا";
+"forms.error.title" = "خطأ";
+"forms.error.message" = "حدث خطأ في طلبك";
+"forms.error.button.title" = "حسنا";

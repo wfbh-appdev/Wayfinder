@@ -1,0 +1,139 @@
+/*** AF-CORE STRINGS ***/
+
+/**
+ * EULA Agreement
+ */
+"afceulapromoptaction.prompt.message" = "ドゥー ユー アグリー ウィズ ザー ライセンス アグリーメント アンド ザー タームズ アンド コンディッションズ";
+"afceulapromoptaction.prompt.message.title" = "ライセンス アグリーメント";
+"afceulapromoptaction.prompt.message.agreebutton.title" = "アグリー";
+"afceulapromoptaction.prompt.message.viewbutton.title" = "ビュー";
+
+/*
+ *   AFCUIEULAViewController Strings
+ */
+"afcuieulaviewcontroller.agreebutton.buttontitle" = "アイ アグリー";
+"afcuieulaviewcontroller.navbar.title" = "ライセンス アグリーメント";
+
+/*
+ *   AFCUIWebViewController Strings
+ */
+"afcuiwebviewcontroller.message.text" = "プリーズ ウェート";
+"afcuiwebviewcontroller.title.text" = "Web View Controller";
+
+/*
+ *   AFCUIModalWebBrowser Strings
+ */
+"afcuimodalwebbrowser.status.text" = "ローディング";
+"afcuimodalwebbrowser.closeButton.buttontitle" = "クローズ";
+
+/*
+ *  AFCCheckForceUpdate Strings
+ */
+"afccheckforceupdate.prompt.message.displayforceupdate.alert.title" = "アプデート リクァイウド";
+"afccheckforceupdate.displayforceupdate.alert.title" = "アップ アプデート アベーラブル";
+"afccheckforceupdate.displayforceupdate.alert.message" = "エー ニュー バーション ハズ ビーン リリースト ユー マスト アプデート トゥー ザー レーティスト バーション";
+"afccheckforceupdate.displayforceupdate.alert.button.title" = "アプデート";
+"afccheckforceupdate.displayupdateavailable.alert.title" = "アプデート・アベーラブル";
+"afccheckforceupdate.displayupdateavailable.alert.message" = "エー・ニュー・バーション・ハズ・ビーン・リリースト・プリーズ・アプデート・トゥー・ザー・レーティスト・バーション";
+"afccheckforceupdate.displayupdateavailable.alert.button.title" = "アプデート";
+"afccheckforceupdate.displayupdateavailable.alert.cancel.title" = "ノット ナウ";
+
+/*
+ *  AFCLogout Strings
+ */
+"afclogoutaction.alert.title" = "ログアウトに成功";
+"afclogoutaction.alert.message" = "現在のセッションから正常にログアウトしました。";
+"afclogoutaction.alert.button.title" = "OK";
+
+/*
+ * SSO WebView Alert Strings
+ */
+"afcuimodalwebbrowser.alert.title" = "エラー";
+"afcuimodalwebbrowser.alert.message" = "このページを表示するには、ログインする必要があります。";
+"afcuimodalwebbrowser.alert.ok" = "OK";
+
+/*
+ * Layer Picker
+ */
+"afclayerpickerviewcontroller.navbar.default.title" = "レベルズ";
+"afclayerpickerviewcontroller.searchbar.default.text" = "サーチ";
+"afclayerpickerviewcontroller.searchbar.noresults" = "結果が見つかりません。";
+
+/*
+ * Segments Error
+ */
+"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.title" = "アラート セティングズ";
+"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.message" = "プリーズ セタプ アラート セグメンツ フォー ジス アップ オン ザー ポータル";
+"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.cancelbutton.title" = "オーケー";
+"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.title" = "アラート セティングズ";
+"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.message" = "ジス コンテント リクァイーアーズ エー データー コネクション プリーズ チェック ヨー モーバイル オー ウィフィー ネトワーク アンド トライ アゲン";
+"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.cancelbutton.title" = "オーケー";
+
+/*
+ *  No Initial Database Strings
+ */
+"afinitialdatabase.displayforceupdate.alert.title" = "エラー";
+"afinitialdatabase.displayforceupdate.alert.message" = "アプリケーションを起動できません。お使いのデバイスがネットワークに接続されていることを確認してください。";
+"afinitialdatabase.displayforceupdate.alert.button" = "クローズ アップ";
+
+/*
+ *  No Layer Database Strings
+ */
+"aflayerdatabase.displayforceupdate.alert.title" = "エラー";
+"aflayerdatabase.displayforceupdate.alert.message" = "ジス コンテント リクァイーアーズ エー データー コネクション プリーズ チェック ヨー モーバイル オー ウィフィー ネトワーク アンド トライ アゲン";
+"aflayerdatabase.displayforceupdate.alert.button" = "オーケー";
+
+"afcforgotpasswordviewcontroller.alert.error.title" = "エラー";
+"afcforgotpasswordviewcontroller.alert.error.message" = "有効なメールアドレスを入力してください。";
+"afcforgotpasswordviewcontroller.alert.error.button.title" = "OK";
+
+"afccomposeemailaction.alert.error.title" = "Eメール";
+"afccomposeemailaction.alert.error.message" = "ごめんなさい。お使いの端末は現在メール用に設定されていません。";
+"afccomposeemailaction.alert.button.title" = "OK";
+
+/*
+ * AFCPhoneCallAction
+ */
+"afcphonecallaction.alert.title" = "電話をかける";
+"afcphonecallaction.alert.message" = "電話してもよろしいですか？";
+"afcphonecallaction.alert.accept" = "はい";
+"afcphonecallaction.alert.cancel" = "いいえ";
+"afcphonecallaction.alert.ok" = "OK";
+"afcphonecallaction.error.alert.title" = "エラー";
+"afcphonecallaction.error.alert.message" = "お使いのデバイスは通話ができません";
+
+/*
+ *  No Connection Available
+ */
+"afnointernetconnection.banner.message" = "インターネットに接続できません。経験が低下する可能性があります。";
+"afnointernetconnection.banner.button" = "Ok";
+
+/*
+ * AFCUISettingsViewController
+ */
+"afcuisettingsviewcontroller.sectionname.notifications" = "NOTIFICATIONS";
+"afcuisettingsviewcontroller.sectionname.managedprovider" = "マネージドプロバイダデバッグ";
+"afcuisettingsviewcontroller.sectionname.locationprovider" = "ロケーション提供者";
+"afcuisettingsviewcontroller.sectionname.maassdk" = "MaaS SDK";
+"afcuisettingsviewcontroller.sectionname.about" = "約";
+
+"afcuisettingsviewcontroller.value.auto" = "オート";
+"afcuisettingsviewcontroller.value.none" = "なし";
+"afcuisettingsviewcontroller.value.on" = "に";
+"afcuisettingsviewcontroller.value.off" = "オフ";
+"afcuisettingsviewcontroller.value.preferences" = "設定";
+"afcuisettingsviewcontroller.value.version" = "バージョン";
+"afcuisettingsviewcontroller.value.deviceid" = "デバイスID";
+
+/*
+ * AFCUIModalWebBrowser
+ */
+"afcuimodalwebbrowser.webview.status.loading" = "読み込み中";
+
+/*
+ * OS Privacy Settings
+ */
+"osprivacysettings.camera.denied.alert.title" = "却下する";
+"osprivacysettings.camera.denied.alert.button.settings" = "構成";
+"osprivacysettings.camera.settings.alert.title" = "";
+"osprivacysettings.camera.settings.alert.message" = "お使いの端末のプライバシー設定でこの機能を使用するには、カメラアクセスを有効にしてください。";

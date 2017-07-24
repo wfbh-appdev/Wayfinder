@@ -1,0 +1,139 @@
+/*** AF-CORE STRINGS ***/
+
+/**
+ * EULA Agreement
+ */
+"afceulapromoptaction.prompt.message" = "هل توافق على اتفاقية الترخيص وشروط والشروط?";
+"afceulapromoptaction.prompt.message.title" = "اتفاقية الترخيص";
+"afceulapromoptaction.prompt.message.agreebutton.title" = "توافق";
+"afceulapromoptaction.prompt.message.viewbutton.title" = "رأي";
+
+/*
+ *   AFCUIEULAViewController Strings
+ */
+"afcuieulaviewcontroller.agreebutton.buttontitle" = "أنا أتفق";
+"afcuieulaviewcontroller.navbar.title" = "اتفاقية الترخيص";
+
+/*
+ *   AFCUIWebViewController Strings
+ */
+"afcuiwebviewcontroller.message.text" = " الرجاء الانتظار...";
+"afcuiwebviewcontroller.title.text" = "وحدة تحكم عرض الويب";
+
+/*
+ *   AFCUIModalWebBrowser Strings
+ */
+"afcuimodalwebbrowser.status.text" = "تحميل";
+"afcuimodalwebbrowser.closeButton.buttontitle" = "أغلق";
+
+/*
+ *  AFCCheckForceUpdate Strings
+ */
+"afccheckforceupdate.prompt.message.displayforceupdate.alert.title" = "مطلوب التحديث";
+"afccheckforceupdate.displayforceupdate.alert.title" = "التطبيق تحديث متاح";
+"afccheckforceupdate.displayforceupdate.alert.message" = "لقد تم الافراج عن نسخة جديدة. يجب تحديث إلى الإصدار الأحدث.";
+"afccheckforceupdate.displayforceupdate.alert.button.title" = "تحديث";
+"afccheckforceupdate.displayupdateavailable.alert.title" = "التحديث متاح";
+"afccheckforceupdate.displayupdateavailable.alert.message" = "لقد تم الافراج عن نسخة جديدة. يرجى تحديث إلى الإصدار الأحدث.";
+"afccheckforceupdate.displayupdateavailable.alert.button.title" = "تحديث";
+"afccheckforceupdate.displayupdateavailable.alert.cancel.title" = "ليس الان";
+
+/*
+ *  AFCLogout Strings
+ */
+"afclogoutaction.alert.title" = "تم الخروج بنجاح";
+"afclogoutaction.alert.message" = "لقد خرجت بنجاح من الجلسة الحالية.";
+"afclogoutaction.alert.button.title" = "حسنا";
+
+/*
+ * SSO WebView Alert Strings
+ */
+"afcuimodalwebbrowser.alert.title" = "خطأ";
+"afcuimodalwebbrowser.alert.message" = "عليك تسجيل الدخول لعرض هذه الصفحة.";
+"afcuimodalwebbrowser.alert.ok" = "حسنا";
+
+/*
+ * Layer Picker
+ */
+"afclayerpickerviewcontroller.navbar.default.title" = "مستويات";
+"afclayerpickerviewcontroller.searchbar.default.text" = "بحث";
+"afclayerpickerviewcontroller.searchbar.noresults" = "لا توجد نتائج.";
+
+/*
+ * Segments Error
+ */
+"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.title" = "إعدادات التنبيه";
+"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.message" = "يرجى شرائح تنبيه الإعداد لهذا التطبيق على البوابة.";
+"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.cancelbutton.title" = "حسنا";
+"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.title" = "إعدادات التنبيه";
+"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.message" = "هذا المحتوى يتطلب اتصال البيانات، الرجاء التحقق من شبكة الهاتف النقال أو واي فاي وحاول مرة أخرى.";
+"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.cancelbutton.title" = "حسنا";
+
+/*
+ *  No Initial Database Strings
+ */
+"afinitialdatabase.displayforceupdate.alert.title" = "خطأ";
+"afinitialdatabase.displayforceupdate.alert.message" = "تعذر بدء التطبيق. الرجاء التحقق من اتصال جهازك بشبكة.";
+"afinitialdatabase.displayforceupdate.alert.button" = "انهيار التطبيق";
+
+/*
+ *  No Layer Database Strings
+ */
+"aflayerdatabase.displayforceupdate.alert.title" = "خطأ";
+"aflayerdatabase.displayforceupdate.alert.message" = "هذا المحتوى يتطلب اتصال البيانات، الرجاء التحقق من شبكة الهاتف النقال أو واي فاي وحاول مرة أخرى.";
+"aflayerdatabase.displayforceupdate.alert.button" = "حسنا";
+
+"afcforgotpasswordviewcontroller.alert.error.title" = "خطأ";
+"afcforgotpasswordviewcontroller.alert.error.message" = "ينبغي إدخال بريد الكتروني صالح.";
+"afcforgotpasswordviewcontroller.alert.error.button.title" = "حسنا";
+
+"afccomposeemailaction.alert.error.title" = "البريد الإلكتروني";
+"afccomposeemailaction.alert.error.message" = "معذرة. لم يتم إعداد جهازك حاليا للبريد الإلكتروني.";
+"afccomposeemailaction.alert.button.title" = "حسنا";
+
+/*
+ * AFCPhoneCallAction
+ */
+"afcphonecallaction.alert.title" = "إجراء مكالمة";
+"afcphonecallaction.alert.message" = "هل تريد بالتأكيد الاتصال:\n%@";
+"afcphonecallaction.alert.accept" = "نعم فعلا";
+"afcphonecallaction.alert.cancel" = "لا";
+"afcphonecallaction.alert.ok" = "حسنا";
+"afcphonecallaction.error.alert.title" = "خطأ";
+"afcphonecallaction.error.alert.message" = "جهازك غير قادر على إجراء المكالمات";
+
+/*
+ *  No Connection Available
+ */
+"afnointernetconnection.banner.message" = "لا يوجد اتصال بالإنترنت. وقد تتدهور التجربة.";
+"afnointernetconnection.banner.button" = "حسنا";
+
+/*
+ * AFCUISettingsViewController
+ */
+"afcuisettingsviewcontroller.sectionname.notifications" = "NOTIFICATIONS";
+"afcuisettingsviewcontroller.sectionname.managedprovider" = "تصحيح موفر الخدمة";
+"afcuisettingsviewcontroller.sectionname.locationprovider" = "لوكاتيون بروفيدر";
+"afcuisettingsviewcontroller.sectionname.maassdk" = "ماس سكس";
+"afcuisettingsviewcontroller.sectionname.about" = "حول";
+
+"afcuisettingsviewcontroller.value.auto" = "تلقاءي";
+"afcuisettingsviewcontroller.value.none" = "لا شيء";
+"afcuisettingsviewcontroller.value.on" = "على";
+"afcuisettingsviewcontroller.value.off" = "إيقاف";
+"afcuisettingsviewcontroller.value.preferences" = "تفضيلات";
+"afcuisettingsviewcontroller.value.version" = "الإصدار";
+"afcuisettingsviewcontroller.value.deviceid" = "معرف الجهاز";
+
+/*
+ * AFCUIModalWebBrowser
+ */
+"afcuimodalwebbrowser.webview.status.loading" = "جار التحميل";
+
+/*
+ * OS Privacy Settings
+ */
+"osprivacysettings.camera.denied.alert.title" = "رفض";
+"osprivacysettings.camera.denied.alert.button.settings" = "إعدادات";
+"osprivacysettings.camera.settings.alert.title" = "";
+"osprivacysettings.camera.settings.alert.message" = "الرجاء الانتقال إلى إعدادات خصوصية جهازك وتمكين الدخول إلى الكاميرا لاستخدام هذه الميزة.";

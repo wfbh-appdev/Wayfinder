@@ -1,0 +1,55 @@
+/* 
+  AppFrameworkParking.strings
+
+  Copyright © 2017 Phunware. All rights reserved.
+*/
+
+/*** AF-PARKING STRINGS ***/
+
+/*
+ *  AFCParkingMapViewController Strings
+ */
+"afcparkingmapviewcontroller.droppinbutton.buttontitle" = "放一个针";
+"afcparkingmapviewcontroller.droppinbutton.clearenabled.buttontitle" = "清除";
+"afcparkingmapviewcontroller.droppinbutton.droppinenabled.buttontitle" = "放一个针";
+"afcparkingmapviewcontroller.droppinbutton.droppindisabled.buttontitle" = "放一个针";
+"afcparkingmapviewcontroller.titlelabel.text" = "固定我的位置";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.title" = "请启用位置";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.message" = "帮助我们通过启用位置跟踪您的停车位";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.okbutton.title" = "可以";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.cancelbutton.title" = "不，谢谢";
+
+/*
+ *  AFCParkingNoteViewController Strings
+ */
+"afcparkingnoteviewcontroller.noteslabel.text" = "写一个便条，以帮助你记住你停在哪里...";
+"afcparkingnoteviewcontroller.titlelabel.text" = "停车注意";
+
+/*
+ *  AFCParkingPhotoViewController Strings
+ */
+"afcparkingphotoviewcontroller.message.text" = "请点击下面的相机按钮拍照";
+"afcparkingphotoviewcontroller.deniedcamera.message.text" = "要拍摄您的停车位的照片，请允许该应用程序访问您的手机的相机.";
+"afcparkingphotoviewcontroller.restrictedcamera.message.text" = "相机无法访问，因为您的设备上的限制.";
+
+/*
+ *  AFCParkingViewController Strings
+ */
+"afcparkingviewcontroller.parkingremindertitle.text" = "停车提醒";
+"afcparkingviewcontroller.parkingchoosemethod.text" = "选择以下方法：";
+"afcparkingviewcontroller.gpslocationbuttonlabel.text" = "固定GPS位置";
+"afcparkingviewcontroller.takepicturebuttonlabel.text" = "拍照";
+"afcparkingviewcontroller.recordvoicememobuttonlabel.text" = "记录备忘录";
+"afcparkingviewcontroller.writenotebuttonlabel.text" = "写笔记";
+"afcparkingviewcontroller.locationsavedmessage.text" = "位置已保存";
+"afcparkingviewcontroller.imagesavedmessage.text" = "图片已保存";
+"afcparkingviewcontroller.notesavedmessage.text" = "备注已保存";
+"afcparkingviewcontroller.voicememosavedmessage.text" = "声音备忘已保存";
+"afcparkingviewcontroller.titlelabel.text" = "停车场";
+
+/*
+ *  AFCParkingVoiceMemoViewController Strings
+ */
+"afcparkingvoicememoviewcontroller.dateformat" = "EEE MMM dd 'at' h:mm a";
+"afcparkingvoicememoviewcontroller.recordvoicememotitle.text" = "记录备忘录以帮助您记住";
+"afcparkingvoicememoviewcontroller.titlelabel.text" = "停车备忘录";

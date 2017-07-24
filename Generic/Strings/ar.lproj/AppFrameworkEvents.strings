@@ -1,0 +1,34 @@
+/*
+ * AppFrameworkDirectory.strings
+ *
+ * Copyright © 2017 Phunware. All rights reserved.
+ */
+
+/*** AF-EVENTS STRINGS ***/
+
+/**
+ * EventsListViewController
+ */
+"eventslistviewcontroller.favorites.all" = "الكل";
+"eventslistviewcontroller.favorites.only" = "المفضلة";
+"eventslistviewcontroller.event.subtitle.fromto" = "From %@ to %@";
+
+/**
+ * Events add to calendar
+ */
+"afcaddeventtocalendar.addtocalendar.success.title" = "حدث التقويم";
+"afcaddeventtocalendar.addtocalendar.success.message" = " %@ تمت إضافته إلى التقويم";
+"afcaddeventtocalendar.addtocalendar.failure.title" = "حدث التقويم";
+"afcaddeventtocalendar.addtocalendar.failure.message" = "حدث خطأ، يرجى إعادة المحاولة";
+"afcaddeventtocalendar.addtocalendar.cancelbutton.title" = "موافق";
+
+"afcaddeventtocalendar.calendarrestrictedaccess.title" = "الوصول إلى التقويم مقيد";
+"afcaddeventtocalendar.calendarrestrictedaccess.message" = "لإعادة تمكين، الرجاء الانتقال إلى الإعدادات ومنح حق الدخول إلى التقويم";
+"afcaddeventtocalendar.calendarrestrictedaccess.cancelbutton.title" = "إلغاء";
+"afcaddeventtocalendar.calendarrestrictedaccess.settingsbutton.title" = "الإعدادات";
+
+/**
+ * Events detail share
+ */
+"eventsdetail.share.text.subject" = "%@ هو وجود حدث! %@";
+"eventsdetail.share.text.body" = "%@: %@ تحقق من الحدث في";

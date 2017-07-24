@@ -80,7 +80,6 @@
 		A2B61E5E1EAFF5BB0023BC53 /* AFDDirectoryTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2B61E5A1EAFF5BB0023BC53 /* AFDDirectoryTableViewCell.plist */; };
 		C3610AF61E08A4A2000FF63E /* AFMCOfferSwipeViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3610AF51E08A4A2000FF63E /* AFMCOfferSwipeViewController.plist */; };
 		C369CF421ED7A02E002698D3 /* AFDDirectoryTrailingImageTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = C369CF401ED7A02E002698D3 /* AFDDirectoryTrailingImageTableViewCell.plist */; };
-		C369CF431ED7A02E002698D3 /* AFDDirectoryNoImageTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = C369CF411ED7A02E002698D3 /* AFDDirectoryNoImageTableViewCell.plist */; };
 		C378836F1EC27146002E7F8F /* AFDDirectoryItemViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = C378836E1EC27146002E7F8F /* AFDDirectoryItemViewController.plist */; };
 		C398FC971D75E9C700FD48DE /* AFCUIDynamicViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = C398FC961D75E9C700FD48DE /* AFCUIDynamicViewController.plist */; };
 		C3F32B611F0ADA0000495919 /* AppFrameworkCore.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3F32B4C1F0ADA0000495919 /* AppFrameworkCore.strings */; };
@@ -121,6 +120,34 @@
 		7E699E751C97708B00000BA9 /* AFCLayerPickerTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCLayerPickerTableViewCell.plist; sourceTree = "<group>"; };
 		7E705E301DBE89C40047C09C /* GenericAF4.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = GenericAF4.entitlements; path = GenericAF4/GenericAF4.entitlements; sourceTree = "<group>"; };
 		7E75FD9A1E3A77170025A831 /* AFMUITurnByTurnTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFMUITurnByTurnTableViewCell.plist; sourceTree = "<group>"; };
+		7EF95DCF1F22523300CB9826 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/AppFrameworkCore.strings; sourceTree = "<group>"; };
+		7EF95DD01F2258DE00CB9826 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/AppFrameworkCore.strings; sourceTree = "<group>"; };
+		7EF95DD11F225DAB00CB9826 /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = zh.lproj/AppFrameworkCore.strings; sourceTree = "<group>"; };
+		7EF95DD21F22637800CB9826 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/AppFrameworkCore.strings; sourceTree = "<group>"; };
+		7EF95DD31F229EBE00CB9826 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/AppFrameworkDirectory.strings; sourceTree = "<group>"; };
+		7EF95DD41F229F5900CB9826 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/AppFrameworkDirectory.strings; sourceTree = "<group>"; };
+		7EF95DD51F229F9600CB9826 /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = zh.lproj/AppFrameworkDirectory.strings; sourceTree = "<group>"; };
+		7EF95DD61F229FD900CB9826 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/AppFrameworkDirectory.strings; sourceTree = "<group>"; };
+		7EF95DD71F22A31B00CB9826 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/AppFrameworkEvents.strings; sourceTree = "<group>"; };
+		7EF95DD81F22A40B00CB9826 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/AppFrameworkEvents.strings; sourceTree = "<group>"; };
+		7EF95DD91F22A52200CB9826 /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = zh.lproj/AppFrameworkEvents.strings; sourceTree = "<group>"; };
+		7EF95DDA1F22A5AA00CB9826 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/AppFrameworkEvents.strings; sourceTree = "<group>"; };
+		7EF95DDB1F2651DA00CB9826 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/AppFrameworkMessageCenter.strings; sourceTree = "<group>"; };
+		7EF95DDC1F2652CD00CB9826 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/AppFrameworkMessageCenter.strings; sourceTree = "<group>"; };
+		7EF95DDD1F26536B00CB9826 /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = zh.lproj/AppFrameworkMessageCenter.strings; sourceTree = "<group>"; };
+		7EF95DDE1F2653F200CB9826 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/AppFrameworkMessageCenter.strings; sourceTree = "<group>"; };
+		7EF95DDF1F26574000CB9826 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/AppFrameworkParking.strings; sourceTree = "<group>"; };
+		7EF95DE01F2658B000CB9826 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/AppFrameworkParking.strings; sourceTree = "<group>"; };
+		7EF95DE11F265A3800CB9826 /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = zh.lproj/AppFrameworkParking.strings; sourceTree = "<group>"; };
+		7EF95DE21F265CA600CB9826 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/AppFrameworkParking.strings; sourceTree = "<group>"; };
+		7EF95DE31F265DDF00CB9826 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/AppFrameworkRender.strings; sourceTree = "<group>"; };
+		7EF95DE41F265F1C00CB9826 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/AppFrameworkRender.strings; sourceTree = "<group>"; };
+		7EF95DE51F26639200CB9826 /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = zh.lproj/AppFrameworkRender.strings; sourceTree = "<group>"; };
+		7EF95DE61F26657500CB9826 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/AppFrameworkRender.strings; sourceTree = "<group>"; };
+		7EF95DE71F26683E00CB9826 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/AppFrameworkMapping.strings; sourceTree = "<group>"; };
+		7EF95DE81F266E2500CB9826 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/AppFrameworkMapping.strings; sourceTree = "<group>"; };
+		7EF95DE91F2671FB00CB9826 /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = zh.lproj/AppFrameworkMapping.strings; sourceTree = "<group>"; };
+		7EF95DEA1F26755900CB9826 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/AppFrameworkMapping.strings; sourceTree = "<group>"; };
 		8C10FC361C49CD5A000A7913 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		8C19EFA61E9ABF360093F18D /* AFCItemDetailViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCItemDetailViewController.plist; sourceTree = "<group>"; };
 		8C64BA141D02143100AB0FDD /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
@@ -713,6 +740,10 @@
 			children = (
 				C3F32B4D1F0ADA0000495919 /* en */,
 				C3F32B5A1F0ADA0000495919 /* es */,
+				7EF95DCF1F22523300CB9826 /* ja */,
+				7EF95DD01F2258DE00CB9826 /* ar */,
+				7EF95DD11F225DAB00CB9826 /* zh */,
+				7EF95DD21F22637800CB9826 /* pt */,
 			);
 			name = AppFrameworkCore.strings;
 			sourceTree = "<group>";
@@ -722,6 +753,10 @@
 			children = (
 				C3F32B4F1F0ADA0000495919 /* en */,
 				C3F32B5B1F0ADA0000495919 /* es */,
+				7EF95DD31F229EBE00CB9826 /* ja */,
+				7EF95DD41F229F5900CB9826 /* ar */,
+				7EF95DD51F229F9600CB9826 /* zh */,
+				7EF95DD61F229FD900CB9826 /* pt */,
 			);
 			name = AppFrameworkDirectory.strings;
 			sourceTree = "<group>";
@@ -731,6 +766,10 @@
 			children = (
 				C3F32B511F0ADA0000495919 /* en */,
 				C3F32B5C1F0ADA0000495919 /* es */,
+				7EF95DD71F22A31B00CB9826 /* ja */,
+				7EF95DD81F22A40B00CB9826 /* ar */,
+				7EF95DD91F22A52200CB9826 /* zh */,
+				7EF95DDA1F22A5AA00CB9826 /* pt */,
 			);
 			name = AppFrameworkEvents.strings;
 			sourceTree = "<group>";
@@ -740,6 +779,10 @@
 			children = (
 				C3F32B531F0ADA0000495919 /* en */,
 				C3F32B5D1F0ADA0000495919 /* es */,
+				7EF95DE71F26683E00CB9826 /* ja */,
+				7EF95DE81F266E2500CB9826 /* ar */,
+				7EF95DE91F2671FB00CB9826 /* zh */,
+				7EF95DEA1F26755900CB9826 /* pt */,
 			);
 			name = AppFrameworkMapping.strings;
 			sourceTree = "<group>";
@@ -749,6 +792,10 @@
 			children = (
 				C3F32B551F0ADA0000495919 /* en */,
 				C3F32B5E1F0ADA0000495919 /* es */,
+				7EF95DDB1F2651DA00CB9826 /* ja */,
+				7EF95DDC1F2652CD00CB9826 /* ar */,
+				7EF95DDD1F26536B00CB9826 /* zh */,
+				7EF95DDE1F2653F200CB9826 /* pt */,
 			);
 			name = AppFrameworkMessageCenter.strings;
 			sourceTree = "<group>";
@@ -758,6 +805,10 @@
 			children = (
 				C3F32B571F0ADA0000495919 /* en */,
 				C3F32B5F1F0ADA0000495919 /* es */,
+				7EF95DDF1F26574000CB9826 /* ja */,
+				7EF95DE01F2658B000CB9826 /* ar */,
+				7EF95DE11F265A3800CB9826 /* zh */,
+				7EF95DE21F265CA600CB9826 /* pt */,
 			);
 			name = AppFrameworkParking.strings;
 			sourceTree = "<group>";
@@ -767,6 +818,10 @@
 			children = (
 				C3F32B591F0ADA0000495919 /* en */,
 				C3F32B601F0ADA0000495919 /* es */,
+				7EF95DE31F265DDF00CB9826 /* ja */,
+				7EF95DE41F265F1C00CB9826 /* ar */,
+				7EF95DE51F26639200CB9826 /* zh */,
+				7EF95DE61F26657500CB9826 /* pt */,
 			);
 			name = AppFrameworkRender.strings;
 			sourceTree = "<group>";

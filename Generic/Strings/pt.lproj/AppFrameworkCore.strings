@@ -1,0 +1,139 @@
+/*** AF-CORE STRINGS ***/
+
+/**
+ * EULA Agreement
+ */
+"afceulapromoptaction.prompt.message" = "Você está de acordo com o Contrato de Licença e os termos e condições?";
+"afceulapromoptaction.prompt.message.title" = "Contrato de Licença";
+"afceulapromoptaction.prompt.message.agreebutton.title" = "CONCORDO";
+"afceulapromoptaction.prompt.message.viewbutton.title" = "VISUALIZAR";
+
+/*
+ *   AFCUIEULAViewController Strings
+ */
+"afcuieulaviewcontroller.agreebutton.buttontitle" = "Concordo";
+"afcuieulaviewcontroller.navbar.title" = "Contrato de licença";
+
+/*
+ *   AFCUIWebViewController Strings
+ */
+"afcuiwebviewcontroller.message.text" = "Aguarde...";
+"afcuiwebviewcontroller.title.text" = "Controlador de visualização na Web";
+
+/*
+ *   AFCUIModalWebBrowser Strings
+ */
+"afcuimodalwebbrowser.status.text" = "Carregando";
+"afcuimodalwebbrowser.closeButton.buttontitle" = "Fechar";
+
+/*
+ *  AFCCheckForceUpdate Strings
+ */
+"afccheckforceupdate.prompt.message.displayforceupdate.alert.title" = "Atualização necessária";
+"afccheckforceupdate.displayforceupdate.alert.title" = "Atualização do aplicativo disponível";
+"afccheckforceupdate.displayforceupdate.alert.message" = "Uma nova versão foi lançada. Você deve instalar a nova versão.";
+"afccheckforceupdate.displayforceupdate.alert.button.title" = "Atualizar";
+"afccheckforceupdate.displayupdateavailable.alert.title" = "Atualização disponível";
+"afccheckforceupdate.displayupdateavailable.alert.message" = "Uma nova versão foi lançada. Por favor, instale a nova versão.";
+"afccheckforceupdate.displayupdateavailable.alert.button.title" = "Atualização";
+"afccheckforceupdate.displayupdateavailable.alert.cancel.title" = "Agora não";
+
+/*
+ *  AFCLogout Strings
+ */
+"afclogoutaction.alert.title" = "Logout realizado com sucesso";
+"afclogoutaction.alert.message" = "Você saiu com sucesso da sessão atual.";
+"afclogoutaction.alert.button.title" = "OK";
+
+/*
+ * SSO WebView Alert Strings
+ */
+"afcuimodalwebbrowser.alert.title" = "Erro";
+"afcuimodalwebbrowser.alert.message" = "Você deve estar conectado para visualizar esta página.";
+"afcuimodalwebbrowser.alert.ok" = "OK";
+
+/*
+ * Layer Picker
+ */
+"afclayerpickerviewcontroller.navbar.default.title" = "Níveis";
+"afclayerpickerviewcontroller.searchbar.default.text" = "Busca";
+"afclayerpickerviewcontroller.searchbar.noresults" = "Nenhum resultado encontrado.";
+
+/*
+ * Segments Error
+ */
+"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.title" = "Configurações de alerta";
+"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.message" = "Configure os segmentos de alerta para este aplicativo no portal.";
+"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.cancelbutton.title" = "OK";
+"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.title" = "Configurações de alerta";
+"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.message" = "Este conteúdo exige uma conexão de dados. Verifique sua rede móvel ou Wi-Fi e tente novamente.";
+"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.cancelbutton.title" = "OK";
+
+/*
+ *  No Initial Database Strings
+ */
+"afinitialdatabase.displayforceupdate.alert.title" = "Erro";
+"afinitialdatabase.displayforceupdate.alert.message" = "Não foi possível iniciar a aplicação. Verifique se o seu dispositivo está conectado a uma rede.";
+"afinitialdatabase.displayforceupdate.alert.button" = "Fechar aplicativo";
+
+/*
+ *  No Layer Database Strings
+ */
+"aflayerdatabase.displayforceupdate.alert.title" = "Erro";
+"aflayerdatabase.displayforceupdate.alert.message" = "Este conteúdo exige uma conexão de dados. Verifique sua rede móvel ou Wi-Fi e tente novamente.";
+"aflayerdatabase.displayforceupdate.alert.button" = "OK";
+
+"afcforgotpasswordviewcontroller.alert.error.title" = "Erro";
+"afcforgotpasswordviewcontroller.alert.error.message" = "Você deve inserir um endereço de email válido.";
+"afcforgotpasswordviewcontroller.alert.error.button.title" = "OK";
+
+"afccomposeemailaction.alert.error.title" = "O email";
+"afccomposeemailaction.alert.error.message" = "Desculpa. Seu dispositivo não está configurado para o email.";
+"afccomposeemailaction.alert.button.title" = "OK";
+
+/*
+ * AFCPhoneCallAction
+ */
+"afcphonecallaction.alert.title" = "Fazer uma chamada";
+"afcphonecallaction.alert.message" = "Tem certeza que deseja chamar:\n%@";
+"afcphonecallaction.alert.accept" = "Sim";
+"afcphonecallaction.alert.cancel" = "Não";
+"afcphonecallaction.alert.ok" = "OK";
+"afcphonecallaction.error.alert.title" = "Erro";
+"afcphonecallaction.error.alert.message" = "Seu dispositivo não é capaz de fazer chamadas";
+
+/*
+ *  No Connection Available
+ */
+"afnointernetconnection.banner.message" = "Não existe ligação à Internet. A experiência pode ser degradada.";
+"afnointernetconnection.banner.button" = "Ok";
+
+/*
+ * AFCUISettingsViewController
+ */
+"afcuisettingsviewcontroller.sectionname.notifications" = "NOTIFICAÇÕES";
+"afcuisettingsviewcontroller.sectionname.managedprovider" = "Depuração do provedor gerenciado";
+"afcuisettingsviewcontroller.sectionname.locationprovider" = "PROVEDOR DE LOCALIZAÇÃO";
+"afcuisettingsviewcontroller.sectionname.maassdk" = "MaaS SDKs";
+"afcuisettingsviewcontroller.sectionname.about" = "SOBRE";
+
+"afcuisettingsviewcontroller.value.auto" = "Auto";
+"afcuisettingsviewcontroller.value.none" = "Nenhum";
+"afcuisettingsviewcontroller.value.on" = "Em";
+"afcuisettingsviewcontroller.value.off" = "Fora";
+"afcuisettingsviewcontroller.value.preferences" = "Preferências";
+"afcuisettingsviewcontroller.value.version" = "Versão";
+"afcuisettingsviewcontroller.value.deviceid" = "ID de dispositivo";
+
+/*
+ * AFCUIModalWebBrowser
+ */
+"afcuimodalwebbrowser.webview.status.loading" = "Carregando";
+
+/*
+ * OS Privacy Settings
+ */
+"osprivacysettings.camera.denied.alert.title" = "Dispensar";
+"osprivacysettings.camera.denied.alert.button.settings" = "Configurações";
+"osprivacysettings.camera.settings.alert.title" = "";
+"osprivacysettings.camera.settings.alert.message" = "Acesse as configurações de privacidade em seu dispositivo e habilite o acesso da câmera para usar esse recurso.";

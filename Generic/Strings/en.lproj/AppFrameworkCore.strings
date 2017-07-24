@@ -18,6 +18,7 @@
  *   AFCUIWebViewController Strings
  */
 "afcuiwebviewcontroller.message.text" = "Please wait...";
+"afcuiwebviewcontroller.title.text" = "Web View Controller";
 
 /*
  *   AFCUIModalWebBrowser Strings
@@ -56,6 +57,7 @@
  */
 "afclayerpickerviewcontroller.navbar.default.title" = "Levels";
 "afclayerpickerviewcontroller.searchbar.default.text" = "Search";
+"afclayerpickerviewcontroller.searchbar.noresults" = "No results found.";
 
 /*
  * Segments Error

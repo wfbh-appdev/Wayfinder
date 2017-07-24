@@ -1,0 +1,44 @@
+/* 
+  AppFrameworkRender.strings
+
+  Copyright © 2017 Phunware. All rights reserved.
+*/
+
+/*** AF-RENDER STRINGS ***/
+
+/*
+ * Smart Form Date/Time Picker Strings
+ */
+"afcuidatepicker.alert.title" = "Selecionar data";
+"afcuidatepicker.navbar.today" = "Hoje";
+"afcuitimepicker.alert.title" = "Selecione a hora";
+"afcuipicker.alert.ok" = "Está bem";
+"afcuipicker.alert.cancel" = "Cancelar";
+
+/*
+ * Smart Form Image Upload Strings
+ */
+"afcuimediapicker.navbar.title" = "Selecione a imagem";
+"afcuimediapicker.toolbar.selectimage" = "Selecione a imagem";
+"afcuimediapicker.toolbar.clearimage" = "Limpar imagem";
+"afcuimediapicker.alert.cancel" = "Cancelar";
+"afcuimediapicker.imageselect" = "Selecionar foto do rolo da câmera";
+"afcuimediapicker.takeimage" = "Tirar fotos";
+"afcuimediapicker.button.defaulttext" = "Selecionar imagem para carregar";
+"afcuimediapicker.button.photouploaded" = "Foto enviada";
+
+/*
+ * User Login Content Type Strings
+ */
+"afcuiuserloginview.userFieldplaceholder.username" = "Nome de usuário";
+"afcuiuserloginview.userFieldplaceholder.password" = "Senha";
+"afcuiuserloginview.loginbutton.text" = "LOGIN";
+"afcuiuserloginview.loginbutton.failedtext" = "NÃO FOI POSSÍVEL FAZER O LOGIN";
+"afcuiuserloginview.loginmessage.invalidusernamepassword" = "Nome de usuário ou senha inválidos. Por favor, tente novamente.";
+
+"forms.success.title" = "Sucesso";
+"forms.success.message" = "Formulário enviado com sucesso.";
+"forms.success.button.title" = "OK";
+"forms.error.title" = "Erro";
+"forms.error.message" = "Não foi possível enviar o formulário.";
+"forms.error.button.title" = "OK";

@@ -5,7 +5,7 @@
 	<key>titleLabel</key>
 	<dict>
 		<key>title</key>
-		<string>#afcuiwebviewcontroller.title.text</string>
+		<string>#afcuiwebviewcontroller.title.text,AppFrameworkCore</string>
 	</dict>
 	<key>view</key>
 	<dict>

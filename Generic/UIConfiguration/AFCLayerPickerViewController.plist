@@ -21,7 +21,7 @@
 	<key>noResultsFoundLabel</key>
 	<dict>
 		<key>text</key>
-		<string>#afddirectoryviewcontroller.noresults.title</string>
+		<string>#afclayerpickerviewcontroller.searchbar.noresults,AppFrameworkCore</string>
 		<key>fontName</key>
 		<string>$MainFont</string>
 		<key>fontSize</key>

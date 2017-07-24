@@ -1,0 +1,20 @@
+/* 
+ * AppFrameworkDirectory.strings
+ *
+ * Copyright © 2017 Phunware. All rights reserved.
+ */
+
+/*** AF-DIRECTORY STRINGS ***/
+
+/**
+ * AFDDirectoryViewController Strings
+ */
+"afddirectoryviewcontroller.title" = "ディレクトリ";
+"afddirectoryviewcontroller.noresults.title" = "プロモーションは見つかりませんでした";
+
+/**
+ * AFDDirectoryCategoryViewController Strings
+ */
+"afddirectorycategoryviewcontroller.title" = "フィルター";
+"afddirectorycategoryviewcontroller.allcategories" = "すべてのカテゴリー";
+"afddirectorycategoryviewcontroller.savebutton.title" = "フィルターを適用";

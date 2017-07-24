@@ -1,0 +1,44 @@
+/* 
+  AppFrameworkRender.strings
+
+  Copyright © 2017 Phunware. All rights reserved.
+*/
+
+/*** AF-RENDER STRINGS ***/
+
+/*
+ * Smart Form Date/Time Picker Strings
+ */
+"afcuidatepicker.alert.title" = "选择日期";
+"afcuidatepicker.navbar.today" = "这天";
+"afcuitimepicker.alert.title" = "选择时间";
+"afcuipicker.alert.ok" = "好";
+"afcuipicker.alert.cancel" = "撤消";
+
+/*
+ * Smart Form Image Upload Strings
+ */
+"afcuimediapicker.navbar.title" = "选择图像";
+"afcuimediapicker.toolbar.selectimage" = "选择图像";
+"afcuimediapicker.toolbar.clearimage" = "清除图";
+"afcuimediapicker.alert.cancel" = "撤消";
+"afcuimediapicker.imageselect" = "从相机胶卷中选择照片";
+"afcuimediapicker.takeimage" = "拍照";
+"afcuimediapicker.button.defaulttext" = "选择要上传的图像";
+"afcuimediapicker.button.photouploaded" = "照片上传";
+
+/*
+ * User Login Content Type Strings
+ */
+"afcuiuserloginview.textfieldplaceholder.username" = "用户名";
+"afcuiuserloginview.textfieldplaceholder.password" = "密码";
+"afcuiuserloginview.loginbutton.text" = "登录";
+"afcuiuserloginview.loginbutton.failedtext" = "登录失败";
+"afcuiuserloginview.loginmessage.invalidusernamepassword" = "输入的用户名或密码无效。 请再试一次。";
+
+"forms.success.title" = "成功";
+"forms.success.message" = "您的请求已成功发送";
+"forms.success.button.title" = "好";
+"forms.error.title" = "错误";
+"forms.error.message" = "您的请求出现错误";
+"forms.error.button.title" = "好";
