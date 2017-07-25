@@ -1339,10 +1339,8 @@
 						<string>$action.focusSearchBarOnDidAppear</string>
 						<key>alphaSorted</key>
 						<true/>
-						<key>orderBy</key>
-						<string>floor.level</string>
-						<key>groupBy</key>
-						<string>1</string>
+						<key>poiListSectionType</key>
+						<string>0</string>
 					</dict>
 				</dict>
 			</dict>
