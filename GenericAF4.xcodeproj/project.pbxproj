@@ -10,6 +10,8 @@
 		3C1DE4301C3F306B0074369D /* AFGoogleAnalyticsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1DE42F1C3F306B0074369D /* AFGoogleAnalyticsController.m */; };
 		4AD72CD87B22250320E754C5 /* libPods-GenericAF4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5A55BB941F06A8E81EA3DF /* libPods-GenericAF4.a */; };
 		52223B331F2938F8008C849E /* AFMPOIListTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52223B321F2938F8008C849E /* AFMPOIListTableViewCell.plist */; };
+		52223B351F294B51008C849E /* AFMPOIListNoImageTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52223B341F294B51008C849E /* AFMPOIListNoImageTableViewCell.plist */; };
+		52223B371F294B91008C849E /* AFMPOIListTrailingImageTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52223B361F294B91008C849E /* AFMPOIListTrailingImageTableViewCell.plist */; };
 		52A0D6BA1ED35DD30075F424 /* EventsDetailViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52A0D6B91ED35DD30075F424 /* EventsDetailViewController.plist */; };
 		52AB9C421EF04EA700A06AB3 /* AFCBannerNotificationView.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52AB9C411EF04EA700A06AB3 /* AFCBannerNotificationView.plist */; };
 		55173FDE1D62790500EE540B /* UIConfigurationDefault.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55173FDD1D62790500EE540B /* UIConfigurationDefault.plist */; };
@@ -81,6 +83,9 @@
 		A2B61E5E1EAFF5BB0023BC53 /* AFDDirectoryTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2B61E5A1EAFF5BB0023BC53 /* AFDDirectoryTableViewCell.plist */; };
 		C3610AF61E08A4A2000FF63E /* AFMCOfferSwipeViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3610AF51E08A4A2000FF63E /* AFMCOfferSwipeViewController.plist */; };
 		C378836F1EC27146002E7F8F /* AFDDirectoryItemViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = C378836E1EC27146002E7F8F /* AFDDirectoryItemViewController.plist */; };
+		C369CF421ED7A02E002698D3 /* AFDDirectoryTrailingImageTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = C369CF401ED7A02E002698D3 /* AFDDirectoryTrailingImageTableViewCell.plist */; };
+		C369CF431ED7A02E002698D3 /* AFDDirectoryNoImageTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = C369CF411ED7A02E002698D3 /* AFDDirectoryNoImageTableViewCell.plist */; };
+                C378836F1EC27146002E7F8F /* AFDDirectoryItemViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = C378836E1EC27146002E7F8F /* AFDDirectoryItemViewController.plist */; };
 		C398FC971D75E9C700FD48DE /* AFCUIDynamicViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = C398FC961D75E9C700FD48DE /* AFCUIDynamicViewController.plist */; };
 /* End PBXBuildFile section */
 
@@ -91,6 +96,8 @@
 		49FCFC7DF95FB8AE2E10158A /* Pods-GenericAF4.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericAF4.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4.adhoc.xcconfig"; sourceTree = "<group>"; };
 		4FBB0FA85ED06251D65C4E04 /* Pods-GenericAF4.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericAF4.distribution.xcconfig"; path = "Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4.distribution.xcconfig"; sourceTree = "<group>"; };
 		52223B321F2938F8008C849E /* AFMPOIListTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFMPOIListTableViewCell.plist; sourceTree = "<group>"; };
+		52223B341F294B51008C849E /* AFMPOIListNoImageTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFMPOIListNoImageTableViewCell.plist; sourceTree = "<group>"; };
+		52223B361F294B91008C849E /* AFMPOIListTrailingImageTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFMPOIListTrailingImageTableViewCell.plist; sourceTree = "<group>"; };
 		52A0D6B91ED35DD30075F424 /* EventsDetailViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EventsDetailViewController.plist; sourceTree = "<group>"; };
 		52AB9C461EF1E89C00A06AB3 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
 		52AB9C471EF1E89C00A06AB3 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -313,6 +320,8 @@
 				55173FDD1D62790500EE540B /* UIConfigurationDefault.plist */,
 				52AB9C411EF04EA700A06AB3 /* AFCBannerNotificationView.plist */,
 				52223B321F2938F8008C849E /* AFMPOIListTableViewCell.plist */,
+				52223B341F294B51008C849E /* AFMPOIListNoImageTableViewCell.plist */,
+				52223B361F294B91008C849E /* AFMPOIListTrailingImageTableViewCell.plist */,
 			);
 			path = UIConfiguration;
 			sourceTree = "<group>";
@@ -508,6 +517,8 @@
 				8F106FA31BC9D44000CCDD86 /* InteractivePushNotificationCategories.plist in Resources */,
 				5555DB031C4460C900E37207 /* InfoPlist.strings in Resources */,
 				8C19EFA71E9ABF360093F18D /* AFCItemDetailViewController.plist in Resources */,
+				52223B351F294B51008C849E /* AFMPOIListNoImageTableViewCell.plist in Resources */,
+				52223B371F294B91008C849E /* AFMPOIListTrailingImageTableViewCell.plist in Resources */,
 				C398FC971D75E9C700FD48DE /* AFCUIDynamicViewController.plist in Resources */,
 				8F0613181BC8569800A55F16 /* Main.storyboard in Resources */,
 				52A0D6BA1ED35DD30075F424 /* EventsDetailViewController.plist in Resources */,

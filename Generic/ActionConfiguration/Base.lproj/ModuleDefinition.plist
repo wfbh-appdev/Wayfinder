@@ -1341,7 +1341,7 @@
 						<true/>
 						<key>poiListSectionType</key>
 						<string>0</string>
-						<key>poiListLayout</key>
+						<key>poiListLayoutType</key>
 						<string>0</string>
 					</dict>
 				</dict>
