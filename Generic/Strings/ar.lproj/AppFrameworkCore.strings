@@ -173,7 +173,7 @@
 /*
  * AFAnalyticsController
  */
-"afanalyticscontroller.set.token.suffix" = "تعيين لاحقة رمزية قبل استدعاء الأسلوب "تكوين" سوبر";
+"afanalyticscontroller.set.token.suffix" = "تعيين لاحقة رمزية قبل استدعاء الأسلوب 'تكوي' سوبر";
 
 /*
  * AFCDetailViewConfigurator
