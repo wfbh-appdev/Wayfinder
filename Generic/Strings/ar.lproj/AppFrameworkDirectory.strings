@@ -16,5 +16,5 @@
  * AFDDirectoryCategoryViewController Strings
  */
 "afddirectorycategoryviewcontroller.title" = "مرشحات";
-"afddirectorycategoryviewcontroller.allcategories" = "جميع التصنيفات";
+"afddirectorycategoryviewcontroller.clearbutton.text" = "واضح";
 "afddirectorycategoryviewcontroller.savebutton.title" = "تطبيق التصفيات";

@@ -32,23 +32,25 @@
 "afcuimroutebuilderviewcontroller.welcomebackmessage.text" = "我们现在将继续从停车场路线到您之前选择的目的地.";
 "afcuimroutebuilderviewcontroller.welcomebackdismiss.buttontitle" = "解雇";
 "afcuimroutebuilderviewcontroller.welcomebackrouteme.buttontitle" = "路由我";
+"afcuimroutebuilderviewcontroller.routeme.error.title" = "路由错误";
+"afcuimroutebuilderviewcontroller.routeme.error.message" = "没有找到路线。";
+"afcuimroutebuilderviewcontroller.table.header.title" = "%1$@ at %2$@";
 
 /*
- *  AFCUIMPOIFilterEditorViewController Strings
+ *  AFMUIPOIFilterViewController Strings
  */
 "afcuimpoifiltereditorviewcontroller.savefiltersbutton.buttontitle" = "保存过滤器";
 "afcuimpoifiltereditorviewcontroller.cancelbutton.buttontitle" = "取消";
 "afcuimpoifiltereditorviewcontroller.titlelabel.text" = "选择POI过滤器";
 
 /*
- *  AFCUIAnnotationDetailViewController Strings
+ *  AFMUIPOIDetailViewController Strings
  */
 "afcuiannotationdetailviewcontroller.selectCampusButton.buttontitle" = "选择这个幅员";
 
 /*
  *  AFCUIMMapViewController Strings
  */
-"afcuimmapviewcontroller.endPointOfInterest.message" = "你已到达。";
 "afcuimmapviewcontroller.promptlocationalert.takemetherebutton" = "带我到那里";
 "afcuimmapviewcontroller.promptlocationalert.backtofacilitymapbutton" = "返回设施地图";
 "afcuimmapviewcontroller.promptlocationalert.cancelbutton" = "不用了，谢谢";
@@ -60,6 +62,7 @@
 "afcuimmapviewcontroller.buildingloaderroralert.title" = "地图错误";
 "afcuimmapviewcontroller.buildingloaderroralert.message" = "我们目前无法加载地图。 检查您的网络连接。";
 "afcuimmapviewcontroller.buildingloaderroralert.button" = "好";
+"afcuimmapviewcontroller.ok" = "好";
 
 /**
  *  AFMUIPOIViewController Strings
@@ -71,8 +74,6 @@
 /*
  *  AFCUIMRoutingAnnotationView Strings
  */
-"afcuimroutingannotationview.taptogoback.title" = "点击返回";
-"afcuimroutingannotationview.taptoviewnext.title" = "点击下一步";
 "afcuimroutingannotationview.starthereannotation.title" = "开始";
 "afcuimroutingannotationview.destinationannotation.title" = "结束";
 "afcuimroutingannotationview.tome.title" = "采取";
@@ -82,8 +83,6 @@
  * Map Picker
  */
 "afcmmappickerviewcontroller.navbar.title" = "地图";
-"afcmmappickerviewcontroller.promptlocationalert.title" = "帮助我们引导你";
-"afcmmappickerviewcontroller.promptlocationalert.message" = "请启用位置服务，以便我们能向您显示最近的位置.";
 
 /**
  * Turn by Turn
@@ -106,9 +105,16 @@
 "PWRouteInstructionDirectionElevatorDown" = "乘电梯到";
 "PWRouteInstructionDirectionStairsUp" = "走上楼梯";
 "PWRouteInstructionDirectionStairsDown" = "走下楼梯";
+"PWRouteInstructionDirectionEscalatorUp" = "自动楼梯";
+"PWRouteInstructionDirectionEscalatorDown" = "自动楼梯";
 "PWRouteInstructionLast" = "你到了";
 "PWRouteInstructionLastEmpty" = "你已到达。";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime" = "总行程时间";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "分钟";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "分钟";
 "afmuimapviewcontroller.turnbyturn.in" = "在";
+
+/**
+ *  AFMOutdoorToIndoor Strings
+ */
+"afmoutdoortoindoor.nativemap.title" = "%1$@ at %2$@";

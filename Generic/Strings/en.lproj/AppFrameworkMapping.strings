@@ -32,23 +32,25 @@
 "afcuimroutebuilderviewcontroller.welcomebackmessage.text" = "We will now continue routing from the parking lot\nto your previously selected destination.";
 "afcuimroutebuilderviewcontroller.welcomebackdismiss.buttontitle" = "DISMISS";
 "afcuimroutebuilderviewcontroller.welcomebackrouteme.buttontitle" = "ROUTE ME";
+"afcuimroutebuilderviewcontroller.routeme.error.title" = "Route Error";
+"afcuimroutebuilderviewcontroller.routeme.error.message" = "No route can be found.";
+"afcuimroutebuilderviewcontroller.table.header.title" = "%1$@ at %2$@";
 
 /*
- *  AFCUIMPOIFilterEditorViewController Strings
+ *  AFMUIPOIFilterViewController Strings
  */
 "afcuimpoifiltereditorviewcontroller.savefiltersbutton.buttontitle" = "Save Filters";
 "afcuimpoifiltereditorviewcontroller.cancelbutton.buttontitle" = "Cancel";
 "afcuimpoifiltereditorviewcontroller.titlelabel.text" = "Choose POI Filter";
 
 /*
- *  AFCUIAnnotationDetailViewController Strings
+ *  AFMUIPOIDetailViewController Strings
  */
 "afcuiannotationdetailviewcontroller.selectCampusButton.buttontitle" = "SELECT THIS CAMPUS";
 
 /*
  *  AFCUIMMapViewController Strings
  */
-"afcuimmapviewcontroller.endPointOfInterest.message" = "You have arrived.";
 "afcuimmapviewcontroller.promptlocationalert.takemetherebutton" = "Take me there";
 "afcuimmapviewcontroller.promptlocationalert.backtofacilitymapbutton" = "Back to facility map";
 "afcuimmapviewcontroller.promptlocationalert.cancelbutton" = "No Thanks";
@@ -60,6 +62,7 @@
 "afcuimmapviewcontroller.buildingloaderroralert.title" = "Map Error";
 "afcuimmapviewcontroller.buildingloaderroralert.message" = "We cannot load the map at this time. Check your network connection.";
 "afcuimmapviewcontroller.buildingloaderroralert.button" = "Ok";
+"afcuimmapviewcontroller.ok" = "Ok";
 
 /**
  *  AFMUIPOIViewController Strings
@@ -71,8 +74,6 @@
 /*
  *  AFCUIMRoutingAnnotationView Strings
  */
-"afcuimroutingannotationview.taptogoback.title" = "TAP TO GO BACK";
-"afcuimroutingannotationview.taptoviewnext.title" = "TAP TO VIEW NEXT";
 "afcuimroutingannotationview.starthereannotation.title" = "Start";
 "afcuimroutingannotationview.destinationannotation.title" = "End";
 "afcuimroutingannotationview.tome.title" = "Take";
@@ -82,11 +83,9 @@
  * Map Picker
  */
 "afcmmappickerviewcontroller.navbar.title" = "Maps";
-"afcmmappickerviewcontroller.promptlocationalert.title" = "Help us guide you";
-"afcmmappickerviewcontroller.promptlocationalert.message" = "Please enable location services so we can show you the nearest location.";
 
 /**
- * Turn by Turn
+ * Turn by Turn //TODO
  */
 "PWRouteInstructionDirectionStraight" = "Go straight for";
 "PWRouteInstructionDirectionLeft" = "Turn left in";
@@ -106,9 +105,16 @@
 "PWRouteInstructionDirectionElevatorDown" = "Take the elevator down to";
 "PWRouteInstructionDirectionStairsUp" = "Take the stairs up to";
 "PWRouteInstructionDirectionStairsDown" = "Take the stairs down to";
+"PWRouteInstructionDirectionEscalatorUp" = "Take the escalator up to";
+"PWRouteInstructionDirectionEscalatorDown" = "Take the escalator down to";
 "PWRouteInstructionLast" = "You've arrived at";
 "PWRouteInstructionLastEmpty" = "You have arrived.";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime" = "Total Travel Time";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minute" = "min";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "mins";
 "afmuimapviewcontroller.turnbyturn.in" = "in";
+
+/**
+ *  AFMOutdoorToIndoor Strings
+ */
+"afmoutdoortoindoor.nativemap.title" = "%1$@ at %2$@";

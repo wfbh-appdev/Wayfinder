@@ -12,7 +12,6 @@
  *   AFCUIEULAViewController Strings
  */
 "afcuieulaviewcontroller.agreebutton.buttontitle" = "Acepto";
-"afcuieulaviewcontroller.navbar.title" = "Acuerdo de Licencia";
 
 /*
  *   AFCUIWebViewController Strings
@@ -25,11 +24,15 @@
  */
 "afcuimodalwebbrowser.status.text" = "Cargando";
 "afcuimodalwebbrowser.closeButton.buttontitle" = "Cerrar";
+"afcuimodalwebbrowser.alert.title" = "Error";
+"afcuimodalwebbrowser.alert.message" = "Usted debe ingresar para ver el contenido de esta página.";
+"afcuimodalwebbrowser.alert.ok" = "Bueno";
+"afcuimodalwebbrowser.webview.status.loading" = "Cargando";
+"afcuimodalwebbrowser.webview.status.error" = "Error"; //Translate
 
 /*
  *  AFCCheckForceUpdate Strings
  */
-"afccheckforceupdate.prompt.message.displayforceupdate.alert.title" = "Actualización Requerida";
 "afccheckforceupdate.displayforceupdate.alert.title" = "Actualización Disponible";
 "afccheckforceupdate.displayforceupdate.alert.message" = "Una nueva versión ha sido lanzada. Usted debe actualizar a la última versión.";
 "afccheckforceupdate.displayforceupdate.alert.button.title" = "Actualizar";
@@ -45,13 +48,6 @@
 "afclogoutaction.alert.message" = "Ha iniciado sesión con éxito de la sesión actual.";
 "afclogoutaction.alert.button.title" = "SÍ";
 
-/*
- * SSO WebView Alert Strings
- */
-"afcuimodalwebbrowser.alert.title" = "Error";
-"afcuimodalwebbrowser.alert.message" = "Usted debe ingresar para ver el contenido de esta página.";
-"afcuimodalwebbrowser.alert.ok" = "Bueno";
-
 /**
  * Layer Picker
  */
@@ -62,6 +58,7 @@
 /**
  * Segments Error
  */
+"afcuialertsubscriptionviewcontroller.title" = "Perfiles";
 "afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.title" = "Configuracion de Alertas";
 "afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.message" = "Por favor configura los segmentos para esta application en App Builder portal.";
 "afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.cancelbutton.title" = "SÍ";
@@ -77,16 +74,21 @@
 "afinitialdatabase.displayforceupdate.alert.button" = "Cerca de aplicación";
 
 /*
- *  No Layer Database Strings
+ * AFCForgotPasswordViewController
  */
-"aflayerdatabase.displayforceupdate.alert.title" = "Error";
-"aflayerdatabase.displayforceupdate.alert.message" = "Este contenido requiere una conexión de datos, por favor revise su red móvil o WiFi y vuelve a intentarlo.";
-"aflayerdatabase.displayforceupdate.alert.button" = "SÍ";
-
 "afcforgotpasswordviewcontroller.alert.error.title" = "Error";
 "afcforgotpasswordviewcontroller.alert.error.message" = "Debe ingresar una dirección de correo válida.";
 "afcforgotpasswordviewcontroller.alert.error.button.title" = "OK";
+"afcforgotpasswordviewcontroller.forgotpasswordsubmitbutton.sent" = "EMAIL ENVIADO";
+"afcforgotpasswordviewcontroller.forgotpasswordsubmitmessage.title" = "Exito";
+"afcforgotpasswordviewcontroller.forgotpasswordsubmitmessage.text" = "Recibirá un email enseguida";
+"afcforgotpasswordviewcontroller.forgotpasswordsubmitmessage.error.title" = "Correo electrónico inválido";
+"afcforgotpasswordviewcontroller.forgotpasswordsubmitmessage.error.text" = "Esta dirección de correo electrónico no se ha encontrado en nuestros registros. Use el correo electrónico que le proporcionó 4th and West.";
+"afcforgotpasswordviewcontroller.forgotpasswordsubmitmessage.error.button" = "Ok";
 
+/*
+ * AFCComposeEmailAction
+ */
 "afccomposeemailaction.alert.error.title" = "Email";
 "afccomposeemailaction.alert.error.message" = "Lo sentimos. Su dispositivo no tiene configurado una cuenta de correo.";
 "afccomposeemailaction.alert.button.title" = "OK";
@@ -116,7 +118,6 @@
 "afcuisettingsviewcontroller.sectionname.locationprovider" = "PROVEEDOR DE UBICACIÓN";
 "afcuisettingsviewcontroller.sectionname.maassdk" = "MaaS SDKs";
 "afcuisettingsviewcontroller.sectionname.about" = "ACERCA";
-
 "afcuisettingsviewcontroller.value.auto" = "Auto";
 "afcuisettingsviewcontroller.value.none" = "Ninguno";
 "afcuisettingsviewcontroller.value.on" = "Encendido";
@@ -124,11 +125,9 @@
 "afcuisettingsviewcontroller.value.preferences" = "Preferencias";
 "afcuisettingsviewcontroller.value.version" = "Versión";
 "afcuisettingsviewcontroller.value.deviceid" = "ID Dispositivo";
-
-/*
- * AFCUIModalWebBrowser
- */
-"afcuimodalwebbrowser.webview.status.loading" = "Cargando";
+"afcuisettingsviewcontroller.deviceidcopy.alert.title" = "Darse Cuenta";
+"afcuisettingsviewcontroller.deviceidcopy.alert.message" = "El ID del dispositivo se ha copiado en el portapapeles";
+"afcuisettingsviewcontroller.deviceidcopy.alert.button.title" = "Ok";
 
 /*
  * OS Privacy Settings
@@ -137,3 +136,52 @@
 "osprivacysettings.camera.denied.alert.button.settings" = "Configuraciones";
 "osprivacysettings.camera.settings.alert.title" = "";
 "osprivacysettings.camera.settings.alert.message" = "Por favor vaya a las Opciones de Seguridad en su dispositivo y habilite el acceso a la cámara para utilizar esta función.";
+"osprivacysettings.enable.push.notifications" = "Habilitar Notificaciones de Push";
+"osprivacysettings.dismiss" = "Despedir";
+"osprivacysettings.setttings" = "Ajustes";
+"osprivacysettings.gotosettings.enable.push.notifications" = "Accede a la Configuración de notificaciones en tu dispositivo y activa las notificaciones push para utilizar esta función.";
+"osprivacysettings.gotosettings.location.services.needed" = "Ubicación Servicios Necesarios";
+"osprivacysettings.gotosettings.cancel" = "Cancelar";
+"osprivacysettings.gotosettings.take.me.there" = "Llévame allí";
+
+/**
+ * Push notification actions
+ */
+"Directory.show" = "Mostrar";
+"DirectoryItem.show" = "Mostrar";
+"Events.show" = "Mostrar";
+"EvenntItem.show" = "Mostrar";
+"Map.show" = "Mostrar";
+"Map.route" = "Ruta";
+"Offer.listing" = "Listado";
+"Offer.detail" = "Detalle";
+"Parking.main" = "Principal";
+"Parking.map" = "Mapa";
+"Parking.photo" = "Foto";
+"Parking.voice" = "Voz";
+"Parking.note" = "Apunte";
+"Page.show" = "Mostrar";
+"SettingsMap.show" = "Mostrar";
+"afcprocesspushnotification.ok" = "Ok";
+"afcprocesspushnotification.cancel" = "Cancel";
+
+/*
+ * AFCCMEConfiguration String
+ */
+"afccmeconfiguration.valid.load.descriptor" = "Debe proporcionar un descriptor de carga válido / no nulo";
+
+/*
+ * AFAnalyticsController
+ */
+"afanalyticscontroller.set.token.suffix" = "Establezca el sufijo token antes de llamar al método super 'configure'";
+
+/*
+ * AFCDetailViewConfigurator
+ */
+"detailconfig.route" = "Ruta";
+"detailconfig.call" = "Llamar";
+"detailconfig.email" = "Email";
+"detailconfig.website" = "Sitio Web";
+"detailconfig.map" = "Mapa";
+"detailconfig.calendar" = "Calendario";
+"detailconfig.buytickets" = "Comprar boletos";

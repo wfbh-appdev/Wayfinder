@@ -16,5 +16,5 @@
  * AFDDirectoryCategoryViewController Strings
  */
 "afddirectorycategoryviewcontroller.title" = "Filtros";
-"afddirectorycategoryviewcontroller.allcategories" = "Todas Categorias";
+"afddirectorycategoryviewcontroller.clearbutton.text" = "Excluir";
 "afddirectorycategoryviewcontroller.savebutton.title" = "Ativar Filtros";

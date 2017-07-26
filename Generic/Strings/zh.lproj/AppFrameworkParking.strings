@@ -43,7 +43,6 @@
 "afcparkingviewcontroller.writenotebuttonlabel.text" = "写笔记";
 "afcparkingviewcontroller.locationsavedmessage.text" = "位置已保存";
 "afcparkingviewcontroller.imagesavedmessage.text" = "图片已保存";
-"afcparkingviewcontroller.notesavedmessage.text" = "备注已保存";
 "afcparkingviewcontroller.voicememosavedmessage.text" = "声音备忘已保存";
 "afcparkingviewcontroller.titlelabel.text" = "停车场";
 
@@ -52,4 +51,5 @@
  */
 "afcparkingvoicememoviewcontroller.dateformat" = "EEE MMM dd 'at' h:mm a";
 "afcparkingvoicememoviewcontroller.recordvoicememotitle.text" = "记录备忘录以帮助您记住";
-"afcparkingvoicememoviewcontroller.titlelabel.text" = "停车备忘录";
+"afcparkingvoicememoviewcontroller.recordingnotsupported" = "此设备不支持录制";
+"afcparkingvoicememoviewcontroller.lastrecorded" = "最后记录：";

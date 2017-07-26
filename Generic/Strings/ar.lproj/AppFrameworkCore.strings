@@ -12,7 +12,6 @@
  *   AFCUIEULAViewController Strings
  */
 "afcuieulaviewcontroller.agreebutton.buttontitle" = "أنا أتفق";
-"afcuieulaviewcontroller.navbar.title" = "اتفاقية الترخيص";
 
 /*
  *   AFCUIWebViewController Strings
@@ -25,11 +24,15 @@
  */
 "afcuimodalwebbrowser.status.text" = "تحميل";
 "afcuimodalwebbrowser.closeButton.buttontitle" = "أغلق";
+"afcuimodalwebbrowser.alert.title" = "خطأ";
+"afcuimodalwebbrowser.alert.message" = "عليك تسجيل الدخول لعرض هذه الصفحة.";
+"afcuimodalwebbrowser.alert.ok" = "حسنا";
+"afcuimodalwebbrowser.webview.status.loading" = "جار التحميل";
+"afcuimodalwebbrowser.webview.status.error" = "خطأ";
 
 /*
  *  AFCCheckForceUpdate Strings
  */
-"afccheckforceupdate.prompt.message.displayforceupdate.alert.title" = "مطلوب التحديث";
 "afccheckforceupdate.displayforceupdate.alert.title" = "التطبيق تحديث متاح";
 "afccheckforceupdate.displayforceupdate.alert.message" = "لقد تم الافراج عن نسخة جديدة. يجب تحديث إلى الإصدار الأحدث.";
 "afccheckforceupdate.displayforceupdate.alert.button.title" = "تحديث";
@@ -46,13 +49,6 @@
 "afclogoutaction.alert.button.title" = "حسنا";
 
 /*
- * SSO WebView Alert Strings
- */
-"afcuimodalwebbrowser.alert.title" = "خطأ";
-"afcuimodalwebbrowser.alert.message" = "عليك تسجيل الدخول لعرض هذه الصفحة.";
-"afcuimodalwebbrowser.alert.ok" = "حسنا";
-
-/*
  * Layer Picker
  */
 "afclayerpickerviewcontroller.navbar.default.title" = "مستويات";
@@ -62,6 +58,7 @@
 /*
  * Segments Error
  */
+"afcuialertsubscriptionviewcontroller.title" = "مظهر";
 "afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.title" = "إعدادات التنبيه";
 "afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.message" = "يرجى شرائح تنبيه الإعداد لهذا التطبيق على البوابة.";
 "afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.cancelbutton.title" = "حسنا";
@@ -77,16 +74,21 @@
 "afinitialdatabase.displayforceupdate.alert.button" = "انهيار التطبيق";
 
 /*
- *  No Layer Database Strings
+ * AFCForgotPasswordViewController
  */
-"aflayerdatabase.displayforceupdate.alert.title" = "خطأ";
-"aflayerdatabase.displayforceupdate.alert.message" = "هذا المحتوى يتطلب اتصال البيانات، الرجاء التحقق من شبكة الهاتف النقال أو واي فاي وحاول مرة أخرى.";
-"aflayerdatabase.displayforceupdate.alert.button" = "حسنا";
-
 "afcforgotpasswordviewcontroller.alert.error.title" = "خطأ";
 "afcforgotpasswordviewcontroller.alert.error.message" = "ينبغي إدخال بريد الكتروني صالح.";
 "afcforgotpasswordviewcontroller.alert.error.button.title" = "حسنا";
+"afcforgotpasswordviewcontroller.forgotpasswordsubmitbutton.sent" = "تم إرسال رسالة البريد الإلكتروني";
+"afcforgotpasswordviewcontroller.forgotpasswordsubmitmessage.title" = "نجاح";
+"afcforgotpasswordviewcontroller.forgotpasswordsubmitmessage.text" = "يجب أن تتلقى رسالة بريد إلكتروني بعد قليل.";
+"afcforgotpasswordviewcontroller.forgotpasswordsubmitmessage.error.text" = "لم يتم العثور على عنوان البريد الإلكتروني هذا في سجلاتنا. يرجى استخدام البريد الإلكتروني المُقدم من 4th and West.";
+"afcforgotpasswordviewcontroller.forgotpasswordsubmitmessage.error.title" = "بريد إلكتروني غير صالح";
+"afcforgotpasswordviewcontroller.forgotpasswordsubmitmessage.error.button" = "حسنا";
 
+/*
+ * AFCComposeEmailAction
+ */
 "afccomposeemailaction.alert.error.title" = "البريد الإلكتروني";
 "afccomposeemailaction.alert.error.message" = "معذرة. لم يتم إعداد جهازك حاليا للبريد الإلكتروني.";
 "afccomposeemailaction.alert.button.title" = "حسنا";
@@ -116,7 +118,6 @@
 "afcuisettingsviewcontroller.sectionname.locationprovider" = "لوكاتيون بروفيدر";
 "afcuisettingsviewcontroller.sectionname.maassdk" = "ماس سكس";
 "afcuisettingsviewcontroller.sectionname.about" = "حول";
-
 "afcuisettingsviewcontroller.value.auto" = "تلقاءي";
 "afcuisettingsviewcontroller.value.none" = "لا شيء";
 "afcuisettingsviewcontroller.value.on" = "على";
@@ -124,11 +125,9 @@
 "afcuisettingsviewcontroller.value.preferences" = "تفضيلات";
 "afcuisettingsviewcontroller.value.version" = "الإصدار";
 "afcuisettingsviewcontroller.value.deviceid" = "معرف الجهاز";
-
-/*
- * AFCUIModalWebBrowser
- */
-"afcuimodalwebbrowser.webview.status.loading" = "جار التحميل";
+"afcuisettingsviewcontroller.deviceidcopy.alert.title" = "تنويه";
+"afcuisettingsviewcontroller.deviceidcopy.alert.message" = "تم نسخ معرف الجهاز إلى الحافظة";
+"afcuisettingsviewcontroller.deviceidcopy.alert.button.title" = "حسنا";
 
 /*
  * OS Privacy Settings
@@ -137,3 +136,52 @@
 "osprivacysettings.camera.denied.alert.button.settings" = "إعدادات";
 "osprivacysettings.camera.settings.alert.title" = "";
 "osprivacysettings.camera.settings.alert.message" = "الرجاء الانتقال إلى إعدادات خصوصية جهازك وتمكين الدخول إلى الكاميرا لاستخدام هذه الميزة.";
+"osprivacysettings.enable.push.notifications" = "تمكين إشعارات الدفع";
+"osprivacysettings.dismiss" = "رفض";
+"osprivacysettings.setttings" = "إعدادات";
+"osprivacysettings.gotosettings.enable.push.notifications" = "يرجى الذهاب إلى إعدادات الإعلام على جهازك وتمكين الإشعارات لاستخدام هذه الميزة.";
+"osprivacysettings.gotosettings.location.services.needed" = "خدمات الموقع المطلوبة";
+"osprivacysettings.gotosettings.cancel" = "إلغاء";
+"osprivacysettings.gotosettings.take.me.there" = "خذني هناك";
+
+/**
+ * Push notification actions
+ */
+"Directory.show" = "عرض";
+"DirectoryItem.show" = "عرض";
+"Events.show" = "عرض";
+"EvenntItem.show" = "عرض";
+"Map.show" = "عرض";
+"Map.route" = "مسار";
+"Offer.listing" = "قائمة";
+"Offer.detail" = "المفرزة المختارة";
+"Parking.main" = "الأساسية";
+"Parking.map" = "خريطة";
+"Parking.photo" = "صورة فوتوغرافية";
+"Parking.voice" = "صوت";
+"Parking.note" = "حاشية";
+"Page.show" = "عرض";
+"SettingsMap.show" = "عرض";
+"afcprocesspushnotification.ok" = "حسنا";
+"afcprocesspushnotification.cancel" = "إلغاء";
+
+/*
+ * AFCCMEConfiguration String
+ */
+"afccmeconfiguration.valid.load.descriptor" = "يجب أن توفر صفة تحميل غير صالحة / لا شيء";
+
+/*
+ * AFAnalyticsController
+ */
+"afanalyticscontroller.set.token.suffix" = "تعيين لاحقة رمزية قبل استدعاء الأسلوب "تكوين" سوبر";
+
+/*
+ * AFCDetailViewConfigurator
+ */
+"detailconfig.directory.route" = "طريق";
+"detailconfig.directory.call" = "مكالمة";
+"detailconfig.directory.email" = "البريد الإلكتروني";
+"detailconfig.directory.website" = "موقع الكتروني";
+"detailconfig.directory.map" = "خريطة";
+"detailconfig.calendar" = "التقويم";
+"detailconfig.buytickets" = "اشتري تذاكر";

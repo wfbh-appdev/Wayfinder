@@ -16,5 +16,5 @@
  * AFDDirectoryCategoryViewController Strings
  */
 "afddirectorycategoryviewcontroller.title" = "筛选";
-"afddirectorycategoryviewcontroller.allcategories" = "所有类别";
+"afddirectorycategoryviewcontroller.clearbutton.text" = "明确";
 "afddirectorycategoryviewcontroller.savebutton.title" = "进行筛选";

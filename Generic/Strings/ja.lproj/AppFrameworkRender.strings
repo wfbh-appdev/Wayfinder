@@ -7,16 +7,18 @@
 /*** AF-RENDER STRINGS ***/
 
 /*
- * Smart Form Date/Time Picker Strings
+ * AFCUIDateTimePickerView Strings
  */
-"afcuidatepicker.alert.title" = "日付を選択";
-"afcuidatepicker.navbar.today" = "今日";
-"afcuitimepicker.alert.title" = "時間を選択";
-"afcuipicker.alert.ok" = "OK";
-"afcuipicker.alert.cancel" = "キャンセル";
+"afcuidatetimepickerview.select.date" = "日付を選択";
+"afcuidatetimepickerview.select.time" = "時間を選択";
 
 /*
- * Smart Form Image Upload Strings
+ * Smart Form Global Strings
+ */
+"smart.form.done" = "完了";
+
+/*
+ * AFCUIImageUploadButton & AFCUIMediaPickerViewController Strings
  */
 "afcuimediapicker.navbar.title" = "画像を選択";
 "afcuimediapicker.toolbar.selectimage" = "画像を選択";
@@ -28,17 +30,28 @@
 "afcuimediapicker.button.photouploaded" = "写真がアップロードされました";
 
 /*
- * User Login Content Type Strings
+ * AFCUIUserLoginView Strings
  */
 "afcuiuserloginview.textfieldplaceholder.username" = "ユーザー名";
 "afcuiuserloginview.textfieldplaceholder.password" = "パスワード";
 "afcuiuserloginview.loginbutton.text" = "ログイン";
-"afcuiuserloginview.loginbutton.failedtext" = "ログインに失敗しました";
 "afcuiuserloginview.loginmessage.invalidusernamepassword" = "無効なユーザー名またはパスワードが入力されました。 もう一度やり直してください。";
 
+/*
+ * AFCDynamicView Strings
+ */
 "forms.success.title" = "成功";
 "forms.success.message" = "あなたのリクエストは正常に送信されました";
 "forms.success.button.title" = "[OK]";
 "forms.error.title" = "エラー";
 "forms.error.message" = "あなたのリクエストに誤りがありました";
 "forms.error.button.title" = "[OK]";
+"forms.validation.title" = "検証";
+"forms.validation.message" = "フォームを送信できませんでした。 1つ以上の必須フィールドがありません。";
+"forms.validation.button.title" = "[Ok]";
+
+/**
+ * AFCUIDynamicWeather Strings
+ */
+"afcuidynamicweather.title.text" = "今日の";
+"afcuidynamicweather.rain.text" = "雨";

@@ -16,5 +16,5 @@
  * AFDDirectoryCategoryViewController Strings
  */
 "afddirectorycategoryviewcontroller.title" = "フィルター";
-"afddirectorycategoryviewcontroller.allcategories" = "すべてのカテゴリー";
+"afddirectorycategoryviewcontroller.clearbutton.text" = "クリア";
 "afddirectorycategoryviewcontroller.savebutton.title" = "フィルターを適用";

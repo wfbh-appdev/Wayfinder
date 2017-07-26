@@ -7,16 +7,18 @@
 /*** AF-RENDER STRINGS ***/
 
 /*
- * Smart Form Date/Time Picker Strings
+ * AFCUIDateTimePickerView Strings
  */
-"afcuidatepicker.alert.title" = "选择日期";
-"afcuidatepicker.navbar.today" = "这天";
-"afcuitimepicker.alert.title" = "选择时间";
-"afcuipicker.alert.ok" = "好";
-"afcuipicker.alert.cancel" = "撤消";
+"afcuidatetimepickerview.select.date" = "选择日期";
+"afcuidatetimepickerview.select.time" = "选择一个时间";
 
 /*
- * Smart Form Image Upload Strings
+ * Smart Form Global Strings
+ */
+"smart.form.done" = "完成";
+
+/*
+ * AFCUIImageUploadButton & AFCUIMediaPickerViewController Strings
  */
 "afcuimediapicker.navbar.title" = "选择图像";
 "afcuimediapicker.toolbar.selectimage" = "选择图像";
@@ -28,17 +30,28 @@
 "afcuimediapicker.button.photouploaded" = "照片上传";
 
 /*
- * User Login Content Type Strings
+ * AFCUIUserLoginView Strings
  */
 "afcuiuserloginview.textfieldplaceholder.username" = "用户名";
 "afcuiuserloginview.textfieldplaceholder.password" = "密码";
 "afcuiuserloginview.loginbutton.text" = "登录";
-"afcuiuserloginview.loginbutton.failedtext" = "登录失败";
 "afcuiuserloginview.loginmessage.invalidusernamepassword" = "输入的用户名或密码无效。 请再试一次。";
 
+/*
+ * AFCDynamicView Strings
+ */
 "forms.success.title" = "成功";
 "forms.success.message" = "您的请求已成功发送";
 "forms.success.button.title" = "好";
 "forms.error.title" = "错误";
 "forms.error.message" = "您的请求出现错误";
 "forms.error.button.title" = "好";
+"forms.validation.title" = "验证";
+"forms.validation.message" = "无法发送表单。 缺少一个或多个必填字段。";
+"forms.validation.button.title" = "好";
+
+/**
+ * AFCUIDynamicWeather Strings
+ */
+"afcuidynamicweather.title.text" = "今天在";
+"afcuidynamicweather.rain.text" = "雨";

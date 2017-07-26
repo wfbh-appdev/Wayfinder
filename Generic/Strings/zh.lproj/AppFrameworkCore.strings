@@ -12,7 +12,6 @@
  *   AFCUIEULAViewController Strings
  */
 "afcuieulaviewcontroller.agreebutton.buttontitle" = "我同意";
-"afcuieulaviewcontroller.navbar.title" = "许可协议";
 
 /*
  *   AFCUIWebViewController Strings
@@ -25,11 +24,15 @@
  */
 "afcuimodalwebbrowser.status.text" = "载入";
 "afcuimodalwebbrowser.closeButton.buttontitle" = "关闭";
+"afcuimodalwebbrowser.alert.title" = "错误";
+"afcuimodalwebbrowser.alert.message" = "您必须登录才能查看此页面。";
+"afcuimodalwebbrowser.alert.ok" = "好";
+"afcuimodalwebbrowser.webview.status.loading" = "载入中";
+"afcuimodalwebbrowser.webview.status.error" = "错误";
 
 /*
  *  AFCCheckForceUpdate Strings
  */
-"afccheckforceupdate.prompt.message.displayforceupdate.alert.title" = "需要更新";
 "afccheckforceupdate.displayforceupdate.alert.title" = "应用程式更新可用";
 "afccheckforceupdate.displayforceupdate.alert.message" = "新版本已发布，您必须更新到最新版本.";
 "afccheckforceupdate.displayforceupdate.alert.button.title" = "更新";
@@ -46,13 +49,6 @@
 "afclogoutaction.alert.button.title" = "好";
 
 /*
- * SSO WebView Alert Strings
- */
-"afcuimodalwebbrowser.alert.title" = "错误";
-"afcuimodalwebbrowser.alert.message" = "您必须登录才能查看此页面。";
-"afcuimodalwebbrowser.alert.ok" = "好";
-
-/*
  * Layer Picker
  */
 "afclayerpickerviewcontroller.navbar.default.title" = "级别";
@@ -62,6 +58,7 @@
 /*
  * Segments Error
  */
+"afcuialertsubscriptionviewcontroller.title" = "简介";
 "afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.title" = "报警设置";
 "afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.message" = "请在门户网站上设置此应用程序的警报段。";
 "afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.cancelbutton.title" = "好";
@@ -77,16 +74,21 @@
 "afinitialdatabase.displayforceupdate.alert.title" = "错误";
 
 /*
- *  No Layer Database Strings
+ * AFCForgotPasswordViewController
  */
-"aflayerdatabase.displayforceupdate.alert.title" = "错误";
-"aflayerdatabase.displayforceupdate.alert.message" = "此内容需要数据连接，请检查您的手机或WiFi网络，然后重试.";
-"aflayerdatabase.displayforceupdate.alert.button" = "可以";
-
 "afcforgotpasswordviewcontroller.alert.error.title" = "错误";
 "afcforgotpasswordviewcontroller.alert.error.message" = "您必须输入有效的电子邮件地址。";
 "afcforgotpasswordviewcontroller.alert.error.button.title" = "好";
+"afcforgotpasswordviewcontroller.forgotpasswordsubmitbutton.sent" = "邮件已发送";
+"afcforgotpasswordviewcontroller.forgotpasswordsubmitmessage.title"  = "成功";
+"afcforgotpasswordviewcontroller.forgotpasswordsubmitmessage.text"  = "你应该很快收到一封电子邮件。";
+"afcforgotpasswordviewcontroller.forgotpasswordsubmitmessage.error.title"  = "不合规电邮";
+"afcforgotpasswordviewcontroller.forgotpasswordsubmitmessage.error.text"  = "我们的记录中找不到此电子邮件地址。 请使用第4和西方提供的电子邮件。";
+"afcforgotpasswordviewcontroller.forgotpasswordsubmitmessage.error.button" = "好";
 
+/*
+ * AFCComposeEmailAction
+ */
 "afccomposeemailaction.alert.error.title" = "电子邮件";
 "afccomposeemailaction.alert.error.message" = "抱歉。 您的设备当前未设置为电子邮件。";
 "afccomposeemailaction.alert.button.title" = "好";
@@ -116,7 +118,6 @@
 "afcuisettingsviewcontroller.sectionname.locationprovider" = "位置提供者";
 "afcuisettingsviewcontroller.sectionname.maassdk" = "MaaS SDK";
 "afcuisettingsviewcontroller.sectionname.about" = "关于";
-
 "afcuisettingsviewcontroller.value.auto" = "汽车";
 "afcuisettingsviewcontroller.value.none" = "没有";
 "afcuisettingsviewcontroller.value.on" = "上";
@@ -124,11 +125,9 @@
 "afcuisettingsviewcontroller.value.preferences" = "优先";
 "afcuisettingsviewcontroller.value.version" = "版";
 "afcuisettingsviewcontroller.value.deviceid" = "设备ID";
-
-/*
- * AFCUIModalWebBrowser
- */
-"afcuimodalwebbrowser.webview.status.loading" = "载入中";
+"afcuisettingsviewcontroller.deviceidcopy.alert.title" = "注意";
+"afcuisettingsviewcontroller.deviceidcopy.alert.message" = "设备ID已被复制到剪贴板";
+"afcuisettingsviewcontroller.deviceidcopy.alert.button.title" = "好";
 
 /*
  * OS Privacy Settings
@@ -137,3 +136,52 @@
 "osprivacysettings.camera.denied.alert.button.settings" = "设置";
 "osprivacysettings.camera.settings.alert.title" = "";
 "osprivacysettings.camera.settings.alert.message" = "转到设备上的隐私设置，并启用相机访问权限以使用此功能。";
+"osprivacysettings.enable.push.notifications" = "启用推送通知";
+"osprivacysettings.dismiss" = "解雇";
+"osprivacysettings.setttings" = "设置";
+"osprivacysettings.gotosettings.enable.push.notifications" = "请转到设备上的通知设置，并启用推送通知以使用此功能。";
+"osprivacysettings.gotosettings.location.services.needed" = "需要定位服务";
+"osprivacysettings.gotosettings.cancel" = "取消";
+"osprivacysettings.gotosettings.take.me.there" = "带我到那里";
+
+/**
+ * Push notification actions
+ */
+"Directory.show" = "显示";
+"DirectoryItem.show" = "显示";
+"Events.show" = "显示";
+"EvenntItem.show" = "显示";
+"Map.show" = "显示";
+"Map.route" = "路线";
+"Offer.listing" = "目录";
+"Offer.detail" = "详情";
+"Parking.main" = "主要";
+"Parking.map" = "地图";
+"Parking.photo" = "照片";
+"Parking.voice" = "语音";
+"Parking.note" = "注解";
+"Page.show" = "显示";
+"SettingsMap.show" = "显示";
+"afcprocesspushnotification.ok" = "好";
+"afcprocesspushnotification.cancel" = "取消";
+
+/*
+ * AFCCMEConfiguration String
+ */
+"afccmeconfiguration.valid.load.descriptor" = "您必须提供一个有效/非零负载描述符";
+
+/*
+ * AFAnalyticsController
+ */
+"afanalyticscontroller.set.token.suffix" = "在调用'configure'超级方法之前设置令牌后缀";
+
+/*
+ * AFCDetailViewConfigurator
+ */
+"detailconfig.directory.route" = "路线";
+"detailconfig.directory.call" = "呼叫";
+"detailconfig.directory.email" = "电子邮件";
+"detailconfig.directory.website" = "网站";
+"detailconfig.directory.map" = "地图";
+"detailconfig.calendar" = "日历";
+"detailconfig.buytickets" = "购票";

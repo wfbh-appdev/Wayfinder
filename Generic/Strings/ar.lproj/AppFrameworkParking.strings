@@ -44,7 +44,6 @@
 "afcparkingviewcontroller.locationsavedmessage.text" = "موقع محفوظ";
 "afcparkingviewcontroller.imagesavedmessage.text" = "الصورة المحفوظة";
 "afcparkingviewcontroller.voicememosavedmessage.text" = "مذكرة صوت تم حفظها";
-"afcparkingviewcontroller.notesavedmessage.text" = "ملاحظة محفوظ";
 "afcparkingviewcontroller.titlelabel.text" = "موقف سيارات";
 
 /*
@@ -52,4 +51,5 @@
  */
 "afcparkingvoicememoviewcontroller.dateformat" = "EEE MMM dd 'at' h:mm a";
 "afcparkingvoicememoviewcontroller.recordvoicememotitle.text" = "تسجيل مذكرة لمساعدتك على تذكر";
-"afcparkingvoicememoviewcontroller.titlelabel.text" = "مذكرة للسيارات";
+"afcparkingvoicememoviewcontroller.recordingnotsupported" = "التسجيل غير متوافق على هذا الجهاز";
+"afcparkingvoicememoviewcontroller.lastrecorded" = "تاريخ آخر تسجيل:";

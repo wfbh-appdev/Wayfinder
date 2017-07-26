@@ -44,7 +44,6 @@
 "afcparkingviewcontroller.locationsavedmessage.text" = "Ubicación Guardada";
 "afcparkingviewcontroller.imagesavedmessage.text" = "Imagen Guardada";
 "afcparkingviewcontroller.voicememosavedmessage.text" = "Nota de Voz Guardada";
-"afcparkingviewcontroller.notesavedmessage.text" = "Nota Guardada";
 "afcparkingviewcontroller.titlelabel.text" = "Estacionamiento";
 
 /*
@@ -52,4 +51,5 @@
  */
 "afcparkingvoicememoviewcontroller.dateformat" = "EEE dd MMM 'a las' h:mm a";
 "afcparkingvoicememoviewcontroller.recordvoicememotitle.text" = "Guardar una nota de voz para recordarle dónde se estacionó";
-"afcparkingvoicememoviewcontroller.titlelabel.text" = "Recordatorio de Estacionamiento";
+"afcparkingvoicememoviewcontroller.recordingnotsupported" = "La grabación no es compatible con este dispositivo";
+"afcparkingvoicememoviewcontroller.lastrecorded" = "Última grabación:";

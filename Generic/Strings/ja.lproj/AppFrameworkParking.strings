@@ -44,7 +44,6 @@
 "afcparkingviewcontroller.locationsavedmessage.text" = "ローケーション セーブド";
 "afcparkingviewcontroller.imagesavedmessage.text" = "イミッジ セーブド";
 "afcparkingviewcontroller.voicememosavedmessage.text" = "ボイス メモー セーブド";
-"afcparkingviewcontroller.notesavedmessage.text" = "ノート セーブド";
 "afcparkingviewcontroller.titlelabel.text" = "パーキング";
 
 /*
@@ -52,4 +51,5 @@
  */
 "afcparkingvoicememoviewcontroller.dateformat" = "EEE MMM dd 'at' h:mm a";
 "afcparkingvoicememoviewcontroller.recordvoicememotitle.text" = "リコード エー メモー トゥー ヘルプ ユー リメンバー";
-"afcparkingvoicememoviewcontroller.titlelabel.text" = "パーキング メモー";
+"afcparkingvoicememoviewcontroller.recordingnotsupported" = "このデバイスでは録画がサポートされていません";
+"afcparkingvoicememoviewcontroller.lastrecorded" = "最後に記録された：";

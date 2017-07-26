@@ -11,7 +11,6 @@
  */
 "eventslistviewcontroller.favorites.all" = "All";
 "eventslistviewcontroller.favorites.only" = "Favorites";
-"eventslistviewcontroller.event.subtitle.fromto" = "From %@ to %@";
 
 /**
  * Events add to calendar

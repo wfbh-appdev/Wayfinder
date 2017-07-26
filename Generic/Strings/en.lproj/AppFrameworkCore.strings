@@ -12,7 +12,6 @@
  *   AFCUIEULAViewController Strings
  */
 "afcuieulaviewcontroller.agreebutton.buttontitle" = "I Agree";
-"afcuieulaviewcontroller.navbar.title" = "License Agreement";
 
 /*
  *   AFCUIWebViewController Strings
@@ -25,11 +24,15 @@
  */
 "afcuimodalwebbrowser.status.text" = "Loading";
 "afcuimodalwebbrowser.closebutton.buttontitle" = "Close";
+"afcuimodalwebbrowser.alert.title" = "Error";
+"afcuimodalwebbrowser.alert.message" = "You must be logged in to view this page.";
+"afcuimodalwebbrowser.alert.ok" = "OK";
+"afcuimodalwebbrowser.webview.status.loading" = "Loading";
+"afcuimodalwebbrowser.webview.status.error" = "Error";
 
 /*
  *  AFCCheckForceUpdate Strings
  */
-"afccheckforceupdate.prompt.message.displayforceupdate.alert.title" = "Update Required";
 "afccheckforceupdate.displayforceupdate.alert.title" = "App Update Available";
 "afccheckforceupdate.displayforceupdate.alert.message" = "A new version has been released. You must update to the latest version.";
 "afccheckforceupdate.displayforceupdate.alert.button.title" = "Update";
@@ -46,13 +49,6 @@
 "afclogoutaction.alert.button.title" = "Ok";
 
 /*
- * SSO WebView Alert Strings
- */
-"afcuimodalwebbrowser.alert.title" = "Error";
-"afcuimodalwebbrowser.alert.message" = "You must be logged in to view this page.";
-"afcuimodalwebbrowser.alert.ok" = "OK";
-
-/*
  * Layer Picker
  */
 "afclayerpickerviewcontroller.navbar.default.title" = "Levels";
@@ -62,6 +58,7 @@
 /*
  * Segments Error
  */
+"afcuialertsubscriptionviewcontroller.title" = "Profiles";
 "afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.title" = "Alert Settings";
 "afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.message" = "Please setup alert segments for this app on the portal.";
 "afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.cancelbutton.title" = "Ok";
@@ -77,16 +74,21 @@
 "afinitialdatabase.displayforceupdate.alert.button" = "Close app";
 
 /*
- *  No Layer Database Strings
+ * AFCForgotPasswordViewController
  */
-"aflayerdatabase.displayforceupdate.alert.title" = "Error";
-"aflayerdatabase.displayforceupdate.alert.message" = "This content requires a data connection, please check your mobile or WiFi network and try again.";
-"aflayerdatabase.displayforceupdate.alert.button" = "Ok";
-
 "afcforgotpasswordviewcontroller.alert.error.title" = "Error";
 "afcforgotpasswordviewcontroller.alert.error.message" = "You must enter a valid email address.";
 "afcforgotpasswordviewcontroller.alert.error.button.title" = "OK";
+"afcforgotpasswordviewcontroller.forgotpasswordsubmitbutton.sent" = "EMAIL SENT";
+"afcforgotpasswordviewcontroller.forgotpasswordsubmitmessage.title"  = "Success";
+"afcforgotpasswordviewcontroller.forgotpasswordsubmitmessage.text"  = "You should receive an email shortly.";
+"afcforgotpasswordviewcontroller.forgotpasswordsubmitmessage.error.title"  = "Invalid Email";
+"afcforgotpasswordviewcontroller.forgotpasswordsubmitmessage.error.text"  = "This email address was not found in our records. Please use the email provided by 4th and West.";
+"afcforgotpasswordviewcontroller.forgotpasswordsubmitmessage.error.button" = "Ok";
 
+/*
+ * AFCComposeEmailAction
+ */
 "afccomposeemailaction.alert.error.title" = "Email";
 "afccomposeemailaction.alert.error.message" = "Sorry. Your device is not currently setup for email.";
 "afccomposeemailaction.alert.button.title" = "OK";
@@ -116,7 +118,6 @@
 "afcuisettingsviewcontroller.sectionname.locationprovider" = "LOCATION PROVIDER";
 "afcuisettingsviewcontroller.sectionname.maassdk" = "MaaS SDKs";
 "afcuisettingsviewcontroller.sectionname.about" = "ABOUT";
-
 "afcuisettingsviewcontroller.value.auto" = "Auto";
 "afcuisettingsviewcontroller.value.none" = "None";
 "afcuisettingsviewcontroller.value.on" = "On";
@@ -124,11 +125,9 @@
 "afcuisettingsviewcontroller.value.preferences" = "Preferences";
 "afcuisettingsviewcontroller.value.version" = "Version";
 "afcuisettingsviewcontroller.value.deviceid" = "Device ID";
-
-/*
- * AFCUIModalWebBrowser
- */
-"afcuimodalwebbrowser.webview.status.loading" = "Loading";
+"afcuisettingsviewcontroller.deviceidcopy.alert.title" = "Notice";
+"afcuisettingsviewcontroller.deviceidcopy.alert.message" = "The device ID has been copied to the clipboard";
+"afcuisettingsviewcontroller.deviceidcopy.alert.button.title" = "Ok";
 
 /*
  * OS Privacy Settings
@@ -137,3 +136,52 @@
 "osprivacysettings.camera.denied.alert.button.settings" = "Settings";
 "osprivacysettings.camera.settings.alert.title" = "";
 "osprivacysettings.camera.settings.alert.message" = "Please go to the Privacy Settings on your device and enable camera access to use this feature.";
+"osprivacysettings.enable.push.notifications" = "Enable Push Notifications";
+"osprivacysettings.dismiss" = "Dismiss";
+"osprivacysettings.setttings" = "Settings";
+"osprivacysettings.gotosettings.enable.push.notifications" = "Please go to the Notification Settings on your device and enable push notifications to use this feature.";
+"osprivacysettings.gotosettings.location.services.needed" = "Location Services Needed";
+"osprivacysettings.gotosettings.cancel" = "Cancel";
+"osprivacysettings.gotosettings.take.me.there" = "Take Me There";
+
+/**
+ * Push notification actions
+ */
+"Directory.show" = "Show";
+"DirectoryItem.show" = "Show";
+"Events.show" = "Show";
+"EventItem.show" = "Show";
+"Map.show" = "Show";
+"Map.route" = "Route";
+"Offer.listing" = "Listing";
+"Offer.detail" = "Detail";
+"Parking.main" = "Main";
+"Parking.map" = "Map";
+"Parking.photo" = "Photo";
+"Parking.voice" = "Voice";
+"Parking.note" = "Note";
+"Page.show" = "Show";
+"SettingsMap.show" = "Show";
+"afcprocesspushnotification.ok" = "Ok";
+"afcprocesspushnotification.cancel" = "Cancel";
+
+/*
+ * AFCCMEConfiguration String
+ */
+"afccmeconfiguration.valid.load.descriptor" = "You must provide a valid/non-nil load descriptor";
+
+/*
+ * AFAnalyticsController
+ */
+"afanalyticscontroller.set.token.suffix" = "Set the token suffix before calling the 'configure' super method";
+
+/*
+ * AFCDetailViewConfigurator
+ */
+"detailconfig.route" = "Route";
+"detailconfig.call" = "Call";
+"detailconfig.email" = "Email";
+"detailconfig.website" = "Website";
+"detailconfig.map" = "Map";
+"detailconfig.calendar" = "Calendar";
+"detailconfig.buytickets" = "Buy Tickets";

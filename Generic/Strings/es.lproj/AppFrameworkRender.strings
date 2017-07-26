@@ -7,16 +7,18 @@
 /*** AF-RENDER STRINGS ***/
 
 /*
- * Smart Form Date/Time Picker Strings
+ * AFCUIDateTimePickerView Strings
  */
-"afcuidatepicker.alert.title" = "Seleccione Fecha";
-"afcuidatepicker.navbar.today" = "Hoy";
-"afcuitimepicker.alert.title" = "Seleccione Hora";
-"afcuipicker.alert.ok" = "De acuerdo";
-"afcuipicker.alert.cancel" = "Cancelar";
+"afcuidatetimepickerview.select.date" = "Seleccione una fecha";
+"afcuidatetimepickerview.select.time" = "Seleccione una hora";
 
 /*
- * Smart Form Image Upload Strings
+ * Smart Form Global Strings
+ */
+"smart.form.done" = "Terminado";
+
+/*
+ * AFCUIImageUploadButton & AFCUIMediaPickerViewController Strings
  */
 "afcuimediapicker.navbar.title" = "Seleccionar Imagen";
 "afcuimediapicker.toolbar.selectimage" = "Seleccionar Imagen";
@@ -28,17 +30,28 @@
 "afcuimediapicker.button.photouploaded" = "Carga de Foto Completa";
 
 /*
- * User Login Content Type Strings
+ * AFCUIUserLoginView Strings
  */
 "afcuiuserloginview.textfieldplaceholder.username" = "Usuario";
 "afcuiuserloginview.textfieldplaceholder.password" = "Contraseña";
 "afcuiuserloginview.loginbutton.text" = "Iniciar sesión";
-"afcuiuserloginview.loginbutton.failedtext" = "Inicio de Sesión Fallido";
 "afcuiuserloginview.loginmessage.invalidusernamepassword" = "Nombre de Usuario o Contraseña\ninválidos. Por favor, intente de nuevo.";
 
+/*
+ * AFCDynamicView Strings
+ */
 "forms.success.title" = "Enviado";
 "forms.success.message" = "Su solicitud ha sido enviada con éxito";
 "forms.success.button.title" = "OK";
 "forms.error.title" = "Error";
 "forms.error.message" = "Ha habido un error con su solicitud";
 "forms.error.button.title" = "OK";
+"forms.validation.title" = "Validación";
+"forms.validation.message" = "No se ha enviado el formulario. Falta uno o varios de los campos requeridos.";
+"forms.validation.button.title" = "Ok";
+
+/**
+ * AFCUIDynamicWeather Strings
+ */
+"afcuidynamicweather.title.text" = "Hoy en";
+"afcuidynamicweather.rain.text" = "lluvia";

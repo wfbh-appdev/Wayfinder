@@ -44,7 +44,6 @@
 "afcparkingviewcontroller.locationsavedmessage.text" = "Location Saved";
 "afcparkingviewcontroller.imagesavedmessage.text" = "Image Saved";
 "afcparkingviewcontroller.voicememosavedmessage.text" = "Voice Memo Saved";
-"afcparkingviewcontroller.notesavedmessage.text" = "Note Saved";
 "afcparkingviewcontroller.titlelabel.text" = "Parking";
 
 /*
@@ -52,4 +51,5 @@
  */
 "afcparkingvoicememoviewcontroller.dateformat" = "EEE MMM dd 'at' h:mm a";
 "afcparkingvoicememoviewcontroller.recordvoicememotitle.text" = "Record a memo to help you remember";
-"afcparkingvoicememoviewcontroller.titlelabel.text" = "Parking Memo";
+"afcparkingvoicememoviewcontroller.recordingnotsupported" = "Recording not supported on this device";
+"afcparkingvoicememoviewcontroller.lastrecorded" = "Last recorded:";

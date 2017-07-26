@@ -32,23 +32,25 @@
 "afcuimroutebuilderviewcontroller.welcomebackmessage.text" = "Agora vamos continuar roteando do estacionamento \ para o destino selecionado anteriormente.";
 "afcuimroutebuilderviewcontroller.welcomebackdismiss.buttontitle" = "REJEITAR";
 "afcuimroutebuilderviewcontroller.welcomebackrouteme.buttontitle" = "INDICAR TRAJETO";
+"afcuimroutebuilderviewcontroller.routeme.error.title" = "Route Error";
+"afcuimroutebuilderviewcontroller.routeme.error.message" = "No route can be found.";
+"afcuimroutebuilderviewcontroller.table.header.title" = "%1$@ at %2$@";
 
 /*
- *  AFCUIMPOIFilterEditorViewController Strings
+ *  AFMUIPOIFilterViewController Strings
  */
 "afcuimpoifiltereditorviewcontroller.savefiltersbutton.buttontitle" = "Salvar filtros";
 "afcuimpoifiltereditorviewcontroller.cancelbutton.buttontitle" = "Cancelar";
 "afcuimpoifiltereditorviewcontroller.titlelabel.text" = "Selecionar filtro POI";
 
 /*
- *  AFCUIAnnotationDetailViewController Strings
+ *  AFMUIPOIDetailViewController Strings
  */
 "afcuiannotationdetailviewcontroller.selectCampusButton.buttontitle" = "SELECIONAR ESTE CAMPUS";
 
 /*
  *  AFCUIMMapViewController Strings
  */
-"afcuimmapviewcontroller.endPointOfInterest.message" = "Você chegou.";
 "afcuimmapviewcontroller.promptlocationalert.takemetherebutton" = "Leve-me até lá";
 "afcuimmapviewcontroller.promptlocationalert.backtofacilitymapbutton" = "Voltar ao mapa das instalações";
 "afcuimmapviewcontroller.promptlocationalert.cancelbutton" = "Não, obrigado";
@@ -60,6 +62,7 @@
 "afcuimmapviewcontroller.buildingloaderroralert.title" = "Erro no mapa";
 "afcuimmapviewcontroller.buildingloaderroralert.message" = "Não foi possível carregar o mapa. Verifique sua conexão de rede";
 "afcuimmapviewcontroller.buildingloaderroralert.button" = "OK";
+"afcuimmapviewcontroller.ok" = "Ok";
 
 /**
  *  AFMUIPOIViewController Strings
@@ -71,8 +74,6 @@
 /*
  *  AFCUIMRoutingAnnotationView Strings
  */
-"afcuimroutingannotationview.taptogoback.title" = "TOQUE PARA VOLTAR";
-"afcuimroutingannotationview.taptoviewnext.title" = "TOQUE PARA VER O PRÓXIMO";
 "afcuimroutingannotationview.starthereannotation.title" = "Início";
 "afcuimroutingannotationview.destinationannotation.title" = "Fim";
 "afcuimroutingannotationview.tome.title" = "Tirar";
@@ -82,8 +83,6 @@
  * Map Picker
  */
 "afcmmappickerviewcontroller.navbar.title" = "Mapas";
-"afcmmappickerviewcontroller.promptlocationalert.title" = "Ajude-nos a guiar você";
-"afcmmappickerviewcontroller.promptlocationalert.message" = "Ative os serviços de localização para que possamos mostrar o local mais próximo.";
 
 /**
  * Turn by Turn
@@ -106,9 +105,16 @@
 "PWRouteInstructionDirectionElevatorDown" = "Descer com o elevador até";
 "PWRouteInstructionDirectionStairsUp" = "Subir as escadas para";
 "PWRouteInstructionDirectionStairsDown" = "Descer as escadas para";
+"PWRouteInstructionDirectionEscalatorUp" = "Take the escalator up to";
+"PWRouteInstructionDirectionEscalatorDown" = "Take the escalator down to";
 "PWRouteInstructionLast" = "Você chegou a";
 "PWRouteInstructionLastEmpty" = "Você chegou.";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime" = "Tempo total de trajeto";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minute" = "minuto";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "minutos";
 "afmuimapviewcontroller.turnbyturn.in" = "em";
+
+/**
+ *  AFMOutdoorToIndoor Strings
+ */
+"afmoutdoortoindoor.nativemap.title" = "%1$@ em %2$@";

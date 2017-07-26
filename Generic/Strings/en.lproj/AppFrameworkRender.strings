@@ -7,16 +7,18 @@
 /*** AF-RENDER STRINGS ***/
 
 /*
- * Smart Form Date/Time Picker Strings
+ * AFCUIDateTimePickerView Strings
  */
-"afcuidatepicker.alert.title" = "Select Date";
-"afcuidatepicker.navbar.today" = "Today";
-"afcuitimepicker.alert.title" = "Select Time";
-"afcuipicker.alert.ok" = "OK";
-"afcuipicker.alert.cancel" = "Cancel";
+"afcuidatetimepickerview.select.date" = "Select a Date";
+"afcuidatetimepickerview.select.time" = "Select a Time";
 
 /*
- * Smart Form Image Upload Strings
+ * Smart Form Global Strings
+ */
+"smart.form.done" = "Done";
+
+/*
+ * AFCUIImageUploadButton & AFCUIMediaPickerViewController Strings
  */
 "afcuimediapicker.navbar.title" = "Select Image";
 "afcuimediapicker.toolbar.selectimage" = "Select Image";
@@ -28,17 +30,28 @@
 "afcuimediapicker.button.photouploaded" = "Photo Uploaded";
 
 /*
- * User Login Content Type Strings
+ * AFCUIUserLoginView Strings
  */
 "afcuiuserloginview.textfieldplaceholder.username" = "Username";
 "afcuiuserloginview.textfieldplaceholder.password" = "Password";
 "afcuiuserloginview.loginbutton.text" = "Login";
-"afcuiuserloginview.loginbutton.failedtext" = "Login Failed";
 "afcuiuserloginview.loginmessage.invalidusernamepassword" = "Invalid username or password entered.\nPlease, try again.";
 
+/*
+ * AFCDynamicView Strings
+ */
 "forms.success.title" = "Success";
 "forms.success.message" = "Your request has been sent successfully";
 "forms.success.button.title" = "OK";
 "forms.error.title" = "Error";
 "forms.error.message" = "There was an error with your request";
 "forms.error.button.title" = "OK";
+"forms.validation.title" = "Validation";
+"forms.validation.message" = "Failed to send form. One or more required fields are missing.";
+"forms.validation.button.title" = "Ok";
+
+/**
+ * AFCUIDynamicWeather Strings
+ */
+"afcuidynamicweather.title.text" = "Today at";
+"afcuidynamicweather.rain.text" = "rain";

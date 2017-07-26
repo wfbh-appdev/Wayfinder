@@ -32,23 +32,25 @@
 "afcuimroutebuilderviewcontroller.welcomebackmessage.text" = "سنقوم الآن تستمر عملية التوجيه من موقف للسيارات \ إلى وجهتك التي تم اختيارها مسبقا.";
 "afcuimroutebuilderviewcontroller.welcomebackdismiss.buttontitle" = "استبعاد";
 "afcuimroutebuilderviewcontroller.welcomebackrouteme.buttontitle" = "طريق أنا؛";
+"afcuimroutebuilderviewcontroller.routeme.error.title" = "خطأ في المسار";
+"afcuimroutebuilderviewcontroller.routeme.error.message" = "لا يمكن العثور على أي مسار.";
+"afcuimroutebuilderviewcontroller.table.header.title" = "%1$@ at %2$@";
 
 /*
- *  AFCUIMPOIFilterEditorViewController Strings
+ *  AFMUIPOIFilterViewController Strings
  */
 "afcuimpoifiltereditorviewcontroller.savefiltersbutton.buttontitle" = "حفظ مرشحات";
 "afcuimpoifiltereditorviewcontroller.cancelbutton.buttontitle" = "إلغاء";
 "afcuimpoifiltereditorviewcontroller.titlelabel.text" = "اختار في و اي فلتر";
 
 /*
- *  AFCUIAnnotationDetailViewController Strings
+ *  AFMUIPOIDetailViewController Strings
  */
 "afcuiannotationdetailviewcontroller.selectCampusButton.buttontitle" = "اختر هذا الحرم الجامعي";
 
 /*
  *  AFCUIMMapViewController Strings
  */
-"afcuimmapviewcontroller.endPointOfInterest.message" = "كنت قد وصلت.";
 "afcuimmapviewcontroller.promptlocationalert.takemetherebutton" = "خذني هناك";
 "afcuimmapviewcontroller.promptlocationalert.backtofacilitymapbutton" = "العودة إلى خريطة المرفق";
 "afcuimmapviewcontroller.promptlocationalert.cancelbutton" = "لا شكرا";
@@ -60,6 +62,7 @@
 "afcuimmapviewcontroller.buildingloaderroralert.title" = "خطأ خريطة";
 "afcuimmapviewcontroller.buildingloaderroralert.message" = "ونحن لا يمكن تحميل خريطة في هذا الوقت. تحقق من اتصال الشبكة.";
 "afcuimmapviewcontroller.buildingloaderroralert.button" = "حسنا";
+"afcuimmapviewcontroller.ok" = "حسنا";
 
 /**
  *  AFMUIPOIViewController Strings
@@ -71,8 +74,6 @@
 /*
  *  AFCUIMRoutingAnnotationView Strings
  */
-"afcuimroutingannotationview.taptogoback.title" = "حنفية إلى اذهب الى الخلف";
-"afcuimroutingannotationview.taptoviewnext.title" = "حنفية إلى رأي التالى";
 "afcuimroutingannotationview.starthereannotation.title" = "بداية";
 "afcuimroutingannotationview.destinationannotation.title" = "النهاية";
 "afcuimroutingannotationview.tome.title" = "أخذ";
@@ -82,8 +83,6 @@
  * Map Picker
  */
 "afcmmappickerviewcontroller.navbar.title" = "خرائط";
-"afcmmappickerviewcontroller.promptlocationalert.title" = "ساعدونا في إرشادك";
-"afcmmappickerviewcontroller.promptlocationalert.message" = "يرجى تمكين خدمات الموقع ولذا فإننا يمكن أن تظهر لك أقرب موقع.";
 
 /**
  * Turn by Turn
@@ -106,9 +105,16 @@
 "PWRouteInstructionDirectionElevatorDown" = "استقل المصعد الى";
 "PWRouteInstructionDirectionStairsUp" = "خذ على الدرج الى";
 "PWRouteInstructionDirectionStairsDown" = "اصعد السلالم وصولا الى";
+"PWRouteInstructionDirectionEscalatorUp" = "سلم كهربائى";
+"PWRouteInstructionDirectionEscalatorDown" = "سلم كهربائى";
 "PWRouteInstructionLast" = "كنت قد وصلت في";
 "PWRouteInstructionLastEmpty" = "لقد وصلت.";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime" = "إجمالي مدة السفر";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minute" = "دقيقة";
 "afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "دقائق";
 "afmuimapviewcontroller.turnbyturn.in" = "في";
+
+/**
+ *  AFMOutdoorToIndoor Strings
+ */
+"afmoutdoortoindoor.nativemap.title" = "%1$@ at %2$@";
