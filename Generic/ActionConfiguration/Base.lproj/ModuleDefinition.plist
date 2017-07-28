@@ -2013,7 +2013,7 @@
 					<key>titleFontSize</key>
 					<integer>11</integer>
 					<key>image</key>
-					<string></string>
+					<string>icon_route_event</string>
 					<key>backgroundColor</key>
 					<string>#0000000</string>
 					<key>buttonClickClass</key>
@@ -2035,7 +2035,7 @@
 					<key>titleFontSize</key>
 					<integer>11</integer>
 					<key>image</key>
-					<string></string>
+					<string>icon_call_event</string>
 					<key>backgroundColor</key>
 					<string>#0000000</string>
 					<key>buttonClickClass</key>
@@ -2057,7 +2057,7 @@
 					<key>titleFontSize</key>
 					<integer>11</integer>
 					<key>image</key>
-					<string></string>
+					<string>icon_email</string>
 					<key>backgroundColor</key>
 					<string>#0000000</string>
 					<key>buttonClickClass</key>
@@ -2079,7 +2079,7 @@
 					<key>titleFontSize</key>
 					<integer>11</integer>
 					<key>image</key>
-					<string></string>
+					<string>icon_website</string>
 					<key>backgroundColor</key>
 					<string>#0000000</string>
 					<key>buttonClickClass</key>
@@ -2101,7 +2101,7 @@
 					<key>titleFontSize</key>
 					<integer>11</integer>
 					<key>image</key>
-					<string></string>
+					<string>icon_map_event</string>
 					<key>backgroundColor</key>
 					<string>#0000000</string>
 					<key>buttonClickClass</key>
