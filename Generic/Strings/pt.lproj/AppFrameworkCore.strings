@@ -12,6 +12,7 @@
  *   AFCUIEULAViewController Strings
  */
 "afcuieulaviewcontroller.agreebutton.buttontitle" = "Concordo";
+"afcuieulaviewcontroller.navbar.title" = "Contrato de licença";
 
 /*
  *   AFCUIWebViewController Strings

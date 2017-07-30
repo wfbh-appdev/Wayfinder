@@ -1,4 +1,4 @@
-﻿/*** AF-CORE STRINGS ***/
+/*** AF-CORE STRINGS ***/
 
 /**
  * EULA Agreement
@@ -12,6 +12,7 @@
  *   AFCUIEULAViewController Strings
  */
 "afcuieulaviewcontroller.agreebutton.buttontitle" = "I Agree";
+"afcuieulaviewcontroller.navbar.title" = "License Agreement";
 
 /*
  *   AFCUIWebViewController Strings
