@@ -35,7 +35,7 @@ NSString *kPwMessagingVersion = @"3.1.0";
         versionString = PWCore_Version;
     if ([super.textLabel.text isEqualToString:@"PwAds"])
         versionString = PWADS_VERSION;
-    if ([super.textLabel.text isEqualToString:@"PwMessaging"]) {
+    if ([super.textLabel.text isEqualToString:@"PwEngagement"]) {
         versionString = [PWEngagement version];
     }
 
