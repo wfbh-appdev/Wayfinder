@@ -1137,6 +1137,8 @@
 								<integer>18</integer>
 								<key>routeSnappingTolerance</key>
 								<string>PWRouteSnapToleranceHigh</string>
+								<key>floorPickerSortType</key>
+								<integer>0</integer>
 							</dict>
 						</dict>
 						<key>dependencies</key>
@@ -1214,6 +1216,8 @@
 								<integer>18</integer>
 								<key>routeSnappingTolerance</key>
 								<string>PWRouteSnapToleranceHigh</string>
+								<key>floorPickerSortType</key>
+								<integer>0</integer>
 							</dict>
 						</dict>
 						<key>dependencies</key>
@@ -1340,9 +1344,9 @@
 						<key>alphaSorted</key>
 						<true/>
 						<key>poiListSectionType</key>
-						<string>0</string>
+						<integer>0</integer>
 						<key>poiListLayoutType</key>
-						<string>0</string>
+						<integer>0</integer>
 					</dict>
 				</dict>
 			</dict>
@@ -1370,6 +1374,10 @@
 						<true/>
 						<key>alphaSorted</key>
 						<true/>
+						<key>poiListSectionType</key>
+						<integer>0</integer>
+						<key>poiListLayoutType</key>
+						<integer>0</integer>
 					</dict>
 				</dict>
 			</dict>
