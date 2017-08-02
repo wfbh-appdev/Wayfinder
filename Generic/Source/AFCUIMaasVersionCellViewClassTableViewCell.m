@@ -15,7 +15,7 @@
 #import <PWEngagement/PWEngagement.h>
 
 NSString *kPwMapKitVersion = @"3.1.4";
-NSString *kPwLocationVersion = @"3.1.3";
+NSString *kPwLocationVersion = @"3.1.6";
 NSString *kPwMessagingVersion = @"3.1.0";
 
 
