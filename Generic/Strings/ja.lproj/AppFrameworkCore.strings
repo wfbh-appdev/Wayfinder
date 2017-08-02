@@ -179,11 +179,11 @@
 /*
  * AFCDetailViewConfigurator
  */
-"detailconfig.directory.route" = "ルート";
-"detailconfig.directory.call" = "コール";
-"detailconfig.directory.email" = "Eメール";
-"detailconfig.directory.website" = "ウェブサイト";
-"detailconfig.directory.map" = "地図";
+"detailconfig.route" = "ルート";
+"detailconfig.call" = "コール";
+"detailconfig.email" = "Eメール";
+"detailconfig.website" = "ウェブサイト";
+"detailconfig.map" = "地図";
 "detailconfig.calendar" = "カレンダー";
 "detailconfig.buytickets" = "チケットを買う";
 "detailconfig.favorite" = "お気に入り";

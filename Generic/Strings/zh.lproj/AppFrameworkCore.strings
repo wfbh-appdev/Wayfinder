@@ -179,11 +179,11 @@
 /*
  * AFCDetailViewConfigurator
  */
-"detailconfig.directory.route" = "路线";
-"detailconfig.directory.call" = "呼叫";
-"detailconfig.directory.email" = "电子邮件";
-"detailconfig.directory.website" = "网站";
-"detailconfig.directory.map" = "地图";
+"detailconfig.route" = "路线";
+"detailconfig.call" = "呼叫";
+"detailconfig.email" = "电子邮件";
+"detailconfig.website" = "网站";
+"detailconfig.map" = "地图";
 "detailconfig.calendar" = "日历";
 "detailconfig.buytickets" = "购票";
 "detailconfig.favorite" = "喜爱";

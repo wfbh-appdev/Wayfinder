@@ -179,11 +179,11 @@
 /*
  * AFCDetailViewConfigurator
  */
-"detailconfig.directory.route" = "طريق";
-"detailconfig.directory.call" = "مكالمة";
-"detailconfig.directory.email" = "البريد الإلكتروني";
-"detailconfig.directory.website" = "موقع الكتروني";
-"detailconfig.directory.map" = "خريطة";
+"detailconfig.route" = "طريق";
+"detailconfig.call" = "مكالمة";
+"detailconfig.email" = "البريد الإلكتروني";
+"detailconfig.website" = "موقع الكتروني";
+"detailconfig.map" = "خريطة";
 "detailconfig.calendar" = "التقويم";
 "detailconfig.buytickets" = "اشتري تذاكر";
 "detailconfig.favorite" = "المفضل";
