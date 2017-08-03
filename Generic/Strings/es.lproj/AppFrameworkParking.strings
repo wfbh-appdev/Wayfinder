@@ -1,0 +1,55 @@
+/* 
+  AppFrameworkParking.strings
+
+  Copyright © 2017 Phunware. All rights reserved.
+*/
+
+/*** AF-PARKING STRINGS ***/
+
+/*
+ *  AFCParkingMapViewController Strings
+ */
+"afcparkingmapviewcontroller.droppinbutton.buttontitle" = "Colocar un Pin";
+"afcparkingmapviewcontroller.droppinbutton.clearenabled.buttontitle" = "Borrar todo";
+"afcparkingmapviewcontroller.droppinbutton.droppinenabled.buttontitle" = "Colocar un Pin";
+"afcparkingmapviewcontroller.droppinbutton.droppindisabled.buttontitle" = "Colocar un Pin";
+"afcparkingmapviewcontroller.titlelabel.text" = "Pin en mi ubicación";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.title" = "Por favor, activa ubicación";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.message" = "Ayúdanos a mantener un registro de su lugar de estacionamiento al permitir la ubicación";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.okbutton.title" = "SÍ";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.cancelbutton.title" = "No gracias";
+
+/*
+ *  AFCParkingNoteViewController Strings
+ */
+"afcparkingnoteviewcontroller.noteslabel.text" = "Escriba una nota que le recuerde dónde se ha estacionado...";
+"afcparkingnoteviewcontroller.titlelabel.text" = "Nota de Estacionamiento";
+
+/*
+ *  AFCParkingPhotoViewController Strings
+ */
+"afcparkingphotoviewcontroller.message.text" = "Por favor, haga tap en el botón de la cámara\npara tomar una foto";
+"afcparkingphotoviewcontroller.deniedcamera.message.text" = "Para tomar una fotografía de su espacio de estacionamiento, permita a la aplicación acceder a la cámara de su teléfono.";
+"afcparkingphotoviewcontroller.restrictedcamera.message.text" = "La cámara no puede ser accedida debido a las restricciones de su dispositivo.";
+
+/*
+ *  AFCParkingViewController Strings
+ */
+"afcparkingviewcontroller.parkingremindertitle.text" = "Recordatorio de Estacionamiento";
+"afcparkingviewcontroller.parkingchoosemethod.text" = "Elija un método:";
+"afcparkingviewcontroller.gpslocationbuttonlabel.text" = "Colocar un Pin";
+"afcparkingviewcontroller.takepicturebuttonlabel.text" = "Tomar una Foto";
+"afcparkingviewcontroller.recordvoicememobuttonlabel.text" = "Grabar Una Nota de Voz";
+"afcparkingviewcontroller.writenotebuttonlabel.text" = "Escribir Una Nota";
+"afcparkingviewcontroller.locationsavedmessage.text" = "Ubicación Guardada";
+"afcparkingviewcontroller.imagesavedmessage.text" = "Imagen Guardada";
+"afcparkingviewcontroller.voicememosavedmessage.text" = "Nota de Voz Guardada";
+"afcparkingviewcontroller.titlelabel.text" = "Estacionamiento";
+
+/*
+ *  AFCParkingVoiceMemoViewController Strings
+ */
+"afcparkingvoicememoviewcontroller.dateformat" = "EEE dd MMM 'a las' h:mm a";
+"afcparkingvoicememoviewcontroller.recordvoicememotitle.text" = "Guardar una nota de voz para recordarle dónde se estacionó";
+"afcparkingvoicememoviewcontroller.recordingnotsupported" = "La grabación no es compatible con este dispositivo";
+"afcparkingvoicememoviewcontroller.lastrecorded" = "Última grabación:";

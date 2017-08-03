@@ -33,10 +33,6 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Help us determine directions to and around your destination</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Help us determine directions to and around your destination</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>LSApplicationQueriesSchemes</key>
@@ -64,11 +60,21 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-	<key>NSCameraUsageDescription</key>
-	<string>$(PRODUCT_NAME) camera use</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Allows saving calendar reminders</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Allows ability to provide location within maps</string>
+	<key>NSMotionUsageDescription</key>
+	<string>Allows ability to show movement during routing</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>$(PRODUCT_NAME) microphone use</string>
+	<string>Allows option for user to save audio when needed</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Allows ability to take a picture</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>$(PRODUCT_NAME) photo library use</string>
+	<string>Allows ability to add a photo</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Allows location to be available when in background</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Allows location to be available when using app</string>
 </dict>
 </plist>

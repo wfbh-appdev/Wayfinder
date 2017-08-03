@@ -1,0 +1,55 @@
+/* 
+  AppFrameworkParking.strings
+
+  Copyright © 2017 Phunware. All rights reserved.
+*/
+
+/*** AF-PARKING STRINGS ***/
+
+/*
+ *  AFCParkingMapViewController Strings
+ */
+"afcparkingmapviewcontroller.droppinbutton.buttontitle" = "إسقاط دبوس";
+"afcparkingmapviewcontroller.droppinbutton.clearenabled.buttontitle" = "واضح";
+"afcparkingmapviewcontroller.droppinbutton.droppinenabled.buttontitle" = "إسقاط دبوس";
+"afcparkingmapviewcontroller.droppinbutton.droppindisabled.buttontitle" = "إسقاط دبوس";
+"afcparkingmapviewcontroller.titlelabel.text" = "دبوس مكاني";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.title" = "يرجى تمكين الموقع";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.message" = "ساعدونا في تتبع مكان وقوف السيارات الخاصة بك من خلال تمكين الموقع";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.okbutton.title" = "حسنا";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.cancelbutton.title" = "لا شكرا";
+
+/*
+ *  AFCParkingNoteViewController Strings
+ */
+"afcparkingnoteviewcontroller.noteslabel.text" = "كتابة مذكرة لمساعدتك على تذكر أين كنت واقفة...";
+"afcparkingnoteviewcontroller.titlelabel.text" = "مواقف ملاحظة";
+
+/*
+ *  AFCParkingPhotoViewController Strings
+ */
+"afcparkingphotoviewcontroller.message.text" = "يرجى النقر على زر الكاميرا \ أدناه لالتقاط صورة";
+"afcparkingphotoviewcontroller.deniedcamera.message.text" = "لالتقاط صورة من مكان وقوف السيارات الخاصة بك، أرجو أن تسمحوا للتطبيق بالوصول إلى كاميرا الهاتف الخاص بك.";
+"afcparkingphotoviewcontroller.restrictedcamera.message.text" = "لا يمكن الوصول إلى الكاميرا بسبب القيود المفروضة على جهازك.";
+
+/*
+ *  AFCParkingViewController Strings
+ */
+"afcparkingviewcontroller.parkingremindertitle.text" = "تذكير للسيارات";
+"afcparkingviewcontroller.parkingchoosemethod.text" = "اختيار الأسلوب أدناه:";
+"afcparkingviewcontroller.gpslocationbuttonlabel.text" = "دبوس جي في يس الموقع";
+"afcparkingviewcontroller.takepicturebuttonlabel.text" = "التقط صوره";
+"afcparkingviewcontroller.recordvoicememobuttonlabel.text" = "تسجيل مذكرة";
+"afcparkingviewcontroller.writenotebuttonlabel.text" = "اكتب ملاحظة";
+"afcparkingviewcontroller.locationsavedmessage.text" = "موقع محفوظ";
+"afcparkingviewcontroller.imagesavedmessage.text" = "الصورة المحفوظة";
+"afcparkingviewcontroller.voicememosavedmessage.text" = "مذكرة صوت تم حفظها";
+"afcparkingviewcontroller.titlelabel.text" = "موقف سيارات";
+
+/*
+ *  AFCParkingVoiceMemoViewController Strings
+ */
+"afcparkingvoicememoviewcontroller.dateformat" = "EEE MMM dd 'at' h:mm a";
+"afcparkingvoicememoviewcontroller.recordvoicememotitle.text" = "تسجيل مذكرة لمساعدتك على تذكر";
+"afcparkingvoicememoviewcontroller.recordingnotsupported" = "التسجيل غير متوافق على هذا الجهاز";
+"afcparkingvoicememoviewcontroller.lastrecorded" = "تاريخ آخر تسجيل:";

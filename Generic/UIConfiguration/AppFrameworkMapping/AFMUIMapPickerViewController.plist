@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>view</key>
+	<dict/>
+	<key>table</key>
+	<dict/>
+	<key>titleLabel</key>
+	<dict>
+		<key>text</key>
+		<string>#afcmmappickerviewcontroller.navbar.title,AppFrameworkMapping</string>
+	</dict>
+	<key>navigationBar</key>
+	<dict>
+		<key>tintColor</key>
+		<string>#ffffff</string>
+	</dict>
+</dict>
+</plist>

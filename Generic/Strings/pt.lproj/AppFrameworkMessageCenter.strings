@@ -1,0 +1,40 @@
+/* 
+  AppFrameworkMessageCenter.strings
+
+  Copyright © 2017 Phunware. All rights reserved.
+*/
+
+/*** AF-LOCATIONMARKETING STRINGS ***/
+
+/*
+ *  AFCOfferWalletViewController Strings
+ */
+"afmcofferwalletviewcontroller.titlelabel.text" = "Centro de mensagens";
+"afmcofferwalletviewcontroller.titlelabel.text.editing" = "Editar";
+"afmcofferwalletviewcontroller.emptymessagelabel.text" = "Você não tem mensagens no momento.";
+"afmcofferwalletviewcontroller.deletebutton.title" = "Excluir";
+"afmcofferwalletviewcontroller.alert.title" = "Excluir mensagens";
+"afmcofferwalletviewcontroller.alert.description" = "Tem certeza que deseja excluir estas %d mensagens";
+"afmcofferwalletviewcontroller.alert.cancelbutton.title" = "NÃO";
+"afmcofferwalletviewcontroller.alert.deletebutton.title" = "YES";
+"afmcofferwalletviewcontroller.expirationdate.text" = "VÁLIDO ATÉ %@";
+
+/*
+ *  AFCOfferDetailViewController Strings
+ */
+"afmcofferdetailviewcontroller.titlelabel.text" = "Promoção";
+"afmcofferdetailviewcontroller.expirationdatelabel.text" = "VÁLIDO ATÉ %@";
+"afmcofferdetailviewcontroller.offerbutton.title" = "Receba uma oferta gratuita!";
+"afmcofferdetailviewcontroller.alert.title" = "Excluir";
+"afmcofferdetailviewcontroller.alert.message" = "Tem certeza que deseja excluir esta mensagem?";
+"afmcofferdetailviewcontroller.alert.cancelbutton.title" = "NÃO";
+"afmcofferdetailviewcontroller.alert.deletebutton.title" = "SIM";
+"afmcofferdetailviewcontroller.onetimepromoalert.cancelbutton.title" = "Cancelar";
+"afmcofferdetailviewcontroller.onetimepromoalert.redeembutton.title" = "Resgatar";
+"afmcofferdetailviewcontroller.onetimepromoalert.title" = "Promoção de Uso Único";
+"afmcofferdetailviewcontroller.onetimepromoalert.message" = "A resgatar esta oferta irá removê-la do Centro de Mensagens.";
+
+/*
+ *  AFMCOfferSwipeViewController Strings
+ */
+"afmcofferswipeviewcontroller.titlelabel.text" = "Promoção";

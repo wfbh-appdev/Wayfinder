@@ -1,0 +1,20 @@
+/* 
+ * AppFrameworkDirectory.strings
+ *
+ * Copyright © 2017 Phunware. All rights reserved.
+ */
+
+/*** AF-DIRECTORY STRINGS ***/
+
+/**
+ * AFDDirectoryViewController Strings
+ */
+"afddirectoryviewcontroller.title" = "دليل";
+"afddirectoryviewcontroller.noresults.title" = "لم يتم العثور على نتائج";
+
+/**
+ * AFDDirectoryCategoryViewController Strings
+ */
+"afddirectorycategoryviewcontroller.title" = "مرشحات";
+"afddirectorycategoryviewcontroller.clearbutton.text" = "واضح";
+"afddirectorycategoryviewcontroller.savebutton.title" = "تطبيق التصفيات";

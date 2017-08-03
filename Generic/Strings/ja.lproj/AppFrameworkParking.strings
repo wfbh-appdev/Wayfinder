@@ -1,0 +1,55 @@
+/* 
+  AppFrameworkParking.strings
+
+  Copyright © 2017 Phunware. All rights reserved.
+*/
+
+/*** AF-PARKING STRINGS ***/
+
+/*
+ *  AFCParkingMapViewController Strings
+ */
+"afcparkingmapviewcontroller.droppinbutton.buttontitle" = "ドロップ エー ピン";
+"afcparkingmapviewcontroller.droppinbutton.clearenabled.buttontitle" = "クリア";
+"afcparkingmapviewcontroller.droppinbutton.droppinenabled.buttontitle" = "ドロップ エー ピン";
+"afcparkingmapviewcontroller.droppinbutton.droppindisabled.buttontitle" = "ドロップ エー ピン";
+"afcparkingmapviewcontroller.titlelabel.text" = "ピン マイ ローケーション";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.title" = "プリーズ イネーブル ローケーション";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.message" = "ヘルプ アズ キープ トラック オブ ヨー パーキング スポット バイ イネーブリング ローケーション";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.okbutton.title" = "オーケー";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.cancelbutton.title" = "ノー サンクス";
+
+/*
+ *  AFCParkingNoteViewController Strings
+ */
+"afcparkingnoteviewcontroller.noteslabel.text" = "ライト エー ノート トゥー ヘルプ ユー リメンバー ウェア ユーブ パークト";
+"afcparkingnoteviewcontroller.titlelabel.text" = "パーキング ノート";
+
+/*
+ *  AFCParkingPhotoViewController Strings
+ */
+"afcparkingphotoviewcontroller.message.text" = "下のカメラボタンをタップして写真を撮ってください";
+"afcparkingphotoviewcontroller.deniedcamera.message.text" = "トゥー テーク エー フォートー オブ ヨー パーキング スポット プリーズ アラウ ザー アップ トゥー アクセス ヨー フォーンズ キャマラー";
+"afcparkingphotoviewcontroller.restrictedcamera.message.text" = "キャマラー・カーント・ビー・アクセスト・ジュー・リストリクションズ・オン・ヨー・ディバイス";
+
+/*
+ *  AFCParkingViewController Strings
+ */
+"afcparkingviewcontroller.parkingremindertitle.text" = "パーキング リマインダー";
+"afcparkingviewcontroller.parkingchoosemethod.text" = "チューズ エー メソド・ビロー";
+"afcparkingviewcontroller.gpslocationbuttonlabel.text" = "ピン グプス ローケーション";
+"afcparkingviewcontroller.takepicturebuttonlabel.text" = "テーク エー ピクチャー";
+"afcparkingviewcontroller.recordvoicememobuttonlabel.text" = "リコード エー メモー";
+"afcparkingviewcontroller.writenotebuttonlabel.text" = "ライト エー ノート";
+"afcparkingviewcontroller.locationsavedmessage.text" = "ローケーション セーブド";
+"afcparkingviewcontroller.imagesavedmessage.text" = "イミッジ セーブド";
+"afcparkingviewcontroller.voicememosavedmessage.text" = "ボイス メモー セーブド";
+"afcparkingviewcontroller.titlelabel.text" = "パーキング";
+
+/*
+ *  AFCParkingVoiceMemoViewController Strings
+ */
+"afcparkingvoicememoviewcontroller.dateformat" = "EEE MMM dd 'at' h:mm a";
+"afcparkingvoicememoviewcontroller.recordvoicememotitle.text" = "リコード エー メモー トゥー ヘルプ ユー リメンバー";
+"afcparkingvoicememoviewcontroller.recordingnotsupported" = "このデバイスでは録画がサポートされていません";
+"afcparkingvoicememoviewcontroller.lastrecorded" = "最後に記録された：";

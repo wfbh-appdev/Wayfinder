@@ -448,7 +448,7 @@
 						<key>accessoryViewType</key>
 						<integer>1</integer>
 						<key>imagePlaceholder</key>
-						<string>image_placeholder_detail</string>
+						<string>directory_image_placeholder_thumbnail</string>
 					</dict>
 				</dict>
 				<key>dependencies</key>
@@ -537,6 +537,21 @@
 					<string>show</string>
 					<key>viewController</key>
 					<string>AFDDirectoryItemViewController</string>
+					<key>properties</key>
+					<dict>
+						<key>itemTitle</key>
+						<string>$action.itemTitle</string>
+						<key>itemSubtitle</key>
+						<string>$action.itemSubtitle</string>
+						<key>imageURL</key>
+						<string>$action.imageURL</string>
+						<key>itemDescription</key>
+						<string>$action.itemDescription</string>
+						<key>buttons</key>
+						<string>$action.buttons</string>
+						<key>imagePlaceholder</key>
+						<string>directory_image_placeholder_detail</string>
+					</dict>
 				</dict>
 			</dict>
 		</dict>
@@ -740,7 +755,7 @@
 						<key>itemDetailContext</key>
 						<string>Event Detail</string>
 						<key>imagePlaceholder</key>
-						<string>image_placeholder_detail</string>
+						<string>events_image_placeholder_detail</string>
 					</dict>
 				</dict>
 				<key>dependencies</key>
@@ -809,63 +824,13 @@
 						<key>iconShareName</key>
 						<string>icon_share</string>
 						<key>imagePlaceholder</key>
-						<string>image_placeholder_detail</string>
+						<string>events_image_placeholder_detail</string>
 					</dict>
 				</dict>
 			</dict>
 		</dict>
 		<key>EventItem</key>
 		<dict>
-			<key>show</key>
-			<dict>
-				<key>className</key>
-				<string>AFCLoadViewControllerAction</string>
-				<key>parameters</key>
-				<dict>
-					<key>viewController</key>
-					<string>EventsDetailViewController</string>
-					<key>presentationMode</key>
-					<string>push</string>
-					<key>shouldAnimate</key>
-					<true/>
-					<key>properties</key>
-					<dict>
-						<key>itemTitle</key>
-						<string>$action.itemTitle</string>
-						<key>itemSubtitle</key>
-						<string>$action.itemSubtitle</string>
-						<key>itemDescription</key>
-						<string>$action.itemDescription</string>
-						<key>buttons</key>
-						<string>$action.buttons</string>
-						<key>imageURL</key>
-						<string>$action.imageURL</string>
-						<key>iconShareName</key>
-						<string>icon_share</string>
-						<key>imagePlaceholder</key>
-						<string>image_placeholder_detail</string>
-					</dict>
-				</dict>
-				<key>dependencies</key>
-				<array>
-					<dict>
-						<key>className</key>
-						<string>AFCActionIncluder</string>
-						<key>parameters</key>
-						<dict>
-							<key>includeContentType</key>
-							<string>EventItem</string>
-							<key>includeContentAction</key>
-							<string>load</string>
-							<key>includeParameters</key>
-							<dict>
-								<key>contentId</key>
-								<string>$action.contentId</string>
-							</dict>
-						</dict>
-					</dict>
-				</array>
-			</dict>
 			<key>load</key>
 			<dict>
 				<key>className</key>
@@ -880,6 +845,14 @@
 					<string>$CACHES</string>
 					<key>shouldPrependProperty</key>
 					<true/>
+					<key>startDateKey</key>
+					<string>StartDate</string>
+					<key>endDateKey</key>
+					<string>EndDate</string>
+					<key>DBDateFormatKey</key>
+					<string>MM/dd/yyyy HH:mm:ss</string>
+					<key>clientDateFormatKey</key>
+					<string>MMM d</string>
 					<key>queryData</key>
 					<dict>
 						<key>events</key>
@@ -1105,8 +1078,6 @@
 							<true/>
 							<key>properties</key>
 							<dict>
-								<key>campus</key>
-								<string>$app.kAFCApplicationStateCurrentCampus</string>
 								<key>favoritesContext</key>
 								<string>$module.mapFavoritesContext</string>
 								<key>altitudeToApplyWorkaroundiOS9</key>
@@ -1182,8 +1153,6 @@
 							<true/>
 							<key>properties</key>
 							<dict>
-								<key>campus</key>
-								<string>$app.kAFCApplicationStateCurrentCampus</string>
 								<key>favoritesContext</key>
 								<string>$module.mapFavoritesContext</string>
 								<key>altitudeToApplyWorkaroundiOS9</key>
@@ -2207,6 +2176,175 @@
 			<string>SplashScreen</string>
 			<key>forwardContentAction</key>
 			<string>show</string>
+		</dict>
+	</dict>
+	<key>detailConfig</key>
+	<dict>
+		<key>directory</key>
+		<dict>
+			<key>buttons</key>
+			<array>
+				<dict>
+					<key>dataKey</key>
+					<string>POI</string>
+					<key>title</key>
+					<string>Ruta</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>15</integer>
+					<key>image</key>
+					<string></string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFDMapRouteButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string></string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>dataKey</key>
+					<string>Phone</string>
+					<key>title</key>
+					<string>Llamar</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>15</integer>
+					<key>image</key>
+					<string></string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFDPhoneButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string>AFCPhoneButtonHidden</string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>dataKey</key>
+					<string>Email</string>
+					<key>title</key>
+					<string>Correo</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>15</integer>
+					<key>image</key>
+					<string></string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFDEmailButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string></string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>dataKey</key>
+					<string>Website</string>
+					<key>title</key>
+					<string>Web</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>15</integer>
+					<key>image</key>
+					<string></string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFDWebsiteButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string></string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>dataKey</key>
+					<string>POI</string>
+					<key>title</key>
+					<string>Mapa</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>15</integer>
+					<key>image</key>
+					<string></string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFDMapShowButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string></string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+			</array>
+			<key>data</key>
+			<dict>
+				<key>itemTitle</key>
+				<string>Name</string>
+				<key>itemSubtitle</key>
+				<string>SubTitle</string>
+				<key>itemDescription</key>
+				<string>Description</string>
+				<key>imageURL</key>
+				<string>DetailImage</string>
+			</dict>
+		</dict>
+		<key>events</key>
+		<dict>
+			<key>buttons</key>
+			<array>
+				<dict>
+					<key>dataKey</key>
+					<string>ImageURL</string>
+					<key>title</key>
+					<string>Web</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>15</integer>
+					<key>image</key>
+					<string></string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFCWebsiteButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string></string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+			</array>
+			<key>data</key>
+			<dict>
+				<key>itemTitle</key>
+				<string>Name</string>
+				<key>itemSubtitle</key>
+				<string>eventSubtitle</string>
+				<key>itemDescription</key>
+				<string>Details</string>
+				<key>imageURL</key>
+				<string>ImageURL</string>
+			</dict>
 		</dict>
 	</dict>
 </dict>

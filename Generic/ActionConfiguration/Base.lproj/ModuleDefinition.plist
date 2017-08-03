@@ -448,7 +448,7 @@
 						<key>accessoryViewType</key>
 						<integer>1</integer>
 						<key>imagePlaceholder</key>
-						<string>image_placeholder_detail</string>
+						<string>directory_image_placeholder_thumbnail</string>
 					</dict>
 				</dict>
 				<key>dependencies</key>
@@ -537,6 +537,21 @@
 					<string>show</string>
 					<key>viewController</key>
 					<string>AFDDirectoryItemViewController</string>
+					<key>properties</key>
+					<dict>
+						<key>itemTitle</key>
+						<string>$action.itemTitle</string>
+						<key>itemSubtitle</key>
+						<string>$action.itemSubtitle</string>
+						<key>imageURL</key>
+						<string>$action.imageURL</string>
+						<key>itemDescription</key>
+						<string>$action.itemDescription</string>
+						<key>buttons</key>
+						<string>$action.buttons</string>
+						<key>imagePlaceholder</key>
+						<string>directory_image_placeholder_detail</string>
+					</dict>
 				</dict>
 			</dict>
 		</dict>
@@ -719,12 +734,12 @@
 						<string>StartDate</string>
 						<key>endDateKey</key>
 						<string>EndDate</string>
-						<key>DBDateFormatKey</key>
+						<key>DBDateFormat</key>
 						<string>MM/dd/yyyy HH:mm:ss</string>
-						<key>clientDateFormatKey</key>
-						<string>MMM d</string>
+						<key>clientDateFormat</key>
+						<string>hh:mma MMM d</string>
 						<key>iconKey</key>
-						<string>ImageURL</string>
+						<string>ThumbnailURL</string>
 						<key>bannerKey</key>
 						<string>ImageURL</string>
 						<key>identifierKey</key>
@@ -738,7 +753,7 @@
 						<key>itemDetailContext</key>
 						<string>Event Detail</string>
 						<key>imagePlaceholder</key>
-						<string>image_placeholder_detail</string>
+						<string>events_image_placeholder_detail</string>
 					</dict>
 				</dict>
 				<key>dependencies</key>
@@ -807,63 +822,25 @@
 						<key>iconShareName</key>
 						<string>icon_share</string>
 						<key>imagePlaceholder</key>
-						<string>image_placeholder_detail</string>
+						<string>events_image_placeholder_detail</string>
 					</dict>
+				</dict>
+			</dict>
+			<key>addToCalendar</key>
+			<dict>
+				<key>className</key>
+				<string>AFCAddEventToCalendar</string>
+				<key>parameters</key>
+				<dict>
+					<key>event</key>
+					<string>$action.eventItem</string>
+					<key>dbDateFormat</key>
+					<string>MM/dd/yyyy HH:mm:ss</string>
 				</dict>
 			</dict>
 		</dict>
 		<key>EventItem</key>
 		<dict>
-			<key>show</key>
-			<dict>
-				<key>className</key>
-				<string>AFCLoadViewControllerAction</string>
-				<key>parameters</key>
-				<dict>
-					<key>viewController</key>
-					<string>EventsDetailViewController</string>
-					<key>presentationMode</key>
-					<string>push</string>
-					<key>shouldAnimate</key>
-					<true/>
-					<key>properties</key>
-					<dict>
-						<key>itemTitle</key>
-						<string>$action.itemTitle</string>
-						<key>itemSubtitle</key>
-						<string>$action.itemSubtitle</string>
-						<key>itemDescription</key>
-						<string>$action.itemDescription</string>
-						<key>buttons</key>
-						<string>$action.buttons</string>
-						<key>imageURL</key>
-						<string>$action.imageURL</string>
-						<key>iconShareName</key>
-						<string>icon_share</string>
-						<key>imagePlaceholder</key>
-						<string>image_placeholder_detail</string>
-					</dict>
-				</dict>
-				<key>dependencies</key>
-				<array>
-					<dict>
-						<key>className</key>
-						<string>AFCActionIncluder</string>
-						<key>parameters</key>
-						<dict>
-							<key>includeContentType</key>
-							<string>EventItem</string>
-							<key>includeContentAction</key>
-							<string>load</string>
-							<key>includeParameters</key>
-							<dict>
-								<key>contentId</key>
-								<string>$action.contentId</string>
-							</dict>
-						</dict>
-					</dict>
-				</array>
-			</dict>
 			<key>load</key>
 			<dict>
 				<key>className</key>
@@ -878,6 +855,14 @@
 					<string>$CACHES</string>
 					<key>shouldPrependProperty</key>
 					<true/>
+					<key>startDateKey</key>
+					<string>StartDate</string>
+					<key>endDateKey</key>
+					<string>EndDate</string>
+					<key>DBDateFormatKey</key>
+					<string>MM/dd/yyyy HH:mm:ss</string>
+					<key>clientDateFormatKey</key>
+					<string>MMM d</string>
 					<key>queryData</key>
 					<dict>
 						<key>events</key>
@@ -1103,8 +1088,6 @@
 							<true/>
 							<key>properties</key>
 							<dict>
-								<key>campus</key>
-								<string>$app.kAFCApplicationStateCurrentCampus</string>
 								<key>favoritesContext</key>
 								<string>$module.mapFavoritesContext</string>
 								<key>altitudeToApplyWorkaroundiOS9</key>
@@ -1180,8 +1163,6 @@
 							<true/>
 							<key>properties</key>
 							<dict>
-								<key>campus</key>
-								<string>$app.kAFCApplicationStateCurrentCampus</string>
 								<key>favoritesContext</key>
 								<string>$module.mapFavoritesContext</string>
 								<key>altitudeToApplyWorkaroundiOS9</key>
@@ -1767,8 +1748,6 @@
 					<string>push</string>
 					<key>shouldAnimate</key>
 					<string>YES</string>
-					<key>title</key>
-					<string>Profiles</string>
 				</dict>
 			</dict>
 		</dict>
@@ -1908,15 +1887,7 @@
 									</dict>
 									<dict>
 										<key>name</key>
-										<string>PwAnalytics</string>
-									</dict>
-									<dict>
-										<key>name</key>
-										<string>PwCME</string>
-									</dict>
-									<dict>
-										<key>name</key>
-										<string>PwMessaging</string>
+										<string>PwEngagement</string>
 									</dict>
 									<dict>
 										<key>name</key>
@@ -2034,15 +2005,15 @@
 					<key>dataKey</key>
 					<string>POI</string>
 					<key>title</key>
-					<string>detailconfig.directory.route</string>
+					<string>detailconfig.route</string>
 					<key>titleColor</key>
 					<string>#000000</string>
 					<key>titleFontName</key>
 					<string>.SFUIText</string>
 					<key>titleFontSize</key>
-					<integer>15</integer>
+					<integer>11</integer>
 					<key>image</key>
-					<string></string>
+					<string>icon_route_event</string>
 					<key>backgroundColor</key>
 					<string>#0000000</string>
 					<key>buttonClickClass</key>
@@ -2054,17 +2025,17 @@
 				</dict>
 				<dict>
 					<key>dataKey</key>
-					<string>Name</string>
+					<string>Phone</string>
 					<key>title</key>
-					<string>detailconfig.directory.call</string>
+					<string>detailconfig.call</string>
 					<key>titleColor</key>
 					<string>#000000</string>
 					<key>titleFontName</key>
 					<string>.SFUIText</string>
 					<key>titleFontSize</key>
-					<integer>15</integer>
+					<integer>11</integer>
 					<key>image</key>
-					<string></string>
+					<string>icon_call_event</string>
 					<key>backgroundColor</key>
 					<string>#0000000</string>
 					<key>buttonClickClass</key>
@@ -2078,15 +2049,15 @@
 					<key>dataKey</key>
 					<string>Email</string>
 					<key>title</key>
-					<string>detailconfig.directory.email</string>
+					<string>detailconfig.email</string>
 					<key>titleColor</key>
 					<string>#000000</string>
 					<key>titleFontName</key>
 					<string>.SFUIText</string>
 					<key>titleFontSize</key>
-					<integer>15</integer>
+					<integer>11</integer>
 					<key>image</key>
-					<string></string>
+					<string>icon_email</string>
 					<key>backgroundColor</key>
 					<string>#0000000</string>
 					<key>buttonClickClass</key>
@@ -2100,15 +2071,15 @@
 					<key>dataKey</key>
 					<string>Website</string>
 					<key>title</key>
-					<string>detailconfig.directory.website</string>
+					<string>detailconfig.website</string>
 					<key>titleColor</key>
 					<string>#000000</string>
 					<key>titleFontName</key>
 					<string>.SFUIText</string>
 					<key>titleFontSize</key>
-					<integer>15</integer>
+					<integer>11</integer>
 					<key>image</key>
-					<string></string>
+					<string>icon_website</string>
 					<key>backgroundColor</key>
 					<string>#0000000</string>
 					<key>buttonClickClass</key>
@@ -2122,15 +2093,15 @@
 					<key>dataKey</key>
 					<string>POI</string>
 					<key>title</key>
-					<string>detailconfig.directory.map</string>
+					<string>detailconfig.map</string>
 					<key>titleColor</key>
 					<string>#000000</string>
 					<key>titleFontName</key>
 					<string>.SFUIText</string>
 					<key>titleFontSize</key>
-					<integer>15</integer>
+					<integer>11</integer>
 					<key>image</key>
-					<string></string>
+					<string>icon_map_event</string>
 					<key>backgroundColor</key>
 					<string>#0000000</string>
 					<key>buttonClickClass</key>
@@ -2159,21 +2130,131 @@
 			<array>
 				<dict>
 					<key>dataKey</key>
-					<string>ImageURL</string>
+					<string>PhoneNumber</string>
 					<key>title</key>
-					<string>Website</string>
+					<string>detailconfig.call</string>
 					<key>titleColor</key>
 					<string>#000000</string>
 					<key>titleFontName</key>
 					<string>.SFUIText</string>
 					<key>titleFontSize</key>
-					<integer>15</integer>
+					<integer>11</integer>
 					<key>image</key>
-					<string></string>
+					<string>icon_call_event</string>
 					<key>backgroundColor</key>
 					<string>#0000000</string>
 					<key>buttonClickClass</key>
-					<string>AFCWebsiteButtonClickAction</string>
+					<string>AFEPhoneButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string>AFCPhoneButtonHidden</string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>dataKey</key>
+					<string>Website</string>
+					<key>title</key>
+					<string>detailconfig.website</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>11</integer>
+					<key>image</key>
+					<string>icon_website</string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFEWebsiteButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string></string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>dataKey</key>
+					<string>POI</string>
+					<key>title</key>
+					<string>detailconfig.route</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>11</integer>
+					<key>image</key>
+					<string>icon_route_event</string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFEMapRouteButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string></string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>dataKey</key>
+					<string>StartDate</string>
+					<key>title</key>
+					<string>detailconfig.calendar</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>11</integer>
+					<key>image</key>
+					<string>icon_calendar</string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFCAddToCalendarButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string></string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>dataKey</key>
+					<string>POI</string>
+					<key>title</key>
+					<string>detailconfig.map</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>11</integer>
+					<key>image</key>
+					<string>icon_map_event</string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFEMapShowButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string></string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>dataKey</key>
+					<string>AdditionalURL</string>
+					<key>title</key>
+					<string>detailconfig.buytickets</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>11</integer>
+					<key>image</key>
+					<string>icon_buy_tickets</string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFEBuyTicketsButtonClickAction</string>
 					<key>buttonHiddenClass</key>
 					<string></string>
 					<key>buttonSetupClass</key>
@@ -2187,7 +2268,7 @@
 				<key>itemSubtitle</key>
 				<string>eventSubtitle</string>
 				<key>itemDescription</key>
-				<string>Details</string>
+				<string>Description</string>
 				<key>imageURL</key>
 				<string>ImageURL</string>
 			</dict>

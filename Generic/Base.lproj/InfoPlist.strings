@@ -1,13 +1,14 @@
-/* 
-  InfoPlist.strings
-  GenericAF4
+/*
+ InfoPlist.strings
 
-  Created by Hugo Oscar on 1/11/16.
-  Copyright © 2016 Phunware. All rights reserved.
-*/
-/**
- * info.plist
+ Copyright © 2016 Phunware. All rights reserved.
  */
 
-"NSLocationWhenInUseUsageDescription" = "Help us determine directions to and around your destination";
-"NSLocationAlwaysUsageDescription" = "Help us determine directions to and around your destination";
+"NSCalendarsUsageDescription" = "Allows saving calendar reminders";
+"NSBluetoothPeripheralUsageDescription" = "Allows ability to provide location within maps";
+"NSMotionUsageDescription" = "Allows ability to show movement during routing";
+"NSMicrophoneUsageDescription" = "Allows option for user to save audio when needed";
+"NSCameraUsageDescription" = "Allows ability to take a picture";
+"NSPhotoLibraryUsageDescription" = "Allows ability to add a photo";
+"NSLocationAlwaysUsageDescription" = "Allows location to be available when in background";
+"NSLocationWhenInUseUsageDescription" = "Allows location to be available when using app";

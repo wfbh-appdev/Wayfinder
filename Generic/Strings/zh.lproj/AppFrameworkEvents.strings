@@ -1,0 +1,33 @@
+/*
+ * AppFrameworkDirectory.strings
+ *
+ * Copyright © 2017 Phunware. All rights reserved.
+ */
+
+/*** AF-EVENTS STRINGS ***/
+
+/**
+ * EventsListViewController
+ */
+"eventslistviewcontroller.favorites.all" = "所有";
+"eventslistviewcontroller.favorites.only" = "最爱";
+
+/**
+ * Events add to calendar
+ */
+"afcaddeventtocalendar.addtocalendar.success.title" = "日历活动";
+"afcaddeventtocalendar.addtocalendar.success.message" = "%@ 添加到您的日历中";
+"afcaddeventtocalendar.addtocalendar.failure.title" = "日历活动";
+"afcaddeventtocalendar.addtocalendar.failure.message" = "发生错误，请重试";
+"afcaddeventtocalendar.addtocalendar.cancelbutton.title" = "好";
+
+"afcaddeventtocalendar.calendarrestrictedaccess.title" = "访问日历受到限制";
+"afcaddeventtocalendar.calendarrestrictedaccess.message" = "要重新启用，请转到设置，并授予对您的日历的访问权限";
+"afcaddeventtocalendar.calendarrestrictedaccess.cancelbutton.title" = "取消";
+"afcaddeventtocalendar.calendarrestrictedaccess.settingsbutton.title" = "设置";
+
+/**
+ * Events detail share
+ */
+"eventsdetail.share.text.subject" = "%@ 正在举办活动！ %@";
+"eventsdetail.share.text.body" = "查看活动 %@: %@";
