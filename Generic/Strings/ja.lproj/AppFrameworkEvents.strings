@@ -29,5 +29,5 @@
 /**
  * Events detail share
  */
-"eventsdetail.share.text.subject" = "%@ にはイベントがあります！ %@";
+"eventsdetail.share.text.subject" = "%@ にはイベントがあります！";
 "eventsdetail.share.text.body" = "でのイベントをチェック %@: %@";

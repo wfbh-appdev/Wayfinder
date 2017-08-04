@@ -29,5 +29,5 @@
 /**
  * Events detail share
  */
-"eventsdetail.share.text.subject" = "%@ هو وجود حدث! %@";
+"eventsdetail.share.text.subject" = "%@ هو وجود حدث!";
 "eventsdetail.share.text.body" = "%@: %@ تحقق من الحدث في";
