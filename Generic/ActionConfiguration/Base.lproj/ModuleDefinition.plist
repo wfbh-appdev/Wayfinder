@@ -1120,6 +1120,8 @@
 								<integer>18</integer>
 								<key>routeSnappingTolerance</key>
 								<string>PWRouteSnapToleranceHigh</string>
+								<key>floorPickerSortType</key>
+								<integer>0</integer>
 							</dict>
 						</dict>
 						<key>dependencies</key>
@@ -1195,6 +1197,8 @@
 								<integer>18</integer>
 								<key>routeSnappingTolerance</key>
 								<string>PWRouteSnapToleranceHigh</string>
+								<key>floorPickerSortType</key>
+								<integer>0</integer>
 							</dict>
 						</dict>
 						<key>dependencies</key>
@@ -1324,6 +1328,8 @@
 					<true/>
 					<key>properties</key>
 					<dict>
+						<key>currentBuilding</key>
+						<string>$action.currentBuilding</string>
 						<key>favoritesContext</key>
 						<string>$module.mapFavoritesContext</string>
 						<key>annotations</key>
@@ -1334,6 +1340,10 @@
 						<string>$action.focusSearchBarOnDidAppear</string>
 						<key>alphaSorted</key>
 						<true/>
+						<key>poiListSectionType</key>
+						<integer>0</integer>
+						<key>poiListLayoutType</key>
+						<integer>0</integer>
 					</dict>
 				</dict>
 			</dict>
@@ -1361,6 +1371,10 @@
 						<true/>
 						<key>alphaSorted</key>
 						<true/>
+						<key>poiListSectionType</key>
+						<integer>0</integer>
+						<key>poiListLayoutType</key>
+						<integer>0</integer>
 					</dict>
 				</dict>
 			</dict>
