@@ -38,19 +38,23 @@
 
 /*
  *  AFMUIPOIFilterViewController Strings
+
+/*
+ *  AFCUIMPOIFilterEditorViewController Strings
  */
 "afcuimpoifiltereditorviewcontroller.savefiltersbutton.buttontitle" = "Save Filters";
 "afcuimpoifiltereditorviewcontroller.cancelbutton.buttontitle" = "Cancel";
 "afcuimpoifiltereditorviewcontroller.titlelabel.text" = "Choose POI Filter";
 
 /*
- *  AFMUIPOIDetailViewController Strings
+ *  AFCUIAnnotationDetailViewController Strings
  */
 "afcuiannotationdetailviewcontroller.selectCampusButton.buttontitle" = "SELECT THIS CAMPUS";
 
 /*
  *  AFCUIMMapViewController Strings
  */
+"afcuimmapviewcontroller.endPointOfInterest.message" = "You have arrived.";
 "afcuimmapviewcontroller.promptlocationalert.takemetherebutton" = "Take me there";
 "afcuimmapviewcontroller.promptlocationalert.backtofacilitymapbutton" = "Back to facility map";
 "afcuimmapviewcontroller.promptlocationalert.cancelbutton" = "No Thanks";
@@ -74,6 +78,8 @@
 /*
  *  AFCUIMRoutingAnnotationView Strings
  */
+"afcuimroutingannotationview.taptogoback.title" = "TAP TO GO BACK";
+"afcuimroutingannotationview.taptoviewnext.title" = "TAP TO VIEW NEXT";
 "afcuimroutingannotationview.starthereannotation.title" = "Start";
 "afcuimroutingannotationview.destinationannotation.title" = "End";
 "afcuimroutingannotationview.tome.title" = "Take";
@@ -85,7 +91,7 @@
 "afcmmappickerviewcontroller.navbar.title" = "Maps";
 
 /**
- * Turn by Turn //TODO
+ * Turn by Turn
  */
 "PWRouteInstructionDirectionStraight" = "Go straight for";
 "PWRouteInstructionDirectionLeft" = "Turn left in";
@@ -118,3 +124,10 @@
  *  AFMOutdoorToIndoor Strings
  */
 "afmoutdoortoindoor.nativemap.title" = "%1$@ at %2$@";
+/*
+ * Connection requirements for location
+ */
+"afmuimapviewcontroller.connections.wifi.message" = "Turn on wifi to see your current location on the map.";
+"afmuimapviewcontroller.connections.bluetooth.message" = "Turn on bluetooth to see your current location on the map.";
+"afmuimapviewcontroller.connections.wifiandbluetooth.message" = "Turn on wifi and bluetooth to see your current location on the map.";
+"afmuimapviewcontroller.connections.button.title" = "OK";
