@@ -1291,6 +1291,22 @@
 				<key>className</key>
 				<string>AFMSetLocationProviderAction</string>
 			</dict>
+			<key>permissionRequest</key>
+			<dict>
+				<key>className</key>
+				<string>AFCForwardAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>forwardContentType</key>
+					<string>Permission</string>
+					<key>forwardContentAction</key>
+					<string>request</string>
+					<key>permissionClass</key>
+					<string>AFMLocationPermissionHandler</string>
+					<key>viewController</key>
+					<string>AFMLocationPermissionRequestViewController</string>
+				</dict>
+			</dict>
 		</dict>
 		<key>MapDirectory</key>
 		<dict>
@@ -1579,6 +1595,21 @@
 					<string>push</string>
 					<key>shouldAnimate</key>
 					<true/>
+				</dict>
+			</dict>
+		</dict>
+		<key>Permission</key>
+		<dict>
+			<key>request</key>
+			<dict>
+				<key>className</key>
+				<string>AFCPermissionRequestAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>permissionClass</key>
+					<string></string>
+					<key>viewController</key>
+					<string>AFCPermissionRequestViewController</string>
 				</dict>
 			</dict>
 		</dict>

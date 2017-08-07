@@ -131,3 +131,9 @@
 "afmuimapviewcontroller.connections.bluetooth.message" = "Turn on bluetooth to see your current location on the map.";
 "afmuimapviewcontroller.connections.wifiandbluetooth.message" = "Turn on wifi and bluetooth to see your current location on the map.";
 "afmuimapviewcontroller.connections.button.title" = "OK";
+
+// Permission
+"afmlocationpermissionrequestviewcontroller.permission.title" = "Use Current Location";
+"afmlocationpermissionrequestviewcontroller.permission.description" = "Please enable location services to help us guide you.";
+"afmlocationpermissionrequestviewcontroller.allowbutton.title" = "Yes";
+"afmlocationpermissionrequestviewcontroller.rejectbutton.title" = "Not Now";
