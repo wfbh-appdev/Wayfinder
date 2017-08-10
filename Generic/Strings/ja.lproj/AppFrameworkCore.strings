@@ -156,6 +156,7 @@
 "Map.route" = "ルート";
 "Offer.listing" = "リスティング";
 "Offer.detail" = "ディテール";
+"Offer.select" = "Select";
 "Parking.main" = "メイン";
 "Parking.map" = "地図";
 "Parking.photo" = "写真";
@@ -180,10 +181,10 @@
  * AFCDetailViewConfigurator
  */
 "detailconfig.route" = "ルート";
-"detailconfig.call" = "コール";
+"detailconfig.call" = "フォン";
 "detailconfig.email" = "Eメール";
 "detailconfig.website" = "ウェブサイト";
-"detailconfig.map" = "地図";
+"detailconfig.map" = "マップ";
 "detailconfig.calendar" = "カレンダー";
 "detailconfig.buytickets" = "チケットを買う";
 "detailconfig.favorite" = "お気に入り";

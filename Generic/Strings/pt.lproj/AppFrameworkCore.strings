@@ -156,6 +156,7 @@
 "Map.route" = "Rota";
 "Offer.listing" = "Listagem";
 "Offer.detail" = "Detalhe";
+"Offer.select" = "Select";
 "Parking.main" = "Principal";
 "Parking.map" = "Mapa";
 "Parking.photo" = "Foto";
@@ -179,10 +180,10 @@
 /*
  * AFCDetailViewConfigurator
  */
-"detailconfig.route" = "Rota";
-"detailconfig.call" = "Ligação";
-"detailconfig.email" = "O email";
-"detailconfig.website" = "Página da web";
+"detailconfig.route" = "Direções";
+"detailconfig.call" = "Chamar";
+"detailconfig.email" = "Email";
+"detailconfig.website" = "Site";
 "detailconfig.map" = "Mapa";
 "detailconfig.calendar" = "Calendário";
 "detailconfig.buytickets" = "Comprar bilhetes";

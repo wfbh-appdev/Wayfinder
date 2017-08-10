@@ -156,6 +156,7 @@
 "Map.route" = "Ruta";
 "Offer.listing" = "Listado";
 "Offer.detail" = "Detalle";
+"Offer.select" = "Select";
 "Parking.main" = "Principal";
 "Parking.map" = "Mapa";
 "Parking.photo" = "Foto";
@@ -182,7 +183,7 @@
 "detailconfig.route" = "Ruta";
 "detailconfig.call" = "Llamar";
 "detailconfig.email" = "Email";
-"detailconfig.website" = "Sitio Web";
+"detailconfig.website" = "Web";
 "detailconfig.map" = "Mapa";
 "detailconfig.calendar" = "Calendario";
 "detailconfig.buytickets" = "Comprar boletos";
