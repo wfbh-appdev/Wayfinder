@@ -156,6 +156,7 @@
 "Map.route" = "Route";
 "Offer.listing" = "Listing";
 "Offer.detail" = "Detail";
+"Offer.select" = "Show";
 "Parking.main" = "Main";
 "Parking.map" = "Map";
 "Parking.photo" = "Photo";

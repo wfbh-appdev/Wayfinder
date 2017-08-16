@@ -29,5 +29,5 @@
 /**
  * Events detail share
  */
-"eventsdetail.share.text.subject" = "%@ is having an event! %@";
+"eventsdetail.share.text.subject" = "%@ is having an event!";
 "eventsdetail.share.text.body" = "Check out the event at %@:\n\n%@";

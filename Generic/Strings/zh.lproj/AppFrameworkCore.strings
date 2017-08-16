@@ -156,6 +156,7 @@
 "Map.route" = "路线";
 "Offer.listing" = "目录";
 "Offer.detail" = "详情";
+"Offer.select" = "显示";
 "Parking.main" = "主要";
 "Parking.map" = "地图";
 "Parking.photo" = "照片";
@@ -180,7 +181,7 @@
  * AFCDetailViewConfigurator
  */
 "detailconfig.route" = "路线";
-"detailconfig.call" = "呼叫";
+"detailconfig.call" = "电话";
 "detailconfig.email" = "电子邮件";
 "detailconfig.website" = "网站";
 "detailconfig.map" = "地图";

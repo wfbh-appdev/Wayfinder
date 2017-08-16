@@ -823,6 +823,8 @@
 						<string>icon_share</string>
 						<key>imagePlaceholder</key>
 						<string>events_image_placeholder_detail</string>
+						<key>event</key>
+						<string>$action.event</string>
 					</dict>
 				</dict>
 			</dict>

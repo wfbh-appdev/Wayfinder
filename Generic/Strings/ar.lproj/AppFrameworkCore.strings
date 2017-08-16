@@ -156,6 +156,7 @@
 "Map.route" = "مسار";
 "Offer.listing" = "قائمة";
 "Offer.detail" = "المفرزة المختارة";
+"Offer.select" = "عرض";
 "Parking.main" = "الأساسية";
 "Parking.map" = "خريطة";
 "Parking.photo" = "صورة فوتوغرافية";
@@ -179,11 +180,11 @@
 /*
  * AFCDetailViewConfigurator
  */
-"detailconfig.route" = "طريق";
-"detailconfig.call" = "مكالمة";
+"detailconfig.route" = "الطريق";
+"detailconfig.call" = "إتّصل";
 "detailconfig.email" = "البريد الإلكتروني";
-"detailconfig.website" = "موقع الكتروني";
-"detailconfig.map" = "خريطة";
+"detailconfig.website" = "الموقع الكتروني";
+"detailconfig.map" = "الخريطة";
 "detailconfig.calendar" = "التقويم";
 "detailconfig.buytickets" = "اشتري تذاكر";
 "detailconfig.favorite" = "المفضل";

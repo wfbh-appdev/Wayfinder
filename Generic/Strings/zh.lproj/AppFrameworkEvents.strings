@@ -29,5 +29,5 @@
 /**
  * Events detail share
  */
-"eventsdetail.share.text.subject" = "%@ 正在举办活动！ %@";
+"eventsdetail.share.text.subject" = "%@ 正在举办活动！";
 "eventsdetail.share.text.body" = "查看活动 %@: %@";
