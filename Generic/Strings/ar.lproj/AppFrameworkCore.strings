@@ -187,3 +187,10 @@
 "detailconfig.calendar" = "التقويم";
 "detailconfig.buytickets" = "اشتري تذاكر";
 "detailconfig.favorite" = "المفضل";
+
+/*
+ * AFCCategoryViewController
+ */
+"afccategoryviewcontroller.title" = "مرشحات";
+"afccategoryviewcontroller.clearbutton.text" =  "واضح";
+"afccategoryviewcontroller.savebutton.title" = "تطبيق التصفيات";

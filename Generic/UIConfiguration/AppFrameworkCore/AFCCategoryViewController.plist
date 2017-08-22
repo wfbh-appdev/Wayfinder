@@ -11,8 +11,6 @@
 	</dict>
 	<key>tableView</key>
 	<dict>
-		<key>backgroundColor</key>
-		<string>#FFFFFF</string>
 		<key>tintColor</key>
 		<string>#007aff</string>
 		<key>allowsMultipleSelection</key>
@@ -30,12 +28,12 @@
 		<key>image</key>
 		<string>icon_x</string>
 	</dict>
-	<key>applyFiltersButton</key>
+	<key>saveButton</key>
 	<dict>
 		<key>backgroundColor</key>
 		<string>#007aff</string>
 		<key>buttonTitle</key>
-		<string>#afccategoryviewcontroller.savebutton.title,AppFrameworkCore</string>
+		<string>#afccategoryviewcontroller.savebutton.title,AppFrameworkCategory</string>
 		<key>color</key>
 		<string>#ffffff</string>
 		<key>fontName</key>
@@ -58,15 +56,13 @@
 	</dict>
 	<key>view</key>
 	<dict>
-		<key>title</key>
-		<string>Categories</string>
 		<key>constraints</key>
 		<array>
 			<string>H:|[topBar]|</string>
 			<string>H:|[tableView]|</string>
 			<string>H:|[buttonContainerView]|</string>
-			<string>H:|-22.5-[applyFiltersButton]-22.5-|</string>
-			<string>V:|-[applyFiltersButton(48.5)]-24-|</string>
+			<string>H:|-24-[saveButton]-24-|</string>
+			<string>V:|-[saveButton(50)]-24-|</string>
 			<string>V:|-20-[topBar][tableView][buttonContainerView]|</string>
 		</array>
 	</dict>

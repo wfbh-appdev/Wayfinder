@@ -36,15 +36,7 @@
 "afcuimroutebuilderviewcontroller.routeme.error.message" = "No route can be found.";
 "afcuimroutebuilderviewcontroller.table.header.title" = "%1$@ at %2$@";
 
-/*
- *  AFMUIPOIFilterViewController Strings
-
-/*
- *  AFCUIMPOIFilterEditorViewController Strings
- */
-"afcuimpoifiltereditorviewcontroller.savefiltersbutton.buttontitle" = "Save Filters";
-"afcuimpoifiltereditorviewcontroller.cancelbutton.buttontitle" = "Cancel";
-"afcuimpoifiltereditorviewcontroller.titlelabel.text" = "Choose POI Filter";
+"afcuimpoicategoryviewcontroller.titlelabel.text" = "Choose POI Filter";
 
 /*
  *  AFCUIAnnotationDetailViewController Strings
