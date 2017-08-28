@@ -551,6 +551,8 @@
 						<string>$action.buttons</string>
 						<key>imagePlaceholder</key>
 						<string>directory_image_placeholder_detail</string>
+						<key>shouldShowShareButton</key>
+						<false/>
 					</dict>
 				</dict>
 			</dict>
@@ -823,6 +825,8 @@
 						<string>icon_share</string>
 						<key>imagePlaceholder</key>
 						<string>events_image_placeholder_detail</string>
+						<key>shouldShowShareButton</key>
+						<true/>
 					</dict>
 				</dict>
 			</dict>
