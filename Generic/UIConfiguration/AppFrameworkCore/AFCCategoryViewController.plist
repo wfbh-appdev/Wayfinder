@@ -28,7 +28,7 @@
 		<key>image</key>
 		<string>icon_x</string>
 	</dict>
-	<key>saveButton</key>
+	<key>applyFiltersButton</key>
 	<dict>
 		<key>backgroundColor</key>
 		<string>#007aff</string>
