@@ -51,6 +51,7 @@
 /*
  *  AFCUIMMapViewController Strings
  */
+"afcuimmapviewcontroller.endPointOfInterest.message" = "あなたは到着しました。";
 "afcuimmapviewcontroller.promptlocationalert.takemetherebutton" = "テーク ミー ゼア";
 "afcuimmapviewcontroller.promptlocationalert.backtofacilitymapbutton" = "施設マップに戻る";
 "afcuimmapviewcontroller.promptlocationalert.cancelbutton" = "ノー サンクス";
@@ -74,6 +75,8 @@
 /*
  *  AFCUIMRoutingAnnotationView Strings
  */
+"afcuimroutingannotationview.taptogoback.title" = "戻るためにタップ";
+"afcuimroutingannotationview.taptoviewnext.title" = "次を見るタップ";
 "afcuimroutingannotationview.starthereannotation.title" = "スタート";
 "afcuimroutingannotationview.destinationannotation.title" = "エンド";
 "afcuimroutingannotationview.tome.title" = "テーク";
@@ -118,3 +121,28 @@
  *  AFMOutdoorToIndoor Strings
  */
 "afmoutdoortoindoor.nativemap.title" = "%1$@ at %2$@";
+
+/*
+ * Connection requirements for location
+ */
+"afmuimapviewcontroller.connections.wifi.message" = "Wi-Fiをオンにして地図上の現在地を確認します。";
+"afmuimapviewcontroller.connections.bluetooth.message" = "ブルートゥースをオンにして地図上の現在地を確認します。";
+"afmuimapviewcontroller.connections.wifiandbluetooth.message" = "wifiとbluetoothをオンにして地図上の現在地を確認します。";
+"afmuimapviewcontroller.connections.button.title" = "[OK]";
+
+// Permission
+"afmlocationpermissionrequestviewcontroller.permission.title" = "現在の場所を使用する";
+"afmlocationpermissionrequestviewcontroller.permission.description" = "私たちがあなたを導くのを助けるために位置情報サービスを有効にしてください";
+"afmlocationpermissionrequestviewcontroller.allowbutton.title" = "はい";
+"afmlocationpermissionrequestviewcontroller.rejectbutton.title" = "今はやめろ";
+
+/*
+ * AFMRouteSelectionViewController
+ */
+"afmrouteselectionviewcontroller.titlelabel.text" = "行き方";
+"afmrouteselectionviewcontroller.currentlocation.text" = "カレント ローケーション";
+"afmrouteselectionviewcontroller.startlabel.text" = "スタート";
+"afmrouteselectionviewcontroller.endlabel.text" = "終エンド";
+"afmrouteselectionviewcontroller.startlocationtextfield.placeholder" = "どこから始めたいですか？";
+"afmrouteselectionviewcontroller.routebutton.title.text" = "ルート";
+"afmrouteselectionviewcontroller.handicapaccessibilitylabel.text" = "ハンディキャップのアクセシビリティ";

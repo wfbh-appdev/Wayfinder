@@ -37,9 +37,6 @@
 "afcuimroutebuilderviewcontroller.table.header.title" = "%1$@ at %2$@";
 
 /*
- *  AFMUIPOIFilterViewController Strings
-
-/*
  *  AFCUIMPOIFilterEditorViewController Strings
  */
 "afcuimpoifiltereditorviewcontroller.savefiltersbutton.buttontitle" = "Save Filters";
@@ -124,6 +121,7 @@
  *  AFMOutdoorToIndoor Strings
  */
 "afmoutdoortoindoor.nativemap.title" = "%1$@ at %2$@";
+
 /*
  * Connection requirements for location
  */
@@ -137,3 +135,14 @@
 "afmlocationpermissionrequestviewcontroller.permission.description" = "Please enable location services to help us guide you.";
 "afmlocationpermissionrequestviewcontroller.allowbutton.title" = "Yes";
 "afmlocationpermissionrequestviewcontroller.rejectbutton.title" = "Not Now";
+
+/*
+ * AFMRouteSelectionViewController
+ */
+"afmrouteselectionviewcontroller.titlelabel.text" = "Directions";
+"afmrouteselectionviewcontroller.currentlocation.text" = "Current Location";
+"afmrouteselectionviewcontroller.startlabel.text" = "Start";
+"afmrouteselectionviewcontroller.endlabel.text" = "End";
+"afmrouteselectionviewcontroller.startlocationtextfield.placeholder" = "Where would you like to start?";
+"afmrouteselectionviewcontroller.routebutton.title.text" = "Route";
+"afmrouteselectionviewcontroller.handicapaccessibilitylabel.text" = "Handicap Accessibility";

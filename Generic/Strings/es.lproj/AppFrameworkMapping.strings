@@ -37,10 +37,6 @@
 "afcuimroutebuilderviewcontroller.table.header.title" = "%1$@ en %2$@";
 
 /*
- *  AFMUIPOIFilterViewController Strings
-=======
-
-/*
  *  AFCUIMPOIFilterEditorViewController Strings
  */
 "afcuimpoifiltereditorviewcontroller.savefiltersbutton.buttontitle" = "Guardar Filtros";
@@ -55,11 +51,9 @@
 /*
  *  AFCUIMMapViewController Strings
  */
-"afcuimmapviewcontroller.promptlocationalert.takemetherebutton" = "Llevame ahí";
-"afcuimmapviewcontroller.promptlocationalert.backtofacilitymapbutton" = "Volver al mapa de instalaciones";
 "afcuimmapviewcontroller.endPointOfInterest.message" = "Has llegado.";
-"afcuimmapviewcontroller.promptlocationalert.backtofacilitymapbutton" = "Volver al mapa de instalaciones";
 "afcuimmapviewcontroller.promptlocationalert.takemetherebutton" = "Llevame ahí";
+"afcuimmapviewcontroller.promptlocationalert.backtofacilitymapbutton" = "Volver al mapa de instalaciones";
 "afcuimmapviewcontroller.promptlocationalert.cancelbutton" = "No Gracias";
 "afcuimapviewcontroller.nopoifound.alert.title" = "Punto de interés no encontrado";
 "afcuimapviewcontroller.nopoifound.alert.message" = "El punto de interés no fue encontrado en el edificio.";
@@ -92,8 +86,6 @@
  * Map Picker
  */
 "afcmmappickerviewcontroller.navbar.title" = "Mapas";
-"afcmmappickerviewcontroller.promptlocationalert.title" = "Nos ayudan a guiar";
-"afcmmappickerviewcontroller.promptlocationalert.message" = "Por favor, activa los servicios de localización de manera que le guiará por las instalaciones.";
 
 /**
  * Turn by Turn
@@ -129,6 +121,7 @@
  *  AFMOutdoorToIndoor Strings
  */
 "afmoutdoortoindoor.nativemap.title" = "%1$@ en %2$@";
+
 /*
  * Connection requirements for location
  */
@@ -136,3 +129,20 @@
 "afmuimapviewcontroller.connections.bluetooth.message" = "Active el bluetooth para ver su ubicación actual en el mapa.";
 "afmuimapviewcontroller.connections.wifiandbluetooth.message" = "Active el wifi y bluetooth para ver su ubicación actual en el mapa.";
 "afmuimapviewcontroller.connections.button.title" = "OK";
+
+// Permission
+"afmlocationpermissionrequestviewcontroller.permission.title" = "Usar ubicación actual";
+"afmlocationpermissionrequestviewcontroller.permission.description" = "Por favor, habilite los servicios de localización para ayudarnos a guiarlo.";
+"afmlocationpermissionrequestviewcontroller.allowbutton.title" = "SÍ";
+"afmlocationpermissionrequestviewcontroller.rejectbutton.title" = "Ahora no";
+
+/*
+ * AFMRouteSelectionViewController
+ */
+"afmrouteselectionviewcontroller.titlelabel.text" = "Direcciones";
+"afmrouteselectionviewcontroller.currentlocation.text" = "Localización Actual";
+"afmrouteselectionviewcontroller.startlabel.text" = "Comienzo";
+"afmrouteselectionviewcontroller.endlabel.text" = "Fin";
+"afmrouteselectionviewcontroller.startlocationtextfield.placeholder" = "¿Dónde quieres empezar?";
+"afmrouteselectionviewcontroller.routebutton.title.text" = "Ruta";
+"afmrouteselectionviewcontroller.handicapaccessibilitylabel.text" = "Acceso Para Discapacitados";

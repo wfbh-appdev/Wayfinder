@@ -51,6 +51,7 @@
 /*
  *  AFCUIMMapViewController Strings
  */
+"afcuimmapviewcontroller.endPointOfInterest.message" = "Você chegou.";
 "afcuimmapviewcontroller.promptlocationalert.takemetherebutton" = "Leve-me até lá";
 "afcuimmapviewcontroller.promptlocationalert.backtofacilitymapbutton" = "Voltar ao mapa das instalações";
 "afcuimmapviewcontroller.promptlocationalert.cancelbutton" = "Não, obrigado";
@@ -74,6 +75,8 @@
 /*
  *  AFCUIMRoutingAnnotationView Strings
  */
+"afcuimroutingannotationview.taptogoback.title" = "TAP PARA VOLTAR";
+"afcuimroutingannotationview.taptoviewnext.title" = "TAP PARA VER PRÓXIMO";
 "afcuimroutingannotationview.starthereannotation.title" = "Início";
 "afcuimroutingannotationview.destinationannotation.title" = "Fim";
 "afcuimroutingannotationview.tome.title" = "Tirar";
@@ -118,3 +121,28 @@
  *  AFMOutdoorToIndoor Strings
  */
 "afmoutdoortoindoor.nativemap.title" = "%1$@ em %2$@";
+
+/*
+ * Connection requirements for location
+ */
+"afmuimapviewcontroller.connections.wifi.message" = "Ative o Wifi para ver sua localização atual no mapa.";
+"afmuimapviewcontroller.connections.bluetooth.message" = "Ative o bluetooth para ver sua localização atual no mapa.";
+"afmuimapviewcontroller.connections.wifiandbluetooth.message" = "Ligue wifi e bluetooth para ver sua localização atual no mapa.";
+"afmuimapviewcontroller.connections.button.title" = "OK";
+
+// Permission
+"afmlocationpermissionrequestviewcontroller.permission.title" = "Use a localização atual";
+"afmlocationpermissionrequestviewcontroller.permission.description" = "Ative os serviços de localização para nos ajudar a orientá-lo.";
+"afmlocationpermissionrequestviewcontroller.allowbutton.title" = "sim";
+"afmlocationpermissionrequestviewcontroller.rejectbutton.title" = "Agora não";
+
+/*
+ * AFMRouteSelectionViewController
+ */
+"afmrouteselectionviewcontroller.titlelabel.text" = "Instruções";
+"afmrouteselectionviewcontroller.currentlocation.text" = "Localização atual";
+"afmrouteselectionviewcontroller.startlabel.text" = "INÍCIO";
+"afmrouteselectionviewcontroller.endlabel.text" = "FIM";
+"afmrouteselectionviewcontroller.startlocationtextfield.placeholder" = "Onde você quer começar?";
+"afmrouteselectionviewcontroller.routebutton.title.text" = "Rota";
+"afmrouteselectionviewcontroller.handicapaccessibilitylabel.text" = "Handicap Accessibility";

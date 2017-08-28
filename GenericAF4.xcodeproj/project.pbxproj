@@ -22,6 +22,7 @@
 		5574F54C1C3AD921007BC741 /* AFCUIMaasVersionCellViewClassTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5574F54B1C3AD921007BC741 /* AFCUIMaasVersionCellViewClassTableViewCell.m */; };
 		5574F54F1C3AF889007BC741 /* AFCUILocationProviderViewClassTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5574F54E1C3AF889007BC741 /* AFCUILocationProviderViewClassTableViewCell.m */; };
 		55BAB7CB1C3EB98600799988 /* PhunwareIntegration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55BAB7CD1C3EB98600799988 /* PhunwareIntegration.plist */; };
+		7E47F5011F509A5600274CFF /* AFMRouteSelectionViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E47F5001F509A5600274CFF /* AFMRouteSelectionViewController.plist */; };
 		7EF95DF31F26E91400CB9826 /* AFDDirectoryCategoryTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EF95DEC1F26E91400CB9826 /* AFDDirectoryCategoryTableViewCell.plist */; };
 		7EF95DF41F26E91400CB9826 /* AFDDirectoryCategoryViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EF95DED1F26E91400CB9826 /* AFDDirectoryCategoryViewController.plist */; };
 		7EF95DF51F26E91400CB9826 /* AFDDirectoryItemViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EF95DEE1F26E91400CB9826 /* AFDDirectoryItemViewController.plist */; };
@@ -116,6 +117,7 @@
 		55BAB7CC1C3EB98600799988 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/PhunwareIntegration.plist; sourceTree = "<group>"; };
 		55BAB7CE1C3EB98800799988 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = es; path = es.lproj/PhunwareIntegration.plist; sourceTree = "<group>"; };
 		6D5A55BB941F06A8E81EA3DF /* libPods-GenericAF4.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GenericAF4.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E47F5001F509A5600274CFF /* AFMRouteSelectionViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFMRouteSelectionViewController.plist; path = AppFrameworkMapping/AFMRouteSelectionViewController.plist; sourceTree = "<group>"; };
 		7E705E301DBE89C40047C09C /* GenericAF4.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = GenericAF4.entitlements; path = GenericAF4/GenericAF4.entitlements; sourceTree = "<group>"; };
 		7EF95DCF1F22523300CB9826 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/AppFrameworkCore.strings; sourceTree = "<group>"; };
 		7EF95DD01F2258DE00CB9826 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/AppFrameworkCore.strings; sourceTree = "<group>"; };
@@ -327,6 +329,12 @@
 				7EF95E191F27AFAE00CB9826 /* AFMUIPOIViewController.plist */,
 				7EF95E171F27AFAE00CB9826 /* AFMUIPOIDetailViewController.plist */,
 				7EF95E1B1F27AFAE00CB9826 /* AFMUITurnByTurnTableViewCell.plist */,
+				7E47F5001F509A5600274CFF /* AFMRouteSelectionViewController.plist */,
+				C38D68B41F16E1A200C92372 /* AFCPermissionRequestViewController.plist */,
+				C366B68B1F2274E30071F4F3 /* AFMLocationPermissionRequestViewController.plist */,
+				52223B321F2938F8008C849E /* AFMPOIListTableViewCell.plist */,
+				52223B341F294B51008C849E /* AFMPOIListNoImageTableViewCell.plist */,
+				52223B361F294B91008C849E /* AFMPOIListTrailingImageTableViewCell.plist */,
 			);
 			name = AppFrameworkMapping;
 			sourceTree = "<group>";
@@ -413,12 +421,7 @@
 				7EF95DFF1F26EF3000CB9826 /* AppFrameworkMessageCenter */,
 				7EF95E081F27002500CB9826 /* AppFrameworkParking */,
 				7EF95E251F27C8CD00CB9826 /* AppFrameworkRender */,
-				C38D68B41F16E1A200C92372 /* AFCPermissionRequestViewController.plist */,
-				C366B68B1F2274E30071F4F3 /* AFMLocationPermissionRequestViewController.plist */,
 				55173FDD1D62790500EE540B /* UIConfigurationDefault.plist */,
-				52223B321F2938F8008C849E /* AFMPOIListTableViewCell.plist */,
-				52223B341F294B51008C849E /* AFMPOIListNoImageTableViewCell.plist */,
-				52223B361F294B91008C849E /* AFMPOIListTrailingImageTableViewCell.plist */,
 			);
 			path = UIConfiguration;
 			sourceTree = "<group>";
@@ -602,6 +605,7 @@
 				7EF95DF31F26E91400CB9826 /* AFDDirectoryCategoryTableViewCell.plist in Resources */,
 				7EF95E0E1F2700EE00CB9826 /* AFCParkingMapViewController.plist in Resources */,
 				7EF95E1E1F27AFAE00CB9826 /* AFMUIMapViewController.plist in Resources */,
+				7E47F5011F509A5600274CFF /* AFMRouteSelectionViewController.plist in Resources */,
 				7EF95E371F27C8F000CB9826 /* AFMUILocationCell.plist in Resources */,
 				7EF95E2F1F27C8DC00CB9826 /* AFCItemDetailViewController.plist in Resources */,
 				C3F32B621F0ADA0000495919 /* AppFrameworkDirectory.strings in Resources */,
