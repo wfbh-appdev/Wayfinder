@@ -187,3 +187,10 @@
 "detailconfig.calendar" = "カレンダー";
 "detailconfig.buytickets" = "チケットを買う";
 "detailconfig.favorite" = "お気に入り";
+
+/*
+ * AFCCategoryViewController
+ */
+"afccategoryviewcontroller.title" = "フィルター";
+"afccategoryviewcontroller.clearbutton.text" = "クリア";
+"afccategoryviewcontroller.savebutton.title" = "フィルターを適用";

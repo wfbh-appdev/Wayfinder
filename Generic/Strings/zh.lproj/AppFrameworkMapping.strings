@@ -36,12 +36,7 @@
 "afcuimroutebuilderviewcontroller.routeme.error.message" = "没有找到路线。";
 "afcuimroutebuilderviewcontroller.table.header.title" = "%1$@ at %2$@";
 
-/*
- *  AFMUIPOIFilterViewController Strings
- */
-"afcuimpoifiltereditorviewcontroller.savefiltersbutton.buttontitle" = "保存过滤器";
-"afcuimpoifiltereditorviewcontroller.cancelbutton.buttontitle" = "取消";
-"afcuimpoifiltereditorviewcontroller.titlelabel.text" = "选择POI过滤器";
+"afcuimpoicategoryviewcontroller.titlelabel.text" = "选择POI过滤器";
 
 /*
  *  AFMUIPOIDetailViewController Strings

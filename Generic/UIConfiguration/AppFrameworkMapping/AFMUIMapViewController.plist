@@ -2,6 +2,25 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>badgeLabel</key>
+	<dict>
+		<key>fontName</key>
+		<string>.SFUIDisplay-Medium</string>
+		<key>fontSize</key>
+		<string>10</string>
+		<key>borderColor</key>
+		<string>#007aff</string>
+		<key>borderWidth</key>
+		<integer>2</integer>
+		<key>cornerRadius</key>
+		<string>8</string>
+		<key>alignment</key>
+		<string>center</string>
+		<key>color</key>
+		<string>$WhiteColor</string>
+		<key>backgroundColor</key>
+		<string>#007aff</string>
+	</dict>
 	<key>promptLocationAlert</key>
 	<dict>
 		<key>backgroundColor</key>

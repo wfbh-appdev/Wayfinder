@@ -36,12 +36,7 @@
 "afcuimroutebuilderviewcontroller.routeme.error.message" = "ルートは見つかりません。";
 "afcuimroutebuilderviewcontroller.table.header.title" = "%1$@ at %2$@";
 
-/*
- *  AFMUIPOIFilterViewController Strings
- */
-"afcuimpoifiltereditorviewcontroller.savefiltersbutton.buttontitle" = "キャンセル";
-"afcuimpoifiltereditorviewcontroller.cancelbutton.buttontitle" = "キャンセル";
-"afcuimpoifiltereditorviewcontroller.titlelabel.text" = "チューズ ポーイー フィルター";
+"afcuimpoicategoryviewcontroller.titlelabel.text" = "チューズ ポーイー フィルター";
 
 /*
  *  AFMUIPOIDetailViewController Strings

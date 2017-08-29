@@ -187,3 +187,10 @@
 "detailconfig.calendar" = "Calendar";
 "detailconfig.buytickets" = "Buy Tickets";
 "detailconfig.favorite" = "Favorite";
+
+/*
+ * AFCCategoryViewController
+ */
+"afccategoryviewcontroller.title" = "Filters";
+"afccategoryviewcontroller.clearbutton.text" = "Clear";
+"afccategoryviewcontroller.savebutton.title" = "Apply Filters";
