@@ -12,9 +12,3 @@
 "afddirectoryviewcontroller.title" = "دليل";
 "afddirectoryviewcontroller.noresults.title" = "لم يتم العثور على نتائج";
 
-/**
- * AFDDirectoryCategoryViewController Strings
- */
-"afddirectorycategoryviewcontroller.title" = "مرشحات";
-"afddirectorycategoryviewcontroller.clearbutton.text" = "واضح";
-"afddirectorycategoryviewcontroller.savebutton.title" = "تطبيق التصفيات";

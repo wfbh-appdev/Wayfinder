@@ -187,3 +187,12 @@
 "detailconfig.calendar" = "日历";
 "detailconfig.buytickets" = "购票";
 "detailconfig.favorite" = "喜爱";
+
+/*
+ * AFCCategoryViewController
+ */
+"afccategoryviewcontroller.title" = "筛选";
+"afccategoryviewcontroller.clearbutton.text" = "明确";
+"afccategoryviewcontroller.savebutton.title" = "进行筛选";
+
+

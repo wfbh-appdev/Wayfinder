@@ -37,11 +37,9 @@
 "afcuimroutebuilderviewcontroller.table.header.title" = "%1$@ en %2$@";
 
 /*
- *  AFCUIMPOIFilterEditorViewController Strings
+ *  AFCUIMPOICategoryViewController Strings
  */
-"afcuimpoifiltereditorviewcontroller.savefiltersbutton.buttontitle" = "Guardar Filtros";
-"afcuimpoifiltereditorviewcontroller.cancelbutton.buttontitle" = "Cancelar";
-"afcuimpoifiltereditorviewcontroller.titlelabel.text" = "Elija Filtro de POI";
+"afcuimpoicategoryviewcontroller.titlelabel.text" = "Choose POI Filter";
 
 /*
  *  AFCUIAnnotationDetailViewController Strings

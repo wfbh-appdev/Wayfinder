@@ -12,9 +12,3 @@
 "afddirectoryviewcontroller.title" = "ディレクトリ";
 "afddirectoryviewcontroller.noresults.title" = "プロモーションは見つかりませんでした";
 
-/**
- * AFDDirectoryCategoryViewController Strings
- */
-"afddirectorycategoryviewcontroller.title" = "フィルター";
-"afddirectorycategoryviewcontroller.clearbutton.text" = "クリア";
-"afddirectorycategoryviewcontroller.savebutton.title" = "フィルターを適用";

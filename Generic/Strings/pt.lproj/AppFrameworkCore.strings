@@ -187,3 +187,10 @@
 "detailconfig.calendar" = "Calendário";
 "detailconfig.buytickets" = "Comprar bilhetes";
 "detailconfig.favorite" = "Favorito";
+
+/*
+ * AFCCategoryViewController
+ */
+"afccategoryviewcontroller.title" = "Filtros";
+"afccategoryviewcontroller.clearbutton.text" =  "Excluir";
+"afccategoryviewcontroller.savebutton.title" = "Ativar Filtros";

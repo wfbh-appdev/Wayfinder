@@ -12,9 +12,3 @@
 "afddirectoryviewcontroller.title" = "Diretório";
 "afddirectoryviewcontroller.noresults.title" = "Nenhum Resultado.";
 
-/**
- * AFDDirectoryCategoryViewController Strings
- */
-"afddirectorycategoryviewcontroller.title" = "Filtros";
-"afddirectorycategoryviewcontroller.clearbutton.text" = "Excluir";
-"afddirectorycategoryviewcontroller.savebutton.title" = "Ativar Filtros";

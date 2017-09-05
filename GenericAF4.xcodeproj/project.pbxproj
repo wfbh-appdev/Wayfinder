@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		135B581B1F4CC9B5001A64FA /* AFDDirectoryCategoryViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 135B581A1F4CC9B5001A64FA /* AFDDirectoryCategoryViewController.plist */; };
+		135B581D1F4CCB14001A64FA /* AFMUIPOICategoryViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 135B581C1F4CCB14001A64FA /* AFMUIPOICategoryViewController.plist */; };
+		137E88AA1F4CA57600DEF7A3 /* AFCCategoryViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 137E88A91F4CA57600DEF7A3 /* AFCCategoryViewController.plist */; };
 		3C1DE4301C3F306B0074369D /* AFGoogleAnalyticsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1DE42F1C3F306B0074369D /* AFGoogleAnalyticsController.m */; };
 		4AD72CD87B22250320E754C5 /* libPods-GenericAF4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5A55BB941F06A8E81EA3DF /* libPods-GenericAF4.a */; };
 		52223B331F2938F8008C849E /* AFMPOIListTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52223B321F2938F8008C849E /* AFMPOIListTableViewCell.plist */; };
@@ -45,7 +48,6 @@
 		7EF95E1D1F27AFAE00CB9826 /* AFMUIMapPickerViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EF95E151F27AFAE00CB9826 /* AFMUIMapPickerViewController.plist */; };
 		7EF95E1E1F27AFAE00CB9826 /* AFMUIMapViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EF95E161F27AFAE00CB9826 /* AFMUIMapViewController.plist */; };
 		7EF95E1F1F27AFAE00CB9826 /* AFMUIPOIDetailViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EF95E171F27AFAE00CB9826 /* AFMUIPOIDetailViewController.plist */; };
-		7EF95E201F27AFAE00CB9826 /* AFMUIPOIFilterViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EF95E181F27AFAE00CB9826 /* AFMUIPOIFilterViewController.plist */; };
 		7EF95E211F27AFAE00CB9826 /* AFMUIPOIViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EF95E191F27AFAE00CB9826 /* AFMUIPOIViewController.plist */; };
 		7EF95E221F27AFAE00CB9826 /* AFMUIRouteViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EF95E1A1F27AFAE00CB9826 /* AFMUIRouteViewController.plist */; };
 		7EF95E231F27AFAE00CB9826 /* AFMUITurnByTurnTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EF95E1B1F27AFAE00CB9826 /* AFMUITurnByTurnTableViewCell.plist */; };
@@ -96,6 +98,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		135B581A1F4CC9B5001A64FA /* AFDDirectoryCategoryViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFDDirectoryCategoryViewController.plist; path = AppFrameworkDirectory/AFDDirectoryCategoryViewController.plist; sourceTree = "<group>"; };
+		135B581C1F4CCB14001A64FA /* AFMUIPOICategoryViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFMUIPOICategoryViewController.plist; sourceTree = "<group>"; };
+		137E88A91F4CA57600DEF7A3 /* AFCCategoryViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFCCategoryViewController.plist; path = AppFrameworkCore/AFCCategoryViewController.plist; sourceTree = "<group>"; };
 		3C1DE42E1C3F306B0074369D /* AFGoogleAnalyticsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFGoogleAnalyticsController.h; sourceTree = "<group>"; };
 		3C1DE42F1C3F306B0074369D /* AFGoogleAnalyticsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFGoogleAnalyticsController.m; sourceTree = "<group>"; };
 		49FCFC7DF95FB8AE2E10158A /* Pods-GenericAF4.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericAF4.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4.adhoc.xcconfig"; sourceTree = "<group>"; };
@@ -147,8 +152,6 @@
 		7EF95DE81F266E2500CB9826 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/AppFrameworkMapping.strings; sourceTree = "<group>"; };
 		7EF95DE91F2671FB00CB9826 /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = zh.lproj/AppFrameworkMapping.strings; sourceTree = "<group>"; };
 		7EF95DEA1F26755900CB9826 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/AppFrameworkMapping.strings; sourceTree = "<group>"; };
-		7EF95DEC1F26E91400CB9826 /* AFDDirectoryCategoryTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFDDirectoryCategoryTableViewCell.plist; path = AppFrameworkDirectory/AFDDirectoryCategoryTableViewCell.plist; sourceTree = "<group>"; };
-		7EF95DED1F26E91400CB9826 /* AFDDirectoryCategoryViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFDDirectoryCategoryViewController.plist; path = AppFrameworkDirectory/AFDDirectoryCategoryViewController.plist; sourceTree = "<group>"; };
 		7EF95DEE1F26E91400CB9826 /* AFDDirectoryItemViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFDDirectoryItemViewController.plist; path = AppFrameworkDirectory/AFDDirectoryItemViewController.plist; sourceTree = "<group>"; };
 		7EF95DEF1F26E91400CB9826 /* AFDDirectoryNoImageTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFDDirectoryNoImageTableViewCell.plist; path = AppFrameworkDirectory/AFDDirectoryNoImageTableViewCell.plist; sourceTree = "<group>"; };
 		7EF95DF01F26E91400CB9826 /* AFDDirectoryTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFDDirectoryTableViewCell.plist; path = AppFrameworkDirectory/AFDDirectoryTableViewCell.plist; sourceTree = "<group>"; };
@@ -169,7 +172,6 @@
 		7EF95E151F27AFAE00CB9826 /* AFMUIMapPickerViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFMUIMapPickerViewController.plist; path = AppFrameworkMapping/AFMUIMapPickerViewController.plist; sourceTree = "<group>"; };
 		7EF95E161F27AFAE00CB9826 /* AFMUIMapViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFMUIMapViewController.plist; path = AppFrameworkMapping/AFMUIMapViewController.plist; sourceTree = "<group>"; };
 		7EF95E171F27AFAE00CB9826 /* AFMUIPOIDetailViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFMUIPOIDetailViewController.plist; path = AppFrameworkMapping/AFMUIPOIDetailViewController.plist; sourceTree = "<group>"; };
-		7EF95E181F27AFAE00CB9826 /* AFMUIPOIFilterViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFMUIPOIFilterViewController.plist; path = AppFrameworkMapping/AFMUIPOIFilterViewController.plist; sourceTree = "<group>"; };
 		7EF95E191F27AFAE00CB9826 /* AFMUIPOIViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFMUIPOIViewController.plist; path = AppFrameworkMapping/AFMUIPOIViewController.plist; sourceTree = "<group>"; };
 		7EF95E1A1F27AFAE00CB9826 /* AFMUIRouteViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFMUIRouteViewController.plist; path = AppFrameworkMapping/AFMUIRouteViewController.plist; sourceTree = "<group>"; };
 		7EF95E1B1F27AFAE00CB9826 /* AFMUITurnByTurnTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFMUITurnByTurnTableViewCell.plist; path = AppFrameworkMapping/AFMUITurnByTurnTableViewCell.plist; sourceTree = "<group>"; };
@@ -274,12 +276,11 @@
 		7EF95DEB1F26E90200CB9826 /* AppFrameworkDirectory */ = {
 			isa = PBXGroup;
 			children = (
+				135B581A1F4CC9B5001A64FA /* AFDDirectoryCategoryViewController.plist */,
 				7EF95DF21F26E91400CB9826 /* AFDDirectoryViewController.plist */,
 				7EF95DF01F26E91400CB9826 /* AFDDirectoryTableViewCell.plist */,
 				7EF95DEF1F26E91400CB9826 /* AFDDirectoryNoImageTableViewCell.plist */,
 				7EF95DF11F26E91400CB9826 /* AFDDirectoryTrailingImageTableViewCell.plist */,
-				7EF95DED1F26E91400CB9826 /* AFDDirectoryCategoryViewController.plist */,
-				7EF95DEC1F26E91400CB9826 /* AFDDirectoryCategoryTableViewCell.plist */,
 				7EF95DEE1F26E91400CB9826 /* AFDDirectoryItemViewController.plist */,
 			);
 			name = AppFrameworkDirectory;
@@ -324,7 +325,6 @@
 				7EF95E161F27AFAE00CB9826 /* AFMUIMapViewController.plist */,
 				7EF95E151F27AFAE00CB9826 /* AFMUIMapPickerViewController.plist */,
 				7EF95E141F27AFAE00CB9826 /* AFMUIMapPickerTableViewCell.plist */,
-				7EF95E181F27AFAE00CB9826 /* AFMUIPOIFilterViewController.plist */,
 				7EF95E1A1F27AFAE00CB9826 /* AFMUIRouteViewController.plist */,
 				7EF95E191F27AFAE00CB9826 /* AFMUIPOIViewController.plist */,
 				7EF95E171F27AFAE00CB9826 /* AFMUIPOIDetailViewController.plist */,
@@ -335,6 +335,7 @@
 				52223B321F2938F8008C849E /* AFMPOIListTableViewCell.plist */,
 				52223B341F294B51008C849E /* AFMPOIListNoImageTableViewCell.plist */,
 				52223B361F294B91008C849E /* AFMPOIListTrailingImageTableViewCell.plist */,
+				135B581C1F4CCB14001A64FA /* AFMUIPOICategoryViewController.plist */,
 			);
 			name = AppFrameworkMapping;
 			sourceTree = "<group>";
@@ -350,6 +351,7 @@
 				7EF95E2B1F27C8DC00CB9826 /* AFCUIImageSplashViewController.plist */,
 				7EF95E2C1F27C8DC00CB9826 /* AFCUIModalWebBrowser.plist */,
 				7EF95E2D1F27C8DC00CB9826 /* AFCUIWebViewController.plist */,
+				137E88A91F4CA57600DEF7A3 /* AFCCategoryViewController.plist */,
 			);
 			name = AppFrameworkCore;
 			sourceTree = "<group>";
@@ -584,7 +586,6 @@
 				C3F32B651F0ADA0000495919 /* AppFrameworkMessageCenter.strings in Resources */,
 				7EF95DFD1F26EC5E00CB9826 /* EventsDetailViewController.plist in Resources */,
 				7EF95E351F27C8DC00CB9826 /* AFCUIWebViewController.plist in Resources */,
-				7EF95E201F27AFAE00CB9826 /* AFMUIPOIFilterViewController.plist in Resources */,
 				C3F32B671F0ADA0000495919 /* AppFrameworkRender.strings in Resources */,
 				7EF95E3D1F27C90400CB9826 /* EventTableViewCell.plist in Resources */,
 				C3F32B661F0ADA0000495919 /* AppFrameworkParking.strings in Resources */,
@@ -602,7 +603,6 @@
 				55173FDE1D62790500EE540B /* UIConfigurationDefault.plist in Resources */,
 				7EF95E231F27AFAE00CB9826 /* AFMUITurnByTurnTableViewCell.plist in Resources */,
 				7EF95E051F26EFDD00CB9826 /* AFMCOfferSwipeViewController.plist in Resources */,
-				7EF95DF31F26E91400CB9826 /* AFDDirectoryCategoryTableViewCell.plist in Resources */,
 				7EF95E0E1F2700EE00CB9826 /* AFCParkingMapViewController.plist in Resources */,
 				7EF95E1E1F27AFAE00CB9826 /* AFMUIMapViewController.plist in Resources */,
 				7E47F5011F509A5600274CFF /* AFMRouteSelectionViewController.plist in Resources */,
@@ -617,13 +617,14 @@
 				7EF95DF51F26E91400CB9826 /* AFDDirectoryItemViewController.plist in Resources */,
 				7EF95E0F1F2700EE00CB9826 /* AFCParkingNoteViewController.plist in Resources */,
 				551BF9261C1B51E9004D7ECD /* (null) in Resources */,
-				7EF95DF41F26E91400CB9826 /* AFDDirectoryCategoryViewController.plist in Resources */,
 				7EF95E1D1F27AFAE00CB9826 /* AFMUIMapPickerViewController.plist in Resources */,
 				8FDD0F3B1BD1775500A0C512 /* GenericAppNavigationController.xib in Resources */,
 				7EF95E111F2700EE00CB9826 /* AFCParkingViewController.plist in Resources */,
+				137E88AA1F4CA57600DEF7A3 /* AFCCategoryViewController.plist in Resources */,
 				C3F32B631F0ADA0000495919 /* AppFrameworkEvents.strings in Resources */,
 				7EF95E1F1F27AFAE00CB9826 /* AFMUIPOIDetailViewController.plist in Resources */,
 				7EF95E211F27AFAE00CB9826 /* AFMUIPOIViewController.plist in Resources */,
+				135B581D1F4CCB14001A64FA /* AFMUIPOICategoryViewController.plist in Resources */,
 				8F4355901BC858B700FFD46C /* Customization.xcassets in Resources */,
 				8CA4FA061C8F9FE900E0028C /* 20160120_android_multilayer_sandbox.s3db in Resources */,
 				7EF95DF91F26E91400CB9826 /* AFDDirectoryViewController.plist in Resources */,
@@ -631,6 +632,7 @@
 				7EF95E3B1F27C90400CB9826 /* AFCUIDynamicViewController.plist in Resources */,
 				7EF95DF81F26E91400CB9826 /* AFDDirectoryTrailingImageTableViewCell.plist in Resources */,
 				7EF95E3C1F27C90400CB9826 /* AFCUITrayMenuViewController.plist in Resources */,
+				135B581B1F4CC9B5001A64FA /* AFDDirectoryCategoryViewController.plist in Resources */,
 				A2B61E5B1EAFF5BB0023BC53 /* (null) in Resources */,
 				C38D68B51F16E1A200C92372 /* AFCPermissionRequestViewController.plist in Resources */,
 				52223B331F2938F8008C849E /* AFMPOIListTableViewCell.plist in Resources */,
@@ -660,9 +662,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4-frameworks.sh",
+				"${PODS_ROOT}/MistSDK/Framework/MistSDK.framework",
+				"${PODS_ROOT}/PWCore/Framework/PWCore.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MistSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PWCore.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -675,9 +682,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4-resources.sh",
+				"${PODS_ROOT}/PWAds/Framework/PWAds.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -690,13 +700,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GenericAF4-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8CB729D01C20A1D000F016B7 /* ShellScript */ = {

@@ -36,12 +36,12 @@
 "afcuimroutebuilderviewcontroller.routeme.error.message" = "لا يمكن العثور على أي مسار.";
 "afcuimroutebuilderviewcontroller.table.header.title" = "%1$@ at %2$@";
 
+"afcuimpoicategoryviewcontroller.titlelabel.text" = "اختار في و اي فلتر";
+
 /*
- *  AFMUIPOIFilterViewController Strings
+ *  AFCUIMPOICategoryViewController Strings
  */
-"afcuimpoifiltereditorviewcontroller.savefiltersbutton.buttontitle" = "حفظ مرشحات";
-"afcuimpoifiltereditorviewcontroller.cancelbutton.buttontitle" = "إلغاء";
-"afcuimpoifiltereditorviewcontroller.titlelabel.text" = "اختار في و اي فلتر";
+"afcuimpoicategoryviewcontroller.titlelabel.text" = "Choose POI Filter";
 
 /*
  *  AFMUIPOIDetailViewController Strings

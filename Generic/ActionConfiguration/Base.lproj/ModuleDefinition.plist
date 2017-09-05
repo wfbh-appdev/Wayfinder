@@ -511,14 +511,10 @@
 					<true/>
 					<key>properties</key>
 					<dict>
-						<key>categories</key>
-						<string>$action.categories</string>
-						<key>selectedCategories</key>
-						<string>$action.selectedCategories</string>
-						<key>onSelectedCategoriesSave</key>
-						<string>$action.onSelectedCategoriesSave</string>
-						<key>cellClass</key>
-						<string>AFDDirectoryCategoryTableViewCell</string>
+						<key>cmeId</key>
+						<string>$action.cmeId</string>
+						<key>onCategoriesApplied</key>
+						<string>$action.onCategoriesApplied</string>
 					</dict>
 				</dict>
 			</dict>
@@ -551,6 +547,8 @@
 						<string>$action.buttons</string>
 						<key>imagePlaceholder</key>
 						<string>directory_image_placeholder_detail</string>
+						<key>shouldShowShareButton</key>
+						<false/>
 					</dict>
 				</dict>
 			</dict>
@@ -823,6 +821,8 @@
 						<string>icon_share</string>
 						<key>imagePlaceholder</key>
 						<string>events_image_placeholder_detail</string>
+						<key>shouldShowShareButton</key>
+						<true/>
 					</dict>
 				</dict>
 			</dict>
@@ -1122,6 +1122,10 @@
 								<string>PWRouteSnapToleranceHigh</string>
 								<key>floorPickerSortType</key>
 								<integer>0</integer>
+								<key>showFilterIcon</key>
+								<true/>
+								<key>showFilterBadge</key>
+								<true/>
 							</dict>
 						</dict>
 						<key>dependencies</key>
@@ -1206,6 +1210,8 @@
 								<key>shouldShowFilterButton</key>
 								<true/>
 								<key>shouldShowMapButton</key>
+								<true/>
+								<key>showFilterBadge</key>
 								<true/>
 							</dict>
 						</dict>
@@ -1358,6 +1364,8 @@
 						<string>$action.shouldShowMapButton</string>
 						<key>poiSelectedDelegate</key>
 						<string>$action.poiSelectedDelegate</string>
+						<key>showFilterBadge</key>
+						<true/>
 					</dict>
 				</dict>
 			</dict>
@@ -1389,6 +1397,10 @@
 						<integer>0</integer>
 						<key>poiListLayoutType</key>
 						<integer>0</integer>
+						<key>showFilterIcon</key>
+						<true/>
+						<key>showFilterBadge</key>
+						<true/>
 					</dict>
 				</dict>
 			</dict>
@@ -1402,15 +1414,15 @@
 				<key>parameters</key>
 				<dict>
 					<key>viewController</key>
-					<string>AFMUIPOIFilterViewController</string>
+					<string>AFMUIPOICategoryViewController</string>
 					<key>presentationMode</key>
-					<string>push</string>
+					<string>modal</string>
 					<key>shouldAnimate</key>
 					<true/>
 					<key>properties</key>
 					<dict>
-						<key>dismissalBlock</key>
-						<string>$action.dismissalBlock</string>
+						<key>onCategoriesApplied</key>
+						<string>$action.onCategoriesApplied</string>
 					</dict>
 				</dict>
 			</dict>

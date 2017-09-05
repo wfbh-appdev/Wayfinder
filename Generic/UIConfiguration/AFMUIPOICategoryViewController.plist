@@ -54,7 +54,7 @@
 	<key>titleLabel</key>
 	<dict>
 		<key>text</key>
-		<string>#afccategoryviewcontroller.title,AppFrameworkCore</string>
+		<string>#afcuimpoicategoryviewcontroller.titlelabel.text,AppFrameworkMapping</string>
 	</dict>
 	<key>view</key>
 	<dict>
