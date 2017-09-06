@@ -1649,7 +1649,7 @@
 					<key>permissionClass</key>
 					<string></string>
 					<key>viewController</key>
-					<string>AFCPermissionRequestViewController</string>
+					<string>AFCNoticeAlertViewController</string>
 				</dict>
 			</dict>
 		</dict>

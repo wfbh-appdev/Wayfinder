@@ -11,7 +11,7 @@
 		<key>cornerRadius</key>
 		<integer>5</integer>
 	</dict>
-	<key>permissionTitleLabel</key>
+	<key>noticeTitleLabel</key>
 	<dict>
 		<key>text</key>
 		<string>Permission Title</string>
@@ -22,7 +22,7 @@
 		<key>color</key>
 		<string>$BlueColor</string>
 	</dict>
-	<key>permissionDescriptionLabel</key>
+	<key>noticeDescriptionLabel</key>
 	<dict>
 		<key>text</key>
 		<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
@@ -37,26 +37,26 @@
 		<key>color</key>
 		<string>#8b8b8b</string>
 	</dict>
-	<key>permissionImageView</key>
+	<key>noticeImageView</key>
 	<dict>
 		<key>image</key>
 		<string>mapping_permission</string>
 	</dict>
-	<key>rejectButton</key>
+	<key>noticeDeclineButton</key>
 	<dict>
 		<key>buttonTitle</key>
 		<string>Deny</string>
 		<key>backgroundColor</key>
 		<string>#ffffff</string>
 	</dict>
-	<key>allowButton</key>
+	<key>noticeAcceptButton</key>
 	<dict>
 		<key>buttonTitle</key>
 		<string>Allow</string>
 		<key>backgroundColor</key>
 		<string>#ffffff</string>
 	</dict>
-	<key>permissionContainerView</key>
+	<key>noticeContainerView</key>
 	<dict>
 		<key>backgroundColor</key>
 		<string>#ffffff</string>
@@ -70,18 +70,18 @@
 			<string>#containerView.centery=self.centery,1,0</string>
 			<string>#containerView.centerx=self.centerx,1,0</string>
 			<string>#containerView.width=self.width,0.75,0</string>
-			<string>V:|[permissionContainerView]-0.5-[rejectButton(50)]|</string>
-			<string>V:[allowButton]|</string>
-			<string>#allowButton.top=rejectButton.top,1,0</string>
-			<string>H:|[permissionContainerView]|</string>
-			<string>V:|-24-[permissionTitleLabel]-24-[permissionImageView]-24-[permissionDescriptionLabel]-36-|</string>
-			<string>H:|-&gt;=35-[permissionTitleLabel]-&gt;=35-|</string>
-			<string>H:|-&gt;=35-[permissionDescriptionLabel]-&gt;=35-|</string>
-			<string>#permissionTitleLabel.centerx=permissionContainerView.centerx,1,0</string>
-			<string>#permissionImageView.centerx=permissionContainerView.centerx,1,0</string>
-			<string>#permissionDescriptionLabel.centerx=permissionContainerView.centerx,1,0</string>
-			<string>H:|[rejectButton]-0.5-[allowButton]|</string>
-			<string>#allowButton.width=rejectButton.width,1,0</string>
+			<string>V:|[noticeContainerView]-0.5-[noticeDeclineButton(50)]|</string>
+			<string>V:[noticeAcceptButton]|</string>
+			<string>#noticeAcceptButton.top=noticeDeclineButton.top,1,0</string>
+			<string>H:|[noticeContainerView]|</string>
+			<string>V:|-24-[noticeTitleLabel]-24-[noticeImageView]-24-[noticeDescriptionLabel]-36-|</string>
+			<string>H:|-&gt;=35-[noticeTitleLabel]-&gt;=35-|</string>
+			<string>H:|-&gt;=35-[noticeDescriptionLabel]-&gt;=35-|</string>
+			<string>#noticeTitleLabel.centerx=noticeContainerView.centerx,1,0</string>
+			<string>#noticeImageView.centerx=noticeContainerView.centerx,1,0</string>
+			<string>#noticeDescriptionLabel.centerx=noticeContainerView.centerx,1,0</string>
+			<string>H:|[noticeDeclineButton]-0.5-[noticeAcceptButton]|</string>
+			<string>#noticeAcceptButton.width=noticeDeclineButton.width,1,0</string>
 		</array>
 	</dict>
 </dict>
