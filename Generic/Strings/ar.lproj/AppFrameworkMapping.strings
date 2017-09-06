@@ -146,3 +146,9 @@
 "afmrouteselectionviewcontroller.startlocationtextfield.placeholder" = "أين تريد أن تبدأ؟";
 "afmrouteselectionviewcontroller.routebutton.title.text" = "طريق";
 "afmrouteselectionviewcontroller.handicapaccessibilitylabel.text" = "هانديكاب الوصول";
+
+// Home to Venue Notice
+"afmh2vnoticealertviewcontroller.notice.title" = "الطريق إلى منشأة؟";
+"afmh2vnoticealertviewcontroller.notice.description" = "لاحظنا أنك لست في المرفق. هل ترغب في توجيهات إلى المنشأة؟";
+"afmh2vnoticealertviewcontroller.acceptbutton.title" = "الطريق لي";
+"afmh2vnoticealertviewcontroller.declinebutton.title" = "لا شكرا";

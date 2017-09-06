@@ -144,3 +144,9 @@
 "afmrouteselectionviewcontroller.startlocationtextfield.placeholder" = "¿Dónde quieres empezar?";
 "afmrouteselectionviewcontroller.routebutton.title.text" = "Ruta";
 "afmrouteselectionviewcontroller.handicapaccessibilitylabel.text" = "Acceso Para Discapacitados";
+
+// Home to Venue Notice
+"afmh2vnoticealertviewcontroller.notice.title" = "Ruta a la instalación?";
+"afmh2vnoticealertviewcontroller.notice.description" = "Nos dimos cuenta de que no estás en la instalación. ¿Quieres instrucciones para la instalación?";
+"afmh2vnoticealertviewcontroller.acceptbutton.title" = "Dirigeme";
+"afmh2vnoticealertviewcontroller.declinebutton.title" = "No, gracias";

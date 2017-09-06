@@ -145,3 +145,9 @@
 "afmrouteselectionviewcontroller.startlocationtextfield.placeholder" = "你想从哪里开始？";
 "afmrouteselectionviewcontroller.routebutton.title.text" = "路线";
 "afmrouteselectionviewcontroller.handicapaccessibilitylabel.text" = "智障辅助功能";
+
+// Home to Venue Notice
+"afmh2vnoticealertviewcontroller.notice.title" = "到设施的路线？";
+"afmh2vnoticealertviewcontroller.notice.description" = "我们注意到你不在设施。你想去设施的路线吗？";
+"afmh2vnoticealertviewcontroller.acceptbutton.title" = "路线我";
+"afmh2vnoticealertviewcontroller.declinebutton.title" = "不用了，谢谢";
