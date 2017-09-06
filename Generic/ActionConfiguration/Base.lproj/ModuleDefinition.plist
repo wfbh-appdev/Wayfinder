@@ -1203,7 +1203,13 @@
 								<string>PWRouteSnapToleranceHigh</string>
 								<key>floorPickerSortType</key>
 								<integer>0</integer>
-								<key>showFilterIcon</key>
+								<key>poiListSectionType</key>
+								<integer>0</integer>
+								<key>poiListLayoutType</key>
+								<real>0</real>
+								<key>shouldShowFilterButton</key>
+								<true/>
+								<key>shouldShowMapButton</key>
 								<true/>
 								<key>showFilterBadge</key>
 								<true/>
@@ -1349,11 +1355,15 @@
 						<key>alphaSorted</key>
 						<true/>
 						<key>poiListSectionType</key>
-						<integer>0</integer>
+						<string>$action.poiListSectionType</string>
 						<key>poiListLayoutType</key>
-						<integer>0</integer>
-						<key>showFilterIcon</key>
-						<true/>
+						<string>$action.poiListLayoutType</string>
+						<key>shouldShowFilterButton</key>
+						<string>$action.shouldShowFilterButton</string>
+						<key>shouldShowMapButton</key>
+						<string>$action.shouldShowMapButton</string>
+						<key>poiSelectedDelegate</key>
+						<string>$action.poiSelectedDelegate</string>
 						<key>showFilterBadge</key>
 						<true/>
 					</dict>
@@ -1715,9 +1725,9 @@
 				<key>parameters</key>
 				<dict>
 					<key>viewController</key>
-					<string>AFMUIRouteViewController</string>
+					<string>AFMRouteSelectionViewController</string>
 					<key>presentationMode</key>
-					<string>modal</string>
+					<string>modalPush</string>
 					<key>shouldAnimate</key>
 					<true/>
 					<key>properties</key>
@@ -1732,6 +1742,22 @@
 						<string>$action.outdoor2Indoor</string>
 						<key>homeToVenueEnabled</key>
 						<true/>
+						<key>routeButtonEnabledBackgroundColor</key>
+						<string>#0080FF</string>
+						<key>routeButtonEnabledTextColor</key>
+						<string>#FFFFFF</string>
+						<key>routeButtonDisabledBackgroundColor</key>
+						<string>#EFEFF3</string>
+						<key>routeButtonDisabledTextColor</key>
+						<string>#D8D9DB</string>
+						<key>poiListSectionType</key>
+						<integer>0</integer>
+						<key>poiListLayoutType</key>
+						<real>0</real>
+						<key>shouldShowFilterButton</key>
+						<false/>
+						<key>shouldShowMapButton</key>
+						<false/>
 					</dict>
 				</dict>
 			</dict>
@@ -2332,6 +2358,111 @@
 				<string>Description</string>
 				<key>imageURL</key>
 				<string>ImageURL</string>
+			</dict>
+		</dict>
+		<key>mapping</key>
+		<dict>
+			<key>buttons</key>
+			<array>
+				<dict>
+					<key>dataKey</key>
+					<string>POI</string>
+					<key>title</key>
+					<string>detailconfig.route</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>11</integer>
+					<key>image</key>
+					<string>icon_route_event</string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFMMapRouteButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string></string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>dataKey</key>
+					<string>Phone</string>
+					<key>title</key>
+					<string>detailconfig.call</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>11</integer>
+					<key>image</key>
+					<string>icon_call_event</string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFDPhoneButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string>AFCPhoneButtonHidden</string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>dataKey</key>
+					<string>Email</string>
+					<key>title</key>
+					<string>detailconfig.email</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>11</integer>
+					<key>image</key>
+					<string>icon_email</string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFDEmailButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string></string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>dataKey</key>
+					<string>Website</string>
+					<key>title</key>
+					<string>detailconfig.website</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>11</integer>
+					<key>image</key>
+					<string>icon_website</string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFDWebsiteButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string></string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+			</array>
+			<key>data</key>
+			<dict>
+				<key>itemTitle</key>
+				<string>Name</string>
+				<key>itemSubtitle</key>
+				<string>SubTitle</string>
+				<key>itemDescription</key>
+				<string>Description</string>
+				<key>imageURL</key>
+				<string>DetailImage</string>
 			</dict>
 		</dict>
 	</dict>

@@ -39,6 +39,11 @@
 "afcuimpoicategoryviewcontroller.titlelabel.text" = "اختار في و اي فلتر";
 
 /*
+ *  AFCUIMPOICategoryViewController Strings
+ */
+"afcuimpoicategoryviewcontroller.titlelabel.text" = "Choose POI Filter";
+
+/*
  *  AFMUIPOIDetailViewController Strings
  */
 "afcuiannotationdetailviewcontroller.selectCampusButton.buttontitle" = "اختر هذا الحرم الجامعي";
@@ -46,6 +51,7 @@
 /*
  *  AFCUIMMapViewController Strings
  */
+"afcuimmapviewcontroller.endPointOfInterest.message" = "لقد وصلت";
 "afcuimmapviewcontroller.promptlocationalert.takemetherebutton" = "خذني هناك";
 "afcuimmapviewcontroller.promptlocationalert.backtofacilitymapbutton" = "العودة إلى خريطة المرفق";
 "afcuimmapviewcontroller.promptlocationalert.cancelbutton" = "لا شكرا";
@@ -69,6 +75,8 @@
 /*
  *  AFCUIMRoutingAnnotationView Strings
  */
+"afcuimroutingannotationview.taptogoback.title" = "اضغط على العودة";
+"afcuimroutingannotationview.taptoviewnext.title" = "انقر لعرض التالي";
 "afcuimroutingannotationview.starthereannotation.title" = "بداية";
 "afcuimroutingannotationview.destinationannotation.title" = "النهاية";
 "afcuimroutingannotationview.tome.title" = "أخذ";
@@ -113,3 +121,28 @@
  *  AFMOutdoorToIndoor Strings
  */
 "afmoutdoortoindoor.nativemap.title" = "%1$@ at %2$@";
+
+/*
+ * Connection requirements for location
+ */
+"afmuimapviewcontroller.connections.wifi.message" = "تشغيل واي فاي لمعرفة موقعك الحالي على الخريطة.";
+"afmuimapviewcontroller.connections.bluetooth.message" = "شغل البلوتوث للاطلاع على موقعك الحالي على الخريطة.";
+"afmuimapviewcontroller.connections.wifiandbluetooth.message" = "تشغيل واي فاي وبلوتوث لرؤية موقعك الحالي على الخريطة.";
+"afmuimapviewcontroller.connections.button.title" = "حسنا";
+
+// Permission
+"afmlocationpermissionrequestviewcontroller.permission.title" = "استخدام الموقع الحالي";
+"afmlocationpermissionrequestviewcontroller.permission.description" = "الرجاء تمكين خدمات الموقع لمساعدتنا في إرشادك.";
+"afmlocationpermissionrequestviewcontroller.allowbutton.title" = "نعم فعلا";
+"afmlocationpermissionrequestviewcontroller.rejectbutton.title" = "ليس الان";
+
+/*
+ * AFMRouteSelectionViewController
+ */
+"afmrouteselectionviewcontroller.titlelabel.text" = "الاتجاهات";
+"afmrouteselectionviewcontroller.currentlocation.text" = "الموقع الحالي";
+"afmrouteselectionviewcontroller.startlabel.text" = "بداية";
+"afmrouteselectionviewcontroller.endlabel.text" = "النهاية";
+"afmrouteselectionviewcontroller.startlocationtextfield.placeholder" = "أين تريد أن تبدأ؟";
+"afmrouteselectionviewcontroller.routebutton.title.text" = "طريق";
+"afmrouteselectionviewcontroller.handicapaccessibilitylabel.text" = "هانديكاب الوصول";

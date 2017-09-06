@@ -35,8 +35,12 @@
 "afcuimroutebuilderviewcontroller.routeme.error.title" = "路由错误";
 "afcuimroutebuilderviewcontroller.routeme.error.message" = "没有找到路线。";
 "afcuimroutebuilderviewcontroller.table.header.title" = "%1$@ at %2$@";
-
 "afcuimpoicategoryviewcontroller.titlelabel.text" = "选择POI过滤器";
+
+/*
+ *  AFCUIMPOICategoryViewController Strings
+ */
+"afcuimpoicategoryviewcontroller.titlelabel.text" = "Choose POI Filter";
 
 /*
  *  AFMUIPOIDetailViewController Strings
@@ -46,6 +50,7 @@
 /*
  *  AFCUIMMapViewController Strings
  */
+"afcuimmapviewcontroller.endPointOfInterest.message" = "你已到达。";
 "afcuimmapviewcontroller.promptlocationalert.takemetherebutton" = "带我到那里";
 "afcuimmapviewcontroller.promptlocationalert.backtofacilitymapbutton" = "返回设施地图";
 "afcuimmapviewcontroller.promptlocationalert.cancelbutton" = "不用了，谢谢";
@@ -69,6 +74,8 @@
 /*
  *  AFCUIMRoutingAnnotationView Strings
  */
+"afcuimroutingannotationview.taptogoback.title" = "TAP回去";
+"afcuimroutingannotationview.taptoviewnext.title" = "TAP查看下一个";
 "afcuimroutingannotationview.starthereannotation.title" = "开始";
 "afcuimroutingannotationview.destinationannotation.title" = "结束";
 "afcuimroutingannotationview.tome.title" = "采取";
@@ -113,3 +120,28 @@
  *  AFMOutdoorToIndoor Strings
  */
 "afmoutdoortoindoor.nativemap.title" = "%1$@ at %2$@";
+
+/*
+ * Connection requirements for location
+ */
+"afmuimapviewcontroller.connections.wifi.message" = "打开wifi，在地图上查看您当前的位置。";
+"afmuimapviewcontroller.connections.bluetooth.message" = "打开蓝牙，查看您当前的位置在地图上。";
+"afmuimapviewcontroller.connections.wifiandbluetooth.message" = "打开WiFi和蓝牙，在地图上查看您当前的位置。";
+"afmuimapviewcontroller.connections.button.title" = "好";
+
+// Permission
+"afmlocationpermissionrequestviewcontroller.permission.title" = "使用当前位置";
+"afmlocationpermissionrequestviewcontroller.permission.description" = "请启用位置服务来帮助我们指导您。";
+"afmlocationpermissionrequestviewcontroller.allowbutton.title" = "是";
+"afmlocationpermissionrequestviewcontroller.rejectbutton.title" = "不是现在";
+
+/*
+ * AFMRouteSelectionViewController
+ */
+"afmrouteselectionviewcontroller.titlelabel.text" = "路线";
+"afmrouteselectionviewcontroller.currentlocation.text" = "错误.标题";
+"afmrouteselectionviewcontroller.startlabel.text" = "开始";
+"afmrouteselectionviewcontroller.endlabel.text" = "结束";
+"afmrouteselectionviewcontroller.startlocationtextfield.placeholder" = "你想从哪里开始？";
+"afmrouteselectionviewcontroller.routebutton.title.text" = "路线";
+"afmrouteselectionviewcontroller.handicapaccessibilitylabel.text" = "智障辅助功能";
