@@ -38,6 +38,7 @@
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>uber</string>
+		<string>comgooglemaps</string>
 	</array>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
