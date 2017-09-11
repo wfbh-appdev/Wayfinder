@@ -146,3 +146,9 @@
 "afmrouteselectionviewcontroller.startlocationtextfield.placeholder" = "どこから始めたいですか？";
 "afmrouteselectionviewcontroller.routebutton.title.text" = "ルート";
 "afmrouteselectionviewcontroller.handicapaccessibilitylabel.text" = "ハンディキャップのアクセシビリティ";
+
+// Home to Venue Notice
+"afmh2vnoticealertviewcontroller.notice.title" = "施設へのルート？";
+"afmh2vnoticealertviewcontroller.notice.description" = "あなたは施設にいないことに気付きました。あなたは施設への行き方をご希望ですか？";
+"afmh2vnoticealertviewcontroller.acceptbutton.title" = "私を送る";
+"afmh2vnoticealertviewcontroller.declinebutton.title" = "結構です";

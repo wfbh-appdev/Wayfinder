@@ -1325,6 +1325,29 @@
 					<string>AFMLocationPermissionRequestViewController</string>
 				</dict>
 			</dict>
+			<key>homeToVenueRequest</key>
+			<dict>
+				<key>className</key>
+				<string>AFCForwardAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>forwardContentType</key>
+					<string>Notice</string>
+					<key>forwardContentAction</key>
+					<string>request</string>
+					<key>viewController</key>
+					<string>AFMH2VNoticeAlertViewController</string>
+					<key>properties</key>
+					<dict>
+						<key>navigationController</key>
+						<string>$action.navigationController</string>
+						<key>onAcceptPressed</key>
+						<string>$action.onAcceptPressed</string>
+						<key>onDeclinePressed</key>
+						<string>$action.onDeclinePressed</string>
+					</dict>
+				</dict>
+			</dict>
 		</dict>
 		<key>MapDirectory</key>
 		<dict>
@@ -1649,7 +1672,26 @@
 					<key>permissionClass</key>
 					<string></string>
 					<key>viewController</key>
-					<string>AFCPermissionRequestViewController</string>
+					<string>AFCNoticeAlertViewController</string>
+				</dict>
+			</dict>
+		</dict>
+		<key>Notice</key>
+		<dict>
+			<key>request</key>
+			<dict>
+				<key>className</key>
+				<string>AFCNoticeAlertAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>viewController</key>
+					<string>AFCNoticeAlertViewController</string>
+					<key>onDeclinePressed</key>
+					<string>$action.onDeclinePressed</string>
+					<key>onAcceptPressed</key>
+					<string>$action.onAcceptPressed</string>
+					<key>navigationController</key>
+					<string>$action.navigationController</string>
 				</dict>
 			</dict>
 		</dict>

@@ -14,7 +14,7 @@
 	<key>noticeTitleLabel</key>
 	<dict>
 		<key>text</key>
-		<string>#afmlocationpermissionrequestviewcontroller.permission.title,AppFrameworkMapping</string>
+		<string>#afmh2vnoticealertviewcontroller.notice.title,AppFrameworkMapping</string>
 		<key>fontName</key>
 		<string>$MainFont</string>
 		<key>fontSize</key>
@@ -25,7 +25,7 @@
 	<key>noticeDescriptionLabel</key>
 	<dict>
 		<key>text</key>
-		<string>#afmlocationpermissionrequestviewcontroller.permission.description,AppFrameworkMapping</string>
+		<string>#afmh2vnoticealertviewcontroller.notice.description,AppFrameworkMapping</string>
 		<key>lines</key>
 		<integer>0</integer>
 		<key>alignment</key>
@@ -40,19 +40,19 @@
 	<key>noticeImageView</key>
 	<dict>
 		<key>image</key>
-		<string>mapping_permission</string>
+		<string>mapping_h2v_notice</string>
 	</dict>
 	<key>noticeDeclineButton</key>
 	<dict>
 		<key>buttonTitle</key>
-		<string>#afmlocationpermissionrequestviewcontroller.rejectbutton.title,AppFrameworkMapping</string>
+		<string>#afmh2vnoticealertviewcontroller.declinebutton.title,AppFrameworkMapping</string>
 		<key>backgroundColor</key>
 		<string>#ffffff</string>
 	</dict>
 	<key>noticeAcceptButton</key>
 	<dict>
 		<key>buttonTitle</key>
-		<string>#afmlocationpermissionrequestviewcontroller.allowbutton.title,AppFrameworkMapping</string>
+		<string>#afmh2vnoticealertviewcontroller.acceptbutton.title,AppFrameworkMapping</string>
 		<key>backgroundColor</key>
 		<string>#ffffff</string>
 	</dict>
