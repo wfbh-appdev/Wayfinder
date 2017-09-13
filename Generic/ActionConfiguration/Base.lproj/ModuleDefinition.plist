@@ -1389,6 +1389,8 @@
 						<string>$action.poiSelectedDelegate</string>
 						<key>showFilterBadge</key>
 						<true/>
+						<key>filterPoiTypesSearchOnly</key>
+						<string></string>
 					</dict>
 				</dict>
 			</dict>
@@ -1800,6 +1802,8 @@
 						<false/>
 						<key>shouldShowMapButton</key>
 						<false/>
+						<key>filterPoiTypesSearchOnly</key>
+						<string></string>
 					</dict>
 				</dict>
 			</dict>
@@ -2400,6 +2404,67 @@
 				<string>Description</string>
 				<key>imageURL</key>
 				<string>ImageURL</string>
+			</dict>
+		</dict>
+		<key>mapping_custom</key>
+		<dict>
+			<key>buttons</key>
+			<array>
+				<dict>
+					<key>dataKey</key>
+					<string></string>
+					<key>title</key>
+					<string>detailconfig.remove</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>11</integer>
+					<key>image</key>
+					<string></string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFMRemoveCustomPoiClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string></string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>dataKey</key>
+					<string></string>
+					<key>title</key>
+					<string>detailconfig.route</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>11</integer>
+					<key>image</key>
+					<string></string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFMMapRouteButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string></string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+			</array>
+			<key>data</key>
+			<dict>
+				<key>itemTitle</key>
+				<string>Name</string>
+				<key>itemSubtitle</key>
+				<string>SubTitle</string>
+				<key>itemDescription</key>
+				<string>Description</string>
+				<key>imageURL</key>
+				<string>DetailImage</string>
 			</dict>
 		</dict>
 		<key>mapping</key>

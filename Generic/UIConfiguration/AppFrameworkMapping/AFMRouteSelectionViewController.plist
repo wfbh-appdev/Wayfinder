@@ -129,7 +129,8 @@
 			<string>H:|[separator]|</string>
 			<string>H:|[buttonContainerView]|</string>
 			<string>H:|-24-[routeButton]-24-|</string>
-			<string>V:|-24-[startLocationTextField(30)]-24-[endLocationTextField(30)]-37-[handicapAccessibilityLabel(22)]-36-[separator(1)]-301-[buttonContainerView]|</string>
+			<string>V:|-24-[startLocationTextField(30)]-24-[endLocationTextField(30)]-37-[handicapAccessibilityLabel(22)]-36-[separator(1)]</string>
+			<string>V:[buttonContainerView(98)]|</string>
 			<string>V:|-53-[reverseRoutesButton(24)]</string>
 			<string>V:|-24-[routeButton]-24-|</string>
 			<string>#startLabel.centery=startLocationTextField.centery,1,0</string>

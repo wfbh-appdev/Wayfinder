@@ -187,6 +187,7 @@
 "detailconfig.calendar" = "Calendar";
 "detailconfig.buytickets" = "Buy Tickets";
 "detailconfig.favorite" = "Favorite";
+"detailconfig.remove" = "Remove";
 
 /*
  * AFCCategoryViewController

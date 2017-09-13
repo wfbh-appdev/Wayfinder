@@ -152,3 +152,9 @@
 "afmh2vnoticealertviewcontroller.notice.description" = "لاحظنا أنك لست في المرفق. هل ترغب في توجيهات إلى المنشأة؟";
 "afmh2vnoticealertviewcontroller.acceptbutton.title" = "الطريق لي";
 "afmh2vnoticealertviewcontroller.declinebutton.title" = "لا شكرا";
+
+/*
+ * Custom POI Strings
+ */
+"custom.poi.title" = "Custom POI";
+"custom.poi.description" = "Custom POI Description (need creative to specify text)";

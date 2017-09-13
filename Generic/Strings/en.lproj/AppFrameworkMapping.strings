@@ -150,3 +150,9 @@
 "afmh2vnoticealertviewcontroller.notice.description" = "We noticed you're not at the facility. Would you like directions to the facility?";
 "afmh2vnoticealertviewcontroller.acceptbutton.title" = "Route Me";
 "afmh2vnoticealertviewcontroller.declinebutton.title" = "No, Thanks";
+
+/*
+ * Custom POI Strings
+ */
+"custom.poi.title" = "Custom POI";
+"custom.poi.description" = "Custom POI Description (need creative to specify text)";
