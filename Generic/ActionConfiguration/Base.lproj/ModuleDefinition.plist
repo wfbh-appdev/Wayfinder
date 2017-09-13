@@ -1457,7 +1457,12 @@
 			<key>show</key>
 			<dict>
 				<key>className</key>
-				<string>AFMStartRouteInAppleMapsAction</string>
+				<string>AFMStartRouteInNativeMapsAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>accessible</key>
+					<string>$action.accessible</string>
+				</dict>
 			</dict>
 		</dict>
 		<key>Offer</key>
