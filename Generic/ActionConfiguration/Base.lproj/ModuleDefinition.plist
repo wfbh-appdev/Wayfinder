@@ -1022,6 +1022,10 @@
 								<array>
 									<dict>
 										<key>className</key>
+										<string>AFCLoadWeatherAction</string>
+									</dict>
+									<dict>
+										<key>className</key>
 										<string>AFCActionIncluder</string>
 										<key>parameters</key>
 										<dict>
@@ -1367,6 +1371,8 @@
 					<dict>
 						<key>currentBuilding</key>
 						<string>$action.currentBuilding</string>
+						<key>currentFloor</key>
+						<string>$action.currentFloor</string>
 						<key>favoritesContext</key>
 						<string>$module.mapFavoritesContext</string>
 						<key>annotations</key>
@@ -2411,7 +2417,7 @@
 				<string>ImageURL</string>
 			</dict>
 		</dict>
-		<key>mapping_custom</key>
+		<key>mapping_custom_poi</key>
 		<dict>
 			<key>buttons</key>
 			<array>
@@ -2463,16 +2469,10 @@
 			<key>data</key>
 			<dict>
 				<key>itemTitle</key>
-				<string>Name</string>
-				<key>itemSubtitle</key>
-				<string>SubTitle</string>
-				<key>itemDescription</key>
-				<string>Description</string>
-				<key>imageURL</key>
-				<string>DetailImage</string>
+				<string>title</string>
 			</dict>
 		</dict>
-		<key>mapping</key>
+		<key>mapping_peek_dir</key>
 		<dict>
 			<key>buttons</key>
 			<array>
@@ -2488,7 +2488,7 @@
 					<key>titleFontSize</key>
 					<integer>11</integer>
 					<key>image</key>
-					<string>icon_route_event</string>
+					<string></string>
 					<key>backgroundColor</key>
 					<string>#0000000</string>
 					<key>buttonClickClass</key>
@@ -2510,7 +2510,7 @@
 					<key>titleFontSize</key>
 					<integer>11</integer>
 					<key>image</key>
-					<string>icon_call_event</string>
+					<string></string>
 					<key>backgroundColor</key>
 					<string>#0000000</string>
 					<key>buttonClickClass</key>
@@ -2532,7 +2532,7 @@
 					<key>titleFontSize</key>
 					<integer>11</integer>
 					<key>image</key>
-					<string>icon_email</string>
+					<string></string>
 					<key>backgroundColor</key>
 					<string>#0000000</string>
 					<key>buttonClickClass</key>
@@ -2554,7 +2554,7 @@
 					<key>titleFontSize</key>
 					<integer>11</integer>
 					<key>image</key>
-					<string>icon_website</string>
+					<string></string>
 					<key>backgroundColor</key>
 					<string>#0000000</string>
 					<key>buttonClickClass</key>
@@ -2569,12 +2569,39 @@
 			<dict>
 				<key>itemTitle</key>
 				<string>Name</string>
-				<key>itemSubtitle</key>
-				<string>SubTitle</string>
-				<key>itemDescription</key>
-				<string>Description</string>
-				<key>imageURL</key>
-				<string>DetailImage</string>
+			</dict>
+		</dict>
+		<key>mapping_peek_poi</key>
+		<dict>
+			<key>buttons</key>
+			<array>
+				<dict>
+					<key>dataKey</key>
+					<string></string>
+					<key>title</key>
+					<string>detailconfig.route</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>11</integer>
+					<key>image</key>
+					<string></string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFMMapRouteButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string></string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+			</array>
+			<key>data</key>
+			<dict>
+				<key>itemTitle</key>
+				<string>title</string>
 			</dict>
 		</dict>
 	</dict>
