@@ -144,6 +144,8 @@
 "afmrouteselectionviewcontroller.startlocationtextfield.placeholder" = "Where would you like to start?";
 "afmrouteselectionviewcontroller.routebutton.title.text" = "Route";
 "afmrouteselectionviewcontroller.handicapaccessibilitylabel.text" = "Handicap Accessibility";
+"afmrouteselectionviewcontroller.poilistsearchbar.placeholder.start.text" = "Choose a Starting Location...";
+"afmrouteselectionviewcontroller.poilistsearchbar.placeholder.end.text" = "Choose a Destination Location...";
 
 // Home to Venue Notice
 "afmh2vnoticealertviewcontroller.notice.title" = "Route to Facility?";
@@ -156,3 +158,19 @@
  */
 "custom.poi.title" = "Custom POI";
 "custom.poi.description" = "Custom POI Description (need creative to specify text)";
+
+/*
+ * Custom POI Overwrite Dialog
+ */
+"afmoverwritecustompoivewcontroller.notice.title" = "Save a New Custom Destination";
+"afmoverwritecustompoivewcontroller.notice.description" = "Would you like to save over your existing custom destination marker?";
+"afmoverwritecustompoivewcontroller.acceptbutton.title" = "Yes";
+"afmoverwritecustompoivewcontroller.declinebutton.title" = "Not Now";
+
+/*
+ * Custom POI Delete Dialog
+ */
+"afmdeletecustompoiviewcontroller.notice.title" = "Delete Saved Pin";
+"afmdeletecustompoiviewcontroller.notice.description" = "Would you like to remove your saved pin?";
+"afmdeletecustompoiviewcontroller.acceptbutton.title" = "Yes";
+"afmdeletecustompoiviewcontroller.declinebutton.title" = "Not Now";

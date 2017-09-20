@@ -1352,6 +1352,52 @@
 					</dict>
 				</dict>
 			</dict>
+			<key>overwriteCustomPoiRequest</key>
+			<dict>
+				<key>className</key>
+				<string>AFCForwardAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>forwardContentType</key>
+					<string>Notice</string>
+					<key>forwardContentAction</key>
+					<string>request</string>
+					<key>viewController</key>
+					<string>AFMOverwriteCustomPoiViewController</string>
+					<key>properties</key>
+					<dict>
+						<key>navigationController</key>
+						<string>$action.navigationController</string>
+						<key>onAcceptPressed</key>
+						<string>$action.onAcceptPressed</string>
+						<key>onDeclinePressed</key>
+						<string>$action.onDeclinePressed</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>deleteCustomPoiRequest</key>
+			<dict>
+				<key>className</key>
+				<string>AFCForwardAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>forwardContentType</key>
+					<string>Notice</string>
+					<key>forwardContentAction</key>
+					<string>request</string>
+					<key>viewController</key>
+					<string>AFMDeleteCustomPoiViewController</string>
+					<key>properties</key>
+					<dict>
+						<key>navigationController</key>
+						<string>$action.navigationController</string>
+						<key>onAcceptPressed</key>
+						<string>$action.onAcceptPressed</string>
+						<key>onDeclinePressed</key>
+						<string>$action.onDeclinePressed</string>
+					</dict>
+				</dict>
+			</dict>
 		</dict>
 		<key>MapDirectory</key>
 		<dict>
@@ -1397,6 +1443,10 @@
 						<true/>
 						<key>filterPoiTypesSearchOnly</key>
 						<string></string>
+						<key>shouldShowCustomPoi</key>
+						<true/>
+						<key>shouldShowUserLocation</key>
+						<false/>
 					</dict>
 				</dict>
 			</dict>

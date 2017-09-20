@@ -9,13 +9,9 @@
 /* Begin PBXBuildFile section */
 		133DB99F1F609A1D00E9D791 /* AFMH2VNoticeAlertViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 133DB99E1F609A1D00E9D791 /* AFMH2VNoticeAlertViewController.plist */; };
 		135B581B1F4CC9B5001A64FA /* AFDDirectoryCategoryViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 135B581A1F4CC9B5001A64FA /* AFDDirectoryCategoryViewController.plist */; };
-		135B581D1F4CCB14001A64FA /* AFMUIPOICategoryViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 135B581C1F4CCB14001A64FA /* AFMUIPOICategoryViewController.plist */; };
 		137E88AA1F4CA57600DEF7A3 /* AFCCategoryViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 137E88A91F4CA57600DEF7A3 /* AFCCategoryViewController.plist */; };
 		3C1DE4301C3F306B0074369D /* AFGoogleAnalyticsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1DE42F1C3F306B0074369D /* AFGoogleAnalyticsController.m */; };
 		4AD72CD87B22250320E754C5 /* libPods-GenericAF4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5A55BB941F06A8E81EA3DF /* libPods-GenericAF4.a */; };
-		52223B331F2938F8008C849E /* AFMPOIListTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52223B321F2938F8008C849E /* AFMPOIListTableViewCell.plist */; };
-		52223B351F294B51008C849E /* AFMPOIListNoImageTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52223B341F294B51008C849E /* AFMPOIListNoImageTableViewCell.plist */; };
-		52223B371F294B91008C849E /* AFMPOIListTrailingImageTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52223B361F294B91008C849E /* AFMPOIListTrailingImageTableViewCell.plist */; };
 		55173FDE1D62790500EE540B /* UIConfigurationDefault.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55173FDD1D62790500EE540B /* UIConfigurationDefault.plist */; };
 		551BF9251C1B51E9004D7ECD /* (null) in Resources */ = {isa = PBXBuildFile; };
 		551BF9261C1B51E9004D7ECD /* (null) in Resources */ = {isa = PBXBuildFile; };
@@ -27,7 +23,15 @@
 		5574F54F1C3AF889007BC741 /* AFCUILocationProviderViewClassTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5574F54E1C3AF889007BC741 /* AFCUILocationProviderViewClassTableViewCell.m */; };
 		55BAB7CB1C3EB98600799988 /* PhunwareIntegration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55BAB7CD1C3EB98600799988 /* PhunwareIntegration.plist */; };
 		7E47F5011F509A5600274CFF /* AFMRouteSelectionViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E47F5001F509A5600274CFF /* AFMRouteSelectionViewController.plist */; };
-		7E62F90D1F6A4CD30075AA87 /* AFMPOIPeekDetailViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E62F90C1F6A4CD30075AA87 /* AFMPOIPeekDetailViewController.plist */; };
+		7E66B36D1F7045ED00B04A7E /* AFMOverwriteCustomPoiViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E66B36C1F7045ED00B04A7E /* AFMOverwriteCustomPoiViewController.plist */; };
+		7E66B36F1F70462700B04A7E /* AFCNoticeAlertViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E66B36E1F70462700B04A7E /* AFCNoticeAlertViewController.plist */; };
+		7E66B3761F70465A00B04A7E /* AFMLocationPermissionRequestViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E66B3701F70465A00B04A7E /* AFMLocationPermissionRequestViewController.plist */; };
+		7E66B3771F70465A00B04A7E /* AFMPOIListNoImageTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E66B3711F70465A00B04A7E /* AFMPOIListNoImageTableViewCell.plist */; };
+		7E66B3781F70465A00B04A7E /* AFMPOIListTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E66B3721F70465A00B04A7E /* AFMPOIListTableViewCell.plist */; };
+		7E66B3791F70465A00B04A7E /* AFMPOIListTrailingImageTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E66B3731F70465A00B04A7E /* AFMPOIListTrailingImageTableViewCell.plist */; };
+		7E66B37A1F70465A00B04A7E /* AFMPOIPeekDetailViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E66B3741F70465A00B04A7E /* AFMPOIPeekDetailViewController.plist */; };
+		7E66B37B1F70465A00B04A7E /* AFMUIPOICategoryViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E66B3751F70465A00B04A7E /* AFMUIPOICategoryViewController.plist */; };
+		7E66B3851F7071CD00B04A7E /* AFMDeleteCustomPoiViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E66B3841F7071CD00B04A7E /* AFMDeleteCustomPoiViewController.plist */; };
 		7EF95DF51F26E91400CB9826 /* AFDDirectoryItemViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EF95DEE1F26E91400CB9826 /* AFDDirectoryItemViewController.plist */; };
 		7EF95DF61F26E91400CB9826 /* AFDDirectoryNoImageTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EF95DEF1F26E91400CB9826 /* AFDDirectoryNoImageTableViewCell.plist */; };
 		7EF95DF71F26E91400CB9826 /* AFDDirectoryTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EF95DF01F26E91400CB9826 /* AFDDirectoryTableViewCell.plist */; };
@@ -86,8 +90,6 @@
 		8FDD0F491BD190B900A0C512 /* ApplicationShortcuts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FDD0F481BD190B900A0C512 /* ApplicationShortcuts.plist */; };
 		A2B61E5B1EAFF5BB0023BC53 /* (null) in Resources */ = {isa = PBXBuildFile; };
 		A2B61E5E1EAFF5BB0023BC53 /* (null) in Resources */ = {isa = PBXBuildFile; };
-		C366B68C1F2274E30071F4F3 /* AFMLocationPermissionRequestViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = C366B68B1F2274E30071F4F3 /* AFMLocationPermissionRequestViewController.plist */; };
-		C38D68B51F16E1A200C92372 /* AFCNoticeAlertViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = C38D68B41F16E1A200C92372 /* AFCNoticeAlertViewController.plist */; };
 		C3F32B611F0ADA0000495919 /* AppFrameworkCore.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3F32B4C1F0ADA0000495919 /* AppFrameworkCore.strings */; };
 		C3F32B621F0ADA0000495919 /* AppFrameworkDirectory.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3F32B4E1F0ADA0000495919 /* AppFrameworkDirectory.strings */; };
 		C3F32B631F0ADA0000495919 /* AppFrameworkEvents.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3F32B501F0ADA0000495919 /* AppFrameworkEvents.strings */; };
@@ -100,15 +102,11 @@
 /* Begin PBXFileReference section */
 		133DB99E1F609A1D00E9D791 /* AFMH2VNoticeAlertViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFMH2VNoticeAlertViewController.plist; path = AppFrameworkMapping/AFMH2VNoticeAlertViewController.plist; sourceTree = "<group>"; };
 		135B581A1F4CC9B5001A64FA /* AFDDirectoryCategoryViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFDDirectoryCategoryViewController.plist; path = AppFrameworkDirectory/AFDDirectoryCategoryViewController.plist; sourceTree = "<group>"; };
-		135B581C1F4CCB14001A64FA /* AFMUIPOICategoryViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFMUIPOICategoryViewController.plist; sourceTree = "<group>"; };
 		137E88A91F4CA57600DEF7A3 /* AFCCategoryViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFCCategoryViewController.plist; path = AppFrameworkCore/AFCCategoryViewController.plist; sourceTree = "<group>"; };
 		3C1DE42E1C3F306B0074369D /* AFGoogleAnalyticsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFGoogleAnalyticsController.h; sourceTree = "<group>"; };
 		3C1DE42F1C3F306B0074369D /* AFGoogleAnalyticsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFGoogleAnalyticsController.m; sourceTree = "<group>"; };
 		49FCFC7DF95FB8AE2E10158A /* Pods-GenericAF4.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericAF4.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4.adhoc.xcconfig"; sourceTree = "<group>"; };
 		4FBB0FA85ED06251D65C4E04 /* Pods-GenericAF4.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericAF4.distribution.xcconfig"; path = "Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4.distribution.xcconfig"; sourceTree = "<group>"; };
-		52223B321F2938F8008C849E /* AFMPOIListTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFMPOIListTableViewCell.plist; sourceTree = "<group>"; };
-		52223B341F294B51008C849E /* AFMPOIListNoImageTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFMPOIListNoImageTableViewCell.plist; sourceTree = "<group>"; };
-		52223B361F294B91008C849E /* AFMPOIListTrailingImageTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFMPOIListTrailingImageTableViewCell.plist; sourceTree = "<group>"; };
 		52AB9C471EF1E89C00A06AB3 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		52AB9C481EF1E89D00A06AB3 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = pt; path = pt.lproj/PhunwareIntegration.plist; sourceTree = "<group>"; };
 		55173FDD1D62790500EE540B /* UIConfigurationDefault.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UIConfigurationDefault.plist; sourceTree = "<group>"; };
@@ -124,7 +122,15 @@
 		55BAB7CE1C3EB98800799988 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = es; path = es.lproj/PhunwareIntegration.plist; sourceTree = "<group>"; };
 		6D5A55BB941F06A8E81EA3DF /* libPods-GenericAF4.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GenericAF4.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E47F5001F509A5600274CFF /* AFMRouteSelectionViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFMRouteSelectionViewController.plist; path = AppFrameworkMapping/AFMRouteSelectionViewController.plist; sourceTree = "<group>"; };
-		7E62F90C1F6A4CD30075AA87 /* AFMPOIPeekDetailViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFMPOIPeekDetailViewController.plist; sourceTree = "<group>"; };
+		7E66B36C1F7045ED00B04A7E /* AFMOverwriteCustomPoiViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFMOverwriteCustomPoiViewController.plist; path = AppFrameworkMapping/AFMOverwriteCustomPoiViewController.plist; sourceTree = "<group>"; };
+		7E66B36E1F70462700B04A7E /* AFCNoticeAlertViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFCNoticeAlertViewController.plist; path = AppFrameworkCore/AFCNoticeAlertViewController.plist; sourceTree = "<group>"; };
+		7E66B3701F70465A00B04A7E /* AFMLocationPermissionRequestViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFMLocationPermissionRequestViewController.plist; path = AppFrameworkMapping/AFMLocationPermissionRequestViewController.plist; sourceTree = "<group>"; };
+		7E66B3711F70465A00B04A7E /* AFMPOIListNoImageTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFMPOIListNoImageTableViewCell.plist; path = AppFrameworkMapping/AFMPOIListNoImageTableViewCell.plist; sourceTree = "<group>"; };
+		7E66B3721F70465A00B04A7E /* AFMPOIListTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFMPOIListTableViewCell.plist; path = AppFrameworkMapping/AFMPOIListTableViewCell.plist; sourceTree = "<group>"; };
+		7E66B3731F70465A00B04A7E /* AFMPOIListTrailingImageTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFMPOIListTrailingImageTableViewCell.plist; path = AppFrameworkMapping/AFMPOIListTrailingImageTableViewCell.plist; sourceTree = "<group>"; };
+		7E66B3741F70465A00B04A7E /* AFMPOIPeekDetailViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFMPOIPeekDetailViewController.plist; path = AppFrameworkMapping/AFMPOIPeekDetailViewController.plist; sourceTree = "<group>"; };
+		7E66B3751F70465A00B04A7E /* AFMUIPOICategoryViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFMUIPOICategoryViewController.plist; path = AppFrameworkMapping/AFMUIPOICategoryViewController.plist; sourceTree = "<group>"; };
+		7E66B3841F7071CD00B04A7E /* AFMDeleteCustomPoiViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFMDeleteCustomPoiViewController.plist; path = AppFrameworkMapping/AFMDeleteCustomPoiViewController.plist; sourceTree = "<group>"; };
 		7E705E301DBE89C40047C09C /* GenericAF4.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = GenericAF4.entitlements; path = GenericAF4/GenericAF4.entitlements; sourceTree = "<group>"; };
 		7EF95DCF1F22523300CB9826 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/AppFrameworkCore.strings; sourceTree = "<group>"; };
 		7EF95DD01F2258DE00CB9826 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/AppFrameworkCore.strings; sourceTree = "<group>"; };
@@ -222,8 +228,6 @@
 		C33EA5BE1E48D78B00D48C28 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C33EA5BF1E48D78D00D48C28 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C33EA5C01E48D78E00D48C28 /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = zh.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C366B68B1F2274E30071F4F3 /* AFMLocationPermissionRequestViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFMLocationPermissionRequestViewController.plist; sourceTree = "<group>"; };
-		C38D68B41F16E1A200C92372 /* AFCNoticeAlertViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AFCNoticeAlertViewController.plist; sourceTree = "<group>"; };
 		C3E9F4A61EFD871C006C7445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3F32B4D1F0ADA0000495919 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AppFrameworkCore.strings; sourceTree = "<group>"; };
 		C3F32B4F1F0ADA0000495919 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AppFrameworkDirectory.strings; sourceTree = "<group>"; };
@@ -323,6 +327,13 @@
 		7EF95E131F27AF9D00CB9826 /* AppFrameworkMapping */ = {
 			isa = PBXGroup;
 			children = (
+				7E66B3701F70465A00B04A7E /* AFMLocationPermissionRequestViewController.plist */,
+				7E66B3711F70465A00B04A7E /* AFMPOIListNoImageTableViewCell.plist */,
+				7E66B3721F70465A00B04A7E /* AFMPOIListTableViewCell.plist */,
+				7E66B3731F70465A00B04A7E /* AFMPOIListTrailingImageTableViewCell.plist */,
+				7E66B3741F70465A00B04A7E /* AFMPOIPeekDetailViewController.plist */,
+				7E66B3751F70465A00B04A7E /* AFMUIPOICategoryViewController.plist */,
+				133DB99E1F609A1D00E9D791 /* AFMH2VNoticeAlertViewController.plist */,
 				7EF95E361F27C8F000CB9826 /* AFMUILocationCell.plist */,
 				7EF95E161F27AFAE00CB9826 /* AFMUIMapViewController.plist */,
 				7EF95E151F27AFAE00CB9826 /* AFMUIMapPickerViewController.plist */,
@@ -332,11 +343,8 @@
 				7EF95E171F27AFAE00CB9826 /* AFMUIPOIDetailViewController.plist */,
 				7EF95E1B1F27AFAE00CB9826 /* AFMUITurnByTurnTableViewCell.plist */,
 				7E47F5001F509A5600274CFF /* AFMRouteSelectionViewController.plist */,
-				52223B321F2938F8008C849E /* AFMPOIListTableViewCell.plist */,
-				52223B341F294B51008C849E /* AFMPOIListNoImageTableViewCell.plist */,
-				52223B361F294B91008C849E /* AFMPOIListTrailingImageTableViewCell.plist */,
-				135B581C1F4CCB14001A64FA /* AFMUIPOICategoryViewController.plist */,
-				7E62F90C1F6A4CD30075AA87 /* AFMPOIPeekDetailViewController.plist */,
+				7E66B36C1F7045ED00B04A7E /* AFMOverwriteCustomPoiViewController.plist */,
+				7E66B3841F7071CD00B04A7E /* AFMDeleteCustomPoiViewController.plist */,
 			);
 			name = AppFrameworkMapping;
 			sourceTree = "<group>";
@@ -344,6 +352,7 @@
 		7EF95E241F27C8C600CB9826 /* AppFrameworkCore */ = {
 			isa = PBXGroup;
 			children = (
+				7E66B36E1F70462700B04A7E /* AFCNoticeAlertViewController.plist */,
 				7EF95E261F27C8DC00CB9826 /* AFCBannerNotificationView.plist */,
 				7EF95E271F27C8DC00CB9826 /* AFCItemDetailViewController.plist */,
 				7EF95E281F27C8DC00CB9826 /* AFCLayerPickerTableViewCell.plist */,
@@ -424,9 +433,6 @@
 				7EF95DFF1F26EF3000CB9826 /* AppFrameworkMessageCenter */,
 				7EF95E081F27002500CB9826 /* AppFrameworkParking */,
 				7EF95E251F27C8CD00CB9826 /* AppFrameworkRender */,
-				C38D68B41F16E1A200C92372 /* AFCNoticeAlertViewController.plist */,
-				C366B68B1F2274E30071F4F3 /* AFMLocationPermissionRequestViewController.plist */,
-				133DB99E1F609A1D00E9D791 /* AFMH2VNoticeAlertViewController.plist */,
 				55173FDD1D62790500EE540B /* UIConfigurationDefault.plist */,
 			);
 			path = UIConfiguration;
@@ -581,6 +587,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F8C54181BD6DB440018A2ED /* SplashViewController.xib in Resources */,
+				7E66B36F1F70462700B04A7E /* AFCNoticeAlertViewController.plist in Resources */,
+				7E66B3781F70465A00B04A7E /* AFMPOIListTableViewCell.plist in Resources */,
 				8F4355911BC858B700FFD46C /* Splash-568h@2x.mov in Resources */,
 				7EF95E061F26EFDD00CB9826 /* AFMCOfferTableViewCell.plist in Resources */,
 				8F8C54281BD7E59B0018A2ED /* iTunesArtwork in Resources */,
@@ -595,15 +603,16 @@
 				133DB99F1F609A1D00E9D791 /* AFMH2VNoticeAlertViewController.plist in Resources */,
 				C3F32B661F0ADA0000495919 /* AppFrameworkParking.strings in Resources */,
 				551BF9251C1B51E9004D7ECD /* (null) in Resources */,
+				7E66B37A1F70465A00B04A7E /* AFMPOIPeekDetailViewController.plist in Resources */,
 				551BF9271C1B51E9004D7ECD /* (null) in Resources */,
 				7EF95E121F2700EE00CB9826 /* AFCParkingVoiceMemoViewController.plist in Resources */,
 				8F4355941BC858B700FFD46C /* StandardIcons.xcassets in Resources */,
+				7E66B36D1F7045ED00B04A7E /* AFMOverwriteCustomPoiViewController.plist in Resources */,
 				7EF95E071F26EFDD00CB9826 /* AFMCOfferWalletViewController.plist in Resources */,
 				7EF95E041F26EFDD00CB9826 /* AFMCOfferDetailViewController.plist in Resources */,
 				7EF95E221F27AFAE00CB9826 /* AFMUIRouteViewController.plist in Resources */,
 				7EF95E311F27C8DC00CB9826 /* AFCLayerPickerViewController.plist in Resources */,
 				A2B61E5E1EAFF5BB0023BC53 /* (null) in Resources */,
-				C366B68C1F2274E30071F4F3 /* AFMLocationPermissionRequestViewController.plist in Resources */,
 				8F4355921BC858B700FFD46C /* Splash.mov in Resources */,
 				55173FDE1D62790500EE540B /* UIConfigurationDefault.plist in Resources */,
 				7EF95E231F27AFAE00CB9826 /* AFMUITurnByTurnTableViewCell.plist in Resources */,
@@ -626,10 +635,10 @@
 				8FDD0F3B1BD1775500A0C512 /* GenericAppNavigationController.xib in Resources */,
 				7EF95E111F2700EE00CB9826 /* AFCParkingViewController.plist in Resources */,
 				137E88AA1F4CA57600DEF7A3 /* AFCCategoryViewController.plist in Resources */,
+				7E66B3791F70465A00B04A7E /* AFMPOIListTrailingImageTableViewCell.plist in Resources */,
 				C3F32B631F0ADA0000495919 /* AppFrameworkEvents.strings in Resources */,
 				7EF95E1F1F27AFAE00CB9826 /* AFMUIPOIDetailViewController.plist in Resources */,
 				7EF95E211F27AFAE00CB9826 /* AFMUIPOIViewController.plist in Resources */,
-				135B581D1F4CCB14001A64FA /* AFMUIPOICategoryViewController.plist in Resources */,
 				8F4355901BC858B700FFD46C /* Customization.xcassets in Resources */,
 				8CA4FA061C8F9FE900E0028C /* 20160120_android_multilayer_sandbox.s3db in Resources */,
 				7EF95DF91F26E91400CB9826 /* AFDDirectoryViewController.plist in Resources */,
@@ -639,21 +648,20 @@
 				7EF95E3C1F27C90400CB9826 /* AFCUITrayMenuViewController.plist in Resources */,
 				135B581B1F4CC9B5001A64FA /* AFDDirectoryCategoryViewController.plist in Resources */,
 				A2B61E5B1EAFF5BB0023BC53 /* (null) in Resources */,
-				C38D68B51F16E1A200C92372 /* AFCNoticeAlertViewController.plist in Resources */,
-				52223B331F2938F8008C849E /* AFMPOIListTableViewCell.plist in Resources */,
 				C3F32B611F0ADA0000495919 /* AppFrameworkCore.strings in Resources */,
+				7E66B3771F70465A00B04A7E /* AFMPOIListNoImageTableViewCell.plist in Resources */,
 				8FB674781BD6D73000E7BFE4 /* LaunchScreen.xib in Resources */,
+				7E66B3851F7071CD00B04A7E /* AFMDeleteCustomPoiViewController.plist in Resources */,
+				7E66B37B1F70465A00B04A7E /* AFMUIPOICategoryViewController.plist in Resources */,
 				8F106FA31BC9D44000CCDD86 /* InteractivePushNotificationCategories.plist in Resources */,
 				7EF95DFE1F26EC5E00CB9826 /* EventsListViewController.plist in Resources */,
 				5555DB031C4460C900E37207 /* InfoPlist.strings in Resources */,
 				7EF95DF61F26E91400CB9826 /* AFDDirectoryNoImageTableViewCell.plist in Resources */,
 				C3F32B641F0ADA0000495919 /* AppFrameworkMapping.strings in Resources */,
 				7EF95E321F27C8DC00CB9826 /* AFCUIEULAViewController.plist in Resources */,
-				52223B351F294B51008C849E /* AFMPOIListNoImageTableViewCell.plist in Resources */,
-				52223B371F294B91008C849E /* AFMPOIListTrailingImageTableViewCell.plist in Resources */,
+				7E66B3761F70465A00B04A7E /* AFMLocationPermissionRequestViewController.plist in Resources */,
 				8F0613181BC8569800A55F16 /* Main.storyboard in Resources */,
 				7EF95E341F27C8DC00CB9826 /* AFCUIModalWebBrowser.plist in Resources */,
-				7E62F90D1F6A4CD30075AA87 /* AFMPOIPeekDetailViewController.plist in Resources */,
 				7EF95DF71F26E91400CB9826 /* AFDDirectoryTableViewCell.plist in Resources */,
 				7EF95E331F27C8DC00CB9826 /* AFCUIImageSplashViewController.plist in Resources */,
 			);
