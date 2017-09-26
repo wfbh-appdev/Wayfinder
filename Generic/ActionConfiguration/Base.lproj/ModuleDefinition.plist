@@ -1398,6 +1398,45 @@
 					</dict>
 				</dict>
 			</dict>
+			<key>fullDetailShow</key>
+			<dict>
+				<key>className</key>
+				<string>AFCForwardAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>forwardContentType</key>
+					<string>ItemDetail</string>
+					<key>forwardContentAction</key>
+					<string>show</string>
+					<key>viewController</key>
+					<string>AFMPOIFullDetailViewController</string>
+					<key>shouldAnimate</key>
+					<false/>
+					<key>properties</key>
+					<dict>
+						<key>itemTitle</key>
+						<string>$action.itemTitle</string>
+						<key>itemSubtitle</key>
+						<string>$action.itemSubtitle</string>
+						<key>imageURL</key>
+						<string>$action.imageURL</string>
+						<key>itemDescription</key>
+						<string>$action.itemDescription</string>
+						<key>buttons</key>
+						<string>$action.buttons</string>
+						<key>imagePlaceholder</key>
+						<string>mapping_full_detail_placeholder</string>
+						<key>shouldShowShareButton</key>
+						<false/>
+						<key>poi</key>
+						<string>$action.poi</string>
+						<key>directoryItem</key>
+						<string>$action.directoryItem</string>
+						<key>mapContainer</key>
+						<string>$action.mapContainer</string>
+					</dict>
+				</dict>
+			</dict>
 		</dict>
 		<key>MapDirectory</key>
 		<dict>
@@ -2522,7 +2561,7 @@
 				<string>title</string>
 			</dict>
 		</dict>
-		<key>mapping_peek_dir</key>
+		<key>mapping_poi_dir</key>
 		<dict>
 			<key>buttons</key>
 			<array>
@@ -2621,7 +2660,7 @@
 				<string>Name</string>
 			</dict>
 		</dict>
-		<key>mapping_peek_poi</key>
+		<key>mapping_poi</key>
 		<dict>
 			<key>buttons</key>
 			<array>

@@ -157,7 +157,7 @@
  * Custom POI Strings
  */
 "custom.poi.title" = "Custom POI";
-"custom.poi.description" = "Custom POI Description (need creative to specify text)";
+"custom.poi.description" = "You have created a custom Point of Interest, specifically placed where you dropped the pin on the map.";
 
 /*
  * Custom POI Overwrite Dialog

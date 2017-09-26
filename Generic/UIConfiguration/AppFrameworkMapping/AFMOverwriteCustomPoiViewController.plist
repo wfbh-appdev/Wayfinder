@@ -44,7 +44,7 @@
 	<key>noticeImageView</key>
 	<dict>
 		<key>image</key>
-		<string>mapping_h2v_notice</string>
+		<string>mapping_delete_custom_poi</string>
 	</dict>
 	<key>noticeDeclineButton</key>
 	<dict>

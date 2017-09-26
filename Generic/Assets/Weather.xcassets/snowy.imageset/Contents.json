@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "icon_bluedot_arrival_poi.png",
+      "filename" : "image_weather_snow.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "icon_bluedot_arrival_poi@2x.png",
+      "filename" : "image_weather_snow@2x.png",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "icon_bluedot_arrival_poi@3x.png",
+      "filename" : "image_weather_snow@3x.png",
       "scale" : "3x"
     }
   ],
