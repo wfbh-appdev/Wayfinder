@@ -2603,7 +2603,7 @@
 					<key>backgroundColor</key>
 					<string>#0000000</string>
 					<key>buttonClickClass</key>
-					<string>AFDPhoneButtonClickAction</string>
+					<string>AFMPhoneButtonClickAction</string>
 					<key>buttonHiddenClass</key>
 					<string>AFCPhoneButtonHidden</string>
 					<key>buttonSetupClass</key>
@@ -2625,7 +2625,7 @@
 					<key>backgroundColor</key>
 					<string>#0000000</string>
 					<key>buttonClickClass</key>
-					<string>AFDEmailButtonClickAction</string>
+					<string>AFMEmailButtonClickAction</string>
 					<key>buttonHiddenClass</key>
 					<string></string>
 					<key>buttonSetupClass</key>
@@ -2647,7 +2647,7 @@
 					<key>backgroundColor</key>
 					<string>#0000000</string>
 					<key>buttonClickClass</key>
-					<string>AFDWebsiteButtonClickAction</string>
+					<string>AFMWebsiteButtonClickAction</string>
 					<key>buttonHiddenClass</key>
 					<string></string>
 					<key>buttonSetupClass</key>
