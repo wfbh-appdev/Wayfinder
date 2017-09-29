@@ -1130,6 +1130,8 @@
 								<true/>
 								<key>showFilterBadge</key>
 								<true/>
+								<key>shouldShowApplePois</key>
+								<false/>
 							</dict>
 						</dict>
 						<key>dependencies</key>
