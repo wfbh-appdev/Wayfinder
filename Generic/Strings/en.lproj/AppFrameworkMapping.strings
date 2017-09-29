@@ -163,7 +163,7 @@
  * Custom POI Overwrite Dialog
  */
 "afmoverwritecustompoivewcontroller.notice.title" = "Save a New Custom Destination";
-"afmoverwritecustompoivewcontroller.notice.description" = "Would you like to save over your existing custom destination marker?";
+"afmoverwritecustompoivewcontroller.notice.description" = "Would you like to replace your existing POI?";
 "afmoverwritecustompoivewcontroller.acceptbutton.title" = "Yes";
 "afmoverwritecustompoivewcontroller.declinebutton.title" = "Not Now";
 
