@@ -16,5 +16,24 @@
 		<key>tintColor</key>
 		<string>#ffffff</string>
 	</dict>
+	<key>searchController</key>
+	<dict>
+		<key>searchBarBackgroundColor</key>
+		<string>#363636</string>
+		<key>searchBarTintColor</key>
+		<string>$WhiteColor</string>
+		<key>searchBarBarTintColor</key>
+		<string>#363636</string>
+		<key>searchBarPlaceholder</key>
+		<string>#afcmmappickerviewcontroller.searchbar.placeholder,AppFrameworkMapping</string>
+		<key>searchBarTextFieldBackgroundColor</key>
+		<string>$BlackColor</string>
+		<key>searchBarTextFieldTextColor</key>
+		<string>$WhiteColor</string>
+		<key>searchBarTextFieldTextFont</key>
+		<string>$MainFontLight</string>
+		<key>searchBarTextFieldTextSize</key>
+		<string>14</string>
+	</dict>
 </dict>
 </plist>

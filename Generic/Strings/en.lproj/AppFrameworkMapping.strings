@@ -84,6 +84,9 @@
  * Map Picker
  */
 "afcmmappickerviewcontroller.navbar.title" = "Maps";
+"afcmmappickerviewcontroller.searchbar.placeholder" = "Search for map...";
+"afcmmappickerviewcontroller.searchbar.scope.alphabetical" = "Alphabetical";
+"afcmmappickerviewcontroller.searchbar.scope.distance" = "Distance";
 
 /**
  * Turn by Turn
