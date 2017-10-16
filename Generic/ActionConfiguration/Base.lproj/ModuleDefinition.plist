@@ -389,7 +389,7 @@
 					<array>
 						<dict>
 							<key>className</key>
-							<string>AFCDirectoryRegisterDeepLinksAction</string>
+							<string>AFDDirectoryRegisterDeepLinksAction</string>
 						</dict>
 						<dict>
 							<key>className</key>
@@ -431,13 +431,11 @@
 					<true/>
 					<key>properties</key>
 					<dict>
-						<key>directoryItems</key>
-						<string>$module.databaseDirectoryItems</string>
-						<key>categories</key>
-						<string>$module.databaseCategories</string>
+						<key>cmeId</key>
+						<string>$action.auxID1</string>
 						<key>category</key>
 						<string>$action.auxID2</string>
-						<key>title</key>
+						<key>pageTitle</key>
 						<string>$action.buttonTitle</string>
 						<key>enableFiltering</key>
 						<true/>
@@ -449,6 +447,8 @@
 						<integer>1</integer>
 						<key>imagePlaceholder</key>
 						<string>directory_image_placeholder_thumbnail</string>
+						<key>presenterClassString</key>
+						<string>AFDDirectoryListPresenter</string>
 					</dict>
 				</dict>
 				<key>dependencies</key>
@@ -474,7 +474,7 @@
 			<key>load</key>
 			<dict>
 				<key>className</key>
-				<string>AFCDirectoryLoadAction</string>
+				<string>AFDDirectoryLoadAction</string>
 				<key>parameters</key>
 				<dict>
 					<key>databaseName</key>
@@ -515,6 +515,8 @@
 						<string>$action.cmeId</string>
 						<key>onCategoriesApplied</key>
 						<string>$action.onCategoriesApplied</string>
+						<key>presenterClassString</key>
+						<string>AFDDirectoryCategoryPresenter</string>
 					</dict>
 				</dict>
 			</dict>
@@ -558,7 +560,7 @@
 			<key>load</key>
 			<dict>
 				<key>className</key>
-				<string>AFCDirectoryItemLoadAction</string>
+				<string>AFDDirectoryLoadAction</string>
 				<key>parameters</key>
 				<dict>
 					<key>databaseName</key>
@@ -569,8 +571,10 @@
 					<string>$CACHES</string>
 					<key>shouldPrependCme</key>
 					<true/>
-					<key>kAFCDirectoryItemId</key>
+					<key>kAFDDirectoryItemId</key>
 					<string>$action.contentId</string>
+					<key>kAFDShouldLoadDirectoryItemKey</key>
+					<true/>
 					<key>queryData</key>
 					<dict>
 						<key>databaseDirectoryItems</key>
@@ -1132,6 +1136,8 @@
 								<true/>
 								<key>shouldShowApplePois</key>
 								<false/>
+								<key>cmeIds</key>
+								<string>$app.kAFCMCmeIdKey</string>
 							</dict>
 						</dict>
 						<key>dependencies</key>
@@ -1221,6 +1227,8 @@
 								<true/>
 								<key>shouldShowApplePois</key>
 								<false/>
+								<key>cmeIds</key>
+								<string>$app.kAFCMCmeIdKey</string>
 							</dict>
 						</dict>
 						<key>dependencies</key>
@@ -1547,6 +1555,8 @@
 					<dict>
 						<key>onCategoriesApplied</key>
 						<string>$action.onCategoriesApplied</string>
+						<key>presenterClassString</key>
+						<string>AFMMapCategoryPresenter</string>
 					</dict>
 				</dict>
 			</dict>
