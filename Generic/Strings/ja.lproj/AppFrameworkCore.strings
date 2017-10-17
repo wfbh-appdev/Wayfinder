@@ -60,6 +60,7 @@
  * Segments Error
  */
 "afcuialertsubscriptionviewcontroller.title" = "プロフィール";
+"afcuialertsubscriptionviewcontroller.noresults.text" = "結果が見つかりません。";
 "afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.title" = "アラート セティングズ";
 "afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.message" = "プリーズ セタプ アラート セグメンツ フォー ジス アップ オン ザー ポータル";
 "afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.cancelbutton.title" = "オーケー";

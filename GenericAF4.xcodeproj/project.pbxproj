@@ -34,6 +34,7 @@
 		7E66B3851F7071CD00B04A7E /* AFMDeleteCustomPoiViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E66B3841F7071CD00B04A7E /* AFMDeleteCustomPoiViewController.plist */; };
 		7E66B3871F7564A000B04A7E /* Weather.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E66B3861F7564A000B04A7E /* Weather.xcassets */; };
 		7E66B3911F78C9F200B04A7E /* AFMPOIFullDetailViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E66B3901F78C9F200B04A7E /* AFMPOIFullDetailViewController.plist */; };
+		7EE571AF1F96BEDB00297700 /* AFCUIAlertSubscriptionsViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EE571AE1F96BEDB00297700 /* AFCUIAlertSubscriptionsViewController.plist */; };
 		7EF95DF51F26E91400CB9826 /* AFDDirectoryItemViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EF95DEE1F26E91400CB9826 /* AFDDirectoryItemViewController.plist */; };
 		7EF95DF61F26E91400CB9826 /* AFDDirectoryNoImageTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EF95DEF1F26E91400CB9826 /* AFDDirectoryNoImageTableViewCell.plist */; };
 		7EF95DF71F26E91400CB9826 /* AFDDirectoryTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EF95DF01F26E91400CB9826 /* AFDDirectoryTableViewCell.plist */; };
@@ -136,6 +137,7 @@
 		7E66B3861F7564A000B04A7E /* Weather.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Weather.xcassets; sourceTree = "<group>"; };
 		7E66B3901F78C9F200B04A7E /* AFMPOIFullDetailViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFMPOIFullDetailViewController.plist; path = AppFrameworkMapping/AFMPOIFullDetailViewController.plist; sourceTree = "<group>"; };
 		7E705E301DBE89C40047C09C /* GenericAF4.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = GenericAF4.entitlements; path = GenericAF4/GenericAF4.entitlements; sourceTree = "<group>"; };
+		7EE571AE1F96BEDB00297700 /* AFCUIAlertSubscriptionsViewController.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = AFCUIAlertSubscriptionsViewController.plist; path = AppFrameworkCore/AFCUIAlertSubscriptionsViewController.plist; sourceTree = "<group>"; };
 		7EF95DCF1F22523300CB9826 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/AppFrameworkCore.strings; sourceTree = "<group>"; };
 		7EF95DD01F2258DE00CB9826 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/AppFrameworkCore.strings; sourceTree = "<group>"; };
 		7EF95DD11F225DAB00CB9826 /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = zh.lproj/AppFrameworkCore.strings; sourceTree = "<group>"; };
@@ -367,6 +369,7 @@
 				7EF95E2C1F27C8DC00CB9826 /* AFCUIModalWebBrowser.plist */,
 				7EF95E2D1F27C8DC00CB9826 /* AFCUIWebViewController.plist */,
 				137E88A91F4CA57600DEF7A3 /* AFCCategoryViewController.plist */,
+				7EE571AE1F96BEDB00297700 /* AFCUIAlertSubscriptionsViewController.plist */,
 			);
 			name = AppFrameworkCore;
 			sourceTree = "<group>";
@@ -643,6 +646,7 @@
 				7EF95E111F2700EE00CB9826 /* AFCParkingViewController.plist in Resources */,
 				137E88AA1F4CA57600DEF7A3 /* AFCCategoryViewController.plist in Resources */,
 				7E66B3791F70465A00B04A7E /* AFMPOIListTrailingImageTableViewCell.plist in Resources */,
+				7EE571AF1F96BEDB00297700 /* AFCUIAlertSubscriptionsViewController.plist in Resources */,
 				C3F32B631F0ADA0000495919 /* AppFrameworkEvents.strings in Resources */,
 				7EF95E1F1F27AFAE00CB9826 /* AFMUIPOIDetailViewController.plist in Resources */,
 				7EF95E211F27AFAE00CB9826 /* AFMUIPOIViewController.plist in Resources */,
@@ -687,11 +691,15 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4-frameworks.sh",
 				"${PODS_ROOT}/MistSDK/Framework/MistSDK.framework",
 				"${PODS_ROOT}/PWCore/Framework/PWCore.framework",
+				"${PODS_ROOT}/PWEngagement/Framework/PWEngagement.framework",
+				"${PODS_ROOT}/PWLocation/Framework/PWLocation.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MistSDK.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PWCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PWEngagement.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PWLocation.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

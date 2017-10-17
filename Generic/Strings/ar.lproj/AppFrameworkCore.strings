@@ -60,6 +60,7 @@
  * Segments Error
  */
 "afcuialertsubscriptionviewcontroller.title" = "مظهر";
+"afcuialertsubscriptionviewcontroller.noresults.text" = "لا توجد نتائج.";
 "afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.title" = "إعدادات التنبيه";
 "afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.message" = "يرجى شرائح تنبيه الإعداد لهذا التطبيق على البوابة.";
 "afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.cancelbutton.title" = "حسنا";

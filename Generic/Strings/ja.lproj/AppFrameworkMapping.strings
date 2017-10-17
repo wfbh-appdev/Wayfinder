@@ -64,6 +64,7 @@
 "afcuimmapviewcontroller.buildingloaderroralert.message" = "ウィー キャノト ロード ザー マップ アット ジス タイム チェック ヨー ネトワーク コネクション";
 "afcuimmapviewcontroller.buildingloaderroralert.button" = "オーケー";
 "afcuimmapviewcontroller.ok" = "オーケー";
+"afcuimmapviewcontroller.single.route.instruction.suffix" = "あなたの目的地に到着する";
 
 /**
  *  AFMUIPOIViewController Strings

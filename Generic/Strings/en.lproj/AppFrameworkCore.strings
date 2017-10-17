@@ -60,6 +60,7 @@
  * Segments Error
  */
 "afcuialertsubscriptionviewcontroller.title" = "Profiles";
+"afcuialertsubscriptionviewcontroller.noresults.text" = "No results found.";
 "afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.title" = "Alert Settings";
 "afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.message" = "Please setup alert segments for this app on the portal.";
 "afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.cancelbutton.title" = "Ok";

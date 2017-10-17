@@ -63,6 +63,7 @@
 "afcuimmapviewcontroller.buildingloaderroralert.message" = "我们目前无法加载地图。 检查您的网络连接。";
 "afcuimmapviewcontroller.buildingloaderroralert.button" = "好";
 "afcuimmapviewcontroller.ok" = "好";
+"afcuimmapviewcontroller.single.route.instruction.suffix" = "到达目的地";
 
 /**
  *  AFMUIPOIViewController Strings

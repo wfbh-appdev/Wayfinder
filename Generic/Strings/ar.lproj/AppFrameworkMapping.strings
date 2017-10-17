@@ -64,6 +64,7 @@
 "afcuimmapviewcontroller.buildingloaderroralert.message" = "ونحن لا يمكن تحميل خريطة في هذا الوقت. تحقق من اتصال الشبكة.";
 "afcuimmapviewcontroller.buildingloaderroralert.button" = "حسنا";
 "afcuimmapviewcontroller.ok" = "حسنا";
+"afcuimmapviewcontroller.single.route.instruction.suffix" = "للوصول إلى وجهتك";
 
 /**
  *  AFMUIPOIViewController Strings

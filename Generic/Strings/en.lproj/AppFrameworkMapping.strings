@@ -21,7 +21,7 @@
 "afcuimroutebuilderviewcontroller.titlelabel.text" = "Routing";
 "afcuimroutebuilderviewcontroller.cancelbutton.buttontitle" = "Cancel";
 "afcuimroutebuilderviewcontroller.routebutton.buttontitle" = "Route";
-"afcuimroutebuilderviewcontroller.handicapaccessibilitylabel.text" = "Handicap  Accessibility";
+"afcuimroutebuilderviewcontroller.handicapaccessibilitylabel.text" = "Accessibility";
 "afcuimroutebuilderviewcontroller.outdoortoindoornotificationtitle.text" = "Welcome to";
 "afcuimroutebuilderviewcontroller.outdoortoindoornotificationtitle.message" = "Please launch the app for indoor directions to your final destination.";
 "afcuimroutebuilderviewcontroller.outdoortoindooralerttitle.text" = "Need Directions to the Venue?";
@@ -62,6 +62,7 @@
 "afcuimmapviewcontroller.buildingloaderroralert.message" = "We cannot load the map at this time. Check your network connection.";
 "afcuimmapviewcontroller.buildingloaderroralert.button" = "Ok";
 "afcuimmapviewcontroller.ok" = "Ok";
+"afcuimmapviewcontroller.single.route.instruction.suffix" = "to arrive at your destination";
 
 /**
  *  AFMUIPOIViewController Strings

@@ -62,6 +62,7 @@
 "afcuimmapviewcontroller.buildingloaderroralert.message" = "No podemos cargar el mapa en este momento. Compruebe su conexión de red.";
 "afcuimmapviewcontroller.buildingloaderroralert.button" = "SÍ";
 "afcuimmapviewcontroller.ok" = "SÍ";
+"afcuimmapviewcontroller.single.route.instruction.suffix" = "para llegar a tu destino";
 
 /**
  *  AFMUIPOIViewController Strings
