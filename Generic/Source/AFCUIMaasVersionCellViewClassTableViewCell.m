@@ -14,7 +14,8 @@
 #import <PWAdvertising/PWAds.h>
 #import <PWEngagement/PWEngagement.h>
 
-NSString *kPwMapKitVersion = @"3.1.6.1";
+NSString *kPwMapKitVersion = @"3.1.7";
+NSString *kPwAdsVersion = @"3.5.0";
 
 
 @implementation AFCUIMaasVersionCellViewClassTableViewCell
@@ -25,14 +26,22 @@ NSString *kPwMapKitVersion = @"3.1.6.1";
     NSString *versionString = @"-";
 
 
-    if ([super.textLabel.text isEqualToString:@"PwMapKit"])
+    if ([super.textLabel.text isEqualToString:@"PwMapKit"]) {
         versionString = kPwMapKitVersion;
-    if ([super.textLabel.text isEqualToString:@"PwLocation"])
+    }
+
+    if ([super.textLabel.text isEqualToString:@"PwLocation"]) {
         versionString = PWLocationVersion;
-    if ([super.textLabel.text isEqualToString:@"PwCore"])
+    }
+
+    if ([super.textLabel.text isEqualToString:@"PwCore"]) {
         versionString = PWCoreVersion;
-    if ([super.textLabel.text isEqualToString:@"PwAds"])
-        versionString = PWADS_VERSION;
+    }
+
+    if ([super.textLabel.text isEqualToString:@"PwAds"]) {
+        versionString = kPwAdsVersion;
+    }
+
     if ([super.textLabel.text isEqualToString:@"PwEngagement"]) {
         versionString = [PWEngagement version];
     }
