@@ -393,7 +393,7 @@
 						</dict>
 						<dict>
 							<key>className</key>
-							<string>AFCEventsRegisterDeepLinksAction</string>
+							<string>AFEEventsRegisterDeepLinksAction</string>
 						</dict>
 						<dict>
 							<key>className</key>
@@ -723,39 +723,23 @@
 				<key>parameters</key>
 				<dict>
 					<key>viewController</key>
-					<string>EventsListViewController</string>
+					<string>AFEEventsCollectionViewController</string>
 					<key>presentationMode</key>
 					<string>replaceTop</string>
 					<key>shouldAnimate</key>
 					<true/>
 					<key>properties</key>
 					<dict>
-						<key>titleKey</key>
-						<string>Name</string>
-						<key>startDateKey</key>
-						<string>StartDate</string>
-						<key>endDateKey</key>
-						<string>EndDate</string>
+						<key>title</key>
+						<string>$action.buttonTitle</string>
 						<key>DBDateFormat</key>
 						<string>MM/dd/yyyy HH:mm:ss</string>
 						<key>clientDateFormat</key>
-						<string>hh:mma MMM d</string>
-						<key>iconKey</key>
-						<string>ThumbnailURL</string>
-						<key>bannerKey</key>
-						<string>ImageURL</string>
-						<key>identifierKey</key>
-						<string>EventID</string>
-						<key>events</key>
-						<string>$module.events</string>
-						<key>title</key>
-						<string>$action.buttonTitle</string>
-						<key>favoritesContext</key>
-						<string>events</string>
-						<key>itemDetailContext</key>
-						<string>Event Detail</string>
+						<string>h:mma MMM d</string>
 						<key>imagePlaceholder</key>
 						<string>events_image_placeholder_detail</string>
+						<key>presenterClassString</key>
+						<string>AFEEventsCollectionViewPresenter</string>
 					</dict>
 				</dict>
 				<key>dependencies</key>
@@ -776,7 +760,7 @@
 			<key>load</key>
 			<dict>
 				<key>className</key>
-				<string>AFCEventsLoadAction</string>
+				<string>AFEEventsLoadAction</string>
 				<key>parameters</key>
 				<dict>
 					<key>databaseName</key>
@@ -808,7 +792,7 @@
 					<key>forwardContentAction</key>
 					<string>show</string>
 					<key>viewController</key>
-					<string>EventsDetailViewController</string>
+					<string>AFEEventsDetailViewController</string>
 					<key>properties</key>
 					<dict>
 						<key>itemTitle</key>
@@ -833,7 +817,7 @@
 			<key>addToCalendar</key>
 			<dict>
 				<key>className</key>
-				<string>AFCAddEventToCalendar</string>
+				<string>AFEAddEventToCalendar</string>
 				<key>parameters</key>
 				<dict>
 					<key>event</key>
@@ -848,7 +832,7 @@
 			<key>load</key>
 			<dict>
 				<key>className</key>
-				<string>AFCEventItemLoadAction</string>
+				<string>AFEEventsLoadAction</string>
 				<key>parameters</key>
 				<dict>
 					<key>databaseName</key>
@@ -859,10 +843,6 @@
 					<string>$CACHES</string>
 					<key>shouldPrependProperty</key>
 					<true/>
-					<key>startDateKey</key>
-					<string>StartDate</string>
-					<key>endDateKey</key>
-					<string>EndDate</string>
 					<key>DBDateFormatKey</key>
 					<string>MM/dd/yyyy HH:mm:ss</string>
 					<key>clientDateFormatKey</key>
@@ -2457,7 +2437,7 @@
 					<key>backgroundColor</key>
 					<string>#0000000</string>
 					<key>buttonClickClass</key>
-					<string>AFCAddToCalendarButtonClickAction</string>
+					<string>AFEAddToCalendarButtonClickAction</string>
 					<key>buttonHiddenClass</key>
 					<string></string>
 					<key>buttonSetupClass</key>

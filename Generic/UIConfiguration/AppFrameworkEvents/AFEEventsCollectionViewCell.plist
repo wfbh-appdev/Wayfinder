@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>eventImageView</key>
+	<dict>
+		<key>backgroundColor</key>
+		<string>#ffffff</string>
+		<key>contentMode</key>
+		<string>aspectFill</string>
+		<key>clipsToBounds</key>
+		<true/>
+	</dict>
+	<key>eventTitleLabel</key>
+	<dict>
+		<key>fontName</key>
+		<string>.SFUIDisplay-Semibold</string>
+		<key>fontSize</key>
+		<string>20</string>
+		<key>color</key>
+		<string>#323232</string>
+		<key>lines</key>
+		<string>1</string>
+	</dict>
+	<key>eventDateLabel</key>
+	<dict>
+		<key>fontName</key>
+		<string>.SFUIDisplay</string>
+		<key>fontSize</key>
+		<string>15</string>
+		<key>color</key>
+		<string>#323232</string>
+	</dict>
+	<key>contentView</key>
+	<dict>
+		<key>backgroundColor</key>
+		<string>$WhiteColor</string>
+		<key>constraints</key>
+		<array>
+			<string>H:|[eventImageView]|</string>
+			<string>H:|-14-[eventTitleLabel]-14-|</string>
+			<string>H:|-14-[eventDateLabel]-14-|</string>
+			<string>V:|[eventImageView(155.5)]-22-[eventTitleLabel]-5-[eventDateLabel]</string>
+		</array>
+	</dict>
+</dict>
+</plist>
