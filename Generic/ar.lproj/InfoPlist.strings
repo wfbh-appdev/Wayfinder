@@ -12,3 +12,4 @@
 "NSPhotoLibraryUsageDescription" = "يتيح إمكانية إضافة صورة";
 "NSLocationAlwaysUsageDescription" = "يسمح الموقع لتكون متاحة عندما تكون في الخلفية";
 "NSLocationWhenInUseUsageDescription" = "يسمح الموقع لتكون متاحة عند استخدام التطبيق";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "يسمح الموقع لتكون متاحة عند استخدام التطبيق وعندما يكون التطبيق في الخلفية";

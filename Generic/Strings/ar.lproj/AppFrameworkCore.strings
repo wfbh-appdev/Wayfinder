@@ -60,6 +60,7 @@
  * Segments Error
  */
 "afcuialertsubscriptionviewcontroller.title" = "مظهر";
+"afcuialertsubscriptionviewcontroller.noresults.text" = "لا توجد نتائج.";
 "afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.title" = "إعدادات التنبيه";
 "afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.message" = "يرجى شرائح تنبيه الإعداد لهذا التطبيق على البوابة.";
 "afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.cancelbutton.title" = "حسنا";
@@ -188,3 +189,11 @@
 "detailconfig.calendar" = "التقويم";
 "detailconfig.buytickets" = "اشتري تذاكر";
 "detailconfig.favorite" = "المفضل";
+"detailconfig.remove" = "Remove";
+
+/*
+ * AFCCategoryViewController
+ */
+"afccategoryviewcontroller.title" = "مرشحات";
+"afccategoryviewcontroller.clearbutton.text" =  "واضح";
+"afccategoryviewcontroller.savebutton.title" = "تطبيق التصفيات";

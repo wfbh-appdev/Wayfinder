@@ -36,12 +36,12 @@
 "afcuimroutebuilderviewcontroller.routeme.error.message" = "لا يمكن العثور على أي مسار.";
 "afcuimroutebuilderviewcontroller.table.header.title" = "%1$@ at %2$@";
 
+"afcuimpoicategoryviewcontroller.titlelabel.text" = "اختار في و اي فلتر";
+
 /*
- *  AFMUIPOIFilterViewController Strings
+ *  AFCUIMPOICategoryViewController Strings
  */
-"afcuimpoifiltereditorviewcontroller.savefiltersbutton.buttontitle" = "حفظ مرشحات";
-"afcuimpoifiltereditorviewcontroller.cancelbutton.buttontitle" = "إلغاء";
-"afcuimpoifiltereditorviewcontroller.titlelabel.text" = "اختار في و اي فلتر";
+"afcuimpoicategoryviewcontroller.titlelabel.text" = "Choose POI Filter";
 
 /*
  *  AFMUIPOIDetailViewController Strings
@@ -51,6 +51,7 @@
 /*
  *  AFCUIMMapViewController Strings
  */
+"afcuimmapviewcontroller.endPointOfInterest.message" = "لقد وصلت";
 "afcuimmapviewcontroller.promptlocationalert.takemetherebutton" = "خذني هناك";
 "afcuimmapviewcontroller.promptlocationalert.backtofacilitymapbutton" = "العودة إلى خريطة المرفق";
 "afcuimmapviewcontroller.promptlocationalert.cancelbutton" = "لا شكرا";
@@ -63,6 +64,7 @@
 "afcuimmapviewcontroller.buildingloaderroralert.message" = "ونحن لا يمكن تحميل خريطة في هذا الوقت. تحقق من اتصال الشبكة.";
 "afcuimmapviewcontroller.buildingloaderroralert.button" = "حسنا";
 "afcuimmapviewcontroller.ok" = "حسنا";
+"afcuimmapviewcontroller.single.route.instruction.suffix" = "للوصول إلى وجهتك";
 
 /**
  *  AFMUIPOIViewController Strings
@@ -74,6 +76,8 @@
 /*
  *  AFCUIMRoutingAnnotationView Strings
  */
+"afcuimroutingannotationview.taptogoback.title" = "اضغط على العودة";
+"afcuimroutingannotationview.taptoviewnext.title" = "انقر لعرض التالي";
 "afcuimroutingannotationview.starthereannotation.title" = "بداية";
 "afcuimroutingannotationview.destinationannotation.title" = "النهاية";
 "afcuimroutingannotationview.tome.title" = "أخذ";
@@ -118,3 +122,40 @@
  *  AFMOutdoorToIndoor Strings
  */
 "afmoutdoortoindoor.nativemap.title" = "%1$@ at %2$@";
+
+/*
+ * Connection requirements for location
+ */
+"afmuimapviewcontroller.connections.wifi.message" = "تشغيل واي فاي لمعرفة موقعك الحالي على الخريطة.";
+"afmuimapviewcontroller.connections.bluetooth.message" = "شغل البلوتوث للاطلاع على موقعك الحالي على الخريطة.";
+"afmuimapviewcontroller.connections.wifiandbluetooth.message" = "تشغيل واي فاي وبلوتوث لرؤية موقعك الحالي على الخريطة.";
+"afmuimapviewcontroller.connections.button.title" = "حسنا";
+
+// Permission
+"afmlocationpermissionrequestviewcontroller.permission.title" = "استخدام الموقع الحالي";
+"afmlocationpermissionrequestviewcontroller.permission.description" = "الرجاء تمكين خدمات الموقع لمساعدتنا في إرشادك.";
+"afmlocationpermissionrequestviewcontroller.allowbutton.title" = "نعم فعلا";
+"afmlocationpermissionrequestviewcontroller.rejectbutton.title" = "ليس الان";
+
+/*
+ * AFMRouteSelectionViewController
+ */
+"afmrouteselectionviewcontroller.titlelabel.text" = "الاتجاهات";
+"afmrouteselectionviewcontroller.currentlocation.text" = "الموقع الحالي";
+"afmrouteselectionviewcontroller.startlabel.text" = "بداية";
+"afmrouteselectionviewcontroller.endlabel.text" = "النهاية";
+"afmrouteselectionviewcontroller.startlocationtextfield.placeholder" = "أين تريد أن تبدأ؟";
+"afmrouteselectionviewcontroller.routebutton.title.text" = "طريق";
+"afmrouteselectionviewcontroller.handicapaccessibilitylabel.text" = "هانديكاب الوصول";
+
+// Home to Venue Notice
+"afmh2vnoticealertviewcontroller.notice.title" = "الطريق إلى منشأة؟";
+"afmh2vnoticealertviewcontroller.notice.description" = "لاحظنا أنك لست في المرفق. هل ترغب في توجيهات إلى المنشأة؟";
+"afmh2vnoticealertviewcontroller.acceptbutton.title" = "الطريق لي";
+"afmh2vnoticealertviewcontroller.declinebutton.title" = "لا شكرا";
+
+/*
+ * Custom POI Strings
+ */
+"custom.poi.title" = "Custom POI";
+"custom.poi.description" = "Custom POI Description (need creative to specify text)";

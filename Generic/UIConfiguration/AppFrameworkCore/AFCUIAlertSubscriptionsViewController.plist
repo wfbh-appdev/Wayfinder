@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>titleLabel</key>
+	<dict>
+		<key>text</key>
+		<string>#afcuialertsubscriptionviewcontroller.title,AppFrameworkCore</string>
+	</dict>
+	<key>alertSegmentsTable</key>
+	<dict>
+		<key>tintColor</key>
+		<string>$AccentColor</string>
+		<key>sectionIndexColor</key>
+		<string>$AccentColor</string>
+		<key>sectionIndexBackgroundColor</key>
+		<string>#00ffffff</string>
+		<key>sectionIndexTrackingBackgroundColor</key>
+		<string>#00ffffff</string>
+	</dict>
+	<key>noResultsLabel</key>
+	<dict>
+		<key>text</key>
+		<string>#afcuialertsubscriptionviewcontroller.noresults.text,AppFrameworkCore</string>
+		<key>fontName</key>
+		<string>$MainFontBold</string>
+		<key>fontSize</key>
+		<integer>18</integer>
+		<key>color</key>
+		<string>#AAAAAA</string>
+		<key>alignment</key>
+		<string>center</string>
+		<key>lines</key>
+		<string>0</string>
+	</dict>
+	<key>view</key>
+	<dict>
+		<key>backgroundColor</key>
+		<string>#363636</string>
+		<key>constraints</key>
+		<array>
+			<string>H:|[alertSegmentsTable]|</string>
+			<string>V:|[alertSegmentsTable]|</string>
+			<string>#noResultsLabel.width=self.width,0.75,0</string>
+			<string>#noResultsLabel.centerx=self.centerx,1,0</string>
+			<string>#noResultsLabel.centery=self.centery,0.25,0</string>
+		</array>
+	</dict>
+</dict>
+</plist>

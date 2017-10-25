@@ -21,7 +21,7 @@
 "afcuimroutebuilderviewcontroller.titlelabel.text" = "Routing";
 "afcuimroutebuilderviewcontroller.cancelbutton.buttontitle" = "Cancel";
 "afcuimroutebuilderviewcontroller.routebutton.buttontitle" = "Route";
-"afcuimroutebuilderviewcontroller.handicapaccessibilitylabel.text" = "Handicap  Accessibility";
+"afcuimroutebuilderviewcontroller.handicapaccessibilitylabel.text" = "Accessibility";
 "afcuimroutebuilderviewcontroller.outdoortoindoornotificationtitle.text" = "Welcome to";
 "afcuimroutebuilderviewcontroller.outdoortoindoornotificationtitle.message" = "Please launch the app for indoor directions to your final destination.";
 "afcuimroutebuilderviewcontroller.outdoortoindooralerttitle.text" = "Need Directions to the Venue?";
@@ -37,20 +37,19 @@
 "afcuimroutebuilderviewcontroller.table.header.title" = "%1$@ at %2$@";
 
 /*
- *  AFMUIPOIFilterViewController Strings
+ *  AFCUIMPOICategoryViewController Strings
  */
-"afcuimpoifiltereditorviewcontroller.savefiltersbutton.buttontitle" = "Save Filters";
-"afcuimpoifiltereditorviewcontroller.cancelbutton.buttontitle" = "Cancel";
-"afcuimpoifiltereditorviewcontroller.titlelabel.text" = "Choose POI Filter";
+"afcuimpoicategoryviewcontroller.titlelabel.text" = "Choose POI Filter";
 
 /*
- *  AFMUIPOIDetailViewController Strings
+ *  AFCUIAnnotationDetailViewController Strings
  */
 "afcuiannotationdetailviewcontroller.selectCampusButton.buttontitle" = "SELECT THIS CAMPUS";
 
 /*
  *  AFCUIMMapViewController Strings
  */
+"afcuimmapviewcontroller.endPointOfInterest.message" = "You have arrived.";
 "afcuimmapviewcontroller.promptlocationalert.takemetherebutton" = "Take me there";
 "afcuimmapviewcontroller.promptlocationalert.backtofacilitymapbutton" = "Back to facility map";
 "afcuimmapviewcontroller.promptlocationalert.cancelbutton" = "No Thanks";
@@ -63,6 +62,7 @@
 "afcuimmapviewcontroller.buildingloaderroralert.message" = "We cannot load the map at this time. Check your network connection.";
 "afcuimmapviewcontroller.buildingloaderroralert.button" = "Ok";
 "afcuimmapviewcontroller.ok" = "Ok";
+"afcuimmapviewcontroller.single.route.instruction.suffix" = "to arrive at your destination";
 
 /**
  *  AFMUIPOIViewController Strings
@@ -74,6 +74,8 @@
 /*
  *  AFCUIMRoutingAnnotationView Strings
  */
+"afcuimroutingannotationview.taptogoback.title" = "TAP TO GO BACK";
+"afcuimroutingannotationview.taptoviewnext.title" = "TAP TO VIEW NEXT";
 "afcuimroutingannotationview.starthereannotation.title" = "Start";
 "afcuimroutingannotationview.destinationannotation.title" = "End";
 "afcuimroutingannotationview.tome.title" = "Take";
@@ -83,9 +85,12 @@
  * Map Picker
  */
 "afcmmappickerviewcontroller.navbar.title" = "Maps";
+"afcmmappickerviewcontroller.searchbar.placeholder" = "Search for map...";
+"afcmmappickerviewcontroller.searchbar.scope.alphabetical" = "Alphabetical";
+"afcmmappickerviewcontroller.searchbar.scope.distance" = "Distance";
 
 /**
- * Turn by Turn //TODO
+ * Turn by Turn
  */
 "PWRouteInstructionDirectionStraight" = "Go straight for";
 "PWRouteInstructionDirectionLeft" = "Turn left in";
@@ -118,3 +123,58 @@
  *  AFMOutdoorToIndoor Strings
  */
 "afmoutdoortoindoor.nativemap.title" = "%1$@ at %2$@";
+
+/*
+ * Connection requirements for location
+ */
+"afmuimapviewcontroller.connections.wifi.message" = "Turn on wifi to see your current location on the map.";
+"afmuimapviewcontroller.connections.bluetooth.message" = "Turn on bluetooth to see your current location on the map.";
+"afmuimapviewcontroller.connections.wifiandbluetooth.message" = "Turn on wifi and bluetooth to see your current location on the map.";
+"afmuimapviewcontroller.connections.button.title" = "OK";
+
+// Permission
+"afmlocationpermissionrequestviewcontroller.permission.title" = "Use Current Location";
+"afmlocationpermissionrequestviewcontroller.permission.description" = "Please enable location services to help us guide you.";
+"afmlocationpermissionrequestviewcontroller.allowbutton.title" = "Yes";
+"afmlocationpermissionrequestviewcontroller.rejectbutton.title" = "Not Now";
+
+/*
+ * AFMRouteSelectionViewController
+ */
+"afmrouteselectionviewcontroller.titlelabel.text" = "Directions";
+"afmrouteselectionviewcontroller.currentlocation.text" = "Current Location";
+"afmrouteselectionviewcontroller.startlabel.text" = "Start";
+"afmrouteselectionviewcontroller.endlabel.text" = "End";
+"afmrouteselectionviewcontroller.startlocationtextfield.placeholder" = "Where would you like to start?";
+"afmrouteselectionviewcontroller.routebutton.title.text" = "Route";
+"afmrouteselectionviewcontroller.handicapaccessibilitylabel.text" = "Handicap Accessibility";
+"afmrouteselectionviewcontroller.poilistsearchbar.placeholder.start.text" = "Choose a Starting Location...";
+"afmrouteselectionviewcontroller.poilistsearchbar.placeholder.end.text" = "Choose a Destination Location...";
+
+// Home to Venue Notice
+"afmh2vnoticealertviewcontroller.notice.title" = "Route to Facility?";
+"afmh2vnoticealertviewcontroller.notice.description" = "We noticed you're not at the facility. Would you like directions to the facility?";
+"afmh2vnoticealertviewcontroller.acceptbutton.title" = "Route Me";
+"afmh2vnoticealertviewcontroller.declinebutton.title" = "No, Thanks";
+
+/*
+ * Custom POI Strings
+ */
+"custom.poi.title" = "Custom POI";
+"custom.poi.description" = "You have created a custom Point of Interest, specifically placed where you dropped the pin on the map.";
+
+/*
+ * Custom POI Overwrite Dialog
+ */
+"afmoverwritecustompoivewcontroller.notice.title" = "Save a New Custom Destination";
+"afmoverwritecustompoivewcontroller.notice.description" = "Would you like to replace your existing POI?";
+"afmoverwritecustompoivewcontroller.acceptbutton.title" = "Yes";
+"afmoverwritecustompoivewcontroller.declinebutton.title" = "Not Now";
+
+/*
+ * Custom POI Delete Dialog
+ */
+"afmdeletecustompoiviewcontroller.notice.title" = "Delete Saved Pin";
+"afmdeletecustompoiviewcontroller.notice.description" = "Would you like to remove your saved pin?";
+"afmdeletecustompoiviewcontroller.acceptbutton.title" = "Yes";
+"afmdeletecustompoiviewcontroller.declinebutton.title" = "Not Now";

@@ -11,10 +11,3 @@
  */
 "afddirectoryviewcontroller.title" = "目录";
 "afddirectoryviewcontroller.noresults.title" = "未找到结果";
-
-/**
- * AFDDirectoryCategoryViewController Strings
- */
-"afddirectorycategoryviewcontroller.title" = "筛选";
-"afddirectorycategoryviewcontroller.clearbutton.text" = "明确";
-"afddirectorycategoryviewcontroller.savebutton.title" = "进行筛选";

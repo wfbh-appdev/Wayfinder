@@ -60,6 +60,7 @@
  * Segments Error
  */
 "afcuialertsubscriptionviewcontroller.title" = "简介";
+"afcuialertsubscriptionviewcontroller.noresults.text" = "未找到结果。";
 "afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.title" = "报警设置";
 "afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.message" = "请在门户网站上设置此应用程序的警报段。";
 "afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.cancelbutton.title" = "好";
@@ -188,3 +189,13 @@
 "detailconfig.calendar" = "日历";
 "detailconfig.buytickets" = "购票";
 "detailconfig.favorite" = "喜爱";
+"detailconfig.remove" = "Remove";
+
+/*
+ * AFCCategoryViewController
+ */
+"afccategoryviewcontroller.title" = "筛选";
+"afccategoryviewcontroller.clearbutton.text" = "明确";
+"afccategoryviewcontroller.savebutton.title" = "进行筛选";
+
+

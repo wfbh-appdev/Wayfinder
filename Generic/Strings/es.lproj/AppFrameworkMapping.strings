@@ -37,20 +37,19 @@
 "afcuimroutebuilderviewcontroller.table.header.title" = "%1$@ en %2$@";
 
 /*
- *  AFMUIPOIFilterViewController Strings
+ *  AFCUIMPOICategoryViewController Strings
  */
-"afcuimpoifiltereditorviewcontroller.savefiltersbutton.buttontitle" = "Guardar Filtros";
-"afcuimpoifiltereditorviewcontroller.cancelbutton.buttontitle" = "Cancelar";
-"afcuimpoifiltereditorviewcontroller.titlelabel.text" = "Elija Filtro de POI";
+"afcuimpoicategoryviewcontroller.titlelabel.text" = "Choose POI Filter";
 
 /*
- *  AFMUIPOIDetailViewController Strings
+ *  AFCUIAnnotationDetailViewController Strings
  */
 "afcuiannotationdetailviewcontroller.selectCampusButton.buttontitle" = "SELECCIONA ESTE CAMPUS";
 
 /*
  *  AFCUIMMapViewController Strings
  */
+"afcuimmapviewcontroller.endPointOfInterest.message" = "Has llegado.";
 "afcuimmapviewcontroller.promptlocationalert.takemetherebutton" = "Llevame ahí";
 "afcuimmapviewcontroller.promptlocationalert.backtofacilitymapbutton" = "Volver al mapa de instalaciones";
 "afcuimmapviewcontroller.promptlocationalert.cancelbutton" = "No Gracias";
@@ -63,6 +62,7 @@
 "afcuimmapviewcontroller.buildingloaderroralert.message" = "No podemos cargar el mapa en este momento. Compruebe su conexión de red.";
 "afcuimmapviewcontroller.buildingloaderroralert.button" = "SÍ";
 "afcuimmapviewcontroller.ok" = "SÍ";
+"afcuimmapviewcontroller.single.route.instruction.suffix" = "para llegar a tu destino";
 
 /**
  *  AFMUIPOIViewController Strings
@@ -74,6 +74,8 @@
 /*
  *  AFCUIMRoutingAnnotationView Strings
  */
+"afcuimroutingannotationview.taptogoback.title" = "TAP PARA REGRESAR";
+"afcuimroutingannotationview.taptoviewnext.title" = "TAP PARA SIGUIENTE";
 "afcuimroutingannotationview.starthereannotation.title"="Comience";
 "afcuimroutingannotationview.destinationannotation.title"="Termina";
 "afcuimroutingannotationview.tome.title" = "Tome";
@@ -118,3 +120,40 @@
  *  AFMOutdoorToIndoor Strings
  */
 "afmoutdoortoindoor.nativemap.title" = "%1$@ en %2$@";
+
+/*
+ * Connection requirements for location
+ */
+"afmuimapviewcontroller.connections.wifi.message" = "Active el wifi para ver su ubicación actual en el mapa.";
+"afmuimapviewcontroller.connections.bluetooth.message" = "Active el bluetooth para ver su ubicación actual en el mapa.";
+"afmuimapviewcontroller.connections.wifiandbluetooth.message" = "Active el wifi y bluetooth para ver su ubicación actual en el mapa.";
+"afmuimapviewcontroller.connections.button.title" = "OK";
+
+// Permission
+"afmlocationpermissionrequestviewcontroller.permission.title" = "Usar ubicación actual";
+"afmlocationpermissionrequestviewcontroller.permission.description" = "Por favor, habilite los servicios de localización para ayudarnos a guiarlo.";
+"afmlocationpermissionrequestviewcontroller.allowbutton.title" = "SÍ";
+"afmlocationpermissionrequestviewcontroller.rejectbutton.title" = "Ahora no";
+
+/*
+ * AFMRouteSelectionViewController
+ */
+"afmrouteselectionviewcontroller.titlelabel.text" = "Direcciones";
+"afmrouteselectionviewcontroller.currentlocation.text" = "Localización Actual";
+"afmrouteselectionviewcontroller.startlabel.text" = "Comienzo";
+"afmrouteselectionviewcontroller.endlabel.text" = "Fin";
+"afmrouteselectionviewcontroller.startlocationtextfield.placeholder" = "¿Dónde quieres empezar?";
+"afmrouteselectionviewcontroller.routebutton.title.text" = "Ruta";
+"afmrouteselectionviewcontroller.handicapaccessibilitylabel.text" = "Acceso Para Discapacitados";
+
+// Home to Venue Notice
+"afmh2vnoticealertviewcontroller.notice.title" = "Ruta a la instalación?";
+"afmh2vnoticealertviewcontroller.notice.description" = "Nos dimos cuenta de que no estás en la instalación. ¿Quieres instrucciones para la instalación?";
+"afmh2vnoticealertviewcontroller.acceptbutton.title" = "Dirigeme";
+"afmh2vnoticealertviewcontroller.declinebutton.title" = "No, gracias";
+
+/*
+ * Custom POI Strings
+ */
+"custom.poi.title" = "Custom POI";
+"custom.poi.description" = "Custom POI Description (need creative to specify text)";

@@ -4,7 +4,7 @@ source 'ssh://git@bitbucket.phunware.com:7999/misc/cocoapods-sdk-ios.git'
 workspace 'GenericAF4'
 project 'GenericAF4.xcodeproj'
 
-platform :ios, '9.0'
+platform :ios, '10.0'
 
 target :'GenericAF4' do
 
