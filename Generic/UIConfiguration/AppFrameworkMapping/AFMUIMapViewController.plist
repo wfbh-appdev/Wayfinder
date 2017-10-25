@@ -140,7 +140,8 @@
 		<array>
 			<string>H:|[searchBar]|</string>
 			<string>H:|[mapView]|</string>
-			<string>V:|[searchBar][mapView]|</string>
+			<string>V:|[searchBar]</string>
+			<string>V:|[mapView]|</string>
 		</array>
 	</dict>
 </dict>
