@@ -12,3 +12,4 @@
 "NSPhotoLibraryUsageDescription" = "Permite agregar una foto";
 "NSLocationAlwaysUsageDescription" = "Permite que la ubicación esté disponible cuando está en el fondo";
 "NSLocationWhenInUseUsageDescription" = "Permite que la ubicación esté disponible cuando se utiliza la aplicación";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "Permite que la ubicación esté disponible cuando está en el fondo";

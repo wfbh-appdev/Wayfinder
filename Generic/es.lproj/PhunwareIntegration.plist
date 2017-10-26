@@ -30,14 +30,8 @@
 		<string>Phunware Corporate</string>
 		<key>applicationUUID</key>
 		<string>2207e384-9667-4219-9fa4-ded148569147</string>
-		<key>rootURL</key>
-		<string>http://solutions-ws.phunware.com/AFManagementWS/</string>
-		<key>voiceURL</key>
-		<string></string>
-		<key>webservicesID</key>
-		<string>e7ee6efb-c66e-11df-bbda-ab061b74f77a</string>
-		<key>webservicesKey</key>
-		<string>15be1351-c66f-11df-bbda-ab061b74f77a</string>
+		<key>popSmartFormSubmission</key>
+		<true/>
 	</dict>
 	<key>MaaS Integration</key>
 	<dict>
@@ -49,17 +43,6 @@
 		<string>304034e0a16b568763622cc0af8a014d85e4bb86</string>
 		<key>S3URL</key>
 		<string>https://solutions-db.phunware.com</string>
-	</dict>
-	<key>StartupSettings</key>
-	<dict>
-		<key>ShowSettings</key>
-		<true/>
-		<key>ShowSubscriptions</key>
-		<true/>
-		<key>TourEnabled</key>
-		<true/>
-		<key>H2VExpirationTime</key>
-		<integer>6</integer>
 	</dict>
 	<key>PowerUser</key>
 	<dict>

@@ -12,3 +12,4 @@
 "NSPhotoLibraryUsageDescription" = "写真を追加する機能を許可する";
 "NSLocationAlwaysUsageDescription" = "背景にあるときに位置情報を利用できるようにする";
 "NSLocationWhenInUseUsageDescription" = "アプリを使用しているときに場所を使用できるようにする";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "背景にあるときに位置情報を利用できるようにする";
