@@ -41,12 +41,11 @@
 	<dict>
 		<key>constraints</key>
 		<array>
-			<string>H:|-8-[itemImageView]-[itemTitleLabel]-&gt;=8-|</string>
+			<string>H:|-8-[itemImageView(50)]-[itemTitleLabel]-&gt;=8-|</string>
 			<string>H:[itemSubtitleLabel]-&gt;=8-|</string>
-			<string>V:|-8-[itemImageView(50)]-8-|</string>
+			<string>V:|-8-[itemImageView(50)]-&gt;=8-|</string>
 			<string>V:|-[itemTitleLabel][itemSubtitleLabel]-&gt;=8-|</string>
 			<string>#itemSubtitleLabel.leading=itemTitleLabel.leading,1,0</string>
-			<string>#itemImageView.width=itemImageView.height,1,0</string>
 		</array>
 	</dict>
 	<key>self</key>
