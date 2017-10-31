@@ -449,6 +449,8 @@
 						<string>directory_image_placeholder_thumbnail</string>
 						<key>presenterClassString</key>
 						<string>AFDDirectoryListPresenter</string>
+						<key>tableDelegateDataSourceClassString</key>
+						<string></string>
 					</dict>
 				</dict>
 				<key>dependencies</key>
