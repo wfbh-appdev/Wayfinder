@@ -22,6 +22,7 @@
 		5574F54C1C3AD921007BC741 /* AFCUIMaasVersionCellViewClassTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5574F54B1C3AD921007BC741 /* AFCUIMaasVersionCellViewClassTableViewCell.m */; };
 		5574F54F1C3AF889007BC741 /* AFCUILocationProviderViewClassTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5574F54E1C3AF889007BC741 /* AFCUILocationProviderViewClassTableViewCell.m */; };
 		55BAB7CB1C3EB98600799988 /* PhunwareIntegration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55BAB7CD1C3EB98600799988 /* PhunwareIntegration.plist */; };
+		7E1F56351FAD926E002EF330 /* AFDCategoryTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E1F56341FAD926E002EF330 /* AFDCategoryTableViewCell.plist */; };
 		7E47F5011F509A5600274CFF /* AFMRouteSelectionViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E47F5001F509A5600274CFF /* AFMRouteSelectionViewController.plist */; };
 		7E66B36D1F7045ED00B04A7E /* AFMOverwriteCustomPoiViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E66B36C1F7045ED00B04A7E /* AFMOverwriteCustomPoiViewController.plist */; };
 		7E66B36F1F70462700B04A7E /* AFCNoticeAlertViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E66B36E1F70462700B04A7E /* AFCNoticeAlertViewController.plist */; };
@@ -125,6 +126,7 @@
 		55BAB7CC1C3EB98600799988 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/PhunwareIntegration.plist; sourceTree = "<group>"; };
 		55BAB7CE1C3EB98800799988 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = es; path = es.lproj/PhunwareIntegration.plist; sourceTree = "<group>"; };
 		6D5A55BB941F06A8E81EA3DF /* libPods-GenericAF4.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GenericAF4.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E1F56341FAD926E002EF330 /* AFDCategoryTableViewCell.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = AFDCategoryTableViewCell.plist; path = AppFrameworkDirectory/AFDCategoryTableViewCell.plist; sourceTree = "<group>"; };
 		7E47F5001F509A5600274CFF /* AFMRouteSelectionViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFMRouteSelectionViewController.plist; path = AppFrameworkMapping/AFMRouteSelectionViewController.plist; sourceTree = "<group>"; };
 		7E66B36C1F7045ED00B04A7E /* AFMOverwriteCustomPoiViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFMOverwriteCustomPoiViewController.plist; path = AppFrameworkMapping/AFMOverwriteCustomPoiViewController.plist; sourceTree = "<group>"; };
 		7E66B36E1F70462700B04A7E /* AFCNoticeAlertViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFCNoticeAlertViewController.plist; path = AppFrameworkCore/AFCNoticeAlertViewController.plist; sourceTree = "<group>"; };
@@ -296,6 +298,7 @@
 				7EF95DEF1F26E91400CB9826 /* AFDDirectoryNoImageTableViewCell.plist */,
 				7EF95DF11F26E91400CB9826 /* AFDDirectoryTrailingImageTableViewCell.plist */,
 				7EF95DEE1F26E91400CB9826 /* AFDDirectoryItemViewController.plist */,
+				7E1F56341FAD926E002EF330 /* AFDCategoryTableViewCell.plist */,
 			);
 			name = AppFrameworkDirectory;
 			sourceTree = "<group>";
@@ -648,6 +651,7 @@
 				8FDD0F3B1BD1775500A0C512 /* GenericAppNavigationController.xib in Resources */,
 				7EF95E111F2700EE00CB9826 /* AFCParkingViewController.plist in Resources */,
 				137E88AA1F4CA57600DEF7A3 /* AFCCategoryViewController.plist in Resources */,
+				7E1F56351FAD926E002EF330 /* AFDCategoryTableViewCell.plist in Resources */,
 				7E66B3791F70465A00B04A7E /* AFMPOIListTrailingImageTableViewCell.plist in Resources */,
 				7EE571AF1F96BEDB00297700 /* AFCUIAlertSubscriptionsViewController.plist in Resources */,
 				C3F32B631F0ADA0000495919 /* AppFrameworkEvents.strings in Resources */,
