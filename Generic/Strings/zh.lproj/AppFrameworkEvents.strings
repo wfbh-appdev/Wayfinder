@@ -7,10 +7,9 @@
 /*** AF-EVENTS STRINGS ***/
 
 /**
- * EventsListViewController
+ * AFEEventsCollectionViewController Strings
  */
-"eventslistviewcontroller.favorites.all" = "所有";
-"eventslistviewcontroller.favorites.only" = "最爱";
+"afeeventscollectionviewcontroller.noresults.title" = "未找到结果";
 
 /**
  * Events add to calendar

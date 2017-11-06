@@ -22,7 +22,7 @@
 	<key>noResultsLabel</key>
 	<dict>
 		<key>text</key>
-		<string>#afddirectoryviewcontroller.noresults.title,AppFrameworkDirectory</string>
+		<string>#afeeventscollectionviewcontroller.noresults.title,AppFrameworkEvents</string>
 		<key>fontName</key>
 		<string>$MainFontBold</string>
 		<key>fontSize</key>
