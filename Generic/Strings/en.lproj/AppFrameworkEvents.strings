@@ -9,6 +9,7 @@
 /**
  * AFEEventsCollectionViewController Strings
  */
+"afeeventscollectionviewcontroller.title.label.text" = "Events";
 "afeeventscollectionviewcontroller.noresults.title" = "No results were found";
 
 /**

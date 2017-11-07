@@ -9,6 +9,7 @@
 /**
  * AFEEventsCollectionViewController Strings
  */
+"afeeventscollectionviewcontroller.title.label.text" = "イベント";
 "afeeventscollectionviewcontroller.noresults.title" = "プロモーションは見つかりませんでした";
 
 /**

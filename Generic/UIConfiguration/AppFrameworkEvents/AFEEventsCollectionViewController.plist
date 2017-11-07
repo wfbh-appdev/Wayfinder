@@ -8,6 +8,8 @@
 		<string>DefaultTitleLabel</string>
 		<key>fontName</key>
 		<string>$MainFontLight</string>
+		<key>text</key>
+		<string>#afeeventscollectionviewcontroller.title.label.text,AppFrameworkEvents</string>
 	</dict>
 	<key>navigationBar</key>
 	<dict>
