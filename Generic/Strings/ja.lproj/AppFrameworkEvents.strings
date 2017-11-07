@@ -7,10 +7,10 @@
 /*** AF-EVENTS STRINGS ***/
 
 /**
- * EventsListViewController
+ * AFEEventsCollectionViewController Strings
  */
-"eventslistviewcontroller.favorites.all" = "すべて";
-"eventslistviewcontroller.favorites.only" = "お気に入り";
+"afeeventscollectionviewcontroller.title.label.text" = "イベント";
+"afeeventscollectionviewcontroller.noresults.title" = "プロモーションは見つかりませんでした";
 
 /**
  * Events add to calendar

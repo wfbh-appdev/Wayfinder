@@ -449,6 +449,8 @@
 						<string>directory_image_placeholder_thumbnail</string>
 						<key>presenterClassString</key>
 						<string>AFDDirectoryListPresenter</string>
+						<key>tableDelegateDataSourceClassString</key>
+						<string>AFDDirectoryViewDelegateDataSource</string>
 					</dict>
 				</dict>
 				<key>dependencies</key>
@@ -517,6 +519,10 @@
 						<string>$action.onCategoriesApplied</string>
 						<key>presenterClassString</key>
 						<string>AFDDirectoryCategoryPresenter</string>
+						<key>tableDelegateDataSourceClassString</key>
+						<string>AFDCategoryViewDelegateDataSource</string>
+						<key>cellClass</key>
+						<string>AFDCategoryTableViewCell</string>
 					</dict>
 				</dict>
 			</dict>
@@ -730,8 +736,6 @@
 					<true/>
 					<key>properties</key>
 					<dict>
-						<key>title</key>
-						<string>$action.buttonTitle</string>
 						<key>DBDateFormat</key>
 						<string>MM/dd/yyyy HH:mm:ss</string>
 						<key>clientDateFormat</key>
@@ -740,6 +744,10 @@
 						<string>events_image_placeholder_detail</string>
 						<key>presenterClassString</key>
 						<string>AFEEventsCollectionViewPresenter</string>
+						<key>cellClass</key>
+						<string>AFEEventsCollectionViewCell</string>
+						<key>collectionDelegateDataSourceClassString</key>
+						<string>AFEEventsViewDelegateDataSource</string>
 					</dict>
 				</dict>
 				<key>dependencies</key>
@@ -1526,7 +1534,7 @@
 				<key>parameters</key>
 				<dict>
 					<key>viewController</key>
-					<string>AFMUIPOICategoryViewController</string>
+					<string>AFMMapCategoryViewController</string>
 					<key>presentationMode</key>
 					<string>modal</string>
 					<key>shouldAnimate</key>
@@ -1537,6 +1545,10 @@
 						<string>$action.onCategoriesApplied</string>
 						<key>presenterClassString</key>
 						<string>AFMMapCategoryPresenter</string>
+						<key>tableDelegateDataSourceClassString</key>
+						<string>AFMCategoryViewDelegateDataSource</string>
+						<key>cellClass</key>
+						<string>AFMCategoryTableViewCell</string>
 					</dict>
 				</dict>
 			</dict>
