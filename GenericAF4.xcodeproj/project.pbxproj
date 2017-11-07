@@ -31,7 +31,7 @@
 		7E66B3781F70465A00B04A7E /* AFMPOIListTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E66B3721F70465A00B04A7E /* AFMPOIListTableViewCell.plist */; };
 		7E66B3791F70465A00B04A7E /* AFMPOIListTrailingImageTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E66B3731F70465A00B04A7E /* AFMPOIListTrailingImageTableViewCell.plist */; };
 		7E66B37A1F70465A00B04A7E /* AFMPOIPeekDetailViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E66B3741F70465A00B04A7E /* AFMPOIPeekDetailViewController.plist */; };
-		7E66B37B1F70465A00B04A7E /* AFMUIPOICategoryViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E66B3751F70465A00B04A7E /* AFMUIPOICategoryViewController.plist */; };
+		7E66B37B1F70465A00B04A7E /* AFMMapCategoryViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E66B3751F70465A00B04A7E /* AFMMapCategoryViewController.plist */; };
 		7E66B3851F7071CD00B04A7E /* AFMDeleteCustomPoiViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E66B3841F7071CD00B04A7E /* AFMDeleteCustomPoiViewController.plist */; };
 		7E66B3871F7564A000B04A7E /* Weather.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E66B3861F7564A000B04A7E /* Weather.xcassets */; };
 		7E66B3911F78C9F200B04A7E /* AFMPOIFullDetailViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E66B3901F78C9F200B04A7E /* AFMPOIFullDetailViewController.plist */; };
@@ -135,7 +135,7 @@
 		7E66B3721F70465A00B04A7E /* AFMPOIListTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFMPOIListTableViewCell.plist; path = AppFrameworkMapping/AFMPOIListTableViewCell.plist; sourceTree = "<group>"; };
 		7E66B3731F70465A00B04A7E /* AFMPOIListTrailingImageTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFMPOIListTrailingImageTableViewCell.plist; path = AppFrameworkMapping/AFMPOIListTrailingImageTableViewCell.plist; sourceTree = "<group>"; };
 		7E66B3741F70465A00B04A7E /* AFMPOIPeekDetailViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFMPOIPeekDetailViewController.plist; path = AppFrameworkMapping/AFMPOIPeekDetailViewController.plist; sourceTree = "<group>"; };
-		7E66B3751F70465A00B04A7E /* AFMUIPOICategoryViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFMUIPOICategoryViewController.plist; path = AppFrameworkMapping/AFMUIPOICategoryViewController.plist; sourceTree = "<group>"; };
+		7E66B3751F70465A00B04A7E /* AFMMapCategoryViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFMMapCategoryViewController.plist; path = AppFrameworkMapping/AFMMapCategoryViewController.plist; sourceTree = "<group>"; };
 		7E66B3841F7071CD00B04A7E /* AFMDeleteCustomPoiViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFMDeleteCustomPoiViewController.plist; path = AppFrameworkMapping/AFMDeleteCustomPoiViewController.plist; sourceTree = "<group>"; };
 		7E66B3861F7564A000B04A7E /* Weather.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Weather.xcassets; sourceTree = "<group>"; };
 		7E66B3901F78C9F200B04A7E /* AFMPOIFullDetailViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFMPOIFullDetailViewController.plist; path = AppFrameworkMapping/AFMPOIFullDetailViewController.plist; sourceTree = "<group>"; };
@@ -344,7 +344,7 @@
 				7E66B3721F70465A00B04A7E /* AFMPOIListTableViewCell.plist */,
 				7E66B3731F70465A00B04A7E /* AFMPOIListTrailingImageTableViewCell.plist */,
 				7E66B3741F70465A00B04A7E /* AFMPOIPeekDetailViewController.plist */,
-				7E66B3751F70465A00B04A7E /* AFMUIPOICategoryViewController.plist */,
+				7E66B3751F70465A00B04A7E /* AFMMapCategoryViewController.plist */,
 				133DB99E1F609A1D00E9D791 /* AFMH2VNoticeAlertViewController.plist */,
 				7EF95E361F27C8F000CB9826 /* AFMUILocationCell.plist */,
 				7EF95E161F27AFAE00CB9826 /* AFMUIMapViewController.plist */,
@@ -671,7 +671,7 @@
 				7E66B3771F70465A00B04A7E /* AFMPOIListNoImageTableViewCell.plist in Resources */,
 				8FB674781BD6D73000E7BFE4 /* LaunchScreen.xib in Resources */,
 				7E66B3851F7071CD00B04A7E /* AFMDeleteCustomPoiViewController.plist in Resources */,
-				7E66B37B1F70465A00B04A7E /* AFMUIPOICategoryViewController.plist in Resources */,
+				7E66B37B1F70465A00B04A7E /* AFMMapCategoryViewController.plist in Resources */,
 				8F106FA31BC9D44000CCDD86 /* InteractivePushNotificationCategories.plist in Resources */,
 				5555DB031C4460C900E37207 /* InfoPlist.strings in Resources */,
 				7EF95DF61F26E91400CB9826 /* AFDDirectoryNoImageTableViewCell.plist in Resources */,

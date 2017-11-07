@@ -1534,7 +1534,7 @@
 				<key>parameters</key>
 				<dict>
 					<key>viewController</key>
-					<string>AFMUIPOICategoryViewController</string>
+					<string>AFMMapCategoryViewController</string>
 					<key>presentationMode</key>
 					<string>modal</string>
 					<key>shouldAnimate</key>
@@ -1545,6 +1545,10 @@
 						<string>$action.onCategoriesApplied</string>
 						<key>presenterClassString</key>
 						<string>AFMMapCategoryPresenter</string>
+						<key>tableDelegateDataSourceClassString</key>
+						<string>AFMCategoryViewDelegateDataSource</string>
+						<key>cellClass</key>
+						<string>AFMCategoryTableViewCell</string>
 					</dict>
 				</dict>
 			</dict>
