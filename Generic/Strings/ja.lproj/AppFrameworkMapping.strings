@@ -36,12 +36,10 @@
 "afcuimroutebuilderviewcontroller.routeme.error.message" = "ルートは見つかりません。";
 "afcuimroutebuilderviewcontroller.table.header.title" = "%1$@ at %2$@";
 
-"afcuimpoicategoryviewcontroller.titlelabel.text" = "チューズ ポーイー フィルター";
-
 /*
  *  AFCUIMPOICategoryViewController Strings
  */
-"afcuimpoicategoryviewcontroller.titlelabel.text" = "Choose POI Filter";
+"afcuimpoicategoryviewcontroller.titlelabel.text" = "チューズ ポーイー フィルター";
 
 /*
  *  AFMUIPOIDetailViewController Strings
@@ -87,6 +85,9 @@
  * Map Picker
  */
 "afcmmappickerviewcontroller.navbar.title" = "マップス";
+"afcmmappickerviewcontroller.searchbar.placeholder" = "地図を検索する...";
+"afcmmappickerviewcontroller.searchbar.scope.alphabetical" = "アルファベット順";
+"afcmmappickerviewcontroller.searchbar.scope.distance" = "距離";
 
 /**
  * Turn by Turn
@@ -147,6 +148,8 @@
 "afmrouteselectionviewcontroller.startlocationtextfield.placeholder" = "どこから始めたいですか？";
 "afmrouteselectionviewcontroller.routebutton.title.text" = "ルート";
 "afmrouteselectionviewcontroller.handicapaccessibilitylabel.text" = "ハンディキャップのアクセシビリティ";
+"afmrouteselectionviewcontroller.poilistsearchbar.placeholder.start.text" = "開始場所を選択...";
+"afmrouteselectionviewcontroller.poilistsearchbar.placeholder.end.text" = "目的地の場所を選択...";
 
 // Home to Venue Notice
 "afmh2vnoticealertviewcontroller.notice.title" = "施設へのルート？";
@@ -157,5 +160,21 @@
 /*
  * Custom POI Strings
  */
-"custom.poi.title" = "Custom POI";
-"custom.poi.description" = "Custom POI Description (need creative to specify text)";
+"custom.poi.title" = "カスタムPOI";
+"custom.poi.description" = "カスタムのPoint of Interestを作成しました。具体的には、ピンをピンにドロップした場所に配置されました。";
+
+/*
+ * Custom POI Overwrite Dialog
+ */
+"afmoverwritecustompoivewcontroller.notice.title" = "新しいカスタム送り先を保存する";
+"afmoverwritecustompoivewcontroller.notice.description" = "既存のPOIを交換しますか？";
+"afmoverwritecustompoivewcontroller.acceptbutton.title" = "はい";
+"afmoverwritecustompoivewcontroller.declinebutton.title" = "今はやめろ";
+
+/*
+ * Custom POI Delete Dialog
+ */
+"afmdeletecustompoiviewcontroller.notice.title" = "保存されたピンを削除";
+"afmdeletecustompoiviewcontroller.notice.description" = "保存したピンを削除しますか？";
+"afmdeletecustompoiviewcontroller.acceptbutton.title" = "はい";
+"afmdeletecustompoiviewcontroller.declinebutton.title" = "今はやめろ";

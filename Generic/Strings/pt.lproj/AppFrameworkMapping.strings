@@ -35,12 +35,11 @@
 "afcuimroutebuilderviewcontroller.routeme.error.title" = "Route Error";
 "afcuimroutebuilderviewcontroller.routeme.error.message" = "No route can be found.";
 "afcuimroutebuilderviewcontroller.table.header.title" = "%1$@ at %2$@";
-"afcuimpoicategoryviewcontroller.titlelabel.text" = "Selecionar filtro POI";
 
 /*
  *  AFCUIMPOICategoryViewController Strings
  */
-"afcuimpoicategoryviewcontroller.titlelabel.text" = "Choose POI Filter";
+"afcuimpoicategoryviewcontroller.titlelabel.text" = "Selecionar filtro POI";
 
 /*
  *  AFMUIPOIDetailViewController Strings
@@ -86,6 +85,9 @@
  * Map Picker
  */
 "afcmmappickerviewcontroller.navbar.title" = "Mapas";
+"afcmmappickerviewcontroller.searchbar.placeholder" = "Procure o mapa ...";
+"afcmmappickerviewcontroller.searchbar.scope.alphabetical" = "Alfabética";
+"afcmmappickerviewcontroller.searchbar.scope.distance" = "Distância";
 
 /**
  * Turn by Turn
@@ -146,6 +148,8 @@
 "afmrouteselectionviewcontroller.startlocationtextfield.placeholder" = "Onde você quer começar?";
 "afmrouteselectionviewcontroller.routebutton.title.text" = "Rota";
 "afmrouteselectionviewcontroller.handicapaccessibilitylabel.text" = "Handicap Accessibility";
+"afmrouteselectionviewcontroller.poilistsearchbar.placeholder.start.text" = "Escolha um local inicial ...";
+"afmrouteselectionviewcontroller.poilistsearchbar.placeholder.end.text" = "Escolha um local de destino ...";
 
 // Home to Venue Notice
 "afmh2vnoticealertviewcontroller.notice.title" = "Rota para Instalação?";
@@ -156,5 +160,21 @@
 /*
  * Custom POI Strings
  */
-"custom.poi.title" = "Custom POI";
-"custom.poi.description" = "Custom POI Description (need creative to specify text)";
+"custom.poi.title" = "POI personalizado";
+"custom.poi.description" = "Você criou um ponto de interesse personalizado, especificamente colocado onde você largou o pino no mapa.";
+
+/*
+ * Custom POI Overwrite Dialog
+ */
+"afmoverwritecustompoivewcontroller.notice.title" = "Salve um novo destino personalizado";
+"afmoverwritecustompoivewcontroller.notice.description" = "Gostaria de substituir o seu POI existente?";
+"afmoverwritecustompoivewcontroller.acceptbutton.title" = "Sim";
+"afmoverwritecustompoivewcontroller.declinebutton.title" = "Agora não";
+
+/*
+ * Custom POI Delete Dialog
+ */
+"afmdeletecustompoiviewcontroller.notice.title" = "Excluir pino salvo";
+"afmdeletecustompoiviewcontroller.notice.description" = "Gostaria de remover seu pino salvo?";
+"afmdeletecustompoiviewcontroller.acceptbutton.title" = "Sim";
+"afmdeletecustompoiviewcontroller.declinebutton.title" = "Agora não";

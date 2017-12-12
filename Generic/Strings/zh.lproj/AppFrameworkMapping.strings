@@ -35,12 +35,11 @@
 "afcuimroutebuilderviewcontroller.routeme.error.title" = "路由错误";
 "afcuimroutebuilderviewcontroller.routeme.error.message" = "没有找到路线。";
 "afcuimroutebuilderviewcontroller.table.header.title" = "%1$@ at %2$@";
-"afcuimpoicategoryviewcontroller.titlelabel.text" = "选择POI过滤器";
 
 /*
  *  AFCUIMPOICategoryViewController Strings
  */
-"afcuimpoicategoryviewcontroller.titlelabel.text" = "Choose POI Filter";
+"afcuimpoicategoryviewcontroller.titlelabel.text" = "选择POI过滤器";
 
 /*
  *  AFMUIPOIDetailViewController Strings
@@ -86,6 +85,9 @@
  * Map Picker
  */
 "afcmmappickerviewcontroller.navbar.title" = "地图";
+"afcmmappickerviewcontroller.searchbar.placeholder" = "搜索地图...";
+"afcmmappickerviewcontroller.searchbar.scope.alphabetical" = "拼音";
+"afcmmappickerviewcontroller.searchbar.scope.distance" = "距离";
 
 /**
  * Turn by Turn
@@ -146,6 +148,8 @@
 "afmrouteselectionviewcontroller.startlocationtextfield.placeholder" = "你想从哪里开始？";
 "afmrouteselectionviewcontroller.routebutton.title.text" = "路线";
 "afmrouteselectionviewcontroller.handicapaccessibilitylabel.text" = "智障辅助功能";
+"afmrouteselectionviewcontroller.poilistsearchbar.placeholder.start.text" = "选择一个起始位置...";
+"afmrouteselectionviewcontroller.poilistsearchbar.placeholder.end.text" = "选择目的地位置...";
 
 // Home to Venue Notice
 "afmh2vnoticealertviewcontroller.notice.title" = "到设施的路线？";
@@ -156,5 +160,21 @@
 /*
  * Custom POI Strings
  */
-"custom.poi.title" = "Custom POI";
-"custom.poi.description" = "Custom POI Description (need creative to specify text)";
+"custom.poi.title" = "自定义POI";
+"custom.poi.description" = "您已经创建了一个自定义兴趣点，特别放置在您将地图放置在地图上的位置。";
+
+/*
+ * Custom POI Overwrite Dialog
+ */
+"afmoverwritecustompoivewcontroller.notice.title" = "保存新的自定义目的地";
+"afmoverwritecustompoivewcontroller.notice.description" = "你想替换现有的POI吗？";
+"afmoverwritecustompoivewcontroller.acceptbutton.title" = "是";
+"afmoverwritecustompoivewcontroller.declinebutton.title" = "不是现在";
+
+/*
+ * Custom POI Delete Dialog
+ */
+"afmdeletecustompoiviewcontroller.notice.title" = "删除保存的引脚";
+"afmdeletecustompoiviewcontroller.notice.description" = "你想删除您保存的引脚？";
+"afmdeletecustompoiviewcontroller.acceptbutton.title" = "是";
+"afmdeletecustompoiviewcontroller.declinebutton.title" = "不是现在";
