@@ -1,8 +1,8 @@
-/* 
-  AppFrameworkParking.strings
+/*
+ AppFrameworkParking.strings
 
-  Copyright © 2017 Phunware. All rights reserved.
-*/
+ Copyright © 2017 Phunware. All rights reserved.
+ */
 
 /*** AF-PARKING STRINGS ***/
 
@@ -53,3 +53,4 @@
 "afcparkingvoicememoviewcontroller.recordvoicememotitle.text" = "Grave um memorando para ajudá-lo a lembrar";
 "afcparkingvoicememoviewcontroller.recordingnotsupported" = "Gravação não suportada neste dispositivo";
 "afcparkingvoicememoviewcontroller.lastrecorded" = "Última gravação:";
+

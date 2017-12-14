@@ -1,8 +1,8 @@
-/* 
-  AppFrameworkMessageCenter.strings
+/*
+ AppFrameworkMessageCenter.strings
 
-  Copyright © 2017 Phunware. All rights reserved.
-*/
+ Copyright © 2017 Phunware. All rights reserved.
+ */
 
 /*** AF-LOCATIONMARKETING STRINGS ***/
 
@@ -38,3 +38,4 @@
  *  AFMCOfferSwipeViewController Strings
  */
 "afmcofferswipeviewcontroller.titlelabel.text" = "Promoção";
+

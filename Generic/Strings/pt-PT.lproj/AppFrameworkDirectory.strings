@@ -1,4 +1,4 @@
-/* 
+/*
  * AppFrameworkDirectory.strings
  *
  * Copyright © 2017 Phunware. All rights reserved.
@@ -11,4 +11,5 @@
  */
 "afddirectoryviewcontroller.title" = "Diretório";
 "afddirectoryviewcontroller.noresults.title" = "Nenhum Resultado.";
+
 
