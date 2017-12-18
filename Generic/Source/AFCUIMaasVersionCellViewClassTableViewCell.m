@@ -14,8 +14,8 @@
 #import <PWAdvertising/PWAds.h>
 #import <PWEngagement/PWEngagement.h>
 
-NSString *kPwMapKitVersion = @"3.1.7";
-NSString *kPwLocationVersion = @"3.1.9";
+NSString *kPwMapKitVersion = @"3.1.8";
+NSString *kPwLocationVersion = @"3.1.10";
 NSString *kPwAdsVersion = @"3.5.0";
 
 
