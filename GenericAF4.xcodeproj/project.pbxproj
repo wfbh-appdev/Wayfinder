@@ -10,10 +10,10 @@
 		3C1DE4301C3F306B0074369D /* AFGoogleAnalyticsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1DE42F1C3F306B0074369D /* AFGoogleAnalyticsController.m */; };
 		4AD72CD87B22250320E754C5 /* libPods-GenericAF4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5A55BB941F06A8E81EA3DF /* libPods-GenericAF4.a */; };
 		55173FDE1D62790500EE540B /* UIConfigurationDefault.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55173FDD1D62790500EE540B /* UIConfigurationDefault.plist */; };
-		551BF9251C1B51E9004D7ECD /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		551BF9261C1B51E9004D7ECD /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		551BF9271C1B51E9004D7ECD /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		551BF9281C1B51E9004D7ECD /* BuildFile in Resources */ = {isa = PBXBuildFile; };
+		551BF9251C1B51E9004D7ECD /* (null) in Resources */ = {isa = PBXBuildFile; };
+		551BF9261C1B51E9004D7ECD /* (null) in Resources */ = {isa = PBXBuildFile; };
+		551BF9271C1B51E9004D7ECD /* (null) in Resources */ = {isa = PBXBuildFile; };
+		551BF9281C1B51E9004D7ECD /* (null) in Resources */ = {isa = PBXBuildFile; };
 		5555DB031C4460C900E37207 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5555DB051C4460C900E37207 /* InfoPlist.strings */; };
 		5555DB0F1C448FDB00E37207 /* ModuleDefinition.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5555DB111C448FDB00E37207 /* ModuleDefinition.plist */; };
 		5574F54C1C3AD921007BC741 /* AFCUIMaasVersionCellViewClassTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5574F54B1C3AD921007BC741 /* AFCUIMaasVersionCellViewClassTableViewCell.m */; };
@@ -513,8 +513,7 @@
 				TargetAttributes = {
 					8F0613091BC8569800A55F16 = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = 84CK77G588;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -560,7 +559,7 @@
 				8F8C54281BD7E59B0018A2ED /* iTunesArtwork in Resources */,
 				7EF95E1C1F27AFAE00CB9826 /* AFMUIMapPickerTableViewCell.plist in Resources */,
 				55BAB7CB1C3EB98600799988 /* PhunwareIntegration.plist in Resources */,
-				551BF9281C1B51E9004D7ECD /* BuildFile in Resources */,
+				551BF9281C1B51E9004D7ECD /* (null) in Resources */,
 				C3F32B651F0ADA0000495919 /* AppFrameworkMessageCenter.strings in Resources */,
 				7EF95DFD1F26EC5E00CB9826 /* EventsDetailViewController.plist in Resources */,
 				7EF95E351F27C8DC00CB9826 /* AFCUIWebViewController.plist in Resources */,
@@ -568,8 +567,8 @@
 				C3F32B671F0ADA0000495919 /* AppFrameworkRender.strings in Resources */,
 				7EF95E3D1F27C90400CB9826 /* EventTableViewCell.plist in Resources */,
 				C3F32B661F0ADA0000495919 /* AppFrameworkParking.strings in Resources */,
-				551BF9251C1B51E9004D7ECD /* BuildFile in Resources */,
-				551BF9271C1B51E9004D7ECD /* BuildFile in Resources */,
+				551BF9251C1B51E9004D7ECD /* (null) in Resources */,
+				551BF9271C1B51E9004D7ECD /* (null) in Resources */,
 				7EF95E121F2700EE00CB9826 /* AFCParkingVoiceMemoViewController.plist in Resources */,
 				8F4355941BC858B700FFD46C /* StandardIcons.xcassets in Resources */,
 				7EF95E071F26EFDD00CB9826 /* AFMCOfferWalletViewController.plist in Resources */,
@@ -593,7 +592,7 @@
 				5555DB0F1C448FDB00E37207 /* ModuleDefinition.plist in Resources */,
 				7EF95DF51F26E91400CB9826 /* AFDDirectoryItemViewController.plist in Resources */,
 				7EF95E0F1F2700EE00CB9826 /* AFCParkingNoteViewController.plist in Resources */,
-				551BF9261C1B51E9004D7ECD /* BuildFile in Resources */,
+				551BF9261C1B51E9004D7ECD /* (null) in Resources */,
 				7EF95DF41F26E91400CB9826 /* AFDDirectoryCategoryViewController.plist in Resources */,
 				7EF95E1D1F27AFAE00CB9826 /* AFMUIMapPickerViewController.plist in Resources */,
 				8FDD0F3B1BD1775500A0C512 /* GenericAppNavigationController.xib in Resources */,
@@ -964,6 +963,7 @@
 				CODE_SIGN_ENTITLEMENTS = GenericAF4/GenericAF4.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
@@ -994,6 +994,7 @@
 				CODE_SIGN_ENTITLEMENTS = GenericAF4/GenericAF4.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
@@ -1066,6 +1067,7 @@
 				CODE_SIGN_ENTITLEMENTS = GenericAF4/GenericAF4.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
@@ -1139,6 +1141,7 @@
 				CODE_SIGN_ENTITLEMENTS = GenericAF4/GenericAF4.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
