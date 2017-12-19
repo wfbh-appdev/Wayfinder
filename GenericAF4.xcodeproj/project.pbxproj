@@ -963,7 +963,7 @@
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = GenericAF4/GenericAF4.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -979,8 +979,8 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.generic.af4.ios;
 				PRODUCT_NAME = GenericAF4;
-				PROVISIONING_PROFILE = "c6a6c3d3-f50c-42c7-a960-85885074fad7";
-				PROVISIONING_PROFILE_SPECIFIER = GenericAF4_DevCert;
+				PROVISIONING_PROFILE = "2e705c11-a07c-414d-b44b-8a468dca45c7";
+				PROVISIONING_PROFILE_SPECIFIER = GenericAF4_InHousePushEnabled;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
