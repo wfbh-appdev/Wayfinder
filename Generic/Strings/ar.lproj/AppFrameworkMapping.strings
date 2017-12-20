@@ -10,56 +10,56 @@
  *  AFCUIMRouteBuilderViewController Strings
  */
 "afcuimroutebuilderviewcontroller.route.error.nostartend" = "يجب تحديد كل من موقعي البدء والانتهاء للعثور على مسار.";
-"afcuimroutebuilderviewcontroller.route.error.endstart.same" = "يجب أن يكون نقطة بداية ونهاية مختلفة.";
-"afcuimroutebuilderviewcontroller.route.error.cantfindpoi" = "ونحن لا يمكن أن تجد أن في و اي، يرجى البحث من جديد.";
+"afcuimroutebuilderviewcontroller.route.error.endstart.same" = "يجب أن تكون نقطة البداية والنهاية مختلفة.";
+"afcuimroutebuilderviewcontroller.route.error.cantfindpoi" = "لم نتمكن من العثور على بوي، يرجى البحث مرة أخرى.";
 "afcuimroutebuilderviewcontroller.route.error.title" = "آسف";
 "afcuimroutebuilderviewcontroller.currentlocation.text" = "الموقع الحالي";
 "afcuimroutebuilderviewcontroller.startlocationtextfield.placeholder" = "موقع البدء";
-"afcuimroutebuilderviewcontroller.endlocationtextfield.placeholder" = "نهاية الدولة";
+"afcuimroutebuilderviewcontroller.endlocationtextfield.placeholder" = "نهاية الموقع";
 "afcuimroutebuilderviewcontroller.startlabel.text" = "بداية";
 "afcuimroutebuilderviewcontroller.endlabel.text" = "النهاية";
 "afcuimroutebuilderviewcontroller.titlelabel.text" = "التوجيه";
 "afcuimroutebuilderviewcontroller.cancelbutton.buttontitle" = "إلغاء";
-"afcuimroutebuilderviewcontroller.routebutton.buttontitle" = "الطريق";
-"afcuimroutebuilderviewcontroller.handicapaccessibilitylabel.text" = "هانديكاب الوصول";
-"afcuimroutebuilderviewcontroller.outdoortoindoornotificationtitle.text" = "مرحبا بكم في";
-"afcuimroutebuilderviewcontroller.outdoortoindoornotificationtitle.message" = "يرجى إطلاق التطبيق عن الاتجاهات الداخلية إلى وجهتك النهائية.";
-"afcuimroutebuilderviewcontroller.outdoortoindooralerttitle.text" = "تحتاج الاتجاهات إلى المكان?";
-"afcuimroutebuilderviewcontroller.outdoortoindooralerttitle.message" = "لاحظنا أنك حاليا لا في المرفق. \ هل ترغب في الطريق إلى مكان بدلا من ذلك?";
-"afcuimroutebuilderviewcontroller.dismissoutdoortoindoor.buttontitle" = "استبعاد";
-"afcuimroutebuilderviewcontroller.openinmapsbutton.buttontitle" = "فتح الخريطة";
-"afcuimroutebuilderviewcontroller.welcomebacktitle.text" = "أهلا بكم من جديد!";
-"afcuimroutebuilderviewcontroller.welcomebackmessage.text" = "سنقوم الآن تستمر عملية التوجيه من موقف للسيارات \ إلى وجهتك التي تم اختيارها مسبقا.";
-"afcuimroutebuilderviewcontroller.welcomebackdismiss.buttontitle" = "استبعاد";
-"afcuimroutebuilderviewcontroller.welcomebackrouteme.buttontitle" = "طريق أنا؛";
+"afcuimroutebuilderviewcontroller.routebutton.buttontitle" = "طريق";
+"afcuimroutebuilderviewcontroller.handicapaccessibilitylabel.text" = "إمكانية";
+"afcuimroutebuilderviewcontroller.outdoortoindoornotificationtitle.text" = "مرحبا بك ف";
+"afcuimroutebuilderviewcontroller.outdoortoindoornotificationtitle.message" = "يرجى إطلاق التطبيق لاتجاهات داخلية إلى وجهتك النهائية.";
+"afcuimroutebuilderviewcontroller.outdoortoindooralerttitle.text" = "تحتاج الاتجاهات إلى المكان؟";
+"afcuimroutebuilderviewcontroller.outdoortoindooralerttitle.message" = "لاحظنا أنك غير موجود حاليا في المنشأة.\nهل ترغب في التوجه إلى مكان بدلا من ذلك؟";
+"afcuimroutebuilderviewcontroller.dismissoutdoortoindoor.buttontitle" = "رفض";
+"afcuimroutebuilderviewcontroller.openinmapsbutton.buttontitle" = "فتح في الخرائط";
+"afcuimroutebuilderviewcontroller.welcomebacktitle.text" = "مرحبا بعودتك!";
+"afcuimroutebuilderviewcontroller.welcomebackmessage.text" = "سنواصل الآن التوجيه من موقف السيارات\nإلى الوجهة التي اخترتها سابقا.";
+"afcuimroutebuilderviewcontroller.welcomebackdismiss.buttontitle" = "رفض";
+"afcuimroutebuilderviewcontroller.welcomebackrouteme.buttontitle" = "الطريق لي";
 "afcuimroutebuilderviewcontroller.routeme.error.title" = "خطأ في المسار";
 "afcuimroutebuilderviewcontroller.routeme.error.message" = "لا يمكن العثور على أي مسار.";
-"afcuimroutebuilderviewcontroller.table.header.title" = "%1$@ at %2$@";
+"afcuimroutebuilderviewcontroller.table.header.title" = "%1$@ في %2$@";
 
 /*
  *  AFCUIMPOICategoryViewController Strings
  */
-"afcuimpoicategoryviewcontroller.titlelabel.text" = "اختار في و اي فلتر";
+"afcuimpoicategoryviewcontroller.titlelabel.text" = "اختر فلتر بوي";
 
 /*
  *  AFMUIPOIDetailViewController Strings
  */
-"afcuiannotationdetailviewcontroller.selectCampusButton.buttontitle" = "اختر هذا الحرم الجامعي";
+"afcuiannotationdetailviewcontroller.selectCampusButton.buttontitle" = "اختر هذا كامبوس";
 
 /*
  *  AFCUIMMapViewController Strings
  */
-"afcuimmapviewcontroller.endPointOfInterest.message" = "لقد وصلت";
+"afcuimmapviewcontroller.endPointOfInterest.message" = "لقد وصلت.";
 "afcuimmapviewcontroller.promptlocationalert.takemetherebutton" = "خذني هناك";
 "afcuimmapviewcontroller.promptlocationalert.backtofacilitymapbutton" = "العودة إلى خريطة المرفق";
 "afcuimmapviewcontroller.promptlocationalert.cancelbutton" = "لا شكرا";
-"afcuimapviewcontroller.nopoifound.alert.title" = "وفي و أي لم يتم العثور على";
-"afcuimapviewcontroller.nopoifound.alert.message" = "وفي و أي لم يتم العثور في المبنى في و أي أيس.";
-"afcuimmapviewcontroller.searchbar.text" = "بحث...";
-"afcuimmapviewcontroller.promptlocationalert.title" = "ساعدونا في إرشادك";
-"afcuimmapviewcontroller.promptlocationalert.message" = "يرجى تمكين خدمات الموقع حتى نتمكن من إرشادك حول منشأة.";
-"afcuimmapviewcontroller.buildingloaderroralert.title" = "خطأ خريطة";
-"afcuimmapviewcontroller.buildingloaderroralert.message" = "ونحن لا يمكن تحميل خريطة في هذا الوقت. تحقق من اتصال الشبكة.";
+"afcuimapviewcontroller.nopoifound.alert.title" = "لم يتم العثور على بوي";
+"afcuimapviewcontroller.nopoifound.alert.message" = "لم يتم العثور على بوي في النقاط المهمة بناء.";
+"afcuimmapviewcontroller.searchbar.text" = "فتش...";
+"afcuimmapviewcontroller.promptlocationalert.title" = "ساعدنا في إرشادك";
+"afcuimmapviewcontroller.promptlocationalert.message" = "يرجى تمكين خدمات الموقع حتى نتمكن من إرشادك حول المنشأة.";
+"afcuimmapviewcontroller.buildingloaderroralert.title" = "خطأ في الخريطة";
+"afcuimmapviewcontroller.buildingloaderroralert.message" = "لا يمكننا تحميل الخريطة في الوقت الحالي. تحقق من اتصال الشبكة.";
 "afcuimmapviewcontroller.buildingloaderroralert.button" = "حسنا";
 "afcuimmapviewcontroller.ok" = "حسنا";
 "afcuimmapviewcontroller.single.route.instruction.suffix" = "للوصول إلى وجهتك";
@@ -67,18 +67,18 @@
 /**
  *  AFMUIPOIViewController Strings
  */
-"afmuipoiviewcontroller.search.placeholder" = "... جار البحث عن البوي";
+"afmuipoiviewcontroller.search.placeholder" = "البحث عن بوي ...";
 "afmuipoiviewcontroller.titlelabel.text" = "دليل بوي";
 "afmuipoiviewcontroller.noresultsfound.text" = "لا توجد نتائج.";
 
 /*
  *  AFCUIMRoutingAnnotationView Strings
  */
-"afcuimroutingannotationview.taptogoback.title" = "اضغط على العودة";
-"afcuimroutingannotationview.taptoviewnext.title" = "انقر لعرض التالي";
+"afcuimroutingannotationview.taptogoback.title" = "انقر للانتقال";
+"afcuimroutingannotationview.taptoviewnext.title" = "تاب تو فيو نيكست";
 "afcuimroutingannotationview.starthereannotation.title" = "بداية";
 "afcuimroutingannotationview.destinationannotation.title" = "النهاية";
-"afcuimroutingannotationview.tome.title" = "أخذ";
+"afcuimroutingannotationview.tome.title" = "يأخذ";
 "afcuimroutingannotationview.hacia.title" = "إلى";
 
 /*
@@ -93,10 +93,10 @@
  * Turn by Turn
  */
 "PWRouteInstructionDirectionStraight" = "الذهاب مباشرة ل";
-"PWRouteInstructionDirectionLeft" = "يستدير لليسار في";
-"PWRouteInstructionDirectionRight" = "يمينا في";
+"PWRouteInstructionDirectionLeft" = "الاتجاه يسارا ب";
+"PWRouteInstructionDirectionRight" = "الاتجاه يمينا في";
 "PWRouteInstructionDirectionBearLeft" = "الدب اليسار في";
-"PWRouteInstructionDirectionBearRight" = "الدب اليمين في";
+"PWRouteInstructionDirectionBearRight" = "الدب الحق في";
 "afmuimapviewcontroller.turnbyturn.distance.meter" = "متر";
 "afmuimapviewcontroller.turnbyturn.distance.meters" = "متر";
 "afmuimapviewcontroller.turnbyturn.distance.foot" = "قدم";
@@ -106,30 +106,30 @@
 
 //Not used
 "PWRouteInstructionDirectionFloorChange" = "";
-"PWRouteInstructionDirectionElevatorUp" = "اتخاذ المصعد يصل إلى";
-"PWRouteInstructionDirectionElevatorDown" = "استقل المصعد الى";
-"PWRouteInstructionDirectionStairsUp" = "خذ على الدرج الى";
-"PWRouteInstructionDirectionStairsDown" = "اصعد السلالم وصولا الى";
-"PWRouteInstructionDirectionEscalatorUp" = "سلم كهربائى";
-"PWRouteInstructionDirectionEscalatorDown" = "سلم كهربائى";
-"PWRouteInstructionLast" = "كنت قد وصلت في";
+"PWRouteInstructionDirectionElevatorUp" = "أخذ المصعد حتى";
+"PWRouteInstructionDirectionElevatorDown" = "خذ المصعد وصولا الى";
+"PWRouteInstructionDirectionStairsUp" = "اتخاذ الدرج تصل إلى";
+"PWRouteInstructionDirectionStairsDown" = "اتخاذ الدرج وصولا الى";
+"PWRouteInstructionDirectionEscalatorUp" = "خذ المصعد حتى";
+"PWRouteInstructionDirectionEscalatorDown" = "خذ المصعد إلى أسفل";
+"PWRouteInstructionLast" = "لقد وصلت إلى";
 "PWRouteInstructionLastEmpty" = "لقد وصلت.";
-"afmuimapviewcontroller.turnbyturn.totaltraveltime" = "إجمالي مدة السفر";
-"afmuimapviewcontroller.turnbyturn.totaltraveltime.minute" = "دقيقة";
-"afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "دقائق";
+"afmuimapviewcontroller.turnbyturn.totaltraveltime" = "إجمالي وقت السفر";
+"afmuimapviewcontroller.turnbyturn.totaltraveltime.minute" = "min";
+"afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "mins";
 "afmuimapviewcontroller.turnbyturn.in" = "في";
 
 /**
  *  AFMOutdoorToIndoor Strings
  */
-"afmoutdoortoindoor.nativemap.title" = "%1$@ at %2$@";
+"afmoutdoortoindoor.nativemap.title" = "%1$@ في %2$@";
 
 /*
  * Connection requirements for location
  */
 "afmuimapviewcontroller.connections.wifi.message" = "تشغيل واي فاي لمعرفة موقعك الحالي على الخريطة.";
-"afmuimapviewcontroller.connections.bluetooth.message" = "شغل البلوتوث للاطلاع على موقعك الحالي على الخريطة.";
-"afmuimapviewcontroller.connections.wifiandbluetooth.message" = "تشغيل واي فاي وبلوتوث لرؤية موقعك الحالي على الخريطة.";
+"afmuimapviewcontroller.connections.bluetooth.message" = "تشغيل البلوتوث لرؤية موقعك الحالي على الخريطة.";
+"afmuimapviewcontroller.connections.wifiandbluetooth.message" = "تشغيل واي فاي وبلوتوث لمعرفة موقعك الحالي على الخريطة.";
 "afmuimapviewcontroller.connections.button.title" = "حسنا";
 
 // Permission
@@ -147,7 +147,7 @@
 "afmrouteselectionviewcontroller.endlabel.text" = "النهاية";
 "afmrouteselectionviewcontroller.startlocationtextfield.placeholder" = "أين تريد أن تبدأ؟";
 "afmrouteselectionviewcontroller.routebutton.title.text" = "طريق";
-"afmrouteselectionviewcontroller.handicapaccessibilitylabel.text" = "هانديكاب الوصول";
+"afmrouteselectionviewcontroller.handicapaccessibilitylabel.text" = "الإعاقة للمعاقين";
 "afmrouteselectionviewcontroller.poilistsearchbar.placeholder.start.text" = "اختيار موقع البدء ...";
 "afmrouteselectionviewcontroller.poilistsearchbar.placeholder.end.text" = "اختيار موقع الوجهة ...";
 
