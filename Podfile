@@ -32,6 +32,8 @@ target :'GenericAF4' do
 #    pod 'AppFrameworkParkingModule',           :path => '../af-sdk-ios/af-modules/af-parking'
 #    pod 'AppFrameworkRenderModule',            :path => '../af-sdk-ios/af-modules/af-render'
 
+    pod 'StepInsideSdk', :http => 'https://phunware-dbc1d30f:e5182af3f07c4c67@artifacts.senionlab.com/pods/stepinside-sdk/5.1.1.zip'
+
     project 'GenericAF4.xcodeproj'
 
 end
