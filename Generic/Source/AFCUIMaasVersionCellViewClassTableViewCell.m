@@ -14,8 +14,6 @@
 #import <PWAdvertising/PWAds.h>
 #import <PWEngagement/PWEngagement.h>
 
-NSString *kPwMapKitVersion = @"3.1.8";
-NSString *kPwLocationVersion = @"3.1.10";
 NSString *kPwAdsVersion = @"3.5.0";
 
 
@@ -28,15 +26,15 @@ NSString *kPwAdsVersion = @"3.5.0";
 
 
     if ([super.textLabel.text isEqualToString:@"PwMapKit"])
-        versionString = kPwMapKitVersion;
+        versionString = PWMapKitVersion;
     if ([super.textLabel.text isEqualToString:@"PwLocation"])
-        versionString = kPwLocationVersion;
+        versionString = PWLocationVersion;
     if ([super.textLabel.text isEqualToString:@"PwCore"])
         versionString = PWCoreVersion;
     if ([super.textLabel.text isEqualToString:@"PwAds"])
         versionString = kPwAdsVersion;
     if ([super.textLabel.text isEqualToString:@"PwEngagement"]) {
-        versionString = [PWEngagement version];
+        versionString = PWEngagementVersion;
     }
 
 
