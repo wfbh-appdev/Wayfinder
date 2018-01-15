@@ -29,7 +29,7 @@
 		<key>topLevelContentName</key>
 		<string>Phunware Corporate</string>
 		<key>applicationUUID</key>
-		<string>8bb1ca9a-6799-468c-a286-cfc70dd553d0</string>
+		<string>5c452f69-746b-4b1e-9681-14344f1d055e</string>
 		<key>webservicesID</key>
 		<string>e7ee6efb-c66e-11df-bbda-ab061b74f77a</string>
 		<key>webservicesKey</key>
@@ -38,11 +38,11 @@
 	<key>MaaS Integration</key>
 	<dict>
 		<key>MaaSAppID</key>
-		<string>1551</string>
+		<string>1460</string>
 		<key>MaaSAccessKey</key>
-		<string>34e67d95eff09043966fb005249da67227004633</string>
+		<string>46f390d8a01859b5dbfa804db1634dd9603399df</string>
 		<key>MaaSSignatureKey</key>
-		<string>d7c3a0a01df10914a284514e5de562d0d97e3e07</string>
+		<string>9a92d23a51d49114b19d54c3f1c0508a4a98e576</string>
 		<key>S3URL</key>
 		<string>https://solutions-db.phunware.com</string>
 	</dict>

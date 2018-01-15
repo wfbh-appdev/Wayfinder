@@ -855,8 +855,6 @@
 					<string>MM/dd/yyyy HH:mm:ss</string>
 					<key>clientDateFormatKey</key>
 					<string>MMM d</string>
-					<key>kAFEShouldLoadEventItemKey</key>
-					<true/>
 					<key>queryData</key>
 					<dict>
 						<key>events</key>

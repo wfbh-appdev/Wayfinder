@@ -22,6 +22,7 @@
 		5574F54C1C3AD921007BC741 /* AFCUIMaasVersionCellViewClassTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5574F54B1C3AD921007BC741 /* AFCUIMaasVersionCellViewClassTableViewCell.m */; };
 		5574F54F1C3AF889007BC741 /* AFCUILocationProviderViewClassTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5574F54E1C3AF889007BC741 /* AFCUILocationProviderViewClassTableViewCell.m */; };
 		55BAB7CB1C3EB98600799988 /* PhunwareIntegration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55BAB7CD1C3EB98600799988 /* PhunwareIntegration.plist */; };
+		7E1F56351FAD926E002EF330 /* AFDCategoryTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E1F56341FAD926E002EF330 /* AFDCategoryTableViewCell.plist */; };
 		7E47F5011F509A5600274CFF /* AFMRouteSelectionViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E47F5001F509A5600274CFF /* AFMRouteSelectionViewController.plist */; };
 		7E66B36D1F7045ED00B04A7E /* AFMOverwriteCustomPoiViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E66B36C1F7045ED00B04A7E /* AFMOverwriteCustomPoiViewController.plist */; };
 		7E66B36F1F70462700B04A7E /* AFCNoticeAlertViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E66B36E1F70462700B04A7E /* AFCNoticeAlertViewController.plist */; };
@@ -30,7 +31,7 @@
 		7E66B3781F70465A00B04A7E /* AFMPOIListTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E66B3721F70465A00B04A7E /* AFMPOIListTableViewCell.plist */; };
 		7E66B3791F70465A00B04A7E /* AFMPOIListTrailingImageTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E66B3731F70465A00B04A7E /* AFMPOIListTrailingImageTableViewCell.plist */; };
 		7E66B37A1F70465A00B04A7E /* AFMPOIPeekDetailViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E66B3741F70465A00B04A7E /* AFMPOIPeekDetailViewController.plist */; };
-		7E66B37B1F70465A00B04A7E /* AFMUIPOICategoryViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E66B3751F70465A00B04A7E /* AFMUIPOICategoryViewController.plist */; };
+		7E66B37B1F70465A00B04A7E /* AFMMapCategoryViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E66B3751F70465A00B04A7E /* AFMMapCategoryViewController.plist */; };
 		7E66B3851F7071CD00B04A7E /* AFMDeleteCustomPoiViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E66B3841F7071CD00B04A7E /* AFMDeleteCustomPoiViewController.plist */; };
 		7E66B3871F7564A000B04A7E /* Weather.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E66B3861F7564A000B04A7E /* Weather.xcassets */; };
 		7E66B3911F78C9F200B04A7E /* AFMPOIFullDetailViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E66B3901F78C9F200B04A7E /* AFMPOIFullDetailViewController.plist */; };
@@ -111,8 +112,6 @@
 		3C1DE42F1C3F306B0074369D /* AFGoogleAnalyticsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFGoogleAnalyticsController.m; sourceTree = "<group>"; };
 		49FCFC7DF95FB8AE2E10158A /* Pods-GenericAF4.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericAF4.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4.adhoc.xcconfig"; sourceTree = "<group>"; };
 		4FBB0FA85ED06251D65C4E04 /* Pods-GenericAF4.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericAF4.distribution.xcconfig"; path = "Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4.distribution.xcconfig"; sourceTree = "<group>"; };
-		52AB9C471EF1E89C00A06AB3 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		52AB9C481EF1E89D00A06AB3 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = pt; path = pt.lproj/PhunwareIntegration.plist; sourceTree = "<group>"; };
 		55173FDD1D62790500EE540B /* UIConfigurationDefault.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UIConfigurationDefault.plist; sourceTree = "<group>"; };
 		5555DB041C4460C900E37207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5555DB061C4460CC00E37207 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -125,7 +124,17 @@
 		55BAB7CC1C3EB98600799988 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/PhunwareIntegration.plist; sourceTree = "<group>"; };
 		55BAB7CE1C3EB98800799988 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = es; path = es.lproj/PhunwareIntegration.plist; sourceTree = "<group>"; };
 		6D5A55BB941F06A8E81EA3DF /* libPods-GenericAF4.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GenericAF4.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E1F56341FAD926E002EF330 /* AFDCategoryTableViewCell.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = AFDCategoryTableViewCell.plist; path = AppFrameworkDirectory/AFDCategoryTableViewCell.plist; sourceTree = "<group>"; };
 		7E47F5001F509A5600274CFF /* AFMRouteSelectionViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFMRouteSelectionViewController.plist; path = AppFrameworkMapping/AFMRouteSelectionViewController.plist; sourceTree = "<group>"; };
+		7E5423961FE1EB0300E1A7EB /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/AppFrameworkCore.strings"; sourceTree = "<group>"; };
+		7E5423971FE1EB0300E1A7EB /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/AppFrameworkDirectory.strings"; sourceTree = "<group>"; };
+		7E5423981FE1EB0300E1A7EB /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/AppFrameworkEvents.strings"; sourceTree = "<group>"; };
+		7E5423991FE1EB0400E1A7EB /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/AppFrameworkMapping.strings"; sourceTree = "<group>"; };
+		7E54239A1FE1EB0400E1A7EB /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/AppFrameworkMessageCenter.strings"; sourceTree = "<group>"; };
+		7E54239B1FE1EB0400E1A7EB /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/AppFrameworkParking.strings"; sourceTree = "<group>"; };
+		7E54239C1FE1EB0400E1A7EB /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/AppFrameworkRender.strings"; sourceTree = "<group>"; };
+		7E54239E1FE1EB0400E1A7EB /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		7E54239F1FE1EB0400E1A7EB /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "pt-PT"; path = "pt-PT.lproj/PhunwareIntegration.plist"; sourceTree = "<group>"; };
 		7E66B36C1F7045ED00B04A7E /* AFMOverwriteCustomPoiViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFMOverwriteCustomPoiViewController.plist; path = AppFrameworkMapping/AFMOverwriteCustomPoiViewController.plist; sourceTree = "<group>"; };
 		7E66B36E1F70462700B04A7E /* AFCNoticeAlertViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFCNoticeAlertViewController.plist; path = AppFrameworkCore/AFCNoticeAlertViewController.plist; sourceTree = "<group>"; };
 		7E66B3701F70465A00B04A7E /* AFMLocationPermissionRequestViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFMLocationPermissionRequestViewController.plist; path = AppFrameworkMapping/AFMLocationPermissionRequestViewController.plist; sourceTree = "<group>"; };
@@ -133,7 +142,7 @@
 		7E66B3721F70465A00B04A7E /* AFMPOIListTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFMPOIListTableViewCell.plist; path = AppFrameworkMapping/AFMPOIListTableViewCell.plist; sourceTree = "<group>"; };
 		7E66B3731F70465A00B04A7E /* AFMPOIListTrailingImageTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFMPOIListTrailingImageTableViewCell.plist; path = AppFrameworkMapping/AFMPOIListTrailingImageTableViewCell.plist; sourceTree = "<group>"; };
 		7E66B3741F70465A00B04A7E /* AFMPOIPeekDetailViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFMPOIPeekDetailViewController.plist; path = AppFrameworkMapping/AFMPOIPeekDetailViewController.plist; sourceTree = "<group>"; };
-		7E66B3751F70465A00B04A7E /* AFMUIPOICategoryViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFMUIPOICategoryViewController.plist; path = AppFrameworkMapping/AFMUIPOICategoryViewController.plist; sourceTree = "<group>"; };
+		7E66B3751F70465A00B04A7E /* AFMMapCategoryViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFMMapCategoryViewController.plist; path = AppFrameworkMapping/AFMMapCategoryViewController.plist; sourceTree = "<group>"; };
 		7E66B3841F7071CD00B04A7E /* AFMDeleteCustomPoiViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFMDeleteCustomPoiViewController.plist; path = AppFrameworkMapping/AFMDeleteCustomPoiViewController.plist; sourceTree = "<group>"; };
 		7E66B3861F7564A000B04A7E /* Weather.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Weather.xcassets; sourceTree = "<group>"; };
 		7E66B3901F78C9F200B04A7E /* AFMPOIFullDetailViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFMPOIFullDetailViewController.plist; path = AppFrameworkMapping/AFMPOIFullDetailViewController.plist; sourceTree = "<group>"; };
@@ -144,31 +153,24 @@
 		7EF95DCF1F22523300CB9826 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/AppFrameworkCore.strings; sourceTree = "<group>"; };
 		7EF95DD01F2258DE00CB9826 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/AppFrameworkCore.strings; sourceTree = "<group>"; };
 		7EF95DD11F225DAB00CB9826 /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = zh.lproj/AppFrameworkCore.strings; sourceTree = "<group>"; };
-		7EF95DD21F22637800CB9826 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/AppFrameworkCore.strings; sourceTree = "<group>"; };
 		7EF95DD31F229EBE00CB9826 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/AppFrameworkDirectory.strings; sourceTree = "<group>"; };
 		7EF95DD41F229F5900CB9826 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/AppFrameworkDirectory.strings; sourceTree = "<group>"; };
 		7EF95DD51F229F9600CB9826 /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = zh.lproj/AppFrameworkDirectory.strings; sourceTree = "<group>"; };
-		7EF95DD61F229FD900CB9826 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/AppFrameworkDirectory.strings; sourceTree = "<group>"; };
 		7EF95DD71F22A31B00CB9826 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/AppFrameworkEvents.strings; sourceTree = "<group>"; };
 		7EF95DD81F22A40B00CB9826 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/AppFrameworkEvents.strings; sourceTree = "<group>"; };
 		7EF95DD91F22A52200CB9826 /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = zh.lproj/AppFrameworkEvents.strings; sourceTree = "<group>"; };
-		7EF95DDA1F22A5AA00CB9826 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/AppFrameworkEvents.strings; sourceTree = "<group>"; };
 		7EF95DDB1F2651DA00CB9826 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/AppFrameworkMessageCenter.strings; sourceTree = "<group>"; };
 		7EF95DDC1F2652CD00CB9826 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/AppFrameworkMessageCenter.strings; sourceTree = "<group>"; };
 		7EF95DDD1F26536B00CB9826 /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = zh.lproj/AppFrameworkMessageCenter.strings; sourceTree = "<group>"; };
-		7EF95DDE1F2653F200CB9826 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/AppFrameworkMessageCenter.strings; sourceTree = "<group>"; };
 		7EF95DDF1F26574000CB9826 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/AppFrameworkParking.strings; sourceTree = "<group>"; };
 		7EF95DE01F2658B000CB9826 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/AppFrameworkParking.strings; sourceTree = "<group>"; };
 		7EF95DE11F265A3800CB9826 /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = zh.lproj/AppFrameworkParking.strings; sourceTree = "<group>"; };
-		7EF95DE21F265CA600CB9826 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/AppFrameworkParking.strings; sourceTree = "<group>"; };
 		7EF95DE31F265DDF00CB9826 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/AppFrameworkRender.strings; sourceTree = "<group>"; };
 		7EF95DE41F265F1C00CB9826 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/AppFrameworkRender.strings; sourceTree = "<group>"; };
 		7EF95DE51F26639200CB9826 /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = zh.lproj/AppFrameworkRender.strings; sourceTree = "<group>"; };
-		7EF95DE61F26657500CB9826 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/AppFrameworkRender.strings; sourceTree = "<group>"; };
 		7EF95DE71F26683E00CB9826 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/AppFrameworkMapping.strings; sourceTree = "<group>"; };
 		7EF95DE81F266E2500CB9826 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/AppFrameworkMapping.strings; sourceTree = "<group>"; };
 		7EF95DE91F2671FB00CB9826 /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = zh.lproj/AppFrameworkMapping.strings; sourceTree = "<group>"; };
-		7EF95DEA1F26755900CB9826 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/AppFrameworkMapping.strings; sourceTree = "<group>"; };
 		7EF95DEE1F26E91400CB9826 /* AFDDirectoryItemViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFDDirectoryItemViewController.plist; path = AppFrameworkDirectory/AFDDirectoryItemViewController.plist; sourceTree = "<group>"; };
 		7EF95DEF1F26E91400CB9826 /* AFDDirectoryNoImageTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFDDirectoryNoImageTableViewCell.plist; path = AppFrameworkDirectory/AFDDirectoryNoImageTableViewCell.plist; sourceTree = "<group>"; };
 		7EF95DF01F26E91400CB9826 /* AFDDirectoryTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFDDirectoryTableViewCell.plist; path = AppFrameworkDirectory/AFDDirectoryTableViewCell.plist; sourceTree = "<group>"; };
@@ -296,6 +298,7 @@
 				7EF95DEF1F26E91400CB9826 /* AFDDirectoryNoImageTableViewCell.plist */,
 				7EF95DF11F26E91400CB9826 /* AFDDirectoryTrailingImageTableViewCell.plist */,
 				7EF95DEE1F26E91400CB9826 /* AFDDirectoryItemViewController.plist */,
+				7E1F56341FAD926E002EF330 /* AFDCategoryTableViewCell.plist */,
 			);
 			name = AppFrameworkDirectory;
 			sourceTree = "<group>";
@@ -341,7 +344,7 @@
 				7E66B3721F70465A00B04A7E /* AFMPOIListTableViewCell.plist */,
 				7E66B3731F70465A00B04A7E /* AFMPOIListTrailingImageTableViewCell.plist */,
 				7E66B3741F70465A00B04A7E /* AFMPOIPeekDetailViewController.plist */,
-				7E66B3751F70465A00B04A7E /* AFMUIPOICategoryViewController.plist */,
+				7E66B3751F70465A00B04A7E /* AFMMapCategoryViewController.plist */,
 				133DB99E1F609A1D00E9D791 /* AFMH2VNoticeAlertViewController.plist */,
 				7EF95E361F27C8F000CB9826 /* AFMUILocationCell.plist */,
 				7EF95E161F27AFAE00CB9826 /* AFMUIMapViewController.plist */,
@@ -581,7 +584,7 @@
 				ja,
 				ar,
 				zh,
-				pt,
+				"pt-PT",
 			);
 			mainGroup = 8F0613011BC8569800A55F16;
 			productRefGroup = 8F06130B1BC8569800A55F16 /* Products */;
@@ -648,6 +651,7 @@
 				8FDD0F3B1BD1775500A0C512 /* GenericAppNavigationController.xib in Resources */,
 				7EF95E111F2700EE00CB9826 /* AFCParkingViewController.plist in Resources */,
 				137E88AA1F4CA57600DEF7A3 /* AFCCategoryViewController.plist in Resources */,
+				7E1F56351FAD926E002EF330 /* AFDCategoryTableViewCell.plist in Resources */,
 				7E66B3791F70465A00B04A7E /* AFMPOIListTrailingImageTableViewCell.plist in Resources */,
 				7EE571AF1F96BEDB00297700 /* AFCUIAlertSubscriptionsViewController.plist in Resources */,
 				C3F32B631F0ADA0000495919 /* AppFrameworkEvents.strings in Resources */,
@@ -667,7 +671,7 @@
 				7E66B3771F70465A00B04A7E /* AFMPOIListNoImageTableViewCell.plist in Resources */,
 				8FB674781BD6D73000E7BFE4 /* LaunchScreen.xib in Resources */,
 				7E66B3851F7071CD00B04A7E /* AFMDeleteCustomPoiViewController.plist in Resources */,
-				7E66B37B1F70465A00B04A7E /* AFMUIPOICategoryViewController.plist in Resources */,
+				7E66B37B1F70465A00B04A7E /* AFMMapCategoryViewController.plist in Resources */,
 				8F106FA31BC9D44000CCDD86 /* InteractivePushNotificationCategories.plist in Resources */,
 				5555DB031C4460C900E37207 /* InfoPlist.strings in Resources */,
 				7EF95DF61F26E91400CB9826 /* AFDDirectoryNoImageTableViewCell.plist in Resources */,
@@ -695,8 +699,8 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4-frameworks.sh",
 				"${PODS_ROOT}/MistSDK/Framework/MistSDK.framework",
 				"${PODS_ROOT}/PWCore/Framework/PWCore.framework",
-				"${PODS_ROOT}/PWEngagement/Framework/PWEngagement.framework",
-				"${PODS_ROOT}/PWLocation/Framework/PWLocation.framework",
+				"${PODS_ROOT}/PWEngagementBeta/Framework/PWEngagement.framework",
+				"${PODS_ROOT}/PWLocationBeta/Framework/PWLocation.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -788,7 +792,7 @@
 				C33EA5BE1E48D78B00D48C28 /* ja */,
 				C33EA5BF1E48D78D00D48C28 /* ar */,
 				C33EA5C01E48D78E00D48C28 /* zh */,
-				52AB9C471EF1E89C00A06AB3 /* pt */,
+				7E54239E1FE1EB0400E1A7EB /* pt-PT */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -817,7 +821,7 @@
 				C33EA5B71E4543D100D48C28 /* ja */,
 				C33EA5BA1E454AB300D48C28 /* ar */,
 				C33EA5BD1E48D77D00D48C28 /* zh */,
-				52AB9C481EF1E89D00A06AB3 /* pt */,
+				7E54239F1FE1EB0400E1A7EB /* pt-PT */,
 			);
 			name = PhunwareIntegration.plist;
 			sourceTree = "<group>";
@@ -838,7 +842,7 @@
 				7EF95DCF1F22523300CB9826 /* ja */,
 				7EF95DD01F2258DE00CB9826 /* ar */,
 				7EF95DD11F225DAB00CB9826 /* zh */,
-				7EF95DD21F22637800CB9826 /* pt */,
+				7E5423961FE1EB0300E1A7EB /* pt-PT */,
 			);
 			name = AppFrameworkCore.strings;
 			sourceTree = "<group>";
@@ -851,7 +855,7 @@
 				7EF95DD31F229EBE00CB9826 /* ja */,
 				7EF95DD41F229F5900CB9826 /* ar */,
 				7EF95DD51F229F9600CB9826 /* zh */,
-				7EF95DD61F229FD900CB9826 /* pt */,
+				7E5423971FE1EB0300E1A7EB /* pt-PT */,
 			);
 			name = AppFrameworkDirectory.strings;
 			sourceTree = "<group>";
@@ -864,7 +868,7 @@
 				7EF95DD71F22A31B00CB9826 /* ja */,
 				7EF95DD81F22A40B00CB9826 /* ar */,
 				7EF95DD91F22A52200CB9826 /* zh */,
-				7EF95DDA1F22A5AA00CB9826 /* pt */,
+				7E5423981FE1EB0300E1A7EB /* pt-PT */,
 			);
 			name = AppFrameworkEvents.strings;
 			sourceTree = "<group>";
@@ -877,7 +881,7 @@
 				7EF95DE71F26683E00CB9826 /* ja */,
 				7EF95DE81F266E2500CB9826 /* ar */,
 				7EF95DE91F2671FB00CB9826 /* zh */,
-				7EF95DEA1F26755900CB9826 /* pt */,
+				7E5423991FE1EB0400E1A7EB /* pt-PT */,
 			);
 			name = AppFrameworkMapping.strings;
 			sourceTree = "<group>";
@@ -890,7 +894,7 @@
 				7EF95DDB1F2651DA00CB9826 /* ja */,
 				7EF95DDC1F2652CD00CB9826 /* ar */,
 				7EF95DDD1F26536B00CB9826 /* zh */,
-				7EF95DDE1F2653F200CB9826 /* pt */,
+				7E54239A1FE1EB0400E1A7EB /* pt-PT */,
 			);
 			name = AppFrameworkMessageCenter.strings;
 			sourceTree = "<group>";
@@ -903,7 +907,7 @@
 				7EF95DDF1F26574000CB9826 /* ja */,
 				7EF95DE01F2658B000CB9826 /* ar */,
 				7EF95DE11F265A3800CB9826 /* zh */,
-				7EF95DE21F265CA600CB9826 /* pt */,
+				7E54239B1FE1EB0400E1A7EB /* pt-PT */,
 			);
 			name = AppFrameworkParking.strings;
 			sourceTree = "<group>";
@@ -916,7 +920,7 @@
 				7EF95DE31F265DDF00CB9826 /* ja */,
 				7EF95DE41F265F1C00CB9826 /* ar */,
 				7EF95DE51F26639200CB9826 /* zh */,
-				7EF95DE61F26657500CB9826 /* pt */,
+				7E54239C1FE1EB0400E1A7EB /* pt-PT */,
 			);
 			name = AppFrameworkRender.strings;
 			sourceTree = "<group>";

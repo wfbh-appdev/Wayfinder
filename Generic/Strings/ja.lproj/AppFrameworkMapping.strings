@@ -10,58 +10,56 @@
  *  AFCUIMRouteBuilderViewController Strings
  */
 "afcuimroutebuilderviewcontroller.route.error.nostartend" = "ルートを見つけるには、開始位置と終了位置の両方を指定する必要があります。";
-"afcuimroutebuilderviewcontroller.route.error.endstart.same" = "ザー スタート アンド エンド ポイント マスト ビー ディフラント";
-"afcuimroutebuilderviewcontroller.route.error.cantfindpoi" = "ウィー クッド ノット ファインド ザット ポーイー プリーズ サーチ アゲン";
-"afcuimroutebuilderviewcontroller.route.error.title" = "ソリー";
-"afcuimroutebuilderviewcontroller.currentlocation.text" = "カレント ローケーション";
-"afcuimroutebuilderviewcontroller.startlocationtextfield.placeholder" = "スタート ローケーション";
-"afcuimroutebuilderviewcontroller.endlocationtextfield.placeholder" = "エンド ローケーション";
-"afcuimroutebuilderviewcontroller.startlabel.text" = "スタート";
-"afcuimroutebuilderviewcontroller.endlabel.text" = "エンド";
+"afcuimroutebuilderviewcontroller.route.error.endstart.same" = "開始点と終了点は異なる必要があります。";
+"afcuimroutebuilderviewcontroller.route.error.cantfindpoi" = "POIが見つかりませんでした。もう一度検索してください。";
+"afcuimroutebuilderviewcontroller.route.error.title" = "ごめんなさい";
+"afcuimroutebuilderviewcontroller.currentlocation.text" = "現在位置";
+"afcuimroutebuilderviewcontroller.startlocationtextfield.placeholder" = "開始場所";
+"afcuimroutebuilderviewcontroller.endlocationtextfield.placeholder" = "終了地点";
+"afcuimroutebuilderviewcontroller.startlabel.text" = "開始";
+"afcuimroutebuilderviewcontroller.endlabel.text" = "終る";
 "afcuimroutebuilderviewcontroller.titlelabel.text" = "ルーティング";
 "afcuimroutebuilderviewcontroller.cancelbutton.buttontitle" = "キャンセル";
 "afcuimroutebuilderviewcontroller.routebutton.buttontitle" = "ルート";
-"afcuimroutebuilderviewcontroller.handicapaccessibilitylabel.text" = "ハンディキャップのアクセシビリティ";
+"afcuimroutebuilderviewcontroller.handicapaccessibilitylabel.text" = "アクセシビリティ";
 "afcuimroutebuilderviewcontroller.outdoortoindoornotificationtitle.text" = "ようこそ";
-"afcuimroutebuilderviewcontroller.outdoortoindoornotificationtitle.message" = "あなたの最終的な目的地への屋内の方向のためのアプリを起動してください。";
+"afcuimroutebuilderviewcontroller.outdoortoindoornotificationtitle.message" = "あなたの最終目的地への屋内方向のアプリを起動してください。";
 "afcuimroutebuilderviewcontroller.outdoortoindooralerttitle.text" = "会場への道が必要ですか？";
-"afcuimroutebuilderviewcontroller.outdoortoindooralerttitle.message" = "あなたは現在あなたが施設にいないことに気付きました。 代わりに会場に向かって行きたいですか？";
-"afcuimroutebuilderviewcontroller.dismissoutdoortoindoor.buttontitle" = "ディズミス";
-"afcuimroutebuilderviewcontroller.openinmapsbutton.buttontitle" = "オーペン イン マップス";
+"afcuimroutebuilderviewcontroller.outdoortoindooralerttitle.message" = "あなたは現在あなたが施設にいないことに気付きました。\n代わりに会場に向かって行きたいですか？";
+"afcuimroutebuilderviewcontroller.dismissoutdoortoindoor.buttontitle" = "不満";
+"afcuimroutebuilderviewcontroller.openinmapsbutton.buttontitle" = "地図で開く";
 "afcuimroutebuilderviewcontroller.welcomebacktitle.text" = "お帰りなさい！";
-"afcuimroutebuilderviewcontroller.welcomebackmessage.text" = "駐車場から以前に選択された目的地への経路を引き続き進めます。";
-"afcuimroutebuilderviewcontroller.welcomebackdismiss.buttontitle" = "ディズミス";
-"afcuimroutebuilderviewcontroller.welcomebackrouteme.buttontitle" = "ルート ミー";
+"afcuimroutebuilderviewcontroller.welcomebackmessage.text" = "駐車場から以前に選択された目的地まで引き続き進んでいきます。";
+"afcuimroutebuilderviewcontroller.welcomebackdismiss.buttontitle" = "不満";
+"afcuimroutebuilderviewcontroller.welcomebackrouteme.buttontitle" = "経路";
 "afcuimroutebuilderviewcontroller.routeme.error.title" = "ルートエラー";
 "afcuimroutebuilderviewcontroller.routeme.error.message" = "ルートは見つかりません。";
-"afcuimroutebuilderviewcontroller.table.header.title" = "%1$@ at %2$@";
-
-"afcuimpoicategoryviewcontroller.titlelabel.text" = "チューズ ポーイー フィルター";
+"afcuimroutebuilderviewcontroller.table.header.title" = "%1$@ に %2$@";
 
 /*
  *  AFCUIMPOICategoryViewController Strings
  */
-"afcuimpoicategoryviewcontroller.titlelabel.text" = "Choose POI Filter";
+"afcuimpoicategoryviewcontroller.titlelabel.text" = "POIフィルターを選択";
 
 /*
  *  AFMUIPOIDetailViewController Strings
  */
-"afcuiannotationdetailviewcontroller.selectCampusButton.buttontitle" = "シレクト ジス キャンパス";
+"afcuiannotationdetailviewcontroller.selectCampusButton.buttontitle" = "このキャンバスを選択";
 
 /*
  *  AFCUIMMapViewController Strings
  */
 "afcuimmapviewcontroller.endPointOfInterest.message" = "あなたは到着しました。";
-"afcuimmapviewcontroller.promptlocationalert.takemetherebutton" = "テーク ミー ゼア";
+"afcuimmapviewcontroller.promptlocationalert.takemetherebutton" = "私をそこへ連れていって";
 "afcuimmapviewcontroller.promptlocationalert.backtofacilitymapbutton" = "施設マップに戻る";
-"afcuimmapviewcontroller.promptlocationalert.cancelbutton" = "ノー サンクス";
+"afcuimmapviewcontroller.promptlocationalert.cancelbutton" = "結構です";
 "afcuimapviewcontroller.nopoifound.alert.title" = "POIが見つかりません";
-"afcuimapviewcontroller.nopoifound.alert.message" = "POIは建物のPOIには見つかりませんでした。";
-"afcuimmapviewcontroller.searchbar.text" = "サーチ";
-"afcuimmapviewcontroller.promptlocationalert.title" = "ヘルプ アズ ガイ ユー";
-"afcuimmapviewcontroller.promptlocationalert.message" = "プリーズ イネーブル ローケーション サービシズ ソー ウィー キャン ガイド ユー アラウンド ザー ファシリッティー";
-"afcuimmapviewcontroller.buildingloaderroralert.title" = "マップ エラー";
-"afcuimmapviewcontroller.buildingloaderroralert.message" = "ウィー キャノト ロード ザー マップ アット ジス タイム チェック ヨー ネトワーク コネクション";
+"afcuimapviewcontroller.nopoifound.alert.message" = "POIは建物POIには見つかりませんでした。";
+"afcuimmapviewcontroller.searchbar.text" = "サーチ...";
+"afcuimmapviewcontroller.promptlocationalert.title" = "私たちがあなたを導く手助け";
+"afcuimmapviewcontroller.promptlocationalert.message" = "施設周辺を案内するために位置情報サービスを有効にしてください。";
+"afcuimmapviewcontroller.buildingloaderroralert.title" = "地図のエラー";
+"afcuimmapviewcontroller.buildingloaderroralert.message" = "現時点では地図を読み込めません。ネットワーク接続を確認してください。";
 "afcuimmapviewcontroller.buildingloaderroralert.button" = "オーケー";
 "afcuimmapviewcontroller.ok" = "オーケー";
 "afcuimmapviewcontroller.single.route.instruction.suffix" = "あなたの目的地に到着する";
@@ -69,7 +67,7 @@
 /**
  *  AFMUIPOIViewController Strings
  */
-"afmuipoiviewcontroller.search.placeholder" = "検索poi ...";
+"afmuipoiviewcontroller.search.placeholder" = "POIを検索...";
 "afmuipoiviewcontroller.titlelabel.text" = "POIディレクトリ";
 "afmuipoiviewcontroller.noresultsfound.text" = "結果が見つかりません。";
 
@@ -78,62 +76,65 @@
  */
 "afcuimroutingannotationview.taptogoback.title" = "戻るためにタップ";
 "afcuimroutingannotationview.taptoviewnext.title" = "次を見るタップ";
-"afcuimroutingannotationview.starthereannotation.title" = "スタート";
-"afcuimroutingannotationview.destinationannotation.title" = "エンド";
-"afcuimroutingannotationview.tome.title" = "テーク";
-"afcuimroutingannotationview.hacia.title" = "トゥー";
+"afcuimroutingannotationview.starthereannotation.title" = "開始";
+"afcuimroutingannotationview.destinationannotation.title" = "終わり";
+"afcuimroutingannotationview.tome.title" = "取る";
+"afcuimroutingannotationview.hacia.title" = "に";
 
 /*
  * Map Picker
  */
-"afcmmappickerviewcontroller.navbar.title" = "マップス";
+"afcmmappickerviewcontroller.navbar.title" = "地図";
+"afcmmappickerviewcontroller.searchbar.placeholder" = "地図を検索する...";
+"afcmmappickerviewcontroller.searchbar.scope.alphabetical" = "アルファベット順";
+"afcmmappickerviewcontroller.searchbar.scope.distance" = "距離";
 
 /**
  * Turn by Turn
  */
 "PWRouteInstructionDirectionStraight" = "まっすぐ進む";
-"PWRouteInstructionDirectionLeft" = "ターン レフト イン";
-"PWRouteInstructionDirectionRight" = "ターン ライト イン";
-"PWRouteInstructionDirectionBearLeft" = "ベア レフト イン";
-"PWRouteInstructionDirectionBearRight" = "ベア ライト イン";
-"afmuimapviewcontroller.turnbyturn.distance.meter" = "ミーターズ";
-"afmuimapviewcontroller.turnbyturn.distance.meters" = "ミーターズ";
+"PWRouteInstructionDirectionLeft" = "左折";
+"PWRouteInstructionDirectionRight" = "右折する";
+"PWRouteInstructionDirectionBearLeft" = "残った熊";
+"PWRouteInstructionDirectionBearRight" = "すぐに苦しむ";
+"afmuimapviewcontroller.turnbyturn.distance.meter" = "メートル";
+"afmuimapviewcontroller.turnbyturn.distance.meters" = "メートル";
 "afmuimapviewcontroller.turnbyturn.distance.foot" = "フィート";
 "afmuimapviewcontroller.turnbyturn.distance.feet" = "フィート";
-"afmuimappickerviewcontroller.distance.km" = "km";
-"afmuimappickerviewcontroller.distance.mi" = "mi";
+"afmuimappickerviewcontroller.distance.km" = "キロメートル";
+"afmuimappickerviewcontroller.distance.mi" = "マイル";
 
 //Not used
 "PWRouteInstructionDirectionFloorChange" = "";
-"PWRouteInstructionDirectionElevatorUp" = "テーク ザー エリベーター アップ トゥー";
-"PWRouteInstructionDirectionElevatorDown" = "テーク ザー エリベーター ダウン トゥー";
-"PWRouteInstructionDirectionStairsUp" = "テーク ザー ステアズ アップ トゥー";
-"PWRouteInstructionDirectionStairsDown" = "テーク ザー ステアズ ダウン トゥー";
-"PWRouteInstructionDirectionEscalatorUp" = "エスカレーター";
-"PWRouteInstructionDirectionEscalatorDown" = "エスカレーター";
-"PWRouteInstructionLast" = "ユーブ アライブド アット";
+"PWRouteInstructionDirectionElevatorUp" = "エレベーターまで";
+"PWRouteInstructionDirectionElevatorDown" = "エレベーターまで";
+"PWRouteInstructionDirectionStairsUp" = "階段を持って";
+"PWRouteInstructionDirectionStairsDown" = "階段を下りて";
+"PWRouteInstructionDirectionEscalatorUp" = "エスカレーターまで";
+"PWRouteInstructionDirectionEscalatorDown" = "エスカレーターに";
+"PWRouteInstructionLast" = "あなたは到着しました";
 "PWRouteInstructionLastEmpty" = "あなたは到着しました。";
-"afmuimapviewcontroller.turnbyturn.totaltraveltime" = "トータル トラベル タイム";
-"afmuimapviewcontroller.turnbyturn.totaltraveltime.minute" = "ミーンズ";
-"afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "ミーンズ";
-"afmuimapviewcontroller.turnbyturn.in" = "in";
+"afmuimapviewcontroller.turnbyturn.totaltraveltime" = "トータルトラベルタイム";
+"afmuimapviewcontroller.turnbyturn.totaltraveltime.minute" = "精緻";
+"afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "精緻";
+"afmuimapviewcontroller.turnbyturn.in" = "に";
 
 /**
  *  AFMOutdoorToIndoor Strings
  */
-"afmoutdoortoindoor.nativemap.title" = "%1$@ at %2$@";
+"afmoutdoortoindoor.nativemap.title" = "%1$@ に %2$@";
 
 /*
  * Connection requirements for location
  */
 "afmuimapviewcontroller.connections.wifi.message" = "Wi-Fiをオンにして地図上の現在地を確認します。";
 "afmuimapviewcontroller.connections.bluetooth.message" = "ブルートゥースをオンにして地図上の現在地を確認します。";
-"afmuimapviewcontroller.connections.wifiandbluetooth.message" = "wifiとbluetoothをオンにして地図上の現在地を確認します。";
-"afmuimapviewcontroller.connections.button.title" = "[OK]";
+"afmuimapviewcontroller.connections.wifiandbluetooth.message" = "Wi-FiとBluetoothをオンにして地図上の現在地を確認します。";
+"afmuimapviewcontroller.connections.button.title" = "オーケー";
 
 // Permission
 "afmlocationpermissionrequestviewcontroller.permission.title" = "現在の場所を使用する";
-"afmlocationpermissionrequestviewcontroller.permission.description" = "私たちがあなたを導くのを助けるために位置情報サービスを有効にしてください";
+"afmlocationpermissionrequestviewcontroller.permission.description" = "私たちがあなたを手助けするために位置情報サービスを有効にしてください。";
 "afmlocationpermissionrequestviewcontroller.allowbutton.title" = "はい";
 "afmlocationpermissionrequestviewcontroller.rejectbutton.title" = "今はやめろ";
 
@@ -141,12 +142,14 @@
  * AFMRouteSelectionViewController
  */
 "afmrouteselectionviewcontroller.titlelabel.text" = "行き方";
-"afmrouteselectionviewcontroller.currentlocation.text" = "カレント ローケーション";
-"afmrouteselectionviewcontroller.startlabel.text" = "スタート";
-"afmrouteselectionviewcontroller.endlabel.text" = "終エンド";
+"afmrouteselectionviewcontroller.currentlocation.text" = "現在位置";
+"afmrouteselectionviewcontroller.startlabel.text" = "開始";
+"afmrouteselectionviewcontroller.endlabel.text" = "わり";
 "afmrouteselectionviewcontroller.startlocationtextfield.placeholder" = "どこから始めたいですか？";
-"afmrouteselectionviewcontroller.routebutton.title.text" = "ルート";
+"afmrouteselectionviewcontroller.routebutton.title.text" = "経路";
 "afmrouteselectionviewcontroller.handicapaccessibilitylabel.text" = "ハンディキャップのアクセシビリティ";
+"afmrouteselectionviewcontroller.poilistsearchbar.placeholder.start.text" = "開始場所を選択...";
+"afmrouteselectionviewcontroller.poilistsearchbar.placeholder.end.text" = "目的地の場所を選択...";
 
 // Home to Venue Notice
 "afmh2vnoticealertviewcontroller.notice.title" = "施設へのルート？";
@@ -157,5 +160,21 @@
 /*
  * Custom POI Strings
  */
-"custom.poi.title" = "Custom POI";
-"custom.poi.description" = "Custom POI Description (need creative to specify text)";
+"custom.poi.title" = "カスタムPOI";
+"custom.poi.description" = "カスタムのPoint of Interestを作成しました。具体的には、ピンをピンにドロップした場所に配置されました。";
+
+/*
+ * Custom POI Overwrite Dialog
+ */
+"afmoverwritecustompoivewcontroller.notice.title" = "新しいカスタム送り先を保存する";
+"afmoverwritecustompoivewcontroller.notice.description" = "既存のPOIを交換しますか？";
+"afmoverwritecustompoivewcontroller.acceptbutton.title" = "はい";
+"afmoverwritecustompoivewcontroller.declinebutton.title" = "今はやめろ";
+
+/*
+ * Custom POI Delete Dialog
+ */
+"afmdeletecustompoiviewcontroller.notice.title" = "保存されたピンを削除する";
+"afmdeletecustompoiviewcontroller.notice.description" = "保存したピンを削除しますか？";
+"afmdeletecustompoiviewcontroller.acceptbutton.title" = "はい";
+"afmdeletecustompoiviewcontroller.declinebutton.title" = "今はやめろ";

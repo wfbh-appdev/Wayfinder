@@ -67,7 +67,7 @@
 /**
  *  AFMUIPOIViewController Strings
  */
-"afmuipoiviewcontroller.search.placeholder" = "Search for poi...";
+"afmuipoiviewcontroller.search.placeholder" = "Search for POI...";
 "afmuipoiviewcontroller.titlelabel.text" = "POI Directory";
 "afmuipoiviewcontroller.noresultsfound.text" = "No Results Found.";
 
