@@ -1,0 +1,15 @@
+/*
+ InfoPlist.strings
+
+ Copyright © 2016 Phunware. All rights reserved.
+ */
+
+"NSCalendarsUsageDescription" = "للسماح بحفظ تذكيرات التقويم";
+"NSBluetoothPeripheralUsageDescription" = "يسمح القدرة على توفير الموقع داخل الخرائط";
+"NSMotionUsageDescription" = "يسمح القدرة على إظهار الحركة أثناء التوجيه";
+"NSMicrophoneUsageDescription" = "يسمح الخيار للمستخدم لحفظ الصوت عند الحاجة";
+"NSCameraUsageDescription" = "يسمح القدرة على التقاط صورة";
+"NSPhotoLibraryUsageDescription" = "يتيح إمكانية إضافة صورة";
+"NSLocationAlwaysUsageDescription" = "يسمح الموقع لتكون متاحة عندما تكون في الخلفية";
+"NSLocationWhenInUseUsageDescription" = "يسمح الموقع لتكون متاحة عند استخدام التطبيق";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "يسمح الموقع لتكون متاحة عند استخدام التطبيق وعندما يكون التطبيق في الخلفية";

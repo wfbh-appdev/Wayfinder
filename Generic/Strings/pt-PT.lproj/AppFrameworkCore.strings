@@ -1,0 +1,200 @@
+/*** AF-CORE STRINGS ***/
+
+/**
+ * EULA Agreement
+ */
+"afceulapromoptaction.prompt.message" = "Você está de acordo com o Contrato de Licença e os termos e condições?";
+"afceulapromoptaction.prompt.message.title" = "Contrato de Licença";
+"afceulapromoptaction.prompt.message.agreebutton.title" = "CONCORDO";
+"afceulapromoptaction.prompt.message.viewbutton.title" = "VISUALIZAR";
+
+/*
+ *   AFCUIEULAViewController Strings
+ */
+"afcuieulaviewcontroller.agreebutton.buttontitle" = "Concordo";
+"afcuieulaviewcontroller.navbar.title" = "Contrato de licença";
+
+/*
+ *   AFCUIWebViewController Strings
+ */
+"afcuiwebviewcontroller.message.text" = "Aguarde...";
+"afcuiwebviewcontroller.title.text" = "Controlador de visualização na Web";
+
+/*
+ *   AFCUIModalWebBrowser Strings
+ */
+"afcuimodalwebbrowser.status.text" = "Carregando";
+"afcuimodalwebbrowser.closeButton.buttontitle" = "Fechar";
+"afcuimodalwebbrowser.alert.title" = "Erro";
+"afcuimodalwebbrowser.alert.message" = "Você deve estar conectado para visualizar esta página.";
+"afcuimodalwebbrowser.alert.ok" = "OK";
+"afcuimodalwebbrowser.webview.status.loading" = "Carregando";
+"afcuimodalwebbrowser.webview.status.error" = "Erro";
+
+/*
+ *  AFCCheckForceUpdate Strings
+ */
+"afccheckforceupdate.displayforceupdate.alert.title" = "Atualização do aplicativo disponível";
+"afccheckforceupdate.displayforceupdate.alert.message" = "Uma nova versão foi lançada. Você deve instalar a nova versão.";
+"afccheckforceupdate.displayforceupdate.alert.button.title" = "Atualizar";
+"afccheckforceupdate.displayupdateavailable.alert.title" = "Atualização disponível";
+"afccheckforceupdate.displayupdateavailable.alert.message" = "Uma nova versão foi lançada. Por favor, instale a nova versão.";
+"afccheckforceupdate.displayupdateavailable.alert.button.title" = "Atualização";
+"afccheckforceupdate.displayupdateavailable.alert.cancel.title" = "Agora não";
+
+/*
+ *  AFCLogout Strings
+ */
+"afclogoutaction.alert.title" = "Logout realizado com sucesso";
+"afclogoutaction.alert.message" = "Você saiu com sucesso da sessão atual.";
+"afclogoutaction.alert.button.title" = "OK";
+
+/*
+ * Layer Picker
+ */
+"afclayerpickerviewcontroller.navbar.default.title" = "Níveis";
+"afclayerpickerviewcontroller.searchbar.default.text" = "Busca";
+"afclayerpickerviewcontroller.searchbar.noresults" = "Nenhum resultado encontrado.";
+
+/*
+ * Segments Error
+ */
+"afcuialertsubscriptionviewcontroller.title" = "Perfis";
+"afcuialertsubscriptionviewcontroller.noresults.text" = "Nenhum resultado encontrado.";
+"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.title" = "Configurações de alerta";
+"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.message" = "Configure os segmentos de alerta para este aplicativo no portal.";
+"afcuiaalertsubscriptionsviewcontroller.getalertssegments.failure.cancelbutton.title" = "OK";
+"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.title" = "Configurações de alerta";
+"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.message" = "Este conteúdo exige uma conexão de dados. Verifique sua rede móvel ou Wi-Fi e tente novamente.";
+"afcuiaalertsubscriptionsviewcontroller.nonetwork.failure.cancelbutton.title" = "OK";
+
+/*
+ *  No Initial Database Strings
+ */
+"afinitialdatabase.displayforceupdate.alert.title" = "Erro";
+"afinitialdatabase.displayforceupdate.alert.message" = "Não foi possível iniciar a aplicação. Verifique se o seu dispositivo está conectado a uma rede.";
+"afinitialdatabase.displayforceupdate.alert.button" = "Fechar aplicativo";
+
+/*
+ * AFCForgotPasswordViewController
+ */
+"afcforgotpasswordviewcontroller.alert.error.title" = "Erro";
+"afcforgotpasswordviewcontroller.alert.error.message" = "Você deve inserir um endereço de email válido.";
+"afcforgotpasswordviewcontroller.alert.error.button.title" = "OK";
+"afcforgotpasswordviewcontroller.forgotpasswordsubmitbutton.sent" = "E-MAIL ENVIADO";
+"afcforgotpasswordviewcontroller.forgotpasswordsubmitmessage.title" = "Sucesso";
+"afcforgotpasswordviewcontroller.forgotpasswordsubmitmessage.text" = "Você deve receber um e-mail em breve.";
+"afcforgotpasswordviewcontroller.forgotpasswordsubmitmessage.error.text" = "Este e-mail não foi encontrado em nossos registros. Utilize o e-mail fornecido pela 4th and West.";
+"afcforgotpasswordviewcontroller.forgotpasswordsubmitmessage.error.title" = "E-mail inválido";
+"afcforgotpasswordviewcontroller.forgotpasswordsubmitmessage.error.button" = "Ok";
+
+/*
+ * AFCComposeEmailAction
+ */
+"afccomposeemailaction.alert.error.title" = "O email";
+"afccomposeemailaction.alert.error.message" = "Desculpa. Seu dispositivo não está configurado para o email.";
+"afccomposeemailaction.alert.button.title" = "OK";
+
+/*
+ * AFCPhoneCallAction
+ */
+"afcphonecallaction.alert.title" = "Fazer uma chamada";
+"afcphonecallaction.alert.message" = "Tem certeza que deseja chamar:\n%@";
+"afcphonecallaction.alert.accept" = "Sim";
+"afcphonecallaction.alert.cancel" = "Não";
+"afcphonecallaction.alert.ok" = "OK";
+"afcphonecallaction.error.alert.title" = "Erro";
+"afcphonecallaction.error.alert.message" = "Seu dispositivo não é capaz de fazer chamadas";
+
+/*
+ *  No Connection Available
+ */
+"afnointernetconnection.banner.message" = "Não existe ligação à Internet. A experiência pode ser degradada.";
+"afnointernetconnection.banner.button" = "Ok";
+
+/*
+ * AFCUISettingsViewController
+ */
+"afcuisettingsviewcontroller.sectionname.notifications" = "NOTIFICAÇÕES";
+"afcuisettingsviewcontroller.sectionname.managedprovider" = "Depuração do provedor gerenciado";
+"afcuisettingsviewcontroller.sectionname.locationprovider" = "PROVEDOR DE LOCALIZAÇÃO";
+"afcuisettingsviewcontroller.sectionname.maassdk" = "MaaS SDKs";
+"afcuisettingsviewcontroller.sectionname.about" = "SOBRE";
+"afcuisettingsviewcontroller.value.auto" = "Auto";
+"afcuisettingsviewcontroller.value.none" = "Nenhum";
+"afcuisettingsviewcontroller.value.on" = "Em";
+"afcuisettingsviewcontroller.value.off" = "Fora";
+"afcuisettingsviewcontroller.value.preferences" = "Preferências";
+"afcuisettingsviewcontroller.value.version" = "Versão";
+"afcuisettingsviewcontroller.value.deviceid" = "ID de dispositivo";
+"afcuisettingsviewcontroller.deviceidcopy.alert.title" = "Notificação";
+"afcuisettingsviewcontroller.deviceidcopy.alert.message" = "O ID do dispositivo foi copiado para a área de transferência";
+"afcuisettingsviewcontroller.deviceidcopy.alert.button.title" = "Ok";
+
+/*
+ * OS Privacy Settings
+ */
+"osprivacysettings.camera.denied.alert.title" = "Dispensar";
+"osprivacysettings.camera.denied.alert.button.settings" = "Configurações";
+"osprivacysettings.camera.settings.alert.title" = "";
+"osprivacysettings.camera.settings.alert.message" = "Acesse as configurações de privacidade em seu dispositivo e habilite o acesso da câmera para usar esse recurso.";
+"osprivacysettings.enable.push.notifications" = "Ativar notificações de envio";
+"osprivacysettings.dismiss" = "Dispensar";
+"osprivacysettings.setttings" = "Configurações";
+"osprivacysettings.gotosettings.enable.push.notifications" = "Acesse as configurações de notificação em seu dispositivo e ative as notificações push para usar esse recurso.";
+"osprivacysettings.gotosettings.location.services.needed" = "Serviços de localização necessários";
+"osprivacysettings.gotosettings.cancel" = "Cancelar";
+"osprivacysettings.gotosettings.take.me.there" = "Leve-me lá";
+
+/**
+ * Push notification actions
+ */
+"Directory.show" = "Mostrar";
+"DirectoryItem.show" = "Mostrar";
+"Events.show" = "Mostrar";
+"EventItem.show" = "Mostrar";
+"Map.show" = "Mostrar";
+"Map.route" = "Rota";
+"Offer.listing" = "Listagem";
+"Offer.detail" = "Detalhe";
+"Offer.select" = "Mostrar";
+"Parking.main" = "Principal";
+"Parking.map" = "Mapa";
+"Parking.photo" = "Foto";
+"Parking.voice" = "Voz";
+"Parking.note" = "Nota";
+"Page.show" = "Mostrar";
+"SettingsMap.show" = "Mostrar";
+"afcprocesspushnotification.ok" = "Ok";
+"afcprocesspushnotification.cancel" = "Cancelar";
+
+/*
+ * AFCCMEConfiguration String
+ */
+"afccmeconfiguration.valid.load.descriptor" = "Você deve fornecer um descritor de carga válido / não nulo";
+
+/*
+ * AFAnalyticsController
+ */
+"afanalyticscontroller.set.token.suffix" = "Defina o sufixo token antes de chamar o método 'configure' super";
+
+/*
+ * AFCDetailViewConfigurator
+ */
+"detailconfig.route" = "Direções";
+"detailconfig.call" = "Chamar";
+"detailconfig.email" = "Email";
+"detailconfig.website" = "Site";
+"detailconfig.map" = "Mapa";
+"detailconfig.calendar" = "Calendário";
+"detailconfig.buytickets" = "Comprar bilhetes";
+"detailconfig.favorite" = "Favorito";
+"detailconfig.remove" = "Remove";
+
+/*
+ * AFCCategoryViewController
+ */
+"afccategoryviewcontroller.title" = "Filtros";
+"afccategoryviewcontroller.clearbutton.text" =  "Excluir";
+"afccategoryviewcontroller.savebutton.title" = "Ativar Filtros";
+

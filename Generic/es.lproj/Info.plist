@@ -43,6 +43,10 @@
 		<string>ProximaNova-Light.otf</string>
 		<string>ProximaNova-Reg.otf</string>
 	</array>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>uber</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -70,5 +74,7 @@
 	<string>$(EXECUTABLE_NAME) acceso a cámara</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>$(EXECUTABLE_NAME) acceso a micrófono</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>$(PRODUCT_NAME) photo library use</string>
 </dict>
 </plist>

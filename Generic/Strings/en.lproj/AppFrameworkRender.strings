@@ -1,0 +1,57 @@
+/* 
+  AppFrameworkRender.strings
+
+  Copyright © 2017 Phunware. All rights reserved.
+*/
+
+/*** AF-RENDER STRINGS ***/
+
+/*
+ * AFCUIDateTimePickerView Strings
+ */
+"afcuidatetimepickerview.select.date" = "Select a Date";
+"afcuidatetimepickerview.select.time" = "Select a Time";
+
+/*
+ * Smart Form Global Strings
+ */
+"smart.form.done" = "Done";
+
+/*
+ * AFCUIImageUploadButton & AFCUIMediaPickerViewController Strings
+ */
+"afcuimediapicker.navbar.title" = "Select Image";
+"afcuimediapicker.toolbar.selectimage" = "Select Image";
+"afcuimediapicker.toolbar.clearimage" = "Clear Image";
+"afcuimediapicker.alert.cancel" = "Cancel";
+"afcuimediapicker.imageselect" = "Select Photo From Camera Roll";
+"afcuimediapicker.takeimage" = "Take Photo";
+"afcuimediapicker.button.defaulttext" = "Select Image to Upload";
+"afcuimediapicker.button.photouploaded" = "Photo Uploaded";
+
+/*
+ * AFCUIUserLoginView Strings
+ */
+"afcuiuserloginview.textfieldplaceholder.username" = "Username";
+"afcuiuserloginview.textfieldplaceholder.password" = "Password";
+"afcuiuserloginview.loginbutton.text" = "Login";
+"afcuiuserloginview.loginmessage.invalidusernamepassword" = "Invalid username or password entered.\nPlease, try again.";
+
+/*
+ * AFCDynamicView Strings
+ */
+"forms.success.title" = "Success";
+"forms.success.message" = "Your request has been sent successfully";
+"forms.success.button.title" = "OK";
+"forms.error.title" = "Error";
+"forms.error.message" = "There was an error with your request";
+"forms.error.button.title" = "OK";
+"forms.validation.title" = "Validation";
+"forms.validation.message" = "Failed to send form. One or more required fields are missing.";
+"forms.validation.button.title" = "Ok";
+
+/**
+ * AFCUIDynamicWeather Strings
+ */
+"afcuidynamicweather.title.text" = "Today at";
+"afcuidynamicweather.rain.text" = "rain";

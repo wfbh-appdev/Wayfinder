@@ -1,0 +1,56 @@
+/*
+ AppFrameworkParking.strings
+
+ Copyright © 2017 Phunware. All rights reserved.
+ */
+
+/*** AF-PARKING STRINGS ***/
+
+/*
+ *  AFCParkingMapViewController Strings
+ */
+"afcparkingmapviewcontroller.droppinbutton.buttontitle" = "Marcar local";
+"afcparkingmapviewcontroller.droppinbutton.clearenabled.buttontitle" = "Limpar";
+"afcparkingmapviewcontroller.droppinbutton.droppinenabled.buttontitle" = "Marcar local";
+"afcparkingmapviewcontroller.droppinbutton.droppindisabled.buttontitle" = "Marcar local";
+"afcparkingmapviewcontroller.titlelabel.text" = "Marcar minha localização";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.title" = "Por favor, ative o serviço de localização";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.message" = "Ajude-nos a localizar seu local de estacionamento";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.okbutton.title" = "OK";
+"afcparkingmapviewcontroller.locationauthorization.erroralert.cancelbutton.title" = "Não, obrigado";
+
+/*
+ *  AFCParkingNoteViewController Strings
+ */
+"afcparkingnoteviewcontroller.noteslabel.text" = "Escreva uma nota para se lembrar de onde você estacionou...";
+"afcparkingnoteviewcontroller.titlelabel.text" = "Nota de estacionamento";
+
+/*
+ *  AFCParkingPhotoViewController Strings
+ */
+"afcparkingphotoviewcontroller.message.text" = "Toque no botão da câmera abaixo para tirar uma foto";
+"afcparkingphotoviewcontroller.deniedcamera.message.text" = "Para tirar uma foto do seu local de estacionamento, permita que o aplicativo acesse a câmera do seu smartphone.";
+"afcparkingphotoviewcontroller.restrictedcamera.message.text" = "Não foi possível acessar a câmera devido a restrições no seu dispositivo.";
+
+/*
+ *  AFCParkingViewController Strings
+ */
+"afcparkingviewcontroller.parkingremindertitle.text" = "Lembrete de estacionamento";
+"afcparkingviewcontroller.parkingchoosemethod.text" = "Selecione um método abaixo:";
+"afcparkingviewcontroller.gpslocationbuttonlabel.text" = "Marcar a localização no GPS";
+"afcparkingviewcontroller.takepicturebuttonlabel.text" = "Tirar uma foto";
+"afcparkingviewcontroller.recordvoicememobuttonlabel.text" = "Gravar um lembrete";
+"afcparkingviewcontroller.writenotebuttonlabel.text" = "Escrever uma nota";
+"afcparkingviewcontroller.locationsavedmessage.text" = "Localização salva";
+"afcparkingviewcontroller.imagesavedmessage.text" = "Imagem salva";
+"afcparkingviewcontroller.voicememosavedmessage.text" = "Lembrete de voz salvo";
+"afcparkingviewcontroller.titlelabel.text" = "Estacionamento";
+
+/*
+ *  AFCParkingVoiceMemoViewController Strings
+ */
+"afcparkingvoicememoviewcontroller.dateformat" = "EEE MMM dd 'at' h:mm a";
+"afcparkingvoicememoviewcontroller.recordvoicememotitle.text" = "Grave um memorando para ajudá-lo a lembrar";
+"afcparkingvoicememoviewcontroller.recordingnotsupported" = "Gravação não suportada neste dispositivo";
+"afcparkingvoicememoviewcontroller.lastrecorded" = "Última gravação:";
+

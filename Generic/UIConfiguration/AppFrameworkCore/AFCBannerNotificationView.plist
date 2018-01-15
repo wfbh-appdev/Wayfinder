@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bannerButton</key>
+	<dict>
+		<key>color</key>
+		<string>$BlueColor</string>
+	</dict>
+	<key>messageLabel</key>
+	<dict>
+		<key>lines</key>
+		<string>2</string>
+		<key>lineBreakMode</key>
+		<string>bytruncatingtail</string>
+		<key>color</key>
+		<string>#FFFFFF</string>
+	</dict>
+	<key>self</key>
+	<dict>
+		<key>backgroundColor</key>
+		<string>#363636</string>
+		<key>constraints</key>
+		<array>
+			<string>V:|-10-[messageLabel]-10-|</string>
+			<string>H:|-15-[messageLabel]-5-[bannerButton(30)]-15-|</string>
+			<string>#messageLabel.centery=bannerButton.centery,1,0</string>
+		</array>
+	</dict>
+</dict>
+</plist>

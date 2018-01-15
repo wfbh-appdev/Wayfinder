@@ -47,7 +47,7 @@
 							<key>parameters</key>
 							<dict>
 								<key>contentId</key>
-								<string>PWMapViewLocationTypeBLE</string>
+								<string>PWMapViewLocationTypeManagedProvider</string>
 							</dict>
 						</dict>
 					</array>
@@ -265,6 +265,16 @@
 					<string>$action.auxID1</string>
 				</dict>
 			</dict>
+			<key>61</key>
+			<dict>
+				<key>className</key>
+				<string>AFCComposeEmailAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>mailRecipient</key>
+					<string>$action.auxID1</string>
+				</dict>
+			</dict>
 			<key>62</key>
 			<dict>
 				<key>className</key>
@@ -332,6 +342,18 @@
 					<string>switch</string>
 				</dict>
 			</dict>
+			<key>87</key>
+			<dict>
+				<key>className</key>
+				<string>AFCDeepLinkLoadAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>deepLinkURL</key>
+					<string>$action.auxID1</string>
+					<key>appstoreURL</key>
+					<string>$action.auxID2</string>
+				</dict>
+			</dict>
 		</dict>
 		<key>CME</key>
 		<dict>
@@ -367,11 +389,11 @@
 					<array>
 						<dict>
 							<key>className</key>
-							<string>AFCDirectoryRegisterDeepLinksAction</string>
+							<string>AFDDirectoryRegisterDeepLinksAction</string>
 						</dict>
 						<dict>
 							<key>className</key>
-							<string>AFCEventsRegisterDeepLinksAction</string>
+							<string>AFEEventsRegisterDeepLinksAction</string>
 						</dict>
 						<dict>
 							<key>className</key>
@@ -402,53 +424,33 @@
 				<key>parameters</key>
 				<dict>
 					<key>viewController</key>
-					<string>AFCDirectoryViewController</string>
+					<string>AFDDirectoryViewController</string>
 					<key>presentationMode</key>
 					<string>replaceTop</string>
 					<key>shouldAnimate</key>
 					<true/>
 					<key>properties</key>
 					<dict>
-						<key>titleKey</key>
-						<string>Name</string>
-						<key>subtitleKey</key>
-						<string>SubTitle</string>
-						<key>iconKey</key>
-						<string>Thumbnail</string>
-						<key>bannerKey</key>
-						<string>DetailImage</string>
-						<key>identifierKey</key>
-						<string>ItemId</string>
-						<key>databaseDirectoryItems</key>
-						<string>$module.databaseDirectoryItems</string>
-						<key>databaseCategories</key>
-						<string>$module.databaseCategories</string>
-						<key>favoritesContext</key>
-						<string>databaseDirectoryItems</string>
-						<key>categoryNameKey</key>
-						<string>Name</string>
-						<key>categoryDirectoryItemIDsKey</key>
-						<string>Items</string>
-						<key>directoryItemIdKey</key>
-						<string>ItemId</string>
-						<key>descriptionKey</key>
-						<string>Description</string>
-						<key>itemDetailContext</key>
-						<string>Directory Detail</string>
+						<key>cmeId</key>
+						<string>$action.auxID1</string>
 						<key>category</key>
 						<string>$action.auxID2</string>
-						<key>title</key>
+						<key>pageTitle</key>
 						<string>$action.buttonTitle</string>
-						<key>keyForSorting</key>
-						<string>Name</string>
-						<key>forceCategories</key>
+						<key>enableFiltering</key>
 						<true/>
+						<key>showIndexTitlesAfter</key>
+						<integer>20</integer>
 						<key>cellClass</key>
-						<string>AFCUIHoneyBadgerTableViewCell</string>
-						<key>itemDetailLocationKey</key>
-						<string>POI</string>
-						<key>alphabeticalIndex</key>
-						<true/>
+						<string>AFDDirectoryTableViewCell</string>
+						<key>accessoryViewType</key>
+						<integer>1</integer>
+						<key>imagePlaceholder</key>
+						<string>directory_image_placeholder_thumbnail</string>
+						<key>presenterClassString</key>
+						<string>AFDDirectoryListPresenter</string>
+						<key>tableDelegateDataSourceClassString</key>
+						<string>AFDDirectoryViewDelegateDataSource</string>
 					</dict>
 				</dict>
 				<key>dependencies</key>
@@ -474,7 +476,7 @@
 			<key>load</key>
 			<dict>
 				<key>className</key>
-				<string>AFCDirectoryLoadAction</string>
+				<string>AFDDirectoryLoadAction</string>
 				<key>parameters</key>
 				<dict>
 					<key>databaseName</key>
@@ -504,21 +506,23 @@
 				<key>parameters</key>
 				<dict>
 					<key>viewController</key>
-					<string>AFCDirectoryCategoryViewController</string>
+					<string>AFDDirectoryCategoryViewController</string>
 					<key>presentationMode</key>
 					<string>modal</string>
 					<key>shouldAnimate</key>
 					<true/>
 					<key>properties</key>
 					<dict>
-						<key>categories</key>
-						<string>$action.categories</string>
-						<key>selectedCategory</key>
-						<string>$action.selectedCategory</string>
-						<key>onCategorySelected</key>
-						<string>$action.onCategorySelected</string>
-						<key>categoryKey</key>
-						<string>Name</string>
+						<key>cmeId</key>
+						<string>$action.cmeId</string>
+						<key>onCategoriesApplied</key>
+						<string>$action.onCategoriesApplied</string>
+						<key>presenterClassString</key>
+						<string>AFDDirectoryCategoryPresenter</string>
+						<key>tableDelegateDataSourceClassString</key>
+						<string>AFDCategoryViewDelegateDataSource</string>
+						<key>cellClass</key>
+						<string>AFDCategoryTableViewCell</string>
 					</dict>
 				</dict>
 			</dict>
@@ -528,109 +532,41 @@
 			<key>show</key>
 			<dict>
 				<key>className</key>
-				<string>AFCLoadViewControllerAction</string>
+				<string>AFCForwardAction</string>
 				<key>parameters</key>
 				<dict>
+					<key>forwardContentType</key>
+					<string>ItemDetail</string>
+					<key>forwardContentAction</key>
+					<string>show</string>
 					<key>viewController</key>
-					<string>AFCUIMallDetailViewController</string>
-					<key>presentationMode</key>
-					<string>push</string>
-					<key>shouldAnimate</key>
-					<true/>
+					<string>AFDDirectoryItemViewController</string>
 					<key>properties</key>
 					<dict>
-						<key>itemDetailData</key>
-						<string>$action.directoryItem</string>
-						<key>itemDetailTitleKey</key>
-						<string>Name</string>
-						<key>itemDetailSubtitleKey</key>
-						<string>SubTitle</string>
-						<key>itemDetailBannerURLKey</key>
-						<string>DetailImage</string>
-						<key>itemDetailLocationKey</key>
-						<string>POI</string>
-						<key>itemDetailDescriptionKey</key>
-						<string>Description</string>
-						<key>itemDetailIdentifierKey</key>
-						<string>ItemId</string>
-						<key>itemDetailFavoriteContext</key>
-						<string>$action.favoritesContext</string>
-						<key>itemDetailContext</key>
-						<string>$action.itemDetailContext</string>
-						<key>itemWebsiteKey</key>
-						<string>Website</string>
-						<key>itemPhoneKey</key>
-						<string>Phone</string>
+						<key>itemTitle</key>
+						<string>$action.itemTitle</string>
+						<key>itemSubtitle</key>
+						<string>$action.itemSubtitle</string>
+						<key>imageURL</key>
+						<string>$action.imageURL</string>
+						<key>itemDescription</key>
+						<string>$action.itemDescription</string>
+						<key>buttons</key>
+						<string>$action.buttons</string>
+						<key>imagePlaceholder</key>
+						<string>directory_image_placeholder_detail</string>
+						<key>shouldShowShareButton</key>
+						<false/>
 					</dict>
 				</dict>
 			</dict>
 		</dict>
 		<key>DirectoryItem</key>
 		<dict>
-			<key>show</key>
-			<dict>
-				<key>className</key>
-				<string>AFCLoadViewControllerAction</string>
-				<key>parameters</key>
-				<dict>
-					<key>viewController</key>
-					<string>AFCUIMallDetailViewController</string>
-					<key>presentationMode</key>
-					<string>push</string>
-					<key>shouldAnimate</key>
-					<true/>
-					<key>properties</key>
-					<dict>
-						<key>itemDetailData</key>
-						<string>$module.directoryItem</string>
-						<key>itemDetailTitleKey</key>
-						<string>Name</string>
-						<key>itemDetailSubtitleKey</key>
-						<string>SubTitle</string>
-						<key>itemDetailBannerURLKey</key>
-						<string>DetailImage</string>
-						<key>itemDetailLocationKey</key>
-						<string>POI</string>
-						<key>itemDetailDescriptionKey</key>
-						<string>Description</string>
-						<key>itemDetailIdentifierKey</key>
-						<string>ItemId</string>
-						<key>itemDetailFavoriteContext</key>
-						<string>$action.favoritesContext</string>
-						<key>itemDetailContext</key>
-						<string>$action.itemDetailContext</string>
-						<key>itemWebsiteKey</key>
-						<string>Website</string>
-						<key>itemPhoneKey</key>
-						<string>Phone</string>
-					</dict>
-				</dict>
-				<key>dependencies</key>
-				<array>
-					<dict>
-						<key>className</key>
-						<string>AFCActionIncluder</string>
-						<key>parameters</key>
-						<dict>
-							<key>includeContentType</key>
-							<string>DirectoryItem</string>
-							<key>includeContentAction</key>
-							<string>load</string>
-							<key>includeParameters</key>
-							<dict>
-								<key>contentId</key>
-								<string>$action.contentId</string>
-								<key>cmeid</key>
-								<string>$action.cmeid</string>
-							</dict>
-						</dict>
-					</dict>
-				</array>
-			</dict>
 			<key>load</key>
 			<dict>
 				<key>className</key>
-				<string>AFCDirectoryItemLoadAction</string>
+				<string>AFDDirectoryLoadAction</string>
 				<key>parameters</key>
 				<dict>
 					<key>databaseName</key>
@@ -641,10 +577,16 @@
 					<string>$CACHES</string>
 					<key>shouldPrependCme</key>
 					<true/>
+					<key>kAFDDirectoryItemId</key>
+					<string>$action.contentId</string>
+					<key>kAFDShouldLoadDirectoryItemKey</key>
+					<true/>
 					<key>queryData</key>
 					<dict>
-						<key>directoryItem</key>
-						<string>select * from DirectoryItems WHERE ItemId = </string>
+						<key>databaseDirectoryItems</key>
+						<string>select * from DirectoryItems</string>
+						<key>databaseCategories</key>
+						<string>select * from Categories order by Name</string>
 					</dict>
 				</dict>
 			</dict>
@@ -724,8 +666,6 @@
 					<dict>
 						<key>eulaText</key>
 						<string>$module.eulaText</string>
-						<key>title</key>
-						<string>License Agreement</string>
 					</dict>
 				</dict>
 				<key>dependencies</key>
@@ -789,33 +729,25 @@
 				<key>parameters</key>
 				<dict>
 					<key>viewController</key>
-					<string>EventsListViewController</string>
+					<string>AFEEventsCollectionViewController</string>
 					<key>presentationMode</key>
 					<string>replaceTop</string>
 					<key>shouldAnimate</key>
 					<true/>
 					<key>properties</key>
 					<dict>
-						<key>titleKey</key>
-						<string>Name</string>
-						<key>startDateKey</key>
-						<string>StartDate</string>
-						<key>endDateKey</key>
-						<string>EndDate</string>
-						<key>iconKey</key>
-						<string>ThumbnailURL</string>
-						<key>bannerKey</key>
-						<string>ImageURL</string>
-						<key>identifierKey</key>
-						<string>EventID</string>
-						<key>events</key>
-						<string>$module.events</string>
-						<key>title</key>
-						<string>$action.buttonTitle</string>
-						<key>favoritesContext</key>
-						<string>events</string>
-						<key>itemDetailContext</key>
-						<string>Event Detail</string>
+						<key>DBDateFormat</key>
+						<string>MM/dd/yyyy HH:mm:ss</string>
+						<key>clientDateFormat</key>
+						<string>h:mma MMM d</string>
+						<key>imagePlaceholder</key>
+						<string>events_image_placeholder_detail</string>
+						<key>presenterClassString</key>
+						<string>AFEEventsCollectionViewPresenter</string>
+						<key>cellClass</key>
+						<string>AFEEventsCollectionViewCell</string>
+						<key>collectionDelegateDataSourceClassString</key>
+						<string>AFEEventsViewDelegateDataSource</string>
 					</dict>
 				</dict>
 				<key>dependencies</key>
@@ -836,7 +768,7 @@
 			<key>load</key>
 			<dict>
 				<key>className</key>
-				<string>AFCEventsLoadAction</string>
+				<string>AFEEventsLoadAction</string>
 				<key>parameters</key>
 				<dict>
 					<key>databaseName</key>
@@ -860,99 +792,55 @@
 			<key>show</key>
 			<dict>
 				<key>className</key>
-				<string>AFCLoadViewControllerAction</string>
+				<string>AFCForwardAction</string>
 				<key>parameters</key>
 				<dict>
+					<key>forwardContentType</key>
+					<string>ItemDetail</string>
+					<key>forwardContentAction</key>
+					<string>show</string>
 					<key>viewController</key>
-					<string>AFCUIItemDetailViewController</string>
-					<key>presentationMode</key>
-					<string>push</string>
-					<key>shouldAnimate</key>
-					<true/>
+					<string>AFEEventsDetailViewController</string>
 					<key>properties</key>
 					<dict>
-						<key>itemDetailData</key>
-						<string>$action.event</string>
-						<key>itemDetailTitleKey</key>
-						<string>Name</string>
-						<key>itemDetailSubtitleKey</key>
-						<string>EventSubtitle</string>
-						<key>itemDetailBannerURLKey</key>
-						<string>ImageURL</string>
-						<key>itemDetailLocationKey</key>
-						<string></string>
-						<key>itemDetailDescriptionKey</key>
-						<string>Details</string>
-						<key>itemDetailIdentifierKey</key>
-						<string>EventID</string>
-						<key>itemDetailFavoriteContext</key>
-						<string>$action.favoritesContext</string>
-						<key>itemDetailContext</key>
-						<string>$action.itemDetailContext</string>
+						<key>itemTitle</key>
+						<string>$action.itemTitle</string>
+						<key>itemSubtitle</key>
+						<string>$action.itemSubtitle</string>
+						<key>itemDescription</key>
+						<string>$action.itemDescription</string>
+						<key>buttons</key>
+						<string>$action.buttons</string>
+						<key>imageURL</key>
+						<string>$action.imageURL</string>
+						<key>iconShareName</key>
+						<string>icon_share</string>
+						<key>imagePlaceholder</key>
+						<string>events_image_placeholder_detail</string>
+						<key>shouldShowShareButton</key>
+						<true/>
 					</dict>
+				</dict>
+			</dict>
+			<key>addToCalendar</key>
+			<dict>
+				<key>className</key>
+				<string>AFEAddEventToCalendar</string>
+				<key>parameters</key>
+				<dict>
+					<key>event</key>
+					<string>$action.eventItem</string>
+					<key>dbDateFormat</key>
+					<string>MM/dd/yyyy HH:mm:ss</string>
 				</dict>
 			</dict>
 		</dict>
 		<key>EventItem</key>
 		<dict>
-			<key>show</key>
-			<dict>
-				<key>className</key>
-				<string>AFCLoadViewControllerAction</string>
-				<key>parameters</key>
-				<dict>
-					<key>viewController</key>
-					<string>AFCUIItemDetailViewController</string>
-					<key>presentationMode</key>
-					<string>push</string>
-					<key>shouldAnimate</key>
-					<true/>
-					<key>properties</key>
-					<dict>
-						<key>itemDetailData</key>
-						<string>$module.event</string>
-						<key>itemDetailTitleKey</key>
-						<string>Name</string>
-						<key>itemDetailSubtitleKey</key>
-						<string>EventSubtitle</string>
-						<key>itemDetailBannerURLKey</key>
-						<string>ImageURL</string>
-						<key>itemDetailLocationKey</key>
-						<string></string>
-						<key>itemDetailDescriptionKey</key>
-						<string>Details</string>
-						<key>itemDetailIdentifierKey</key>
-						<string>EventID</string>
-						<key>itemDetailFavoriteContext</key>
-						<string>$action.favoritesContext</string>
-						<key>itemDetailContext</key>
-						<string>$action.itemDetailContext</string>
-					</dict>
-				</dict>
-				<key>dependencies</key>
-				<array>
-					<dict>
-						<key>className</key>
-						<string>AFCActionIncluder</string>
-						<key>parameters</key>
-						<dict>
-							<key>includeContentType</key>
-							<string>EventItem</string>
-							<key>includeContentAction</key>
-							<string>load</string>
-							<key>includeParameters</key>
-							<dict>
-								<key>contentId</key>
-								<string>$action.contentId</string>
-							</dict>
-						</dict>
-					</dict>
-				</array>
-			</dict>
 			<key>load</key>
 			<dict>
 				<key>className</key>
-				<string>AFCEventItemLoadAction</string>
+				<string>AFEEventsLoadAction</string>
 				<key>parameters</key>
 				<dict>
 					<key>databaseName</key>
@@ -963,10 +851,48 @@
 					<string>$CACHES</string>
 					<key>shouldPrependProperty</key>
 					<true/>
+					<key>DBDateFormatKey</key>
+					<string>MM/dd/yyyy HH:mm:ss</string>
+					<key>clientDateFormatKey</key>
+					<string>MMM d</string>
+					<key>kAFEShouldLoadEventItemKey</key>
+					<true/>
 					<key>queryData</key>
 					<dict>
-						<key>event</key>
-						<string>select * from Events WHERE EventID = </string>
+						<key>events</key>
+						<string>select * from Events order by StartDate</string>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+		<key>ItemDetail</key>
+		<dict>
+			<key>show</key>
+			<dict>
+				<key>className</key>
+				<string>AFCLoadViewControllerAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>viewController</key>
+					<string>AFCItemDetailViewController</string>
+					<key>presentationMode</key>
+					<string>push</string>
+					<key>shouldAnimate</key>
+					<true/>
+					<key>properties</key>
+					<dict>
+						<key>itemTitle</key>
+						<string>$action.itemTitle</string>
+						<key>itemSubtitle</key>
+						<string>$action.itemSubtitle</string>
+						<key>itemDescription</key>
+						<string>$action.itemDescription</string>
+						<key>buttons</key>
+						<string>$action.buttons</string>
+						<key>imageURL</key>
+						<string>$action.imageURL</string>
+						<key>imagePlaceholder</key>
+						<string>image_placeholder_detail</string>
 					</dict>
 				</dict>
 			</dict>
@@ -1090,6 +1016,10 @@
 								<array>
 									<dict>
 										<key>className</key>
+										<string>AFCLoadWeatherAction</string>
+									</dict>
+									<dict>
+										<key>className</key>
 										<string>AFCActionIncluder</string>
 										<key>parameters</key>
 										<dict>
@@ -1156,8 +1086,6 @@
 							<true/>
 							<key>properties</key>
 							<dict>
-								<key>campus</key>
-								<string>$app.kAFCApplicationStateCurrentCampus</string>
 								<key>favoritesContext</key>
 								<string>$module.mapFavoritesContext</string>
 								<key>altitudeToApplyWorkaroundiOS9</key>
@@ -1170,6 +1098,36 @@
 								<string>Description</string>
 								<key>associatedDataBannerKey</key>
 								<string>DetailImage</string>
+								<key>tbtEnabled</key>
+								<true/>
+								<key>tbtPrefixTextColor</key>
+								<string>#a1c45e</string>
+								<key>tbtDistanceTextColor</key>
+								<string>#a1a09d</string>
+								<key>tbtDistanceUpdatedByInterval</key>
+								<true/>
+								<key>tbtAnimationClass</key>
+								<string>AFMCustomTurnByTurnAnimation</string>
+								<key>tbtUpdateInterval</key>
+								<integer>7</integer>
+								<key>tbtUpdateMinimumDistance</key>
+								<integer>50</integer>
+								<key>tbtCellClass</key>
+								<string>AFMUITurnByTurnTableViewCell</string>
+								<key>minZoomLevel</key>
+								<integer>18</integer>
+								<key>routeSnappingTolerance</key>
+								<string>PWRouteSnapToleranceHigh</string>
+								<key>floorPickerSortType</key>
+								<integer>0</integer>
+								<key>showFilterIcon</key>
+								<true/>
+								<key>showFilterBadge</key>
+								<true/>
+								<key>shouldShowApplePois</key>
+								<false/>
+								<key>cmeIds</key>
+								<string>$app.kAFCMCmeIdKey</string>
 							</dict>
 						</dict>
 						<key>dependencies</key>
@@ -1213,8 +1171,6 @@
 							<true/>
 							<key>properties</key>
 							<dict>
-								<key>campus</key>
-								<string>$app.kAFCApplicationStateCurrentCampus</string>
 								<key>favoritesContext</key>
 								<string>$module.mapFavoritesContext</string>
 								<key>altitudeToApplyWorkaroundiOS9</key>
@@ -1227,6 +1183,42 @@
 								<string>Description</string>
 								<key>associatedDataBannerKey</key>
 								<string>DetailImage</string>
+								<key>tbtEnabled</key>
+								<true/>
+								<key>tbtPrefixTextColor</key>
+								<string>#a1c45e</string>
+								<key>tbtDistanceTextColor</key>
+								<string>#a1a09d</string>
+								<key>tbtDistanceUpdatedByInterval</key>
+								<true/>
+								<key>tbtAnimationClass</key>
+								<string>AFMCustomTurnByTurnAnimation</string>
+								<key>tbtUpdateInterval</key>
+								<integer>7</integer>
+								<key>tbtUpdateMinimumDistance</key>
+								<integer>50</integer>
+								<key>tbtCellClass</key>
+								<string>AFMUITurnByTurnTableViewCell</string>
+								<key>minZoomLevel</key>
+								<integer>18</integer>
+								<key>routeSnappingTolerance</key>
+								<string>PWRouteSnapToleranceHigh</string>
+								<key>floorPickerSortType</key>
+								<integer>0</integer>
+								<key>poiListSectionType</key>
+								<integer>0</integer>
+								<key>poiListLayoutType</key>
+								<real>0</real>
+								<key>shouldShowFilterButton</key>
+								<true/>
+								<key>shouldShowMapButton</key>
+								<true/>
+								<key>showFilterBadge</key>
+								<true/>
+								<key>shouldShowApplePois</key>
+								<false/>
+								<key>cmeIds</key>
+								<string>$app.kAFCMCmeIdKey</string>
 							</dict>
 						</dict>
 						<key>dependencies</key>
@@ -1323,10 +1315,129 @@
 				<key>className</key>
 				<string>AFMSetLocationProviderAction</string>
 			</dict>
-			<key>clearCache</key>
+			<key>permissionRequest</key>
 			<dict>
 				<key>className</key>
-				<string>AFMClearMapCacheAction</string>
+				<string>AFCForwardAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>forwardContentType</key>
+					<string>Permission</string>
+					<key>forwardContentAction</key>
+					<string>request</string>
+					<key>permissionClass</key>
+					<string>AFMLocationPermissionHandler</string>
+					<key>viewController</key>
+					<string>AFMLocationPermissionRequestViewController</string>
+				</dict>
+			</dict>
+			<key>homeToVenueRequest</key>
+			<dict>
+				<key>className</key>
+				<string>AFCForwardAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>forwardContentType</key>
+					<string>Notice</string>
+					<key>forwardContentAction</key>
+					<string>request</string>
+					<key>viewController</key>
+					<string>AFMH2VNoticeAlertViewController</string>
+					<key>properties</key>
+					<dict>
+						<key>navigationController</key>
+						<string>$action.navigationController</string>
+						<key>onAcceptPressed</key>
+						<string>$action.onAcceptPressed</string>
+						<key>onDeclinePressed</key>
+						<string>$action.onDeclinePressed</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>overwriteCustomPoiRequest</key>
+			<dict>
+				<key>className</key>
+				<string>AFCForwardAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>forwardContentType</key>
+					<string>Notice</string>
+					<key>forwardContentAction</key>
+					<string>request</string>
+					<key>viewController</key>
+					<string>AFMOverwriteCustomPoiViewController</string>
+					<key>properties</key>
+					<dict>
+						<key>navigationController</key>
+						<string>$action.navigationController</string>
+						<key>onAcceptPressed</key>
+						<string>$action.onAcceptPressed</string>
+						<key>onDeclinePressed</key>
+						<string>$action.onDeclinePressed</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>deleteCustomPoiRequest</key>
+			<dict>
+				<key>className</key>
+				<string>AFCForwardAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>forwardContentType</key>
+					<string>Notice</string>
+					<key>forwardContentAction</key>
+					<string>request</string>
+					<key>viewController</key>
+					<string>AFMDeleteCustomPoiViewController</string>
+					<key>properties</key>
+					<dict>
+						<key>navigationController</key>
+						<string>$action.navigationController</string>
+						<key>onAcceptPressed</key>
+						<string>$action.onAcceptPressed</string>
+						<key>onDeclinePressed</key>
+						<string>$action.onDeclinePressed</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>fullDetailShow</key>
+			<dict>
+				<key>className</key>
+				<string>AFCForwardAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>forwardContentType</key>
+					<string>ItemDetail</string>
+					<key>forwardContentAction</key>
+					<string>show</string>
+					<key>viewController</key>
+					<string>AFMPOIFullDetailViewController</string>
+					<key>shouldAnimate</key>
+					<false/>
+					<key>properties</key>
+					<dict>
+						<key>itemTitle</key>
+						<string>$action.itemTitle</string>
+						<key>itemSubtitle</key>
+						<string>$action.itemSubtitle</string>
+						<key>imageURL</key>
+						<string>$action.imageURL</string>
+						<key>itemDescription</key>
+						<string>$action.itemDescription</string>
+						<key>buttons</key>
+						<string>$action.buttons</string>
+						<key>imagePlaceholder</key>
+						<string>mapping_full_detail_placeholder</string>
+						<key>shouldShowShareButton</key>
+						<false/>
+						<key>poi</key>
+						<string>$action.poi</string>
+						<key>directoryItem</key>
+						<string>$action.directoryItem</string>
+						<key>mapContainer</key>
+						<string>$action.mapContainer</string>
+					</dict>
+				</dict>
 			</dict>
 		</dict>
 		<key>MapDirectory</key>
@@ -1345,6 +1456,10 @@
 					<true/>
 					<key>properties</key>
 					<dict>
+						<key>currentBuilding</key>
+						<string>$action.currentBuilding</string>
+						<key>currentFloor</key>
+						<string>$action.currentFloor</string>
 						<key>favoritesContext</key>
 						<string>$module.mapFavoritesContext</string>
 						<key>annotations</key>
@@ -1355,6 +1470,24 @@
 						<string>$action.focusSearchBarOnDidAppear</string>
 						<key>alphaSorted</key>
 						<true/>
+						<key>poiListSectionType</key>
+						<string>$action.poiListSectionType</string>
+						<key>poiListLayoutType</key>
+						<string>$action.poiListLayoutType</string>
+						<key>shouldShowFilterButton</key>
+						<string>$action.shouldShowFilterButton</string>
+						<key>shouldShowMapButton</key>
+						<string>$action.shouldShowMapButton</string>
+						<key>poiSelectedDelegate</key>
+						<string>$action.poiSelectedDelegate</string>
+						<key>showFilterBadge</key>
+						<true/>
+						<key>filterPoiTypesSearchOnly</key>
+						<string></string>
+						<key>shouldShowCustomPoi</key>
+						<true/>
+						<key>shouldShowUserLocation</key>
+						<false/>
 					</dict>
 				</dict>
 			</dict>
@@ -1382,6 +1515,14 @@
 						<true/>
 						<key>alphaSorted</key>
 						<true/>
+						<key>poiListSectionType</key>
+						<integer>0</integer>
+						<key>poiListLayoutType</key>
+						<integer>0</integer>
+						<key>showFilterIcon</key>
+						<true/>
+						<key>showFilterBadge</key>
+						<true/>
 					</dict>
 				</dict>
 			</dict>
@@ -1395,15 +1536,21 @@
 				<key>parameters</key>
 				<dict>
 					<key>viewController</key>
-					<string>AFMUIPOIFilterViewController</string>
+					<string>AFMMapCategoryViewController</string>
 					<key>presentationMode</key>
-					<string>push</string>
+					<string>modal</string>
 					<key>shouldAnimate</key>
 					<true/>
 					<key>properties</key>
 					<dict>
-						<key>dismissalBlock</key>
-						<string>$action.dismissalBlock</string>
+						<key>onCategoriesApplied</key>
+						<string>$action.onCategoriesApplied</string>
+						<key>presenterClassString</key>
+						<string>AFMMapCategoryPresenter</string>
+						<key>tableDelegateDataSourceClassString</key>
+						<string>AFMCategoryViewDelegateDataSource</string>
+						<key>cellClass</key>
+						<string>AFMCategoryTableViewCell</string>
 					</dict>
 				</dict>
 			</dict>
@@ -1413,7 +1560,12 @@
 			<key>show</key>
 			<dict>
 				<key>className</key>
-				<string>AFMStartRouteInAppleMapsAction</string>
+				<string>AFMStartRouteInNativeMapsAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>accessible</key>
+					<string>$action.accessible</string>
+				</dict>
 			</dict>
 		</dict>
 		<key>Offer</key>
@@ -1619,6 +1771,40 @@
 				</dict>
 			</dict>
 		</dict>
+		<key>Permission</key>
+		<dict>
+			<key>request</key>
+			<dict>
+				<key>className</key>
+				<string>AFCPermissionRequestAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>permissionClass</key>
+					<string></string>
+					<key>viewController</key>
+					<string>AFCNoticeAlertViewController</string>
+				</dict>
+			</dict>
+		</dict>
+		<key>Notice</key>
+		<dict>
+			<key>request</key>
+			<dict>
+				<key>className</key>
+				<string>AFCNoticeAlertAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>viewController</key>
+					<string>AFCNoticeAlertViewController</string>
+					<key>onDeclinePressed</key>
+					<string>$action.onDeclinePressed</string>
+					<key>onAcceptPressed</key>
+					<string>$action.onAcceptPressed</string>
+					<key>navigationController</key>
+					<string>$action.navigationController</string>
+				</dict>
+			</dict>
+		</dict>
 		<key>Phone</key>
 		<dict>
 			<key>call</key>
@@ -1691,9 +1877,9 @@
 				<key>parameters</key>
 				<dict>
 					<key>viewController</key>
-					<string>AFMUIRouteViewController</string>
+					<string>AFMRouteSelectionViewController</string>
 					<key>presentationMode</key>
-					<string>modal</string>
+					<string>modalPush</string>
 					<key>shouldAnimate</key>
 					<true/>
 					<key>properties</key>
@@ -1708,6 +1894,24 @@
 						<string>$action.outdoor2Indoor</string>
 						<key>homeToVenueEnabled</key>
 						<true/>
+						<key>routeButtonEnabledBackgroundColor</key>
+						<string>#0080FF</string>
+						<key>routeButtonEnabledTextColor</key>
+						<string>#FFFFFF</string>
+						<key>routeButtonDisabledBackgroundColor</key>
+						<string>#EFEFF3</string>
+						<key>routeButtonDisabledTextColor</key>
+						<string>#D8D9DB</string>
+						<key>poiListSectionType</key>
+						<integer>0</integer>
+						<key>poiListLayoutType</key>
+						<real>0</real>
+						<key>shouldShowFilterButton</key>
+						<false/>
+						<key>shouldShowMapButton</key>
+						<false/>
+						<key>filterPoiTypesSearchOnly</key>
+						<string></string>
 					</dict>
 				</dict>
 			</dict>
@@ -1785,8 +1989,6 @@
 					<string>push</string>
 					<key>shouldAnimate</key>
 					<string>YES</string>
-					<key>title</key>
-					<string>Profiles</string>
 				</dict>
 			</dict>
 		</dict>
@@ -1812,7 +2014,7 @@
 						<array>
 							<dict>
 								<key>title</key>
-								<string>NOTIFICATIONS</string>
+								<string>afcuisettingsviewcontroller.sectionname.notifications</string>
 								<key>type</key>
 								<string>action</string>
 								<key>forwardContentType</key>
@@ -1823,59 +2025,42 @@
 								<array>
 									<dict>
 										<key>name</key>
-										<string>Profiles</string>
+										<string>afcuisettingsviewcontroller.value.preferences</string>
 									</dict>
 								</array>
 							</dict>
 							<dict>
 								<key>title</key>
-								<string>GENERAL</string>
-								<key>type</key>
-								<string>action</string>
-								<key>forwardContentType</key>
-								<string>SettingsMap</string>
-								<key>forwardContentAction</key>
-								<string>clearCache</string>
-								<key>items</key>
-								<array>
-									<dict>
-										<key>name</key>
-										<string>Clear Cache</string>
-									</dict>
-								</array>
-							</dict>
-							<dict>
-								<key>title</key>
-								<string>DISTANCE UNITS</string>
+								<string>afcuisettingsviewcontroller.sectionname.managedprovider</string>
 								<key>type</key>
 								<string>choice</string>
-								<key>forwardContentType</key>
-								<string>DistanceUnits</string>
-								<key>forwardContentAction</key>
-								<string>set</string>
 								<key>cellViewClass</key>
-								<string>AFCUIDistanceUnitsCellViewClassTableViewCell</string>
+								<string>AFMManagedProviderAlertTableViewCell</string>
+								<key>forwardContentType</key>
+								<string></string>
+								<key>forwardContentAction</key>
+								<string></string>
 								<key>items</key>
 								<array>
 									<dict>
 										<key>name</key>
-										<string>Miles</string>
+										<string>afcuisettingsviewcontroller.value.on</string>
 										<key>identifier</key>
-										<string>0</string>
+										<string>On</string>
+									</dict>
+									<dict>
+										<key>name</key>
+										<string>afcuisettingsviewcontroller.value.off</string>
+										<key>identifier</key>
+										<string>Off</string>
 										<key>default</key>
 										<true/>
 									</dict>
-									<dict>
-										<key>name</key>
-										<string>Kilometers</string>
-										<key>identifier</key>
-										<string>1</string>
-									</dict>
 								</array>
 							</dict>
 							<dict>
 								<key>title</key>
-								<string>LOCATION PROVIDER</string>
+								<string>afcuisettingsviewcontroller.sectionname.locationprovider</string>
 								<key>type</key>
 								<string>choice</string>
 								<key>cellViewClass</key>
@@ -1888,29 +2073,41 @@
 								<array>
 									<dict>
 										<key>name</key>
-										<string>BLE</string>
+										<string>afcuisettingsviewcontroller.value.auto</string>
 										<key>identifier</key>
-										<string>PWMapViewLocationTypeBLE</string>
+										<string>PWMapViewLocationTypeManagedProvider</string>
 										<key>default</key>
 										<true/>
 									</dict>
 									<dict>
 										<key>name</key>
-										<string>MSE</string>
+										<string>BLE</string>
+										<key>identifier</key>
+										<string>PWMapViewLocationTypeBLE</string>
+									</dict>
+									<dict>
+										<key>name</key>
+										<string>HyperLocation</string>
 										<key>identifier</key>
 										<string>PWMapViewLocationTypeMSE</string>
 									</dict>
 									<dict>
 										<key>name</key>
-										<string>GPS / Apple Indoor (if available)</string>
+										<string>GPS</string>
 										<key>identifier</key>
 										<string>PWMapViewLocationTypeGPS</string>
+									</dict>
+									<dict>
+										<key>name</key>
+										<string>afcuisettingsviewcontroller.value.none</string>
+										<key>identifier</key>
+										<string>PWMapViewLocationTypeNone</string>
 									</dict>
 								</array>
 							</dict>
 							<dict>
 								<key>title</key>
-								<string>Maas SDKs</string>
+								<string>afcuisettingsviewcontroller.sectionname.maassdk</string>
 								<key>type</key>
 								<string>listing</string>
 								<key>cellViewClass</key>
@@ -1931,15 +2128,7 @@
 									</dict>
 									<dict>
 										<key>name</key>
-										<string>PwAnalytics</string>
-									</dict>
-									<dict>
-										<key>name</key>
-										<string>PwCME</string>
-									</dict>
-									<dict>
-										<key>name</key>
-										<string>PwMessaging</string>
+										<string>PwEngagement</string>
 									</dict>
 									<dict>
 										<key>name</key>
@@ -1949,14 +2138,14 @@
 							</dict>
 							<dict>
 								<key>title</key>
-								<string>ABOUT</string>
+								<string>afcuisettingsviewcontroller.sectionname.about</string>
 								<key>type</key>
 								<string>listing</string>
 								<key>items</key>
 								<array>
 									<dict>
 										<key>name</key>
-										<string>Version</string>
+										<string>afcuisettingsviewcontroller.value.version</string>
 										<key>identifier</key>
 										<string>$app.appVersion</string>
 									</dict>
@@ -1966,16 +2155,17 @@
 										<key>identifier</key>
 										<string>$appDefaults.solutions.appUUID</string>
 									</dict>
+									<dict>
+										<key>name</key>
+										<string>afcuisettingsviewcontroller.value.deviceid</string>
+										<key>identifier</key>
+										<string>$app.kDeviceIdString</string>
+									</dict>
 								</array>
 							</dict>
 						</array>
 					</dict>
 				</dict>
-			</dict>
-			<key>clearCache</key>
-			<dict>
-				<key>className</key>
-				<string>AFMClearMapCacheAction</string>
 			</dict>
 		</dict>
 		<key>SplashScreen</key>
@@ -2043,6 +2233,472 @@
 						<string>&lt;HTML&gt;&lt;HEAD&gt;&lt;title&gt;Hello World HTML!&lt;/title&gt;&lt;/Head&gt;&lt;body&gt;&lt;p&gt;Hello World!&lt;/body&gt;&lt;/HTML&gt;</string>
 					</dict>
 				</dict>
+			</dict>
+		</dict>
+	</dict>
+	<key>detailConfig</key>
+	<dict>
+		<key>directory</key>
+		<dict>
+			<key>buttons</key>
+			<array>
+				<dict>
+					<key>dataKey</key>
+					<string>POI</string>
+					<key>title</key>
+					<string>detailconfig.route</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>11</integer>
+					<key>image</key>
+					<string>icon_route_event</string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFDMapRouteButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string></string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>dataKey</key>
+					<string>Phone</string>
+					<key>title</key>
+					<string>detailconfig.call</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>11</integer>
+					<key>image</key>
+					<string>icon_call_event</string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFDPhoneButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string>AFCPhoneButtonHidden</string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>dataKey</key>
+					<string>Email</string>
+					<key>title</key>
+					<string>detailconfig.email</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>11</integer>
+					<key>image</key>
+					<string>icon_email</string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFDEmailButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string></string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>dataKey</key>
+					<string>Website</string>
+					<key>title</key>
+					<string>detailconfig.website</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>11</integer>
+					<key>image</key>
+					<string>icon_website</string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFDWebsiteButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string></string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>dataKey</key>
+					<string>POI</string>
+					<key>title</key>
+					<string>detailconfig.map</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>11</integer>
+					<key>image</key>
+					<string>icon_map_event</string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFDMapShowButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string></string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+			</array>
+			<key>data</key>
+			<dict>
+				<key>itemTitle</key>
+				<string>Name</string>
+				<key>itemSubtitle</key>
+				<string>SubTitle</string>
+				<key>itemDescription</key>
+				<string>Description</string>
+				<key>imageURL</key>
+				<string>DetailImage</string>
+			</dict>
+		</dict>
+		<key>events</key>
+		<dict>
+			<key>buttons</key>
+			<array>
+				<dict>
+					<key>dataKey</key>
+					<string>PhoneNumber</string>
+					<key>title</key>
+					<string>detailconfig.call</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>11</integer>
+					<key>image</key>
+					<string>icon_call_event</string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFEPhoneButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string>AFCPhoneButtonHidden</string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>dataKey</key>
+					<string>Website</string>
+					<key>title</key>
+					<string>detailconfig.website</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>11</integer>
+					<key>image</key>
+					<string>icon_website</string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFEWebsiteButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string></string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>dataKey</key>
+					<string>POI</string>
+					<key>title</key>
+					<string>detailconfig.route</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>11</integer>
+					<key>image</key>
+					<string>icon_route_event</string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFEMapRouteButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string></string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>dataKey</key>
+					<string>StartDate</string>
+					<key>title</key>
+					<string>detailconfig.calendar</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>11</integer>
+					<key>image</key>
+					<string>icon_calendar</string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFEAddToCalendarButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string></string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>dataKey</key>
+					<string>POI</string>
+					<key>title</key>
+					<string>detailconfig.map</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>11</integer>
+					<key>image</key>
+					<string>icon_map_event</string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFEMapShowButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string></string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>dataKey</key>
+					<string>AdditionalURL</string>
+					<key>title</key>
+					<string>detailconfig.buytickets</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>11</integer>
+					<key>image</key>
+					<string>icon_buy_tickets</string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFEBuyTicketsButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string></string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+			</array>
+			<key>data</key>
+			<dict>
+				<key>itemTitle</key>
+				<string>Name</string>
+				<key>itemSubtitle</key>
+				<string>eventSubtitle</string>
+				<key>itemDescription</key>
+				<string>Description</string>
+				<key>imageURL</key>
+				<string>ImageURL</string>
+			</dict>
+		</dict>
+		<key>mapping_custom_poi</key>
+		<dict>
+			<key>buttons</key>
+			<array>
+				<dict>
+					<key>dataKey</key>
+					<string></string>
+					<key>title</key>
+					<string>detailconfig.remove</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>11</integer>
+					<key>image</key>
+					<string></string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFMRemoveCustomPoiClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string></string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>dataKey</key>
+					<string></string>
+					<key>title</key>
+					<string>detailconfig.route</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>11</integer>
+					<key>image</key>
+					<string></string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFMMapRouteButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string></string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+			</array>
+			<key>data</key>
+			<dict>
+				<key>itemTitle</key>
+				<string>title</string>
+			</dict>
+		</dict>
+		<key>mapping_poi_dir</key>
+		<dict>
+			<key>buttons</key>
+			<array>
+				<dict>
+					<key>dataKey</key>
+					<string>POI</string>
+					<key>title</key>
+					<string>detailconfig.route</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>11</integer>
+					<key>image</key>
+					<string></string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFMMapRouteButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string></string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>dataKey</key>
+					<string>Phone</string>
+					<key>title</key>
+					<string>detailconfig.call</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>11</integer>
+					<key>image</key>
+					<string></string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFMPhoneButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string>AFCPhoneButtonHidden</string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>dataKey</key>
+					<string>Email</string>
+					<key>title</key>
+					<string>detailconfig.email</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>11</integer>
+					<key>image</key>
+					<string></string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFMEmailButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string></string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>dataKey</key>
+					<string>Website</string>
+					<key>title</key>
+					<string>detailconfig.website</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>11</integer>
+					<key>image</key>
+					<string></string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFMWebsiteButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string></string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+			</array>
+			<key>data</key>
+			<dict>
+				<key>itemTitle</key>
+				<string>Name</string>
+			</dict>
+		</dict>
+		<key>mapping_poi</key>
+		<dict>
+			<key>buttons</key>
+			<array>
+				<dict>
+					<key>dataKey</key>
+					<string></string>
+					<key>title</key>
+					<string>detailconfig.route</string>
+					<key>titleColor</key>
+					<string>#000000</string>
+					<key>titleFontName</key>
+					<string>.SFUIText</string>
+					<key>titleFontSize</key>
+					<integer>11</integer>
+					<key>image</key>
+					<string></string>
+					<key>backgroundColor</key>
+					<string>#0000000</string>
+					<key>buttonClickClass</key>
+					<string>AFMMapRouteButtonClickAction</string>
+					<key>buttonHiddenClass</key>
+					<string></string>
+					<key>buttonSetupClass</key>
+					<string></string>
+				</dict>
+			</array>
+			<key>data</key>
+			<dict>
+				<key>itemTitle</key>
+				<string>title</string>
 			</dict>
 		</dict>
 	</dict>

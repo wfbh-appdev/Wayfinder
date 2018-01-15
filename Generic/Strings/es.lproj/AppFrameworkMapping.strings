@@ -1,0 +1,180 @@
+/* 
+  AppFrameworkMapping.strings
+
+  Copyright © 2017 Phunware. All rights reserved.
+*/
+
+/*** AF-MAPPING STRINGS ***/
+
+/*
+ *  AFCUIMRouteBuilderViewController Strings
+ */
+"afcuimroutebuilderviewcontroller.route.error.nostartend" = "Se deben especificar las ubicaciones de inicio y fin para encontrar una ruta.";
+"afcuimroutebuilderviewcontroller.route.error.endstart.same" = "El punto de inicio y final debe ser diferente.";
+"afcuimroutebuilderviewcontroller.route.error.cantfindpoi" = "No pudimos encontrar ese PDI, por favor busque de nuevo.";
+"afcuimroutebuilderviewcontroller.route.error.title" = "Lo siento";
+"afcuimroutebuilderviewcontroller.currentlocation.text" = "Ubicación Actual";
+"afcuimroutebuilderviewcontroller.startlocationtextfield.placeholder" = "Lugar de Inicio";
+"afcuimroutebuilderviewcontroller.endlocationtextfield.placeholder" = "Ubicación Final";
+"afcuimroutebuilderviewcontroller.startlabel.text" = "COMIENZO";
+"afcuimroutebuilderviewcontroller.endlabel.text" = "FIN";
+"afcuimroutebuilderviewcontroller.titlelabel.text" = "Enrutamiento";
+"afcuimroutebuilderviewcontroller.cancelbutton.buttontitle" = "Cancelar";
+"afcuimroutebuilderviewcontroller.routebutton.buttontitle" = "Ruta";
+"afcuimroutebuilderviewcontroller.handicapaccessibilitylabel.text" = "Accesibilidad";
+"afcuimroutebuilderviewcontroller.outdoortoindoornotificationtitle.text" = "Bienvenido a";
+"afcuimroutebuilderviewcontroller.outdoortoindoornotificationtitle.message" = "Abra la aplicación para poder recibir indicaciones y llegar su destino final.";
+"afcuimroutebuilderviewcontroller.outdoortoindooralerttitle.text" = "¿Necesita indicaciones para llegar al lugar?";
+"afcuimroutebuilderviewcontroller.outdoortoindooralerttitle.message" = "No está dentro de las instalaciones. ¿Quiere indicaciones para llegar al lugar?";
+"afcuimroutebuilderviewcontroller.dismissoutdoortoindoor.buttontitle" = "DESPEDIR";
+"afcuimroutebuilderviewcontroller.openinmapsbutton.buttontitle" = "ABIR EN MAPAS";
+"afcuimroutebuilderviewcontroller.welcomebacktitle.text" = "¡Dar una buena acogida!";
+"afcuimroutebuilderviewcontroller.welcomebackmessage.text" = "Continuaremos guiándolo desde el estacionamiento al destino previamente seleccionado ";
+"afcuimroutebuilderviewcontroller.welcomebackdismiss.buttontitle" = "DESPEDIR";
+"afcuimroutebuilderviewcontroller.welcomebackrouteme.buttontitle" = "INDICAR RUTA";
+"afcuimroutebuilderviewcontroller.routeme.error.title" = "Error de Ruta";
+"afcuimroutebuilderviewcontroller.routeme.error.message" = "No se puede encontrar ninguna ruta.";
+"afcuimroutebuilderviewcontroller.table.header.title" = "%1$@ a %2$@\n";
+
+/*
+ *  AFCUIMPOICategoryViewController Strings
+ */
+"afcuimpoicategoryviewcontroller.titlelabel.text" = "Elegir Filtro POI";
+
+/*
+ *  AFCUIAnnotationDetailViewController Strings
+ */
+"afcuiannotationdetailviewcontroller.selectCampusButton.buttontitle" = "SELECCIONE ESTE CAMPUS";
+
+/*
+ *  AFCUIMMapViewController Strings
+ */
+"afcuimmapviewcontroller.endPointOfInterest.message" = "Llegó a destino";
+"afcuimmapviewcontroller.promptlocationalert.takemetherebutton" = "Llevarme al lugar";
+"afcuimmapviewcontroller.promptlocationalert.backtofacilitymapbutton" = "Volver al mapa de la instalación";
+"afcuimmapviewcontroller.promptlocationalert.cancelbutton" = "No, gracias";
+"afcuimapviewcontroller.nopoifound.alert.title" = "POI no Encontrado";
+"afcuimapviewcontroller.nopoifound.alert.message" = "El POI no se encontró en el edificio POI.";
+"afcuimmapviewcontroller.searchbar.text" = "Búsqueda...";
+"afcuimmapviewcontroller.promptlocationalert.title" = "Ayúdanos a guiarte";
+"afcuimmapviewcontroller.promptlocationalert.message" = "Habilite los servicios de ubicación para que podamos guiarlo dentro del lugar.";
+"afcuimmapviewcontroller.buildingloaderroralert.title" = "Error de Mapa";
+"afcuimmapviewcontroller.buildingloaderroralert.message" = "No podemos cargar el mapa ahora. Verifique su conexión a la red.";
+"afcuimmapviewcontroller.buildingloaderroralert.button" = "Ok";
+"afcuimmapviewcontroller.ok" = "Ok";
+"afcuimmapviewcontroller.single.route.instruction.suffix" = "para llegar a su destino";
+
+/**
+ *  AFMUIPOIViewController Strings
+ */
+"afmuipoiviewcontroller.search.placeholder" = "Buscar POI ...";
+"afmuipoiviewcontroller.titlelabel.text" = "Directorio POI";
+"afmuipoiviewcontroller.noresultsfound.text" = "No se han encontrado resultados.";
+
+/*
+ *  AFCUIMRoutingAnnotationView Strings
+ */
+"afcuimroutingannotationview.taptogoback.title" = "PRESIONAR PARA RETROCEDER";
+"afcuimroutingannotationview.taptoviewnext.title" = "PRESIONAR PARA VER EL PROXIMO";
+"afcuimroutingannotationview.starthereannotation.title" = "Comenzar";
+"afcuimroutingannotationview.destinationannotation.title" = "Fin";
+"afcuimroutingannotationview.tome.title" = "Llevar";
+"afcuimroutingannotationview.hacia.title" = "a";
+
+/**
+ * Map Picker
+ */
+"afcmmappickerviewcontroller.navbar.title" = "Mapas";
+"afcmmappickerviewcontroller.searchbar.placeholder" = "Buscar mapa ...";
+"afcmmappickerviewcontroller.searchbar.scope.alphabetical" = "Alfabético";
+"afcmmappickerviewcontroller.searchbar.scope.distance" = "Distancia";
+
+/**
+ * Turn by Turn
+ */
+"PWRouteInstructionDirectionStraight" = "Ve derecho por";
+"PWRouteInstructionDirectionLeft" = "Gire a la izquierda en";
+"PWRouteInstructionDirectionRight" = "Gire a la derecha en";
+"PWRouteInstructionDirectionBearLeft" = "Oso izquierdo en";
+"PWRouteInstructionDirectionBearRight" = "Oso derecha en";
+"afmuimapviewcontroller.turnbyturn.distance.meter" = "medidor";
+"afmuimapviewcontroller.turnbyturn.distance.meters" = "medidores";
+"afmuimapviewcontroller.turnbyturn.distance.foot" = "pie";
+"afmuimapviewcontroller.turnbyturn.distance.feet" = "pies";
+"afmuimappickerviewcontroller.distance.km" = "km";
+"afmuimappickerviewcontroller.distance.mi" = "mi";
+
+//Not used
+"PWRouteInstructionDirectionFloorChange" = "";
+"PWRouteInstructionDirectionElevatorUp" = "Toma el elevador hasta";
+"PWRouteInstructionDirectionElevatorDown" = "Toma el ascensor hasta";
+"PWRouteInstructionDirectionStairsUp" = "Sube las escaleras hacia";
+"PWRouteInstructionDirectionStairsDown" = "Baja las escaleras hacia abajo";
+"PWRouteInstructionDirectionEscalatorUp" = "Tome la escalera mecánica hasta";
+"PWRouteInstructionDirectionEscalatorDown" = "Tome la escalera mecánica hacia abajo";
+"PWRouteInstructionLast" = "Has llegado a";
+"PWRouteInstructionLastEmpty" = "Has llegado.";
+"afmuimapviewcontroller.turnbyturn.totaltraveltime" = "Tiempo Total de Viaje";
+"afmuimapviewcontroller.turnbyturn.totaltraveltime.minute" = "min";
+"afmuimapviewcontroller.turnbyturn.totaltraveltime.minutes" = "mins";
+"afmuimapviewcontroller.turnbyturn.in" = "en";
+
+/**
+ *  AFMOutdoorToIndoor Strings
+ */
+"afmoutdoortoindoor.nativemap.title" = "%1$@ a %2$@";
+
+/*
+ * Connection requirements for location
+ */
+"afmuimapviewcontroller.connections.wifi.message" = "Active wifi para ver su ubicación actual en el mapa.";
+"afmuimapviewcontroller.connections.bluetooth.message" = "Active Bluetooth para ver su ubicación actual en el mapa.";
+"afmuimapviewcontroller.connections.wifiandbluetooth.message" = "Active wifi y bluetooth para ver su ubicación actual en el mapa.";
+"afmuimapviewcontroller.connections.button.title" = "Ok";
+
+// Permission
+"afmlocationpermissionrequestviewcontroller.permission.title" = "Usar la Ubicación Actual";
+"afmlocationpermissionrequestviewcontroller.permission.description" = "Habilite los servicios de ubicación para ayudarnos a guiarlo.";
+"afmlocationpermissionrequestviewcontroller.allowbutton.title" = "Si";
+"afmlocationpermissionrequestviewcontroller.rejectbutton.title" = "Ahora no";
+
+/*
+ * AFMRouteSelectionViewController
+ */
+"afmrouteselectionviewcontroller.titlelabel.text" = "Direcciones";
+"afmrouteselectionviewcontroller.currentlocation.text" = "Ubicación Actual";
+"afmrouteselectionviewcontroller.startlabel.text" = "Comienzo";
+"afmrouteselectionviewcontroller.endlabel.text" = "Fin";
+"afmrouteselectionviewcontroller.startlocationtextfield.placeholder" = "¿Dónde te gustaría comenzar?";
+"afmrouteselectionviewcontroller.routebutton.title.text" = "Encaminar";
+"afmrouteselectionviewcontroller.handicapaccessibilitylabel.text" = "Accesibilidad para Discapacitados";
+"afmrouteselectionviewcontroller.poilistsearchbar.placeholder.start.text" = "Elija una Ubicación Inicial...";
+"afmrouteselectionviewcontroller.poilistsearchbar.placeholder.end.text" = "Elige una Ubicación de Destino...";
+
+// Home to Venue Notice
+"afmh2vnoticealertviewcontroller.notice.title" = "Ruta a la Instalación?";
+"afmh2vnoticealertviewcontroller.notice.description" = "Notamos que no estás en la instalación. ¿Quieres indicaciones para llegar a la instalación?";
+"afmh2vnoticealertviewcontroller.acceptbutton.title" = "Enrutarme";
+"afmh2vnoticealertviewcontroller.declinebutton.title" = "No, gracias";
+
+/*
+ * Custom POI Strings
+ */
+"custom.poi.title" = "POI Personalizado";
+"custom.poi.description" = "Ha creado un punto de interés personalizado, ubicado específicamente donde dejó caer el pin en el mapa.";
+
+/*
+ * Custom POI Overwrite Dialog
+ */
+"afmoverwritecustompoivewcontroller.notice.title" = "Guarde un Nuevo Destino Personalizado";
+"afmoverwritecustompoivewcontroller.notice.description" = "¿Le gustaría reemplazar su PDI existente?";
+"afmoverwritecustompoivewcontroller.acceptbutton.title" = "Si";
+"afmoverwritecustompoivewcontroller.declinebutton.title" = "Ahora no";
+
+/*
+ * Custom POI Delete Dialog
+ */
+"afmdeletecustompoiviewcontroller.notice.title" = "Eliminar PIN Guardado";
+"afmdeletecustompoiviewcontroller.notice.description" = "¿Te gustaría eliminar tu pin guardado?";
+"afmdeletecustompoiviewcontroller.acceptbutton.title" = "Si";
+"afmdeletecustompoiviewcontroller.declinebutton.title" = "Ahora no";

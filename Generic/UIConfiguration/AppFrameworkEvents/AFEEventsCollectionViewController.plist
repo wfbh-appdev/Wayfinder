@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>titleLabel</key>
+	<dict>
+		<key>type</key>
+		<string>DefaultTitleLabel</string>
+		<key>fontName</key>
+		<string>$MainFontLight</string>
+		<key>text</key>
+		<string>#afeeventscollectionviewcontroller.title.label.text,AppFrameworkEvents</string>
+	</dict>
+	<key>navigationBar</key>
+	<dict>
+		<key>type</key>
+		<string>DefaultNavBar</string>
+	</dict>
+	<key>collectionView</key>
+	<dict>
+		<key>backgroundColor</key>
+		<string>#EBEBEB</string>
+	</dict>
+	<key>noResultsLabel</key>
+	<dict>
+		<key>text</key>
+		<string>#afeeventscollectionviewcontroller.noresults.title,AppFrameworkEvents</string>
+		<key>fontName</key>
+		<string>$MainFontBold</string>
+		<key>fontSize</key>
+		<integer>18</integer>
+		<key>color</key>
+		<string>#AAAAAA</string>
+		<key>alignment</key>
+		<string>center</string>
+		<key>lines</key>
+		<string>0</string>
+	</dict>
+	<key>view</key>
+	<dict>
+		<key>backgroundColor</key>
+		<string>$WhiteColor</string>
+		<key>constraints</key>
+		<array>
+			<string>H:|[collectionView]|</string>
+			<string>V:|[collectionView]|</string>
+			<string>#noResultsLabel.width=self.width,0.75,0</string>
+			<string>#noResultsLabel.centerx=self.centerx,1,0</string>
+			<string>#noResultsLabel.centery=self.centery,0.66,0</string>
+		</array>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,15 @@
+/*
+ InfoPlist.strings
+
+ Copyright © 2016 Phunware. All rights reserved.
+ */
+
+"NSCalendarsUsageDescription" = "カレンダーのリマインダーを保存できます";
+"NSBluetoothPeripheralUsageDescription" = "マップ内に位置情報を提供できるようにする";
+"NSMotionUsageDescription" = "ルーティング中の移動を表示する機能を許可します";
+"NSMicrophoneUsageDescription" = "ユーザーが必要なときにオーディオを保存するオプションを許可する";
+"NSCameraUsageDescription" = "写真を撮る能力を与える";
+"NSPhotoLibraryUsageDescription" = "写真を追加する機能を許可する";
+"NSLocationAlwaysUsageDescription" = "背景にあるときに位置情報を利用できるようにする";
+"NSLocationWhenInUseUsageDescription" = "アプリを使用しているときに場所を使用できるようにする";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "アプリを使用しているときと、アプリがバックグラウンドのときに位置情報を利用できるようにする";

@@ -29,7 +29,7 @@
 		<key>topLevelContentName</key>
 		<string>Phunware Corporate</string>
 		<key>applicationUUID</key>
-		<string>2207e384-9667-4219-9fa4-ded148569147</string>
+		<string>5c452f69-746b-4b1e-9681-14344f1d055e</string>
 		<key>rootURL</key>
 		<string>http://solutions-ws.phunware.com/AFManagementWS/</string>
 		<key>voiceURL</key>
@@ -42,11 +42,11 @@
 	<key>MaaS Integration</key>
 	<dict>
 		<key>MaaSAppID</key>
-		<string>1469</string>
+		<string>1460</string>
 		<key>MaaSAccessKey</key>
-		<string>ae1cbf7a60488c433c4ce7d461f849f017aa5033</string>
+		<string>46f390d8a01859b5dbfa804db1634dd9603399df</string>
 		<key>MaaSSignatureKey</key>
-		<string>304034e0a16b568763622cc0af8a014d85e4bb86</string>
+		<string>9a92d23a51d49114b19d54c3f1c0508a4a98e576</string>
 		<key>S3URL</key>
 		<string>https://solutions-db.phunware.com</string>
 	</dict>
@@ -58,6 +58,8 @@
 		<true/>
 		<key>TourEnabled</key>
 		<true/>
+		<key>H2VExpirationTime</key>
+		<integer>6</integer>
 	</dict>
 	<key>PowerUser</key>
 	<dict>

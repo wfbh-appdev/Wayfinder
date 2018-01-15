@@ -1,0 +1,15 @@
+/*
+ InfoPlist.strings
+
+ Copyright © 2016 Phunware. All rights reserved.
+ */
+
+"NSCalendarsUsageDescription" = "允许保存日历提醒";
+"NSBluetoothPeripheralUsageDescription" = "允许在地图内提供位置的能力";
+"NSMotionUsageDescription" = "允许在路由期间显示移动的能力";
+"NSMicrophoneUsageDescription" = "允许用户在需要时保存音频";
+"NSCameraUsageDescription" = "允许拍摄照片的能力";
+"NSPhotoLibraryUsageDescription" = "允许添加照片的功能";
+"NSLocationAlwaysUsageDescription" = "允许位置在背景中可用";
+"NSLocationWhenInUseUsageDescription" = "允许位置在使用应用程序时可用";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "允许位置在使用应用程序和应用程序在后台时可用";

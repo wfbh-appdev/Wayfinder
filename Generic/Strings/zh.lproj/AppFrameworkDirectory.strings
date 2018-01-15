@@ -1,0 +1,13 @@
+/* 
+ * AppFrameworkDirectory.strings
+ *
+ * Copyright © 2017 Phunware. All rights reserved.
+ */
+
+/*** AF-DIRECTORY STRINGS ***/
+
+/**
+ * AFDDirectoryViewController Strings
+ */
+"afddirectoryviewcontroller.title" = "目录";
+"afddirectoryviewcontroller.noresults.title" = "未找到结果";

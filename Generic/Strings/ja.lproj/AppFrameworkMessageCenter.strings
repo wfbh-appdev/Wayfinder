@@ -1,0 +1,40 @@
+/* 
+  AppFrameworkMessageCenter.strings
+
+  Copyright © 2017 Phunware. All rights reserved.
+*/
+
+/*** AF-LOCATIONMARKETING STRINGS ***/
+
+/*
+ *  AFCOfferWalletViewController Strings
+ */
+"afmcofferwalletviewcontroller.titlelabel.text" = "メシッジ・センター";
+"afmcofferwalletviewcontroller.titlelabel.text.editing" = "エディット";
+"afmcofferwalletviewcontroller.emptymessagelabel.text" = "ユー ドーント ハブ エニー メシジズ アット ジス タイム.";
+"afmcofferwalletviewcontroller.deletebutton.title" = "ディリート";
+"afmcofferwalletviewcontroller.alert.title" = "メッセージの削除";
+"afmcofferwalletviewcontroller.alert.description" = "アー ユー シュア ユー ウッド ライク トゥー ディリート ジーズ ディー メシジズ";
+"afmcofferwalletviewcontroller.alert.cancelbutton.title" = "ノー";
+"afmcofferwalletviewcontroller.alert.deletebutton.title" = "イェス";
+"afmcofferwalletviewcontroller.expirationdate.text" = "イクスパイウズ%@";
+
+/*
+ *  AFCOfferDetailViewController Strings
+ */
+"afmcofferdetailviewcontroller.titlelabel.text" = "プロモーション";
+"afmcofferdetailviewcontroller.expirationdatelabel.text" = "イクスパイウズ%@";
+"afmcofferdetailviewcontroller.offerbutton.title" = "リシーブ フリー オファー!";
+"afmcofferdetailviewcontroller.alert.title" = "ディリート メシッジ";
+"afmcofferdetailviewcontroller.alert.message" = "ウッド ユー ライク トゥー ディリート ジス メシッジ?";
+"afmcofferdetailviewcontroller.alert.deletebutton.title" = "ノー";
+"afmcofferdetailviewcontroller.alert.cancelbutton.title" = "イェス";
+"afmcofferdetailviewcontroller.onetimepromoalert.cancelbutton.title" = "キャンセル";
+"afmcofferdetailviewcontroller.onetimepromoalert.redeembutton.title" = "償還";
+"afmcofferdetailviewcontroller.onetimepromoalert.title" = "1回使用プロモーション";
+"afmcofferdetailviewcontroller.onetimepromoalert.message" = "このオファーを利用すると、メッセージセンターから削除されます。";
+
+/*
+ *  AFMCOfferSwipeViewController Strings
+ */
+"afmcofferswipeviewcontroller.titlelabel.text" = "プロモーション";

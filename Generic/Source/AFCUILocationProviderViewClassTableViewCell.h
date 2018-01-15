@@ -11,5 +11,6 @@
 
 @interface AFCUILocationProviderViewClassTableViewCell : UITableViewCell
 
+- (void)selectStoredRowValue;
 
 @end
