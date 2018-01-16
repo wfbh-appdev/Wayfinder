@@ -2260,7 +2260,7 @@
 					<key>buttonClickClass</key>
 					<string>AFDMapRouteButtonClickAction</string>
 					<key>buttonHiddenClass</key>
-					<string></string>
+					<string>AFDMapRouteButtonHiddenAction</string>
 					<key>buttonSetupClass</key>
 					<string></string>
 				</dict>
@@ -2348,7 +2348,7 @@
 					<key>buttonClickClass</key>
 					<string>AFDMapShowButtonClickAction</string>
 					<key>buttonHiddenClass</key>
-					<string></string>
+					<string>AFDMapShowButtonHiddenAction</string>
 					<key>buttonSetupClass</key>
 					<string></string>
 				</dict>
