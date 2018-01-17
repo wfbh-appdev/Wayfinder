@@ -115,16 +115,17 @@
 /*
  * AFCUISettingsViewController
  */
-"afcuisettingsviewcontroller.sectionname.notifications" = "NOTIFICATIONS";
-"afcuisettingsviewcontroller.sectionname.managedprovider" = "Managed Provider Debug";
-"afcuisettingsviewcontroller.sectionname.locationprovider" = "LOCATION PROVIDER";
-"afcuisettingsviewcontroller.sectionname.maassdk" = "MaaS SDKs";
+"afcuisettingsviewcontroller.sectionname.notifications" = "GENERAL";
+"afcuisettingsviewcontroller.sectionname.managedprovider" = "MANAGED PROVIDER DEBUG (HIDDEN RELEASE BUILDS)";
+"afcuisettingsviewcontroller.sectionname.locationprovider" = "LOCATION PROVIDER DEBUG (HIDDEN RELEASE BUILDS)";
+"afcuisettingsviewcontroller.sectionname.maassdk" = "SDK";
 "afcuisettingsviewcontroller.sectionname.about" = "ABOUT";
+"afcuisettingsviewcontroller.sectionname.debug" = "DEBUG (HIDDEN RELEASE BUILDS)";
 "afcuisettingsviewcontroller.value.auto" = "Auto";
 "afcuisettingsviewcontroller.value.none" = "None";
 "afcuisettingsviewcontroller.value.on" = "On";
 "afcuisettingsviewcontroller.value.off" = "Off";
-"afcuisettingsviewcontroller.value.preferences" = "Preferences";
+"afcuisettingsviewcontroller.value.preferences" = "Notification Preferences";
 "afcuisettingsviewcontroller.value.version" = "Version";
 "afcuisettingsviewcontroller.value.deviceid" = "Device ID";
 "afcuisettingsviewcontroller.deviceidcopy.alert.title" = "Notice";

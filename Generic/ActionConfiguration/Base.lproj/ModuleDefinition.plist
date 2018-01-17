@@ -2031,6 +2031,52 @@
 							</dict>
 							<dict>
 								<key>title</key>
+								<string>afcuisettingsviewcontroller.sectionname.about</string>
+								<key>type</key>
+								<string>listing</string>
+								<key>items</key>
+								<array>
+									<dict>
+										<key>name</key>
+										<string>afcuisettingsviewcontroller.value.version</string>
+										<key>identifier</key>
+										<string>$app.appVersion</string>
+									</dict>
+								</array>
+							</dict>
+							<dict>
+								<key>title</key>
+								<string>afcuisettingsviewcontroller.sectionname.maassdk</string>
+								<key>type</key>
+								<string>listing</string>
+								<key>cellViewClass</key>
+								<string>AFCUIMaasVersionCellViewClassTableViewCell</string>
+								<key>items</key>
+								<array>
+									<dict>
+										<key>name</key>
+										<string>PwMapKit</string>
+									</dict>
+									<dict>
+										<key>name</key>
+										<string>PwLocation</string>
+									</dict>
+									<dict>
+										<key>name</key>
+										<string>PwCore</string>
+									</dict>
+									<dict>
+										<key>name</key>
+										<string>PwEngagement</string>
+									</dict>
+									<dict>
+										<key>name</key>
+										<string>PwAds</string>
+									</dict>
+								</array>
+							</dict>
+							<dict>
+								<key>title</key>
 								<string>afcuisettingsviewcontroller.sectionname.managedprovider</string>
 								<key>type</key>
 								<string>choice</string>
@@ -2107,48 +2153,11 @@
 							</dict>
 							<dict>
 								<key>title</key>
-								<string>afcuisettingsviewcontroller.sectionname.maassdk</string>
-								<key>type</key>
-								<string>listing</string>
-								<key>cellViewClass</key>
-								<string>AFCUIMaasVersionCellViewClassTableViewCell</string>
-								<key>items</key>
-								<array>
-									<dict>
-										<key>name</key>
-										<string>PwMapKit</string>
-									</dict>
-									<dict>
-										<key>name</key>
-										<string>PwLocation</string>
-									</dict>
-									<dict>
-										<key>name</key>
-										<string>PwCore</string>
-									</dict>
-									<dict>
-										<key>name</key>
-										<string>PwEngagement</string>
-									</dict>
-									<dict>
-										<key>name</key>
-										<string>PwAds</string>
-									</dict>
-								</array>
-							</dict>
-							<dict>
-								<key>title</key>
-								<string>afcuisettingsviewcontroller.sectionname.about</string>
+								<string>afcuisettingsviewcontroller.sectionname.debug</string>
 								<key>type</key>
 								<string>listing</string>
 								<key>items</key>
 								<array>
-									<dict>
-										<key>name</key>
-										<string>afcuisettingsviewcontroller.value.version</string>
-										<key>identifier</key>
-										<string>$app.appVersion</string>
-									</dict>
 									<dict>
 										<key>name</key>
 										<string>UUID</string>
