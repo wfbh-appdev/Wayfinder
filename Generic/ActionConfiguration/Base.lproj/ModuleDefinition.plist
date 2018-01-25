@@ -1300,6 +1300,8 @@
 							<dict>
 								<key>contentId</key>
 								<string>$action.contentId</string>
+								<key>useCustomPoi</key>
+								<string>$action.useCustomPoi</string>
 							</dict>
 						</dict>
 					</dict>
@@ -1565,6 +1567,8 @@
 				<dict>
 					<key>accessible</key>
 					<string>$action.accessible</string>
+					<key>useCustomPoi</key>
+					<string>$action.useCustomPoi</string>
 				</dict>
 			</dict>
 		</dict>
