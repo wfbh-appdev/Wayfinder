@@ -77,17 +77,15 @@
 		<key>MainFontSize</key>
 		<integer>15</integer>
 		<key>MainFont</key>
-		<string>HelveticaNeue</string>
+		<string>.SFUIText</string>
 		<key>MainFontLight</key>
-		<string>HelveticaNeue-Light</string>
+		<string>.SFUIText-Light</string>
 		<key>MainFontLightItalic</key>
-		<string>HelveticaNeue-LightItalic</string>
-		<key>MainFontThin</key>
-		<string>HelveticaNeue-Thin</string>
+		<string>.SFUIText-LightItalic</string>
 		<key>MainFontBold</key>
-		<string>HelveticaNeue-Bold</string>
+		<string>.SFUIText-Bold</string>
 		<key>MainFontMedium</key>
-		<string>HelveticaNeue-Medium</string>
+		<string>.SFUIText-Medium</string>
 		<key>MainFontColor</key>
 		<string>#3c3c3c</string>
 		<key>MainFontColorLight</key>
