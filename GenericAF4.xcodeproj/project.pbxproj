@@ -74,6 +74,7 @@
 		7EF95E3D1F27C90400CB9826 /* EventTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EF95E3A1F27C90400CB9826 /* EventTableViewCell.plist */; };
 		8C10FC371C49CD5A000A7913 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C10FC361C49CD5A000A7913 /* Fabric.framework */; };
 		8C64BA151D02143100AB0FDD /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C64BA141D02143100AB0FDD /* CoreBluetooth.framework */; };
+		8C86BCF42016B064007E2FFE /* GenericUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C86BCF32016B064007E2FFE /* GenericUITests.m */; };
 		8CA4FA061C8F9FE900E0028C /* 20160120_android_multilayer_sandbox.s3db in Resources */ = {isa = PBXBuildFile; fileRef = 8CA4FA051C8F9FE900E0028C /* 20160120_android_multilayer_sandbox.s3db */; };
 		8CB729D21C20A30D00F016B7 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB729D11C20A30D00F016B7 /* Crashlytics.framework */; };
 		8CF49E0E1E96B23300568A52 /* AFMManagedProviderAlertTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF49E0D1E96B23300568A52 /* AFMManagedProviderAlertTableViewCell.m */; };
@@ -103,6 +104,16 @@
 		C3F32B661F0ADA0000495919 /* AppFrameworkParking.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3F32B561F0ADA0000495919 /* AppFrameworkParking.strings */; };
 		C3F32B671F0ADA0000495919 /* AppFrameworkRender.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3F32B581F0ADA0000495919 /* AppFrameworkRender.strings */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C86BCF62016B064007E2FFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F0613021BC8569800A55F16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F0613091BC8569800A55F16;
+			remoteInfo = GenericAF4;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		133DB99E1F609A1D00E9D791 /* AFMH2VNoticeAlertViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFMH2VNoticeAlertViewController.plist; path = AppFrameworkMapping/AFMH2VNoticeAlertViewController.plist; sourceTree = "<group>"; };
@@ -207,6 +218,9 @@
 		7EF95E3A1F27C90400CB9826 /* EventTableViewCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = EventTableViewCell.plist; path = AppFrameworkRender/EventTableViewCell.plist; sourceTree = "<group>"; };
 		8C10FC361C49CD5A000A7913 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		8C64BA141D02143100AB0FDD /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		8C86BCF12016B064007E2FFE /* GenericUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenericUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C86BCF32016B064007E2FFE /* GenericUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenericUITests.m; sourceTree = "<group>"; };
+		8C86BCF52016B064007E2FFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C8951D41CD3C832005CBC96 /* Austin.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Austin.gpx; path = Generic/Austin.gpx; sourceTree = "<group>"; };
 		8CA4FA051C8F9FE900E0028C /* 20160120_android_multilayer_sandbox.s3db */ = {isa = PBXFileReference; lastKnownFileType = file; path = 20160120_android_multilayer_sandbox.s3db; sourceTree = "<group>"; };
 		8CB729D11C20A30D00F016B7 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
@@ -257,6 +271,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8C86BCEE2016B064007E2FFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8F0613071BC8569800A55F16 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -390,12 +411,22 @@
 			name = AppFrameworkRender;
 			sourceTree = "<group>";
 		};
+		8C86BCF22016B064007E2FFE /* GenericUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C86BCF32016B064007E2FFE /* GenericUITests.m */,
+				8C86BCF52016B064007E2FFE /* Info.plist */,
+			);
+			path = GenericUITests;
+			sourceTree = "<group>";
+		};
 		8F0613011BC8569800A55F16 = {
 			isa = PBXGroup;
 			children = (
 				7E705E301DBE89C40047C09C /* GenericAF4.entitlements */,
 				8C8951D41CD3C832005CBC96 /* Austin.gpx */,
 				8F06130C1BC8569800A55F16 /* Generic */,
+				8C86BCF22016B064007E2FFE /* GenericUITests */,
 				8F06130B1BC8569800A55F16 /* Products */,
 				107C6A95EB070C251FE734E3 /* Frameworks */,
 				CF99A4EC9477B8A8D7AEE9C6 /* Pods */,
@@ -406,6 +437,7 @@
 			isa = PBXGroup;
 			children = (
 				8F06130A1BC8569800A55F16 /* GenericAF4.app */,
+				8C86BCF12016B064007E2FFE /* GenericUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -528,6 +560,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8C86BCF02016B064007E2FFE /* GenericUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C86BCFC2016B064007E2FFE /* Build configuration list for PBXNativeTarget "GenericUITests" */;
+			buildPhases = (
+				8C86BCED2016B064007E2FFE /* Sources */,
+				8C86BCEE2016B064007E2FFE /* Frameworks */,
+				8C86BCEF2016B064007E2FFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C86BCF72016B064007E2FFE /* PBXTargetDependency */,
+			);
+			name = GenericUITests;
+			productName = GenericUITests;
+			productReference = 8C86BCF12016B064007E2FFE /* GenericUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		8F0613091BC8569800A55F16 /* GenericAF4 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F0613211BC8569800A55F16 /* Build configuration list for PBXNativeTarget "GenericAF4" */;
@@ -558,10 +608,16 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = Phunware;
 				TargetAttributes = {
+					8C86BCF02016B064007E2FFE = {
+						CreatedOnToolsVersion = 9.2;
+						DevelopmentTeam = 3EAE557LD7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8F0613091BC8569800A55F16;
+					};
 					8F0613091BC8569800A55F16 = {
 						CreatedOnToolsVersion = 7.0;
 						DevelopmentTeam = 84CK77G588;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -592,11 +648,19 @@
 			projectRoot = "";
 			targets = (
 				8F0613091BC8569800A55F16 /* GenericAF4 */,
+				8C86BCF02016B064007E2FFE /* GenericUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8C86BCEF2016B064007E2FFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8F0613081BC8569800A55F16 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -701,6 +765,8 @@
 				"${PODS_ROOT}/PWCore/Framework/PWCore.framework",
 				"${PODS_ROOT}/PWEngagement/Framework/PWEngagement.framework",
 				"${PODS_ROOT}/PWLocation/Framework/PWLocation.framework",
+				"${PODS_ROOT}/PWMapKit/Framework/PWMapKit.framework",
+				"${PODS_ROOT}/StepInsideSdk/StepInsideSdk.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -708,6 +774,8 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PWCore.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PWEngagement.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PWLocation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PWMapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StepInsideSdk.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -766,6 +834,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8C86BCED2016B064007E2FFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C86BCF42016B064007E2FFE /* GenericUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8F0613061BC8569800A55F16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -782,6 +858,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C86BCF72016B064007E2FFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F0613091BC8569800A55F16 /* GenericAF4 */;
+			targetProxy = 8C86BCF62016B064007E2FFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5555DB051C4460C900E37207 /* InfoPlist.strings */ = {
@@ -928,6 +1012,95 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		8C86BCF82016B064007E2FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3EAE557LD7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = GenericUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grembe.GenericUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GenericAF4;
+			};
+			name = Debug;
+		};
+		8C86BCF92016B064007E2FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3EAE557LD7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = GenericUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grembe.GenericUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GenericAF4;
+			};
+			name = Release;
+		};
+		8C86BCFA2016B064007E2FFE /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3EAE557LD7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = GenericUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grembe.GenericUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GenericAF4;
+			};
+			name = Distribution;
+		};
+		8C86BCFB2016B064007E2FFE /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3EAE557LD7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = GenericUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grembe.GenericUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GenericAF4;
+			};
+			name = AdHoc;
+		};
 		8F06131F1BC8569800A55F16 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1039,11 +1212,11 @@
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = GenericAF4/GenericAF4.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 84CK77G588;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1055,8 +1228,8 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.generic.af4.ios;
 				PRODUCT_NAME = GenericAF4;
-				PROVISIONING_PROFILE = "2e705c11-a07c-414d-b44b-8a468dca45c7";
-				PROVISIONING_PROFILE_SPECIFIER = GenericAF4_InHousePushEnabled;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1070,11 +1243,11 @@
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = GenericAF4/GenericAF4.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 84CK77G588;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1086,8 +1259,8 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.generic.af4.ios;
 				PRODUCT_NAME = GenericAF4;
-				PROVISIONING_PROFILE = "2e705c11-a07c-414d-b44b-8a468dca45c7";
-				PROVISIONING_PROFILE_SPECIFIER = GenericAF4_InHousePushEnabled;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -1149,11 +1322,11 @@
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = GenericAF4/GenericAF4.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 84CK77G588;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1166,8 +1339,8 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.generic.af4.ios;
 				PRODUCT_NAME = GenericAF4;
-				PROVISIONING_PROFILE = "2e705c11-a07c-414d-b44b-8a468dca45c7";
-				PROVISIONING_PROFILE_SPECIFIER = GenericAF4_InHousePushEnabled;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Distribution;
@@ -1229,11 +1402,11 @@
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = GenericAF4/GenericAF4.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 84CK77G588;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1250,8 +1423,8 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.generic.af4.ios;
 				PRODUCT_NAME = GenericAF4;
-				PROVISIONING_PROFILE = "2e705c11-a07c-414d-b44b-8a468dca45c7";
-				PROVISIONING_PROFILE_SPECIFIER = GenericAF4_InHousePushEnabled;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = AdHoc;
@@ -1259,6 +1432,17 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8C86BCFC2016B064007E2FFE /* Build configuration list for PBXNativeTarget "GenericUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C86BCF82016B064007E2FFE /* Debug */,
+				8C86BCF92016B064007E2FFE /* Release */,
+				8C86BCFA2016B064007E2FFE /* Distribution */,
+				8C86BCFB2016B064007E2FFE /* AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8F0613051BC8569800A55F16 /* Build configuration list for PBXProject "GenericAF4" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

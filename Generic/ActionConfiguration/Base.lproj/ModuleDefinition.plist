@@ -1088,8 +1088,6 @@
 							<dict>
 								<key>favoritesContext</key>
 								<string>$module.mapFavoritesContext</string>
-								<key>altitudeToApplyWorkaroundiOS9</key>
-								<integer>210</integer>
 								<key>associatedData</key>
 								<string>$module.databaseDirectoryItems</string>
 								<key>associatedDataAnnotationIdentifierKey</key>
@@ -1115,7 +1113,7 @@
 								<key>tbtCellClass</key>
 								<string>AFMUITurnByTurnTableViewCell</string>
 								<key>minZoomLevel</key>
-								<integer>18</integer>
+								<integer>200</integer>
 								<key>routeSnappingTolerance</key>
 								<string>PWRouteSnapToleranceHigh</string>
 								<key>floorPickerSortType</key>
@@ -1173,8 +1171,6 @@
 							<dict>
 								<key>favoritesContext</key>
 								<string>$module.mapFavoritesContext</string>
-								<key>altitudeToApplyWorkaroundiOS9</key>
-								<integer>210</integer>
 								<key>associatedData</key>
 								<string>$module.databaseDirectoryItems</string>
 								<key>associatedDataAnnotationIdentifierKey</key>
@@ -1200,7 +1196,7 @@
 								<key>tbtCellClass</key>
 								<string>AFMUITurnByTurnTableViewCell</string>
 								<key>minZoomLevel</key>
-								<integer>18</integer>
+								<integer>200</integer>
 								<key>routeSnappingTolerance</key>
 								<string>PWRouteSnapToleranceHigh</string>
 								<key>floorPickerSortType</key>
@@ -2124,24 +2120,6 @@
 										<string>PWMapViewLocationTypeManagedProvider</string>
 										<key>default</key>
 										<true/>
-									</dict>
-									<dict>
-										<key>name</key>
-										<string>BLE</string>
-										<key>identifier</key>
-										<string>PWMapViewLocationTypeBLE</string>
-									</dict>
-									<dict>
-										<key>name</key>
-										<string>HyperLocation</string>
-										<key>identifier</key>
-										<string>PWMapViewLocationTypeMSE</string>
-									</dict>
-									<dict>
-										<key>name</key>
-										<string>GPS</string>
-										<key>identifier</key>
-										<string>PWMapViewLocationTypeGPS</string>
 									</dict>
 									<dict>
 										<key>name</key>
