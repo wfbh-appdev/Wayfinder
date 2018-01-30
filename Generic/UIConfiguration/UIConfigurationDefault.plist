@@ -82,6 +82,8 @@
 		<string>.SFUIText-Light</string>
 		<key>MainFontLightItalic</key>
 		<string>.SFUIText-LightItalic</string>
+		<key>MainFontThin</key>
+		<string>.SFUIDisplay-Ultralight</string>
 		<key>MainFontBold</key>
 		<string>.SFUIText-Bold</string>
 		<key>MainFontMedium</key>
