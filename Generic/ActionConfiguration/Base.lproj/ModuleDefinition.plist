@@ -659,7 +659,7 @@
 					<key>viewController</key>
 					<string>AFCUIEULAViewController</string>
 					<key>presentationMode</key>
-					<string>modal</string>
+					<string>modalPush</string>
 					<key>shouldAnimate</key>
 					<string>YES</string>
 					<key>properties</key>
