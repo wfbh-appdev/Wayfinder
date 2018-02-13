@@ -42,7 +42,7 @@ NSString *kPwAdsVersion = @"3.5.0";
     }
 
     if ([super.textLabel.text isEqualToString:@"PwEngagement"]) {
-        versionString = [PWEngagement version];
+        versionString = PWEngagementVersion;
     }
 
 

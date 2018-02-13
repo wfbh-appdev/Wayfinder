@@ -659,7 +659,7 @@
 					<key>viewController</key>
 					<string>AFCUIEULAViewController</string>
 					<key>presentationMode</key>
-					<string>modal</string>
+					<string>modalPush</string>
 					<key>shouldAnimate</key>
 					<string>YES</string>
 					<key>properties</key>
@@ -1300,6 +1300,8 @@
 							<dict>
 								<key>contentId</key>
 								<string>$action.contentId</string>
+								<key>useCustomPoi</key>
+								<string>$action.useCustomPoi</string>
 							</dict>
 						</dict>
 					</dict>
@@ -1565,6 +1567,8 @@
 				<dict>
 					<key>accessible</key>
 					<string>$action.accessible</string>
+					<key>useCustomPoi</key>
+					<string>$action.useCustomPoi</string>
 				</dict>
 			</dict>
 		</dict>
@@ -2260,7 +2264,7 @@
 					<key>buttonClickClass</key>
 					<string>AFDMapRouteButtonClickAction</string>
 					<key>buttonHiddenClass</key>
-					<string></string>
+					<string>AFDMapRouteButtonHiddenAction</string>
 					<key>buttonSetupClass</key>
 					<string></string>
 				</dict>
@@ -2348,7 +2352,7 @@
 					<key>buttonClickClass</key>
 					<string>AFDMapShowButtonClickAction</string>
 					<key>buttonHiddenClass</key>
-					<string></string>
+					<string>AFDMapShowButtonHiddenAction</string>
 					<key>buttonSetupClass</key>
 					<string></string>
 				</dict>

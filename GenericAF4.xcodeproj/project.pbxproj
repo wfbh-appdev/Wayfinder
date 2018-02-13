@@ -699,8 +699,8 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-GenericAF4/Pods-GenericAF4-frameworks.sh",
 				"${PODS_ROOT}/MistSDK/Framework/MistSDK.framework",
 				"${PODS_ROOT}/PWCore/Framework/PWCore.framework",
-				"${PODS_ROOT}/PWEngagementBeta/Framework/PWEngagement.framework",
-				"${PODS_ROOT}/PWLocationBeta/Framework/PWLocation.framework",
+				"${PODS_ROOT}/PWEngagement/Framework/PWEngagement.framework",
+				"${PODS_ROOT}/PWLocation/Framework/PWLocation.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (

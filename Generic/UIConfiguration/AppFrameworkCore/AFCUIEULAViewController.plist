@@ -10,8 +10,13 @@
 		<array>
 			<string>H:|[theText]|</string>
 			<string>H:|[buttonBackgroundView]|</string>
-			<string>V:|-(64)-[theText][buttonBackgroundView]|</string>
+			<string>V:|[theText][buttonBackgroundView]|</string>
 		</array>
+	</dict>
+	<key>navigationBar</key>
+	<dict>
+		<key>type</key>
+		<string>DefaultNavBar</string>
 	</dict>
 	<key>buttonBackgroundView</key>
 	<dict>

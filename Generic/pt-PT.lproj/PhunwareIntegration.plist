@@ -30,10 +30,8 @@
 		<string>Phunware Corporate</string>
 		<key>applicationUUID</key>
 		<string>5c452f69-746b-4b1e-9681-14344f1d055e</string>
-		<key>webservicesID</key>
-		<string>e7ee6efb-c66e-11df-bbda-ab061b74f77a</string>
-		<key>webservicesKey</key>
-		<string>15be1351-c66f-11df-bbda-ab061b74f77a</string>
+		<key>popSmartFormSubmission</key>
+		<true/>
 	</dict>
 	<key>MaaS Integration</key>
 	<dict>
@@ -45,17 +43,6 @@
 		<string>9a92d23a51d49114b19d54c3f1c0508a4a98e576</string>
 		<key>S3URL</key>
 		<string>https://solutions-db.phunware.com</string>
-	</dict>
-	<key>StartupSettings</key>
-	<dict>
-		<key>ShowSettings</key>
-		<true/>
-		<key>ShowSubscriptions</key>
-		<true/>
-		<key>TourEnabled</key>
-		<true/>
-		<key>H2VExpirationTime</key>
-		<integer>6</integer>
 	</dict>
 	<key>PowerUser</key>
 	<dict>
