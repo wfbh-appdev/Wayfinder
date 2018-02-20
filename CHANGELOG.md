@@ -1,4 +1,5 @@
-Version 4.1.0 *(2016-06-24)*
+Version 4.7.1 *(2018-02-09)*
 ----------------------------
 
-* Features
+Features
+* Bug fixes to fix known issues in AF 4.7 release
