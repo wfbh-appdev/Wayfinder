@@ -27,20 +27,20 @@
 	<key>Core WS Integration</key>
 	<dict>
 		<key>topLevelContentName</key>
-		<string>Phunware Corporate</string>
+		<string>#ENTER A VALID VALUE#</string>
 		<key>applicationUUID</key>
-		<string>5c452f69-746b-4b1e-9681-14344f1d055e</string>
+		<string>d41a1b5c-46a5-45e0-ae33-92fce0634d5c</string>
 		<key>popSmartFormSubmission</key>
 		<true/>
 	</dict>
 	<key>MaaS Integration</key>
 	<dict>
 		<key>MaaSAppID</key>
-		<string>1460</string>
+		<string>1406</string>
 		<key>MaaSAccessKey</key>
-		<string>46f390d8a01859b5dbfa804db1634dd9603399df</string>
+		<string>5d40f80365b7bfa81af42093e6fa689726a8f261</string>
 		<key>MaaSSignatureKey</key>
-		<string>9a92d23a51d49114b19d54c3f1c0508a4a98e576</string>
+		<string>843c5395ed70c2c57206e4636cd18ef38bcbe310</string>
 		<key>S3URL</key>
 		<string>https://solutions-db.phunware.com</string>
 	</dict>

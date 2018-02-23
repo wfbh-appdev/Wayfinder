@@ -1,12 +1,12 @@
 source 'https://github.com/CocoaPods/Specs.git'
 source 'ssh://git@bitbucket.phunware.com:7999/misc/cocoapods-sdk-ios.git'
 
-workspace 'GenericAF4'
-project 'GenericAF4.xcodeproj'
+workspace 'WakeForest'
+project 'WakeForest.xcodeproj'
 
 platform :ios, '10.0'
 
-target :'GenericAF4' do
+target :'WakeForest' do
 
     pod 'AppFrameworkCore',                    :git => 'ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git', :branch => 'release/v4.8.0-BETA'
     pod 'AppFrameworkDirectoryModule',         :git => 'ssh://git@bitbucket.phunware.com:7999/af/af-sdk-ios-binaries.git', :branch => 'release/v4.8.0-BETA'
@@ -32,7 +32,7 @@ target :'GenericAF4' do
 #    pod 'AppFrameworkParkingModule',           :path => '../af-sdk-ios/af-modules/af-parking'
 #    pod 'AppFrameworkRenderModule',            :path => '../af-sdk-ios/af-modules/af-render'
 
-   project 'GenericAF4.xcodeproj'
+   project 'WakeForest.xcodeproj'
 
 end
 
