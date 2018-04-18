@@ -1231,8 +1231,8 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.wakeforest.ios;
 				PRODUCT_NAME = WakeForest;
-				PROVISIONING_PROFILE = "6e2ad54b-1a8b-4c85-ac12-d86b6d1594ba";
-				PROVISIONING_PROFILE_SPECIFIER = WakeForest_Enterprise;
+				PROVISIONING_PROFILE = "ab72acd9-90b6-426d-8264-36225575d12e";
+				PROVISIONING_PROFILE_SPECIFIER = WakeForest_Enterprise_Jun092019;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1262,8 +1262,8 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.wakeforest.ios;
 				PRODUCT_NAME = WakeForest;
-				PROVISIONING_PROFILE = "30367ba0-10b0-4eeb-a037-6411b9676b41";
-				PROVISIONING_PROFILE_SPECIFIER = WakeForest_Enterprise;
+				PROVISIONING_PROFILE = "ab72acd9-90b6-426d-8264-36225575d12e";
+				PROVISIONING_PROFILE_SPECIFIER = WakeForest_Enterprise_Jun092019;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -1342,8 +1342,8 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.wakeforest.ios;
 				PRODUCT_NAME = WakeForest;
-				PROVISIONING_PROFILE = "30367ba0-10b0-4eeb-a037-6411b9676b41";
-				PROVISIONING_PROFILE_SPECIFIER = WakeForest_Enterprise;
+				PROVISIONING_PROFILE = "ab72acd9-90b6-426d-8264-36225575d12e";
+				PROVISIONING_PROFILE_SPECIFIER = WakeForest_Enterprise_Jun092019;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Distribution;
@@ -1426,8 +1426,8 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.wakeforest.ios;
 				PRODUCT_NAME = WakeForest;
-				PROVISIONING_PROFILE = "30367ba0-10b0-4eeb-a037-6411b9676b41";
-				PROVISIONING_PROFILE_SPECIFIER = WakeForest_Enterprise;
+				PROVISIONING_PROFILE = "ab72acd9-90b6-426d-8264-36225575d12e";
+				PROVISIONING_PROFILE_SPECIFIER = WakeForest_Enterprise_Jun092019;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = AdHoc;
