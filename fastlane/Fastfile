@@ -15,10 +15,10 @@ private_lane :configure_build do
 
     add_signing_config(
         name: "enterprise",
-        cert_file: "Certificates/enterprise.p12",
+        cert_file: "Certificates/PWEnterpriseCertJun092019.p12",
         cert_pw: "K3yM@$ter!",
         identity: "iPhone Distribution: Phunware, Inc.",
-        profileSpecifier: "WakeForest_Enterprise",
+        profileSpecifier: "WakeForest_Enterprise_Jun092019",
         teamId: "84CK77G588",
         customProfilesPath: "Certificates"
     )
