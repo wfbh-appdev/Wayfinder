@@ -11,6 +11,7 @@
 		135B581B1F4CC9B5001A64FA /* AFDDirectoryCategoryViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 135B581A1F4CC9B5001A64FA /* AFDDirectoryCategoryViewController.plist */; };
 		137E88AA1F4CA57600DEF7A3 /* AFCCategoryViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 137E88A91F4CA57600DEF7A3 /* AFCCategoryViewController.plist */; };
 		3C1DE4301C3F306B0074369D /* AFGoogleAnalyticsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1DE42F1C3F306B0074369D /* AFGoogleAnalyticsController.m */; };
+		43BBFB7720879F69000BECA5 /* AFMUIMapViewController+WF.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BBFB7620879F69000BECA5 /* AFMUIMapViewController+WF.m */; };
 		55173FDE1D62790500EE540B /* UIConfigurationDefault.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55173FDD1D62790500EE540B /* UIConfigurationDefault.plist */; };
 		551BF9251C1B51E9004D7ECD /* (null) in Resources */ = {isa = PBXBuildFile; };
 		551BF9261C1B51E9004D7ECD /* (null) in Resources */ = {isa = PBXBuildFile; };
@@ -118,6 +119,8 @@
 		137E88A91F4CA57600DEF7A3 /* AFCCategoryViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFCCategoryViewController.plist; path = AppFrameworkCore/AFCCategoryViewController.plist; sourceTree = "<group>"; };
 		3C1DE42E1C3F306B0074369D /* AFGoogleAnalyticsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFGoogleAnalyticsController.h; sourceTree = "<group>"; };
 		3C1DE42F1C3F306B0074369D /* AFGoogleAnalyticsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFGoogleAnalyticsController.m; sourceTree = "<group>"; };
+		43BBFB7520879F69000BECA5 /* AFMUIMapViewController+WF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFMUIMapViewController+WF.h"; sourceTree = "<group>"; };
+		43BBFB7620879F69000BECA5 /* AFMUIMapViewController+WF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AFMUIMapViewController+WF.m"; sourceTree = "<group>"; };
 		55173FDD1D62790500EE540B /* UIConfigurationDefault.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UIConfigurationDefault.plist; sourceTree = "<group>"; };
 		5555DB041C4460C900E37207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5555DB061C4460CC00E37207 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -295,6 +298,15 @@
 				5D09A0912FD2671C5AD73903 /* libPods-WakeForest.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43BBFB712087953F000BECA5 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				43BBFB7520879F69000BECA5 /* AFMUIMapViewController+WF.h */,
+				43BBFB7620879F69000BECA5 /* AFMUIMapViewController+WF.m */,
+			);
+			path = Custom;
 			sourceTree = "<group>";
 		};
 		5520ABC11C19E36E00757715 /* Splash */ = {
@@ -481,6 +493,7 @@
 		8F4355771BC858B700FFD46C /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				43BBFB712087953F000BECA5 /* Custom */,
 				5574F54D1C3AF889007BC741 /* AFCUILocationProviderViewClassTableViewCell.h */,
 				5574F54E1C3AF889007BC741 /* AFCUILocationProviderViewClassTableViewCell.m */,
 				5574F54A1C3AD921007BC741 /* AFCUIMaasVersionCellViewClassTableViewCell.h */,
@@ -838,6 +851,7 @@
 				8FDD0F3A1BD1775500A0C512 /* GenericAppNavigationController.m in Sources */,
 				8F8C54171BD6DB440018A2ED /* SplashViewController.m in Sources */,
 				5574F54F1C3AF889007BC741 /* AFCUILocationProviderViewClassTableViewCell.m in Sources */,
+				43BBFB7720879F69000BECA5 /* AFMUIMapViewController+WF.m in Sources */,
 				5574F54C1C3AD921007BC741 /* AFCUIMaasVersionCellViewClassTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

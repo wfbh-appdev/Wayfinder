@@ -23,6 +23,7 @@ target :'WakeForest' do
     pod 'GoogleInterchangeUtilities', '1.2.1'
     pod 'GoogleSymbolUtilities',      '1.1.1'
     pod 'GoogleUtilities',            '1.3.1'
+    pod 'JRSwizzle',                  '~> 1.0'
 
 #    pod 'AppFrameworkCore',                    :path => '../af-sdk-ios/af-modules/af-core'
 #    pod 'AppFrameworkDirectoryModule',         :path => '../af-sdk-ios/af-modules/af-directory'
