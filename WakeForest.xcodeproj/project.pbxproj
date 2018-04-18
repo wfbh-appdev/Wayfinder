@@ -1231,7 +1231,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.wakeforest.ios;
 				PRODUCT_NAME = WakeForest;
-				PROVISIONING_PROFILE = "30367ba0-10b0-4eeb-a037-6411b9676b41";
+				PROVISIONING_PROFILE = "6e2ad54b-1a8b-4c85-ac12-d86b6d1594ba";
 				PROVISIONING_PROFILE_SPECIFIER = WakeForest_Enterprise;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
