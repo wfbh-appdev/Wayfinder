@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>buildingNameLabel</key>
+	<dict>
+		<key>fontName</key>
+		<string>$MainFont</string>
+		<key>fontSize</key>
+		<string>17</string>
+		<key>color</key>
+		<string>$BlackColor</string>
+	</dict>
+	<key>buildingDataLabel</key>
+	<dict>
+		<key>fontName</key>
+		<string>$MainFont</string>
+		<key>fontSize</key>
+		<string>13</string>
+		<key>color</key>
+		<string>$BlackColor</string>
+	</dict>
+	<key>contentView</key>
+	<dict>
+		<key>constraints</key>
+		<array>
+			<string>H:|-[buildingNameLabel]-|</string>
+			<string>H:|-[buildingDataLabel]-|</string>
+			<string>V:|-[buildingNameLabel]-[buildingDataLabel]-|</string>
+		</array>
+	</dict>
+</dict>
+</plist>

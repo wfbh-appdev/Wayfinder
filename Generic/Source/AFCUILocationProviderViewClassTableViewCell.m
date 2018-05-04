@@ -7,7 +7,7 @@
 //
 
 #import "AFCUILocationProviderViewClassTableViewCell.h"
-#import <AppFrameworkMappingModule/AFMAppStateConstants.h>
+#import <AppFrameworkMappingModule/AFMMapConstants.h>
 #import <AppFrameworkCore/AppFrameworkCore.h>
 
 

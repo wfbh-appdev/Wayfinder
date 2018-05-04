@@ -19,8 +19,6 @@
 		<key>backgroundColor</key>
 		<string>#f6f7fb</string>
 	</dict>
-	<key>headerView</key>
-	<dict/>
 	<key>contentView</key>
 	<dict>
 		<key>backgroundColor</key>

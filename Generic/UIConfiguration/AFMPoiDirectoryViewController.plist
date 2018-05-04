@@ -24,25 +24,6 @@
 		<key>lines</key>
 		<integer>1</integer>
 	</dict>
-	<key>favoritesBar</key>
-	<dict>
-		<key>backgroundColor</key>
-		<string>#ffffff</string>
-		<key>width</key>
-		<integer>320</integer>
-		<key>height</key>
-		<integer>43</integer>
-		<key>constraints</key>
-		<array>
-			<string>H:|-8-[favoritesToggle]-8-|</string>
-			<string>#favoritesToggle.centery=self.centery,1,0</string>
-		</array>
-	</dict>
-	<key>favoritesToggle</key>
-	<dict>
-		<key>backgroundColor</key>
-		<string>#ffffff</string>
-	</dict>
 	<key>badgeLabel</key>
 	<dict>
 		<key>fontName</key>
@@ -62,10 +43,27 @@
 		<key>backgroundColor</key>
 		<string>#007aff</string>
 	</dict>
+	<key>searchController</key>
+	<dict>
+		<key>searchBarBackgroundColor</key>
+		<string>#363636</string>
+		<key>searchBarTintColor</key>
+		<string>$WhiteColor</string>
+		<key>searchBarBarTintColor</key>
+		<string>#363636</string>
+		<key>searchBarTextFieldBackgroundColor</key>
+		<string>$BlackColor</string>
+		<key>searchBarTextFieldTextColor</key>
+		<string>$WhiteColor</string>
+		<key>searchBarTextFieldTextFont</key>
+		<string>$MainFontLight</string>
+		<key>searchBarTextFieldTextSize</key>
+		<string>14</string>
+	</dict>
 	<key>view</key>
 	<dict>
 		<key>backgroundColor</key>
-		<string>#ffffff</string>
+		<string>#363636</string>
 		<key>constraints</key>
 		<array>
 			<string>H:|[table]|</string>

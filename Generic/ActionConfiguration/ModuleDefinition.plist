@@ -93,22 +93,16 @@
 			<dict>
 				<key>className</key>
 				<string>AFCProcessPushNotificationAction</string>
-				<key>queue</key>
-				<string>serial</string>
 			</dict>
 			<key>didReceiveRemoteNotification</key>
 			<dict>
 				<key>className</key>
 				<string>AFCProcessPushNotificationAction</string>
-				<key>queue</key>
-				<string>serial</string>
 			</dict>
 			<key>didReceiveLocalNotification</key>
 			<dict>
 				<key>className</key>
 				<string>AFCProcessPushNotificationAction</string>
-				<key>queue</key>
-				<string>serial</string>
 			</dict>
 			<key>didFailToRegisterForRemoteNotifications</key>
 			<dict>
@@ -508,7 +502,7 @@
 					<key>viewController</key>
 					<string>AFDDirectoryCategoryViewController</string>
 					<key>presentationMode</key>
-					<string>modal</string>
+					<string>modalPush</string>
 					<key>shouldAnimate</key>
 					<true/>
 					<key>properties</key>
@@ -1067,175 +1061,17 @@
 		</dict>
 		<key>Map</key>
 		<dict>
-			<key>push</key>
+			<key>switch</key>
 			<dict>
 				<key>className</key>
-				<string>AFMShowAnnotationCardAction</string>
-				<key>dependencies</key>
-				<array>
-					<dict>
-						<key>className</key>
-						<string>AFCLoadViewControllerAction</string>
-						<key>parameters</key>
-						<dict>
-							<key>viewController</key>
-							<string>AFMUIMapViewController</string>
-							<key>presentationMode</key>
-							<string>push</string>
-							<key>shouldAnimate</key>
-							<true/>
-							<key>properties</key>
-							<dict>
-								<key>favoritesContext</key>
-								<string>$module.mapFavoritesContext</string>
-								<key>associatedData</key>
-								<string>$module.databaseDirectoryItems</string>
-								<key>associatedDataAnnotationIdentifierKey</key>
-								<string>POI</string>
-								<key>associatedDataDescriptionKey</key>
-								<string>Description</string>
-								<key>associatedDataBannerKey</key>
-								<string>DetailImage</string>
-								<key>tbtEnabled</key>
-								<true/>
-								<key>tbtPrefixTextColor</key>
-								<string>#a1c45e</string>
-								<key>tbtDistanceTextColor</key>
-								<string>#a1a09d</string>
-								<key>tbtDistanceUpdatedByInterval</key>
-								<true/>
-								<key>tbtAnimationClass</key>
-								<string>AFMCustomTurnByTurnAnimation</string>
-								<key>tbtUpdateInterval</key>
-								<integer>7</integer>
-								<key>tbtUpdateMinimumDistance</key>
-								<integer>50</integer>
-								<key>tbtCellClass</key>
-								<string>AFMUITurnByTurnTableViewCell</string>
-								<key>minZoomLevel</key>
-								<integer>200</integer>
-								<key>routeSnappingTolerance</key>
-								<string>PWRouteSnapToleranceHigh</string>
-								<key>floorPickerSortType</key>
-								<integer>0</integer>
-								<key>showFilterIcon</key>
-								<true/>
-								<key>showFilterBadge</key>
-								<true/>
-								<key>shouldShowApplePois</key>
-								<false/>
-								<key>cmeIds</key>
-								<string>$app.kAFCMCmeIdKey</string>
-							</dict>
-						</dict>
-						<key>dependencies</key>
-						<array>
-							<dict>
-								<key>className</key>
-								<string>AFCActionIncluder</string>
-								<key>parameters</key>
-								<dict>
-									<key>includeContentType</key>
-									<string>Directory</string>
-									<key>includeContentAction</key>
-									<string>load</string>
-									<key>includeParameters</key>
-									<dict>
-										<key>cmeid</key>
-										<string>$app.kAFCMCmeIdKey</string>
-									</dict>
-								</dict>
-							</dict>
-						</array>
-					</dict>
-				</array>
-			</dict>
-			<key>show</key>
-			<dict>
-				<key>className</key>
-				<string>AFMShowAnnotationCardAction</string>
-				<key>dependencies</key>
-				<array>
-					<dict>
-						<key>className</key>
-						<string>AFCLoadViewControllerAction</string>
-						<key>parameters</key>
-						<dict>
-							<key>viewController</key>
-							<string>AFMUIMapViewController</string>
-							<key>presentationMode</key>
-							<string>replaceTop</string>
-							<key>shouldAnimate</key>
-							<true/>
-							<key>properties</key>
-							<dict>
-								<key>favoritesContext</key>
-								<string>$module.mapFavoritesContext</string>
-								<key>associatedData</key>
-								<string>$module.databaseDirectoryItems</string>
-								<key>associatedDataAnnotationIdentifierKey</key>
-								<string>POI</string>
-								<key>associatedDataDescriptionKey</key>
-								<string>Description</string>
-								<key>associatedDataBannerKey</key>
-								<string>DetailImage</string>
-								<key>tbtEnabled</key>
-								<true/>
-								<key>tbtPrefixTextColor</key>
-								<string>#a1c45e</string>
-								<key>tbtDistanceTextColor</key>
-								<string>#a1a09d</string>
-								<key>tbtDistanceUpdatedByInterval</key>
-								<true/>
-								<key>tbtAnimationClass</key>
-								<string>AFMCustomTurnByTurnAnimation</string>
-								<key>tbtUpdateInterval</key>
-								<integer>7</integer>
-								<key>tbtUpdateMinimumDistance</key>
-								<integer>50</integer>
-								<key>tbtCellClass</key>
-								<string>AFMUITurnByTurnTableViewCell</string>
-								<key>routeSnappingTolerance</key>
-								<string>PWRouteSnapToleranceHigh</string>
-								<key>floorPickerSortType</key>
-								<integer>0</integer>
-								<key>poiListSectionType</key>
-								<integer>0</integer>
-								<key>poiListLayoutType</key>
-								<real>0</real>
-								<key>shouldShowFilterButton</key>
-								<true/>
-								<key>shouldShowMapButton</key>
-								<true/>
-								<key>showFilterBadge</key>
-								<true/>
-								<key>shouldShowApplePois</key>
-								<false/>
-								<key>cmeIds</key>
-								<string>$app.kAFCMCmeIdKey</string>
-							</dict>
-						</dict>
-						<key>dependencies</key>
-						<array>
-							<dict>
-								<key>className</key>
-								<string>AFCActionIncluder</string>
-								<key>parameters</key>
-								<dict>
-									<key>includeContentType</key>
-									<string>Directory</string>
-									<key>includeContentAction</key>
-									<string>load</string>
-									<key>includeParameters</key>
-									<dict>
-										<key>cmeid</key>
-										<string>$app.kAFCMCmeIdKey</string>
-									</dict>
-								</dict>
-							</dict>
-						</array>
-					</dict>
-				</array>
+				<string>AFMChangeBuildingAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>buildingIDs</key>
+					<string>$action.auxID1</string>
+					<key>poiID</key>
+					<string>$action.auxID2</string>
+				</dict>
 			</dict>
 			<key>displayPicker</key>
 			<dict>
@@ -1243,41 +1079,86 @@
 				<string>AFCLoadViewControllerAction</string>
 				<key>parameters</key>
 				<dict>
+					<key>viewController</key>
+					<string>AFMMapPickerViewController</string>
 					<key>presentationMode</key>
 					<string>push</string>
 					<key>shouldAnimate</key>
 					<true/>
 					<key>properties</key>
 					<dict>
-						<key>buildings</key>
-						<string>$action.buildings</string>
+						<key>buildingIds</key>
+						<string>$action.buildingIDs</string>
+						<key>cellClass</key>
+						<string>AFMMapPickerTableViewCell</string>
+						<key>presenterClassString</key>
+						<string>AFMMapPickerPresenter</string>
+						<key>tableDelegateDataSourceClassString</key>
+						<string>AFMMapPickerDelegateDataSource</string>
 					</dict>
 				</dict>
 			</dict>
-			<key>switch</key>
+			<key>show</key>
 			<dict>
 				<key>className</key>
-				<string>AFMChangeBuildingAction</string>
+				<string>AFCLoadViewControllerAction</string>
 				<key>parameters</key>
 				<dict>
-					<key>pickerViewController</key>
-					<string>AFMUIMapPickerViewController</string>
-					<key>buildings</key>
-					<string>$action.auxID1</string>
-					<key>poiID</key>
-					<string>$action.auxID2</string>
-				</dict>
-			</dict>
-			<key>route</key>
-			<dict>
-				<key>className</key>
-				<string>AFCForwardAction</string>
-				<key>parameters</key>
-				<dict>
-					<key>forwardContentType</key>
-					<string>Route</string>
-					<key>forwardContentAction</key>
-					<string>make</string>
+					<key>viewController</key>
+					<string>AFMMapViewController</string>
+					<key>presentationMode</key>
+					<string>replaceTop</string>
+					<key>shouldAnimate</key>
+					<true/>
+					<key>properties</key>
+					<dict>
+						<key>presenterClassString</key>
+						<string>AFMMapViewPresenter</string>
+						<key>tbtEnabled</key>
+						<true/>
+						<key>tbtPrefixTextColor</key>
+						<string>#a1c45e</string>
+						<key>tbtDistanceTextColor</key>
+						<string>#a1a09d</string>
+						<key>tbtDistanceUpdatedByInterval</key>
+						<true/>
+						<key>tbtAnimationClass</key>
+						<string>AFMCustomTurnByTurnAnimation</string>
+						<key>tbtUpdateInterval</key>
+						<integer>7</integer>
+						<key>tbtUpdateMinimumDistance</key>
+						<integer>50</integer>
+						<key>tbtCellClass</key>
+						<string>AFMTurnByTurnTableViewCell</string>
+						<key>minZoomLevel</key>
+						<integer>200</integer>
+						<key>routeSnappingTolerance</key>
+						<string>PWRouteSnapToleranceHigh</string>
+						<key>floorPickerSortType</key>
+						<integer>0</integer>
+						<key>poiListSectionType</key>
+						<integer>0</integer>
+						<key>poiListLayoutType</key>
+						<real>0</real>
+						<key>shouldShowFilterButton</key>
+						<true/>
+						<key>shouldShowMapButton</key>
+						<true/>
+						<key>showFilterBadge</key>
+						<true/>
+						<key>shouldShowApplePois</key>
+						<false/>
+						<key>shouldRouteOnStart</key>
+						<string>$action.shouldRouteOnStart</string>
+						<key>useCustomPoi</key>
+						<string>$action.useCustomPoi</string>
+						<key>cmeIds</key>
+						<string>$action.cmeIds</string>
+						<key>initialPoi</key>
+						<string>$action.contentId</string>
+						<key>filterPoiTypesSearchOnly</key>
+						<string></string>
+					</dict>
 				</dict>
 				<key>dependencies</key>
 				<array>
@@ -1287,29 +1168,17 @@
 						<key>parameters</key>
 						<dict>
 							<key>includeContentType</key>
-							<string>Map</string>
+							<string>Directory</string>
 							<key>includeContentAction</key>
-							<string>show</string>
+							<string>load</string>
 							<key>includeParameters</key>
 							<dict>
-								<key>contentId</key>
-								<string>$action.contentId</string>
-								<key>useCustomPoi</key>
-								<string>$action.useCustomPoi</string>
+								<key>cmeid</key>
+								<string>$action.cmeIds</string>
 							</dict>
 						</dict>
 					</dict>
 				</array>
-			</dict>
-			<key>showAnnotation</key>
-			<dict>
-				<key>className</key>
-				<string>AFMShowAnnotationCardAction</string>
-			</dict>
-			<key>setLocationProvider</key>
-			<dict>
-				<key>className</key>
-				<string>AFMSetLocationProviderAction</string>
 			</dict>
 			<key>permissionRequest</key>
 			<dict>
@@ -1325,29 +1194,6 @@
 					<string>AFMLocationPermissionHandler</string>
 					<key>viewController</key>
 					<string>AFMLocationPermissionRequestViewController</string>
-				</dict>
-			</dict>
-			<key>homeToVenueRequest</key>
-			<dict>
-				<key>className</key>
-				<string>AFCForwardAction</string>
-				<key>parameters</key>
-				<dict>
-					<key>forwardContentType</key>
-					<string>Notice</string>
-					<key>forwardContentAction</key>
-					<string>request</string>
-					<key>viewController</key>
-					<string>AFMH2VNoticeAlertViewController</string>
-					<key>properties</key>
-					<dict>
-						<key>navigationController</key>
-						<string>$action.navigationController</string>
-						<key>onAcceptPressed</key>
-						<string>$action.onAcceptPressed</string>
-						<key>onDeclinePressed</key>
-						<string>$action.onDeclinePressed</string>
-					</dict>
 				</dict>
 			</dict>
 			<key>overwriteCustomPoiRequest</key>
@@ -1407,11 +1253,13 @@
 					<key>forwardContentAction</key>
 					<string>show</string>
 					<key>viewController</key>
-					<string>AFMPOIFullDetailViewController</string>
+					<string>AFMPoiFullDetailViewController</string>
 					<key>shouldAnimate</key>
 					<false/>
 					<key>properties</key>
 					<dict>
+						<key>presenterClassString</key>
+						<string>AFMPoiFullDetailPresenter</string>
 						<key>itemTitle</key>
 						<string>$action.itemTitle</string>
 						<key>itemSubtitle</key>
@@ -1430,8 +1278,45 @@
 						<string>$action.poi</string>
 						<key>directoryItem</key>
 						<string>$action.directoryItem</string>
-						<key>mapContainer</key>
-						<string>$action.mapContainer</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>push</key>
+			<dict>
+				<key>className</key>
+				<string>AFCForwardAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>forwardContentType</key>
+					<string>Map</string>
+					<key>forwardContentAction</key>
+					<string>show</string>
+					<key>presentationMode</key>
+					<string>push</string>
+					<key>shouldRouteOnStart</key>
+					<string>$action.shouldRouteOnStart</string>
+				</dict>
+			</dict>
+			<key>homeToVenueRequest</key>
+			<dict>
+				<key>className</key>
+				<string>AFCForwardAction</string>
+				<key>parameters</key>
+				<dict>
+					<key>forwardContentType</key>
+					<string>Notice</string>
+					<key>forwardContentAction</key>
+					<string>request</string>
+					<key>viewController</key>
+					<string>AFMH2VNoticeAlertViewController</string>
+					<key>properties</key>
+					<dict>
+						<key>navigationController</key>
+						<string>$action.navigationController</string>
+						<key>onAcceptPressed</key>
+						<string>$action.onAcceptPressed</string>
+						<key>onDeclinePressed</key>
+						<string>$action.onDeclinePressed</string>
 					</dict>
 				</dict>
 			</dict>
@@ -1445,80 +1330,45 @@
 				<key>parameters</key>
 				<dict>
 					<key>viewController</key>
-					<string>AFMUIPOIViewController</string>
+					<string>AFMPoiDirectoryViewController</string>
 					<key>presentationMode</key>
 					<string>push</string>
 					<key>shouldAnimate</key>
 					<true/>
 					<key>properties</key>
 					<dict>
-						<key>currentBuilding</key>
-						<string>$action.currentBuilding</string>
-						<key>currentFloor</key>
-						<string>$action.currentFloor</string>
-						<key>favoritesContext</key>
-						<string>$module.mapFavoritesContext</string>
-						<key>annotations</key>
-						<string>$module.pois</string>
-						<key>floors</key>
-						<string>$action.floors</string>
-						<key>focusSearchBarOnDidAppear</key>
-						<string>$action.focusSearchBarOnDidAppear</string>
-						<key>alphaSorted</key>
-						<true/>
+						<key>presenterClassString</key>
+						<string>AFMPoiDirectoryPresenter</string>
+						<key>tableDelegateDataSourceClassString</key>
+						<string>AFMPoiDirectoryDelegateDataSource</string>
 						<key>poiListSectionType</key>
 						<string>$action.poiListSectionType</string>
 						<key>poiListLayoutType</key>
 						<string>$action.poiListLayoutType</string>
+						<key>focusSearchBarOnDidAppear</key>
+						<string>$action.focusSearchBarOnDidAppear</string>
 						<key>shouldShowFilterButton</key>
 						<string>$action.shouldShowFilterButton</string>
 						<key>shouldShowMapButton</key>
 						<string>$action.shouldShowMapButton</string>
-						<key>poiSelectedDelegate</key>
-						<string>$action.poiSelectedDelegate</string>
 						<key>showFilterBadge</key>
 						<true/>
 						<key>filterPoiTypesSearchOnly</key>
-						<string></string>
+						<string>$action.filterPoiTypesSearchOnly</string>
+						<key>onPoiSelected</key>
+						<string>$action.onPoiSelected</string>
 						<key>shouldShowCustomPoi</key>
-						<true/>
+						<string>$action.shouldShowCustomPoi</string>
 						<key>shouldShowUserLocation</key>
-						<false/>
-					</dict>
-				</dict>
-			</dict>
-			<key>showSearch</key>
-			<dict>
-				<key>className</key>
-				<string>AFCLoadViewControllerAction</string>
-				<key>parameters</key>
-				<dict>
-					<key>viewController</key>
-					<string>AFMUIPOIViewController</string>
-					<key>presentationMode</key>
-					<string>push</string>
-					<key>shouldAnimate</key>
-					<false/>
-					<key>properties</key>
-					<dict>
-						<key>favoritesContext</key>
-						<string>$module.mapFavoritesContext</string>
-						<key>annotations</key>
-						<string>$module.pois</string>
-						<key>floors</key>
-						<string>$action.floors</string>
-						<key>focusSearchBarOnDidAppear</key>
-						<true/>
-						<key>alphaSorted</key>
-						<true/>
-						<key>poiListSectionType</key>
-						<integer>0</integer>
-						<key>poiListLayoutType</key>
-						<integer>0</integer>
-						<key>showFilterIcon</key>
-						<true/>
-						<key>showFilterBadge</key>
-						<true/>
+						<string>$action.shouldShowUserLocation</string>
+						<key>startPoiIdentifier</key>
+						<string>$action.startPoiIdentifier</string>
+						<key>endPoiIdentifier</key>
+						<string>$action.endPoiIdentifier</string>
+						<key>searchBarPlaceholderText</key>
+						<string>$action.searchBarPlaceholderText</string>
+						<key>userLocation</key>
+						<string>$action.userLocation</string>
 					</dict>
 				</dict>
 			</dict>
@@ -1534,7 +1384,7 @@
 					<key>viewController</key>
 					<string>AFMMapCategoryViewController</string>
 					<key>presentationMode</key>
-					<string>modal</string>
+					<string>modalPush</string>
 					<key>shouldAnimate</key>
 					<true/>
 					<key>properties</key>
@@ -1548,21 +1398,6 @@
 						<key>cellClass</key>
 						<string>AFMCategoryTableViewCell</string>
 					</dict>
-				</dict>
-			</dict>
-		</dict>
-		<key>NativeMaps</key>
-		<dict>
-			<key>show</key>
-			<dict>
-				<key>className</key>
-				<string>AFMStartRouteInNativeMapsAction</string>
-				<key>parameters</key>
-				<dict>
-					<key>accessible</key>
-					<string>$action.accessible</string>
-					<key>useCustomPoi</key>
-					<string>$action.useCustomPoi</string>
 				</dict>
 			</dict>
 		</dict>
@@ -1818,64 +1653,14 @@
 		</dict>
 		<key>Route</key>
 		<dict>
-			<key>link</key>
-			<dict>
-				<key>className</key>
-				<string>AFMStartRouteBuilderUIAction</string>
-				<key>dependencies</key>
-				<array>
-					<dict>
-						<key>className</key>
-						<string>AFCActionIncluder</string>
-						<key>parameters</key>
-						<dict>
-							<key>includeContentType</key>
-							<string>Map</string>
-							<key>includeContentAction</key>
-							<string>push</string>
-							<key>includeParameters</key>
-							<dict>
-								<key>contentId</key>
-								<string>$action.POI</string>
-							</dict>
-						</dict>
-					</dict>
-					<dict>
-						<key>className</key>
-						<string>AFMVerifyUserInFacilityAction</string>
-						<key>parameters</key>
-						<dict>
-							<key>resultsKey</key>
-							<string>show</string>
-						</dict>
-					</dict>
-				</array>
-			</dict>
-			<key>make</key>
-			<dict>
-				<key>className</key>
-				<string>AFMStartRouteBuilderUIAction</string>
-				<key>dependencies</key>
-				<array>
-					<dict>
-						<key>className</key>
-						<string>AFMVerifyUserInFacilityAction</string>
-						<key>parameters</key>
-						<dict>
-							<key>resultsKey</key>
-							<string>show</string>
-						</dict>
-					</dict>
-				</array>
-			</dict>
-			<key>showUI</key>
+			<key>build</key>
 			<dict>
 				<key>className</key>
 				<string>AFCLoadViewControllerAction</string>
 				<key>parameters</key>
 				<dict>
 					<key>viewController</key>
-					<string>AFMRouteSelectionViewController</string>
+					<string>AFMRouteBuilderViewController</string>
 					<key>presentationMode</key>
 					<string>modalPush</string>
 					<key>shouldAnimate</key>
@@ -1886,10 +1671,6 @@
 						<string>$action.userLocation</string>
 						<key>destination</key>
 						<string>$action.destination</string>
-						<key>floors</key>
-						<string>$action.floors</string>
-						<key>showOutdoorToIndoorStart</key>
-						<string>$action.outdoor2Indoor</string>
 						<key>homeToVenueEnabled</key>
 						<true/>
 						<key>routeButtonEnabledBackgroundColor</key>
@@ -1910,17 +1691,9 @@
 						<false/>
 						<key>filterPoiTypesSearchOnly</key>
 						<string></string>
+						<key>onRouteCreated</key>
+						<string>$action.onRouteCreated</string>
 					</dict>
-				</dict>
-			</dict>
-			<key>show</key>
-			<dict>
-				<key>className</key>
-				<string>AFMPresentRouteAction</string>
-				<key>parameters</key>
-				<dict>
-					<key>route</key>
-					<string>$action.route</string>
 				</dict>
 			</dict>
 		</dict>

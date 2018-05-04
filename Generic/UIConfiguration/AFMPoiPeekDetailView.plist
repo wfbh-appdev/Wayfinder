@@ -55,7 +55,7 @@
 		<key>fontSize</key>
 		<integer>15</integer>
 	</dict>
-	<key>view</key>
+	<key>self</key>
 	<dict>
 		<key>constraints</key>
 		<array>
@@ -67,7 +67,7 @@
 			<string>H:|-24-[itemTitleLabel]-24-|</string>
 			<string>H:|-23-[itemSubtitleLabel]-24-|</string>
 			<string>V:|-47-[itemTitleLabel]-[itemSubtitleLabel]</string>
-			<string>#buttonsView.top=view.top,1,0</string>
+			<string>#buttonsView.top=self.top,1,0</string>
 			<string>#itemTitleLabel.top=buttonsView.bottom,1,24</string>
 		</array>
 	</dict>

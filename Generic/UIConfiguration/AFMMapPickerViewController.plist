@@ -3,8 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>view</key>
-	<dict/>
-	<key>table</key>
+	<dict>
+		<key>constraints</key>
+		<array>
+			<string>H:|[tableView]|</string>
+			<string>V:|[tableView]|</string>
+			<string>#noResultsLabel.width=self.width,0.75,0</string>
+			<string>#noResultsLabel.centerx=self.centerx,1,0</string>
+			<string>#noResultsLabel.centery=self.centery,0.45,0</string>
+		</array>
+	</dict>
+	<key>tableView</key>
 	<dict/>
 	<key>titleLabel</key>
 	<dict>
@@ -34,6 +43,21 @@
 		<string>$MainFontLight</string>
 		<key>searchBarTextFieldTextSize</key>
 		<string>14</string>
+	</dict>
+	<key>noResultsLabel</key>
+	<dict>
+		<key>text</key>
+		<string>#afmmappickerviewcontroller.noresultslabel.text,AppFrameworkMapping</string>
+		<key>fontName</key>
+		<string>$MainFontBold</string>
+		<key>fontSize</key>
+		<integer>18</integer>
+		<key>color</key>
+		<string>#AAAAAA</string>
+		<key>alignment</key>
+		<string>center</string>
+		<key>lines</key>
+		<string>0</string>
 	</dict>
 </dict>
 </plist>

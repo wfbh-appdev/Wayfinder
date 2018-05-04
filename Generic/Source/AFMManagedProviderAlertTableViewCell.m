@@ -7,7 +7,7 @@
 //
 
 #import "AFMManagedProviderAlertTableViewCell.h"
-#import <AppFrameworkMappingModule/AFMAppStateConstants.h>
+#import <AppFrameworkMappingModule/AFMMapConstants.h>
 
 
 @implementation AFMManagedProviderAlertTableViewCell

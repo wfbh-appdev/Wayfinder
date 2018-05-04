@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>floorTitleLabel</key>
+	<dict>
+		<key>fontName</key>
+		<string>$MainFont</string>
+		<key>fontSize</key>
+		<integer>16</integer>
+		<key>color</key>
+		<string>#FFFFFF</string>
+		<key>alignment</key>
+		<string>center</string>
+		<key>lines</key>
+		<string>1</string>
+	</dict>
+	<key>caretImageView</key>
+	<dict>
+		<key>image</key>
+		<string>downcarot</string>
+	</dict>
+	<key>self</key>
+	<dict>
+		<key>constraints</key>
+		<array>
+			<string>H:|[floorTitleLabel]|</string>
+			<string>V:|[floorTitleLabel][caretImageView]|</string>
+			<string>#caretImageView.centerx=self.centerx,1,0</string>
+		</array>
+	</dict>
+</dict>
+</plist>

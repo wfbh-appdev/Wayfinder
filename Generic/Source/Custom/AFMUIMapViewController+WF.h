@@ -6,8 +6,9 @@
 //  Copyright © 2018 Phunware. All rights reserved.
 //
 
-#import <AppFrameworkMappingModule/AFMUIMapViewController.h>
+//#import <AppFrameworkMappingModule/AFMUIMapViewController.h>
+//
+//@interface AFMUIMapViewController (WF)
+//
+//@end
 
-@interface AFMUIMapViewController (WF)
-
-@end

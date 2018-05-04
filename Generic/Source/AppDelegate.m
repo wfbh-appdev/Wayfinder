@@ -16,7 +16,6 @@
 #import <AppFrameworkCore/AppFrameworkCore.h>
 #import "AFGoogleAnalyticsController.h"
 #import <Crashlytics/Crashlytics.h>
-#import <AppFrameworkMappingModule/AFMOutdoorToIndoor.h>
 
 
 @implementation AppDelegate
@@ -34,7 +33,13 @@
     [[UIApplication sharedApplication] registerAnalyticsDelegate:[[AFGoogleAnalyticsController alloc] init]];
 
     if ([launchOptions valueForKey:UIApplicationLaunchOptionsLocationKey]) {
-        [AFMOutdoorToIndoor sharedConfiguration];
+        //[AFMOutdoorToIndoor sharedConfiguration];
+    }
+    
+    //Disable animations on UI Tests to help speed them up
+    NSString *configDisableAnimations = [NSProcessInfo.processInfo.environment objectForKey:@"UITEST_DISABLE_ANIMATIONS"];
+    if (configDisableAnimations && [configDisableAnimations boolValue] == YES){
+        [UIView setAnimationsEnabled:NO];
     }
 
     return [super application:application willFinishLaunchingWithOptions:launchOptions];

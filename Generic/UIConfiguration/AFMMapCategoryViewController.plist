@@ -2,12 +2,21 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>topBar</key>
+	<key>navigationBar</key>
 	<dict>
-		<key>barTintColor</key>
-		<string>#363636</string>
-		<key>tintColor</key>
-		<string>#ffffff</string>
+		<key>type</key>
+		<string>DefaultNavBar</string>
+	</dict>
+	<key>titleLabel</key>
+	<dict>
+		<key>fontName</key>
+		<string>.SFUIText-Medium</string>
+		<key>fontSize</key>
+		<string>17</string>
+		<key>color</key>
+		<string>$WhiteColor</string>
+		<key>text</key>
+		<string>#afcuimpoicategoryviewcontroller.titlelabel.text,AppFrameworkMapping</string>
 	</dict>
 	<key>tableView</key>
 	<dict>
@@ -51,23 +60,15 @@
 		<key>shadowRadius</key>
 		<integer>2</integer>
 	</dict>
-	<key>titleLabel</key>
-	<dict>
-		<key>text</key>
-		<string>#afcuimpoicategoryviewcontroller.titlelabel.text,AppFrameworkMapping</string>
-	</dict>
 	<key>view</key>
 	<dict>
-		<key>title</key>
-		<string>Categories</string>
 		<key>constraints</key>
 		<array>
-			<string>H:|[topBar]|</string>
 			<string>H:|[tableView]|</string>
 			<string>H:|[buttonContainerView]|</string>
 			<string>H:|-22.5-[applyFiltersButton]-22.5-|</string>
 			<string>V:|-[applyFiltersButton(48.5)]-24-|</string>
-			<string>V:|-20-[topBar][tableView][buttonContainerView]|</string>
+			<string>V:|[tableView][buttonContainerView]|</string>
 		</array>
 	</dict>
 </dict>

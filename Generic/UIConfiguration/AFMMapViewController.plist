@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>mapView</key>
+	<dict/>
+	<key>searchBar</key>
+	<dict>
+		<key>searchBarBackgroundColor</key>
+		<string>#363636</string>
+		<key>searchBarTintColor</key>
+		<string>$WhiteColor</string>
+		<key>searchBarBarTintColor</key>
+		<string>#363636</string>
+		<key>searchBarPlaceholder</key>
+		<string>Search</string>
+		<key>searchBarTextFieldBackgroundColor</key>
+		<string>$BlackColor</string>
+		<key>searchBarTextFieldTextColor</key>
+		<string>$WhiteColor</string>
+		<key>searchBarTextFieldTextFont</key>
+		<string>$MainFontLight</string>
+		<key>searchBarTextFieldTextSize</key>
+		<string>14</string>
+	</dict>
+	<key>badgeLabel</key>
+	<dict>
+		<key>fontName</key>
+		<string>.SFUIDisplay-Medium</string>
+		<key>fontSize</key>
+		<string>10</string>
+		<key>borderColor</key>
+		<string>#007aff</string>
+		<key>borderWidth</key>
+		<integer>2</integer>
+		<key>cornerRadius</key>
+		<string>8</string>
+		<key>alignment</key>
+		<string>center</string>
+		<key>color</key>
+		<string>$WhiteColor</string>
+		<key>backgroundColor</key>
+		<string>#007aff</string>
+	</dict>
+	<key>trackingButton</key>
+	<dict/>
+	<key>view</key>
+	<dict>
+		<key>backgroundColor</key>
+		<string>#D3D3D3</string>
+		<key>constraints</key>
+		<array>
+			<string>H:|[searchBar]|</string>
+			<string>H:|[mapView]|</string>
+			<string>V:|[searchBar]</string>
+			<string>V:|[mapView]|</string>
+			<string>H:|-10-[trackingButton(44)]</string>
+			<string>V:[trackingButton(44)]-25-|</string>
+		</array>
+	</dict>
+</dict>
+</plist>
