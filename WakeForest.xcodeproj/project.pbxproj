@@ -36,7 +36,7 @@
 		0B9273C5209D19F600E99D6A /* ModuleDefinition.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B9273C4209D19F600E99D6A /* ModuleDefinition.plist */; };
 		135B581B1F4CC9B5001A64FA /* AFDDirectoryCategoryViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 135B581A1F4CC9B5001A64FA /* AFDDirectoryCategoryViewController.plist */; };
 		137E88AA1F4CA57600DEF7A3 /* AFCCategoryViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 137E88A91F4CA57600DEF7A3 /* AFCCategoryViewController.plist */; };
-		43BBFB7720879F69000BECA5 /* AFMUIMapViewController+WF.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BBFB7620879F69000BECA5 /* AFMUIMapViewController+WF.m */; };
+		43BBFB7720879F69000BECA5 /* AFMMapViewController+WF.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BBFB7620879F69000BECA5 /* AFMMapViewController+WF.m */; };
 		55173FDE1D62790500EE540B /* UIConfigurationDefault.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55173FDD1D62790500EE540B /* UIConfigurationDefault.plist */; };
 		551BF9251C1B51E9004D7ECD /* (null) in Resources */ = {isa = PBXBuildFile; };
 		551BF9261C1B51E9004D7ECD /* (null) in Resources */ = {isa = PBXBuildFile; };
@@ -148,8 +148,8 @@
 		0B9273C4209D19F600E99D6A /* ModuleDefinition.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ModuleDefinition.plist; sourceTree = "<group>"; };
 		135B581A1F4CC9B5001A64FA /* AFDDirectoryCategoryViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFDDirectoryCategoryViewController.plist; path = AppFrameworkDirectory/AFDDirectoryCategoryViewController.plist; sourceTree = "<group>"; };
 		137E88A91F4CA57600DEF7A3 /* AFCCategoryViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFCCategoryViewController.plist; path = AppFrameworkCore/AFCCategoryViewController.plist; sourceTree = "<group>"; };
-		43BBFB7520879F69000BECA5 /* AFMUIMapViewController+WF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFMUIMapViewController+WF.h"; sourceTree = "<group>"; };
-		43BBFB7620879F69000BECA5 /* AFMUIMapViewController+WF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AFMUIMapViewController+WF.m"; sourceTree = "<group>"; };
+		43BBFB7520879F69000BECA5 /* AFMMapViewController+WF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFMMapViewController+WF.h"; sourceTree = "<group>"; };
+		43BBFB7620879F69000BECA5 /* AFMMapViewController+WF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AFMMapViewController+WF.m"; sourceTree = "<group>"; };
 		55173FDD1D62790500EE540B /* UIConfigurationDefault.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UIConfigurationDefault.plist; sourceTree = "<group>"; };
 		5555DB041C4460C900E37207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5555DB061C4460CC00E37207 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -299,8 +299,8 @@
 		43BBFB712087953F000BECA5 /* Custom */ = {
 			isa = PBXGroup;
 			children = (
-				43BBFB7520879F69000BECA5 /* AFMUIMapViewController+WF.h */,
-				43BBFB7620879F69000BECA5 /* AFMUIMapViewController+WF.m */,
+				43BBFB7520879F69000BECA5 /* AFMMapViewController+WF.h */,
+				43BBFB7620879F69000BECA5 /* AFMMapViewController+WF.m */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -842,7 +842,7 @@
 				0B92739B209D194500E99D6A /* AFGoogleAnalyticsController.m in Sources */,
 				8F06130F1BC8569800A55F16 /* main.m in Sources */,
 				0B9273A1209D194500E99D6A /* SplashViewController.m in Sources */,
-				43BBFB7720879F69000BECA5 /* AFMUIMapViewController+WF.m in Sources */,
+				43BBFB7720879F69000BECA5 /* AFMMapViewController+WF.m in Sources */,
 				0B927399209D194500E99D6A /* AFCUILocationProviderViewClassTableViewCell.m in Sources */,
 				0B92739C209D194500E99D6A /* AppDelegate.m in Sources */,
 			);
@@ -1215,8 +1215,8 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.wakeforest.ios;
 				PRODUCT_NAME = WakeForest;
-				PROVISIONING_PROFILE = "ab72acd9-90b6-426d-8264-36225575d12e";
-				PROVISIONING_PROFILE_SPECIFIER = WakeForest_Enterprise_Jun092019;
+				PROVISIONING_PROFILE = "30367ba0-10b0-4eeb-a037-6411b9676b41";
+				PROVISIONING_PROFILE_SPECIFIER = WakeForest_Enterprise;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1246,8 +1246,8 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.wakeforest.ios;
 				PRODUCT_NAME = WakeForest;
-				PROVISIONING_PROFILE = "ab72acd9-90b6-426d-8264-36225575d12e";
-				PROVISIONING_PROFILE_SPECIFIER = WakeForest_Enterprise_Jun092019;
+				PROVISIONING_PROFILE = "30367ba0-10b0-4eeb-a037-6411b9676b41";
+				PROVISIONING_PROFILE_SPECIFIER = WakeForest_Enterprise;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -1326,8 +1326,8 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.wakeforest.ios;
 				PRODUCT_NAME = WakeForest;
-				PROVISIONING_PROFILE = "ab72acd9-90b6-426d-8264-36225575d12e";
-				PROVISIONING_PROFILE_SPECIFIER = WakeForest_Enterprise_Jun092019;
+				PROVISIONING_PROFILE = "30367ba0-10b0-4eeb-a037-6411b9676b41";
+				PROVISIONING_PROFILE_SPECIFIER = WakeForest_Enterprise;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Distribution;
@@ -1410,8 +1410,8 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.wakeforest.ios;
 				PRODUCT_NAME = WakeForest;
-				PROVISIONING_PROFILE = "ab72acd9-90b6-426d-8264-36225575d12e";
-				PROVISIONING_PROFILE_SPECIFIER = WakeForest_Enterprise_Jun092019;
+				PROVISIONING_PROFILE = "30367ba0-10b0-4eeb-a037-6411b9676b41";
+				PROVISIONING_PROFILE_SPECIFIER = WakeForest_Enterprise;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = AdHoc;
