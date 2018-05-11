@@ -1130,8 +1130,6 @@
 						<integer>50</integer>
 						<key>tbtCellClass</key>
 						<string>AFMTurnByTurnTableViewCell</string>
-						<key>minZoomLevel</key>
-						<integer>200</integer>
 						<key>routeSnappingTolerance</key>
 						<string>PWRouteSnapToleranceHigh</string>
 						<key>floorPickerSortType</key>
