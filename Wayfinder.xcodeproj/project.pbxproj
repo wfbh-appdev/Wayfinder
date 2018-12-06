@@ -38,10 +38,10 @@
 		137E88AA1F4CA57600DEF7A3 /* AFCCategoryViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 137E88A91F4CA57600DEF7A3 /* AFCCategoryViewController.plist */; };
 		43BBFB7720879F69000BECA5 /* AFMMapViewController+WF.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BBFB7620879F69000BECA5 /* AFMMapViewController+WF.m */; };
 		55173FDE1D62790500EE540B /* UIConfigurationDefault.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55173FDD1D62790500EE540B /* UIConfigurationDefault.plist */; };
-		551BF9251C1B51E9004D7ECD /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		551BF9261C1B51E9004D7ECD /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		551BF9271C1B51E9004D7ECD /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		551BF9281C1B51E9004D7ECD /* BuildFile in Resources */ = {isa = PBXBuildFile; };
+		551BF9251C1B51E9004D7ECD /* (null) in Resources */ = {isa = PBXBuildFile; };
+		551BF9261C1B51E9004D7ECD /* (null) in Resources */ = {isa = PBXBuildFile; };
+		551BF9271C1B51E9004D7ECD /* (null) in Resources */ = {isa = PBXBuildFile; };
+		551BF9281C1B51E9004D7ECD /* (null) in Resources */ = {isa = PBXBuildFile; };
 		5555DB031C4460C900E37207 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5555DB051C4460C900E37207 /* InfoPlist.strings */; };
 		55BAB7CB1C3EB98600799988 /* PhunwareIntegration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55BAB7CD1C3EB98600799988 /* PhunwareIntegration.plist */; };
 		7E1F56351FAD926E002EF330 /* AFDCategoryTableViewCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E1F56341FAD926E002EF330 /* AFDCategoryTableViewCell.plist */; };
@@ -89,8 +89,8 @@
 		8F8C54281BD7E59B0018A2ED /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 8F8C54271BD7E59B0018A2ED /* iTunesArtwork */; };
 		8FB674781BD6D73000E7BFE4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FB674771BD6D73000E7BFE4 /* LaunchScreen.xib */; };
 		8FDD0F491BD190B900A0C512 /* ApplicationShortcuts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FDD0F481BD190B900A0C512 /* ApplicationShortcuts.plist */; };
-		A2B61E5B1EAFF5BB0023BC53 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		A2B61E5E1EAFF5BB0023BC53 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
+		A2B61E5B1EAFF5BB0023BC53 /* (null) in Resources */ = {isa = PBXBuildFile; };
+		A2B61E5E1EAFF5BB0023BC53 /* (null) in Resources */ = {isa = PBXBuildFile; };
 		C3F32B611F0ADA0000495919 /* AppFrameworkCore.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3F32B4C1F0ADA0000495919 /* AppFrameworkCore.strings */; };
 		C3F32B621F0ADA0000495919 /* AppFrameworkDirectory.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3F32B4E1F0ADA0000495919 /* AppFrameworkDirectory.strings */; };
 		C3F32B631F0ADA0000495919 /* AppFrameworkEvents.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3F32B501F0ADA0000495919 /* AppFrameworkEvents.strings */; };
@@ -150,6 +150,7 @@
 		137E88A91F4CA57600DEF7A3 /* AFCCategoryViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AFCCategoryViewController.plist; path = AppFrameworkCore/AFCCategoryViewController.plist; sourceTree = "<group>"; };
 		43BBFB7520879F69000BECA5 /* AFMMapViewController+WF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFMMapViewController+WF.h"; sourceTree = "<group>"; };
 		43BBFB7620879F69000BECA5 /* AFMMapViewController+WF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AFMMapViewController+WF.m"; sourceTree = "<group>"; };
+		4F0D6F7D21B86F1300DEF988 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		55173FDD1D62790500EE540B /* UIConfigurationDefault.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UIConfigurationDefault.plist; sourceTree = "<group>"; };
 		5555DB041C4460C900E37207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5555DB061C4460CC00E37207 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -157,7 +158,7 @@
 		55BAB7CC1C3EB98600799988 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/PhunwareIntegration.plist; sourceTree = "<group>"; };
 		55BAB7CE1C3EB98800799988 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = es; path = es.lproj/PhunwareIntegration.plist; sourceTree = "<group>"; };
 		5D09A0912FD2671C5AD73903 /* libPods-WakeForest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WakeForest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7398DE2C203FE0CE00D57288 /* WakeForest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WakeForest.entitlements; sourceTree = "<group>"; };
+		7398DE2C203FE0CE00D57288 /* Wayfinder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Wayfinder.entitlements; sourceTree = "<group>"; };
 		7E1F56341FAD926E002EF330 /* AFDCategoryTableViewCell.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = AFDCategoryTableViewCell.plist; path = AppFrameworkDirectory/AFDCategoryTableViewCell.plist; sourceTree = "<group>"; };
 		7E5423961FE1EB0300E1A7EB /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/AppFrameworkCore.strings"; sourceTree = "<group>"; };
 		7E5423971FE1EB0300E1A7EB /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/AppFrameworkDirectory.strings"; sourceTree = "<group>"; };
@@ -228,7 +229,7 @@
 		8C8951D41CD3C832005CBC96 /* Austin.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Austin.gpx; path = Generic/Austin.gpx; sourceTree = "<group>"; };
 		8CA4FA051C8F9FE900E0028C /* 20160120_android_multilayer_sandbox.s3db */ = {isa = PBXFileReference; lastKnownFileType = file; path = 20160120_android_multilayer_sandbox.s3db; sourceTree = "<group>"; };
 		8CB729D11C20A30D00F016B7 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
-		8F06130A1BC8569800A55F16 /* WakeForest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WakeForest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F06130A1BC8569800A55F16 /* Wayfinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wayfinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F06130E1BC8569800A55F16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8F106FA21BC9D44000CCDD86 /* InteractivePushNotificationCategories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = InteractivePushNotificationCategories.plist; sourceTree = "<group>"; };
 		8F43557D1BC858B700FFD46C /* Customization.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Customization.xcassets; sourceTree = "<group>"; };
@@ -423,7 +424,7 @@
 		8F0613011BC8569800A55F16 = {
 			isa = PBXGroup;
 			children = (
-				7398DE2C203FE0CE00D57288 /* WakeForest.entitlements */,
+				7398DE2C203FE0CE00D57288 /* Wayfinder.entitlements */,
 				8C8951D41CD3C832005CBC96 /* Austin.gpx */,
 				8F06130C1BC8569800A55F16 /* Generic */,
 				8C86BCF22016B064007E2FFE /* GenericUITests */,
@@ -436,7 +437,7 @@
 		8F06130B1BC8569800A55F16 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8F06130A1BC8569800A55F16 /* WakeForest.app */,
+				8F06130A1BC8569800A55F16 /* Wayfinder.app */,
 				8C86BCF12016B064007E2FFE /* GenericUITests.xctest */,
 			);
 			name = Products;
@@ -576,9 +577,9 @@
 			productReference = 8C86BCF12016B064007E2FFE /* GenericUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		8F0613091BC8569800A55F16 /* WakeForest */ = {
+		8F0613091BC8569800A55F16 /* Wayfinder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F0613211BC8569800A55F16 /* Build configuration list for PBXNativeTarget "WakeForest" */;
+			buildConfigurationList = 8F0613211BC8569800A55F16 /* Build configuration list for PBXNativeTarget "Wayfinder" */;
 			buildPhases = (
 				66564558351BA9BBD3F9917E /* [CP] Check Pods Manifest.lock */,
 				8F0613061BC8569800A55F16 /* Sources */,
@@ -586,15 +587,15 @@
 				8F0613081BC8569800A55F16 /* Resources */,
 				8CB729D01C20A1D000F016B7 /* ShellScript */,
 				2E58BF4339C92E477C9DCF89 /* [CP] Embed Pods Frameworks */,
-				D0DD8CEAC4CA89B5A009AB25 /* [CP] Copy Pods Resources */,
+				4F0D6F7F21B86FB000DEF988 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = WakeForest;
+			name = Wayfinder;
 			productName = MallApp;
-			productReference = 8F06130A1BC8569800A55F16 /* WakeForest.app */;
+			productReference = 8F06130A1BC8569800A55F16 /* Wayfinder.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -603,8 +604,8 @@
 		8F0613021BC8569800A55F16 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = Phunware;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Wake Forest Baptist Health";
 				TargetAttributes = {
 					8C86BCF02016B064007E2FFE = {
 						CreatedOnToolsVersion = 9.2;
@@ -613,8 +614,8 @@
 					};
 					8F0613091BC8569800A55F16 = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = 84CK77G588;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = G373H4JANC;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -626,7 +627,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8F0613051BC8569800A55F16 /* Build configuration list for PBXProject "WakeForest" */;
+			buildConfigurationList = 8F0613051BC8569800A55F16 /* Build configuration list for PBXProject "Wayfinder" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -644,7 +645,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8F0613091BC8569800A55F16 /* WakeForest */,
+				8F0613091BC8569800A55F16 /* Wayfinder */,
 				8C86BCF02016B064007E2FFE /* GenericUITests */,
 			);
 		};
@@ -667,7 +668,7 @@
 				7EF95E061F26EFDD00CB9826 /* AFMCOfferTableViewCell.plist in Resources */,
 				8F8C54281BD7E59B0018A2ED /* iTunesArtwork in Resources */,
 				55BAB7CB1C3EB98600799988 /* PhunwareIntegration.plist in Resources */,
-				551BF9281C1B51E9004D7ECD /* BuildFile in Resources */,
+				551BF9281C1B51E9004D7ECD /* (null) in Resources */,
 				C3F32B651F0ADA0000495919 /* AppFrameworkMessageCenter.strings in Resources */,
 				7EF95DFD1F26EC5E00CB9826 /* AFEEventsDetailViewController.plist in Resources */,
 				0B92739E209D194500E99D6A /* GenericAppNavigationController.xib in Resources */,
@@ -679,9 +680,9 @@
 				0B9273C0209D199300E99D6A /* AFMPoiPeekDetailView.plist in Resources */,
 				0B9273C5209D19F600E99D6A /* ModuleDefinition.plist in Resources */,
 				C3F32B661F0ADA0000495919 /* AppFrameworkParking.strings in Resources */,
-				551BF9251C1B51E9004D7ECD /* BuildFile in Resources */,
+				551BF9251C1B51E9004D7ECD /* (null) in Resources */,
 				0B9273BE209D199300E99D6A /* AFMPoiListNoImageTableViewCell.plist in Resources */,
-				551BF9271C1B51E9004D7ECD /* BuildFile in Resources */,
+				551BF9271C1B51E9004D7ECD /* (null) in Resources */,
 				0B9273BC209D199300E99D6A /* AFMPoiFullDetailViewController.plist in Resources */,
 				0B9273C3209D199300E99D6A /* AFMMapPickerViewController.plist in Resources */,
 				7EF95E121F2700EE00CB9826 /* AFCParkingVoiceMemoViewController.plist in Resources */,
@@ -691,7 +692,7 @@
 				7EF95E041F26EFDD00CB9826 /* AFMCOfferDetailViewController.plist in Resources */,
 				0B9273C1209D199300E99D6A /* AFMDeleteCustomPoiViewController.plist in Resources */,
 				7EF95E311F27C8DC00CB9826 /* AFCLayerPickerViewController.plist in Resources */,
-				A2B61E5E1EAFF5BB0023BC53 /* BuildFile in Resources */,
+				A2B61E5E1EAFF5BB0023BC53 /* (null) in Resources */,
 				0B9273BD209D199300E99D6A /* AFMLocationPermissionRequestViewController.plist in Resources */,
 				55173FDE1D62790500EE540B /* UIConfigurationDefault.plist in Resources */,
 				7E66B3871F7564A000B04A7E /* Weather.xcassets in Resources */,
@@ -707,7 +708,7 @@
 				7EF95DF51F26E91400CB9826 /* AFDDirectoryItemViewController.plist in Resources */,
 				7EF95E0F1F2700EE00CB9826 /* AFCParkingNoteViewController.plist in Resources */,
 				0B9273C2209D199300E99D6A /* AFMRouteBuilderViewController.plist in Resources */,
-				551BF9261C1B51E9004D7ECD /* BuildFile in Resources */,
+				551BF9261C1B51E9004D7ECD /* (null) in Resources */,
 				0B9273B5209D199300E99D6A /* AFMFloorNameView.plist in Resources */,
 				7EF95E111F2700EE00CB9826 /* AFCParkingViewController.plist in Resources */,
 				137E88AA1F4CA57600DEF7A3 /* AFCCategoryViewController.plist in Resources */,
@@ -725,7 +726,7 @@
 				7EF95E3C1F27C90400CB9826 /* AFCUITrayMenuViewController.plist in Resources */,
 				7E84E8DD1F9FA4C10038369B /* AFEEventsCollectionViewCell.plist in Resources */,
 				135B581B1F4CC9B5001A64FA /* AFDDirectoryCategoryViewController.plist in Resources */,
-				A2B61E5B1EAFF5BB0023BC53 /* BuildFile in Resources */,
+				A2B61E5B1EAFF5BB0023BC53 /* (null) in Resources */,
 				C3F32B611F0ADA0000495919 /* AppFrameworkCore.strings in Resources */,
 				0B9273B3209D199300E99D6A /* AFMH2VNoticeAlertViewController.plist in Resources */,
 				8FB674781BD6D73000E7BFE4 /* LaunchScreen.xib in Resources */,
@@ -772,6 +773,23 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WakeForest/Pods-WakeForest-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		4F0D6F7F21B86FB000DEF988 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"\n";
+		};
 		66564558351BA9BBD3F9917E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -802,21 +820,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "./Crashlytics.framework/run b8127086af392cb1b73dc00a7387bb7a0856138f 47c407d9fb90f3350023f2dac10c37722a9caf3ae98396a16b0b41715177000a";
-		};
-		D0DD8CEAC4CA89B5A009AB25 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WakeForest/Pods-WakeForest-resources.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -850,7 +853,7 @@
 /* Begin PBXTargetDependency section */
 		8C86BCF72016B064007E2FFE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8F0613091BC8569800A55F16 /* WakeForest */;
+			target = 8F0613091BC8569800A55F16 /* Wayfinder */;
 			targetProxy = 8C86BCF62016B064007E2FFE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -865,6 +868,7 @@
 				C33EA5BF1E48D78D00D48C28 /* ar */,
 				C33EA5C01E48D78E00D48C28 /* zh */,
 				7E54239E1FE1EB0400E1A7EB /* pt-PT */,
+				4F0D6F7D21B86F1300DEF988 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -1099,12 +1103,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1112,9 +1118,11 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 43BRM2WRE2;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1153,12 +1161,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1166,9 +1176,11 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 43BRM2WRE2;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1196,11 +1208,11 @@
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = WakeForest.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 84CK77G588;
+				DEVELOPMENT_TEAM = G373H4JANC;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1210,10 +1222,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.wakeforest.ios;
-				PRODUCT_NAME = WakeForest;
-				PROVISIONING_PROFILE = "ab72acd9-90b6-426d-8264-36225575d12e";
-				PROVISIONING_PROFILE_SPECIFIER = WakeForest_Enterprise_Jun092019;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.wakehealth.wayfinderAppStore;
+				PRODUCT_NAME = Wayfinder;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1227,11 +1239,11 @@
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = WakeForest.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 84CK77G588;
+				DEVELOPMENT_TEAM = G373H4JANC;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1241,10 +1253,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.wakeforest.ios;
-				PRODUCT_NAME = WakeForest;
-				PROVISIONING_PROFILE = "ab72acd9-90b6-426d-8264-36225575d12e";
-				PROVISIONING_PROFILE_SPECIFIER = WakeForest_Enterprise_Jun092019;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.wakehealth.wayfinderAppStore;
+				PRODUCT_NAME = Wayfinder;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -1263,12 +1275,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1276,9 +1290,11 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 43BRM2WRE2;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1306,11 +1322,11 @@
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = WakeForest.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 84CK77G588;
+				DEVELOPMENT_TEAM = G373H4JANC;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1321,10 +1337,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.wakeforest.ios;
-				PRODUCT_NAME = WakeForest;
-				PROVISIONING_PROFILE = "ab72acd9-90b6-426d-8264-36225575d12e";
-				PROVISIONING_PROFILE_SPECIFIER = WakeForest_Enterprise_Jun092019;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.wakehealth.wayfinderAppStore;
+				PRODUCT_NAME = Wayfinder;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Distribution;
@@ -1343,12 +1359,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1356,9 +1374,11 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 43BRM2WRE2;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1386,11 +1406,11 @@
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = WakeForest.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 84CK77G588;
+				DEVELOPMENT_TEAM = G373H4JANC;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1405,10 +1425,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.wakeforest.ios;
-				PRODUCT_NAME = WakeForest;
-				PROVISIONING_PROFILE = "ab72acd9-90b6-426d-8264-36225575d12e";
-				PROVISIONING_PROFILE_SPECIFIER = WakeForest_Enterprise_Jun092019;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.wakehealth.wayfinderAppStore;
+				PRODUCT_NAME = Wayfinder;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = AdHoc;
@@ -1427,7 +1447,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8F0613051BC8569800A55F16 /* Build configuration list for PBXProject "WakeForest" */ = {
+		8F0613051BC8569800A55F16 /* Build configuration list for PBXProject "Wayfinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8F06131F1BC8569800A55F16 /* Debug */,
@@ -1438,7 +1458,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8F0613211BC8569800A55F16 /* Build configuration list for PBXNativeTarget "WakeForest" */ = {
+		8F0613211BC8569800A55F16 /* Build configuration list for PBXNativeTarget "Wayfinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8F0613221BC8569800A55F16 /* Debug */,
